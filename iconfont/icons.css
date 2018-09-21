@@ -1,0 +1,270 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?cc02797bd02b06e34fea58cb279a20fa?#iefix") format("embedded-opentype"),
+url("./icons.woff2?cc02797bd02b06e34fea58cb279a20fa") format("woff2"),
+url("./icons.woff?cc02797bd02b06e34fea58cb279a20fa") format("woff"),
+url("./icons.ttf?cc02797bd02b06e34fea58cb279a20fa") format("truetype"),
+url("./icons.svg?cc02797bd02b06e34fea58cb279a20fa#icons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-aeronautics:before {
+    content: "\f101";
+}
+.icon-airport_alt:before {
+    content: "\f102";
+}
+.icon-airport_pin:before {
+    content: "\f103";
+}
+.icon-automotive:before {
+    content: "\f104";
+}
+.icon-barometer:before {
+    content: "\f105";
+}
+.icon-breaker:before {
+    content: "\f106";
+}
+.icon-carbonneutral:before {
+    content: "\f107";
+}
+.icon-datacenter:before {
+    content: "\f108";
+}
+.icon-demandresponse:before {
+    content: "\f109";
+}
+.icon-desk:before {
+    content: "\f10a";
+}
+.icon-electricity:before {
+    content: "\f10b";
+}
+.icon-epdu:before {
+    content: "\f10c";
+}
+.icon-explosionproof:before {
+    content: "\f10d";
+}
+.icon-explosionwarning:before {
+    content: "\f10e";
+}
+.icon-floor:before {
+    content: "\f10f";
+}
+.icon-floorplan:before {
+    content: "\f110";
+}
+.icon-floorplan_dark:before {
+    content: "\f111";
+}
+.icon-generator:before {
+    content: "\f112";
+}
+.icon-heat:before {
+    content: "\f113";
+}
+.icon-hospital:before {
+    content: "\f114";
+}
+.icon-hvac:before {
+    content: "\f115";
+}
+.icon-hydraulic:before {
+    content: "\f116";
+}
+.icon-leed:before {
+    content: "\f117";
+}
+.icon-microgrid:before {
+    content: "\f118";
+}
+.icon-military:before {
+    content: "\f119";
+}
+.icon-municipal:before {
+    content: "\f11a";
+}
+.icon-oilandgas:before {
+    content: "\f11b";
+}
+.icon-oneline:before {
+    content: "\f11c";
+}
+.icon-regionalgrid:before {
+    content: "\f11d";
+}
+.icon-room:before {
+    content: "\f11e";
+}
+.icon-safetyharness:before {
+    content: "\f11f";
+}
+.icon-serverrack:before {
+    content: "\f120";
+}
+.icon-stadium:before {
+    content: "\f121";
+}
+.icon-stadium_2:before {
+    content: "\f122";
+}
+.icon-start:before {
+    content: "\f123";
+}
+.icon-start_on:before {
+    content: "\f124";
+}
+.icon-starter:before {
+    content: "\f125";
+}
+.icon-unlink:before {
+    content: "\f126";
+}
+.icon-ups:before {
+    content: "\f127";
+}
+.icon-wallstation:before {
+    content: "\f128";
+}
+.icon-px_bearing_24px:before {
+    content: "\f129";
+}
+.icon-px_breaker_24px:before {
+    content: "\f12a";
+}
+.icon-px_capacitor_24px:before {
+    content: "\f12b";
+}
+.icon-px_device_24px:before {
+    content: "\f12c";
+}
+.icon-px_ephesus_fixture_24px:before {
+    content: "\f12d";
+}
+.icon-px_ephesus_gateway_24px:before {
+    content: "\f12e";
+}
+.icon-px_fan_24px:before {
+    content: "\f12f";
+}
+.icon-px_pump_24px:before {
+    content: "\f130";
+}
+.icon-px_ssol_24px:before {
+    content: "\f131";
+}
+.icon-px_utility_24px:before {
+    content: "\f132";
+}
+.icon-px_vfd_24px:before {
+    content: "\f133";
+}
+.icon-px_xstorage_24px:before {
+    content: "\f134";
+}
+.icon-px_xstorage_alt_24px:before {
+    content: "\f135";
+}
+.icon-px_flow_24px:before {
+    content: "\f136";
+}
+.icon-px_health_24px:before {
+    content: "\f137";
+}
+.icon-px_pie_chart_twotone_05_24px:before {
+    content: "\f138";
+}
+.icon-px_pie_chart_twotone_0_24px:before {
+    content: "\f139";
+}
+.icon-px_pie_chart_twotone_100_24px:before {
+    content: "\f13a";
+}
+.icon-px_pie_chart_twotone_10_24px:before {
+    content: "\f13b";
+}
+.icon-px_pie_chart_twotone_15_24px:before {
+    content: "\f13c";
+}
+.icon-px_pie_chart_twotone_20_24px:before {
+    content: "\f13d";
+}
+.icon-px_pie_chart_twotone_25_24px:before {
+    content: "\f13e";
+}
+.icon-px_pie_chart_twotone_30_24px:before {
+    content: "\f13f";
+}
+.icon-px_pie_chart_twotone_35_24px:before {
+    content: "\f140";
+}
+.icon-px_pie_chart_twotone_40_24px:before {
+    content: "\f141";
+}
+.icon-px_pie_chart_twotone_45_24px:before {
+    content: "\f142";
+}
+.icon-px_pie_chart_twotone_50_24px:before {
+    content: "\f143";
+}
+.icon-px_pie_chart_twotone_55_24px:before {
+    content: "\f144";
+}
+.icon-px_pie_chart_twotone_60_24px:before {
+    content: "\f145";
+}
+.icon-px_pie_chart_twotone_65_24px:before {
+    content: "\f146";
+}
+.icon-px_pie_chart_twotone_70_24px:before {
+    content: "\f147";
+}
+.icon-px_pie_chart_twotone_75_24px:before {
+    content: "\f148";
+}
+.icon-px_pie_chart_twotone_80_24px:before {
+    content: "\f149";
+}
+.icon-px_pie_chart_twotone_85_24px:before {
+    content: "\f14a";
+}
+.icon-px_pie_chart_twotone_90_24px:before {
+    content: "\f14b";
+}
+.icon-px_pie_chart_twotone_95_24px:before {
+    content: "\f14c";
+}
+.icon-px_priority_24px:before {
+    content: "\f14d";
+}
+.icon-px_qrcode_24px:before {
+    content: "\f14e";
+}
+.icon-px_running_high_24px:before {
+    content: "\f14f";
+}
+.icon-px_running_low_24px:before {
+    content: "\f150";
+}
+.icon-px_stop_24px:before {
+    content: "\f151";
+}
+.icon-px_stopping_24px:before {
+    content: "\f152";
+}

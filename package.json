@@ -1,0 +1,13 @@
+{
+  "name": "icons",
+  "version": "1.0.0",
+  "description": "Px Blue icons",
+  "main": "index.js",
+  "repository": "https://github.com/pxblue/icons.git",
+  "author": "Keller, Kraig <KraigKeller@eaton.com>",
+  "license": "BSD-3",
+  "private": null,
+  "dependencies": {
+    "icon-font-generator": "^2.1.8"
+  }
+}
