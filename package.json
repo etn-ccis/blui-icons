@@ -1,13 +1,29 @@
 {
-  "name": "icons",
+  "name": "@pxblue/icons",
   "version": "1.0.0",
   "description": "Px Blue icons",
   "main": "index.js",
-  "repository": "https://github.com/pxblue/icons.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxblue/icons.git"
+  },
   "author": "Keller, Kraig <KraigKeller@eaton.com>",
-  "license": "BSD-3",
+  "license": "BSD-3-Clause",
   "private": null,
   "dependencies": {
     "icon-font-generator": "^2.1.8"
-  }
+  },
+  "scripts": {
+    "build": "npx icon-font-generator design/**/**/*.svg -o iconfont"
+  },
+  "bugs": {
+    "url": "https://github.com/pxblue/icons/issues"
+  },
+  "homepage": "https://github.com/pxblue/icons#readme",
+  "devDependencies": {},
+  "keywords": [
+    "icons",
+    "material",
+    "pxblue"
+  ]
 }
