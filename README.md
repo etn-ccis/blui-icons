@@ -45,7 +45,6 @@ Currently, we have icons available for:
 * px_stopping
 
 # For Icon Creators
-===========================
 Each icon has its own folder in the /icons/design folder, which includes the clean SVG file and the source design file(s).
 
 Each icon folder will be nested into a "family" folder. Family folders follow a pattern similar to MD. Our initial families are **Status** and **Devices**.
