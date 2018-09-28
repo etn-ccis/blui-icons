@@ -14,7 +14,7 @@ You can then include the icons/iconfont/icons.css file in your top-level css or 
 ```
 @import 'path/to/icons.css';
 ```
-This will make the PX Blue icons available to your code by using the appropriate class name on a <i> element, e.g.:
+This will make the PX Blue icons available to your code by using the appropriate class name on a ```<i>``` element, e.g.:
   
 ```
 <i class="icon-ICONNAME_24px"></i>
