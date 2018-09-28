@@ -9,7 +9,6 @@
   },
   "author": "Keller, Kraig <KraigKeller@eaton.com>",
   "license": "BSD-3-Clause",
-  "private": null,
   "dependencies": {
     "icon-font-generator": "^2.1.8"
   },
