@@ -2,7 +2,7 @@
   "name": "@pxblue/icons",
   "version": "1.0.2",
   "description": "Px Blue icons",
-  "main": "index.js",
+  "main": "./iconfont/index.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pxblue/icons.git"

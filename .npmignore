@@ -1,20 +1,21 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
-
-# dependencies
+# node modules
 /node_modules
 **/**/node_modules
+
 package-lock.json
 yarn.lock
-
-# testing
-/coverage
 
 # production
 /build
 
+# src folders
+/circle
+/.circleci
+/design
+
 # misc
 .DS_Store
-**/**/Thumbs.db
+Thumbs.db
 .env.local
 .env.development.local
 .env.test.local
