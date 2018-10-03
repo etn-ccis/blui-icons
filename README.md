@@ -1,24 +1,39 @@
-# PX Blue Spplemental Icons
+# PX Blue Supplemental Icons
 This is a library of supplemental icons, to be used in conjunction with the standard Material Design icons in PX Blue applications.
 
 ## Installation
-To use these icons, you will need to clone this repository:
+To install the PX Blue icon font from NPM as a dependency for your project, you can run one of the following commands in your project root:
 ```
-git clone http://github.com/pxblue/icons
+npm install --save @pxblue/icons
+or
+yarn add @pxblue/icons
+```
+You then need to reference the font in your application so that it is available for use.
+
+#### Angular
+In order to use the icon font, you will need to modify your angular.json file "styles" entries (there is one under "build" and one under "test") to include the icon font reference:
+```
+"styles": [
+    "src/styles.scss",
+    "./node_modules/typeface-open-sans",
+    "./node_modules/@pxblue/icons/iconfont/icons.css"
+],
 ```
 
-## Using the icons in your application
-At this time, you will need to manually add the icon font to your application by copying (or dragging and dropping) the files from icons/iconfont/ into you project structure as a resource.
+#### React
+For React, you'll need to require the font in your top-level JS file (typically index.js).
+```
+require('@pxblue/icons/iconfont/icons.css');
+```
 
-You can then include the icons/iconfont/icons.css file in your top-level css or scss file:
-```
-@import 'path/to/icons.css';
-```
+### Using the icon font in your application
 This will make the PX Blue icons available to your code by using the appropriate class name on a ```<i>``` element, e.g.:
   
 ```
 <i class="icon-ICONNAME_24px"></i>
 ```
+
+>**NOTE:** these icons/class names will be renamed in a future update to be more user friendly. You will need to update your references when that change occurs, or stay on the older version.
 
 ### Available Icons
 Currently, we have icons available for:
