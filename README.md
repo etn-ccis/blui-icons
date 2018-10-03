@@ -59,6 +59,9 @@ Currently, we have icons available for:
 * px_stop
 * px_stopping
 
+# Future Improvements
+In the future, we plan to make these icons available not only as an icon font, but also as an iconography module (for Angular) and as SVG components (for React) to better align with how Angular Material and Material-UI have implemented icons. Stay tuned for future updates.
+
 # For Icon Creators
 Each icon has its own folder in the /icons/design folder, which includes the clean SVG file and the source design file(s).
 
