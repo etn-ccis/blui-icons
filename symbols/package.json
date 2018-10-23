@@ -1,0 +1,19 @@
+{
+  "name": "@pxblue/symbols",
+  "version": "1.0.0",
+  "description": "Oneline symbols for PX Blue applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxblue/icons.git"
+  },
+  "author": "px-blue <pxblue@eaton.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/pxblue/icons/issues"
+  },
+  "homepage": "https://github.com/pxblue/icons#readme"
+}
