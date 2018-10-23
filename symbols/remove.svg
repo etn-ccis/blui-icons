@@ -1,0 +1,28 @@
+	<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 100 100">
+  <title>remove</title>
+  <g id="remove" class="symbol indicator">
+			<rect class="bound" fill="none" width="100" height="100"/>
+			<circle class="outer" fill="#282828" cx="50.5" cy="50.5" r="12"/>
+			<path class="edging" opacity="0.65" fill="#FFFFFF" d="M50.5,38.5c6.6,0,12,5.4,12,12s-5.4,12-12,12s-12-5.4-12-12S43.9,38.5,50.5,38.5 M50.5,36.5
+			c-7.7,0-14,6.3-14,14s6.3,14,14,14s14-6.3,14-14S58.2,36.5,50.5,36.5L50.5,36.5z"/>
+			
+			<linearGradient id="remove-gradient" gradientUnits="userSpaceOnUse" x1="50.225" y1="44.7137" x2="50.225" y2="62.7137" gradientTransform="matrix(0.7071 -0.7071 0.7071 0.7071 -22.9958 48.0331)">
+				<stop  offset="0" style="stop-color:#E01313"/>
+				<stop  offset="1" style="stop-color:#CE0101"/>
+			</linearGradient>
+			<path fill="url(#remove-gradient)" d="M44.1,44.1c-3.5,3.5-3.5,9.2,0,12.7c3.5,3.5,9.2,3.5,12.7,0c3.5-3.5,3.5-9.2,0-12.7
+				C53.3,40.6,47.7,40.6,44.1,44.1z M52.7,50.5l2.7,2.7l-2.2,2.2l-2.7-2.7l-2.7,2.7l-2.2-2.2l2.7-2.7l-2.7-2.7l2.2-2.2l2.7,2.7
+				l2.7-2.7l2.2,2.2L52.7,50.5z"/>
+
+			<g class="highlight" opacity="0.35">
+				<path fill="#FFFFFF" d="M50.5,42.5c4.8,0,8.7,3.8,9,8.5c0-0.2,0-0.3,0-0.5c0-5-4-9-9-9c-5,0-9,4-9,9c0,0.2,0,0.3,0,0.5
+					C41.8,46.3,45.7,42.5,50.5,42.5z"/>
+
+				<rect x="46.6" y="48" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -21.3334 47.7489)" fill="#FFFFFF" width="0.7" height="3.2"/>
+			
+				<rect x="52.4" y="49.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -19.2659 52.7417)" fill="#FFFFFF" width="3.2" height="0.7"/>
+				<polygon fill="#FFFFFF" points="53.2,55.4 50.5,52.7 47.8,55.4 46.1,53.7 45.6,54.2 47.8,56.4 50.5,53.7 53.2,56.4 55.4,54.2 
+					54.9,53.7 		"/>
+			</g>
+	</g>
+</svg>

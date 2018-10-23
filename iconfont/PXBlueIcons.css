@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "PXBlueIcons";
+    src: url("./PXBlueIcons.eot?0df47d767787385feeafcf690d8b18ee?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?0df47d767787385feeafcf690d8b18ee") format("woff2"),
+url("./PXBlueIcons.woff?0df47d767787385feeafcf690d8b18ee") format("woff"),
+url("./PXBlueIcons.ttf?0df47d767787385feeafcf690d8b18ee") format("truetype"),
+url("./PXBlueIcons.svg?0df47d767787385feeafcf690d8b18ee#PXBlueIcons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
+    font-family: PXBlueIcons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pxb-bearing:before {
+    content: "\f101";
+}
+.pxb-breaker:before {
+    content: "\f102";
+}
+.pxb-capacitor:before {
+    content: "\f103";
+}
+.pxb-device:before {
+    content: "\f104";
+}
+.pxb-ephesus_fixture:before {
+    content: "\f105";
+}
+.pxb-ephesus_gateway:before {
+    content: "\f106";
+}
+.pxb-fan:before {
+    content: "\f107";
+}
+.pxb-pump:before {
+    content: "\f108";
+}
+.pxb-ssol:before {
+    content: "\f109";
+}
+.pxb-utility:before {
+    content: "\f10a";
+}
+.pxb-vfd:before {
+    content: "\f10b";
+}
+.pxb-xstorage:before {
+    content: "\f10c";
+}
+.pxb-xstorage_alt:before {
+    content: "\f10d";
+}
+.pxb-flow:before {
+    content: "\f10e";
+}
+.pxb-health:before {
+    content: "\f10f";
+}
+.pxb-priority:before {
+    content: "\f110";
+}
+.pxb-qrcode:before {
+    content: "\f111";
+}
+.pxb-running_high:before {
+    content: "\f112";
+}
+.pxb-running_low:before {
+    content: "\f113";
+}
+.pxb-stop:before {
+    content: "\f114";
+}
+.pxb-stopping:before {
+    content: "\f115";
+}

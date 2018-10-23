@@ -1,0 +1,23 @@
+{
+    "bearing": "\\f101",
+    "breaker": "\\f102",
+    "capacitor": "\\f103",
+    "device": "\\f104",
+    "ephesus_fixture": "\\f105",
+    "ephesus_gateway": "\\f106",
+    "fan": "\\f107",
+    "pump": "\\f108",
+    "ssol": "\\f109",
+    "utility": "\\f10a",
+    "vfd": "\\f10b",
+    "xstorage": "\\f10c",
+    "xstorage_alt": "\\f10d",
+    "flow": "\\f10e",
+    "health": "\\f10f",
+    "priority": "\\f110",
+    "qrcode": "\\f111",
+    "running_high": "\\f112",
+    "running_low": "\\f113",
+    "stop": "\\f114",
+    "stopping": "\\f115"
+}

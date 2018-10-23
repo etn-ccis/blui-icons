@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 100 100">
+  <title>sensor</title>
+  <g id="sensor" class="symbol fill dynamic">
+			<g id="bound">
+				<rect class="" x="0" y="0" width="100" height="100" opacity="0"/>
+			</g>
+
+			<path id="innerClipSensor" d="M50.5,56.3c-2.1,0-3.8-1.7-3.8-3.8c0-1.7,1.2-3.2,2.8-3.7V38.6h2.2v10.2c1.5,0.5,2.6,1.9,2.6,3.6
+			C54.3,54.6,52.6,56.3,50.5,56.3z"/>
+
+			<clipPath id="clipPathSensor">
+				<use xlink:href="#innerClipSensor" overflow="visible" />
+			</clipPath>
+
+			<path class="edging" opacity="0.65" fill="#FFFFFF" d="M52.3,36.2c0.6,0,1.1,0.5,1.1,1.1v9.9c1.9,1,3.1,3,3.1,5.3c0,3.3-2.7,6-6,6
+			c-3.3,0-6-2.7-6-6c0-2.3,1.3-4.3,3.1-5.3v-9.9c0-0.6,0.3-1.1,0.9-1.1H52.3 M52.3,33.7h-3.8c-2,0-3.4,1.5-3.4,3.6v8.6
+			c-2,1.6-3.1,4-3.1,6.6c0,4.7,3.8,8.5,8.5,8.5s8.5-3.8,8.5-8.5c0-2.6-1.2-5-3.1-6.6v-8.6C55.9,35.3,54.3,33.7,52.3,33.7L52.3,33.7z"/>
+
+			<path class="outer" fill="#282828" d="M52.3,36.2h-3.8c-0.6,0-0.9,0.5-0.9,1.1v9.9c-1.9,1-3.1,3-3.1,5.3c0,3.3,2.7,6,6,6c3.3,0,6-2.7,6-6
+				c0-2.3-1.3-4.3-3.1-5.3v-9.9C53.4,36.7,52.9,36.2,52.3,36.2z M54.3,52.5c0,2.1-1.7,3.8-3.8,3.8s-3.8-1.7-3.8-3.8
+				c0-1.7,1.2-3.2,2.8-3.7V38.6h2.2v10.2C53.2,49.4,54.3,50.8,54.3,52.5z"/>
+
+			<linearGradient id="SensorRed" gradientUnits="userSpaceOnUse" x1="46.697" y1="47.4641" x2="54.3029" y2="47.4641">
+				<stop  offset="0" style="stop-color:#E01313"/>
+				<stop  offset="1" style="stop-color:#CE0101"/>
+			</linearGradient>
+			<path class="inner" fill="url(#SensorRed)" d="M50.5,56.3c-2.1,0-3.8-1.7-3.8-3.8c0-1.7,1.2-3.2,2.8-3.7V38.6h2.2v10.2c1.5,0.5,2.6,1.9,2.6,3.6
+				C54.3,54.6,52.6,56.3,50.5,56.3z"/>
+
+			<g opacity="0.4" class="highlight highlight-bottom">
+				<path fill="#FFFFFF" d="M51.7,49.9c1.3,0.4,2.4,1.6,2.6,3.1c0-0.1,0-0.3,0-0.4c0-1.7-1.1-3.1-2.6-3.6V49.9z"/>
+				<path fill="#FFFFFF" d="M49.5,49.8v-1c-1.6,0.5-2.8,1.9-2.8,3.7c0,0.2,0,0.3,0,0.5C47,51.5,48,50.2,49.5,49.8z"/>
+			</g>
+
+			<g clip-path="url(#clipPathSensor)">
+				<rect data-position-0="0" data-position-100="-18" class="clipper" x="42.4" y="38.6" fill="#282828" width="16.2" height="17.7"/>
+				<rect data-position-0="0" data-position-100="-18" class="highlight clipper-highlight" x="42.5" y="55.6" opacity="0.4" fill="#FFFFFF" width="16.1" height="1"/>
+			</g>
+	</g>
+</svg>

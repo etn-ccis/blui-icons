@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 100 100">
+  <title>fuse</title>
+  <g id="fuse" class="symbol">
+			<g id="bound">
+				<rect class="" x="0" y="0" width="100" height="100" opacity="0"/>
+			</g>
+
+			<linearGradient id="DefaultGradient" gradientUnits="userSpaceOnUse" x1="50.5" y1="32.5" x2="50.5" y2="68.5">
+				<stop  offset="0" style="stop-color:#666666"/>
+				<stop  offset="1" style="stop-color:#4D4D4D"/>
+			</linearGradient>
+
+			<g id="bound">
+				<rect class="" x="0" y="0" width="100" height="100" opacity="0"/>
+			</g>
+
+			<g class="animate">
+				<path class="outer" fill="#282828" d="M80.5,48h-6v-6h-49v6h-6c-1.4,0-2.5,1.1-2.5,2.5s1.1,2.5,2.5,2.5h6v5h49v-5h6c1.4,0,2.5-1.1,2.5-2.5
+				S81.9,48,80.5,48z"/>
+
+				<path class="edging" fill="#FFFFFF" opacity="0.65" d="M74.5,42v6h6c1.4,0,2.5,1.1,2.5,2.5S81.9,53,80.5,53h-6v5h-49v-5h-6c-1.4,0-2.5-1.1-2.5-2.5
+				s1.1-2.5,2.5-2.5h6v-6H74.5 M76.5,40h-2h-49h-2v2v4h-4C17,46,15,48,15,50.5s2,4.5,4.5,4.5h4v3v2h2h49h2v-2v-3h4
+				c2.5,0,4.5-2,4.5-4.5S83,46,80.5,46h-4v-4V40L76.5,40z"/>
+
+				<rect class="inner" x="28.5" y="45.5" fill="url(#DefaultGradient)" width="43" height="10"/>
+
+				<rect class="highlight" x="28.5" y="45.5" opacity="0.35" fill="#FFFFFF" width="43" height="1"/>
+			</g>
+	</g>
+
+</svg>

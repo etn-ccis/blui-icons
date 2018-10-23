@@ -1,0 +1,22 @@
+	<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 100 100">
+  <title>stop</title>
+  <g id="stop" class="symbol indicator" alias="stopped, stopping, motor-stop">
+			<rect width="100" height="100" fill="none"/>
+
+			<linearGradient id="stop-gradient" x1="50" y1="59" x2="50" y2="41" gradientUnits="userSpaceOnUse">
+				<stop offset="0" stop-color="#0360a7"/>
+				<stop offset="1" stop-color="#007aba"/>
+			</linearGradient>
+
+			<path class="outer" d="M53.73,38H46.27a3,3,0,0,0-2.12.88l-5.27,5.27A3,3,0,0,0,38,46.27v7.46a3,3,0,0,0,.88,2.12l5.27,5.27a3,3,0,0,0,2.12.88h7.46a3,3,0,0,0,2.12-.88l5.27-5.27A3,3,0,0,0,62,53.73V46.27a3,3,0,0,0-.88-2.12l-5.27-5.27A3,3,0,0,0,53.73,38Z" fill="#282828"/>
+
+			<path class="edging" opacity="0.65" d="M53.73,38a3,3,0,0,1,2.12.88l5.27,5.27A3,3,0,0,1,62,46.27v7.46a3,3,0,0,1-.88,2.12l-5.27,5.27a3,3,0,0,1-2.12.88H46.27a3,3,0,0,1-2.12-.88l-5.27-5.27A3,3,0,0,1,38,53.73V46.27a3,3,0,0,1,.88-2.12l5.27-5.27A3,3,0,0,1,46.27,38h7.46m0-2H46.27a5,5,0,0,0-3.53,1.46l-5.28,5.28A5,5,0,0,0,36,46.27v7.46a5,5,0,0,0,1.46,3.53l5.28,5.28A5,5,0,0,0,46.27,64h7.46a5,5,0,0,0,3.53-1.46l5.28-5.28A5,5,0,0,0,64,53.73V46.27a5,5,0,0,0-1.46-3.53l-5.28-5.28A5,5,0,0,0,53.73,36Z" fill="#fff"/>
+
+			<polygon class="inner" points="46.27 41 41 46.27 41 53.73 46.27 59 53.73 59 59 53.73 59 46.27 53.73 41 46.27 41" fill="url(#stop-gradient)"/>
+
+			<path id="stop-inner-ring" opacity="0" d="M52.07,45,55,47.93v4.14L52.07,55H47.93L45,52.07V47.93L47.93,45h4.14m.83-2H47.1L43,47.1v5.8L47.1,57h5.8L57,52.9V47.1L52.9,43Z" fill="#fff"/>
+
+			<polygon class="highlight" points="53.73 41 46.27 41 41 46.27 41 47.27 46.27 42 53.73 42 59 47.27 59 46.27 53.73 41" fill="#f2f2f2" fill-opacity="0.35"/>
+
+	</g>
+</svg>

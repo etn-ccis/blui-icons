@@ -1,6 +1,8 @@
 # node modules
 /node_modules
 **/**/node_modules
+.gitignore
+
 
 package-lock.json
 yarn.lock
@@ -12,6 +14,8 @@ yarn.lock
 /circle
 /.circleci
 /design
+/symbols
+
 
 # misc
 .DS_Store
