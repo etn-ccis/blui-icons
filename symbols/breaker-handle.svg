@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 100 100">
+  <title>breaker-handle</title>
+<g id="breaker-handle" class="symbol">
+			<rect width="100" height="100" fill="none"/>
+
+			<linearGradient id="breaker-handle-background-gradient" x1="50" y1="36.5" x2="50" y2="63.5" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#666"/>
+			<stop offset="1" stop-color="#4d4d4d"/>
+			</linearGradient>
+
+			<clipPath id="breaker-handle-clip">
+			<path d="M35.5,63.5v-27h-1a8,8,0,0,0-8,8v11a8,8,0,0,0,8,8Z" fill="none"/>
+			</clipPath>
+
+
+			<linearGradient id="breaker-handle-gradient" x1="44.22" y1="50.75" x2="44.22" y2="64.75" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#e6e6e6"/>
+			<stop offset="1" stop-color="#ccc"/>
+			</linearGradient>
+
+
+			<g>
+
+				<path class="outer" d="M65.5,33.5h-31a11,11,0,0,0-11,11v11a11,11,0,0,0,11,11h31a11,11,0,0,0,11-11v-11a11,11,0,0,0-11-11Z" fill="#282828"/>
+
+				<path class="edging" opacity="0.65" d="M65.5,33.5a11,11,0,0,1,11,11v11a11,11,0,0,1-11,11h-31a11,11,0,0,1-11-11v-11a11,11,0,0,1,11-11h31m0-2h-31a13,13,0,0,0-13,13v11a13,13,0,0,0,13,13h31a13,13,0,0,0,13-13v-11a13,13,0,0,0-13-13Z" fill="#fff"/>
+
+				<rect x="26.5" y="36.5" width="47" height="27" rx="8" ry="8" fill="url(#breaker-handle-background-gradient)"/>
+
+				<g id="handle-colors" clip-path="url(#breaker-handle-clip)">
+					<rect x="25.08" y="36.5" width="11.83" height="9" fill="#ed1c24"/>
+					<rect x="25.08" y="45.5" width="11.83" height="9" fill="#fff200"/>
+					<rect x="25.08" y="54.5" width="11.83" height="9" fill="#4cc933"/>
+				</g>
+
+				<path class="highlight" d="M65.5,36.5h-31a8,8,0,0,0-8,8v1a8,8,0,0,1,8-8h31a8,8,0,0,1,8,8v-1A8,8,0,0,0,65.5,36.5Z" fill="#fff" opacity="0.35"/>
+
+			</g>
+
+			<g id="handle-space">
+				<rect x="36.23" y="35" width="15.98" height="30" fill="#414042"/>
+				<path d="M50.71,36.5v27h-13v-27h13m3-3h-19v33h19v-33Z" fill="#282828"/>
+			</g>
+            
+            <rect class="shadow highlight" x="37.73" y="36.5" width="12.98" height="1" fill="#231f20" opacity="0.35"/>
+			
+			<g id="handle" class="animate" normal="translate(0, 0)" closed="translate(0, -16px)" open="translate(0, 0)" tripped="translate(0, -8px)">
+				<rect x="34.72" y="50.75" width="19" height="14" rx="4.5" ry="4.5" fill="url(#breaker-handle-gradient)"/>
+				<path d="M49.22,52.25a3,3,0,0,1,3,3v5a3,3,0,0,1-3,3h-10a3,3,0,0,1-3-3v-5a3,3,0,0,1,3-3h10m0-3h-10a6,6,0,0,0-6,6v5a6,6,0,0,0,6,6h10a6,6,0,0,0,6-6v-5a6,6,0,0,0-6-6Z" fill="#282828"/>
+			</g>
+		</g>
+		</svg>

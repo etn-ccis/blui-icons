@@ -13,7 +13,7 @@
     "icon-font-generator": "^2.1.8"
   },
   "scripts": {
-    "build": "npx icon-font-generator design/**/**/*.svg -o iconfont"
+    "build": "rm -r iconfont && mkdir iconfont && npx icon-font-generator design/**/**/*.svg -o iconfont -n PXBlueIcons -p pxb"
   },
   "bugs": {
     "url": "https://github.com/pxblue/icons/issues"

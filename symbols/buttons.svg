@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 100 100">
+  <title>buttons</title>
+<g id="buttons" class="symbol">
+			<g id="bound">
+				<rect class="" x="0" y="0" width="100" height="100" opacity="0"/>
+			</g>
+
+			<path class="outer" fill="#282828" d="M64.1,36H38.9c-7.2,0-13,5.8-13,13s5.8,13,13,13h25.2c7.2,0,13-5.8,13-13S71.3,36,64.1,36L64.1,36z"/>
+
+			<path class="edging" opacity="0.65" fill="#FFFFFF" d="M64.1,36c7.2,0,13,5.8,13,13s-5.8,13-13,13H38.9c-7.2,0-13-5.8-13-13s5.8-13,13-13H64.1 M64.1,34H38.9
+				c-8.3,0-15,6.7-15,15s6.7,15,15,15h25.2c8.3,0,15-6.7,15-15S72.4,34,64.1,34L64.1,34z"/>
+
+			<linearGradient id="buttons-gradient-1" gradientUnits="userSpaceOnUse" x1="51.5" y1="37" x2="51.5" y2="61">
+				<stop  offset="0" style="stop-color:#666666"/>
+				<stop  offset="1" style="stop-color:#4D4D4D"/>
+			</linearGradient>
+
+			<path fill="url(#buttons-gradient-1)" d="M38.9,61c-6.6,0-12-5.4-12-12s5.4-12,12-12h25.2c6.6,0,12,5.4,12,12s-5.4,12-12,12H38.9z"/>
+
+			<path class="outer" fill="#282828" d="M64.1,38c6.1,0,11,4.9,11,11s-4.9,11-11,11H38.9c-6.1,0-11-4.9-11-11s4.9-11,11-11H64.1 M64.1,36H38.9
+			c-7.2,0-13,5.8-13,13s5.8,13,13,13h25.2c7.2,0,13-5.8,13-13S71.3,36,64.1,36L64.1,36z"/>
+
+			<path class="highlight" opacity="0.35" fill="#F2F2F2" d="M38.9,39.2h25.1c5.9,0,10.6,4.6,10.9,10.4c0-0.2,0-0.4,0-0.6c0-6.1-4.9-11-11-11H38.9c-6.1,0-11,4.9-11,11
+				c0,0.2,0,0.4,0,0.6C28.3,43.8,33.1,39.2,38.9,39.2z"/>
+
+			<g class="buttons">
+				
+				<g class="on-button-off" style="opacity: 0; transform: translate(0px, -1.5px);">
+					<circle fill="#E0E0E0" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="40.1" cy="51.2" r="7.6"/>
+
+					<path fill="#FFFFFF" d="M40.1,56.2c-0.6,0-1-0.4-1-1v-6.4c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v6.4C41.1,55.7,40.6,56.2,40.1,56.2z"/>
+
+					<path d="M40.1,55.4c-0.6,0-1-0.4-1-1V48c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v6.4C41.1,55,40.6,55.4,40.1,55.4z"/>
+				</g>
+
+				<g class="on-button-on">
+					<circle fill="#40BD27" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="39.8" cy="49.7" r="7.6"/>
+
+					<path d="M39.8,54.7c-0.6,0-1-0.4-1-1v-6.4c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v6.4C40.8,54.2,40.4,54.7,39.8,54.7z"/>
+
+					<path fill="#FFFFFF" d="M39.8,53.9c-0.6,0-1-0.4-1-1v-6.4c0-0.6,0.4-1,1-1c0.6,0,1,0.4,1,1v6.4C40.8,53.5,40.4,53.9,39.8,53.9z"
+						/>
+
+				</g>
+
+				<g class="off-button-off" style="opacity: 0; transform: translate(0px, -1.5px);">
+					<circle fill="#E0E0E0" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="63.5" cy="50.7" r="7.6"/>
+					<path fill="#FFFFFF" d="M63.5,55.7c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c2.4,0,4.3,1.9,4.3,4.3S65.8,55.7,63.5,55.7z
+						 M63.5,49.1c-1.2,0-2.3,1-2.3,2.3s1,2.3,2.3,2.3c1.3,0,2.3-1,2.3-2.3S64.7,49.1,63.5,49.1z"/>
+					<path d="M63.5,54.9c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c2.4,0,4.3,1.9,4.3,4.3S65.8,54.9,63.5,54.9z M63.5,48.4
+						c-1.2,0-2.3,1-2.3,2.3s1,2.3,2.3,2.3c1.3,0,2.3-1,2.3-2.3S64.7,48.4,63.5,48.4z"/>
+				</g>
+
+				<g class="off-button-on">
+					<linearGradient id="off-button-gradient" gradientUnits="userSpaceOnUse" x1="55.5717" y1="49.6792" x2="70.8002" y2="49.6792">
+						<stop  offset="0" style="stop-color:#E01313"/>
+						<stop  offset="1" style="stop-color:#CE0101"/>
+					</linearGradient>
+					<circle fill="url(#off-button-gradient)" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="63.2" cy="49.7" r="7.6"/>
+
+					<path d="M63.2,54.7c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c2.4,0,4.3,1.9,4.3,4.3S65.5,54.7,63.2,54.7z M63.2,48.1
+						c-1.2,0-2.3,1-2.3,2.3s1,2.3,2.3,2.3c1.3,0,2.3-1,2.3-2.3S64.4,48.1,63.2,48.1z"/>
+					<path fill="#FFFFFF" d="M63.2,53.9c-2.4,0-4.3-1.9-4.3-4.3s1.9-4.3,4.3-4.3c2.4,0,4.3,1.9,4.3,4.3S65.5,53.9,63.2,53.9z
+						 M63.2,47.4c-1.2,0-2.3,1-2.3,2.3s1,2.3,2.3,2.3c1.3,0,2.3-1,2.3-2.3S64.4,47.4,63.2,47.4z"/>
+				</g>
+
+			</g>
+		</g>
+		</svg>

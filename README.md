@@ -30,34 +30,34 @@ require('@pxblue/icons/iconfont/icons.css');
 This will make the PX Blue icons available to your code by using the appropriate class name on a ```<i>``` element, e.g.:
   
 ```
-<i class="icon-ICONNAME_24px"></i>
+<i class="pxb-ICONNAME"></i>
 ```
 
 >**NOTE:** these icons/class names will be renamed in a future update to be more user friendly. You will need to update your references when that change occurs, or stay on the older version.
 
 ### Available Icons
 Currently, we have icons available for:
-* px_bearing
-* px_breaker
-* px_capacitor
-* px_device
-* px_ephesus_fixture
-* px_ephesus_gateway
-* px_fan
-* px_pump
-* px_ssol
-* px_utility
-* px_vfd
-* px_xstorage
-* px_xstorage_alt
-* px_flow
-* px_health
-* px_priority
-* px_qrcode
-* px_running_high
-* px_running_low
-* px_stop
-* px_stopping
+* bearing
+* breaker
+* capacitor
+* device
+* ephesus_fixture
+* ephesus_gateway
+* fan
+* pump
+* ssol
+* utility
+* vfd
+* xstorage
+* xstorage_alt
+* flow
+* health
+* priority
+* qrcode
+* running_high
+* running_low
+* stop
+* stopping
 
 # Future Improvements
 In the future, we plan to make these icons available not only as an icon font, but also as an iconography module (for Angular) and as SVG components (for React) to better align with how Angular Material and Material-UI have implemented icons. Stay tuned for future updates.
