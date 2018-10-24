@@ -37,27 +37,27 @@ This will make the PX Blue icons available to your code by using the appropriate
 
 ### Available Icons
 Currently, we have icons available for:
-* bearing
-* breaker
-* capacitor
-* device
-* ephesus_fixture
-* ephesus_gateway
-* fan
-* pump
-* ssol
-* utility
-* vfd
-* xstorage
-* xstorage_alt
-* flow
-* health
-* priority
-* qrcode
-* running_high
-* running_low
-* stop
-* stopping
+* Bearing
+* Breaker
+* Capacitor
+* Device
+* EphesusFixture
+* EphesusGateway
+* Fan
+* Flow
+* Health
+* Priority
+* Pump
+* QRCode
+* RunningHigh
+* RunningLow
+* SSOL
+* Stopped
+* Stopping
+* Utility
+* VFD
+* XStorage
+* XStorageAlt
 
 # Future Improvements
 In the future, we plan to make these icons available not only as an icon font, but also as an iconography module (for Angular) and as SVG components (for React) to better align with how Angular Material and Material-UI have implemented icons. Stay tuned for future updates.

@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?0df47d767787385feeafcf690d8b18ee?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?0df47d767787385feeafcf690d8b18ee") format("woff2"),
-url("./PXBlueIcons.woff?0df47d767787385feeafcf690d8b18ee") format("woff"),
-url("./PXBlueIcons.ttf?0df47d767787385feeafcf690d8b18ee") format("truetype"),
-url("./PXBlueIcons.svg?0df47d767787385feeafcf690d8b18ee#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?efcdea42b9292bdf6acdd1ed135c92cf?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?efcdea42b9292bdf6acdd1ed135c92cf") format("woff2"),
+url("./PXBlueIcons.woff?efcdea42b9292bdf6acdd1ed135c92cf") format("woff"),
+url("./PXBlueIcons.ttf?efcdea42b9292bdf6acdd1ed135c92cf") format("truetype"),
+url("./PXBlueIcons.svg?efcdea42b9292bdf6acdd1ed135c92cf#PXBlueIcons") format("svg");
 }
 
 i {
@@ -22,66 +22,66 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.pxb-bearing:before {
+.pxb-Bearing:before {
     content: "\f101";
 }
-.pxb-breaker:before {
+.pxb-Breaker:before {
     content: "\f102";
 }
 .pxb-capacitor:before {
     content: "\f103";
 }
-.pxb-device:before {
+.pxb-Device:before {
     content: "\f104";
 }
-.pxb-ephesus_fixture:before {
+.pxb-EphesusFixture:before {
     content: "\f105";
 }
-.pxb-ephesus_gateway:before {
+.pxb-EphesusGateway:before {
     content: "\f106";
 }
-.pxb-fan:before {
+.pxb-Fan:before {
     content: "\f107";
 }
-.pxb-pump:before {
+.pxb-Pump:before {
     content: "\f108";
 }
-.pxb-ssol:before {
+.pxb-SSOL:before {
     content: "\f109";
 }
-.pxb-utility:before {
+.pxb-Utility:before {
     content: "\f10a";
 }
-.pxb-vfd:before {
+.pxb-VFD:before {
     content: "\f10b";
 }
-.pxb-xstorage:before {
+.pxb-XStorage:before {
     content: "\f10c";
 }
-.pxb-xstorage_alt:before {
+.pxb-XStorageAlt:before {
     content: "\f10d";
 }
-.pxb-flow:before {
+.pxb-Flow:before {
     content: "\f10e";
 }
-.pxb-health:before {
+.pxb-Health:before {
     content: "\f10f";
 }
-.pxb-priority:before {
+.pxb-Priority:before {
     content: "\f110";
 }
-.pxb-qrcode:before {
+.pxb-QRCode:before {
     content: "\f111";
 }
-.pxb-running_high:before {
+.pxb-RunningHigh:before {
     content: "\f112";
 }
-.pxb-running_low:before {
+.pxb-RunningLow:before {
     content: "\f113";
 }
-.pxb-stop:before {
+.pxb-Stopped:before {
     content: "\f114";
 }
-.pxb-stopping:before {
+.pxb-Stopping:before {
     content: "\f115";
 }
