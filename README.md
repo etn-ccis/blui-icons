@@ -16,18 +16,18 @@ In order to use the icon font, you will need to modify your angular.json file "s
 "styles": [
     "src/styles.scss",
     "./node_modules/typeface-open-sans",
-    "./node_modules/@pxblue/icons/iconfont/icons.css"
+    "./node_modules/@pxblue/icons/iconfont/PXBlueIcons.css"
 ],
 ```
 
 #### React
 For React, you'll need to require the font in your top-level JS file (typically index.js).
 ```
-require('@pxblue/icons/iconfont/icons.css');
+require('@pxblue/icons/iconfont/PXBlueIcons.css');
 ```
 
 ### Using the icon font in your application
-This will make the PX Blue icons available to your code by using the appropriate class name on a ```<i>``` element, e.g.:
+This will make the PX Blue icons available to your code by using the appropriate class name (className for React) on a ```<i>``` element, e.g.:
   
 ```
 <i class="pxb-ICONNAME"></i>
