@@ -11,8 +11,18 @@ yarn add @pxblue/symbols
 
 ## Usage
 ### Angular
+For Angular, you'll need to declare require in tS file (typically component.ts).
 ```
-todo
+declare var require: any;
+const symbol = require('@pxblue/symbols/SYMBOL_NAME.svg');
+...
+export class MyClass{
+    myImg = symbol;
+}
+```
+Add an image tag in component.html file and bind your symbol to it:
+```
+<img src="{{myImg}}" alt="my image"/>
 ```
 
 ### React
@@ -131,5 +141,8 @@ Currently, we have symbols available for:
 * WaterPump
 * Wind
 
+
+# For Icon Creators
+Each symbol has its own folder in the /icons/symbols folder, which includes the clean SVG file .
 
 
