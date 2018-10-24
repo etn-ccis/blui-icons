@@ -9,10 +9,7 @@
   },
   "author": "Keller, Kraig <KraigKeller@eaton.com>",
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "copyfiles": "^2.1.0",
-    "icon-font-generator": "^2.1.8"
-  },
+  "dependencies": {},
   "scripts": {
     "copy": "rm -r svg && mkdir svg && npx copyfiles -f design/**/**/*.svg svg",
     "build": "rm -r iconfont && mkdir iconfont && npx icon-font-generator design/**/**/*.svg -o iconfont -n PXBlueIcons -p pxb"
@@ -21,7 +18,10 @@
     "url": "https://github.com/pxblue/icons/issues"
   },
   "homepage": "https://github.com/pxblue/icons#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "copyfiles": "^2.1.0",
+    "icon-font-generator": "^2.1.8"
+  },
   "keywords": [
     "icons",
     "material",
