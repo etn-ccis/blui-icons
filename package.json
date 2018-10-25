@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Px Blue icons",
   "main": "./iconfont/index.css",
   "repository": {
@@ -12,7 +12,7 @@
   "dependencies": {},
   "scripts": {
     "copy": "rm -r svg && mkdir svg && npx copyfiles -f design/**/**/*.svg svg",
-    "build": "rm -r iconfont && mkdir iconfont && npx icon-font-generator design/**/**/*.svg -o iconfont -n PXBlueIcons -p pxb"
+    "build": "yarn copy && rm -r iconfont && mkdir iconfont && npx icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb"
   },
   "bugs": {
     "url": "https://github.com/pxblue/icons/issues"

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>px_push_notification_solid_24px</title>
+  <rect width="24" height="24" fill="none"/>
+  <g>
+    <circle cx="18" cy="6" r="3" fill="#231f20"/>
+    <path d="M13,6a5.47,5.47,0,0,1,.1-1H5A2,2,0,0,0,3,7V19a2,2,0,0,0,2,2H17a2,2,0,0,0,2-2V10.9a5.47,5.47,0,0,1-1,.1A5,5,0,0,1,13,6Z" fill="#231f20"/>
+  </g>
+</svg>
