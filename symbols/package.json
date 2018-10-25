@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pxblue/icons/issues"
   },
-  "homepage": "https://github.com/pxblue/icons#readme"
+  "homepage": "https://github.com/pxblue/icons#readme",
+  "dependencies": {
+    
+  }
 }
