@@ -2,8 +2,6 @@
 This is a library of supplemental icons, to be used in conjunction with the standard Material Design icons in PX Blue applications.
 
 
-<iframe src="http://www.google.com"></iframe>
-
 ## Installation
 To install the PX Blue icon font from NPM as a dependency for your project, you can run one of the following commands in your project root:
 ```
