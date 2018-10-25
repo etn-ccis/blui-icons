@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>px_grade_a_24px</title>
+  <rect width="24" height="24" fill="none"/>
+  <g>
+    <path d="M12,8.53c-.15.59-.58,2-1.29,4.33h2.61c-.67-2.15-1.05-3.37-1.13-3.66S12,8.7,12,8.53Z"/>
+    <path d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm2.55,15-.73-2.38H10.18L9.45,17H7.17L10.7,7h2.59l3.54,10Z"/>
+  </g>
+</svg>

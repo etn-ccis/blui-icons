@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?4a63e93c66fdcb97f69ff5dba6c97c99?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?4a63e93c66fdcb97f69ff5dba6c97c99") format("woff2"),
-url("./PXBlueIcons.woff?4a63e93c66fdcb97f69ff5dba6c97c99") format("woff"),
-url("./PXBlueIcons.ttf?4a63e93c66fdcb97f69ff5dba6c97c99") format("truetype"),
-url("./PXBlueIcons.svg?4a63e93c66fdcb97f69ff5dba6c97c99#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?53b099eb2990ad5a022df62c65c46ba4?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?53b099eb2990ad5a022df62c65c46ba4") format("woff2"),
+url("./PXBlueIcons.woff?53b099eb2990ad5a022df62c65c46ba4") format("woff"),
+url("./PXBlueIcons.ttf?53b099eb2990ad5a022df62c65c46ba4") format("truetype"),
+url("./PXBlueIcons.svg?53b099eb2990ad5a022df62c65c46ba4#PXBlueIcons") format("svg");
 }
 
 i {
@@ -22,66 +22,189 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.pxb-Bearing:before {
+.pxb-air_filter:before {
     content: "\f101";
 }
-.pxb-Breaker:before {
+.pxb-bearing:before {
     content: "\f102";
 }
-.pxb-capacitor:before {
+.pxb-breaker:before {
     content: "\f103";
 }
-.pxb-Device:before {
+.pxb-bypass_battery:before {
     content: "\f104";
 }
-.pxb-EphesusFixture:before {
+.pxb-camera:before {
     content: "\f105";
 }
-.pxb-EphesusGateway:before {
+.pxb-capacitor:before {
     content: "\f106";
 }
-.pxb-Fan:before {
+.pxb-computer:before {
     content: "\f107";
 }
-.pxb-Pump:before {
+.pxb-contactor:before {
     content: "\f108";
 }
-.pxb-SSOL:before {
+.pxb-current:before {
     content: "\f109";
 }
-.pxb-Utility:before {
+.pxb-current_circled:before {
     content: "\f10a";
 }
-.pxb-VFD:before {
+.pxb-current_circled_outline:before {
     content: "\f10b";
 }
-.pxb-XStorage:before {
+.pxb-device:before {
     content: "\f10c";
 }
-.pxb-XStorageAlt:before {
+.pxb-ephesus_fixture:before {
     content: "\f10d";
 }
-.pxb-Flow:before {
+.pxb-ephesus_gateway:before {
     content: "\f10e";
 }
-.pxb-Health:before {
+.pxb-fan:before {
     content: "\f10f";
 }
-.pxb-Priority:before {
+.pxb-flow:before {
     content: "\f110";
 }
-.pxb-QRCode:before {
+.pxb-forklift:before {
     content: "\f111";
 }
-.pxb-RunningHigh:before {
+.pxb-generator:before {
     content: "\f112";
 }
-.pxb-RunningLow:before {
+.pxb-generator_off:before {
     content: "\f113";
 }
-.pxb-Stopped:before {
+.pxb-grade_a:before {
     content: "\f114";
 }
-.pxb-Stopping:before {
+.pxb-grade_b:before {
     content: "\f115";
+}
+.pxb-grade_c:before {
+    content: "\f116";
+}
+.pxb-grade_d:before {
+    content: "\f117";
+}
+.pxb-grade_f:before {
+    content: "\f118";
+}
+.pxb-health:before {
+    content: "\f119";
+}
+.pxb-leaf:before {
+    content: "\f11a";
+}
+.pxb-maintenance:before {
+    content: "\f11b";
+}
+.pxb-moisture:before {
+    content: "\f11c";
+}
+.pxb-network_switch:before {
+    content: "\f11d";
+}
+.pxb-overlap:before {
+    content: "\f11e";
+}
+.pxb-pdu:before {
+    content: "\f11f";
+}
+.pxb-pickup_truck:before {
+    content: "\f120";
+}
+.pxb-power_circled:before {
+    content: "\f121";
+}
+.pxb-power_circled_outline:before {
+    content: "\f122";
+}
+.pxb-priority:before {
+    content: "\f123";
+}
+.pxb-pump:before {
+    content: "\f124";
+}
+.pxb-push_notification:before {
+    content: "\f125";
+}
+.pxb-push_notification_solid:before {
+    content: "\f126";
+}
+.pxb-qrcode:before {
+    content: "\f127";
+}
+.pxb-running_high:before {
+    content: "\f128";
+}
+.pxb-running_low:before {
+    content: "\f129";
+}
+.pxb-scan_qrcode:before {
+    content: "\f12a";
+}
+.pxb-server:before {
+    content: "\f12b";
+}
+.pxb-servers:before {
+    content: "\f12c";
+}
+.pxb-ssol:before {
+    content: "\f12d";
+}
+.pxb-stopped:before {
+    content: "\f12e";
+}
+.pxb-stopping:before {
+    content: "\f12f";
+}
+.pxb-switch:before {
+    content: "\f130";
+}
+.pxb-trending_down:before {
+    content: "\f131";
+}
+.pxb-trending_flat:before {
+    content: "\f132";
+}
+.pxb-trending_up:before {
+    content: "\f133";
+}
+.pxb-utility:before {
+    content: "\f134";
+}
+.pxb-vfd:before {
+    content: "\f135";
+}
+.pxb-vmms:before {
+    content: "\f136";
+}
+.pxb-voltage:before {
+    content: "\f137";
+}
+.pxb-voltage_circled:before {
+    content: "\f138";
+}
+.pxb-voltage_circled_outline:before {
+    content: "\f139";
+}
+.pxb-water:before {
+    content: "\f13a";
+}
+.pxb-water_outline:before {
+    content: "\f13b";
+}
+.pxb-waveform:before {
+    content: "\f13c";
+}
+.pxb-xstorage:before {
+    content: "\f13d";
+}
+.pxb-xstorage_alt:before {
+    content: "\f13e";
 }

@@ -46,6 +46,7 @@ Currently, we have icons available for:
 * capacitor
 * computer
 * contactor
+* current
 * current_circled
 * current_circled_outline
 * device
@@ -62,6 +63,7 @@ Currently, we have icons available for:
 * grade_d
 * grade_f
 * health
+* leaf
 * maintenance
 * moisture
 * overlap
