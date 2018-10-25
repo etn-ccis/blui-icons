@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/symbols",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Oneline symbols for PX Blue applications",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,5 @@
     "url": "https://github.com/pxblue/icons/issues"
   },
   "homepage": "https://github.com/pxblue/icons#readme",
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
