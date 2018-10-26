@@ -27,14 +27,12 @@ For React, you'll need to require the font in your top-level JS file (typically 
 require('@pxblue/icons/iconfont/PXBlueIcons.css');
 ```
 
-### Using the icon font in your application
+## Using the icon font in your application
 This will make the PX Blue icons available to your code by using the appropriate class name (className for React) on a ```<i>``` element, e.g.:
   
 ```
 <i class="pxb-ICONNAME"></i>
 ```
-
->**NOTE:** these icons/class names will be renamed in a future update to be more user friendly. You will need to update your references when that change occurs, or stay on the older version.
 
 ### Available Icons
 Currently, we have icons available for:
@@ -102,11 +100,17 @@ Currently, we have icons available for:
 * xstorage
 * xstorage_alt
 
-# Future Improvements
-In the future, we plan to make these icons available not only as an icon font, but also as an iconography module (for Angular) and as SVG components (for React) to better align with how Angular Material and Material-UI have implemented icons. Stay tuned for future updates.
+## Usage Alternatives
+The icon font is a great way to include lots of icons in your application. If you only need a few, you can also check out these alternative packages:
+* [SVG Icons](https://www.npmjs.com/package/@pxblue/icons-svg)
+* [React Components](https://www.npmjs.com/package/@pxblue/icons-mui)
+
+We also have PX Blue oneline symbols (ported from PX Blue 1.0) available:
+* [SVG Symbols](https://www.npmjs.com/package/@pxblue/symbols)
+* [React Components](https://www.npmjs.com/package/@pxblue/symbols-mui)
 
 # For Icon Creators
 Each icon has its own folder in the /icons/design folder, which includes the clean SVG file and the source design file(s).
 
-Each icon folder will be nested into a "family" folder. Family folders follow a pattern similar to MD. Our initial families are **Status** and **Devices**.
+Each icon folder will be nested into a "family" folder. Family folders follow a pattern similar to MD. Our initial families are **Status** and **Devices**. Filenames should be lowercase and include only the name of the icon, with words separated by underscores. These will be autoprefixed as part of the build process. If an icon consists of multiple stages (e.g. battery fill levels), these SVGs should be placed in a sub-folder called /progress inside the icon folder.
 
