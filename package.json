@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Px Blue icons",
   "main": "./iconfont/index.css",
   "repository": {
@@ -9,8 +9,7 @@
   },
   "author": "Keller, Kraig <KraigKeller@eaton.com>",
   "license": "BSD-3-Clause",
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "copy": "rm -r svg && mkdir svg && npx copyfiles -f design/**/**/*.svg svg",
     "build": "yarn copy && rm -r iconfont && mkdir iconfont && npx icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb",
