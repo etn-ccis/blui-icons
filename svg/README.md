@@ -46,26 +46,7 @@ Add a mat-icon tag in your html file:
 #### or as a collection:
 
 ```
-import { Component } from "@angular/core";
-import { MatIconRegistry } from "@angular/material/icon";
-import { DomSanitizer } from "@angular/platform-browser";
-declare var require: any;
-const icons = require("@pxblue/icons-svg/icons.svg");
-
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
-export class AppComponent {
-  title = 'dashboard';
-  constructor(
-    private matIconRegistry: MatIconRegistry,
-    private domSanitizer: DomSanitizer
-  ) {
-    this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(icons));
-  }
-}
+this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(icons));
 ```
 
 Add a mat-icon tag in your html file:
@@ -80,7 +61,7 @@ const icon = require('@pxblue/icons-svg/ICON_NAME.svg');
 <img src={icon}/>
 ```
 
->NOTE: If you will be using many of these icons in your application, we recommend you use [@pxblue/svg-mat-icon](https://www.npmjs.com/package/@pxblue/svg-mat-icon) for Angular projects or [@pxblue/icons-mui](https://www.npmjs.com/package/@pxblue/icons-mui) for React projects (or our [icon font](https://www.npmjs.com/package/@pxblue/icons)) to simplify usage. This library makes more sense if you just need one or two icons or if you want to reduce the size of your bundle.
+>NOTE: If you will be using many of these icons in your application, we recommend you use [@pxblue/icons-mui](https://www.npmjs.com/package/@pxblue/icons-mui) or our [icon font](https://www.npmjs.com/package/@pxblue/icons) to simplify usage. This library makes more sense if you just need one or two icons or if you want to reduce the size of your bundle.
 
 ### Available SVG Icons
 Currently, we have SVG Icons available for:
