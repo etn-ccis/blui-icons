@@ -11,18 +11,65 @@ yarn add @pxblue/symbols
 
 ## Usage
 ### Angular
-For Angular, you'll need to declare require in tS file (typically component.ts).
+#### For Angular, you can add individual svg files to your code:
 ```
+import { Component } from "@angular/core";
+import { MatIconRegistry } from "@angular/material/icon";
+import { DomSanitizer } from "@angular/platform-browser";
 declare var require: any;
-const symbol = require('@pxblue/symbols/SYMBOL_NAME.svg');
-...
-export class MyClass{
-    myImg = symbol;
+const bat = require("@pxblue/symbols/battery.svg");
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'dashboard';
+  constructor(
+    private matIconRegistry: MatIconRegistry,
+    private domSanitizer: DomSanitizer
+  ) {
+    this.matIconRegistry.addSvgIcon(
+      "battery",
+      this.domSanitizer.bypassSecurityTrustResourceUrl(bat)
+    );
+  }
 }
 ```
-Add an image tag in component.html file and bind your symbol to it:
+Add a mat-icon tag in your html file:
 ```
-<img src="{{myImg}}" alt="my image"/>
+<mat-icon svgIcon="battery"/>
+```
+
+#### or as a collection:
+
+```
+import { Component } from "@angular/core";
+import { MatIconRegistry } from "@angular/material/icon";
+import { DomSanitizer } from "@angular/platform-browser";
+declare var require: any;
+const symbols = require("@pxblue/symbols/symbols.svg");
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'dashboard';
+  constructor(
+    private matIconRegistry: MatIconRegistry,
+    private domSanitizer: DomSanitizer
+  ) {
+    this.matIconRegistry.addSvgIconSetInNamespace('symbols', this.domSanitizer.bypassSecurityTrustResourceUrl(symbols));
+  }
+}
+```
+
+Add a mat-icon tag in your html file:
+```
+<mat-icon svgIcon="symsols:battery"></mat-icon>
 ```
 
 ### React
