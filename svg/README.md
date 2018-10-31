@@ -12,18 +12,65 @@ yarn add @pxblue/icons-svg
 ## Usage
 
 ### Angular
-For Angular, you'll need to declare require in tS file (typically component.ts).
+For Angular, you can add individual svg files to your code:
 ```
+import { Component } from "@angular/core";
+import { MatIconRegistry } from "@angular/material/icon";
+import { DomSanitizer } from "@angular/platform-browser";
 declare var require: any;
-const icon = require('@pxblue/icons-svg/ICON_NAME.svg');
-...
-export class MyClass{
-    myImg = icon;
+const icon = require("@pxblue/icons-svg/Breaker.svg");
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'dashboard';
+  constructor(
+    private matIconRegistry: MatIconRegistry,
+    private domSanitizer: DomSanitizer
+  ) {
+    this.matIconRegistry.addSvgIcon(
+      "breaker",
+      this.domSanitizer.bypassSecurityTrustResourceUrl(icon)
+    );
+  }
 }
 ```
-Add an image tag in component.html file and bind your icon to it:
+Add a mat-icon tag in your html file:
 ```
-<img src="{{myImg}}" alt="my image"/>
+<mat-icon svgIcon="breaker"/>
+```
+
+#### or as a collection:
+
+```
+import { Component } from "@angular/core";
+import { MatIconRegistry } from "@angular/material/icon";
+import { DomSanitizer } from "@angular/platform-browser";
+declare var require: any;
+const icons = require("@pxblue/icons-svg/icons.svg");
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'dashboard';
+  constructor(
+    private matIconRegistry: MatIconRegistry,
+    private domSanitizer: DomSanitizer
+  ) {
+    this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(icons));
+  }
+}
+```
+
+Add a mat-icon tag in your html file:
+```
+<mat-icon svgIcon="px-icons:Bearing"></mat-icon>
 ```
 
 ### React
