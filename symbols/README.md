@@ -45,26 +45,7 @@ Add a mat-icon tag in your html file:
 #### or as a collection:
 
 ```
-import { Component } from "@angular/core";
-import { MatIconRegistry } from "@angular/material/icon";
-import { DomSanitizer } from "@angular/platform-browser";
-declare var require: any;
-const symbols = require("@pxblue/symbols/symbols.svg");
-
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
-export class AppComponent {
-  title = 'dashboard';
-  constructor(
-    private matIconRegistry: MatIconRegistry,
-    private domSanitizer: DomSanitizer
-  ) {
-    this.matIconRegistry.addSvgIconSetInNamespace('symbols', this.domSanitizer.bypassSecurityTrustResourceUrl(symbols));
-  }
-}
+this.matIconRegistry.addSvgIconSetInNamespace('symbols', this.domSanitizer.bypassSecurityTrustResourceUrl(symbols));
 ```
 
 Add a mat-icon tag in your html file:
@@ -78,6 +59,8 @@ const symbol = require('@pxblue/symbols/SYMBOL_NAME.svg');
 ...
 <img src={symbol}/>
 ```
+
+>NOTE: If you will be using many of these symbols in your application, we recommend you use [@pxblue/symbols-mui](https://www.npmjs.com/package/@pxblue/symbols-mui) to simplify usage. This library makes more sense if you just need one or two symbols or if you want to reduce the size of your bundle.
 
 ### Available Symbols
 Currently, we have symbols available for:
