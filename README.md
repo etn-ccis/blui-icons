@@ -110,4 +110,4 @@ We also have PX Blue oneline symbols (ported from PX Blue 1.0) available:
 * [React Components](https://www.npmjs.com/package/@pxblue/symbols-mui)
 
 # For Icon Creators
-Please read the instructions in the [Design](https://github.com/pxblue/icons/design/Readme.md)
+Please read the instructions in the [Design](https://github.com/pxblue/icons/design/Readme.md) folder before creating or submitting new icons.
