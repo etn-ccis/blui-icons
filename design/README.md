@@ -40,7 +40,7 @@ The expanded version should be use to generate the SVG file.
 * SVG should not include `<title>` or `<defs>` tags.
  
 ## Naming Conventions
-Icon SVGs should follow a naming scheme similar Material Design standards (e.g. `ic_event_24px`) but should instead be prefixed with a `px` (e.g. `px_device_24px`).
+Icon SVGs should follow a naming standards with just an icon name (e.g. `device`). If the name of an icon has more than one word must have an underscore inbetween each word (e.g. `battery_full`).
 
 
 ## Developer Use
