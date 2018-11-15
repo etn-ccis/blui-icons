@@ -1,0 +1,21 @@
+{
+  "name": "battery",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/battery.umd.js",
+  "module": "fesm5/battery.js",
+  "es2015": "fesm2015/battery.js",
+  "esm5": "esm5/battery.js",
+  "esm2015": "esm2015/battery.js",
+  "fesm5": "fesm5/battery.js",
+  "fesm2015": "fesm2015/battery.js",
+  "typings": "battery.d.ts",
+  "metadata": "battery.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
