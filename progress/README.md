@@ -62,6 +62,7 @@ To create a new component:
 ```
 ng generate library component-name
 ```
+
 And then to create the /dist version:
 ```
 ng build component-name
@@ -79,7 +80,7 @@ To create the /dist version of the icons:
 ```
 cd /react
 yarn build
-``
+```
 
 And then to publish:
 ```
