@@ -12,8 +12,7 @@ const getCoordinates = (percent) => {
 export const Pie = ({ percent=100, size=24, color, ring=10, style, ...props }) => { 
   const stroke = Math.max(1,Math.min(10, Math.round(ring)));
   return(
-  <svg height={`${size}px`} width={`${size}px`} version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 24 24" style={Object.assign({enableBackground: 'new 0 0 24 24', xmlSpace:"preserve", transform: 'rotate(-.25turn)'},style)} {...props}>
+  <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" style={Object.assign({transform: 'rotate(-.25turn)'},style)} {...props}>
       <clipPath id={"pxb-donut-clip-"+stroke}>
         <path d={`M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,${20-stroke} A ${(20-2*stroke)/2},${(20-2*stroke)/2},0,1,1,${22-stroke},12,${(20-2*stroke)/2},${(20-2*stroke)/2},0,0,1,12,${22-stroke}Z`}/>
       </clipPath>
