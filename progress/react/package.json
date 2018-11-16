@@ -1,0 +1,27 @@
+{
+  "name": "@pxblue/react-progress-icons",
+  "version": "1.0.5",
+  "description": "React progress icons for PX Blue applications",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn && babel src --presets @babel/preset-react --out-dir dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pxblue/icons"
+  },
+  "keywords": [
+    "progress",
+    "icons",
+    "pxblue"
+  ],
+  "author": "pxblue <pxblue@eaton.com>",
+  "license": "BSD-3-Clause"
+}

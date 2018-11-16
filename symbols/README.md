@@ -50,7 +50,7 @@ this.matIconRegistry.addSvgIconSetInNamespace('symbols', this.domSanitizer.bypas
 
 Add a mat-icon tag in your html file:
 ```
-<mat-icon svgIcon="symsols:battery"></mat-icon>
+<mat-icon svgIcon="symbols:battery"></mat-icon>
 ```
 
 ### React

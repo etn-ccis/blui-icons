@@ -110,7 +110,4 @@ We also have PX Blue oneline symbols (ported from PX Blue 1.0) available:
 * [React Components](https://www.npmjs.com/package/@pxblue/symbols-mui)
 
 # For Icon Creators
-Each icon has its own folder in the /icons/design folder, which includes the clean SVG file and the source design file(s).
-
-Each icon folder will be nested into a "family" folder. Family folders follow a pattern similar to MD. Our initial families are **Status** and **Devices**. Filenames should be lowercase and include only the name of the icon, with words separated by underscores. These will be autoprefixed as part of the build process. If an icon consists of multiple stages (e.g. battery fill levels), these SVGs should be placed in a sub-folder called /progress inside the icon folder.
-
+Please read the instructions in the [Design](https://github.com/pxblue/icons/design/Readme.md) folder before creating or submitting new icons.
