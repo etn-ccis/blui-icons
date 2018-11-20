@@ -48,7 +48,7 @@ import {Battery, Heart, Pie} from '@pxblue/react-progress-icons';
 * ```percent``` (Number): the amount to fill the icon. **Default**: 100.
 * ```size``` (Number): the size of the icon (px). **Default**: 24.
 * ```color``` (String): the color to use for the icon. **Default**: inherit. Color can also be set through the ```style``` property.
-* ```ring``` (Number, *Pie only*): the thickness of the outer ring, as a percent (1 (thin ring) - 10 (full circle)). **Default**: 10.
+* ```ring``` (Number, *Pie only*): the thickness of the outer ring (1 (thin ring) - 10 (full circle)). **Default**: 10.
 
 ## Building & Packaging
 These progress icons are currently created manually by modifying the svg files from the design folder with various clip paths and fill algorithms. They are then packaged up for distribution via npm.
