@@ -37,4 +37,4 @@ imports: [
 * ```percent``` (Number): the amount to fill the icon. **Default**: 100.
 * ```size``` (Number): the size of the icon (px). **Default**: 24.
 * ```color``` (String): the color to use for the icon. **Default**: inherit. Color can also be set through the ```style``` property.
-* ```ring``` (Number, *Pie only*): the thickness of the outer ring, as a percent (1 (thin ring) - 10 (full circle)). **Default**: 10.
+* ```ring``` (Number, *Pie only*): the thickness of the outer ring (1 (thin ring) - 10 (full circle)). **Default**: 10.
