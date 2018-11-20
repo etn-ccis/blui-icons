@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>px_voltage_circled_24px</title><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm-1 11H4v-2h7zm6.5 0v2.5h-2V13H13v-2h2.5V8.5h2V11H20v2z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>px_voltage_circled_24px</title>
+  <path d="M0,0H24V24H0Z" fill="none"/>
+  <path d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2ZM11,13H4V11h7Zm6.5,0v2.5h-2V13H13V11h2.5V8.5h2V11H20v2Z"/>
+</svg>

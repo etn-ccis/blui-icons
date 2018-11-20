@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>px_contactor_24px</title><path d="M13 8V3h-2v5H2v3h20V8h-9zM2 16h9v5h2v-5h9v-3H2v3z"/><path fill="none" d="M0 0h24v24H0z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>px_contactor_24px</title>
+  <g>
+    <polygon points="13 8 13 3 11 3 11 8 2 8 2 11 22 11 22 8 13 8"/>
+    <polygon points="2 16 11 16 11 21 13 21 13 16 22 16 22 13 2 13 2 16"/>
+  </g>
+  <rect width="24" height="24" fill="none"/>
+</svg>

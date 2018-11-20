@@ -11,6 +11,7 @@ yarn.lock
 
 # production
 /build
+/tmp
 
 # misc
 .DS_Store
