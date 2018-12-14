@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Px Blue icons",
   "main": "./iconfont/index.css",
   "repository": {
