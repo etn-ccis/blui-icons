@@ -89,7 +89,7 @@ Currently, we have icons available for:
 * trending_up
 * tripped
 * utility
-* vgd
+* vfd
 * vmms
 * voltage
 * voltage_circled
