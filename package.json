@@ -15,7 +15,7 @@
     "move": "mkdir -p tmp && mv svg/README.md tmp/README.md && mv svg/package.json tmp/package.json",
     "move-back": "mv tmp/README.md svg/README.md && mv tmp/package.json svg/package.json && rm -rf tmp",
     "copy": "yarn move && rm -r svg && mkdir svg && npx copyfiles -f design/**/**/*.svg svg && yarn move-back",
-    "sprites": "npx create-svg-sprite --optimize --input './svg' --output './svg' --name 'px_blue_icons' && npx create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
+    "sprites": "npx create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons' && npx create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
     "build": "yarn copy && rm -r iconfont && mkdir iconfont && npx icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb && yarn sprites && yarn index"
   },
   "bugs": {

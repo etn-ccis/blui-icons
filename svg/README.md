@@ -12,21 +12,24 @@ yarn add @pxblue/icons-svg
 ## Usage
 
 ### Angular
-For Angular, you can add individual svg files to your code:
+The simplest way to use these SVGs in Angular is to register them with the matIconRegistry so they can be used with the ```<mat-icon>``` tag. You can register icons individually, or as the entire PX Blue set:
+
 ```
 import { Component } from "@angular/core";
 import { MatIconRegistry } from "@angular/material/icon";
 import { DomSanitizer } from "@angular/platform-browser";
-declare var require: any;
-const icon = require("@pxblue/icons-svg/Breaker.svg");
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
+declare var require: any;
+const icon = require("@pxblue/icons-svg/breaker.svg"); // individual icon
+const iconSet = require("@pxblue/icons-svg/icons.svg"); // full set
+```
+
+Then, in your constructor, register the icon or the icon set. It will then be available for use as a ```<mat-icon>```.
+
+#### Individual Icon
+```
+// app.component.ts
 export class AppComponent {
-  title = 'dashboard';
   constructor(
     private matIconRegistry: MatIconRegistry,
     private domSanitizer: DomSanitizer
@@ -38,20 +41,28 @@ export class AppComponent {
   }
 }
 ```
-Add a mat-icon tag in your html file:
-```
-<mat-icon svgIcon="breaker"/>
-```
-
-#### or as a collection:
 
 ```
-this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(icons));
+// app.component.html
+<mat-icon svgIcon="breaker"></mat-icon>
 ```
 
-Add a mat-icon tag in your html file:
+#### Entire Icon Set
 ```
-<mat-icon svgIcon="px-icons:Bearing"></mat-icon>
+// app.component.ts
+export class AppComponent {
+  constructor(
+    private matIconRegistry: MatIconRegistry,
+    private domSanitizer: DomSanitizer
+  ) {
+    this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(iconSet));
+  }
+}
+```
+
+```
+// app.component.ts
+<mat-icon svgIcon="px-icons:bearing"></mat-icon>
 ```
 
 ### React
@@ -60,6 +71,8 @@ const icon = require('@pxblue/icons-svg/ICON_NAME.svg');
 ...
 <img src={icon}/>
 ```
+
+>NOTE: SVG icons used in this manner will appear black. The fill color cannot be changed because the SVGs are not inline. If you want to color the icons, you will want to use the [@pxblue/icons-mui](https://www.npmjs.com/package/@pxblue/icons-mui) or our [icon font](https://www.npmjs.com/package/@pxblue/icons).
 
 >NOTE: If you will be using many of these icons in your application, we recommend you use [@pxblue/icons-mui](https://www.npmjs.com/package/@pxblue/icons-mui) or our [icon font](https://www.npmjs.com/package/@pxblue/icons) to simplify usage. This library makes more sense if you just need one or two icons or if you want to reduce the size of your bundle.
 
