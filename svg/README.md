@@ -70,7 +70,7 @@ Currently, we have SVG Icons available for:
 * breaker
 * bypass_battery
 * camera
-* capacitor
+* capacitor_large
 * computer
 * contactor
 * current
@@ -116,9 +116,8 @@ Currently, we have SVG Icons available for:
 * trending_down
 * trending_flat
 * trending_up
-* tripped
 * utility
-* vgd
+* vfd
 * vmms
 * voltage
 * voltage_circled
