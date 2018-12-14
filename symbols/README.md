@@ -11,46 +11,57 @@ yarn add @pxblue/symbols
 
 ## Usage
 ### Angular
-#### For Angular, you can add individual svg files to your code:
+The simplest way to use these SVG symbols in Angular is to register them with the matIconRegistry so they can be used with the ```<mat-icon>``` tag. You can register symbols individually, or as the entire PX Blue set:
+
 ```
 import { Component } from "@angular/core";
 import { MatIconRegistry } from "@angular/material/icon";
 import { DomSanitizer } from "@angular/platform-browser";
-declare var require: any;
-const bat = require("@pxblue/symbols/battery.svg");
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
+declare var require: any;
+const symbol = require("@pxblue/symbols/battery.svg"); // individual symbol
+const symbolSet = require("@pxblue/symbols/symbols.svg"); // full set
+```
+
+Then, in your constructor, register the symbol or the symbol set. It will then be available for use as a ```<mat-icon>```.
+
+#### Individual Icon
+```
+// app.component.ts
 export class AppComponent {
-  title = 'dashboard';
   constructor(
     private matIconRegistry: MatIconRegistry,
     private domSanitizer: DomSanitizer
   ) {
     this.matIconRegistry.addSvgIcon(
       "battery",
-      this.domSanitizer.bypassSecurityTrustResourceUrl(bat)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(symbol)
     );
   }
 }
 ```
-Add a mat-icon tag in your html file:
-```
-<mat-icon svgIcon="battery"/>
-```
-
-#### or as a collection:
 
 ```
-this.matIconRegistry.addSvgIconSetInNamespace('symbols', this.domSanitizer.bypassSecurityTrustResourceUrl(symbols));
+// app.component.html
+<mat-icon svgIcon="battery"></mat-icon>
 ```
 
-Add a mat-icon tag in your html file:
+#### Entire Icon Set
 ```
-<mat-icon svgIcon="symbols:battery"></mat-icon>
+// app.component.ts
+export class AppComponent {
+  constructor(
+    private matIconRegistry: MatIconRegistry,
+    private domSanitizer: DomSanitizer
+  ) {
+    this.matIconRegistry.addSvgIconSetInNamespace('px-symbols', this.domSanitizer.bypassSecurityTrustResourceUrl(symbolSet));
+  }
+}
+```
+
+```
+// app.component.ts
+<mat-icon svgIcon="px-symbols:battery"></mat-icon>
 ```
 
 ### React
