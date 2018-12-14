@@ -41,7 +41,7 @@ Currently, we have icons available for:
 * breaker
 * bypass_battery
 * camera
-* capacitor
+* capacitor_large
 * computer
 * contactor
 * current
@@ -87,7 +87,6 @@ Currently, we have icons available for:
 * trending_down
 * trending_flat
 * trending_up
-* tripped
 * utility
 * vfd
 * vmms
