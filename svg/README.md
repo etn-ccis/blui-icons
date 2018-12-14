@@ -9,6 +9,25 @@ or
 yarn add @pxblue/icons-svg
 ```
 
+### Angular
+The method described below for Angular requires you to install the Angular CDK and Angular Material:
+```
+cd projectname
+yarn add @angular/cdk @angular/material
+```
+
+and also include the following modules:
+```
+// app.module.ts
+import {MatIconModule} from '@angular/material/icon';
+import {HttpClientModule} from '@angular/common/http';
+...
+imports:[
+  MatIconModule,
+  HttpClientModule
+]
+```
+
 ## Usage
 
 ### Angular
