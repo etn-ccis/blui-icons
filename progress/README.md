@@ -42,6 +42,7 @@ imports: [
 ## Building & Packaging
 These progress icons are currently created manually by modifying the svg files from the design folder with various clip paths and fill algorithms. They are then packaged up for distribution via npm.
 
+### Angular
 The Angular icons are built using the library packages built into the Angular CLI ([read more](https://github.com/angular/angular-cli/wiki/stories-create-library)). 
 
 To create a new component:
@@ -64,3 +65,22 @@ cd dist/ng-progress-icons
 npm version patch
 npm publish
 ```
+
+### React
+The react icons are created as stateless functional components in individual files for each icon.
+
+To create the /dist version of the icons:
+```
+cd /react
+yarn build
+```
+
+And then to publish:
+```
+npm version patch
+npm publish
+```
+
+
+## Future
+In the future, we may move this into it's own repository. We may also try to dynamically generate these components or at least some aspects of the build process.
