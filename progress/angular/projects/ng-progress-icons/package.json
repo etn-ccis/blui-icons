@@ -1,0 +1,30 @@
+{
+  "name": "@pxblue/ng-progress-icons",
+  "version": "1.0.1",
+  "description": "Angular progress icons for PX Blue applications",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxblue/icons.git"
+  },
+  "keywords": [
+    "progress",
+    "icons",
+    "pxblue"
+  ],
+  "author": "pxblue <pxblue@eaton.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/pxblue/icons/issues"
+  },
+  "homepage": "https://github.com/pxblue/icons#readme"
+}

@@ -1,40 +1,27 @@
-# PX Blue Progress Icons
-This is a library of icons with dynamic fill capabilities that can be used to show progress (similar to a traditional progress spinner or bar). These can be used to show health, battery life, etc.
+# NgProgressLibApp
 
-Currently, we have icons available for:
-* battery
-* heart
-* pie
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
-## Installation
-To install the PX Blue progress icons from NPM as a dependency for your project, you can run the following command in your project root:
-```
-yarn add @pxblue/ng-progress-icons
-```
+## Development server
 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Using the progress icons in your application
-The progress icon components can be imported and used like you would use any other component. You can manually set the desired color for the icon, otherwise it will inherit the text color of its parent container;
+## Code scaffolding
 
-```
-// app.module.ts
-import { BatteryModule, HeartModule, PieModule } from '@pxblue/ng-progress-icons';
-...
-imports: [
-    BatteryModule,
-    HeartModule,
-    PieModule
-],
-```
-```
-// app.component.html
-<battery-progress percent="80" size="36" color="green"></battery-progress>
-<heart-progress percent="180" size="36" color="pink"></heart-progress>
-<pie-progress percent="30" size="36" color="#0000ff" ring="4"></pie-progress>
-```
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Available properties
-* ```percent``` (Number): the amount to fill the icon. **Default**: 100.
-* ```size``` (Number): the size of the icon (px). **Default**: 24.
-* ```color``` (String): the color to use for the icon. **Default**: inherit. Color can also be set through the ```style``` property.
-* ```ring``` (Number, *Pie only*): the thickness of the outer ring, as a percent (1 (thin ring) - 10 (full circle)). **Default**: 10.
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
