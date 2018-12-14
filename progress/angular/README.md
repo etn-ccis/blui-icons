@@ -18,12 +18,11 @@ The progress icon components can be imported and used like you would use any oth
   
 ```
 // app.module.ts
-import { BatteryModule, HeartModule, PieModule } from '@pxblue/ng-progress-icons';
+import { NgProgressIconsModule } from '@pxblue/ng-progress-icons';
+
 ...
 imports: [
-    BatteryModule,
-    HeartModule,
-    PieModule
+    NgProgressIconsModule
 ],
 ```
 ```
