@@ -35,69 +35,7 @@ This will make the PX Blue icons available to your code by using the appropriate
 ```
 
 ### Available Icons
-Currently, we have icons available for:
-* air_filter
-* bearing
-* breaker
-* bypass_battery
-* camera
-* capacitor_large
-* computer
-* contactor
-* current
-* current_circled
-* current_circled_outline
-* device
-* ephesus_fixture
-* ephesus_gateway
-* fan
-* flow
-* forklift
-* generator
-* generator_off
-* grade_a
-* grade_b
-* grade_c
-* grade_d
-* grade_f
-* health
-* leaf
-* maintenance
-* moisture
-* overlap
-* network_switch
-* pdu
-* pickup_truck
-* priority
-* pump
-* power_circled
-* power_circled_outline
-* push_notification
-* push_notification_solid
-* qrcode
-* running_high
-* running_low
-* scan_qrcode
-* server
-* servers
-* ssol
-* stopped
-* stopping
-* switch
-* trending_down
-* trending_flat
-* trending_up
-* utility
-* vfd
-* vmms
-* voltage
-* voltage_circled
-* voltage_circled_outline
-* water
-* water_outline
-* waveform
-* xstorage
-* xstorage_alt
+See [Available Icons](./available_icons.md) for a list of currently available icons.
 
 ## Usage Alternatives
 The icon font is a great way to include lots of icons in your application. If you only need a few, you can also check out these alternative packages:
