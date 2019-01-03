@@ -84,6 +84,13 @@ export class AppComponent {
 <mat-icon svgIcon="px-icons:bearing"></mat-icon>
 ```
 
+#### Applying Different Colors
+To change the color of the icon you are using, simply set the CSS color property. This property is inheritable, so if the property is not set on your icon, it will be inherited from the parent container.
+
+```
+<mat-icon svgIcon="px-icons:bearing" style="color: red"></mat-icon>
+```
+
 ### React
 ```
 const icon = require('@pxblue/icons-svg/ICON_NAME.svg');
