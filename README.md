@@ -35,7 +35,7 @@ This will make the PX Blue icons available to your code by using the appropriate
 ```
 
 ### Available Icons
-See [Available Icons](./available_icons.md) for a list of currently available icons.
+See [Available Icons](https://github.com/pxblue/icons/blob/master/available_icons.md) for a list of currently available icons.
 
 ## Usage Alternatives
 The icon font is a great way to include lots of icons in your application. If you only need a few, you can also check out these alternative packages:
