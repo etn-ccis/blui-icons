@@ -34,6 +34,13 @@ This will make the PX Blue icons available to your code by using the appropriate
 <i class="pxb-ICONNAME"></i>
 ```
 
+### Applying Different Colors
+To change the color of the icon you are using, simply set the CSS color property. This property is inheritable, so if the property is not set on your icon, it will be inherited from the parent container.
+
+```
+<i class="pxb-ICONNAME" style="color: red"></i>
+```
+
 ### Available Icons
 See [Available Icons](https://github.com/pxblue/icons/blob/master/available_icons.md) for a list of currently available icons.
 
