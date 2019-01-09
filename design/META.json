@@ -1711,6 +1711,16 @@
 			"size": 24
 		},
 
+		{
+			"name": "Soybean",
+			"filename": "soybean.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["soy","crop","farm","plant","grow","feed","food"],
+			"author": "Eric Atha",
+			"size": 24
+		},
+
 
 		{
 			"name": "Pickup Truck",
