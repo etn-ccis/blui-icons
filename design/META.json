@@ -884,6 +884,17 @@
 		},
 
 		{
+			"name": "Environment",
+			"filename": "environment.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["temp","temperature","thermometer","celcius","farenheit","environment","heat","hot","cold","moisture","humidity"],
+			"description":"Represents environmental values such as temperature and humidity",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "Moisture",
 			"filename": "moisture.svg",
 			"family": ["Status"],
@@ -1488,6 +1499,18 @@
 			"author": "Eric Atha",
 			"size": 24
 		},
+
+		{
+			"name": "Temp",
+			"filename": "temp.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["temp","temperature","thermometer","celcius","farenheit","environment","heat","hot","cold"],
+			"description":"Represents a temperature",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
 
 		{
 			"name": "Trending Up",
