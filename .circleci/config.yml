@@ -18,10 +18,11 @@ jobs:
           name: Install Dev Dependencies
           command: |
             yarn install --dev
-            cd react
+            cd progress/react
             yarn install --dev
             cd ../angular
             yarn install --dev
+            cd ..
             cd ..
       - run:
           name: Build Packages
@@ -32,9 +33,10 @@ jobs:
       - run:
           name: Verify Progress Icon Build Artifacts
           command: |
-            cd react
+            cd progress/react
             yarn build
             cd ../angular
             yarn build  
+            cd ..
             cd ..
             yarn test:progress
