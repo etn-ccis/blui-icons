@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?0f1dee50551e81fd639d0e9034be858c?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?0f1dee50551e81fd639d0e9034be858c") format("woff2"),
-url("./PXBlueIcons.woff?0f1dee50551e81fd639d0e9034be858c") format("woff"),
-url("./PXBlueIcons.ttf?0f1dee50551e81fd639d0e9034be858c") format("truetype"),
-url("./PXBlueIcons.svg?0f1dee50551e81fd639d0e9034be858c#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?c897267a1e50dc9f91194e75d4188662?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?c897267a1e50dc9f91194e75d4188662") format("woff2"),
+url("./PXBlueIcons.woff?c897267a1e50dc9f91194e75d4188662") format("woff"),
+url("./PXBlueIcons.ttf?c897267a1e50dc9f91194e75d4188662") format("truetype"),
+url("./PXBlueIcons.svg?c897267a1e50dc9f91194e75d4188662#PXBlueIcons") format("svg");
 }
 
 i {
@@ -61,168 +61,174 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-device:before {
     content: "\f10d";
 }
-.pxb-ephesus_fixture:before {
+.pxb-environment:before {
     content: "\f10e";
 }
-.pxb-ephesus_gateway:before {
+.pxb-ephesus_fixture:before {
     content: "\f10f";
 }
-.pxb-fan:before {
+.pxb-ephesus_gateway:before {
     content: "\f110";
 }
-.pxb-flow:before {
+.pxb-fan:before {
     content: "\f111";
 }
-.pxb-forklift:before {
+.pxb-flow:before {
     content: "\f112";
 }
-.pxb-generator:before {
+.pxb-forklift:before {
     content: "\f113";
 }
-.pxb-generator_off:before {
+.pxb-generator:before {
     content: "\f114";
 }
-.pxb-grade_a:before {
+.pxb-generator_off:before {
     content: "\f115";
 }
-.pxb-grade_b:before {
+.pxb-grade_a:before {
     content: "\f116";
 }
-.pxb-grade_c:before {
+.pxb-grade_b:before {
     content: "\f117";
 }
-.pxb-grade_d:before {
+.pxb-grade_c:before {
     content: "\f118";
 }
-.pxb-grade_f:before {
+.pxb-grade_d:before {
     content: "\f119";
 }
-.pxb-health:before {
+.pxb-grade_f:before {
     content: "\f11a";
 }
-.pxb-leaf:before {
+.pxb-health:before {
     content: "\f11b";
 }
-.pxb-maintenance:before {
+.pxb-leaf:before {
     content: "\f11c";
 }
-.pxb-moisture:before {
+.pxb-maintenance:before {
     content: "\f11d";
 }
-.pxb-network_switch:before {
+.pxb-moisture:before {
     content: "\f11e";
 }
-.pxb-overlap:before {
+.pxb-network_switch:before {
     content: "\f11f";
 }
-.pxb-pdu:before {
+.pxb-overlap:before {
     content: "\f120";
 }
-.pxb-pickup_truck:before {
+.pxb-pdu:before {
     content: "\f121";
 }
-.pxb-power_circled:before {
+.pxb-pickup_truck:before {
     content: "\f122";
 }
-.pxb-power_circled_outline:before {
+.pxb-power_circled:before {
     content: "\f123";
 }
-.pxb-priority:before {
+.pxb-power_circled_outline:before {
     content: "\f124";
 }
-.pxb-pump:before {
+.pxb-priority:before {
     content: "\f125";
 }
-.pxb-push_notification:before {
+.pxb-pump:before {
     content: "\f126";
 }
-.pxb-push_notification_solid:before {
+.pxb-push_notification:before {
     content: "\f127";
 }
-.pxb-qrcode:before {
+.pxb-push_notification_solid:before {
     content: "\f128";
 }
-.pxb-radio_handheld:before {
+.pxb-qrcode:before {
     content: "\f129";
 }
-.pxb-running_high:before {
+.pxb-radio_handheld:before {
     content: "\f12a";
 }
-.pxb-running_low:before {
+.pxb-running_high:before {
     content: "\f12b";
 }
-.pxb-scan_qrcode:before {
+.pxb-running_low:before {
     content: "\f12c";
 }
-.pxb-server:before {
+.pxb-scan_qrcode:before {
     content: "\f12d";
 }
-.pxb-servers:before {
+.pxb-server:before {
     content: "\f12e";
 }
-.pxb-sports_car:before {
+.pxb-servers:before {
     content: "\f12f";
 }
-.pxb-ssol:before {
+.pxb-sports_car:before {
     content: "\f130";
 }
-.pxb-stopped:before {
+.pxb-ssol:before {
     content: "\f131";
 }
-.pxb-stopping:before {
+.pxb-stopped:before {
     content: "\f132";
 }
-.pxb-switch:before {
+.pxb-stopping:before {
     content: "\f133";
 }
-.pxb-tractor:before {
+.pxb-switch:before {
     content: "\f134";
 }
-.pxb-tree:before {
+.pxb-temp:before {
     content: "\f135";
 }
-.pxb-trending_down:before {
+.pxb-tractor:before {
     content: "\f136";
 }
-.pxb-trending_flat:before {
+.pxb-tree:before {
     content: "\f137";
 }
-.pxb-trending_up:before {
+.pxb-trending_down:before {
     content: "\f138";
 }
-.pxb-utility:before {
+.pxb-trending_flat:before {
     content: "\f139";
 }
-.pxb-utility_van:before {
+.pxb-trending_up:before {
     content: "\f13a";
 }
-.pxb-vfd:before {
+.pxb-utility:before {
     content: "\f13b";
 }
-.pxb-vmms:before {
+.pxb-utility_van:before {
     content: "\f13c";
 }
-.pxb-voltage:before {
+.pxb-vfd:before {
     content: "\f13d";
 }
-.pxb-voltage_circled:before {
+.pxb-vmms:before {
     content: "\f13e";
 }
-.pxb-voltage_circled_outline:before {
+.pxb-voltage:before {
     content: "\f13f";
 }
-.pxb-water:before {
+.pxb-voltage_circled:before {
     content: "\f140";
 }
-.pxb-water_outline:before {
+.pxb-voltage_circled_outline:before {
     content: "\f141";
 }
-.pxb-waveform:before {
+.pxb-water:before {
     content: "\f142";
 }
-.pxb-xstorage:before {
+.pxb-water_outline:before {
     content: "\f143";
 }
-.pxb-xstorage_alt:before {
+.pxb-waveform:before {
     content: "\f144";
+}
+.pxb-xstorage:before {
+    content: "\f145";
+}
+.pxb-xstorage_alt:before {
+    content: "\f146";
 }
