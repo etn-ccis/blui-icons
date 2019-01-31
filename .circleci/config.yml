@@ -14,6 +14,6 @@ jobs:
       - run:
           name: Build Packages
           command: yarn build
-      -run:
+      - run:
           name: Verify Build Artifacts
           command: yarn test
