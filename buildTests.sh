@@ -13,7 +13,7 @@ if [ ! -f ./svg/icons.svg ]; then echo -e "${RED}Not Found${NC}" && exit 1; else
 echo -ne "  package.json: "
 if [ ! -f ./svg/package.json ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  readme: "
-if [ ! -f ./icons/readme.md ] && [ ! -f ./icons/Readme.md ] && [ ! -f ./icons/README.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+if [ ! -f ./svg/readme.md ] && [ ! -f ./svg/Readme.md ] && [ ! -f ./svg/README.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  metadata: "
 if [ ! -f ./svg/index.json ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 
