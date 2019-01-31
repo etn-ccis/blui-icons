@@ -6,7 +6,8 @@ NC='\033[0m' # No Color
 
 
 echo "Installing dependencies..."
-yarn
+yarn install
+yarn install --dev
 echo "Building icon packages..."
 yarn build
 
