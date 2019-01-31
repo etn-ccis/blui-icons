@@ -864,6 +864,17 @@
 		},
 
 		{
+			"name": "Environment",
+			"filename": "environment.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["temp","temperature","thermometer","celcius","farenheit","environment","heat","hot","cold","moisture","humidity"],
+			"description":"Represents environmental values such as temperature and humidity",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "Moisture",
 			"filename": "moisture.svg",
 			"family": ["Status"],
@@ -1470,6 +1481,18 @@
 		},
 
 		{
+			"name": "Temp",
+			"filename": "temp.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["temp","temperature","thermometer","celcius","farenheit","environment","heat","hot","cold"],
+			"description":"Represents a temperature",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+
+		{
 			"name": "Trending Up",
 			"filename": "trending_up.svg",
 			"family": ["Status"],
@@ -1687,6 +1710,16 @@
 			"family": ["Agriculture"],
 			"style":"baseline",
 			"tags":["nuts","crop","farm","plant","grow","feed","tree nut","food","orchard"],
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Soybean",
+			"filename": "soybean.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["soy","crop","farm","plant","grow","feed","food"],
 			"author": "Eric Atha",
 			"size": 24
 		},
