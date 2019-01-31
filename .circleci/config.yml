@@ -7,13 +7,34 @@ jobs:
       - checkout
       - run: 
           name: Install Dependencies
-          command: yarn install
+          command: |
+            yarn install
+            cd react
+            yarn install
+            cd ../angular
+            yarn install
+            cd ..
       - run:
           name: Install Dev Dependencies
-          command: yarn install --dev
+          command: |
+            yarn install --dev
+            cd react
+            yarn install --dev
+            cd ../angular
+            yarn install --dev
+            cd ..
       - run:
           name: Build Packages
           command: yarn build
       - run:
-          name: Verify Build Artifacts
-          command: yarn test
+          name: Verify SVG Build Artifacts
+          command: yarn test:svg
+      - run:
+          name: Verify Progress Icon Build Artifacts
+          command: |
+            cd react
+            yarn build
+            cd ../angular
+            yarn build  
+            cd ..
+            yarn test:progress
