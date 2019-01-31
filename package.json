@@ -12,6 +12,7 @@
   "dependencies": {},
   "scripts": {
     "test": "./buildTests.sh",
+    "test:full": "yarn install && yarn install --dev && yarn test",
     "index": "cp design/META.json svg/index.json",
     "move": "mkdir -p tmp && mv svg/README.md tmp/README.md && mv svg/package.json tmp/package.json",
     "move-back": "mv tmp/README.md svg/README.md && mv tmp/package.json svg/package.json && rm -rf tmp",

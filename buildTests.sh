@@ -4,13 +4,6 @@ GREEN='\033[0;32m'
 GRAY='\033[1;30m'
 NC='\033[0m' # No Color
 
-
-echo "Installing dependencies..."
-yarn install
-yarn install --dev
-echo "Building icon packages..."
-yarn build
-
 echo -n "Checking for svg folder..."
 if [ ! -d ./svg ]; then echo -e "${RED}Not Found${NC}" && exit 1; fi
 if [ ! -s ./svg ]; then echo -e "${RED}Directory Empty${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi

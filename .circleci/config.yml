@@ -5,7 +5,15 @@ jobs:
       - image: circleci/node:8.1.4-browsers
     steps:
       - checkout
-      - run: yarn
+      - run: 
+          name: Install Dependencies
+          command: yarn install
       - run:
-          name: Check Build
+          name: Install Dev Dependencies
+          command: yarn install --dev
+      - run:
+          name: Build Packages
+          command: yarn build
+      -run:
+          name: Verify Build Artifacts
           command: yarn test
