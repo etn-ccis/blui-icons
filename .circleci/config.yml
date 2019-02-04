@@ -41,3 +41,10 @@ jobs:
             cd ..
             cd ..
             yarn test:progress
+      - run:
+          name: Test progress icon utility functions
+          command: |
+            cd progress/react
+            yarn test
+            cd ../angular
+            yarn test
