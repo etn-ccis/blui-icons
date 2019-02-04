@@ -1,6 +1,7 @@
 # PX Blue Symbols
 [![](https://img.shields.io/npm/v/@pxblue/symbols.svg?label=@pxblue/symbols&style=flat)](https://www.npmjs.com/package/@pxblue/symbols)
 [![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat)](https://circleci.com/gh/pxblue/icons/tree/master)
+
 This is a library of one-line symbols for use in PX Blue applications.
 
 ## Installation
