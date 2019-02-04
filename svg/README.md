@@ -1,4 +1,8 @@
 # PX Blue SVG Icons
+[![](https://img.shields.io/npm/v/@pxblue/icons-svg.svg?label=@pxblue/icons-svg&style=flat)](https://www.npmjs.com/package/@pxblue/icons-svg)
+[![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat)](https://circleci.com/gh/pxblue/icons/tree/master)
+
+
 This is a library of SVG Icons for use in PX Blue applications.
 
 ## Installation
