@@ -2,6 +2,9 @@
 /node_modules
 **/**/node_modules
 .gitignore
+.babelrc
+svgBuildTest.sh
+progressBuildTest.sh
 
 
 package-lock.json
@@ -13,6 +16,7 @@ yarn.lock
 # src folders
 /circle
 /.circleci
+/progress
 /design
 /symbols
 /svg

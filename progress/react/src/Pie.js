@@ -1,13 +1,5 @@
 import React from 'react';
-
-const getCoordinates = (percent) => {
-  const radius = 12;
-  const degrees = percent*3.6;
-  return {
-    x: radius + (radius * Math.cos( (Math.PI/180) * (degrees))),
-    y: radius + (radius * Math.sin( (Math.PI/180) * (degrees)))
-  }
-}
+import {getCoordinates } from './utilities';
 
 export const Pie = ({ percent=100, size=24, color, ring=10, style, ...props }) => { 
   const stroke = Math.max(1,Math.min(10, Math.round(ring)));

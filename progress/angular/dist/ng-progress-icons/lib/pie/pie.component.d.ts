@@ -7,8 +7,8 @@ export declare class PieComponent implements OnInit {
     stroke: number;
     constructor();
     ngOnInit(): void;
-    rangeValue(value: any, min: any, max: any): number;
-    getCoordinates(percent: any): {
+    rv: (value: any, min: any, max: any) => number;
+    gc: (percent: any) => {
         x: number;
         y: number;
     };

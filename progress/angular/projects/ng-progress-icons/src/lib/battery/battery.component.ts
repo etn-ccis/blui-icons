@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { rangeValue } from '../utilities';
 
 @Component({
   selector: 'battery-progress',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
       <clipPath id="pxb-battery-clip">
         <path overflow="visible" d="M20,8.33C20,7.6,19.4,7,18.67,7H3.34C2.6,7,2,7.6,2,8.33v7.33C2,16.4,2.6,17,3.33,17h15.34C19.4,17,20,16.4,20,15.67V8.33z"/>
       </clipPath> 
-      <rect [attr.fill]="color || 'currentColor'" x="2" y="7" clip-path="url(#pxb-battery-clip)" [attr.width]="rangeValue(percent/100*18, 0, 100)" height="10" />
+      <rect [attr.fill]="color || 'currentColor'" x="2" y="7" clip-path="url(#pxb-battery-clip)" [attr.width]="rv(percent/100*18, 0, 100)" height="10" />
     </svg>
   `,
   styles: [],
@@ -23,8 +24,6 @@ export class BatteryComponent implements OnInit {
   ngOnInit() {
   }
 
-  rangeValue(value, min, max){
-    return Math.max(min,Math.min(value,max))
-  }
+  rv = rangeValue;
 
 }

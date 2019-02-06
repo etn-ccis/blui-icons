@@ -11,6 +11,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {},
   "scripts": {
+    "test:functions": "cd progress/react && yarn test && cd ../angular && yarn test && cd ../..",
     "test:svg": "./svgBuildTest.sh",
     "test:progress": "./progressBuildTest.sh",
     "test:all": "yarn install && yarn install --dev && yarn test:svg && yarn test:progress",
