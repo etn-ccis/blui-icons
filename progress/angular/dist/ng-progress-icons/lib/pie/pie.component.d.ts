@@ -8,7 +8,7 @@ export declare class PieComponent implements OnInit {
     constructor();
     ngOnInit(): void;
     rv: (value: any, min: any, max: any) => number;
-    gc: (percent: any) => {
+    gc: (percent: any, radius?: number) => {
         x: number;
         y: number;
     };

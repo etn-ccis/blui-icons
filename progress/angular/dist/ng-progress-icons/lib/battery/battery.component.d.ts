@@ -5,5 +5,5 @@ export declare class BatteryComponent implements OnInit {
     color: string;
     constructor();
     ngOnInit(): void;
-    rangeValue(value: any, min: any, max: any): number;
+    rv: (value: any, min: any, max: any) => number;
 }
