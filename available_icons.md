@@ -12,6 +12,7 @@ Currently, we have icons available for:
 * current_circled
 * current_circled_outline
 * device
+* environment
 * ephesus_fixture
 * ephesus_gateway
 * fan
@@ -44,10 +45,12 @@ Currently, we have icons available for:
 * scan_qrcode
 * server
 * servers
+* soybean
 * ssol
 * stopped
 * stopping
 * switch
+* temp
 * trending_down
 * trending_flat
 * trending_up
