@@ -5,6 +5,7 @@
 **/**/package-lock.json
 **/**/yarn.lock
 .babelrc
+utilities.test.js
 
 # production
 /build
