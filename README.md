@@ -1,4 +1,11 @@
 # PX Blue Supplemental Icons
+[![](https://img.shields.io/npm/v/@pxblue/icons.svg?label=@pxblue/icons&style=flat)](https://www.npmjs.com/package/@pxblue/icons) 
+[![](https://img.shields.io/npm/v/@pxblue/icons-svg.svg?label=@pxblue/icons-svg&style=flat)](https://www.npmjs.com/package/@pxblue/icons-svg)
+[![](https://img.shields.io/npm/v/@pxblue/ng-progress-icons.svg?label=@pxblue/ng-progress-icons&style=flat)](https://www.npmjs.com/package/@pxblue/ng-progress-icons)
+[![](https://img.shields.io/npm/v/@pxblue/react-progress-icons.svg?label=@pxblue/react-progress-icons&style=flat)](https://www.npmjs.com/package/@pxblue/react-progress-icons)
+[![](https://img.shields.io/npm/v/@pxblue/symbols.svg?label=@pxblue/symbols&style=flat)](https://www.npmjs.com/package/@pxblue/symbols)
+[![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat)](https://circleci.com/gh/pxblue/icons/tree/master)
+
 This is a library of supplemental icons, to be used in conjunction with the standard Material Design icons in PX Blue applications.
 
 
@@ -34,71 +41,15 @@ This will make the PX Blue icons available to your code by using the appropriate
 <i class="pxb-ICONNAME"></i>
 ```
 
+### Applying Different Colors
+To change the color of the icon you are using, simply set the CSS color property. This property is inheritable, so if the property is not set on your icon, it will be inherited from the parent container.
+
+```
+<i class="pxb-ICONNAME" style="color: red"></i>
+```
+
 ### Available Icons
-Currently, we have icons available for:
-* air_filter
-* bearing
-* breaker
-* bypass_battery
-* camera
-* capacitor
-* computer
-* contactor
-* current
-* current_circled
-* current_circled_outline
-* device
-* ephesus_fixture
-* ephesus_gateway
-* fan
-* flow
-* forklift
-* generator
-* generator_off
-* grade_a
-* grade_b
-* grade_c
-* grade_d
-* grade_f
-* health
-* leaf
-* maintenance
-* moisture
-* overlap
-* network_switch
-* pdu
-* pickup_truck
-* priority
-* pump
-* power_circled
-* power_circled_outline
-* push_notification
-* push_notification_solid
-* qrcode
-* running_high
-* running_low
-* scan_qrcode
-* server
-* servers
-* ssol
-* stopped
-* stopping
-* switch
-* trending_down
-* trending_flat
-* trending_up
-* tripped
-* utility
-* vgd
-* vmms
-* voltage
-* voltage_circled
-* voltage_circled_outline
-* water
-* water_outline
-* waveform
-* xstorage
-* xstorage_alt
+See [Available Icons](https://github.com/pxblue/icons/blob/master/available_icons.md) for a list of currently available icons.
 
 ## Usage Alternatives
 The icon font is a great way to include lots of icons in your application. If you only need a few, you can also check out these alternative packages:

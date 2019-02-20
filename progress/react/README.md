@@ -1,4 +1,8 @@
 # PX Blue Progress Icons
+
+[![](https://img.shields.io/npm/v/@pxblue/react-progress-icons.svg?label=@pxblue/react-progress-icons&style=flat)](https://www.npmjs.com/package/@pxblue/react-progress-icons)
+[![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat)](https://circleci.com/gh/pxblue/icons/tree/master)
+
 This is a library of icons with dynamic fill capabilities that can be used to show progress (similar to a traditional progress spinner or bar). These can be used to show health, battery life, etc.
 
 Currently, we have icons available for:
@@ -28,4 +32,4 @@ import {Battery, Heart, Pie} from '@pxblue/react-progress-icons';
 * ```percent``` (Number): the amount to fill the icon. **Default**: 100.
 * ```size``` (Number): the size of the icon (px). **Default**: 24.
 * ```color``` (String): the color to use for the icon. **Default**: inherit. Color can also be set through the ```style``` property.
-* ```ring``` (Number, *Pie only*): the thickness of the outer ring, as a percent (1 (thin ring) - 10 (full circle)). **Default**: 10.
+* ```ring``` (Number, *Pie only*): the thickness of the outer ring (1 (thin ring) - 10 (full circle)). **Default**: 10.

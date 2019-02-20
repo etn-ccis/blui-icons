@@ -1,0 +1,60 @@
+version: 2
+jobs:
+  build:
+    docker: 
+      - image: circleci/node:8.11-browsers
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/package.json" }}-{{ checksum "./progress/react/package.json" }}
+          - v1-dependencies-
+      - run: 
+          name: Install Dependencies
+          command: |
+            yarn install
+            cd progress/react
+            yarn install
+            cd ../angular
+            yarn install
+            cd ..
+            cd ..
+      - run:
+          name: Install Dev Dependencies
+          command: |
+            yarn install --dev
+            cd progress/react
+            yarn install --dev
+            cd ../angular
+            yarn install --dev
+            cd ..
+            cd ..
+      - save_cache:
+          paths:
+            - node_modules
+            - progress/react/node_modules
+            - progress/angular/node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/package.json" }}-{{ checksum "./progress/react/package.json" }}
+      - run:
+          name: Build Packages
+          command: yarn build
+      - run:
+          name: Verify SVG Build Artifacts
+          command: yarn test:svg
+      - run:
+          name: Verify Progress Icon Build Artifacts
+          command: |
+            cd progress/react
+            yarn build
+            cd ../angular
+            yarn build  
+            cd ..
+            cd ..
+            yarn test:progress
+      - run:
+          name: Test progress icon utility functions
+          command: |
+            cd progress/react
+            yarn test
+            cd ../angular
+            yarn test

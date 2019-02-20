@@ -1,0 +1,38 @@
+{
+  "name": "@pxblue/ng-progress-icons",
+  "version": "1.1.1",
+  "description": "Angular progress icons for PX Blue applications",
+  "main": "bundles/pxblue-ng-progress-icons.umd.js",
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxblue/icons.git"
+  },
+  "keywords": [
+    "progress",
+    "icons",
+    "pxblue"
+  ],
+  "author": "pxblue <pxblue@eaton.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/pxblue/icons/issues"
+  },
+  "homepage": "https://github.com/pxblue/icons#readme",
+  "module": "fesm5/pxblue-ng-progress-icons.js",
+  "es2015": "fesm2015/pxblue-ng-progress-icons.js",
+  "esm5": "esm5/pxblue-ng-progress-icons.js",
+  "esm2015": "esm2015/pxblue-ng-progress-icons.js",
+  "fesm5": "fesm5/pxblue-ng-progress-icons.js",
+  "fesm2015": "fesm2015/pxblue-ng-progress-icons.js",
+  "typings": "pxblue-ng-progress-icons.d.ts",
+  "metadata": "pxblue-ng-progress-icons.metadata.json",
+  "sideEffects": false
+}

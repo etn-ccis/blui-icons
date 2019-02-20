@@ -1,9 +1,0 @@
-version: 2
-jobs:
-  build:
-    docker: 
-      - image: circleci/node:8.1.4-browsers
-    steps:
-      - checkout
-      - run: npm install
-      - run: npx icon-font-generator design/**/*.svg design/**/**/*.svg -o iconfont

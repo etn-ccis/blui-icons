@@ -60,7 +60,7 @@
 
 		{
 			"name": "Capacitor Large",
-			"filename": "capacitor-large.svg",
+			"filename": "capacitor_large.svg",
 			"family": ["Devices"],
 			"style":"baseline",
 			"tags":["device","product","equipment","component","ups","electrical","industrial","power","capacity"],
@@ -186,16 +186,6 @@
 		},
 
 		{
-			"name": "PDU",
-			"filename": "pdu.svg",
-			"family": ["Devices"],
-			"style":"baseline",
-			"tags":["device","product","equipment","electrical","power", "distribution", "unit", "outlet","mains","MDU","data","center","datacenter","it","network","power strip","cabinet"],
-			"author": "Eric Atha",
-			"size": 24
-		},
-
-		{
 			"name": "Server",
 			"filename": "server.svg",
 			"family": ["Devices"],
@@ -217,7 +207,7 @@
 
 		{
 			"name": "SSOL",
-			"filename": "servers.svg",
+			"filename": "ssol.svg",
 			"family": ["Devices"],
 			"style":"baseline",
 			"tags":["device","product","equipment","electrical","solid state","overload","relay","protection","starter","motor"],
@@ -228,7 +218,7 @@
 
 		{
 			"name": "Switch",
-			"filename": "servers.svg",
+			"filename": "switch.svg",
 			"family": ["Devices"],
 			"style":"baseline",
 			"tags":["device","product","equipment","electrical","switch","circuit","interrupt"],
@@ -758,16 +748,6 @@
 			"style":"baseline",
 			"tags":["ups","battery","bypass","power","supply","output","input"],
 			"description":"Represents a UPS bypassing battery status",
-			"author": "Eric Atha",
-			"size": 24
-		},
-		
-		{
-			"name": "Current",
-			"filename": "current.svg",
-			"family": ["Status"],
-			"style":"baseline",
-			"tags":["current","electrical","electric","charge","amp","amps","ampere","flow","ciruit"],
 			"author": "Eric Atha",
 			"size": 24
 		},

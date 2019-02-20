@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/symbols",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Oneline symbols for PX Blue applications",
   "main": "index.js",
   "scripts": {
