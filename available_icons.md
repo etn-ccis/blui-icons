@@ -51,6 +51,10 @@ Currently, we have icons available for:
 * stopping
 * switch
 * temp
+* toggle_off
+* toggle_on
+* toggle_off_outlined
+* toggle_on_outlined
 * trending_down
 * trending_flat
 * trending_up
