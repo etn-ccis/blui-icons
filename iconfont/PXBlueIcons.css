@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?9d78460a03fdd501bf55c59e129f09a5?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?9d78460a03fdd501bf55c59e129f09a5") format("woff2"),
-url("./PXBlueIcons.woff?9d78460a03fdd501bf55c59e129f09a5") format("woff"),
-url("./PXBlueIcons.ttf?9d78460a03fdd501bf55c59e129f09a5") format("truetype"),
-url("./PXBlueIcons.svg?9d78460a03fdd501bf55c59e129f09a5#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?861f092904682ffc34be85e35db1adb0?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?861f092904682ffc34be85e35db1adb0") format("woff2"),
+url("./PXBlueIcons.woff?861f092904682ffc34be85e35db1adb0") format("woff"),
+url("./PXBlueIcons.ttf?861f092904682ffc34be85e35db1adb0") format("truetype"),
+url("./PXBlueIcons.svg?861f092904682ffc34be85e35db1adb0#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -159,72 +159,87 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-servers:before {
     content: "\f12f";
 }
-.pxb-sports_car:before {
+.pxb-soybean:before {
     content: "\f130";
 }
-.pxb-ssol:before {
+.pxb-sports_car:before {
     content: "\f131";
 }
-.pxb-stopped:before {
+.pxb-ssol:before {
     content: "\f132";
 }
-.pxb-stopping:before {
+.pxb-stopped:before {
     content: "\f133";
 }
-.pxb-switch:before {
+.pxb-stopping:before {
     content: "\f134";
 }
-.pxb-temp:before {
+.pxb-switch:before {
     content: "\f135";
 }
-.pxb-tractor:before {
+.pxb-temp:before {
     content: "\f136";
 }
-.pxb-tree:before {
+.pxb-toggle_off:before {
     content: "\f137";
 }
-.pxb-trending_down:before {
+.pxb-toggle_off_outlined:before {
     content: "\f138";
 }
-.pxb-trending_flat:before {
+.pxb-toggle_on:before {
     content: "\f139";
 }
-.pxb-trending_up:before {
+.pxb-toggle_on_outlined:before {
     content: "\f13a";
 }
-.pxb-utility:before {
+.pxb-tractor:before {
     content: "\f13b";
 }
-.pxb-utility_van:before {
+.pxb-tree:before {
     content: "\f13c";
 }
-.pxb-vfd:before {
+.pxb-trending_down:before {
     content: "\f13d";
 }
-.pxb-vmms:before {
+.pxb-trending_flat:before {
     content: "\f13e";
 }
-.pxb-voltage:before {
+.pxb-trending_up:before {
     content: "\f13f";
 }
-.pxb-voltage_circled:before {
+.pxb-utility:before {
     content: "\f140";
 }
-.pxb-voltage_circled_outline:before {
+.pxb-utility_van:before {
     content: "\f141";
 }
-.pxb-water:before {
+.pxb-vfd:before {
     content: "\f142";
 }
-.pxb-water_outline:before {
+.pxb-vmms:before {
     content: "\f143";
 }
-.pxb-waveform:before {
+.pxb-voltage:before {
     content: "\f144";
 }
-.pxb-xstorage:before {
+.pxb-voltage_circled:before {
     content: "\f145";
 }
-.pxb-xstorage_alt:before {
+.pxb-voltage_circled_outline:before {
     content: "\f146";
+}
+.pxb-water:before {
+    content: "\f147";
+}
+.pxb-water_outline:before {
+    content: "\f148";
+}
+.pxb-waveform:before {
+    content: "\f149";
+}
+.pxb-xstorage:before {
+    content: "\f14a";
+}
+.pxb-xstorage_alt:before {
+    content: "\f14b";
 }
