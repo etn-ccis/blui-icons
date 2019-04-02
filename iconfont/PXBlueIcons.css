@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?861f092904682ffc34be85e35db1adb0?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?861f092904682ffc34be85e35db1adb0") format("woff2"),
-url("./PXBlueIcons.woff?861f092904682ffc34be85e35db1adb0") format("woff"),
-url("./PXBlueIcons.ttf?861f092904682ffc34be85e35db1adb0") format("truetype"),
-url("./PXBlueIcons.svg?861f092904682ffc34be85e35db1adb0#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?289a2341dda29f32f59783ec95489173?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?289a2341dda29f32f59783ec95489173") format("woff2"),
+url("./PXBlueIcons.woff?289a2341dda29f32f59783ec95489173") format("woff"),
+url("./PXBlueIcons.ttf?289a2341dda29f32f59783ec95489173") format("truetype"),
+url("./PXBlueIcons.svg?289a2341dda29f32f59783ec95489173#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
