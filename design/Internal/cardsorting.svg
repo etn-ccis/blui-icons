@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="a">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>cardsorting</title>
+  <g clip-path="url(#a)">
+    <rect width="24" height="24" fill="none" stroke="#000" stroke-width="0" opacity="0.01"/>
+  </g>
+  <g>
+    <rect x="2" y="14" width="6" height="6"/>
+    <rect x="9" y="14" width="6" height="6"/>
+    <rect x="16" y="14" width="6" height="6"/>
+    <polygon points="5.99 9 11 9 13 9 18.01 9 18.01 12 22 8 18.01 4 18.01 7 13 7 11 7 5.99 7 5.99 4 2 8 5.99 12 5.99 9"/>
+  </g>
+</svg>

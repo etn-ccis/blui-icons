@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>contextualinquiry</title>
+  <g>
+    <circle cx="18.5" cy="4" r="2"/>
+    <circle cx="9.5" cy="4" r="2"/>
+    <path d="M20,7H17a2,2,0,0,0-2,2v5.5h1.5V22h4V14.5H22V9A2,2,0,0,0,20,7Z"/>
+    <path d="M11,7H7.68a2.19,2.19,0,0,0-.36,0L2,8V9.5l3.14-.57a2,2,0,0,1,2.36,2V22h4V14.5H13V9A2,2,0,0,0,11,7Z"/>
+  </g>
+</svg>

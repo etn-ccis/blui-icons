@@ -1852,8 +1852,172 @@
 			"description":"Studio Blue logo icon graphic",
 			"author": "Eric Atha",
 			"size": 24
-		}
+		},
 
+		{
+			"name": "PXRed",
+			"filename": "pxred.svg",
+			"family": ["Platform"],
+			"style":"baseline",
+			"tags":["pxred","red","power","xpert","platform","framework","ccis","px","code","logo","toolkit","linux"],
+			"description":"Power Xpert Red icon graphic, redesigned on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "PXGreen",
+			"filename": "pxgreen.svg",
+			"family": ["Platform"],
+			"style":"baseline",
+			"tags":["pxgreen","green","power","xpert","platform","framework","ccis","px","code","logo","toolkit","embedded"],
+			"description":"Power Xpert Green icon graphic, redesigned on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "PXWhite",
+			"filename": "pxwhite.svg",
+			"family": ["Platform"],
+			"style":"baseline",
+			"tags":["pxwhite","white","power","xpert","platform","framework","ccis","px","code","logo","cloud","iot"],
+			"description":"Power Xpert White icon graphic, redesigned on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Affinity",
+			"filename": "affinity.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["affinity","diagram","ux","method","post-it","sticky","note","organize"],
+			"description":"Icon to represent Affinity Diagrams",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Card Sorting",
+			"filename": "cardsorting.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["diagram","ux","method","post-it","sticky","note","organize"],
+			"description":"Icon to represent Card Sorting",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Contextual Inquiry",
+			"filename": "contextualinquiry.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["diagram","ux","method","interviews","information"],
+			"description":"Icon to represent Card Sorting",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Journey Map",
+			"filename": "journeymap.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["diagram","ux","method","interviews","mapping"],
+			"description":"Icon to represent Card Sorting",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Adobe Illustrator",
+			"filename": "adobe_ai.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","illustrator","creative","cc","app","design","software"],
+			"description":"Adobe Illustrator icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Adobe Photoshop",
+			"filename": "adobe_ps.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","photoshop","creative","cc","app","design","software"],
+			"description":"Adobe Illustrator icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Adobe XD",
+			"filename": "adobe_ai.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","xd","creative","cc", "app","design","software"],
+			"description":"Adobe XD icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Adobe InDesign",
+			"filename": "adobe_id.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","xd","creative","cc", "app","design","software"],
+			"description":"Adobe InDesign icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Sketch",
+			"filename": "Sketch.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["sketch","app","design","software"],
+			"description":"Sketch icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "UserInterviews.com",
+			"filename": "userinterviewscom.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["user","interviews",".com","testing"],
+			"description":"UserInterviews.com icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "iOS App Icon",
+			"filename": "iosapp.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["iOS","app","icon","iPhone","eaton","presentation","brand"],
+			"description":"iOS App Icon with Eaton Badge",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Control Xpert",
+			"filename": "cxag.svg",
+			"family": ["Product"],
+			"style":"baseline",
+			"tags":["product","app"],
+			"description":"Icon for the Control Xpert Ag (Glacier Point) product",
+			"author": "Eric Atha",
+			"size": 24
+		},
 
 	]
 }
