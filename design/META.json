@@ -1646,7 +1646,7 @@
 		},
 
 		{
-			"name": "waveform",
+			"name": "Waveform",
 			"filename": "waveform.svg",
 			"family": ["Status"],
 			"style":"baseline",
@@ -1769,6 +1769,85 @@
 			"size": 24
 		},
 
+		{
+			"name": "Corn",
+			"filename": "corn.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["corn","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Asparagus",
+			"filename": "asparagus.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["asparagus","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Corn",
+			"filename": "corn.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["corn","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Barley",
+			"filename": "barley.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["barley","grain","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Grass",
+			"filename": "grass.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["grass","grain","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Tomato",
+			"filename": "tomato.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["tomato","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Potato",
+			"filename": "potato.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["potato","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Broccoli",
+			"filename": "broccoli.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["broccoli","cauliflower","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
 
 		{
 			"name": "Pickup Truck",
