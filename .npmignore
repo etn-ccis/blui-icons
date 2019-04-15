@@ -6,7 +6,10 @@
 svgBuildTest.sh
 progressBuildTest.sh
 
+# markdown
+available_symbols.md
 
+# lock files
 package-lock.json
 yarn.lock
 

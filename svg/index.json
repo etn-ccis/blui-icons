@@ -1493,6 +1493,51 @@
 
 
 		{
+			"name": "Toggle On",
+			"filename": "toggle_on.svg",
+			"family": ["Status","Toggle"],
+			"style":"baseline",
+			"tags":["toggle"],
+			"description":"A toggle that is toggled on",
+			"author": "Google",
+			"size": 24
+		},
+
+		{
+			"name": "Toggle Off",
+			"filename": "toggle_off.svg",
+			"family": ["Status","Toggle"],
+			"style":"baseline",
+			"tags":["toggle"],
+			"description":"A toggle that is toggled off",
+			"author": "Google",
+			"size": 24
+		},
+
+		{
+			"name": "Toggle On Outlined",
+			"filename": "toggle_on_outlined.svg",
+			"family": ["Status","Toggle"],
+			"style":"baseline",
+			"tags":["toggle"],
+			"description":"An outlined toggle that is toggled on",
+			"author": "Google",
+			"size": 24
+		},
+
+		{
+			"name": "Toggle Off Outlined",
+			"filename": "toggle_off_outlined.svg",
+			"family": ["Status","Toggle"],
+			"style":"outlined",
+			"tags":["toggle"],
+			"description":"An outlined toggle that is toggled off",
+			"author": "Google",
+			"size": 24
+		},
+
+
+		{
 			"name": "Trending Up",
 			"filename": "trending_up.svg",
 			"family": ["Status"],
@@ -1720,7 +1765,7 @@
 			"family": ["Agriculture"],
 			"style":"baseline",
 			"tags":["soy","crop","farm","plant","grow","feed","food"],
-			"author": "Eric Atha",
+			"author": "Icons8",
 			"size": 24
 		},
 
