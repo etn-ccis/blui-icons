@@ -2028,6 +2028,17 @@
 		},
 
 		{
+			"name": "Eaton Logo",
+			"filename": "eaton.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["eaton","logo"],
+			"description":"Eaton Logo icons, very slightly tweaked to fit into a grid",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "Affinity",
 			"filename": "affinity.svg",
 			"family": ["Internal"],
