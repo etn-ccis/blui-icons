@@ -1830,6 +1830,26 @@
 		},
 
 		{
+			"name": "Garlic",
+			"filename": "garlic.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["garlic","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Carrot",
+			"filename": "carrot.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["carrot","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
 			"name": "Potato",
 			"filename": "potato.svg",
 			"family": ["Agriculture"],
@@ -1845,6 +1865,26 @@
 			"family": ["Agriculture"],
 			"style":"baseline",
 			"tags":["broccoli","cauliflower","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Pepper",
+			"filename": "pepper.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["green","pepper","crop","farm","plant","grow","feed","food","spice"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Chili Pepper",
+			"filename": "chilipepper.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["chili","pepper","crop","farm","plant","grow","feed","food","spice","hot"],
 			"author": "Icons8",
 			"size": 24
 		},
@@ -1906,6 +1946,16 @@
 			"style":"baseline",
 			"tags":["car","agriculture","transport","automotive","farm","harvest"],
 			"author": "Green Turtwig, materialdesignicons.com",
+			"size": 24
+		},
+
+		{
+			"name": "Combine Harvester",
+			"filename": "combine_harvester.svg",
+			"family": ["Vehicles", "Agriculture"],
+			"style":"baseline",
+			"tags":["equipment","agriculture","transport","automotive","farm","harvest"],
+			"author": "icons8",
 			"size": 24
 		},
 
