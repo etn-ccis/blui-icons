@@ -1984,6 +1984,17 @@
 		},
 
 		{
+			"name": "Studio Blue Outlined",
+			"filename": "studioblue_outline.svg",
+			"family": ["Platform"],
+			"style":"outlined",
+			"tags":["sb","blue","platform","ux","service","ccis","design","user experience","graphic","logo"],
+			"description":"Studio Blue logo icon graphic",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "PXRed",
 			"filename": "pxred.svg",
 			"family": ["Platform"],
@@ -2000,7 +2011,7 @@
 			"family": ["Platform"],
 			"style":"baseline",
 			"tags":["pxgreen","green","power","xpert","platform","framework","ccis","px","code","logo","toolkit","embedded"],
-			"description":"Power Xpert Green icon graphic, redesigned on the Material Design Icon spec",
+			"description":"Power Xpert Green icon graphic, (somewhat) redesigned on the Material Design Icon spec",
 			"author": "Eric Atha",
 			"size": 24
 		},
