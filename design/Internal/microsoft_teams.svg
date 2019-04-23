@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>microsoft_teams</title>
+  <rect width="24" height="24" fill="none"/>
+  <path d="M2,4.8V19.21L14,21V3.08Zm9,4.58-2.09.21V17L6.6,16.66V9.78L4.51,10V8.09L11,7.16Z"/>
+  <circle cx="15" cy="8" r="2"/>
+  <path d="M13,18h2.53A1.47,1.47,0,0,0,17,16.53V11H13Z"/>
+  <circle cx="20" cy="9" r="2"/>
+  <path d="M18,17h2a2,2,0,0,0,2-2V12H18Z"/>
+</svg>

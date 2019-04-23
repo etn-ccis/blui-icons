@@ -156,6 +156,16 @@
 		},
 
 		{
+			"name": "Handheld Radio",
+			"filename": "radio_handheld.svg",
+			"family": ["Devices"],
+			"style":"baseline",
+			"tags":["device","product","equipment","walkie-talkie","transceiver","HT","portable","radio","handset","communication","service"],
+			"author": "Cody @XT3000, materialdesignicons.com",
+			"size": 24
+		},
+
+		{
 			"name": "Network Switch",
 			"filename": "network_switch.svg",
 			"family": ["Devices"],
@@ -259,20 +269,6 @@
 			"description":"Represents the ESB product xStorage",
 			"size": 24
 		},
-
-
-		{
-			"name": "Handheld Radio",
-			"filename": "radio_handheld.svg",
-			"family": ["Devices"],
-			"style":"baseline",
-			"tags":["device","product","equipment","walkie-talkie","transceiver","HT","portable","radio","handset","communication","service"],
-			"author": "Cody @XT3000, materialdesignicons.com",
-			"size": 24
-		},
-
-
-
 
 	
 		{
@@ -1673,6 +1669,7 @@
 			"style":"baseline",
 			"tags":["leaf","crop","fruit","vegetable","farm","plant","grow","feed","eco","environment","green"],
 			"author": "Eric Atha",
+			"status": "possible redraw",
 			"size": 24
 		},
 
@@ -1770,16 +1767,6 @@
 		},
 
 		{
-			"name": "Corn",
-			"filename": "corn.svg",
-			"family": ["Agriculture"],
-			"style":"baseline",
-			"tags":["corn","crop","farm","plant","grow","feed","food"],
-			"author": "Icons8",
-			"size": 24
-		},
-
-		{
 			"name": "Asparagus",
 			"filename": "asparagus.svg",
 			"family": ["Agriculture"],
@@ -1796,6 +1783,7 @@
 			"style":"baseline",
 			"tags":["corn","crop","farm","plant","grow","feed","food"],
 			"author": "Icons8",
+			"status": "redraw",
 			"size": 24
 		},
 
@@ -1816,6 +1804,7 @@
 			"style":"baseline",
 			"tags":["grass","grain","crop","farm","plant","grow","feed","food"],
 			"author": "Icons8",
+			"status": "redraw",
 			"size": 24
 		},
 
@@ -1826,6 +1815,7 @@
 			"style":"baseline",
 			"tags":["tomato","crop","farm","plant","grow","feed","food"],
 			"author": "Icons8",
+			"status": "possibly redraw",
 			"size": 24
 		},
 
@@ -1888,6 +1878,38 @@
 			"author": "Icons8",
 			"size": 24
 		},
+
+		{
+			"name": "Sunflower",
+			"filename": "sunflower.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["flower","crop","farm","plant","grow","feed","food","seed"],
+			"author": "Icons8",
+			"status": "possibly redraw",
+			"size": 24
+		},
+
+		{
+			"name": "Silo",
+			"filename": "silo.svg",
+			"family": ["Agriculture", "Building"],
+			"style":"baseline",
+			"tags":["farm","feed","food","grain","structure"],
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Barn",
+			"filename": "barn.svg",
+			"family": ["Agriculture", "Building"],
+			"style":"baseline",
+			"tags":["farm","structure"],
+			"author": "Unknown",
+			"size": 24
+		},
+
 
 		{
 			"name": "Pickup Truck",
@@ -2028,9 +2050,31 @@
 		},
 
 		{
+			"name": "Cybersecurity",
+			"filename": "cybersecurity.svg",
+			"family": ["Platform"],
+			"style":"baseline",
+			"tags":["security","secure","lock","protection","certified","platform","framework","ccis",,"code","logo","cloud","iot","technology"],
+			"description":"Cybersecurity icon graphic, redesigned on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Cybersecurity",
+			"filename": "cybersecurity_twotone.svg",
+			"family": ["Platform"],
+			"style":"two-tone",
+			"tags":["security","secure","lock","protection","certified","platform","framework","ccis",,"code","logo","cloud","iot","technology"],
+			"description":"Cybersecurity icon graphic, redesigned on the Material Design Icon spec, includes two-tone traces in the background at 50% opacity",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "Eaton Logo",
 			"filename": "eaton.svg",
-			"family": ["Internal"],
+			"family": ["Internal", "Platform"],
 			"style":"baseline",
 			"tags":["eaton","logo"],
 			"description":"Eaton Logo icons, very slightly tweaked to fit into a grid",
@@ -2161,10 +2205,10 @@
 
 		{
 			"name": "Control Xpert",
-			"filename": "cxag.svg",
+			"filename": "controlxpert.svg",
 			"family": ["Product"],
 			"style":"baseline",
-			"tags":["product","app"],
+			"tags":["product","app","remote","agriculture","CX","icd","pump","drive","starter"],
 			"description":"Icon for the Control Xpert Ag (Glacier Point) product",
 			"author": "Eric Atha",
 			"size": 24
