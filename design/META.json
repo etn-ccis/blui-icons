@@ -2125,6 +2125,17 @@
 			"author": "Eric Atha",
 			"size": 24
 		},
+		
+		{
+			"name": "Adobe",
+			"filename": "adobe.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","creative","cc","app","design","software","company"],
+			"description":"Adobe logo",
+			"author": "Unknown",
+			"size": 24
+		},
 
 		{
 			"name": "Adobe Illustrator",
@@ -2143,7 +2154,7 @@
 			"family": ["Internal"],
 			"style":"baseline",
 			"tags":["adobe","photoshop","creative","cc","app","design","software"],
-			"description":"Adobe Illustrator icon, designed on the Material Design Icon spec",
+			"description":"Adobe Photoshop icon, designed on the Material Design Icon spec",
 			"author": "Eric Atha",
 			"size": 24
 		},
@@ -2172,12 +2183,322 @@
 
 		{
 			"name": "Sketch",
-			"filename": "Sketch.svg",
+			"filename": "sketch.svg",
 			"family": ["Internal"],
 			"style":"baseline",
 			"tags":["sketch","app","design","software"],
 			"description":"Sketch icon, designed on the Material Design Icon spec",
 			"author": "Eric Atha",
+			"size": 24
+		},
+
+
+		{
+			"name": "Microsoft",
+			"filename": "microsoft.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","company"],
+			"description":"Microsoft logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Office",
+			"filename": "microsoft_office.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office"],
+			"description":"Microsoft Office logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Outlook",
+			"filename": "microsoft_outlook.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","outlook","email","client"],
+			"description":"Microsoft Outlook",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft OneNote",
+			"filename": "microsoft_onenote.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","onenote","notes"],
+			"description":"Microsoft OneNote",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Powerpoint",
+			"filename": "microsoft_powerpoint.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","powerpoint","slide","slidedeck","presentation","ppt","pptx"],
+			"description":"Microsoft Powerpoint",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Teams",
+			"filename": "microsoft_teams.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","teams","collaboration","communication"],
+			"description":"Microsoft Teams",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Yammer",
+			"filename": "microsoft_yammer.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","yammer","social","forum"],
+			"description":"Microsoft Yammer",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Edge",
+			"filename": "microsoft_edge.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","browser","edge","web"],
+			"description":"Microsoft Edge",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Internet Explorer",
+			"filename": "microsoft_internet_explorer.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","browser","internet explorer","web", "ie"],
+			"description":"Microsoft Internet Explorer",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Windows",
+			"filename": "microsoft_windows.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","os","operating system","windows","system"],
+			"description":"Microsoft Windows",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Visual Studio",
+			"filename": "microsoft_visual_studio.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","code","visual studio","ide"],
+			"description":"Microsoft Visual Studio",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Visual Studio Code",
+			"filename": "microsoft_visual_studio_code.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","code","visual studio","ide"],
+			"description":"Microsoft Visual Studio",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Angular",
+			"filename": "angular.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["angular","framework","js","javascript","ng","angularjs"],
+			"description":"Angular icon",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Angular Outlined",
+			"filename": "angular_outlined.svg",
+			"family": ["Internal"],
+			"style":"outlined",
+			"tags":["angular","framework","js","javascript","ng","angularjs"],
+			"description":"Angular icon, outlined version",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Atlassian",
+			"filename": "atlassian.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["atlassian","company","software"],
+			"description":"Atlassian logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Atlassian Jira",
+			"filename": "atlassian_jira.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["atlassian","company","software","collaboration","issue","project","tracking","agile","tool"],
+			"description":"Atlassian Jira logo",
+			"author": "Unknown",
+			"status":"redraw using new icon design",
+			"size": 24
+		},
+
+		{
+			"name": "Amazon",
+			"filename": "amazon.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["amazon","company","software"],
+			"description":"Amazon logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Amazon Alexa",
+			"filename": "amazon_alexa.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["amazon","alexa","home","automation","voice","assistant","platform","app","store"],
+			"description":"Amazon logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Apple",
+			"filename": "Apple.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["apple","company","platform","app","store"],
+			"description":"Apple logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Box",
+			"filename": "box.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["box","company","platform","cloud","storage","service","sharing","file"],
+			"description":"Box logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Dropbox",
+			"filename": "dropbox.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["box","company","platform","cloud","storage","service","sharing","file"],
+			"description":"Dropbox logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Cordova",
+			"filename": "Cordova.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["cordova","apache","mobile","hybrid","platform"],
+			"description":"Apache Cordova icon",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Git",
+			"filename": "git.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["git","source control","repository","branch"],
+			"description":"Git logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Github",
+			"filename": "github.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["github","git","source control","service"],
+			"description":"Github logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Firefox",
+			"filename": "firefox.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["firefox","browser","web","mozilla"],
+			"description":"Mozilla Firefox logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "NativeScript",
+			"filename": "nativescript.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["nativescript","code","platform","script","mobile","app","language"],
+			"description":"NativeScript logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "CSS3",
+			"filename": "language_css3.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["CSS3","code","platform","style","language"],
+			"description":"CSS3 logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "HTML5",
+			"filename": "language_html5.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["HTML5","code","platform","language"],
+			"description":"HTML5 logo",
+			"author": "Unknown",
 			"size": 24
 		},
 
