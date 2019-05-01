@@ -26,6 +26,17 @@
 		},
 
 		{
+			"name": "Battery",
+			"filename": "battery.svg",
+			"family": ["Device"],
+			"style":"baseline",
+			"tags":["battery"],
+			"description":"Battery icon, displayed horizontally",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "Bearing",
 			"filename": "bearing.svg",
 			"family": ["Devices"],
