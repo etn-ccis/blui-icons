@@ -1,7 +1,6 @@
 import React from 'react';
 import { getCoordinates } from './utilities';
 
-
 export const Pie = ({ percent = 100, size = 24, color, ring = 10, outlined, style, ...props }) => {
   let stroke = Math.max(1, Math.min(10, Math.round(ring)));
   const iconStroke = 2;
@@ -18,7 +17,7 @@ export const Pie = ({ percent = 100, size = 24, color, ring = 10, outlined, styl
   // Inner ring
   let outerRadiusSmall = 10 - stroke + iconStroke;
   const innerRadiusSmall = 10 - stroke;
-  if (innerRadiusSmall === 0) {
+  if(innerRadiusSmall === 0){
     outerRadiusSmall = 0;
   }
 
