@@ -4,12 +4,19 @@ export declare class PieComponent implements OnInit {
     size: number;
     color: string;
     ring: number;
+    outlined: boolean;
+    outlineBase: any;
+    twoToneBase: any;
+    clipPath: any;
     stroke: number;
+    iconStroke: number;
+    centerX: number;
+    centerY: number;
+    outerRadiusLarge: number;
+    innerRadiusLarge: number;
+    outerRadiusSmall: number;
+    innerRadiusSmall: number;
     constructor();
+    getPath(): string;
     ngOnInit(): void;
-    rv: (value: any, min: any, max: any) => number;
-    gc: (percent: any, radius?: number) => {
-        x: number;
-        y: number;
-    };
 }
