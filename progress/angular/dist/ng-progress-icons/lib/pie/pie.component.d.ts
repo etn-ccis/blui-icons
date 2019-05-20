@@ -8,14 +8,14 @@ export declare class PieComponent implements OnInit {
     outlineBase: any;
     twoToneBase: any;
     clipPath: any;
-    stroke: number;
     iconStroke: number;
+    stroke: any;
     centerX: number;
     centerY: number;
     outerRadiusLarge: number;
-    innerRadiusLarge: number;
-    outerRadiusSmall: number;
-    innerRadiusSmall: number;
+    innerRadiusLarge: any;
+    outerRadiusSmall: any;
+    innerRadiusSmall: any;
     constructor();
     getPath(): string;
     ngOnInit(): void;

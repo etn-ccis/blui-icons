@@ -31,7 +31,7 @@ var Pie = function Pie(_ref) {
 
   var stroke = Math.max(1, Math.min(10, Math.round(ring)));
   var iconStroke = 2;
-  stroke = Math.max(stroke, 2 * iconStroke + 1); // Ring properties
+  stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke; // Ring properties
 
   var centerX = 12;
   var centerY = 12; // Outer ring

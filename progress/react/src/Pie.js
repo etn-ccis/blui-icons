@@ -5,7 +5,8 @@ import { getCoordinates } from './utilities';
 export const Pie = ({ percent = 100, size = 24, color, ring = 10, outlined, style, ...props }) => {
   let stroke = Math.max(1, Math.min(10, Math.round(ring)));
   const iconStroke = 2;
-  stroke = Math.max(stroke, 2 * iconStroke + 1)
+  stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke;
+ 
 
   // Ring properties
   const centerX = 12;

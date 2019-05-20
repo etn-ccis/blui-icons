@@ -4,7 +4,12 @@ import { rangeValue, getCoordinates } from '../utilities';
 @Component({
   selector: 'pie-progress',
   template: `
-    <svg [attr.height]="size+'px'" [attr.width]="size+'px'" x="0px" y="0px" viewBox="0 0 24 24" style="transform: rotate(-.25turn)">
+    <svg [attr.height]="size+'px'" 
+    [attr.width]="size+'px'" 
+    x="0px" y="0px" 
+    viewBox="0 0 24 24" 
+    style="transform: rotate(-.25turn)">
+
       <clipPath [attr.id]="'pxb-donut-clip-'+stroke">
         <path [attr.d]="clipPath"/>
       </clipPath>
@@ -34,9 +39,8 @@ export class PieComponent implements OnInit {
   outlineBase;
   twoToneBase;
   clipPath;
-
-  stroke = Math.max(1,Math.min(10, Math.round(this.ring)));
   iconStroke = 2;
+  stroke;
   
 
   // Ring properties
@@ -45,25 +49,29 @@ export class PieComponent implements OnInit {
 
   // Outer ring
   outerRadiusLarge = 10;
-  innerRadiusLarge = 10 - this.iconStroke;
+  innerRadiusLarge;
 
   // Inner Ring
-  outerRadiusSmall = 10 - this.stroke + this.iconStroke;
-  innerRadiusSmall = 10 - this.stroke;
+  outerRadiusSmall;
+  innerRadiusSmall;
   
 
   constructor() { }
 getPath(){
   return `M 12,12 H 24 A 12,12,0,${this.percent >= 50 ? 1 : 0},1,${getCoordinates(this.percent)['x']},${getCoordinates(this.percent)['y']}Z`
 }
-  ngOnInit() {
-    this.stroke = Math.max(1, Math.min(10, Math.round(this.ring)));
-    if(this.innerRadiusSmall === 0)
+ngOnInit() {
+  this.stroke =  Math.max(1, Math.min(10, Math.round(this.ring)));
+  this.stroke = this.outlined ? Math.max(this.stroke, 2 * this.iconStroke + 1) : this.stroke;
+  this.innerRadiusLarge = 10 - this.iconStroke;
+  this.outerRadiusSmall = 10 - this.stroke + this.iconStroke;
+  this.innerRadiusSmall = 10 - this.stroke;
+  if(this.innerRadiusSmall === 0)
   {
     this.outerRadiusSmall = 0;
   }
-  console.log(this.outlined);
-  this.stroke = Math.max(this.stroke, 2 * this.iconStroke + 1)
+ 
+ 
   this.outlineBase = `
   M ${this.centerX} ${this.centerY-this.outerRadiusLarge}
   A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY+this.outerRadiusLarge}
@@ -102,3 +110,5 @@ Z
 
 
 }
+
+
