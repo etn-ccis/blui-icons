@@ -66,6 +66,8 @@ function (_Component) {
     console.log(props);
     _this.holeID = 'hole' + count++;
     _this.testID = 'test' + count++;
+    _this.startX = props.outlined ? 4 : 2;
+    _this.fillWidth = props.outlined ? 14 : 18;
     return _this;
   }
 
@@ -94,10 +96,10 @@ function (_Component) {
         height: "100%",
         fill: "white"
       }), _react.default.createElement("rect", {
-        x: "2",
+        x: this.startX,
         y: "7",
         fill: "black",
-        width: "".concat(Math.min(this.props.percent * 18 / 100, 18)),
+        width: "".concat(Math.min(this.props.percent * this.fillWidth / 100, this.fillWidth)),
         height: "10"
       }))), _react.default.createElement("path", {
         fill: this.props.color || "currentColor",
@@ -112,10 +114,10 @@ function (_Component) {
       })), this.props.percent > 0 && _react.default.createElement("g", {
         fill: this.props.color || "currentColor"
       }, _react.default.createElement("rect", {
-        x: "2",
+        x: this.startX,
         y: "7",
         clipPath: "url(#".concat(getID(this.props.charging), ")"),
-        width: "".concat(Math.min(this.props.percent * 18 / 100, 18)),
+        width: "".concat(Math.min(this.props.percent * this.fillWidth / 100, this.fillWidth)),
         height: "10",
         mask: this.props.outlined && this.props.charging ? "url(#" + this.holeID + ")" : null
       }), this.props.outlined && this.props.charging && _react.default.createElement("polygon", {

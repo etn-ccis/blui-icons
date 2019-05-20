@@ -32,6 +32,9 @@ export class Battery extends Component {
         console.log(props)
         this.holeID = 'hole' + count++;
         this.testID = 'test' + count++;
+
+        this.startX = props.outlined ? 4 : 2;
+        this.fillWidth = props.outlined ? 14 : 18;
     }
 
     render() {
@@ -44,7 +47,7 @@ export class Battery extends Component {
                 </mask>
                 <mask id={this.testID}>
                   <rect width="100%" height="100%" fill="white" />
-                  <rect x="2" y="7" fill="black" width={`${Math.min(this.props.percent * 18 / 100, 18)}`} height="10" />
+                  <rect x={this.startX} y="7" fill="black" width={`${Math.min(this.props.percent * this.fillWidth / 100, this.fillWidth)}`} height="10" />
                 </mask>
               </defs>
               <path fill={this.props.color || "currentColor"} fillOpacity={(this.props.outlined || this.props.percent >= 100) ? "1" : 0.3} clipPath={`url(#${getID(this.props.charging)})`} d={getBasepath(this.props.outlined)} />
@@ -53,7 +56,7 @@ export class Battery extends Component {
               </clipPath>
               {this.props.percent > 0 && 
                 <g fill={this.props.color || "currentColor"} >
-                  <rect x="2" y="7" clipPath={`url(#${getID(this.props.charging)})`} width={`${Math.min(this.props.percent * 18 / 100, 18)}`} height="10" mask={(this.props.outlined && this.props.charging) ? "url(#"+ this.holeID +")" : null} />
+                  <rect x={this.startX} y="7" clipPath={`url(#${getID(this.props.charging)})`} width={`${Math.min(this.props.percent * this.fillWidth / 100, this.fillWidth)}`} height="10" mask={(this.props.outlined && this.props.charging) ? "url(#"+ this.holeID +")" : null} />
                   {this.props.outlined && this.props.charging && <polygon points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13" mask={"url(#"+ this.testID +")"} />}
                 </g>
               }
