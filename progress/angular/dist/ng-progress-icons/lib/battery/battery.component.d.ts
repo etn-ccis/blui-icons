@@ -5,9 +5,13 @@ export declare class BatteryComponent implements OnInit {
     color: string;
     charging: boolean;
     outlined: boolean;
+    maskIDleft: any;
+    maskIDright: any;
+    startX: any;
+    fillWidth: any;
     basePath: string;
     chargePath: string;
-    singletonePath: string;
+    outlinedPath: string;
     baseID: string;
     chargeID: string;
     constructor();

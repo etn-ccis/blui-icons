@@ -29,17 +29,14 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-var count = 0;
 var basePath = 'M20,10V8.3C20,7.6,19.4,7,18.7,7H3.3C2.6,7,2,7.6,2,8.3v7.3C2,16.4,2.6,17,3.3,17h15.3c0.7,0,1.3-0.6,1.3-1.3V14h2v-4H20z';
 var chargePath = 'M20,10V8.33a1.319,1.319,0,0,0-1-1.263A1.257,1.257,0,0,0,18.67,7H3.34A1.338,1.338,0,0,0,2,8.33v7.33A1.338,1.338,0,0,0,3.33,17H18.67a1.257,1.257,0,0,0,.33-.067,1.319,1.319,0,0,0,1-1.263V14h2V10Zm-8.5,3v2L4,11H9.5V9L17,13Z';
-var singletonePath = 'M18,9v6H4V9H18m.7-2H3.3A1.324,1.324,0,0,0,2,8.3v7.3A1.347,1.347,0,0,0,3.3,17H18.6a1.324,1.324,0,0,0,1.3-1.3V14h2V10H20V8.3A1.324,1.324,0,0,0,18.7,7Z';
+var outlinedPath = 'M18,9v6H4V9H18m.7-2H3.3A1.324,1.324,0,0,0,2,8.3v7.3A1.347,1.347,0,0,0,3.3,17H18.6a1.324,1.324,0,0,0,1.3-1.3V14h2V10H20V8.3A1.324,1.324,0,0,0,18.7,7Z';
 var baseID = 'pxb-battery-clip';
 var chargeID = 'pxb-battery-clip-charge';
-var holeID = 'hole' + count;
-var testID = 'test' + count;
 
 var getBasepath = function getBasepath(outlined) {
-  return outlined ? singletonePath : basePath;
+  return outlined ? outlinedPath : basePath;
 };
 
 var getClipPath = function getClipPath(charging) {
@@ -64,10 +61,10 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Battery).call(this, props));
     console.log(props);
-    _this.holeID = 'hole' + count++;
-    _this.testID = 'test' + count++;
-    _this.startX = props.outlined ? 4 : 2;
-    _this.fillWidth = props.outlined ? 14 : 18;
+    _this.maskIDleft = 'maskLeft-' + _this.props.percent;
+    _this.maskIDright = 'maskRight-' + _this.props.percent;
+    _this.startX = props.outlined ? 3.9 : 2;
+    _this.fillWidth = props.outlined ? 14.2 : 18;
     return _this;
   }
 
@@ -80,8 +77,8 @@ function (_Component) {
         x: "0px",
         y: "0px",
         viewBox: "0 0 24 24"
-      }, this.props), _react.default.createElement("defs", null, _react.default.createElement("mask", {
-        id: this.holeID
+      }, this.props), _react.default.createElement("defs", null, this.props.outlined && _react.default.createElement("mask", {
+        id: this.maskIDleft
       }, _react.default.createElement("rect", {
         width: "100%",
         height: "100%",
@@ -89,8 +86,8 @@ function (_Component) {
       }), _react.default.createElement("polygon", {
         fill: "black",
         points: "11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13 "
-      })), _react.default.createElement("mask", {
-        id: this.testID
+      })), this.props.outlined && _react.default.createElement("mask", {
+        id: this.maskIDright
       }, _react.default.createElement("rect", {
         width: "100%",
         height: "100%",
@@ -101,17 +98,17 @@ function (_Component) {
         fill: "black",
         width: "".concat(Math.min(this.props.percent * this.fillWidth / 100, this.fillWidth)),
         height: "10"
+      })), _react.default.createElement("clipPath", {
+        id: getID(this.props.charging)
+      }, _react.default.createElement("path", {
+        overflow: "visible",
+        d: getClipPath(this.props.charging)
       }))), _react.default.createElement("path", {
         fill: this.props.color || "currentColor",
         fillOpacity: this.props.outlined || this.props.percent >= 100 ? "1" : 0.3,
         clipPath: "url(#".concat(getID(this.props.charging), ")"),
         d: getBasepath(this.props.outlined)
-      }), _react.default.createElement("clipPath", {
-        id: getID(this.props.charging)
-      }, _react.default.createElement("path", {
-        overflow: "visible",
-        d: getClipPath(this.props.charging)
-      })), this.props.percent > 0 && _react.default.createElement("g", {
+      }), this.props.percent > 0 && _react.default.createElement("g", {
         fill: this.props.color || "currentColor"
       }, _react.default.createElement("rect", {
         x: this.startX,
@@ -119,10 +116,10 @@ function (_Component) {
         clipPath: "url(#".concat(getID(this.props.charging), ")"),
         width: "".concat(Math.min(this.props.percent * this.fillWidth / 100, this.fillWidth)),
         height: "10",
-        mask: this.props.outlined && this.props.charging ? "url(#" + this.holeID + ")" : null
+        mask: this.props.outlined && this.props.charging ? "url(#" + this.maskIDleft + ")" : null
       }), this.props.outlined && this.props.charging && _react.default.createElement("polygon", {
         points: "11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13",
-        mask: "url(#" + this.testID + ")"
+        mask: "url(#" + this.maskIDright + ")"
       })));
     }
   }]);

@@ -4,8 +4,10 @@ export declare class HeartComponent implements OnInit {
     size: number;
     color: string;
     outlined: boolean;
+    startY: any;
+    startX: any;
     basePath: string;
-    singletonePath: string;
+    outlinedPath: string;
     constructor();
     ngOnInit(): void;
     getPath(): string;
