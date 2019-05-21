@@ -108,7 +108,7 @@ function (_Component) {
         fillOpacity: this.props.outlined || this.props.percent >= 100 ? "1" : 0.3,
         clipPath: "url(#".concat(getID(this.props.charging), ")"),
         d: getBasepath(this.props.outlined)
-      }), this.props.percent > 0 && _react.default.createElement("g", {
+      }), _react.default.createElement("g", {
         fill: this.props.color || "currentColor"
       }, _react.default.createElement("rect", {
         x: this.startX,

@@ -53,12 +53,12 @@ export class Battery extends Component {
           </clipPath>
         </defs>
         <path fill={this.props.color || "currentColor"} fillOpacity={(this.props.outlined || this.props.percent >= 100) ? "1" : 0.3} clipPath={`url(#${getID(this.props.charging)})`} d={getBasepath(this.props.outlined)} />
-        {this.props.percent > 0 &&
+        
           <g fill={this.props.color || "currentColor"} >
             <rect x={this.startX} y="7" clipPath={`url(#${getID(this.props.charging)})`} width={`${Math.min(this.props.percent * this.fillWidth / 100, this.fillWidth)}`} height="10" mask={(this.props.outlined && this.props.charging) ? "url(#" + this.maskIDleft + ")" : null} />
             {this.props.outlined && this.props.charging && <polygon points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13" mask={"url(#" + this.maskIDright + ")"} />}
           </g>
-        }
+        
 
       </svg>
     );

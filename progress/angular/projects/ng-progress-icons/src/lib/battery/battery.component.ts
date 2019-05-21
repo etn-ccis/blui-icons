@@ -20,7 +20,7 @@ import { rangeValue } from '../utilities';
       <clipPath [id]="getID()">
         <path overflow="visible" [attr.d]="getClipPath()"/>
       </clipPath>
-      <g *ngIf = "percent > 0" [attr.fill]= "color || 'currentColor'">
+      <g  [attr.fill]= "color || 'currentColor'">
       
 <rect [attr.fill]="color || 'currentColor'" [attr.x]="startX" y="7" [attr.clip-path]="'url(#' + getID() + ')'" [attr.width]="rv(percent/100*fillWidth, 0, 100)" height="10"  [attr.mask]="outlined && charging ? 'url(#' + maskIDleft + ')' : null"/>
 <polygon  *ngIf = "outlined && charging" points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13" [attr.mask]="'url(#' + maskIDright + ')'" />
