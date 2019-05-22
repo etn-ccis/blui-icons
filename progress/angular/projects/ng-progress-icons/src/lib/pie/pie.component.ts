@@ -39,7 +39,7 @@ export class PieComponent implements OnInit {
   outlineBase: string;
   twoToneBase: string;
   clipPath: string;
-  iconStroke: number  = 2;
+  iconStroke: number = 2;
   stroke: number;
 
 
@@ -61,6 +61,9 @@ export class PieComponent implements OnInit {
     return `M 12,12 H 24 A 12,12,0,${this.rv(this.percent, 0, 100) >= 50 ? 1 : 0},1,${getCoordinates(this.rv(this.percent, 0, 100))['x']},${getCoordinates(this.rv(this.percent, 0, 100))['y']}Z`
   }
   ngOnInit() {
+
+  }
+  ngOnChanges() {
     this.stroke = Math.max(1, Math.min(10, Math.round(this.ring)));
     this.stroke = this.outlined ? Math.max(this.stroke, 2 * this.iconStroke + 1) : this.stroke;
     this.innerRadiusLarge = 10 - this.iconStroke;
@@ -104,10 +107,6 @@ A ${10 - this.stroke},${10 - this.stroke},0,1,1,${22 - this.stroke},12,
 ${10 - this.stroke},${10 - this.stroke},0,0,1,12,${22 - this.stroke}
 Z
 `
-  }
-  ngOnChanges() {
-   
-
   }
 
   rv = rangeValue;
