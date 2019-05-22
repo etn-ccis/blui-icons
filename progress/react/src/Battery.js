@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { rangeValue } from './utilities';
 
 
 const basePath = 'M20,10V8.3C20,7.6,19.4,7,18.7,7H3.3C2.6,7,2,7.6,2,8.3v7.3C2,16.4,2.6,17,3.3,17h15.3c0.7,0,1.3-0.6,1.3-1.3V14h2v-4H20z';
@@ -24,16 +25,16 @@ const getID = (charging) => {
 
 
 export class Battery extends Component {
- 
+
   render() {
-    const {outlined, charging, size, percent, color, ...props} = this.props;
+    const { outlined, charging, size, percent, color, ...props } = this.props;
 
     this.maskIDleft = 'maskLeft-' + this.props.percent;
     this.maskIDright = 'maskRight-' + this.props.percent;
 
     this.startX = outlined ? 3.9 : 2;
     this.fillWidth = outlined ? 14.2 : 18;
-   
+
     return (
       <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...props}>
         <defs>
@@ -46,7 +47,7 @@ export class Battery extends Component {
           {outlined &&
             <mask id={this.maskIDright}>
               <rect width="100%" height="100%" fill="white" />
-              <rect x={this.startX} y="7" fill="black" width={`${Math.min(percent * this.fillWidth / 100, this.fillWidth)}`} height="10" />
+              <rect x={this.startX} y="7" fill="black" width={`${Math.min(rangeValue(percent, 0, 100) * this.fillWidth / 100, this.fillWidth)}`} height="10" />
             </mask>
           }
           <clipPath id={getID(charging)} >
@@ -54,12 +55,12 @@ export class Battery extends Component {
           </clipPath>
         </defs>
         <path fill={color || "currentColor"} fillOpacity={(outlined || percent >= 100) ? "1" : 0.3} clipPath={`url(#${getID(charging)})`} d={getBasepath(outlined)} />
-        
-          <g fill={color || "currentColor"} >
-            <rect x={this.startX} y="7" clipPath={`url(#${getID(charging)})`} width={`${Math.min(percent * this.fillWidth / 100, this.fillWidth)}`} height="10" mask={(outlined && charging) ? "url(#" + this.maskIDleft + ")" : null} />
-            {outlined && charging && <polygon points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13" mask={"url(#" + this.maskIDright + ")"} />}
-          </g>
-        
+
+        <g fill={color || "currentColor"} >
+          <rect x={this.startX} y="7" clipPath={`url(#${getID(charging)})`} width={`${Math.min(rangeValue(percent, 0, 100) * this.fillWidth / 100, this.fillWidth)}`} height="10" mask={(outlined && charging) ? "url(#" + this.maskIDleft + ")" : null} />
+          {outlined && charging && <polygon points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13" mask={"url(#" + this.maskIDright + ")"} />}
+        </g>
+
 
       </svg>
     );
