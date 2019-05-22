@@ -4,13 +4,21 @@ export declare class BatteryComponent implements OnInit {
     size: number;
     color: string;
     charging: boolean;
+    outlined: boolean;
+    maskIDleft: string;
+    maskIDright: string;
+    startX: number;
+    fillWidth: number;
     basePath: string;
     chargePath: string;
+    outlinedPath: string;
     baseID: string;
     chargeID: string;
     constructor();
     ngOnInit(): void;
-    getPath(): string;
+    ngOnChanges(): void;
+    getBasepath(): string;
+    getClipPath(): string;
     getID(): string;
     rv: (value: any, min: any, max: any) => number;
 }

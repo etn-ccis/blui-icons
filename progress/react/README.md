@@ -23,14 +23,15 @@ The progress icon components can be imported and used like you would use any oth
 ```
 import {Battery, Heart, Pie} from '@pxblue/react-progress-icons';
 ...
-<Battery percent={100} size={36} color={'green'} charging={false}/>
-<Heart percent={50} size={18} color={'pink'}/>
-<Pie percent={50} size={48} color={'blue'} ring={40}/>
+<Battery percent={100} size={36} color={'green'} charging={true} outlined={true}/>
+<Heart percent={50} size={18} color={'pink'} outlined={true}/>
+<Pie percent={50} size={48} color={'blue'} ring={40} outlined={true}/>
 ```
 
 ### Available properties
 * ```percent``` (Number): the amount to fill the icon. **Default**: 100.
 * ```size``` (Number): the size of the icon (px). **Default**: 24.
 * ```charging``` (Boolean, *Battery only*): whether to show the charging indicator or not. **Default**:false.
+* ```outlined``` (Boolean): whether to show outlined style for icon. **Default**:false.
 * ```color``` (String): the color to use for the icon. **Default**: inherit. Color can also be set through the ```style``` property.
 * ```ring``` (Number, *Pie only*): the thickness of the outer ring (1 (thin ring) - 10 (full circle)). **Default**: 10.
