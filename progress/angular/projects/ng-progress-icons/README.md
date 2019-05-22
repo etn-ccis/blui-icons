@@ -28,14 +28,14 @@ imports: [
 ```
 // app.component.html
 <battery-progress percent="80" size="36" color="green" [charging]="true" [outlined]="true"></battery-progress>
-<heart-progress percent="180" size="36" color="pink" [outlined]="false"></heart-progress>
-<pie-progress percent="30" size="36" color="#0000ff" ring="4" [outlined]="false"></pie-progress>
+<heart-progress percent="180" size="36" color="pink" [outlined]="true"></heart-progress>
+<pie-progress percent="30" size="36" color="#0000ff" ring="4" [outlined]="true"></pie-progress>
 ```
 
 ### Available properties
 * ```percent``` (Number): the amount to fill the icon. **Default**: 100.
 * ```size``` (Number): the size of the icon (px). **Default**: 24.
 * ```charging``` (Boolean, *Battery only*): the charging of the icon. **Default**:false.
-* ```outlined``` (Boolean): to show single-tone icon. **Default**:false.
+* ```outlined``` (Boolean): whether to show outlined style for icon. **Default**:false.
 * ```color``` (String): the color to use for the icon. **Default**: inherit. Color can also be set through the ```style``` property.
 * ```ring``` (Number, *Pie only*): the thickness of the outer ring (1 (thin ring) - 10 (full circle)). **Default**: 10.

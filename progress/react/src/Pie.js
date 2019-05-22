@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { getCoordinates } from './utilities';
+import { getCoordinates, rangeValue } from './utilities';
 import PropTypes from 'prop-types';
 
 
@@ -76,11 +76,11 @@ render()
         fillOpacity={(outlined || percent >= 100) ? "1" : "0.3"}
         d={outlined ? outlineBase : twoToneBase}
       />
-      {percent > 0 && percent < 100 &&
+      {rangeValue(percent, 0, 100) > 0 && rangeValue(percent, 0, 100) < 100 &&
         <path fill={color || "currentColor"} clipPath={"url(#pxb-donut-clip-" + stroke + ")"}
-          d={`M 12,12 H 24 A 12,12,0,${percent >= 50 ? 1 : 0},1,${getCoordinates(percent)['x']},${getCoordinates(percent)['y']}Z`} />
+          d={`M 12,12 H 24 A 12,12,0,${rangeValue(percent, 0, 100) >= 50 ? 1 : 0},1,${getCoordinates(rangeValue(percent, 0, 100))['x']},${getCoordinates(rangeValue(percent, 0, 100))['y']}Z`} />
       }
-      {percent === 100 && outlined &&
+      {rangeValue(percent, 0, 100) === 100 && outlined &&
         <circle clipPath={"url(#pxb-donut-clip-" + stroke + ")"} cx="12" cy="12" r="10" fill={color || "currentColor"}></circle>
       }
     </svg>

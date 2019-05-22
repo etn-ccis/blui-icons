@@ -48,12 +48,10 @@ var getBasepath = function getBasepath(outlined) {
 };
 
 var getClipPath = function getClipPath(charging) {
-  console.log('path', charging);
   return charging ? chargePath : basePath;
 };
 
 var getID = function getID(charging) {
-  console.log('id', charging);
   return charging ? chargeID : baseID;
 };
 
@@ -79,8 +77,8 @@ function (_Component) {
           color = _this$props.color,
           props = _objectWithoutProperties(_this$props, ["outlined", "charging", "size", "percent", "color"]);
 
-      this.maskIDleft = 'maskLeft-' + percent;
-      this.maskIDright = 'maskRight-' + percent;
+      this.maskIDleft = 'maskLeft-' + this.props.percent;
+      this.maskIDright = 'maskRight-' + this.props.percent;
       this.startX = outlined ? 3.9 : 2;
       this.fillWidth = outlined ? 14.2 : 18;
       return _react.default.createElement("svg", _extends({
@@ -89,7 +87,7 @@ function (_Component) {
         x: "0px",
         y: "0px",
         viewBox: "0 0 24 24"
-      }, this.props), _react.default.createElement("defs", null, outlined && _react.default.createElement("mask", {
+      }, props), _react.default.createElement("defs", null, outlined && _react.default.createElement("mask", {
         id: this.maskIDleft
       }, _react.default.createElement("rect", {
         width: "100%",
@@ -152,4 +150,4 @@ Battery.defaultProps = {
   size: 24,
   charging: false,
   outlined: false
-}; // export default Battery;
+};

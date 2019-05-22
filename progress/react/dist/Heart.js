@@ -9,6 +9,8 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
+var _utilities = require("./utilities");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
@@ -66,15 +68,15 @@ function (_Component) {
           color = _this$props.color,
           props = _objectWithoutProperties(_this$props, ["outlined", "charging", "size", "percent", "color"]);
 
-      this.startY = outlined ? 19.45 : 21.35;
-      this.startX = outlined ? 14.55 : 18.35;
+      this.startY = outlined ? 18.35 : 21.35;
+      this.fillHeight = outlined ? 13.35 : 18.35;
       return _react.default.createElement("svg", _extends({
         height: "".concat(size, "px"),
         width: "".concat(size, "px"),
         x: "0px",
         y: "0px",
         viewBox: "0 0 24 24"
-      }, this.props), _react.default.createElement("path", {
+      }, props), _react.default.createElement("path", {
         fill: color || "currentColor",
         fillOpacity: outlined || percent >= 100 ? "1" : "0.3",
         d: getPath(outlined)
@@ -86,7 +88,7 @@ function (_Component) {
         fill: color || "currentColor",
         clipPath: "url(#pxb-heart-clip)",
         x: "2",
-        y: this.startY - percent * this.startX / 100,
+        y: this.startY - (0, _utilities.rangeValue)(percent, 0, 100) * this.fillHeight / 100,
         width: "20",
         height: "20"
       }));

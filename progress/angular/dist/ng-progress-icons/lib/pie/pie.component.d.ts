@@ -5,11 +5,11 @@ export declare class PieComponent implements OnInit {
     color: string;
     ring: number;
     outlined: boolean;
-    outlineBase: any;
-    twoToneBase: any;
-    clipPath: any;
+    outlineBase: string;
+    twoToneBase: string;
+    clipPath: string;
     iconStroke: number;
-    stroke: any;
+    stroke: number;
     centerX: number;
     centerY: number;
     outerRadiusLarge: number;

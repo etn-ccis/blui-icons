@@ -100,11 +100,11 @@ function (_Component) {
         fill: color || "currentColor",
         fillOpacity: outlined || percent >= 100 ? "1" : "0.3",
         d: outlined ? outlineBase : twoToneBase
-      }), percent > 0 && percent < 100 && _react.default.createElement("path", {
+      }), (0, _utilities.rangeValue)(percent, 0, 100) > 0 && (0, _utilities.rangeValue)(percent, 0, 100) < 100 && _react.default.createElement("path", {
         fill: color || "currentColor",
         clipPath: "url(#pxb-donut-clip-" + stroke + ")",
-        d: "M 12,12 H 24 A 12,12,0,".concat(percent >= 50 ? 1 : 0, ",1,").concat((0, _utilities.getCoordinates)(percent)['x'], ",").concat((0, _utilities.getCoordinates)(percent)['y'], "Z")
-      }), percent === 100 && outlined && _react.default.createElement("circle", {
+        d: "M 12,12 H 24 A 12,12,0,".concat((0, _utilities.rangeValue)(percent, 0, 100) >= 50 ? 1 : 0, ",1,").concat((0, _utilities.getCoordinates)((0, _utilities.rangeValue)(percent, 0, 100))['x'], ",").concat((0, _utilities.getCoordinates)((0, _utilities.rangeValue)(percent, 0, 100))['y'], "Z")
+      }), (0, _utilities.rangeValue)(percent, 0, 100) === 100 && outlined && _react.default.createElement("circle", {
         clipPath: "url(#pxb-donut-clip-" + stroke + ")",
         cx: "12",
         cy: "12",

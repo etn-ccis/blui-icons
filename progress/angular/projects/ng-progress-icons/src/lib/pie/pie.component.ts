@@ -23,7 +23,7 @@ import { rangeValue, getCoordinates } from '../utilities';
     [attr.clip-path]="'url(#pxb-donut-clip-'+stroke+')'" 
     [attr.d]= "getPath()"  />
 
-      <circle *ngIf="percent === 100 && outlined" [attr.clip-path]="'url(#pxb-donut-clip-'+stroke+')'" cx="12" cy="12" r="10" [attr.fill]="color || 'currentColor'"></circle>
+      <circle *ngIf="rv(percent, 0, 100) === 100 && outlined" [attr.clip-path]="'url(#pxb-donut-clip-'+stroke+')'" cx="12" cy="12" r="10" [attr.fill]="color || 'currentColor'"></circle>
       
     </svg>
   `,
@@ -36,12 +36,12 @@ export class PieComponent implements OnInit {
   color: string;
   ring: number = 10;
   outlined: boolean = false;
-  outlineBase;
-  twoToneBase;
-  clipPath;
-  iconStroke = 2;
-  stroke;
-  
+  outlineBase: string;
+  twoToneBase: string;
+  clipPath: string;
+  iconStroke: number  = 2;
+  stroke: number;
+
 
   // Ring properties
   centerX = 12;
@@ -54,64 +54,63 @@ export class PieComponent implements OnInit {
   // Inner Ring
   outerRadiusSmall;
   innerRadiusSmall;
-  
+
 
   constructor() { }
-getPath(){
-  return `M 12,12 H 24 A 12,12,0,${this.rv(this.percent, 0, 100) >= 50 ? 1 : 0},1,${getCoordinates(this.rv(this.percent, 0, 100))['x']},${getCoordinates(this.rv(this.percent, 0, 100))['y']}Z`
-}
-ngOnInit() {
-  
-  
-  this.outlineBase = `
-  M ${this.centerX} ${this.centerY-this.outerRadiusLarge}
-  A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY+this.outerRadiusLarge}
-  A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY-this.outerRadiusLarge}
+  getPath() {
+    return `M 12,12 H 24 A 12,12,0,${this.rv(this.percent, 0, 100) >= 50 ? 1 : 0},1,${getCoordinates(this.rv(this.percent, 0, 100))['x']},${getCoordinates(this.rv(this.percent, 0, 100))['y']}Z`
+  }
+  ngOnInit() {
+    this.stroke = Math.max(1, Math.min(10, Math.round(this.ring)));
+    this.stroke = this.outlined ? Math.max(this.stroke, 2 * this.iconStroke + 1) : this.stroke;
+    this.innerRadiusLarge = 10 - this.iconStroke;
+    this.outerRadiusSmall = 10 - this.stroke + this.iconStroke;
+    this.innerRadiusSmall = 10 - this.stroke;
+    if (this.innerRadiusSmall === 0) {
+      this.outerRadiusSmall = 0;
+    }
+
+    this.outlineBase = `
+  M ${this.centerX} ${this.centerY - this.outerRadiusLarge}
+  A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY + this.outerRadiusLarge}
+  A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY - this.outerRadiusLarge}
   Z
-  M ${this.centerX} ${this.centerY-this.innerRadiusLarge}
-  A ${this.innerRadiusLarge} ${this.innerRadiusLarge} 0 1 1 ${this.centerX} ${this.centerY+this.innerRadiusLarge}
-  A ${this.innerRadiusLarge} ${this.innerRadiusLarge} 0 1 1 ${this.centerX} ${this.centerY-this.innerRadiusLarge}
+  M ${this.centerX} ${this.centerY - this.innerRadiusLarge}
+  A ${this.innerRadiusLarge} ${this.innerRadiusLarge} 0 1 1 ${this.centerX} ${this.centerY + this.innerRadiusLarge}
+  A ${this.innerRadiusLarge} ${this.innerRadiusLarge} 0 1 1 ${this.centerX} ${this.centerY - this.innerRadiusLarge}
   Z
-  M ${this.centerX} ${this.centerY-this.outerRadiusSmall}
-  A ${this.outerRadiusSmall} ${this.outerRadiusSmall} 0 1 0 ${this.centerX} ${this.centerY+this.outerRadiusSmall}
-  A ${this.outerRadiusSmall} ${this.outerRadiusSmall} 0 1 0 ${this.centerX} ${this.centerY-this.outerRadiusSmall}
+  M ${this.centerX} ${this.centerY - this.outerRadiusSmall}
+  A ${this.outerRadiusSmall} ${this.outerRadiusSmall} 0 1 0 ${this.centerX} ${this.centerY + this.outerRadiusSmall}
+  A ${this.outerRadiusSmall} ${this.outerRadiusSmall} 0 1 0 ${this.centerX} ${this.centerY - this.outerRadiusSmall}
   Z
-  M ${this.centerX} ${this.centerY-this.innerRadiusSmall}
-  A ${this.innerRadiusSmall} ${this.innerRadiusSmall} 0 1 1 ${this.centerX} ${this.centerY+this.innerRadiusSmall}
-  A ${this.innerRadiusSmall} ${this.innerRadiusSmall} 0 1 1 ${this.centerX} ${this.centerY-this.innerRadiusSmall}
+  M ${this.centerX} ${this.centerY - this.innerRadiusSmall}
+  A ${this.innerRadiusSmall} ${this.innerRadiusSmall} 0 1 1 ${this.centerX} ${this.centerY + this.innerRadiusSmall}
+  A ${this.innerRadiusSmall} ${this.innerRadiusSmall} 0 1 1 ${this.centerX} ${this.centerY - this.innerRadiusSmall}
   Z
 `;
-this.twoToneBase =  `
-M ${this.centerX} ${this.centerY-this.outerRadiusLarge}
-A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY+this.outerRadiusLarge}
-A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY-this.outerRadiusLarge}
+    this.twoToneBase = `
+M ${this.centerX} ${this.centerY - this.outerRadiusLarge}
+A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY + this.outerRadiusLarge}
+A ${this.outerRadiusLarge} ${this.outerRadiusLarge} 0 1 0 ${this.centerX} ${this.centerY - this.outerRadiusLarge}
 Z
 `;
-this.clipPath = `
+    this.clipPath = `
 M12,2
 A10,10,0,1,0,22,12,
 10,10,0,0,0,12,2
 Z
-m0,${20-this.stroke} 
-A ${10-this.stroke},${10-this.stroke},0,1,1,${22-this.stroke},12,
-${10-this.stroke},${10-this.stroke},0,0,1,12,${22-this.stroke}
+m0,${20 - this.stroke} 
+A ${10 - this.stroke},${10 - this.stroke},0,1,1,${22 - this.stroke},12,
+${10 - this.stroke},${10 - this.stroke},0,0,1,12,${22 - this.stroke}
 Z
 `
   }
-  ngOnChanges(){
-    this.stroke =  Math.max(1, Math.min(10, Math.round(this.ring)));
-  this.stroke = this.outlined ? Math.max(this.stroke, 2 * this.iconStroke + 1) : this.stroke;
-  this.innerRadiusLarge = 10 - this.iconStroke;
-  this.outerRadiusSmall = 10 - this.stroke + this.iconStroke;
-  this.innerRadiusSmall = 10 - this.stroke;
-  if(this.innerRadiusSmall === 0)
-  {
-    this.outerRadiusSmall = 0;
-  }
+  ngOnChanges() {
+   
 
   }
 
-rv = rangeValue;
+  rv = rangeValue;
 
 }
 
