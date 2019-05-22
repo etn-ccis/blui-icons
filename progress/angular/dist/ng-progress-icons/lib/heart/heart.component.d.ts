@@ -4,8 +4,8 @@ export declare class HeartComponent implements OnInit {
     size: number;
     color: string;
     outlined: boolean;
-    startY: any;
-    fillHeight: any;
+    startY: number;
+    fillHeight: number;
     basePath: string;
     outlinedPath: string;
     constructor();
