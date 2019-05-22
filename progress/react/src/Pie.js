@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { getCoordinates } from './utilities';
+import PropTypes from 'prop-types';
 
-export const Pie = ({ percent = 100, size = 24, color, ring = 10, outlined, style, ...props }) => {
+
+
+
+export class Pie extends Component {
+
+render()
+{
+  
+   
+  const {outlined, ring, size, percent, color, style, ...props} = this.props;
   let stroke = Math.max(1, Math.min(10, Math.round(ring)));
   const iconStroke = 2;
   stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke;
- 
+
 
   // Ring properties
   const centerX = 12;
@@ -18,7 +28,7 @@ export const Pie = ({ percent = 100, size = 24, color, ring = 10, outlined, styl
   // Inner ring
   let outerRadiusSmall = 10 - stroke + iconStroke;
   const innerRadiusSmall = 10 - stroke;
-  if(innerRadiusSmall === 0){
+  if (innerRadiusSmall === 0) {
     outerRadiusSmall = 0;
   }
 
@@ -56,7 +66,6 @@ export const Pie = ({ percent = 100, size = 24, color, ring = 10, outlined, styl
     ${10 - stroke},${10 - stroke},0,0,1,12,${22 - stroke}
     Z
   `;
-
   return (
     <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" style={Object.assign({ transform: 'rotate(-.25turn)' }, style)} {...props}>
       <clipPath id={"pxb-donut-clip-" + stroke}>
@@ -76,4 +85,19 @@ export const Pie = ({ percent = 100, size = 24, color, ring = 10, outlined, styl
       }
     </svg>
   )
+}
 };
+
+Pie.propTypes = {
+  percent: PropTypes.number,
+  size: PropTypes.number,
+  ring: PropTypes.number,
+  outlined: PropTypes.bool,
+  color: PropTypes.string
+}
+Pie.defaultProps = {
+  percentage: 100,
+  size: 24,
+  ring: 10,
+  outlined: false,
+}

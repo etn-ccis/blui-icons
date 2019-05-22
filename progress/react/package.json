@@ -7,7 +7,9 @@
     "test": "jest",
     "build": "yarn && babel src --presets @babel/preset-react,@babel/preset-env --out-dir dist"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",

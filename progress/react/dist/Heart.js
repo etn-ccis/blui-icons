@@ -7,11 +7,19 @@ exports.Heart = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
+var _propTypes = _interopRequireDefault(require("prop-types"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -41,39 +49,44 @@ var Heart =
 function (_Component) {
   _inherits(Heart, _Component);
 
-  function Heart(props) {
-    var _this;
-
+  function Heart() {
     _classCallCheck(this, Heart);
 
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Heart).call(this, props));
-    _this.startY = props.outlined ? 19.45 : 21.35;
-    _this.startX = props.outlined ? 14.55 : 18.35;
-    return _this;
+    return _possibleConstructorReturn(this, _getPrototypeOf(Heart).apply(this, arguments));
   }
 
   _createClass(Heart, [{
     key: "render",
     value: function render() {
+      var _this$props = this.props,
+          outlined = _this$props.outlined,
+          charging = _this$props.charging,
+          size = _this$props.size,
+          percent = _this$props.percent,
+          color = _this$props.color,
+          props = _objectWithoutProperties(_this$props, ["outlined", "charging", "size", "percent", "color"]);
+
+      this.startY = outlined ? 19.45 : 21.35;
+      this.startX = outlined ? 14.55 : 18.35;
       return _react.default.createElement("svg", _extends({
-        height: "".concat(this.props.size, "px"),
-        width: "".concat(this.props.size, "px"),
+        height: "".concat(size, "px"),
+        width: "".concat(size, "px"),
         x: "0px",
         y: "0px",
         viewBox: "0 0 24 24"
       }, this.props), _react.default.createElement("path", {
-        fill: this.props.color || "currentColor",
-        fillOpacity: this.props.outlined || this.props.percent >= 100 ? "1" : "0.3",
-        d: getPath(this.props.outlined)
+        fill: color || "currentColor",
+        fillOpacity: outlined || percent >= 100 ? "1" : "0.3",
+        d: getPath(outlined)
       }), _react.default.createElement("clipPath", {
         id: "pxb-heart-clip"
       }, _react.default.createElement("path", {
         d: "M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
-      })), this.props.percent > 0 && _react.default.createElement("rect", {
-        fill: this.props.color || "currentColor",
+      })), percent > 0 && _react.default.createElement("rect", {
+        fill: color || "currentColor",
         clipPath: "url(#pxb-heart-clip)",
         x: "2",
-        y: this.startY - this.props.percent * this.startX / 100,
+        y: this.startY - percent * this.startX / 100,
         width: "20",
         height: "20"
       }));
@@ -84,3 +97,14 @@ function (_Component) {
 }(_react.Component);
 
 exports.Heart = Heart;
+Heart.propTypes = {
+  percent: _propTypes.default.number,
+  size: _propTypes.default.number,
+  outlined: _propTypes.default.bool,
+  color: _propTypes.default.string
+};
+Heart.defaultProps = {
+  percentage: 100,
+  size: 24,
+  outlined: false
+};

@@ -19,4 +19,6 @@ export declare class PieComponent implements OnInit {
     constructor();
     getPath(): string;
     ngOnInit(): void;
+    ngOnChanges(): void;
+    rv: (value: any, min: any, max: any) => number;
 }

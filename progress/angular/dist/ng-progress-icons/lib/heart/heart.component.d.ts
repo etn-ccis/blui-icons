@@ -5,11 +5,12 @@ export declare class HeartComponent implements OnInit {
     color: string;
     outlined: boolean;
     startY: any;
-    startX: any;
+    fillHeight: any;
     basePath: string;
     outlinedPath: string;
     constructor();
     ngOnInit(): void;
+    ngOnChanges(): void;
     getPath(): string;
     rv: (value: any, min: any, max: any) => number;
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , OnChanges} from '@angular/core';
 import { rangeValue } from '../utilities';
 
 @Component({
@@ -15,11 +15,12 @@ import { rangeValue } from '../utilities';
         <rect width="100%" height="100%" fill="white" />
         <rect [attr.x]="startX" y="7" fill="black"  [attr.width]="rv(percent/100*fillWidth, 0, 100)" height="10" />
       </mask>
-    </defs>
-    <path [attr.fill]="color || 'currentColor'"  [attr.fill-opacity]="(outlined || percent >= 100) ? '1' : '0.3'" [attr.clip-path]="'url(#' + getID() + ')'" [attr.d]="getBasepath()"/>
       <clipPath [id]="getID()">
         <path overflow="visible" [attr.d]="getClipPath()"/>
       </clipPath>
+    </defs>
+    <path [attr.fill]="color || 'currentColor'"  [attr.fill-opacity]="(outlined || percent >= 100) ? '1' : '0.3'" [attr.clip-path]="'url(#' + getID() + ')'" [attr.d]="getBasepath()"/>
+      
       <g  [attr.fill]= "color || 'currentColor'">
       
 <rect [attr.fill]="color || 'currentColor'" [attr.x]="startX" y="7" [attr.clip-path]="'url(#' + getID() + ')'" [attr.width]="rv(percent/100*fillWidth, 0, 100)" height="10"  [attr.mask]="outlined && charging ? 'url(#' + maskIDleft + ')' : null"/>
@@ -36,10 +37,10 @@ export class BatteryComponent implements OnInit {
   color: string;
   charging: boolean = false;
   outlined: boolean = false;
-  maskIDleft;
-  maskIDright;
-  startX;
-  fillWidth;
+  maskIDleft: string;
+  maskIDright: string;
+  startX: number;
+  fillWidth:number;
 
 
   basePath = 'M20,10V8.3C20,7.6,19.4,7,18.7,7H3.3C2.6,7,2,7.6,2,8.3v7.3C2,16.4,2.6,17,3.3,17h15.3c0.7,0,1.3-0.6,1.3-1.3V14h2v-4H20z';
@@ -51,6 +52,9 @@ export class BatteryComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+  ngOnChanges() {
+
     this.maskIDleft = 'maskLeft-' + this.percent;
     this.maskIDright = 'maskRight-' + this.percent;
 

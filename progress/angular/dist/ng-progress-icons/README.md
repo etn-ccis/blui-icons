@@ -27,7 +27,7 @@ imports: [
 ```
 ```
 // app.component.html
-<battery-progress percent="80" size="36" color="green" [charging]="false" [outlined]="false"></battery-progress>
+<battery-progress percent="80" size="36" color="green" [charging]="true" [outlined]="true"></battery-progress>
 <heart-progress percent="180" size="36" color="pink" [outlined]="false"></heart-progress>
 <pie-progress percent="30" size="36" color="#0000ff" ring="4" [outlined]="false"></pie-progress>
 ```

@@ -23,7 +23,7 @@ The progress icon components can be imported and used like you would use any oth
 ```
 import {Battery, Heart, Pie} from '@pxblue/react-progress-icons';
 ...
-<Battery percent={100} size={36} color={'green'} charging={false} outlined={false}/>
+<Battery percent={100} size={36} color={'green'} charging={true} outlined={true}/>
 <Heart percent={50} size={18} color={'pink'} outlined={false}/>
 <Pie percent={50} size={48} color={'blue'} ring={40} outlined={false}/>
 ```
