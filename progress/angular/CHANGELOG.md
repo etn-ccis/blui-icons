@@ -1,5 +1,8 @@
 # Recent Changes
 
+### v1.1.3
+This version of the library has outlined progress icons and a charging bolt for Battery progress icon.
+
 ### v1.1.0
 This version of the library has collapsed the multiple icon libraries into a single library to simplify imports.
 
