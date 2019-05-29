@@ -861,11 +861,45 @@
 		},
 
 		{
+			"name": "Incident",
+			"filename": "incident.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["incident","alarms","occurence"],
+			"description":"This icon represents and incident, or group of Alarms",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Active Incident",
+			"filename": "incident_active.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["incident","alarms","occurence","active"],
+			"description":"This icon represents and incident, or group of Alarms that are currently Active",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Resolved/Outlined Incident",
+			"filename": "incident_resolved.svg",
+			"family": ["Status"],
+			"style":["baseline","outline"],
+			"tags":["incident","alarms","occurence"],
+			"description":"This icon represents and incident, or group of Alarms that are resolved or inactive",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "Maintenance Mode",
 			"filename": "maintenance.svg",
 			"family": ["Status"],
 			"style":"baseline",
-			"tags":["circle","maintain","mode","service","upkeep","condition","repair","wrench","tool","care"],
+			"tags":["circle","maintain","mode","service","upkeep","condition","repair","wrench","tool","care","event"],
+			"description":"Used to represent maintainance mode or service event",
 			"author": "Eric Atha",
 			"size": 24
 		},
@@ -1488,6 +1522,17 @@
 		},
 
 		{
+			"name": "Support",
+			"filename": "support.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["support","call","phone","representative","headset","head","face","assistant"],
+			"description":"Represents a support person, phone call, or call center",
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
 			"name": "Temp",
 			"filename": "temp.svg",
 			"family": ["Status"],
@@ -1661,6 +1706,41 @@
 			"author": "Eric Atha",
 			"size": 24
 		},
+
+
+		{
+			"name": "Barrel",
+			"filename": "barrel.svg",
+			"family": ["Industrial"],
+			"style":"baseline",
+			"tags":["barrel","water","oil","barrels per day","b/d"],
+			"description":"This icon can be used to represent a barrel of water, oil, or barrels per unit of time",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Fuel",
+			"filename": "fuel.svg",
+			"family": ["Industrial"],
+			"style":"baseline",
+			"tags":["fuel","can","tank","gas","gasoline","jug"],
+			"description":"This icon can be used to represent a gas can",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Gas Cylinder",
+			"filename": "gas_cylinder.svg",
+			"family": ["Industrial"],
+			"style":"baseline",
+			"tags":["tank","gas"],
+			"description":"This icon can be used to represent a tank of gas, industrial gasses",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
 
 		
 		{
