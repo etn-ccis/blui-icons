@@ -49,7 +49,7 @@ To change the color of the icon you are using, simply set the CSS color property
 ```
 
 ### Available Icons
-See [Available Icons](https://github.com/pxblue/icons/blob/master/available_icons.md) for a list of currently available icons.
+See the [Iconography](https://pxblue.github.io/style/iconography) on pxblue.github.io for a list of currently available icons.
 
 ## Usage Alternatives
 The icon font is a great way to include lots of icons in your application. If you only need a few, you can also check out these alternative packages:
