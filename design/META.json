@@ -2145,7 +2145,7 @@
 			"filename": "cybersecurity.svg",
 			"family": ["Platform"],
 			"style":"baseline",
-			"tags":["security","secure","lock","protection","certified","platform","framework","ccis",,"code","logo","cloud","iot","technology"],
+			"tags":["security","secure","lock","protection","certified","platform","framework","ccis","code","logo","cloud","iot","technology"],
 			"description":"Cybersecurity icon graphic, redesigned on the Material Design Icon spec",
 			"author": "Eric Atha",
 			"size": 24
@@ -2156,7 +2156,7 @@
 			"filename": "cybersecurity_twotone.svg",
 			"family": ["Platform"],
 			"style":"two-tone",
-			"tags":["security","secure","lock","protection","certified","platform","framework","ccis",,"code","logo","cloud","iot","technology"],
+			"tags":["security","secure","lock","protection","certified","platform","framework","ccis","code","logo","cloud","iot","technology"],
 			"description":"Cybersecurity icon graphic, redesigned on the Material Design Icon spec, includes two-tone traces in the background at 50% opacity",
 			"author": "Eric Atha",
 			"size": 24
@@ -2624,7 +2624,6 @@
 			"description":"Icon for the Control Xpert Ag (Glacier Point) product",
 			"author": "Eric Atha",
 			"size": 24
-		},
-
+		}
 	]
 }

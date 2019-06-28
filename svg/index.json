@@ -26,6 +26,17 @@
 		},
 
 		{
+			"name": "Battery",
+			"filename": "battery.svg",
+			"family": ["Device"],
+			"style":"baseline",
+			"tags":["battery"],
+			"description":"Battery icon, displayed horizontally",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "Bearing",
 			"filename": "bearing.svg",
 			"family": ["Devices"],
@@ -156,6 +167,16 @@
 		},
 
 		{
+			"name": "Handheld Radio",
+			"filename": "radio_handheld.svg",
+			"family": ["Devices"],
+			"style":"baseline",
+			"tags":["device","product","equipment","walkie-talkie","transceiver","HT","portable","radio","handset","communication","service"],
+			"author": "Cody @XT3000, materialdesignicons.com",
+			"size": 24
+		},
+
+		{
 			"name": "Network Switch",
 			"filename": "network_switch.svg",
 			"family": ["Devices"],
@@ -259,20 +280,6 @@
 			"description":"Represents the ESB product xStorage",
 			"size": 24
 		},
-
-
-		{
-			"name": "Handheld Radio",
-			"filename": "radio_handheld.svg",
-			"family": ["Devices"],
-			"style":"baseline",
-			"tags":["device","product","equipment","walkie-talkie","transceiver","HT","portable","radio","handset","communication","service"],
-			"author": "Cody @XT3000, materialdesignicons.com",
-			"size": 24
-		},
-
-
-
 
 	
 		{
@@ -854,11 +861,45 @@
 		},
 
 		{
+			"name": "Incident",
+			"filename": "incident.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["incident","alarms","occurence"],
+			"description":"This icon represents and incident, or group of Alarms",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Active Incident",
+			"filename": "incident_active.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["incident","alarms","occurence","active"],
+			"description":"This icon represents and incident, or group of Alarms that are currently Active",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Resolved/Outlined Incident",
+			"filename": "incident_resolved.svg",
+			"family": ["Status"],
+			"style":["baseline","outline"],
+			"tags":["incident","alarms","occurence"],
+			"description":"This icon represents and incident, or group of Alarms that are resolved or inactive",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
 			"name": "Maintenance Mode",
 			"filename": "maintenance.svg",
 			"family": ["Status"],
 			"style":"baseline",
-			"tags":["circle","maintain","mode","service","upkeep","condition","repair","wrench","tool","care"],
+			"tags":["circle","maintain","mode","service","upkeep","condition","repair","wrench","tool","care","event"],
+			"description":"Used to represent maintainance mode or service event",
 			"author": "Eric Atha",
 			"size": 24
 		},
@@ -1481,6 +1522,17 @@
 		},
 
 		{
+			"name": "Support",
+			"filename": "support.svg",
+			"family": ["Status"],
+			"style":"baseline",
+			"tags":["support","call","phone","representative","headset","head","face","assistant"],
+			"description":"Represents a support person, phone call, or call center",
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
 			"name": "Temp",
 			"filename": "temp.svg",
 			"family": ["Status"],
@@ -1646,7 +1698,7 @@
 		},
 
 		{
-			"name": "waveform",
+			"name": "Waveform",
 			"filename": "waveform.svg",
 			"family": ["Status"],
 			"style":"baseline",
@@ -1654,6 +1706,41 @@
 			"author": "Eric Atha",
 			"size": 24
 		},
+
+
+		{
+			"name": "Barrel",
+			"filename": "barrel.svg",
+			"family": ["Industrial"],
+			"style":"baseline",
+			"tags":["barrel","water","oil","barrels per day","b/d"],
+			"description":"This icon can be used to represent a barrel of water, oil, or barrels per unit of time",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Fuel",
+			"filename": "fuel.svg",
+			"family": ["Industrial"],
+			"style":"baseline",
+			"tags":["fuel","can","tank","gas","gasoline","jug"],
+			"description":"This icon can be used to represent a gas can",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Gas Cylinder",
+			"filename": "gas_cylinder.svg",
+			"family": ["Industrial"],
+			"style":"baseline",
+			"tags":["tank","gas"],
+			"description":"This icon can be used to represent a tank of gas, industrial gasses",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
 
 		
 		{
@@ -1673,6 +1760,7 @@
 			"style":"baseline",
 			"tags":["leaf","crop","fruit","vegetable","farm","plant","grow","feed","eco","environment","green"],
 			"author": "Eric Atha",
+			"status": "possible redraw",
 			"size": 24
 		},
 
@@ -1769,6 +1857,150 @@
 			"size": 24
 		},
 
+		{
+			"name": "Asparagus",
+			"filename": "asparagus.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["asparagus","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Corn",
+			"filename": "corn.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["corn","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"status": "redraw",
+			"size": 24
+		},
+
+		{
+			"name": "Barley",
+			"filename": "barley.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["barley","grain","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Grass",
+			"filename": "grass.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["grass","grain","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"status": "redraw",
+			"size": 24
+		},
+
+		{
+			"name": "Tomato",
+			"filename": "tomato.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["tomato","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"status": "possibly redraw",
+			"size": 24
+		},
+
+		{
+			"name": "Garlic",
+			"filename": "garlic.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["garlic","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Carrot",
+			"filename": "carrot.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["carrot","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Potato",
+			"filename": "potato.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["potato","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Broccoli",
+			"filename": "broccoli.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["broccoli","cauliflower","crop","farm","plant","grow","feed","food"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Pepper",
+			"filename": "pepper.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["green","pepper","crop","farm","plant","grow","feed","food","spice"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Chili Pepper",
+			"filename": "chilipepper.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["chili","pepper","crop","farm","plant","grow","feed","food","spice","hot"],
+			"author": "Icons8",
+			"size": 24
+		},
+
+		{
+			"name": "Sunflower",
+			"filename": "sunflower.svg",
+			"family": ["Agriculture"],
+			"style":"baseline",
+			"tags":["flower","crop","farm","plant","grow","feed","food","seed"],
+			"author": "Icons8",
+			"status": "possibly redraw",
+			"size": 24
+		},
+
+		{
+			"name": "Silo",
+			"filename": "silo.svg",
+			"family": ["Agriculture", "Building"],
+			"style":"baseline",
+			"tags":["farm","feed","food","grain","structure"],
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Barn",
+			"filename": "barn.svg",
+			"family": ["Agriculture", "Building"],
+			"style":"baseline",
+			"tags":["farm","structure"],
+			"author": "Unknown",
+			"size": 24
+		},
+
 
 		{
 			"name": "Pickup Truck",
@@ -1830,6 +2062,16 @@
 			"size": 24
 		},
 
+		{
+			"name": "Combine Harvester",
+			"filename": "combine_harvester.svg",
+			"family": ["Vehicles", "Agriculture"],
+			"style":"baseline",
+			"tags":["equipment","agriculture","transport","automotive","farm","harvest"],
+			"author": "icons8",
+			"size": 24
+		},
+
 		
 		{
 			"name": "PXBlue",
@@ -1852,8 +2094,536 @@
 			"description":"Studio Blue logo icon graphic",
 			"author": "Eric Atha",
 			"size": 24
+		},
+
+		{
+			"name": "Studio Blue Outlined",
+			"filename": "studioblue_outline.svg",
+			"family": ["Platform"],
+			"style":"outlined",
+			"tags":["sb","blue","platform","ux","service","ccis","design","user experience","graphic","logo"],
+			"description":"Studio Blue logo icon graphic",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "PXRed",
+			"filename": "pxred.svg",
+			"family": ["Platform"],
+			"style":"baseline",
+			"tags":["pxred","red","power","xpert","platform","framework","ccis","px","code","logo","toolkit","linux"],
+			"description":"Power Xpert Red icon graphic, redesigned on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "PXGreen",
+			"filename": "pxgreen.svg",
+			"family": ["Platform"],
+			"style":"baseline",
+			"tags":["pxgreen","green","power","xpert","platform","framework","ccis","px","code","logo","toolkit","embedded"],
+			"description":"Power Xpert Green icon graphic, (somewhat) redesigned on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "PXWhite",
+			"filename": "pxwhite.svg",
+			"family": ["Platform"],
+			"style":"baseline",
+			"tags":["pxwhite","white","power","xpert","platform","framework","ccis","px","code","logo","cloud","iot"],
+			"description":"Power Xpert White icon graphic, redesigned on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Cybersecurity",
+			"filename": "cybersecurity.svg",
+			"family": ["Platform"],
+			"style":"baseline",
+			"tags":["security","secure","lock","protection","certified","platform","framework","ccis","code","logo","cloud","iot","technology"],
+			"description":"Cybersecurity icon graphic, redesigned on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Cybersecurity",
+			"filename": "cybersecurity_twotone.svg",
+			"family": ["Platform"],
+			"style":"two-tone",
+			"tags":["security","secure","lock","protection","certified","platform","framework","ccis","code","logo","cloud","iot","technology"],
+			"description":"Cybersecurity icon graphic, redesigned on the Material Design Icon spec, includes two-tone traces in the background at 50% opacity",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Eaton Logo",
+			"filename": "eaton.svg",
+			"family": ["Internal", "Platform"],
+			"style":"baseline",
+			"tags":["eaton","logo"],
+			"description":"Eaton Logo icons, very slightly tweaked to fit into a grid",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Affinity",
+			"filename": "affinity.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["affinity","diagram","ux","method","post-it","sticky","note","organize"],
+			"description":"Icon to represent Affinity Diagrams",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Card Sorting",
+			"filename": "cardsorting.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["diagram","ux","method","post-it","sticky","note","organize"],
+			"description":"Icon to represent Card Sorting",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Contextual Inquiry",
+			"filename": "contextualinquiry.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["diagram","ux","method","interviews","information"],
+			"description":"Icon to represent Card Sorting",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Journey Map",
+			"filename": "journeymap.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["diagram","ux","method","interviews","mapping"],
+			"description":"Icon to represent Card Sorting",
+			"author": "Eric Atha",
+			"size": 24
+		},
+		
+		{
+			"name": "Adobe",
+			"filename": "adobe.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","creative","cc","app","design","software","company"],
+			"description":"Adobe logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Adobe Illustrator",
+			"filename": "adobe_ai.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","illustrator","creative","cc","app","design","software"],
+			"description":"Adobe Illustrator icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Adobe Photoshop",
+			"filename": "adobe_ps.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","photoshop","creative","cc","app","design","software"],
+			"description":"Adobe Photoshop icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Adobe XD",
+			"filename": "adobe_ai.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","xd","creative","cc", "app","design","software"],
+			"description":"Adobe XD icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Adobe InDesign",
+			"filename": "adobe_id.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["adobe","xd","creative","cc", "app","design","software"],
+			"description":"Adobe InDesign icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Sketch",
+			"filename": "sketch.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["sketch","app","design","software"],
+			"description":"Sketch icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+
+		{
+			"name": "Microsoft",
+			"filename": "microsoft.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","company"],
+			"description":"Microsoft logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Office",
+			"filename": "microsoft_office.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office"],
+			"description":"Microsoft Office logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Outlook",
+			"filename": "microsoft_outlook.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","outlook","email","client"],
+			"description":"Microsoft Outlook",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft OneNote",
+			"filename": "microsoft_onenote.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","onenote","notes"],
+			"description":"Microsoft OneNote",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Powerpoint",
+			"filename": "microsoft_powerpoint.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","powerpoint","slide","slidedeck","presentation","ppt","pptx"],
+			"description":"Microsoft Powerpoint",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Teams",
+			"filename": "microsoft_teams.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","teams","collaboration","communication"],
+			"description":"Microsoft Teams",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Yammer",
+			"filename": "microsoft_yammer.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","office","yammer","social","forum"],
+			"description":"Microsoft Yammer",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Edge",
+			"filename": "microsoft_edge.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","browser","edge","web"],
+			"description":"Microsoft Edge",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Internet Explorer",
+			"filename": "microsoft_internet_explorer.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","browser","internet explorer","web", "ie"],
+			"description":"Microsoft Internet Explorer",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Windows",
+			"filename": "microsoft_windows.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","os","operating system","windows","system"],
+			"description":"Microsoft Windows",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Visual Studio",
+			"filename": "microsoft_visual_studio.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","code","visual studio","ide"],
+			"description":"Microsoft Visual Studio",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Microsoft Visual Studio Code",
+			"filename": "microsoft_visual_studio_code.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["microsoft","software","code","visual studio","ide"],
+			"description":"Microsoft Visual Studio",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Angular",
+			"filename": "angular.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["angular","framework","js","javascript","ng","angularjs"],
+			"description":"Angular icon",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Angular Outlined",
+			"filename": "angular_outlined.svg",
+			"family": ["Internal"],
+			"style":"outlined",
+			"tags":["angular","framework","js","javascript","ng","angularjs"],
+			"description":"Angular icon, outlined version",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Atlassian",
+			"filename": "atlassian.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["atlassian","company","software"],
+			"description":"Atlassian logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Atlassian Jira",
+			"filename": "atlassian_jira.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["atlassian","company","software","collaboration","issue","project","tracking","agile","tool"],
+			"description":"Atlassian Jira logo",
+			"author": "Unknown",
+			"status":"redraw using new icon design",
+			"size": 24
+		},
+
+		{
+			"name": "Amazon",
+			"filename": "amazon.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["amazon","company","software"],
+			"description":"Amazon logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Amazon Alexa",
+			"filename": "amazon_alexa.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["amazon","alexa","home","automation","voice","assistant","platform","app","store"],
+			"description":"Amazon logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Apple",
+			"filename": "Apple.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["apple","company","platform","app","store"],
+			"description":"Apple logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Box",
+			"filename": "box.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["box","company","platform","cloud","storage","service","sharing","file"],
+			"description":"Box logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Dropbox",
+			"filename": "dropbox.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["box","company","platform","cloud","storage","service","sharing","file"],
+			"description":"Dropbox logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Cordova",
+			"filename": "Cordova.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["cordova","apache","mobile","hybrid","platform"],
+			"description":"Apache Cordova icon",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Git",
+			"filename": "git.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["git","source control","repository","branch"],
+			"description":"Git logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Github",
+			"filename": "github.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["github","git","source control","service"],
+			"description":"Github logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Firefox",
+			"filename": "firefox.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["firefox","browser","web","mozilla"],
+			"description":"Mozilla Firefox logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "NativeScript",
+			"filename": "nativescript.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["nativescript","code","platform","script","mobile","app","language"],
+			"description":"NativeScript logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "CSS3",
+			"filename": "language_css3.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["CSS3","code","platform","style","language"],
+			"description":"CSS3 logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "HTML5",
+			"filename": "language_html5.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["HTML5","code","platform","language"],
+			"description":"HTML5 logo",
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "UserInterviews.com",
+			"filename": "userinterviewscom.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["user","interviews",".com","testing"],
+			"description":"UserInterviews.com icon, designed on the Material Design Icon spec",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "iOS App Icon",
+			"filename": "iosapp.svg",
+			"family": ["Internal"],
+			"style":"baseline",
+			"tags":["iOS","app","icon","iPhone","eaton","presentation","brand"],
+			"description":"iOS App Icon with Eaton Badge",
+			"author": "Eric Atha",
+			"size": 24
+		},
+
+		{
+			"name": "Control Xpert",
+			"filename": "controlxpert.svg",
+			"family": ["Product"],
+			"style":"baseline",
+			"tags":["product","app","remote","agriculture","CX","icd","pump","drive","starter"],
+			"description":"Icon for the Control Xpert Ag (Glacier Point) product",
+			"author": "Eric Atha",
+			"size": 24
 		}
-
-
 	]
 }
