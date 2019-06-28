@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?81b923c00255e6c00cb9fe2674f2b976?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?81b923c00255e6c00cb9fe2674f2b976") format("woff2"),
-url("./PXBlueIcons.woff?81b923c00255e6c00cb9fe2674f2b976") format("woff"),
-url("./PXBlueIcons.ttf?81b923c00255e6c00cb9fe2674f2b976") format("truetype"),
-url("./PXBlueIcons.svg?81b923c00255e6c00cb9fe2674f2b976#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?5d3125b2b602f4c7a1d355510d28bdf0?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?5d3125b2b602f4c7a1d355510d28bdf0") format("woff2"),
+url("./PXBlueIcons.woff?5d3125b2b602f4c7a1d355510d28bdf0") format("woff"),
+url("./PXBlueIcons.ttf?5d3125b2b602f4c7a1d355510d28bdf0") format("truetype"),
+url("./PXBlueIcons.svg?5d3125b2b602f4c7a1d355510d28bdf0#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -141,7 +141,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-garlic:before {
     content: "\f129";
 }
-.pxb-gas-cylinder:before {
+.pxb-gas_cylinder:before {
     content: "\f12a";
 }
 .pxb-generator:before {
@@ -216,13 +216,13 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-pickup_truck:before {
     content: "\f142";
 }
-.pxb-pipe-disconnected:before {
+.pxb-pipe:before {
     content: "\f143";
 }
-.pxb-pipe-leak:before {
+.pxb-pipe_disconnected:before {
     content: "\f144";
 }
-.pxb-pipe:before {
+.pxb-pipe_leak:before {
     content: "\f145";
 }
 .pxb-potato:before {
@@ -270,10 +270,10 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-radio_handheld:before {
     content: "\f154";
 }
-.pxb-road-variant:before {
+.pxb-road:before {
     content: "\f155";
 }
-.pxb-road:before {
+.pxb-road_variant:before {
     content: "\f156";
 }
 .pxb-running_high:before {
@@ -282,7 +282,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-running_low:before {
     content: "\f158";
 }
-.pxb-satellite-uplink:before {
+.pxb-satellite_uplink:before {
     content: "\f159";
 }
 .pxb-scan_qrcode:before {
@@ -294,7 +294,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-servers:before {
     content: "\f15c";
 }
-.pxb-sign-caution:before {
+.pxb-sign_caution:before {
     content: "\f15d";
 }
 .pxb-silo:before {
@@ -354,7 +354,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-tractor:before {
     content: "\f170";
 }
-.pxb-traffic-light:before {
+.pxb-traffic_light:before {
     content: "\f171";
 }
 .pxb-tree:before {
