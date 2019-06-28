@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Px Blue icons",
   "main": "./iconfont/index.css",
   "repository": {
@@ -21,7 +21,7 @@
     "copy": "yarn move && rm -r svg && mkdir svg && copyfiles -f -e \"design/old/*.svg\" -e \"design/Internal/*.svg\" -e \"design/WIP/*.svg\" design/**/*.svg design/**/**/*.svg svg && yarn move-back",
     "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons' && create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
     "build": "yarn copy && rm -r iconfont && mkdir iconfont && icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb && yarn sprites && yarn index",
-    "build:progress":"cd progress/react && yarn && yarn build && cd ../angular && yarn && yarn build",
+    "build:progress": "cd progress/react && yarn && yarn build && cd ../angular && yarn && yarn build",
     "build:all": "yarn && yarn build && yarn build:progress"
   },
   "bugs": {
