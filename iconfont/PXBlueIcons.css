@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?0bb692be617cb169cc6b2f3c1b1011b2?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?0bb692be617cb169cc6b2f3c1b1011b2") format("woff2"),
-url("./PXBlueIcons.woff?0bb692be617cb169cc6b2f3c1b1011b2") format("woff"),
-url("./PXBlueIcons.ttf?0bb692be617cb169cc6b2f3c1b1011b2") format("truetype"),
-url("./PXBlueIcons.svg?0bb692be617cb169cc6b2f3c1b1011b2#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?81b923c00255e6c00cb9fe2674f2b976?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?81b923c00255e6c00cb9fe2674f2b976") format("woff2"),
+url("./PXBlueIcons.woff?81b923c00255e6c00cb9fe2674f2b976") format("woff"),
+url("./PXBlueIcons.ttf?81b923c00255e6c00cb9fe2674f2b976") format("truetype"),
+url("./PXBlueIcons.svg?81b923c00255e6c00cb9fe2674f2b976#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -69,7 +69,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-carrot:before {
     content: "\f111";
 }
-.pxb-chili-mild:before {
+.pxb-chili_pepper:before {
     content: "\f112";
 }
 .pxb-combine_harvester:before {
@@ -120,13 +120,13 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-flow:before {
     content: "\f122";
 }
-.pxb-flower-tulip:before {
+.pxb-flower:before {
     content: "\f123";
 }
-.pxb-flower:before {
+.pxb-flower_tulip:before {
     content: "\f124";
 }
-.pxb-food-apple:before {
+.pxb-food_apple:before {
     content: "\f125";
 }
 .pxb-football_helmet:before {
