@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?289a2341dda29f32f59783ec95489173?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?289a2341dda29f32f59783ec95489173") format("woff2"),
-url("./PXBlueIcons.woff?289a2341dda29f32f59783ec95489173") format("woff"),
-url("./PXBlueIcons.ttf?289a2341dda29f32f59783ec95489173") format("truetype"),
-url("./PXBlueIcons.svg?289a2341dda29f32f59783ec95489173#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?10c45f124800750e6ff9382b11dde1d8?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?10c45f124800750e6ff9382b11dde1d8") format("woff2"),
+url("./PXBlueIcons.woff?10c45f124800750e6ff9382b11dde1d8") format("woff"),
+url("./PXBlueIcons.ttf?10c45f124800750e6ff9382b11dde1d8") format("truetype"),
+url("./PXBlueIcons.svg?10c45f124800750e6ff9382b11dde1d8#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -21,225 +21,393 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-air_filter:before {
     content: "\f101";
 }
-.pxb-bearing:before {
+.pxb-apple:before {
     content: "\f102";
 }
-.pxb-breaker:before {
+.pxb-asparagus:before {
     content: "\f103";
 }
-.pxb-bypass_battery:before {
+.pxb-barley:before {
     content: "\f104";
 }
-.pxb-camera:before {
+.pxb-barley_alt:before {
     content: "\f105";
 }
-.pxb-capacitor_large:before {
+.pxb-barrel:before {
     content: "\f106";
 }
-.pxb-car:before {
+.pxb-baseball:before {
     content: "\f107";
 }
-.pxb-computer:before {
+.pxb-basketball_hoop:before {
     content: "\f108";
 }
-.pxb-contactor:before {
+.pxb-battery:before {
     content: "\f109";
 }
-.pxb-current:before {
+.pxb-bearing:before {
     content: "\f10a";
 }
-.pxb-current_circled:before {
+.pxb-boxing_glove:before {
     content: "\f10b";
 }
-.pxb-current_circled_outline:before {
+.pxb-breaker:before {
     content: "\f10c";
 }
-.pxb-device:before {
+.pxb-broccoli:before {
     content: "\f10d";
 }
-.pxb-environment:before {
+.pxb-bypass_battery:before {
     content: "\f10e";
 }
-.pxb-ephesus_fixture:before {
+.pxb-camera:before {
     content: "\f10f";
 }
-.pxb-ephesus_gateway:before {
+.pxb-capacitor_large:before {
     content: "\f110";
 }
-.pxb-fan:before {
+.pxb-car:before {
     content: "\f111";
 }
-.pxb-flow:before {
+.pxb-carrot:before {
     content: "\f112";
 }
-.pxb-forklift:before {
+.pxb-chili_pepper:before {
     content: "\f113";
 }
-.pxb-generator:before {
+.pxb-combine_harvester:before {
     content: "\f114";
 }
-.pxb-generator_off:before {
+.pxb-computer:before {
     content: "\f115";
 }
-.pxb-grade_a:before {
+.pxb-contactor:before {
     content: "\f116";
 }
-.pxb-grade_b:before {
+.pxb-controlxpert:before {
     content: "\f117";
 }
-.pxb-grade_c:before {
+.pxb-corn:before {
     content: "\f118";
 }
-.pxb-grade_d:before {
+.pxb-current:before {
     content: "\f119";
 }
-.pxb-grade_f:before {
+.pxb-current_circled:before {
     content: "\f11a";
 }
-.pxb-health:before {
+.pxb-current_circled_outline:before {
     content: "\f11b";
 }
-.pxb-leaf:before {
+.pxb-cybersecurity:before {
     content: "\f11c";
 }
-.pxb-maintenance:before {
+.pxb-cybersecurity_two_tone:before {
     content: "\f11d";
 }
-.pxb-moisture:before {
+.pxb-device:before {
     content: "\f11e";
 }
-.pxb-network_switch:before {
+.pxb-environment:before {
     content: "\f11f";
 }
-.pxb-overlap:before {
+.pxb-ephesus_fixture:before {
     content: "\f120";
 }
-.pxb-pdu:before {
+.pxb-ephesus_gateway:before {
     content: "\f121";
 }
-.pxb-pickup_truck:before {
+.pxb-fan:before {
     content: "\f122";
 }
-.pxb-power_circled:before {
+.pxb-flow:before {
     content: "\f123";
 }
-.pxb-power_circled_outline:before {
+.pxb-flower:before {
     content: "\f124";
 }
-.pxb-priority:before {
+.pxb-flower_tulip:before {
     content: "\f125";
 }
-.pxb-pump:before {
+.pxb-football_helmet:before {
     content: "\f126";
 }
-.pxb-push_notification:before {
+.pxb-forklift:before {
     content: "\f127";
 }
-.pxb-push_notification_solid:before {
+.pxb-fuel:before {
     content: "\f128";
 }
-.pxb-qrcode:before {
+.pxb-garlic:before {
     content: "\f129";
 }
-.pxb-radio_handheld:before {
+.pxb-gas_cylinder:before {
     content: "\f12a";
 }
-.pxb-running_high:before {
+.pxb-generator:before {
     content: "\f12b";
 }
-.pxb-running_low:before {
+.pxb-generator_off:before {
     content: "\f12c";
 }
-.pxb-scan_qrcode:before {
+.pxb-glasses:before {
     content: "\f12d";
 }
-.pxb-server:before {
+.pxb-grade_a:before {
     content: "\f12e";
 }
-.pxb-servers:before {
+.pxb-grade_b:before {
     content: "\f12f";
 }
-.pxb-soybean:before {
+.pxb-grade_c:before {
     content: "\f130";
 }
-.pxb-sports_car:before {
+.pxb-grade_d:before {
     content: "\f131";
 }
-.pxb-ssol:before {
+.pxb-grade_f:before {
     content: "\f132";
 }
-.pxb-stopped:before {
+.pxb-grass:before {
     content: "\f133";
 }
-.pxb-stopping:before {
+.pxb-health:before {
     content: "\f134";
 }
-.pxb-switch:before {
+.pxb-hockey_puck:before {
     content: "\f135";
 }
-.pxb-temp:before {
+.pxb-hockey_sticks:before {
     content: "\f136";
 }
-.pxb-toggle_off:before {
+.pxb-hops:before {
     content: "\f137";
 }
-.pxb-toggle_off_outlined:before {
+.pxb-incident:before {
     content: "\f138";
 }
-.pxb-toggle_on:before {
+.pxb-incident_active:before {
     content: "\f139";
 }
-.pxb-toggle_on_outlined:before {
+.pxb-incident_resolved:before {
     content: "\f13a";
 }
-.pxb-tractor:before {
+.pxb-leaf:before {
     content: "\f13b";
 }
-.pxb-tree:before {
+.pxb-maintenance:before {
     content: "\f13c";
 }
-.pxb-trending_down:before {
+.pxb-moisture:before {
     content: "\f13d";
 }
-.pxb-trending_flat:before {
+.pxb-network_switch:before {
     content: "\f13e";
 }
-.pxb-trending_up:before {
+.pxb-overlap:before {
     content: "\f13f";
 }
-.pxb-utility:before {
+.pxb-pdu:before {
     content: "\f140";
 }
-.pxb-utility_van:before {
+.pxb-pepper:before {
     content: "\f141";
 }
-.pxb-vfd:before {
+.pxb-pickup_truck:before {
     content: "\f142";
 }
-.pxb-vmms:before {
+.pxb-pipe:before {
     content: "\f143";
 }
-.pxb-voltage:before {
+.pxb-pipe_disconnected:before {
     content: "\f144";
 }
-.pxb-voltage_circled:before {
+.pxb-pipe_leak:before {
     content: "\f145";
 }
-.pxb-voltage_circled_outline:before {
+.pxb-potato:before {
     content: "\f146";
 }
-.pxb-water:before {
+.pxb-power_circled:before {
     content: "\f147";
 }
-.pxb-water_outline:before {
+.pxb-power_circled_outline:before {
     content: "\f148";
 }
-.pxb-waveform:before {
+.pxb-priority:before {
     content: "\f149";
 }
-.pxb-xstorage:before {
+.pxb-pump:before {
     content: "\f14a";
 }
-.pxb-xstorage_alt:before {
+.pxb-push_notification:before {
     content: "\f14b";
+}
+.pxb-push_notification_solid:before {
+    content: "\f14c";
+}
+.pxb-pxblue:before {
+    content: "\f14d";
+}
+.pxb-pxblue_small:before {
+    content: "\f14e";
+}
+.pxb-pxblue_small_alt:before {
+    content: "\f14f";
+}
+.pxb-pxgreen:before {
+    content: "\f150";
+}
+.pxb-pxred:before {
+    content: "\f151";
+}
+.pxb-pxwhite:before {
+    content: "\f152";
+}
+.pxb-qrcode:before {
+    content: "\f153";
+}
+.pxb-radio_handheld:before {
+    content: "\f154";
+}
+.pxb-road:before {
+    content: "\f155";
+}
+.pxb-road_variant:before {
+    content: "\f156";
+}
+.pxb-running_high:before {
+    content: "\f157";
+}
+.pxb-running_low:before {
+    content: "\f158";
+}
+.pxb-satellite_uplink:before {
+    content: "\f159";
+}
+.pxb-scan_qrcode:before {
+    content: "\f15a";
+}
+.pxb-server:before {
+    content: "\f15b";
+}
+.pxb-servers:before {
+    content: "\f15c";
+}
+.pxb-sign_caution:before {
+    content: "\f15d";
+}
+.pxb-silo:before {
+    content: "\f15e";
+}
+.pxb-soybean:before {
+    content: "\f15f";
+}
+.pxb-sports_car:before {
+    content: "\f160";
+}
+.pxb-ssol:before {
+    content: "\f161";
+}
+.pxb-stopped:before {
+    content: "\f162";
+}
+.pxb-stopping:before {
+    content: "\f163";
+}
+.pxb-studioblue:before {
+    content: "\f164";
+}
+.pxb-studioblue_outline:before {
+    content: "\f165";
+}
+.pxb-sunflower:before {
+    content: "\f166";
+}
+.pxb-support:before {
+    content: "\f167";
+}
+.pxb-switch:before {
+    content: "\f168";
+}
+.pxb-temp:before {
+    content: "\f169";
+}
+.pxb-tennis:before {
+    content: "\f16a";
+}
+.pxb-toggle_off:before {
+    content: "\f16b";
+}
+.pxb-toggle_off_outlined:before {
+    content: "\f16c";
+}
+.pxb-toggle_on:before {
+    content: "\f16d";
+}
+.pxb-toggle_on_outlined:before {
+    content: "\f16e";
+}
+.pxb-tomato:before {
+    content: "\f16f";
+}
+.pxb-tractor:before {
+    content: "\f170";
+}
+.pxb-traffic_light:before {
+    content: "\f171";
+}
+.pxb-tree:before {
+    content: "\f172";
+}
+.pxb-trending_down:before {
+    content: "\f173";
+}
+.pxb-trending_flat:before {
+    content: "\f174";
+}
+.pxb-trending_up:before {
+    content: "\f175";
+}
+.pxb-tripped:before {
+    content: "\f176";
+}
+.pxb-utility:before {
+    content: "\f177";
+}
+.pxb-utility_van:before {
+    content: "\f178";
+}
+.pxb-vfd:before {
+    content: "\f179";
+}
+.pxb-vmms:before {
+    content: "\f17a";
+}
+.pxb-voltage:before {
+    content: "\f17b";
+}
+.pxb-voltage_circled:before {
+    content: "\f17c";
+}
+.pxb-voltage_circled_outline:before {
+    content: "\f17d";
+}
+.pxb-water:before {
+    content: "\f17e";
+}
+.pxb-water_outline:before {
+    content: "\f17f";
+}
+.pxb-waveform:before {
+    content: "\f180";
+}
+.pxb-wheat:before {
+    content: "\f181";
+}
+.pxb-xstorage:before {
+    content: "\f182";
+}
+.pxb-xstorage_alt:before {
+    content: "\f183";
 }
