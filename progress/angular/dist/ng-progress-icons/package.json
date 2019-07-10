@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/ng-progress-icons",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "Angular progress icons for PX Blue applications",
   "main": "bundles/pxblue-ng-progress-icons.umd.js",
   "dependencies": {
