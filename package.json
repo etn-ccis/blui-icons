@@ -30,7 +30,7 @@
   "homepage": "https://github.com/pxblue/icons#readme",
   "devDependencies": {
     "copyfiles": "^2.1.0",
-    "create-svg-sprite": "^1.0.4",
+    "create-svg-sprite": "~1.0.4",
     "icon-font-generator": "^2.1.8"
   },
   "keywords": [
