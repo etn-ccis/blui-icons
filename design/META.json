@@ -2736,6 +2736,21 @@
 			"author": "GreenTurtwig",
 			"size": 24
 		}
+		,
+		{
+			"name": "Offline Bolt Outline",
+			"filename": "outline-offline_bolt.svg",
+			"family": [
+				"status"
+			],
+			"style": "outlined",
+			"tags": [
+				"energy",
+				"consumption"
+			],
+			"author": "Google",
+			"size": 24
+		}
 		
 	]
 }
