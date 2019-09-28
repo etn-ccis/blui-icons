@@ -21,7 +21,7 @@ var NgProgressIconsModule = /** @class */ (function () {
                         NgProgressIconsComponent,
                         BatteryComponent, HeartComponent, PieComponent
                     ]
-                },] },
+                },] }
     ];
     return NgProgressIconsModule;
 }());

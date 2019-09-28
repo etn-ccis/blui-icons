@@ -11,9 +11,9 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _utilities = require("./utilities");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -70,21 +70,21 @@ function (_Component) {
 
       this.startY = outlined ? 18.35 : 21.35;
       this.fillHeight = outlined ? 13.35 : 18.35;
-      return _react.default.createElement("svg", _extends({
+      return _react["default"].createElement("svg", _extends({
         height: "".concat(size, "px"),
         width: "".concat(size, "px"),
         x: "0px",
         y: "0px",
         viewBox: "0 0 24 24"
-      }, props), _react.default.createElement("path", {
+      }, props), _react["default"].createElement("path", {
         fill: color || "currentColor",
         fillOpacity: outlined || percent >= 100 ? "1" : "0.3",
         d: getPath(outlined)
-      }), _react.default.createElement("clipPath", {
+      }), _react["default"].createElement("clipPath", {
         id: "pxb-heart-clip"
-      }, _react.default.createElement("path", {
+      }, _react["default"].createElement("path", {
         d: "M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
-      })), percent > 0 && _react.default.createElement("rect", {
+      })), percent > 0 && _react["default"].createElement("rect", {
         fill: color || "currentColor",
         clipPath: "url(#pxb-heart-clip)",
         x: "2",
@@ -100,10 +100,10 @@ function (_Component) {
 
 exports.Heart = Heart;
 Heart.propTypes = {
-  percent: _propTypes.default.number,
-  size: _propTypes.default.number,
-  outlined: _propTypes.default.bool,
-  color: _propTypes.default.string
+  percent: _propTypes["default"].number,
+  size: _propTypes["default"].number,
+  outlined: _propTypes["default"].bool,
+  color: _propTypes["default"].string
 };
 Heart.defaultProps = {
   percentage: 100,

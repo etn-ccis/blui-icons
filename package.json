@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "Px Blue icons",
   "main": "./iconfont/index.css",
   "repository": {
@@ -24,6 +24,9 @@
     "build:progress": "cd progress/react && yarn && yarn build && cd ../angular && yarn && yarn build",
     "build:all": "yarn && yarn build && yarn build:progress"
   },
+  "files":[
+    "iconfont"
+  ],
   "bugs": {
     "url": "https://github.com/pxblue/icons/issues"
   },

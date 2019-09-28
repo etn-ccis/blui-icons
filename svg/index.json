@@ -2630,6 +2630,125 @@
 			],
 			"author": "Unknown",
 			"size": 24
+		},
+		{
+			"name": "Departments",
+			"filename": "departments.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"hexagon",
+				"hexagons"
+			],
+			"author": "Austin Andrews",
+			"size": 24
+		},
+		{
+			"name": "Department",
+			"filename": "department.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"hexagon"
+			],
+			"author": "Austin Andrews",
+			"size": 24
+		},
+		{
+			"name": "Piggy Bank",
+			"filename": "piggy-bank.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"save",
+				"savings",
+				"money",
+				"coin"
+			],
+			"author": "Alex Efremo",
+			"size": 24
+		},
+		{
+			"name": "Map Marker Multiple",
+			"filename": "map-marker-multiple.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"pins",
+				"places",
+				"locations"
+			],
+			"author": "Austin Andrews",
+			"size": 24
+		},
+		{
+			"name": "Map Marker Three",
+			"filename": "map-marker-three.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"pins",
+				"places",
+				"locations"
+			],
+			"author": "Eric Atha",
+			"size": 24
+		},
+		{
+			"name": "Factory",
+			"filename": "factory.svg",
+			"family": [
+				"industrial"
+			],
+			"style": "baseline",
+			"tags": [
+				"plant",
+				"place",
+				"location"
+			],
+			"author": "Austin Andrews",
+			"size": 24
+		},
+		{
+			"name": "Building",
+			"filename": "building.svg",
+			"family": [
+				"industrial"
+			],
+			"style": "baseline",
+			"tags": [
+				"pins",
+				"places",
+				"locations",
+				"office"
+			],
+			"author": "GreenTurtwig",
+			"size": 24
+		}
+		,
+		{
+			"name": "Offline Bolt Outline",
+			"filename": "outline-offline_bolt.svg",
+			"family": [
+				"status"
+			],
+			"style": "outlined",
+			"tags": [
+				"energy",
+				"consumption"
+			],
+			"author": "Google",
+			"size": 24
 		}
 		
 	]

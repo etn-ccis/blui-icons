@@ -1,12 +1,11 @@
 {
   "name": "@pxblue/ng-progress-icons",
-  "version": "1.1.4",
+  "version": "1.1.2",
   "description": "Angular progress icons for PX Blue applications",
   "main": "bundles/pxblue-ng-progress-icons.umd.js",
-  "dependencies": {
+  "devDependencies": {
     "tslib": "^1.9.0"
   },
-  "devDependencies": {},
   "peerDependencies": {
     "@angular/common": ">=6.0.0",
     "@angular/core": ">=6.0.0"
@@ -34,5 +33,8 @@
   "fesm2015": "fesm2015/pxblue-ng-progress-icons.js",
   "typings": "pxblue-ng-progress-icons.d.ts",
   "metadata": "pxblue-ng-progress-icons.metadata.json",
-  "sideEffects": false
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
 }

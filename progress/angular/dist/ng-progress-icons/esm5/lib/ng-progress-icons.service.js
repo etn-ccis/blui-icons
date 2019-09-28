@@ -10,11 +10,11 @@ var NgProgressIconsService = /** @class */ (function () {
     NgProgressIconsService.decorators = [
         { type: Injectable, args: [{
                     providedIn: 'root'
-                },] },
+                },] }
     ];
     /** @nocollapse */
     NgProgressIconsService.ctorParameters = function () { return []; };
-    /** @nocollapse */ NgProgressIconsService.ngInjectableDef = i0.defineInjectable({ factory: function NgProgressIconsService_Factory() { return new NgProgressIconsService(); }, token: NgProgressIconsService, providedIn: "root" });
+    /** @nocollapse */ NgProgressIconsService.ngInjectableDef = i0.ɵɵdefineInjectable({ factory: function NgProgressIconsService_Factory() { return new NgProgressIconsService(); }, token: NgProgressIconsService, providedIn: "root" });
     return NgProgressIconsService;
 }());
 export { NgProgressIconsService };
