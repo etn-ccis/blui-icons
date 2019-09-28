@@ -25,7 +25,10 @@
     "build:all": "yarn && yarn build && yarn build:progress"
   },
   "files":[
-    "iconfont"
+    "iconfont",
+    "LICENSE",
+    "package.json",
+    "README.md"
   ],
   "bugs": {
     "url": "https://github.com/pxblue/icons/issues"
