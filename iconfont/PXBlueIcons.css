@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?9384f9066380bcfb6aa41d098c0a28d7?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?9384f9066380bcfb6aa41d098c0a28d7") format("woff2"),
-url("./PXBlueIcons.woff?9384f9066380bcfb6aa41d098c0a28d7") format("woff"),
-url("./PXBlueIcons.ttf?9384f9066380bcfb6aa41d098c0a28d7") format("truetype"),
-url("./PXBlueIcons.svg?9384f9066380bcfb6aa41d098c0a28d7#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?66b0fcbccdbdeb2d17efdbea15fabaa5?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?66b0fcbccdbdeb2d17efdbea15fabaa5") format("woff2"),
+url("./PXBlueIcons.woff?66b0fcbccdbdeb2d17efdbea15fabaa5") format("woff"),
+url("./PXBlueIcons.ttf?66b0fcbccdbdeb2d17efdbea15fabaa5") format("truetype"),
+url("./PXBlueIcons.svg?66b0fcbccdbdeb2d17efdbea15fabaa5#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -207,10 +207,10 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-maintenance:before {
     content: "\f13f";
 }
-.pxb-map-marker-multiple:before {
+.pxb-map_marker_multiple:before {
     content: "\f140";
 }
-.pxb-map-marker-three:before {
+.pxb-map_marker_three:before {
     content: "\f141";
 }
 .pxb-moisture:before {
@@ -219,7 +219,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-network_switch:before {
     content: "\f143";
 }
-.pxb-outline-offline_bolt:before {
+.pxb-outline_offline_bolt:before {
     content: "\f144";
 }
 .pxb-overlap:before {
@@ -234,7 +234,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-pickup_truck:before {
     content: "\f148";
 }
-.pxb-piggy-bank:before {
+.pxb-piggy_bank:before {
     content: "\f149";
 }
 .pxb-pipe:before {

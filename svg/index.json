@@ -2660,7 +2660,7 @@
 		},
 		{
 			"name": "Piggy Bank",
-			"filename": "piggy-bank.svg",
+			"filename": "piggy_bank.svg",
 			"family": [
 				"status"
 			],
@@ -2676,7 +2676,7 @@
 		},
 		{
 			"name": "Map Marker Multiple",
-			"filename": "map-marker-multiple.svg",
+			"filename": "map_marker_multiple.svg",
 			"family": [
 				"status"
 			],
@@ -2691,7 +2691,7 @@
 		},
 		{
 			"name": "Map Marker Three",
-			"filename": "map-marker-three.svg",
+			"filename": "map_marker_three.svg",
 			"family": [
 				"status"
 			],
@@ -2738,7 +2738,7 @@
 		,
 		{
 			"name": "Offline Bolt Outline",
-			"filename": "outline-offline_bolt.svg",
+			"filename": "outline_offline_bolt.svg",
 			"family": [
 				"status"
 			],
