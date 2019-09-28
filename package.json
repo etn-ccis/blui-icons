@@ -28,7 +28,8 @@
     "iconfont",
     "LICENSE",
     "package.json",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md"
   ],
   "bugs": {
     "url": "https://github.com/pxblue/icons/issues"
