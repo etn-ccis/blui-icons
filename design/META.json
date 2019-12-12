@@ -1583,6 +1583,24 @@
 			"size": 24
 		},
 		{
+			"name": "Flask",
+			"filename": "flask.svg",
+			"family": [
+				"Industrial"
+			],
+			"style": "baseline",
+			"tags": [
+				"flask",
+				"formula",
+				"science",
+				"glass",
+				"container"
+			],
+			"description": "This icon can be used to represent a flask, science, formula",
+			"author": "Austin Andrews - materialdesignicons.com",
+			"size": 24
+		},
+		{
 			"name": "Fuel",
 			"filename": "fuel.svg",
 			"family": [
