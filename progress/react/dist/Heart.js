@@ -44,17 +44,13 @@ var Heart = /** @class */ (function (_super) {
     __extends(Heart, _super);
     function Heart(props) {
         var _this = _super.call(this, props) || this;
-        _this.defaultProps = {
-            percentage: 100,
-            size: 24,
-            outlined: false,
-        };
-        _this.startY = _this.startY = _this.props.outlined ? 18.35 : 21.35;
-        _this.fillHeight = _this.props.outlined ? 13.35 : 18.35;
+        var _props = __assign(__assign({}, _this.props), utilities_1.defaultProps);
+        _this.startY = _this.startY = _props.outlined ? 18.35 : 21.35;
+        _this.fillHeight = _props.outlined ? 13.35 : 18.35;
         return _this;
     }
     Heart.prototype.render = function () {
-        var _a = this.props, outlined = _a.outlined, size = _a.size, percent = _a.percent, color = _a.color, props = __rest(_a, ["outlined", "size", "percent", "color"]);
+        var _a = __assign(__assign({}, this.props), utilities_1.defaultProps), outlined = _a.outlined, size = _a.size, percent = _a.percent, color = _a.color, props = __rest(_a, ["outlined", "size", "percent", "color"]);
         return (react_1.default.createElement("svg", __assign({ height: size + "px", width: size + "px", x: "0px", y: "0px", viewBox: "0 0 24 24" }, props),
             react_1.default.createElement("path", { fill: color || 'currentColor', fillOpacity: outlined || percent >= 100 ? '1' : '0.3', d: getPath(outlined) }),
             react_1.default.createElement("clipPath", { id: "pxb-heart-clip" },

@@ -3,3 +3,11 @@ export declare const getCoordinates: (percent: number, radius?: number) => {
     x: number;
     y: number;
 };
+export declare const defaultProps: {
+    percent: number;
+    size: number;
+    ring: number;
+    outlined: boolean;
+    charging: boolean;
+    color: string;
+};

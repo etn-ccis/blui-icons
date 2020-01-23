@@ -1,25 +1,11 @@
 import React, { Component } from 'react';
-import { getCoordinates, rangeValue } from './utilities';
+import { getCoordinates, rangeValue, defaultProps } from './utilities';
+import { IconPropType } from './types'
 
-type PiePropType = {
-    outlined: boolean;
-    ring: number;
-    size: number;
-    percent: number;
-    color: string;
-    style: object;
-};
-
-export class Pie extends Component<PiePropType> {
-    defaultProps = {
-        percentage: 100,
-        size: 24,
-        ring: 10,
-        outlined: false,
-    };
+export class Pie extends Component<IconPropType> {
 
     render(): JSX.Element {
-        const { outlined, ring, size, percent, color, style, ...props } = this.props;
+        const { outlined, ring, size, percent, color, style, ...props } = {...this.props, ...defaultProps};
         let stroke = Math.max(1, Math.min(10, Math.round(ring)));
         const iconStroke = 2;
         stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke;

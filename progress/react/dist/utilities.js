@@ -14,3 +14,12 @@ exports.getCoordinates = function (percent, radius) {
         y: radius + radius * Math.sin((percent / 100) * 2 * Math.PI),
     });
 };
+// default settings shared across all icons
+exports.defaultProps = {
+    percent: 100,
+    size: 24,
+    ring: 10,
+    outlined: false,
+    charging: false,
+    color: 'inherit'
+};

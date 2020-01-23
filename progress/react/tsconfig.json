@@ -12,5 +12,8 @@
   "include": [
     "src/*",
     "*.ts"
+  ],
+  "exclude": [
+    "src/utilities.test.ts"
   ]
 }

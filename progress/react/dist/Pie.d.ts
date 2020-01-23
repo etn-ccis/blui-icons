@@ -1,19 +1,5 @@
 import { Component } from 'react';
-declare type PiePropType = {
-    outlined: boolean;
-    ring: number;
-    size: number;
-    percent: number;
-    color: string;
-    style: object;
-};
-export declare class Pie extends Component<PiePropType> {
-    defaultProps: {
-        percentage: number;
-        size: number;
-        ring: number;
-        outlined: boolean;
-    };
+import { IconPropType } from './types';
+export declare class Pie extends Component<IconPropType> {
     render(): JSX.Element;
 }
-export {};

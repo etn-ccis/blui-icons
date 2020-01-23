@@ -1,18 +1,10 @@
 import { Component } from 'react';
-declare type BatteryPropType = {
-    percent: number;
-    size: number;
-    charging: boolean;
-    outlined: boolean;
-    color?: string;
-};
-export declare class Battery extends Component<BatteryPropType> {
+import * as IconTypes from './types';
+export declare class Battery extends Component<IconTypes.IconPropType> {
     maskIDleft: string;
     maskIDright: string;
     startX: number;
     fillWidth: number;
-    static defaultProps: BatteryPropType;
-    constructor(props: BatteryPropType);
+    constructor(props: IconTypes.IconPropType);
     render(): JSX.Element;
 }
-export {};

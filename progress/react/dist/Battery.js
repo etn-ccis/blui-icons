@@ -49,14 +49,15 @@ var Battery = /** @class */ (function (_super) {
     __extends(Battery, _super);
     function Battery(props) {
         var _this = _super.call(this, props) || this;
-        _this.maskIDleft = "maskLeft-" + _this.props.percent;
-        _this.maskIDright = "maskRight-" + _this.props.percent;
-        _this.startX = _this.props.outlined ? 3.9 : 2;
-        _this.fillWidth = _this.props.outlined ? 14.2 : 18;
+        var _props = __assign(__assign({}, _this.props), utilities_1.defaultProps);
+        _this.maskIDleft = "maskLeft-" + _props.percent;
+        _this.maskIDright = "maskRight-" + _props.percent;
+        _this.startX = _props.outlined ? 3.9 : 2;
+        _this.fillWidth = _props.outlined ? 14.2 : 18;
         return _this;
     }
     Battery.prototype.render = function () {
-        var _a = this.props, outlined = _a.outlined, charging = _a.charging, size = _a.size, percent = _a.percent, color = _a.color, props = __rest(_a, ["outlined", "charging", "size", "percent", "color"]);
+        var _a = __assign(__assign({}, this.props), utilities_1.defaultProps), outlined = _a.outlined, charging = _a.charging, size = _a.size, percent = _a.percent, color = _a.color, props = __rest(_a, ["outlined", "charging", "size", "percent", "color"]);
         return (react_1.default.createElement("svg", __assign({ height: size + "px", width: size + "px", x: "0px", y: "0px", viewBox: "0 0 24 24" }, props),
             react_1.default.createElement("defs", null,
                 outlined && (react_1.default.createElement("mask", { id: this.maskIDleft },
@@ -65,18 +66,12 @@ var Battery = /** @class */ (function (_super) {
                 outlined && (react_1.default.createElement("mask", { id: this.maskIDright },
                     react_1.default.createElement("rect", { width: "100%", height: "100%", fill: "white" }),
                     react_1.default.createElement("rect", { x: this.startX, y: "7", fill: "black", width: "" + Math.min((utilities_1.rangeValue(percent, 0, 100) * this.fillWidth) / 100, this.fillWidth), height: "10" }))),
-                react_1.default.createElement("clipPath", { id: getID(charging) },
+                react_1.default.createElement("clipPath", { id: getID(charging || utilities_1.defaultProps.charging) },
                     react_1.default.createElement("path", { overflow: "visible", d: getClipPath(charging) }))),
             react_1.default.createElement("path", { fill: color || 'currentColor', fillOpacity: outlined || percent >= 100 ? '1' : 0.3, clipPath: "url(#" + getID(charging) + ")", d: getBasepath(outlined) }),
             react_1.default.createElement("g", { fill: color || 'currentColor' },
                 react_1.default.createElement("rect", { x: this.startX, y: "7", clipPath: "url(#" + getID(charging) + ")", width: "" + Math.min((utilities_1.rangeValue(percent, 0, 100) * this.fillWidth) / 100, this.fillWidth), height: "10", mask: outlined && charging ? "url(#" + this.maskIDleft + ")" : undefined }),
                 outlined && charging && (react_1.default.createElement("polygon", { points: "11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13", mask: "url(#" + this.maskIDright + ")" })))));
-    };
-    Battery.defaultProps = {
-        percent: 100,
-        size: 24,
-        charging: false,
-        outlined: false,
     };
     return Battery;
 }(react_1.Component));

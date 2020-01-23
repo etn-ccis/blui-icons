@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { rangeValue } from './utilities';
+import { rangeValue, defaultProps } from './utilities';
 import * as IconTypes from './types';
 
 const basePath: IconTypes.IconPath =
@@ -16,37 +16,23 @@ const getClipPath: IconTypes.GetPathFunction = (charging) => (charging ? chargeP
 
 const getID: IconTypes.GetIDFunction = (charging) => (charging ? chargeID : baseID);
 
-type BatteryPropType = {
-    percent: number;
-    size: number;
-    charging: boolean;
-    outlined: boolean;
-    color?: string;
-};
-
-export class Battery extends Component<BatteryPropType> {
+export class Battery extends Component<IconTypes.IconPropType> {
     maskIDleft: string;
     maskIDright: string;
     startX: number;
     fillWidth: number;
 
-    static defaultProps: BatteryPropType = {
-        percent: 100,
-        size: 24,
-        charging: false,
-        outlined: false,
-    };
-
-    constructor(props: BatteryPropType) {
+    constructor(props: IconTypes.IconPropType) {
         super(props);
-        this.maskIDleft = `maskLeft-${this.props.percent}`;
-        this.maskIDright = `maskRight-${this.props.percent}`;
-        this.startX = this.props.outlined ? 3.9 : 2;
-        this.fillWidth = this.props.outlined ? 14.2 : 18;
+        const _props = {...this.props, ...defaultProps};
+        this.maskIDleft = `maskLeft-${_props.percent}`;
+        this.maskIDright = `maskRight-${_props.percent}`;
+        this.startX = _props.outlined ? 3.9 : 2;
+        this.fillWidth = _props.outlined ? 14.2 : 18;
     }
 
     render(): JSX.Element {
-        const { outlined, charging, size, percent, color, ...props } = this.props;
+        const { outlined, charging, size, percent, color, ...props } = {...this.props, ...defaultProps};
 
         return (
             <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...props}>
@@ -72,7 +58,7 @@ export class Battery extends Component<BatteryPropType> {
                             />
                         </mask>
                     )}
-                    <clipPath id={getID(charging)}>
+                    <clipPath id={getID(charging || defaultProps.charging)}>
                         <path overflow="visible" d={getClipPath(charging)} />
                     </clipPath>
                 </defs>

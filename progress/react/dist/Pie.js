@@ -40,17 +40,10 @@ var utilities_1 = require("./utilities");
 var Pie = /** @class */ (function (_super) {
     __extends(Pie, _super);
     function Pie() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.defaultProps = {
-            percentage: 100,
-            size: 24,
-            ring: 10,
-            outlined: false,
-        };
-        return _this;
+        return _super !== null && _super.apply(this, arguments) || this;
     }
     Pie.prototype.render = function () {
-        var _a = this.props, outlined = _a.outlined, ring = _a.ring, size = _a.size, percent = _a.percent, color = _a.color, style = _a.style, props = __rest(_a, ["outlined", "ring", "size", "percent", "color", "style"]);
+        var _a = __assign(__assign({}, this.props), utilities_1.defaultProps), outlined = _a.outlined, ring = _a.ring, size = _a.size, percent = _a.percent, color = _a.color, style = _a.style, props = __rest(_a, ["outlined", "ring", "size", "percent", "color", "style"]);
         var stroke = Math.max(1, Math.min(10, Math.round(ring)));
         var iconStroke = 2;
         stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke;

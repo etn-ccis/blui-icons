@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { rangeValue } from './utilities';
+import { rangeValue, defaultProps } from './utilities';
 import * as IconTypes from './types';
 
 const basePath: IconTypes.IconPath =
@@ -9,32 +9,19 @@ const outlinedPath: IconTypes.IconPath =
 
 const getPath: IconTypes.GetPathFunction = (outlined) => (outlined ? outlinedPath : basePath);
 
-type HeartPropType = {
-    percent: number;
-    size: number;
-    outlined: boolean;
-    color: string;
-    charging: boolean;
-};
-
-export class Heart extends Component<HeartPropType> {
+export class Heart extends Component<IconTypes.IconPropType> {
     startY: number;
     fillHeight: number;
 
-    constructor(props: HeartPropType) {
+    constructor(props: IconTypes.IconPropType) {
         super(props);
-        this.startY = this.startY = this.props.outlined ? 18.35 : 21.35;
-        this.fillHeight = this.props.outlined ? 13.35 : 18.35;
+        const _props = {...this.props, ...defaultProps};
+        this.startY = this.startY = _props.outlined ? 18.35 : 21.35;
+        this.fillHeight = _props.outlined ? 13.35 : 18.35;
     }
 
-    defaultProps = {
-        percentage: 100,
-        size: 24,
-        outlined: false,
-    };
-
     render(): JSX.Element {
-        const { outlined, size, percent, color, ...props } = this.props;
+        const { outlined, size, percent, color, ...props } = {...this.props, ...defaultProps};
         return (
             <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...props}>
                 <path
