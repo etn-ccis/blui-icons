@@ -34,16 +34,23 @@ var __rest = (this && this.__rest) || function (s, e) {
         }
     return t;
 };
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result["default"] = mod;
+    return result;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = require("react");
+var react_1 = __importStar(require("react"));
 var utilities_1 = require("./utilities");
 var Pie = /** @class */ (function (_super) {
     __extends(Pie, _super);
-    function Pie() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function Pie(prop) {
+        return _super.call(this, prop) || this;
     }
     Pie.prototype.render = function () {
-        var _a = __assign(__assign({}, this.props), utilities_1.defaultProps), outlined = _a.outlined, ring = _a.ring, size = _a.size, percent = _a.percent, color = _a.color, style = _a.style, props = __rest(_a, ["outlined", "ring", "size", "percent", "color", "style"]);
+        var _a = __assign(__assign({}, utilities_1.defaultProps), this.props), outlined = _a.outlined, ring = _a.ring, size = _a.size, percent = _a.percent, color = _a.color, style = _a.style, charging = _a.charging, props = __rest(_a, ["outlined", "ring", "size", "percent", "color", "style", "charging"]);
         var stroke = Math.max(1, Math.min(10, Math.round(ring)));
         var iconStroke = 2;
         stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke;

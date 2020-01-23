@@ -4,8 +4,12 @@ import { IconPropType } from './types'
 
 export class Pie extends Component<IconPropType> {
 
+    constructor(prop: IconPropType) {
+        super(prop);
+    }
+
     render(): JSX.Element {
-        const { outlined, ring, size, percent, color, style, ...props } = {...this.props, ...defaultProps};
+        const { outlined, ring, size, percent, color, style, charging, ...props } = {...defaultProps, ...this.props};
         let stroke = Math.max(1, Math.min(10, Math.round(ring)));
         const iconStroke = 2;
         stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke;

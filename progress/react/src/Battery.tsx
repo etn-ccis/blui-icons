@@ -32,7 +32,7 @@ export class Battery extends Component<IconTypes.IconPropType> {
     }
 
     render(): JSX.Element {
-        const { outlined, charging, size, percent, color, ...props } = {...this.props, ...defaultProps};
+        let { outlined, charging, size, percent, color, ...props } = {...defaultProps, ...this.props};
 
         return (
             <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...props}>
