@@ -1,6 +1,6 @@
-import { getCoordinates } from './src/utilities';
+import { getCoordinates } from './utilities';
 
-const diff = (a,b) => {
+const diff = (a: number,b: number): number => {
     return Math.abs(a-b);
 }
 const thresh = 0.0001;

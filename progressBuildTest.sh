@@ -4,26 +4,36 @@ GREEN='\033[0;32m'
 GRAY='\033[1;30m'
 NC='\033[0m' # No Color
 
-echo -n "Checking progress icons (react)... "
+echo -n "Checking progress icons (React)... "
 cd progress/react
 if [ ! -d ./dist ]; then echo -e "${RED}Not Found${NC}" && exit 1; fi
 if [ ! -s ./dist ]; then echo -e "${RED}Directory Empty${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo "Checking for required files..."
-echo -ne "  battery: "
+echo -ne "  Battery.js: "
 if [ ! -f ./dist/Battery.js ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
-echo -ne "  heart: "
+echo -ne "  Battery.d.ts: "
+if [ ! -f ./dist/Battery.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+echo -ne "  Heart.js: "
 if [ ! -f ./dist/Heart.js ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
-echo -ne "  pie: "
+echo -ne "  Heart.d.ts: "
+if [ ! -f ./dist/Heart.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+echo -ne "  Pie.js: "
 if [ ! -f ./dist/Pie.js ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
-echo -ne "  index: "
+echo -ne "  Pie.d.ts: "
+if [ ! -f ./dist/Pie.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+echo -ne "  index.js: "
 if [ ! -f ./dist/index.js ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+echo -ne "  index.d.ts: "
+if [ ! -f ./dist/index.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  package.json: "
 if [ ! -f ./package.json ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  readme: "
 if [ ! -f ./README.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+echo -ne "  CHANGELOG.md: "
+if [ ! -f ./CHANGELOG.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 
 
-echo -n "Checking progress icons (angular)... "
+echo -n "Checking progress icons (Angular)... "
 cd ../angular
 if [ ! -d ./dist ]; then echo -e "${RED}Not Found${NC}" && exit 1; fi
 if [ ! -s ./dist ]; then echo -e "${RED}Directory Empty${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi

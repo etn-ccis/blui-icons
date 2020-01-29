@@ -1,134 +1,81 @@
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.Pie = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _utilities = require("./utilities");
-
-var _propTypes = _interopRequireDefault(require("prop-types"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-var Pie =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Pie, _Component);
-
-  function Pie() {
-    _classCallCheck(this, Pie);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Pie).apply(this, arguments));
-  }
-
-  _createClass(Pie, [{
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          outlined = _this$props.outlined,
-          ring = _this$props.ring,
-          size = _this$props.size,
-          percent = _this$props.percent,
-          color = _this$props.color,
-          style = _this$props.style,
-          props = _objectWithoutProperties(_this$props, ["outlined", "ring", "size", "percent", "color", "style"]);
-
-      var stroke = Math.max(1, Math.min(10, Math.round(ring)));
-      var iconStroke = 2;
-      stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke; // Ring properties
-
-      var centerX = 12;
-      var centerY = 12; // Outer ring
-
-      var outerRadiusLarge = 10;
-      var innerRadiusLarge = 10 - iconStroke; // Inner ring
-
-      var outerRadiusSmall = 10 - stroke + iconStroke;
-      var innerRadiusSmall = 10 - stroke;
-
-      if (innerRadiusSmall === 0) {
-        outerRadiusSmall = 0;
-      }
-
-      var outlineBase = "\n    M ".concat(centerX, " ").concat(centerY - outerRadiusLarge, "\n    A ").concat(outerRadiusLarge, " ").concat(outerRadiusLarge, " 0 1 0 ").concat(centerX, " ").concat(centerY + outerRadiusLarge, "\n    A ").concat(outerRadiusLarge, " ").concat(outerRadiusLarge, " 0 1 0 ").concat(centerX, " ").concat(centerY - outerRadiusLarge, "\n    Z\n    M ").concat(centerX, " ").concat(centerY - innerRadiusLarge, "\n    A ").concat(innerRadiusLarge, " ").concat(innerRadiusLarge, " 0 1 1 ").concat(centerX, " ").concat(centerY + innerRadiusLarge, "\n    A ").concat(innerRadiusLarge, " ").concat(innerRadiusLarge, " 0 1 1 ").concat(centerX, " ").concat(centerY - innerRadiusLarge, "\n    Z\n    M ").concat(centerX, " ").concat(centerY - outerRadiusSmall, "\n    A ").concat(outerRadiusSmall, " ").concat(outerRadiusSmall, " 0 1 0 ").concat(centerX, " ").concat(centerY + outerRadiusSmall, "\n    A ").concat(outerRadiusSmall, " ").concat(outerRadiusSmall, " 0 1 0 ").concat(centerX, " ").concat(centerY - outerRadiusSmall, "\n    Z\n    M ").concat(centerX, " ").concat(centerY - innerRadiusSmall, "\n    A ").concat(innerRadiusSmall, " ").concat(innerRadiusSmall, " 0 1 1 ").concat(centerX, " ").concat(centerY + innerRadiusSmall, "\n    A ").concat(innerRadiusSmall, " ").concat(innerRadiusSmall, " 0 1 1 ").concat(centerX, " ").concat(centerY - innerRadiusSmall, "\n    Z\n  ");
-      var twoToneBase = "\n    M ".concat(centerX, " ").concat(centerY - outerRadiusLarge, "\n    A ").concat(outerRadiusLarge, " ").concat(outerRadiusLarge, " 0 1 0 ").concat(centerX, " ").concat(centerY + outerRadiusLarge, "\n    A ").concat(outerRadiusLarge, " ").concat(outerRadiusLarge, " 0 1 0 ").concat(centerX, " ").concat(centerY - outerRadiusLarge, "\n    Z\n  ");
-      var clipPath = "\n    M12,2\n    A10,10,0,1,0,22,12,\n    10,10,0,0,0,12,2\n    Z\n    m0,".concat(20 - stroke, " \n    A ").concat(10 - stroke, ",").concat(10 - stroke, ",0,1,1,").concat(22 - stroke, ",12,\n    ").concat(10 - stroke, ",").concat(10 - stroke, ",0,0,1,12,").concat(22 - stroke, "\n    Z\n  ");
-      return _react["default"].createElement("svg", _extends({
-        height: "".concat(size, "px"),
-        width: "".concat(size, "px"),
-        x: "0px",
-        y: "0px",
-        viewBox: "0 0 24 24",
-        style: Object.assign({
-          transform: 'rotate(-.25turn)'
-        }, style)
-      }, props), _react["default"].createElement("clipPath", {
-        id: "pxb-donut-clip-" + stroke
-      }, _react["default"].createElement("path", {
-        d: clipPath
-      })), _react["default"].createElement("path", {
-        clipPath: "url(#pxb-donut-clip-" + stroke + ")",
-        fill: color || "currentColor",
-        fillOpacity: outlined || percent >= 100 ? "1" : "0.3",
-        d: outlined ? outlineBase : twoToneBase
-      }), (0, _utilities.rangeValue)(percent, 0, 100) > 0 && (0, _utilities.rangeValue)(percent, 0, 100) < 100 && _react["default"].createElement("path", {
-        fill: color || "currentColor",
-        clipPath: "url(#pxb-donut-clip-" + stroke + ")",
-        d: "M 12,12 H 24 A 12,12,0,".concat((0, _utilities.rangeValue)(percent, 0, 100) >= 50 ? 1 : 0, ",1,").concat((0, _utilities.getCoordinates)((0, _utilities.rangeValue)(percent, 0, 100))['x'], ",").concat((0, _utilities.getCoordinates)((0, _utilities.rangeValue)(percent, 0, 100))['y'], "Z")
-      }), (0, _utilities.rangeValue)(percent, 0, 100) === 100 && outlined && _react["default"].createElement("circle", {
-        clipPath: "url(#pxb-donut-clip-" + stroke + ")",
-        cx: "12",
-        cy: "12",
-        r: "10",
-        fill: color || "currentColor"
-      }));
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+};
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result["default"] = mod;
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importStar(require("react"));
+var utilities_1 = require("./utilities");
+var Pie = /** @class */ (function (_super) {
+    __extends(Pie, _super);
+    function Pie(prop) {
+        return _super.call(this, prop) || this;
     }
-  }]);
-
-  return Pie;
-}(_react.Component);
-
+    Pie.prototype.render = function () {
+        var _a = __assign(__assign({}, utilities_1.defaultProps), this.props), outlined = _a.outlined, ring = _a.ring, size = _a.size, percent = _a.percent, color = _a.color, style = _a.style, charging = _a.charging, props = __rest(_a, ["outlined", "ring", "size", "percent", "color", "style", "charging"]);
+        var stroke = Math.max(1, Math.min(10, Math.round(ring)));
+        var iconStroke = 2;
+        stroke = outlined ? Math.max(stroke, 2 * iconStroke + 1) : stroke;
+        // Ring properties
+        var centerX = 12;
+        var centerY = 12;
+        // Outer ring
+        var outerRadiusLarge = 10;
+        var innerRadiusLarge = 10 - iconStroke;
+        // Inner ring
+        var outerRadiusSmall = 10 - stroke + iconStroke;
+        var innerRadiusSmall = 10 - stroke;
+        if (innerRadiusSmall === 0) {
+            outerRadiusSmall = 0;
+        }
+        var outlineBase = "\n    M " + centerX + " " + (centerY - outerRadiusLarge) + "\n    A " + outerRadiusLarge + " " + outerRadiusLarge + " 0 1 0 " + centerX + " " + (centerY + outerRadiusLarge) + "\n    A " + outerRadiusLarge + " " + outerRadiusLarge + " 0 1 0 " + centerX + " " + (centerY - outerRadiusLarge) + "\n    Z\n    M " + centerX + " " + (centerY - innerRadiusLarge) + "\n    A " + innerRadiusLarge + " " + innerRadiusLarge + " 0 1 1 " + centerX + " " + (centerY + innerRadiusLarge) + "\n    A " + innerRadiusLarge + " " + innerRadiusLarge + " 0 1 1 " + centerX + " " + (centerY - innerRadiusLarge) + "\n    Z\n    M " + centerX + " " + (centerY - outerRadiusSmall) + "\n    A " + outerRadiusSmall + " " + outerRadiusSmall + " 0 1 0 " + centerX + " " + (centerY + outerRadiusSmall) + "\n    A " + outerRadiusSmall + " " + outerRadiusSmall + " 0 1 0 " + centerX + " " + (centerY - outerRadiusSmall) + "\n    Z\n    M " + centerX + " " + (centerY - innerRadiusSmall) + "\n    A " + innerRadiusSmall + " " + innerRadiusSmall + " 0 1 1 " + centerX + " " + (centerY + innerRadiusSmall) + "\n    A " + innerRadiusSmall + " " + innerRadiusSmall + " 0 1 1 " + centerX + " " + (centerY - innerRadiusSmall) + "\n    Z\n  ";
+        var twoToneBase = "\n    M " + centerX + " " + (centerY - outerRadiusLarge) + "\n    A " + outerRadiusLarge + " " + outerRadiusLarge + " 0 1 0 " + centerX + " " + (centerY + outerRadiusLarge) + "\n    A " + outerRadiusLarge + " " + outerRadiusLarge + " 0 1 0 " + centerX + " " + (centerY - outerRadiusLarge) + "\n    Z\n  ";
+        var clipPath = "\n    M12,2\n    A10,10,0,1,0,22,12,\n    10,10,0,0,0,12,2\n    Z\n    m0," + (20 - stroke) + " \n    A " + (10 - stroke) + "," + (10 - stroke) + ",0,1,1," + (22 - stroke) + ",12,\n    " + (10 - stroke) + "," + (10 - stroke) + ",0,0,1,12," + (22 - stroke) + "\n    Z\n  ";
+        return (react_1.default.createElement("svg", __assign({ height: size + "px", width: size + "px", x: "0px", y: "0px", viewBox: "0 0 24 24", style: Object.assign({ transform: 'rotate(-.25turn)' }, style) }, props),
+            react_1.default.createElement("clipPath", { id: "pxb-donut-clip-" + stroke },
+                react_1.default.createElement("path", { d: clipPath })),
+            react_1.default.createElement("path", { clipPath: "url(#pxb-donut-clip-" + stroke + ")", fill: color || 'currentColor', fillOpacity: outlined || percent >= 100 ? '1' : '0.3', d: outlined ? outlineBase : twoToneBase }),
+            utilities_1.rangeValue(percent, 0, 100) > 0 && utilities_1.rangeValue(percent, 0, 100) < 100 && (react_1.default.createElement("path", { fill: color || 'currentColor', clipPath: "url(#pxb-donut-clip-" + stroke + ")", d: "M 12,12 H 24 A 12,12,0," + (utilities_1.rangeValue(percent, 0, 100) >= 50 ? 1 : 0) + ",1," + utilities_1.getCoordinates(utilities_1.rangeValue(percent, 0, 100))['x'] + "," + utilities_1.getCoordinates(utilities_1.rangeValue(percent, 0, 100))['y'] + "Z" })),
+            utilities_1.rangeValue(percent, 0, 100) === 100 && outlined && (react_1.default.createElement("circle", { clipPath: "url(#pxb-donut-clip-" + stroke + ")", cx: "12", cy: "12", r: "10", fill: color || 'currentColor' }))));
+    };
+    return Pie;
+}(react_1.Component));
 exports.Pie = Pie;
-;
-Pie.propTypes = {
-  percent: _propTypes["default"].number,
-  size: _propTypes["default"].number,
-  ring: _propTypes["default"].number,
-  outlined: _propTypes["default"].bool,
-  color: _propTypes["default"].string
-};
-Pie.defaultProps = {
-  percentage: 100,
-  size: 24,
-  ring: 10,
-  outlined: false
-};
