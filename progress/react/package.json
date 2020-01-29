@@ -42,5 +42,12 @@
     "pxblue"
   ],
   "author": "pxblue <pxblue@eaton.com>",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
 }
