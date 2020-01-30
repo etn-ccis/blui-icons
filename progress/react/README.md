@@ -25,7 +25,7 @@ import {Battery, Heart, Pie} from '@pxblue/react-progress-icons';
 ...
 <Battery percent={100} size={36} color={'green'} charging={true} outlined={true}/>
 <Heart percent={50} size={18} color={'pink'} outlined={true}/>
-<Pie percent={50} size={48} color={'blue'} ring={40} outlined={true}/>
+<Pie percent={50} size={48} color={'blue'} ring={4} outlined={true}/>
 ```
 
 ### Available properties
