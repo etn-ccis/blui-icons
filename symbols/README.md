@@ -77,7 +77,7 @@ const symbol = require('@pxblue/symbols/SYMBOL_NAME.svg');
 >NOTE: If you will be using many of these symbols in your application, we recommend you use [@pxblue/symbols-mui](https://www.npmjs.com/package/@pxblue/symbols-mui) to simplify usage. This library makes more sense if you just need one or two symbols or if you want to reduce the size of your bundle.
 
 ### Available Symbolls
-Please see [Available Symbols](https://github/com/pxblue/icons/blob/master/available_symbols.md) for a list of currently available symbols.
+Please see [Available Symbols](https://github.com/pxblue/icons/blob/master/available_symbols.md) for a list of currently available symbols.
 
 # For Icon Creators
 Each symbol has its own folder in the /icons/symbols folder, which includes the clean SVG file .
