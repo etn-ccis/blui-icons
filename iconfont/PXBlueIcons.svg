@@ -286,7 +286,7 @@
     <glyph glyph-name="road"
       unicode="&#xF15D;"
       horiz-adv-x="24" d=" M11 8H13V4H11M11 14H13V10H11M11 20H13V16H11M4 2H20V22H4V2z" />
-    <glyph glyph-name="road_variant"
+    <glyph glyph-name="road_alt"
       unicode="&#xF15E;"
       horiz-adv-x="24" d=" M18.1 19.2C18 19.7 17.6 20 17.1 20H13L13.2 17H10.8L11 20H6.8C6.3 20 5.9 19.6 5.8 19.2L3.1 5.2C3 4.6 3.5 4 4.1 4H10L10.3 9H13.7L14 4H19.8C20.4 4 20.9 4.6 20.8 5.2L18.1 19.2M10.4 11L10.6 15H13.2L13.4 11H10.4z" />
     <glyph glyph-name="running_high"
