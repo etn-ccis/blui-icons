@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?68a264bf87fbd7295caf7c1b0e7df850?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?68a264bf87fbd7295caf7c1b0e7df850") format("woff2"),
-url("./PXBlueIcons.woff?68a264bf87fbd7295caf7c1b0e7df850") format("woff"),
-url("./PXBlueIcons.ttf?68a264bf87fbd7295caf7c1b0e7df850") format("truetype"),
-url("./PXBlueIcons.svg?68a264bf87fbd7295caf7c1b0e7df850#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?89ca8fa3c6f8dc0fe1fcb6ff7dead92f?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?89ca8fa3c6f8dc0fe1fcb6ff7dead92f") format("woff2"),
+url("./PXBlueIcons.woff?89ca8fa3c6f8dc0fe1fcb6ff7dead92f") format("woff"),
+url("./PXBlueIcons.ttf?89ca8fa3c6f8dc0fe1fcb6ff7dead92f") format("truetype"),
+url("./PXBlueIcons.svg?89ca8fa3c6f8dc0fe1fcb6ff7dead92f#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -297,7 +297,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-road:before {
     content: "\f15d";
 }
-.pxb-road_variant:before {
+.pxb-road_alt:before {
     content: "\f15e";
 }
 .pxb-running_high:before {
