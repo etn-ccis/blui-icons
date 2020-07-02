@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?68a264bf87fbd7295caf7c1b0e7df850?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?68a264bf87fbd7295caf7c1b0e7df850") format("woff2"),
-url("./PXBlueIcons.woff?68a264bf87fbd7295caf7c1b0e7df850") format("woff"),
-url("./PXBlueIcons.ttf?68a264bf87fbd7295caf7c1b0e7df850") format("truetype"),
-url("./PXBlueIcons.svg?68a264bf87fbd7295caf7c1b0e7df850#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?46d0c2acad099763c41c7e3494941c24?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?46d0c2acad099763c41c7e3494941c24") format("woff2"),
+url("./PXBlueIcons.woff?46d0c2acad099763c41c7e3494941c24") format("woff"),
+url("./PXBlueIcons.ttf?46d0c2acad099763c41c7e3494941c24") format("truetype"),
+url("./PXBlueIcons.svg?46d0c2acad099763c41c7e3494941c24#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -297,7 +297,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-road:before {
     content: "\f15d";
 }
-.pxb-road_variant:before {
+.pxb-road_alt:before {
     content: "\f15e";
 }
 .pxb-running_high:before {
