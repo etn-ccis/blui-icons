@@ -44,6 +44,8 @@ Icon SVGs should follow the naming convention of just using an icon name (e.g. `
 
 
 ## Git Steps for Designers
+The following instructions are for individuals who are comfortable working with GitHub and the command line on their computer. If you prefer, you can send new icons directly to the PX Blue team via email and we will take care of this part of the process for you.
+
 In order to work with this GitHub repository, you will need to have a github account (if you don't have one, you can sign up for free).
 
 For outside contributors, please refer to our [Contribution Guidelines](https://github.com/pxblue/.github/blob/master/CONTRIBUTING.md#get-started). To summarize the steps for adding your icons and creating a Pull Request for approval:
