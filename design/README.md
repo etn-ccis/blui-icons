@@ -4,7 +4,11 @@ This repository contains icon files for Power Xpert Blue. These icons are groupe
 
 ## Icon Approval
 
-All icons created for PX Blue must go through the Pull Request process and be approved by the PX Blue team before they will be merged into the master branch and released in the PX Blue icon packages. See the instructions below if you are unfamiliar with the GitHub Pull Request process.
+All icons created for PX Blue must go through the Pull Request process and be approved by the PX Blue team before they will be merged into the master branch and released in the PX Blue icon packages. 
+
+If you are comfortable using GitHub and the command line on your computer, you can follow the instructions below for creating your own Pull Request. 
+
+> If you're not familiar with GitHub and/or the command line, you can also send us your icons directly via email and we will create the Pull Request for you and relay any feedback.
 
 Before acceptance, new icons must be reviewed by:
 - A Senior PX Blue designer to ensure that the icons are properly following Material Design guidelines
@@ -40,7 +44,7 @@ Icon SVGs should follow the naming convention of just using an icon name (e.g. `
 
 
 ## Git Steps for Designers
-In order to work out of this GitHub repository, you will need to have a github account (if you don't have one, you can sign up for free).
+In order to work with this GitHub repository, you will need to have a github account (if you don't have one, you can sign up for free).
 
 For outside contributors, please refer to our [Contribution Guidelines](https://github.com/pxblue/.github/blob/master/CONTRIBUTING.md#get-started). To summarize the steps for adding your icons and creating a Pull Request for approval:
 - Fork the icons repository to your account
