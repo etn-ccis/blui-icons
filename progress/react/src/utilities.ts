@@ -1,5 +1,3 @@
-import {IconPropType} from './types'
-
 // if a value VALUE is outside the range, rangeValue(VALUE, min, max)
 // will return the closest point to VALUE in the range [min, max]
 export const rangeValue = function(value: number, min: number, max: number): number {
@@ -20,5 +18,5 @@ export const defaultProps = {
     ring: 10,
     outlined: false,
     charging: false,
-    color: 'inherit'
-}
+    color: 'inherit',
+};

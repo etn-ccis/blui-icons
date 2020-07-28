@@ -12,6 +12,8 @@ package-lock.json
 # production
 /build
 /tmp
+/progress/angular/dist
+/progress/react/dist
 
 # misc
 .DS_Store
