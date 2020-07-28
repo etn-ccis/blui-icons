@@ -59,7 +59,7 @@ ${10 - stroke},${10 - stroke},0,0,1,12,${22 - stroke}
 Z
 `;
 
-    const transform = (style && style.transform) ? `${style.transform} rotate(-.25turn)` : `rotate(-.25turn)`;
+    const transform = style && style.transform ? `${style.transform} rotate(-.25turn)` : `rotate(-.25turn)`;
 
     return (
         <svg
@@ -86,7 +86,7 @@ Z
                     clipPath={`url(#pxb-donut-clip-${stroke})`}
                     d={`M 12,12 H 24 A 12,12,0,${rangeValue(percent, 0, 100) >= 50 ? 1 : 0},1,${
                         getCoordinates(rangeValue(percent, 0, 100))['x']
-                        },${getCoordinates(rangeValue(percent, 0, 100))['y']}Z`}
+                    },${getCoordinates(rangeValue(percent, 0, 100))['y']}Z`}
                 />
             )}
             {rangeValue(percent, 0, 100) === 100 && outlined && (
