@@ -1,8 +1,6 @@
 import { getCoordinates } from './utilities';
 
-const diff = (a: number, b: number): number => {
-    return Math.abs(a - b);
-};
+const diff = (a: number, b: number): number => Math.abs(a - b);
 const thresh = 0.0001;
 
 test('getCoordinates on easy degrees', () => {

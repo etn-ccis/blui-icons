@@ -6,6 +6,7 @@ NC='\033[0m' # No Color
 
 echo -n "Checking progress icons (React)... "
 cd progress/react
+yarn && yarn build
 if [ ! -d ./dist ]; then echo -e "${RED}Not Found${NC}" && exit 1; fi
 if [ ! -s ./dist ]; then echo -e "${RED}Directory Empty${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo "Checking for required files..."
@@ -35,6 +36,7 @@ if [ ! -f ./CHANGELOG.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else 
 
 echo -n "Checking progress icons (Angular)... "
 cd ../angular
+yarn && yarn build
 if [ ! -d ./dist ]; then echo -e "${RED}Not Found${NC}" && exit 1; fi
 if [ ! -s ./dist ]; then echo -e "${RED}Directory Empty${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo "Checking for required files..."

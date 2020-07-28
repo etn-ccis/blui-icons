@@ -7,7 +7,7 @@ const basePath =
 const outlinedPath =
     'M16.5,5A3.462,3.462,0,0,1,20,8.5c0,2.885-3.125,5.725-7.856,10.024l-.035.032-.1.094-.124-.113C7.135,14.234,4,11.391,4,8.5A3.462,3.462,0,0,1,7.5,5a3.96,3.96,0,0,1,2.977,1.387L12,8.175l1.523-1.788A3.96,3.96,0,0,1,16.5,5m0-2A5.988,5.988,0,0,0,12,5.09,5.988,5.988,0,0,0,7.5,3,5.447,5.447,0,0,0,2,8.5c0,3.78,3.4,6.86,8.55,11.53L12,21.35l1.45-1.31C18.6,15.36,22,12.28,22,8.5A5.447,5.447,0,0,0,16.5,3Z';
 
-const getPath = (outlined: boolean) => (outlined ? outlinedPath : basePath);
+const getPath = (outlined: boolean): string => (outlined ? outlinedPath : basePath);
 
 export const Heart: React.FC<HeartProgressProps> = (props) => {
     const { outlined = false, size = 24, percent = 100, color = 'inherit', ...svgProps } = props;
@@ -37,4 +37,4 @@ export const Heart: React.FC<HeartProgressProps> = (props) => {
             )}
         </svg>
     );
-}
+};
