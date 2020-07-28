@@ -19,12 +19,17 @@ Reviewers must also agree that the name of the icon makes sense, avoids collisio
 ## Icon Creation
 
 When creating icons, follow the Material Design [icon design guidelines](https://material.io/design/iconography/system-icons.html) (we only use 24dp icons, not 20dp). Icon designs that do not adhere to these guidelines will be rejected. Templates are available to assist you:
--   Illustrator: [IconTemplate.ait](https://github.com/pxblue/icons/raw/dev/design/IconTemplate.ait)
--   Printable: [MDILetter.pdf](https://github.com/pxblue/icons/raw/dev/design/MDILetter.pdf), [MDITabloid.pdf](https://github.com/pxblue/icons/raw/dev/design/MDITabloid.pdf)
+-   Illustrator: [IconTemplate.ait](https://github.com/pxblue/icons/raw/master/design/IconTemplate.ait)
+-   Printable: [MDILetter.pdf](https://github.com/pxblue/icons/raw/master/design/MDILetter.pdf), [MDITabloid.pdf](https://github.com/pxblue/icons/raw/master/design/MDITabloid.pdf)
 
 Design files should ideally contain both original paths, strokes, text, etc. (in the case that the icon must be modified to increase stroke width or font size, for example) as well as the expanded paths version. The expanded version should be use to generate the SVG file.
 
 ### SVG Export Guidelines
+Before exporting, ensure that:
+-   Your icon is on a 24x24px artboard and the icon is centered in the canvas
+-   Strokes and type should be expanded to paths.
+-   Icon shape should have no fill defined.
+
 From Adobe Illustrator go to _File -> Export -> Export As_ and select SVG from the file type dropdown. Each icon should be exported as a separate file. 
 
 Select the following options from the export dialog:
@@ -35,9 +40,6 @@ Select the following options from the export dialog:
 -   Decimal: 2
 -   Minified
 -   Not Responsive (should include width and height and viewbox definitions).
--   Be sure to include a 24x24px rectangle with no stroke and no fill to serve as the bounding box.
--   Strokes and type should be expanded to paths.
--   Icon shape should have no fill defined.
 
 ## Naming Conventions
 
