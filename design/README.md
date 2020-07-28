@@ -1,35 +1,38 @@
 # Power Xpert Blue Icons
 
-This repository contains icon files for Power Xpert Blue 2.0+.
+This repository contains icon files for Power Xpert Blue. These icons are grouped into 'family' folders of related icons. Family folders follow a similar naming convention to Material Design, e.g., **Status** and **Devices**. Each icon should be available as a clean, minified SVG file. You may optionally include a source (AI) file for the icon as well - it may be beneficial to group families of icons into a single AI file.
 
-Each icon has its own folder which includes the clean SVG file and the source design file(s).
+## Icon Approval
 
-Each icon folder will be nested into a "family" folder. Family folders follow a pattern similar to MD, e.g., **Status** and **Devices**.
+All icons created for PX Blue must go through the Pull Request process and be approved by the PX Blue team before they will be merged into the master branch and released in the PX Blue icon packages. 
 
-## Design Approval
+If you are comfortable using GitHub and the command line on your computer, you can follow the instructions below for creating your own Pull Request. 
 
-Designers can freely create icons for their project in their own feature branch, but in order to incorporate into the design system a pull request must be created and approved. See Git Steps for Designers below for more information.
+> If you're not familiar with GitHub and/or the command line, you can also send us your icons directly via email and we will create the Pull Request for you and relay any feedback.
 
-Two reviews will be required to approve the pull request and merge into the system. A design review by a Senior designer to ensure the icon follows Material and PXBlue standards and a code review to ensure the SVG is formated properly. Reviewers must also agree that the name of the icon makes sense, avoids collisions, and that the icon fits into the proposed family folder.
+Before acceptance, new icons must be reviewed by:
+- A Senior PX Blue designer to ensure that the icons are properly following Material Design guidelines
+- A PX Blue developer to ensure that the SVG files are properly formatted and function correctly with the build pipeline
 
-## Design Creation
+Reviewers must also agree that the name of the icon makes sense, avoids collisions, and that the icon fits into the proposed family folder.
 
-[Follow Material Design icon design guidelines & principles](https://material.io/guidelines/style/icons.html#icons-system-icons). Icons will be compared against these guideslines for approval.
+## Icon Creation
 
-Templates are also provided to assist in the creation of icons.
+When creating icons, follow the Material Design [icon design guidelines](https://material.io/design/iconography/system-icons.html) (we only use 24dp icons, not 20dp). Icon designs that do not adhere to these guidelines will be rejected. Templates are available to assist you:
+-   Illustrator: [IconTemplate.ait](https://github.com/pxblue/icons/raw/master/design/IconTemplate.ait)
+-   Printable: [MDILetter.pdf](https://github.com/pxblue/icons/raw/master/design/MDILetter.pdf), [MDITabloid.pdf](https://github.com/pxblue/icons/raw/master/design/MDITabloid.pdf)
 
-#### Template Files
+Design files should ideally contain both original paths, strokes, text, etc. (in the case that the icon must be modified to increase stroke width or font size, for example) as well as the expanded paths version. The expanded version should be use to generate the SVG file.
 
--   Illustrator - _IconTemplate.ait_
--   Sketch - _to do_
--   Printable - _MDILetter.pdf_, _MDITabloid.pdf_
+### SVG Export Guidelines
+Before exporting, ensure that:
+-   Your icon is on a 24x24px artboard and the icon is centered in the canvas
+-   Strokes and type should be expanded to paths.
+-   Icon shape should have no fill defined.
 
-As noted above, use the provided AI and printable template files to design your icons. The source file should ideally contain both original paths, strokes, text, etc. (in the case that the icon must be modified to increase stroke width or font size, for example) as well as the expanded paths version.
+From Adobe Illustrator go to _File -> Export -> Export As_ and select SVG from the file type dropdown. Each icon should be exported as a separate file. 
 
-The expanded version should be use to generate the SVG file.
-
-#### SVG Export Guidelines
-
+Select the following options from the export dialog:
 -   Styling: Presentation Attributes
 -   Font: SVG or Expanded
 -   Images: Preserve
@@ -37,44 +40,48 @@ The expanded version should be use to generate the SVG file.
 -   Decimal: 2
 -   Minified
 -   Not Responsive (should include width and height and viewbox definitions).
--   Be sure to include a 24x24px rectangle with no stroke and no fill to serve as the bounding box.
--   Strokes and type should be expanded to paths.
--   Icon shape should have no fill defined.
--   SVG should not include `<title>` or `<defs>` tags.
 
 ## Naming Conventions
 
-Icon SVGs should follow the naming convention of just an icon name (e.g. `device`). If the name of an icon has more than one word, the name must have an underscore between each word (e.g. `battery_full`). Do not use prefixes or suffixes - these will be automatically applied as part of the build process.
+Icon SVGs should follow the naming convention of just using an icon name (e.g. `device`). If the name of an icon has more than one word, the name must have an underscore between each word (e.g. `battery_full`). Do not use dashes. Do not use prefixes or suffixes - these will be automatically applied as part of the build process.
 
-## Developer Use
-
-Developers can make use of the iconfont generated by the build process, use SVGs directly from the repository, or use a tool such as [SVGSUS](http://www.svgs.us/) to generate iOS/OSX CAShapeLayers, BezierPaths, Android Vector Drawables, Jade Templates, SVG Symbols, SVG Backgrounds or Cleaned SVGs.
-
-## Build Processes
-
-To build the icons-svg repository and the icon font, you can run `yarn build` in the root of the project.
-
-Future work can be done to automate the build process when new icons are added, create a web page similar to https://material.io/icons/, generate png versions of icons, generate device sized versions of icons and more.
 
 ## Git Steps for Designers
+The following instructions are for individuals who are comfortable working with GitHub and the command line on their computer. If you prefer, you can send new icons directly to the PX Blue team via email and we will take care of this part of the process for you.
 
--   Create a new Branch for your changes. The name of the branch should reflect the feature or icon you've created.
-    -   Be sure to start from the Working copy parent commit if you've already begun work.
-        -   In SourceTree, click the Branch button in the tool bar and follow the prompts.
-        -   In the command line use `git branch my-branch-name` where `my-branch-name` is the name of your new branch.
--   Commit your changes. Be sure that your source files and exported files are tracked. You must include a descriptive commit message. It should include any relevant information about that specific commit.
-    -   In SourceTree click the commit button and ensure you've added any unstaged changes/files. Enter a message and press the Commit button.
-    -   In the command line, use `git status` to first check for changes and any untracked files. If there are untracked files, use `git add folder-name/file-name.name` where `folder-name/file-name.name` is the relative file location/name, to track the files or folders in git.
-    -   If all files are tracked, in the command line, use `git commit -a -m "My commit message"` to commit all changes and enter a commit message. `-a` will only add all currently tracked files to the commit, so be sure to check if there are any untracked files first.
--   To push your changes, first ensure you're on your feature branch _*and not*_ `master` and then push to `origin/my-branch-name`
-    -   In SourceTree press the Push button in the toolbar and follow the prompts.
-    -   In the command line, use `git push origin\my-branch-name`. The `-u` flag can be used to set upstream for that branch.
--   Create a Pull Request to begun the process of merging your branch into master.
-    -   Open [the repo in Bitbucket](http://esgit.tcc.etn.com:7990/projects/BLUE/repos/icons/browse) and click the "Create pull request" button in the left side toolbar.
-    -   Select the source branch, e.g. `my-branch-name` and ensure the destination is `master`.
-    -   In the Description box, enter any relevant information about the pull request/feature/icon. For instance, if your icon "breaks" Material Design guidelines for good reason, please explain why.
-    -   Add Reviewers to the pull request. Include `Atha, Eric` and `Boyle, Joseph P`. This may change as the design and PXBlue Team grows.
--   The reviewers will either approve, decline or mark as needs work.
-    -   If approved, the reviewers will merge into `master`
-    -   If declined, the reviewers will comment why
-    -   If marked as needs work, the reviewers will comment why and will give the designer time to revise and update the pull request.
+In order to work with this GitHub repository, you will need to have a GitHub account (if you don't have one, you can [sign up](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) for free).
+
+For outside contributors, please refer to our [Contribution Guidelines](https://github.com/pxblue/.github/blob/master/CONTRIBUTING.md#get-started). To summarize the steps for adding your icons and creating a Pull Request for approval:
+- Fork the icons repository to your account
+    - Go to https://github.com/pxblue/icons and click the Fork button in the top right of the screen (outside contributors who have been added to the icons repository can clone directly from the PX Blue repository without forking)
+- Clone the repository to your local computer
+    ```
+    git clone https://github.com/<your-user-id>/icons
+    cd icons
+    git remote add upstream https://github.com/pxblue/icons
+    git pull upstream dev
+    ```
+-   Create a new Branch for your changes. The name of the branch should start with `feature/` followed by the name of your icon (or a simple summary if you are including multiple icons), e.g., `feature/ups`. If your icon name is multiple words, you must separate them with a dash.
+    ```
+    git checkout -b feature/icon
+    ```
+- Make your changes in the design folder of your local copy of the repository
+    - Don't forget to update the `META.json` file with an entry for your new icons - follow the format used for the existing icons.
+- Commit and push your changes. You must include a descriptive commit message. It should include any relevant information about the specific changes/additions you have made.
+    ```
+    git add -A
+    git commit -m "Your commit message here"
+    git push -u origin <your branch name>
+    ```  
+-   Create a Pull Request to begun the process of reviewing and publishing your changes.
+    - Go to https://github.com/pxblue/icons
+    - Click on the Pull Requests tab in the upper left
+    - Click on the green "New Pull Request" button
+        - In the 'base' dropdown, select 'dev'
+        - In the 'head' dropdown, select your branch from your forked repository
+        - Click on the Create Pull Request button
+        - Fill out the Pull Request template with information about your submission and click the Create button
+- Reviewers will either accept or reject your Pull Request.
+    -   If approved, the reviewers will merge your changes and they will be available in the next icons package release
+    -   If your Pull Request is not approved, reviewers will leave comments indicating what needs to change in order to pass the review.
+        - If you need to make change, you can continue to work from your local copy of the repository. Once you have made updates, commit and push your changes (see the instructions above). Your Pull Request will automatically be updated to include your latest changes.
