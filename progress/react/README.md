@@ -28,10 +28,32 @@ import {Battery, Heart, Pie} from '@pxblue/react-progress-icons';
 <Pie percent={50} size={48} color={'blue'} ring={4} outlined={true}/>
 ```
 
-### Available properties
-* ```percent``` (Number): the amount to fill the icon. **Default**: 100.
-* ```size``` (Number): the size of the icon (px). **Default**: 24.
-* ```charging``` (Boolean, *Battery only*): whether to show the charging indicator or not. **Default**:false.
-* ```outlined``` (Boolean): whether to show outlined style for icon. **Default**:false.
-* ```color``` (String): the color to use for the icon. **Default**: inherit. Color can also be set through the ```style``` property.
-* ```ring``` (Number, *Pie only*): the thickness of the outer ring (1 (thin ring) - 10 (full circle)). **Default**: 10.
+## API
+
+### Shared Properties
+These props are available on all of the progress icons in this package.
+
+<div style="overflow: auto;">
+
+| Prop Name   | Description                           | Type                | Required | Default   |
+| ----------- | ------------------------------------- | ------------------- | -------- | --------- |
+| percent     | The amount to fill the icon (0-100)   | `number`            | no       | 100       |
+| size        | The size of the icon (in px)          | `number`            | no       | 24        |
+| outlined    | Whether to use the outlined style     | `boolean`           | no       | false     |
+| color       | The color used for the icon fill      | `string`            | no       | 'inherit' |
+
+</div>
+
+Any other props supplied will be provided to the root element (`svg`).
+
+### Battery Properties
+The battery supports all of the shared properties above and the following additional properties:
+| Prop Name   | Description                            | Type                | Required | Default   |
+| ----------- | -------------------------------------- | ------------------- | -------- | --------- |
+| charging    | Whether to show the charging indicator | `boolean`           | no       | false     |
+
+### Pie Properties
+The pie supports all of the shared properties above and the following additional properties:
+| Prop Name   | Description                                                        | Type                | Required | Default   |
+| ----------- | ------------------------------------------------------------------ | ------------------- | -------- | --------- |
+| ring        | The thickness of the outer ring (1 = thin ring, 10 = full circle ) | `number`            | no       | 10        |

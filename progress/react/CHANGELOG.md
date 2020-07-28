@@ -1,5 +1,8 @@
 # Recent Changes
 
+## v2.0.1
+- Fixes an issue with CSS transforms being overridden
+
 ## v2.0.0
 Library converted to TypeScript to provide strong typings for TS projects.
 

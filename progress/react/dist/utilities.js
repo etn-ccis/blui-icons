@@ -21,5 +21,5 @@ exports.defaultProps = {
     ring: 10,
     outlined: false,
     charging: false,
-    color: 'inherit'
+    color: 'inherit',
 };
