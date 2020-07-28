@@ -18,14 +18,16 @@ Reviewers must also agree that the name of the icon makes sense, avoids collisio
 
 ## Icon Creation
 
-When creating icons, follow the Material Design [icon design guidelines](https://material.io/guidelines/style/icons.html#icons-system-icons). Icon designs that do not adhere to these guidelines will be rejected. Templates are available to assist you:
--   Illustrator: _IconTemplate.ait_
--   Printable: _MDILetter.pdf_, _MDITabloid.pdf_
+When creating icons, follow the Material Design [icon design guidelines](https://material.io/design/iconography/system-icons.html) (we only use 24dp icons, not 20dp). Icon designs that do not adhere to these guidelines will be rejected. Templates are available to assist you:
+-   Illustrator: [IconTemplate.ait](https://github.com/pxblue/icons/raw/dev/design/IconTemplate.ait)
+-   Printable: [MDILetter.pdf](https://github.com/pxblue/icons/raw/dev/design/MDILetter.pdf), [MDITabloid.pdf](https://github.com/pxblue/icons/raw/dev/design/MDITabloid.pdf)
 
 Design files should ideally contain both original paths, strokes, text, etc. (in the case that the icon must be modified to increase stroke width or font size, for example) as well as the expanded paths version. The expanded version should be use to generate the SVG file.
 
 ### SVG Export Guidelines
+From Adobe Illustrator go to _File -> Export -> Export As_ and select SVG from the file type dropdown. Each icon should be exported as a separate file. 
 
+Select the following options from the export dialog:
 -   Styling: Presentation Attributes
 -   Font: SVG or Expanded
 -   Images: Preserve
@@ -36,7 +38,6 @@ Design files should ideally contain both original paths, strokes, text, etc. (in
 -   Be sure to include a 24x24px rectangle with no stroke and no fill to serve as the bounding box.
 -   Strokes and type should be expanded to paths.
 -   Icon shape should have no fill defined.
--   SVG should not include `<title>` or `<defs>` tags.
 
 ## Naming Conventions
 
@@ -46,7 +47,7 @@ Icon SVGs should follow the naming convention of just using an icon name (e.g. `
 ## Git Steps for Designers
 The following instructions are for individuals who are comfortable working with GitHub and the command line on their computer. If you prefer, you can send new icons directly to the PX Blue team via email and we will take care of this part of the process for you.
 
-In order to work with this GitHub repository, you will need to have a github account (if you don't have one, you can sign up for free).
+In order to work with this GitHub repository, you will need to have a GitHub account (if you don't have one, you can [sign up](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) for free).
 
 For outside contributors, please refer to our [Contribution Guidelines](https://github.com/pxblue/.github/blob/master/CONTRIBUTING.md#get-started). To summarize the steps for adding your icons and creating a Pull Request for approval:
 - Fork the icons repository to your account
@@ -63,7 +64,8 @@ For outside contributors, please refer to our [Contribution Guidelines](https://
     git checkout -b feature/icon
     ```
 - Make your changes in the design folder of your local copy of the repository
--   Commit and push your changes. You must include a descriptive commit message. It should include any relevant information about the specific changes/additions you have made.
+    - Don't forget to update the `META.json` file with an entry for your new icons - follow the format used for the existing icons.
+- Commit and push your changes. You must include a descriptive commit message. It should include any relevant information about the specific changes/additions you have made.
     ```
     git add -A
     git commit -m "Your commit message here"
@@ -77,7 +79,7 @@ For outside contributors, please refer to our [Contribution Guidelines](https://
         - In the 'head' dropdown, select your branch from your forked repository
         - Click on the Create Pull Request button
         - Fill out the Pull Request template with information about your submission and click the Create button
--   Reviewers will either accept or reject your Pull Request.
+- Reviewers will either accept or reject your Pull Request.
     -   If approved, the reviewers will merge your changes and they will be available in the next icons package release
     -   If your Pull Request is not approved, reviewers will leave comments indicating what needs to change in order to pass the review.
         - If you need to make change, you can continue to work from your local copy of the repository. Once you have made updates, commit and push your changes (see the instructions above). Your Pull Request will automatically be updated to include your latest changes.
