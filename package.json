@@ -12,8 +12,8 @@
     "dependencies": {},
     "scripts": {
         "test:functions": "cd progress/react && yarn test && cd ../angular && yarn test && cd ../..",
-        "test:svg": "./svgBuildTest.sh",
-        "test:progress": "./progressBuildTest.sh",
+        "test:svg": "./scripts/svgBuildTest.sh",
+        "test:progress": "./scripts/progressBuildTest.sh",
         "test:all": "yarn install && yarn install --dev && yarn test:svg && yarn test:progress && yarn test:functions",
         "index": "cp design/META.json svg/index.json",
         "move": "mkdir -p tmp && mv svg/README.md tmp/README.md && mv svg/package.json tmp/package.json",
@@ -22,7 +22,8 @@
         "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons' && create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
         "build": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb && yarn sprites && yarn index",
         "build:progress": "cd progress/react && yarn && yarn build && cd ../angular && yarn && yarn build",
-        "build:all": "yarn && yarn build && yarn build:progress"
+        "build:all": "yarn && yarn build && yarn build:progress",
+        "start:ng-progress-icons": "./scripts/linkProgressAngular.sh && cd progress/angular && yarn start"
     },
     "files": [
         "iconfont",
