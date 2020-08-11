@@ -3,6 +3,8 @@
 [![](https://img.shields.io/npm/v/@pxblue/ng-progress-icons.svg?label=@pxblue/ng-progress-icons&style=flat)](https://www.npmjs.com/package/@pxblue/ng-progress-icons)
 [![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat)](https://circleci.com/gh/pxblue/icons/tree/master)
 
+<img width="100%" style="max-width: 600px" alt="Progress icons" src="https://raw.githubusercontent.com/pxblue/icons/master/progress/assets/progress-icons.png" />
+
 This is a library of icons with dynamic fill capabilities that can be used to show progress (similar to a traditional progress spinner or bar). These can be used to show health, battery life, etc.
 
 Currently, we have icons available for:
@@ -42,14 +44,40 @@ imports: [
 <ups-progress percent="10" size="36" color="#0000ff" [outlined]="true"></ups-progress>
 ```
 
-## Available properties
+## API
 
--   `percent` (Number): the amount to fill the icon. **Default**: 100.
--   `size` (Number): the size of the icon (px). **Default**: 24.
--   `charging` (Boolean, _Battery only_): whether to show the charging indicator or not. **Default**: false.
--   `outlined` (Boolean): whether to show outlined style for icon. **Default**:false.
--   `color` (String): the color to use for the icon. **Default**: inherit. Color can also be set through the `style` property.
--   `ring` (Number, _Pie only_): the thickness of the outer ring (1 (thin ring) - 10 (full circle)). **Default**: 10.
+### Shared Attributes
+
+These props are available on all of the progress icons in this package.
+
+<div style="overflow: auto;">
+
+| Prop Name | Description                         | Type      | Required | Default        |
+| --------- | ----------------------------------- | --------- | -------- | -------------- |
+| percent   | The amount to fill the icon (0-100) | `number`  | no       | 100            |
+| size      | The size of the icon (in px)        | `number`  | no       | 24             |
+| outlined  | Whether to use the outlined style   | `boolean` | no       | false          |
+| color     | The color used for the icon fill    | `string`  | no       | 'currentColor' |
+
+</div>
+
+Any other props supplied will be provided to the root element (`svg`).
+
+### Battery Attribute
+
+The battery supports all of the shared attributes above and the following additional attribute:
+
+| Prop Name | Description                            | Type      | Required | Default |
+| --------- | -------------------------------------- | --------- | -------- | ------- |
+| charging  | Whether to show the charging indicator | `boolean` | no       | false   |
+
+### Pie Attribute
+
+The pie supports all of the shared attributes above and the following additional attribute:
+
+| Prop Name | Description                                                        | Type     | Required | Default |
+| --------- | ------------------------------------------------------------------ | -------- | -------- | ------- |
+| ring      | The thickness of the outer ring (1 = thin ring, 10 = full circle ) | `number` | no       | 10      |
 
 ## Building & Packaging
 

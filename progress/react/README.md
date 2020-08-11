@@ -3,6 +3,8 @@
 [![](https://img.shields.io/npm/v/@pxblue/react-progress-icons.svg?label=@pxblue/react-progress-icons&style=flat)](https://www.npmjs.com/package/@pxblue/react-progress-icons)
 [![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat)](https://circleci.com/gh/pxblue/icons/tree/master)
 
+<img width="100%" style="max-width: 600px" alt="Progress icons" src="https://raw.githubusercontent.com/pxblue/icons/master/progress/assets/progress-icons.png" />
+
 This is a library of icons with dynamic fill capabilities that can be used to show progress (similar to a traditional progress spinner or bar). These can be used to show health, battery life, etc.
 
 Currently, we have icons available for:
@@ -10,6 +12,7 @@ Currently, we have icons available for:
 -   battery
 -   heart
 -   pie
+-   ups
 
 ## Installation
 
