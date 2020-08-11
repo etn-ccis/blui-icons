@@ -53,16 +53,18 @@ Any other props supplied will be provided to the root element (`svg`).
 ### Battery Properties
 
 The battery supports all of the shared properties above and the following additional properties:
-| Prop Name | Description | Type | Required | Default |
-| ----------- | -------------------------------------- | ------------------- | -------- | --------- |
-| charging | Whether to show the charging indicator | `boolean` | no | false |
+
+| Prop Name | Description                            | Type      | Required | Default |
+| --------- | -------------------------------------- | --------- | -------- | ------- |
+| charging  | Whether to show the charging indicator | `boolean` | no       | false   |
 
 ### Pie Properties
 
 The pie supports all of the shared properties above and the following additional properties:
-| Prop Name | Description | Type | Required | Default |
-| ----------- | ------------------------------------------------------------------ | ------------------- | -------- | --------- |
-| ring | The thickness of the outer ring (1 = thin ring, 10 = full circle ) | `number` | no | 10 |
+
+| Prop Name | Description                                                        | Type     | Required | Default |
+| --------- | ------------------------------------------------------------------ | -------- | -------- | ------- |
+| ring      | The thickness of the outer ring (1 = thin ring, 10 = full circle ) | `number` | no       | 10      |
 
 ## Building & Packaging
 
