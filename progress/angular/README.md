@@ -24,7 +24,7 @@ yarn add @pxblue/ng-progress-icons // for Angular components
 
 The progress icon components can be imported and used like you would use any other component. You can manually set the desired color for the icon, otherwise it will inherit the text color of its parent container;
 
-```
+```ts
 // app.module.ts
 import { NgProgressIconsModule } from '@pxblue/ng-progress-icons';
 
@@ -34,12 +34,12 @@ imports: [
 ],
 ```
 
-```
-// app.component.html
+```html
+<!-- app.component.html -->
 <battery-progress percent="80" size="36" color="green" [charging]="true" [outlined]="true"></battery-progress>
 <heart-progress percent="99" size="36" color="pink" [outlined]="true"></heart-progress>
 <pie-progress percent="30" size="36" color="#0000ff" ring="4" [outlined]="true"></pie-progress>
-<ups-progress percent="10" size="36" color="#0000ff"  [outlined]="true"></ups-progress>
+<ups-progress percent="10" size="36" color="#0000ff" [outlined]="true"></ups-progress>
 ```
 
 ## Available properties
@@ -59,14 +59,14 @@ The Angular icons are built using the library packages built into the Angular CL
 
 To create a new component:
 
-```
+```sh
 cd icons/progress/angular
 ng generate component component-name --project=ng-progress-icons
 ```
 
 And then to create the /dist version:
 
-```
+```sh
 ng build ng-progress-icons
 or
 yarn build
@@ -74,7 +74,7 @@ yarn build
 
 Once you have built the library, you can publish to npm via:
 
-```
+```sh
 cd dist/ng-progress-icons
 npm version patch
 npm publish
