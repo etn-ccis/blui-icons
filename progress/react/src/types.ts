@@ -14,3 +14,4 @@ export type HeartProgressProps = ProgressIconProps;
 export type BatteryProgressProps = ProgressIconProps & {
     charging?: boolean;
 };
+export type UpsProgressProps = ProgressIconProps;

@@ -22,6 +22,10 @@ echo -ne "  Pie.js: "
 if [ ! -f ./dist/Pie.js ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  Pie.d.ts: "
 if [ ! -f ./dist/Pie.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+echo -ne "  Ups.js: "
+if [ ! -f ./dist/Ups.js ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+echo -ne "  Ups.d.ts: "
+if [ ! -f ./dist/Ups.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  index.js: "
 if [ ! -f ./dist/index.js ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  index.d.ts: "
@@ -46,6 +50,8 @@ echo -ne "  heart: "
 if [ ! -s ./dist/ng-progress-icons/lib/heart ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  pie: "
 if [ ! -s ./dist/ng-progress-icons/lib/pie ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+echo -ne "  ups: "
+if [ ! -s ./dist/ng-progress-icons/lib/ups ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  component: "
 if [ ! -f ./dist/ng-progress-icons/lib/ng-progress-icons.component.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  module: "
