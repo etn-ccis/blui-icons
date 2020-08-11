@@ -1,0 +1,13 @@
+{
+    "name": "px-blue-progress-icons",
+    "version": "0.0.0",
+    "description": "Px Blue progress icons",
+    "author": "PX Blue <pxblue@eaton.com>",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "test:functions": "cd react && yarn test && cd ../angular && yarn test",
+        "test:build": "./scripts/progressBuildTest.sh",
+        "build": "cd react && yarn && yarn build && cd ../angular && yarn && yarn build",
+        "start:angular": "./scripts/linkProgressAngular.sh && cd angular && yarn start"
+    }
+}
