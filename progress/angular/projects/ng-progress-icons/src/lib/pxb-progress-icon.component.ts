@@ -6,10 +6,14 @@ import {Component, Input} from '@angular/core';
         <span class="pxb-progress-icon" 
               [style.flexDirection]="getFlexDirection()"
               [style.display]="labelPosition === 'center' ? '' : 'inline-flex'">
-            <pxb-icon-label  *ngIf="showPercentLabel"
-                [size]="size"
-                [labelPosition]="labelPosition"
-                [percent]="percent"></pxb-icon-label>
+            <span style="text-align: center; z-index: 2;" *ngIf="showPercentLabel"
+                  [style.fontSize.px]="size/4"
+                  [style.display]="labelPosition === 'center' ? '' : 'flex'"
+                  [style.height.px]="labelPosition === 'center' ? size : 'unset'"
+                  [style.width.px]="labelPosition === 'center' ? size : 'unset'"
+                  [style.lineHeight.px]="labelPosition === 'top' || labelPosition === 'bottom' ? 'unset' : size"
+                  [style.position]="labelPosition === 'center' ? 'absolute' : 'unset'"
+            >{{percent}}%</span>
             <ng-content></ng-content>
         </span>
     `,
