@@ -7,7 +7,9 @@
     "scripts": {
         "test:functions": "cd react && yarn test && cd ../angular && yarn test",
         "test:build": "./scripts/progressBuildTest.sh",
-        "build": "cd react && yarn && yarn build && cd ../angular && yarn && yarn build",
+        "build:react": "cd react && yarn && yarn build",
+        "build:angular": "cd angular && yarn && yarn build && cp ./README.md ./dist/ng-progress-icons/README.md",
+        "build:all": "yarn build:react && yarn build:angular",
         "start:angular": "./scripts/linkProgressAngular.sh && cd angular && yarn start"
     }
 }

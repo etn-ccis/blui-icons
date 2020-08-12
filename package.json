@@ -21,7 +21,7 @@
         "copy": "yarn move && rm -r svg && mkdir svg && copyfiles -f -e \"design/old/*.svg\" -e \"design/Internal/*.svg\" -e \"design/WIP/*.svg\" -e \"design/Products/**/*.svg\" \"design/Products/*.svg\" design/**/*.svg design/**/**/*.svg svg && yarn move-back",
         "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons' && create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
         "build": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb && yarn sprites && yarn index",
-        "build:progress": "cd progress && yarn build",
+        "build:progress": "cd progress && yarn build:all",
         "build:all": "yarn && yarn build && yarn build:progress"
     },
     "files": [

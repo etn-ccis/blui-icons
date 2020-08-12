@@ -63,7 +63,7 @@ These props are available on all of the progress icons in this package.
 
 Any other props supplied will be provided to the root element (`svg`).
 
-### Battery Attribute
+### Battery Attributes
 
 The battery supports all of the shared attributes above and the following additional attribute:
 
@@ -71,7 +71,7 @@ The battery supports all of the shared attributes above and the following additi
 | --------- | -------------------------------------- | --------- | -------- | ------- |
 | charging  | Whether to show the charging indicator | `boolean` | no       | false   |
 
-### Pie Attribute
+### Pie Attributes
 
 The pie supports all of the shared attributes above and the following additional attribute:
 
