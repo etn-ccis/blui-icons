@@ -1,15 +1,11 @@
 import {Component, Input, OnChanges, OnInit} from '@angular/core';
 import { rangeValue, getCoordinates } from '../utilities';
-import {PxbProgressIcon} from "../pxb-progress-icon";
+import {PxbProgressIconComponent} from "../pxb-progress-icon.component";
 
 @Component({
     selector: 'pie-progress',
     template: `
-        <span class="pxb-progress-icon">
-        <pxb-icon-label  *ngIf="showPercentLabel"
-                         [size]="size"
-                         [labelPosition]="labelPosition"
-                         [percent]="percent"></pxb-icon-label>
+        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel">
         <svg
             [attr.height]="size + 'px'"
             [attr.width]="size + 'px'"
@@ -43,11 +39,11 @@ import {PxbProgressIcon} from "../pxb-progress-icon";
                 [attr.fill]="color || 'currentColor'"
             ></circle>
         </svg>
-        </span>
+        </pxb-progress-icon>
     `,
     styleUrls: ['../pxb-progress-icon.scss']
 })
-export class PieComponent extends PxbProgressIcon implements OnChanges {
+export class PieComponent extends PxbProgressIconComponent implements OnChanges {
     @Input() ring = 10;
     @Input() outlined = false;
 

@@ -1,15 +1,12 @@
 import {Component, OnInit, OnChanges, Input} from '@angular/core';
 import { rangeValue } from '../utilities';
-import {PxbProgressIcon} from "../pxb-progress-icon";
+import {PxbProgressIconComponent} from "../pxb-progress-icon.component";
 
 @Component({
     selector: 'heart-progress',
     template: `
-        <span class="pxb-progress-icon">
-        <pxb-icon-label  *ngIf="showPercentLabel"
-                         [size]="size"
-                         [labelPosition]="labelPosition"
-                         [percent]="percent"></pxb-icon-label>
+        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel">
+
         <svg
             [attr.height]="size + 'px'"
             [attr.width]="size + 'px'"
@@ -38,11 +35,11 @@ import {PxbProgressIcon} from "../pxb-progress-icon";
                 height="20"
             />
         </svg>
-        </span>
+        </pxb-progress-icon>
     `,
     styleUrls: ['../pxb-progress-icon.scss']
 })
-export class HeartComponent extends PxbProgressIcon implements OnChanges {
+export class HeartComponent extends PxbProgressIconComponent implements OnChanges {
     @Input() outlined = false;
     startY: number;
     fillHeight: number;

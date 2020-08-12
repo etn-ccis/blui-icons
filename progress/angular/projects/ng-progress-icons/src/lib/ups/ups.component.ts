@@ -1,15 +1,12 @@
 import {Component, Input, OnChanges, OnInit} from '@angular/core';
 import { rangeValue } from '../utilities';
-import {PxbProgressIcon} from "../pxb-progress-icon";
+import {PxbProgressIconComponent} from "../pxb-progress-icon.component";
 
 @Component({
     selector: 'ups-progress',
     template: `
-        <span class="pxb-progress-icon" >
-        <pxb-icon-label  *ngIf="showPercentLabel"
-                         [size]="size"
-                         [labelPosition]="labelPosition"
-                         [percent]="percent"></pxb-icon-label>
+        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel">
+
         <svg [attr.height]="size + 'px'" [attr.width]="size + 'px'" x="0px" y="0px" viewBox="0 0 24 24">
             <path
                 opacity="0.3"
@@ -58,11 +55,11 @@ import {PxbProgressIcon} from "../pxb-progress-icon";
                 *ngIf="outlined"
             />
         </svg>
-        </span>
+        </pxb-progress-icon>
     `,
     styleUrls: ['../pxb-progress-icon.scss']
 })
-export class UpsComponent extends PxbProgressIcon implements OnChanges {
+export class UpsComponent extends PxbProgressIconComponent implements OnChanges {
 
     @Input() outlined = false;
 
