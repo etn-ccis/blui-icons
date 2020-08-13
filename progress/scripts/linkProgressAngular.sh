@@ -10,11 +10,11 @@ GRAY='\033[1;30m'
 NC='\033[0m' # No Color
 
 echo -e "${BLUE}Building components...${NC}"
-cd ./progress/angular
+cd ./angular
 yarn && yarn build
 
 echo -en "${BLUE}Creating new folder in node_modules...${NC}"
-rm -rf "./node_modules/@pxblue/ng-progress-icons"
+if [ -f ./node_modules/@pxblue/ng-progress-icons/package.json ]; then rm -rf "./node_modules/@pxblue/ng-progress-icons"; fi
 mkdir -p "./node_modules/@pxblue/ng-progress-icons"
 echo -e "${GREEN}Done${NC}"
 

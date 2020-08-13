@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.1.5
+## v1.2.0
 
 -   Added UPS progress icon (`<ups-progress>`)
 

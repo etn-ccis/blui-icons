@@ -19,7 +19,6 @@
         "@angular/platform-browser": "^8.1.2",
         "@angular/platform-browser-dynamic": "^8.1.2",
         "@angular/router": "^8.1.2",
-        "@pxblue/ng-progress-icons": "latest",
         "core-js": "^2.5.4",
         "rxjs": "^6.3.3",
         "typeface-open-sans": "^0.0.75",

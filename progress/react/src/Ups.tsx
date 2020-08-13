@@ -15,12 +15,12 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
                 <>
                     <path
                         opacity={0.3}
-                        d="M2 2H22V7H19V8H22V12H19V13H22V17H19V18H22V22H2V18H5V17H2V13H5V12H2V8H5V7H2V2Z"
+                        d="M2 2H22V6H19V8H22V11H19V13H22V16H19V18H22V22H2V18H5V16H2V13H5V11H2V8H5V6H2V2Z"
                         fill={color}
                     />
                     <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x={2} y={2} width={20} height={20}>
                         <path
-                            d="M2 2H22V7H19V8H22V12H19V13H22V17H19V18H22V22H2V18H5V17H2V13H5V12H2V8H5V7H2V2Z"
+                            d="M2 2H22V6H19V8H22V11H19V13H22V16H19V18H22V22H2V18H5V16H2V13H5V11H2V8H5V6H2V2Z"
                             fill={color}
                         />
                     </mask>
@@ -31,13 +31,30 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
             )}
             {outlined && (
                 <>
+                    <defs>
+                        <clipPath id="outlined-progress-clip">
+                            <path d="M4 8V4H20V8H17V9H20V12H17V13H20V16H17V17H20V20H4V17H7V16H4V13H7V12H4V9H7V8H4Z" />
+                        </clipPath>
+                        <clipPath id={`outlined-border-clip-${rangedPercent}`}>
+                            <rect x="2" y="2" width="20" height={startY - 2} />
+                        </clipPath>
+                    </defs>
                     <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M22 2H2V22H22V2ZM4 4V8H6V9H4V12H6V13H4V16H6V17H4V20H20V17H18V16H20V13H18V12H20V9H18V8H20V4H4Z"
+                        fill-rule="evenodd"
+                        d="M22 2H2V22H22V2ZM4 4V8H7V9H4V12H7V13H4V16H7V17H4V20H20V17H17V16H20V13H17V12H20V9H17V8H20V4H4Z"
+                        clip-path={`url(#outlined-border-clip-${rangedPercent})`}
+                        clip-rule="evenodd"
                         fill={color}
                     />
-                    <rect x={2} y={startY} width={20} height={fillHeight} fill={color} />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 2H2V22H22V2ZM20 4H4V20H20V4Z" fill={color} />
+                    <rect
+                        x="4"
+                        y={startY}
+                        width="16"
+                        height={fillHeight}
+                        clip-path="url(#outlined-progress-clip)"
+                        fill={color}
+                    />
                 </>
             )}
         </svg>
