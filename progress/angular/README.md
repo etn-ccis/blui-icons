@@ -52,12 +52,15 @@ These props are available on all of the progress icons in this package.
 
 <div style="overflow: auto;">
 
-| Prop Name | Description                         | Type      | Required | Default        |
-| --------- | ----------------------------------- | --------- | -------- | -------------- |
-| percent   | The amount to fill the icon (0-100) | `number`  | no       | 100            |
-| size      | The size of the icon (in px)        | `number`  | no       | 24             |
-| outlined  | Whether to use the outlined style   | `boolean` | no       | false          |
-| color     | The color used for the icon fill    | `string`  | no       | 'currentColor' |
+| Prop Name        | Description                         | Type                                  | Required | Default        |
+| ---------------- | ----------------------------------- | ------------------------------------- | -------- | -------------- |
+| percent          | The amount to fill the icon (0-100) | `number`                              | no       | 100            |
+| size             | The size of the icon (in px)        | `number`                              | no       | 24             |
+| outlined         | Whether to use the outlined style   | `boolean`                             | no       | false          |
+| color            | The color used for the icon fill    | `string`                              | no       | 'currentColor' |
+| showPercentLabel | Option to show percentage overlay   | `boolean`                             | no       | false          |
+| labelColor       | Label text color                    | `string`                              | no       | false          |
+| labelPosition    | Where to display the text label     | `top, bottom, center, right, left`    | no       | `center`       |
 
 </div>
 
