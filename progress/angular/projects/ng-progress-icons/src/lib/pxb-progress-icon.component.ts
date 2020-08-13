@@ -3,10 +3,12 @@ import {Component, Input} from '@angular/core';
 @Component({
     selector: 'pxb-progress-icon',
     template: `
-        <span class="pxb-progress-icon" 
+        <span class="pxb-progress-icon"
               [style.flexDirection]="getFlexDirection()"
               [style.display]="labelPosition === 'center' ? '' : 'inline-flex'">
-            <span style="text-align: center; z-index: 2;" *ngIf="showPercentLabel"
+            <span *ngIf="showPercentLabel"
+                  class="pxb-progress-icon-label"
+                  [style.color]="labelColor"
                   [style.fontSize.px]="size/4"
                   [style.display]="labelPosition === 'center' ? '' : 'flex'"
                   [style.height.px]="labelPosition === 'center' ? size : 'unset'"
@@ -25,6 +27,8 @@ export class PxbProgressIconComponent {
     @Input() showPercentLabel = false;
     @Input() labelPosition: 'top' | 'bottom' | 'left' | 'right' | 'center' = 'center';
     @Input() color: string;
+    @Input() labelColor: string;
+
 
     getFlexDirection(): string {
         if (this.labelPosition === 'left') {
