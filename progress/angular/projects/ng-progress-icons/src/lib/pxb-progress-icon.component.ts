@@ -8,6 +8,7 @@ import {Component, Input} from '@angular/core';
               [style.display]="labelPosition === 'center' ? '' : 'inline-flex'">
             <span *ngIf="showPercentLabel"
                   class="pxb-progress-icon-label"
+                  [class.center]="labelPosition === 'center'"
                   [style.color]="labelColor"
                   [style.fontSize.px]="labelSize || size/4"
                   [style.display]="labelPosition === 'center' ? '' : 'flex'"
