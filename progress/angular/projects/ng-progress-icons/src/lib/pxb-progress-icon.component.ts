@@ -32,12 +32,17 @@ export class PxbProgressIconComponent {
     @Input() labelSize: number;
 
     getFlexDirection(): string {
-        switch (this.labelColor) {
-            case 'left': return 'row';
-            case 'right': return 'row-reverse';
-            case 'top': return 'column';
-            case 'bottom': return 'column-reverse';
-            default: return '';
+        switch (this.labelPosition) {
+            case 'left':
+                return 'row';
+            case 'right':
+                return 'row-reverse';
+            case 'top':
+                return 'column';
+            case 'bottom':
+                return 'column-reverse';
+            default:
+                return '';
         }
     }
 }
