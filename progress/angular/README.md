@@ -59,7 +59,7 @@ These props are available on all of the progress icons in this package.
 | outlined         | Whether to use the outlined style   | `boolean`                             | no       | false          |
 | color            | The color used for the icon fill    | `string`                              | no       | 'currentColor' |
 | showPercentLabel | Option to show percentage overlay   | `boolean`                             | no       | false          |
-| labelColor       | Label text color                    | `string`                              | no       | false          |
+| labelColor       | Label text color                    | `string`                              | no       |                |
 | labelPosition    | Where to display the text label     | `top, bottom, center, right, left`    | no       | `center`       |
 
 </div>
