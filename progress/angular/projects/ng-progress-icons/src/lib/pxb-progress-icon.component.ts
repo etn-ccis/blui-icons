@@ -10,6 +10,7 @@ import {Component, Input} from '@angular/core';
                   class="pxb-progress-icon-label"
                   [class.center]="labelPosition === 'center'"
                   [style.color]="labelColor"
+                  [style.webkitTextStrokeWidth.px]="labelPosition === 'center' ? size / 120 : 0"
                   [style.fontSize.px]="labelSize || size/4"
                   [style.display]="labelPosition === 'center' ? '' : 'flex'"
                   [style.height.px]="labelPosition === 'center' ? size : 'unset'"
