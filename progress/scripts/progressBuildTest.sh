@@ -52,12 +52,8 @@ echo -ne "  pie: "
 if [ ! -s ./dist/ng-progress-icons/lib/pie ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  ups: "
 if [ ! -s ./dist/ng-progress-icons/lib/ups ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
-echo -ne "  component: "
-if [ ! -f ./dist/ng-progress-icons/lib/ng-progress-icons.component.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  module: "
 if [ ! -f ./dist/ng-progress-icons/lib/ng-progress-icons.module.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
-echo -ne "  service: "
-if [ ! -f ./dist/ng-progress-icons/lib/ng-progress-icons.service.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  package.json: "
 if [ ! -f ./package.json ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  readme: "
