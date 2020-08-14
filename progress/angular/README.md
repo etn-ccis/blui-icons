@@ -52,7 +52,7 @@ These props are available on all of the progress icons in this package.
 
 <div style="overflow: auto;">
 
-| Prop Name        | Description                         | Type                                  | Required | Default        |
+| @Input           | Description                         | Type                                  | Required | Default        |
 | ---------------- | ----------------------------------- | ------------------------------------- | -------- | -------------- |
 | percent          | The amount to fill the icon (0-100) | `number`                              | no       | 100            |
 | size             | The size of the icon (in px)        | `number`                              | no       | 24             |
@@ -71,7 +71,7 @@ Any other props supplied will be provided to the root element (`svg`).
 
 The battery supports all of the shared attributes above and the following additional attribute:
 
-| Prop Name | Description                            | Type      | Required | Default |
+| @Input    | Description                            | Type      | Required | Default |
 | --------- | -------------------------------------- | --------- | -------- | ------- |
 | charging  | Whether to show the charging indicator | `boolean` | no       | false   |
 
@@ -79,7 +79,7 @@ The battery supports all of the shared attributes above and the following additi
 
 The pie supports all of the shared attributes above and the following additional attribute:
 
-| Prop Name | Description                                                        | Type     | Required | Default |
+| @Input    | Description                                                        | Type     | Required | Default |
 | --------- | ------------------------------------------------------------------ | -------- | -------- | ------- |
 | ring      | The thickness of the outer ring (1 = thin ring, 10 = full circle ) | `number` | no       | 10      |
 
