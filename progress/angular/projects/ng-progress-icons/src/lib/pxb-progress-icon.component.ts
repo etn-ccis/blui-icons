@@ -9,7 +9,7 @@ import {Component, Input} from '@angular/core';
             <span *ngIf="showPercentLabel"
                   class="pxb-progress-icon-label"
                   [style.color]="labelColor"
-                  [style.fontSize.px]="size/4"
+                  [style.fontSize.px]="labelSize || size/4"
                   [style.display]="labelPosition === 'center' ? '' : 'flex'"
                   [style.height.px]="labelPosition === 'center' ? size : 'unset'"
                   [style.width.px]="labelPosition === 'center' ? size : 'unset'"
@@ -28,17 +28,15 @@ export class PxbProgressIconComponent {
     @Input() labelPosition: 'top' | 'bottom' | 'left' | 'right' | 'center' = 'center';
     @Input() color: string;
     @Input() labelColor: string;
-
+    @Input() labelSize: number;
 
     getFlexDirection(): string {
-        if (this.labelPosition === 'left') {
-            return 'row';
-        } else if (this.labelPosition === 'right') {
-            return 'row-reverse';
-        } else if (this.labelPosition === 'top') {
-            return 'column';
-        } else if (this.labelPosition === 'bottom') {
-            return 'column-reverse';
+        switch (this.labelColor) {
+            case 'left': return 'row';
+            case 'right': return 'row-reverse';
+            case 'top': return 'column';
+            case 'bottom': return 'column-reverse';
+            default: return '';
         }
     }
 }

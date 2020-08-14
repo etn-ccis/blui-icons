@@ -5,7 +5,7 @@ import { rangeValue } from '../utilities';
 @Component({
     selector: 'battery-progress',
     template: `
-        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel">
+        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel"  [labelColor]="labelColor" [labelSize]="labelSize">
             <svg
                [attr.height]="size + 'px'"
                [attr.width]="size + 'px'"
