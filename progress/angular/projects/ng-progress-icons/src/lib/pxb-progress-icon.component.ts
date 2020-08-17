@@ -1,4 +1,5 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnChanges} from '@angular/core';
+import color from 'color';
 
 @Component({
     selector: 'pxb-progress-icon',
@@ -8,6 +9,7 @@ import {Component, Input} from '@angular/core';
               [style.display]="labelPosition === 'center' ? '' : 'inline-flex'">
             <span *ngIf="showPercentLabel"
                   class="pxb-progress-icon-label"
+                  [class.inverted]="inverted"
                   [class.center]="labelPosition === 'center'"
                   [style.color]="labelColor"
                   [style.webkitTextStrokeWidth.px]="labelPosition === 'center' ? size / 60 : 0"
@@ -23,7 +25,7 @@ import {Component, Input} from '@angular/core';
     `,
     styleUrls: ['./pxb-progress-icon.scss']
 })
-export class PxbProgressIconComponent {
+export class PxbProgressIconComponent implements OnChanges {
     @Input() size = 24;
     @Input() percent = 100;
     @Input() showPercentLabel = false;
@@ -31,6 +33,14 @@ export class PxbProgressIconComponent {
     @Input() color: string;
     @Input() labelColor: string;
     @Input() labelSize: number;
+
+    inverted: boolean;
+
+    ngOnChanges(): void {
+        if (color) {
+            this.inverted = color(this.color).isDark();
+        }
+    }
 
     getFlexDirection(): string {
         switch (this.labelPosition) {

@@ -5,7 +5,7 @@ import {PxbProgressIconComponent} from "../pxb-progress-icon.component";
 @Component({
     selector: 'ups-progress',
     template: `
-        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel" [labelColor]="labelColor" [labelSize]="labelSize">
+        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel" [labelColor]="labelColor" [labelSize]="labelSize" [color]="color">
 
         <svg [attr.height]="size + 'px'" [attr.width]="size + 'px'" x="0px" y="0px" viewBox="0 0 24 24">
             <defs>
