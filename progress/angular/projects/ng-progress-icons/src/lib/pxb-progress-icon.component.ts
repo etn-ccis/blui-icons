@@ -38,7 +38,8 @@ export class PxbProgressIconComponent implements OnChanges {
 
     ngOnChanges(): void {
         if (color) {
-            this.inverted = color(this.color).isDark();
+            // Inverted class applies only to center-aligned label.
+            this.inverted = this.labelPosition === 'center' && color(this.color).isDark();
         }
     }
 
