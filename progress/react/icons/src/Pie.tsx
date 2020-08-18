@@ -1,9 +1,10 @@
 import React from 'react';
 import { getCoordinates, rangeValue } from './utilities';
 import { PieProgressProps } from './types';
+import {ProgressIcon} from "./ProgressIcon";
 
 export const Pie: React.FC<PieProgressProps> = (props) => {
-    const { outlined = false, ring = 10, size = 24, percent = 100, color = 'inherit', style = {}, ...svgProps } = props;
+    const { outlined = false, ring = 10,   style = {}, size = 24, percent = 100, color = 'inherit', labelSize, labelColor, showPercentLabel, labelPosition,  ...svgProps } = props;
 
     let stroke = Math.max(1, Math.min(10, Math.round(ring)));
     const iconStroke = 2;
@@ -62,6 +63,8 @@ Z
     const transform = style && style.transform ? `${style.transform} rotate(-.25turn)` : `rotate(-.25turn)`;
 
     return (
+        <ProgressIcon color={color} percent={percent} labelColor={labelColor} labelSize={labelSize} size={size} showPercentLabel={showPercentLabel} labelPosition={labelPosition} >
+
         <svg
             height={`${size}px`}
             width={`${size}px`}
@@ -99,5 +102,6 @@ Z
                 ></circle>
             )}
         </svg>
+        </ProgressIcon>
     );
 };
