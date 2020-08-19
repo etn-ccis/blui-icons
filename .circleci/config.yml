@@ -7,16 +7,16 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/package.json" }}-{{ checksum "./progress/react/package.json" }}
+          - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/package.json" }}-{{ checksum "./progress/react/icons/package.json" }}
           - v1-dependencies-
       - run: 
           name: Install Dependencies
           command: |
-            yarn install
+            yarn
             cd progress/react/icons
-            yarn install
+            yarn
             cd ../../angular
-            yarn install
+            yarn
             cd ..
       - save_cache:
           paths:
@@ -33,17 +33,16 @@ jobs:
       - run:
           name: Verify Progress Icon Build Artifacts
           command: |
-            cd progress/react
+            cd progress/react/icons
             yarn build
-            cd ../angular
+            cd ../../angular
             yarn build  
-            cd ..
-            cd ..
+            cd ../..
             yarn test:progress
       - run:
           name: Test progress icon utility functions
           command: |
-            cd progress/react
+            cd progress/react/icons
             yarn test
-            cd ../angular
+            cd ../../angular
             yarn test
