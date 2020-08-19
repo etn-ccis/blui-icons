@@ -2768,6 +2768,50 @@
 			"author": "Google",
 			"size": 24
 		}
-		
+		,
+		{
+			"name": "Eaton Logo",
+			"filename": "eaton.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "baseline",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+		}
+		,
+		{
+			"name": "Eaton Logo with Tagline",
+			"filename": "eaton_tagline.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "baseline",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+		}
+		,
+		{
+			"name": "Eaton Logo Two Tone",
+			"filename": "eaton_two_tone.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "two-tone",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+		}
 	]
 }
