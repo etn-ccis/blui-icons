@@ -13,8 +13,8 @@ The progress icon components can be imported and used like you would use any oth
 
 For detailed usage, please follow the guidance for each framework:
 
--   [Angular](https://github.com/pxblue/icons/blob/master/progress/react/README.md)
--   [React](https://github.com/pxblue/icons/blob/master/progress/angular/README.md)
+-   [Angular](https://github.com/pxblue/icons/blob/master/progress/angular/README.md)
+-   [React](https://github.com/pxblue/icons/blob/master/progress/react/README.md)
 
 ## Future
 

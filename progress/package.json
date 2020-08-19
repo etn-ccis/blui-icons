@@ -5,13 +5,14 @@
     "author": "PX Blue <pxblue@eaton.com>",
     "license": "BSD-3-Clause",
     "scripts": {
-        "test:functions": "cd react && yarn test && cd ../angular && yarn test",
+        "test:functions-angular": "cd angular/components && yarn test",
+        "test:functions-react": "cd react && yarn test",
+        "test:functions": "yarn test:functions-react && yarn test:functions-angular",
         "test:build": "./scripts/progressBuildTest.sh",
         "build:react": "cd react && yarn && yarn build",
-        "build:angular": "cd angular && yarn && yarn build && cp ./README.md ./dist/ng-progress-icons/README.md",
+        "build:angular": "cd angular/components && yarn && yarn build && cp ./README.md ./dist/README.md",
         "build:all": "yarn build:react && yarn build:angular",
-        "start:angular": "./scripts/linkProgressAngular.sh && cd angular && yarn start",
+        "start:angular": "./scripts/linkProgressAngular.sh && cd angular/demos/showcase && yarn start",
         "start:react": "./scripts/linkProgressReact.sh && cd react && yarn start"
-
     }
 }
