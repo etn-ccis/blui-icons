@@ -4,11 +4,13 @@
     "description": "Angular progress icons for PX Blue applications",
     "main": "bundles/pxblue-ng-progress-icons.umd.js",
     "devDependencies": {
+        "color": "^3.1.2",
         "tslib": "^1.9.0"
     },
     "peerDependencies": {
         "@angular/common": ">=6.0.0",
-        "@angular/core": ">=6.0.0"
+        "@angular/core": ">=6.0.0",
+        "color": "^3.1.2"
     },
     "repository": {
         "type": "git",

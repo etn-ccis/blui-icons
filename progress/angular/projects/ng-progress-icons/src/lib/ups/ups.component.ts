@@ -1,9 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnChanges, OnInit} from '@angular/core';
 import { rangeValue } from '../utilities';
+import {PxbProgressIconComponent} from "../pxb-progress-icon.component";
 
 @Component({
     selector: 'ups-progress',
     template: `
+        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel" [labelColor]="labelColor" [labelSize]="labelSize" [color]="color">
+
         <svg [attr.height]="size + 'px'" [attr.width]="size + 'px'" x="0px" y="0px" viewBox="0 0 24 24">
             <defs>
                 <clipPath id="outlined-progress-clip">
@@ -66,21 +69,18 @@ import { rangeValue } from '../utilities';
                 />
             </g>
         </svg>
+        </pxb-progress-icon>
     `,
-    styles: [],
-    inputs: ['percent', 'size', 'color', 'outlined'],
+    styleUrls: ['../pxb-progress-icon.scss']
 })
-export class UpsComponent implements OnInit {
-    percent: number = 100;
+export class UpsComponent extends PxbProgressIconComponent implements OnChanges {
+
+    @Input() outlined = false;
+
     rangedPercent: number;
-    size: number = 24;
-    color: string;
-    outlined: boolean = false;
     startY: number;
     fillHeight: number;
-    constructor() {}
 
-    ngOnInit() {}
     ngOnChanges() {
         this.rangedPercent = rangeValue(this.percent, 0, 100);
         this.startY = this.outlined

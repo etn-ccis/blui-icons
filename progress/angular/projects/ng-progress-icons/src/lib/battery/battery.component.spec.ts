@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BatteryComponent } from './battery.component';
+import {PxbProgressIconComponent} from '../pxb-progress-icon.component';
 
 describe('BatteryComponent', () => {
     let component: BatteryComponent;
@@ -8,7 +9,7 @@ describe('BatteryComponent', () => {
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [BatteryComponent],
+            declarations: [PxbProgressIconComponent, BatteryComponent],
         }).compileComponents();
     }));
 

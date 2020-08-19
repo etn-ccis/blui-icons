@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PieComponent } from './pie.component';
+import {PxbProgressIconComponent} from '../pxb-progress-icon.component';
 
 describe('PieComponent', () => {
     let component: PieComponent;
@@ -8,7 +9,7 @@ describe('PieComponent', () => {
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [PieComponent],
+            declarations: [PxbProgressIconComponent, PieComponent],
         }).compileComponents();
     }));
 

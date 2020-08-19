@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnChanges, OnInit} from '@angular/core';
 import { rangeValue, getCoordinates } from '../utilities';
+import {PxbProgressIconComponent} from "../pxb-progress-icon.component";
 
 @Component({
     selector: 'pie-progress',
     template: `
+        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel" [labelColor]="labelColor" [labelSize]="labelSize" [color]="color">
         <svg
             [attr.height]="size + 'px'"
             [attr.width]="size + 'px'"
@@ -37,20 +39,20 @@ import { rangeValue, getCoordinates } from '../utilities';
                 [attr.fill]="color || 'currentColor'"
             ></circle>
         </svg>
+        </pxb-progress-icon>
     `,
-    styles: [],
-    inputs: ['percent', 'size', 'color', 'ring', 'outlined'],
+    styleUrls: ['../pxb-progress-icon.scss']
 })
-export class PieComponent implements OnInit {
-    percent: number = 100;
-    size: number = 24;
-    color: string;
-    ring: number = 10;
-    outlined: boolean = false;
+export class PieComponent extends PxbProgressIconComponent implements OnChanges {
+    @Input() ring = 10;
+    @Input() outlined = false;
+
+    rv = rangeValue;
+
     outlineBase: string;
     twoToneBase: string;
     clipPath: string;
-    iconStroke: number = 2;
+    iconStroke = 2;
     stroke: number;
 
     // Ring properties
@@ -65,13 +67,12 @@ export class PieComponent implements OnInit {
     outerRadiusSmall;
     innerRadiusSmall;
 
-    constructor() {}
     getPath() {
         return `M 12,12 H 24 A 12,12,0,${this.rv(this.percent, 0, 100) >= 50 ? 1 : 0},1,${
             getCoordinates(this.rv(this.percent, 0, 100))['x']
         },${getCoordinates(this.rv(this.percent, 0, 100))['y']}Z`;
     }
-    ngOnInit() {}
+
     ngOnChanges() {
         this.stroke = Math.max(1, Math.min(10, Math.round(this.ring)));
         this.stroke = this.outlined ? Math.max(this.stroke, 2 * this.iconStroke + 1) : this.stroke;
@@ -117,6 +118,4 @@ ${10 - this.stroke},${10 - this.stroke},0,0,1,12,${22 - this.stroke}
 Z
 `;
     }
-
-    rv = rangeValue;
 }
