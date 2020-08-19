@@ -1,6 +1,6 @@
 import React from 'react';
 import {ProgressIconProps} from "./types";
-import { useTheme, makeStyles, createStyles } from '@material-ui/core/styles';
+import { makeStyles, createStyles } from '@material-ui/core/styles';
 
 
 const useStyles = makeStyles(() =>
@@ -14,8 +14,10 @@ const useStyles = makeStyles(() =>
         progressIconLabel: {
             textAlign: 'center',
             zIndex: 2,
-            '&center': {
-
+            '&.center': {
+                fontWeight: 900,
+                webkitTextFillColor: 'black',
+                webkitTextStrokeColor: 'white'
             }
         },
     })
@@ -23,7 +25,7 @@ const useStyles = makeStyles(() =>
 
 export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
 
-    const { showPercentLabel, labelPosition, labelColor, labelSize, children, percent } = props;
+    const { showPercentLabel, size = 24, labelPosition, labelColor, labelSize, children, percent } = props;
     const classes = useStyles();
 
     const getFlexDirection = (): any => {
@@ -39,12 +41,26 @@ export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
             default:
                 return '';
         }
-    }
+    };
+
+    // @ts-ignore
+    const isCentered = (): boolean => labelPosition === 'center';
 
     return (
-        <span style={{ flexDirection: getFlexDirection()}}>
+        <span className={classes.progressIcon} style={{ flexDirection: getFlexDirection()}}>
             {showPercentLabel &&
-                <span>
+                <span
+                    className={classes.progressIconLabel}
+                    style={
+                    {   color: labelColor,
+                        width: isCentered() ? labelSize : 'unset',
+                        height: isCentered() ? labelSize : 'unset',
+                        WebkitTextStrokeWidth: size/60,
+                        lineHeight: (labelPosition === 'top' || labelPosition === 'bottom' ? 'unset' : `${size}px`),
+                        position: isCentered() ? 'absolute' : 'unset',
+                        display: isCentered() ? '' : 'flex'
+                    }
+                }>
                     {percent}
                 </span>
             }
