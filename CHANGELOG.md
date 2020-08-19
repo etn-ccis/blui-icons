@@ -1,3 +1,9 @@
+# Changelog
+
+## v1.0.27
+
+-   Added new icons for three Eaton logo variants
+
 ## v1.0.26
 
 -   Fixed a few alignment and color issues

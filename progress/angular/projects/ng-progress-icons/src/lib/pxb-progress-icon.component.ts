@@ -14,11 +14,11 @@ import color from 'color';
                   [style.color]="labelColor"
                   [style.webkitTextStrokeWidth.px]="labelPosition === 'center' ? size / 60 : 0"
                   [style.fontSize.px]="labelSize || size/4"
-                  [style.display]="labelPosition === 'center' ? '' : 'flex'"
                   [style.height.px]="labelPosition === 'center' ? size : 'unset'"
                   [style.width.px]="labelPosition === 'center' ? size : 'unset'"
                   [style.lineHeight.px]="labelPosition === 'top' || labelPosition === 'bottom' ? 'unset' : size"
-                  [style.position]="labelPosition === 'center' ? 'absolute' : 'unset'"
+                  [style.webkitTextStrokeColor]="getStrokeColor()"
+                  [style.webkitTextFillColor]="labelColor"
             >{{percent}}%</span>
             <ng-content></ng-content>
         </span>
@@ -41,6 +41,13 @@ export class PxbProgressIconComponent implements OnChanges {
             // Inverted class applies only to center-aligned label.
             this.inverted = this.labelPosition === 'center' && color(this.color).isDark();
         }
+    }
+
+    getStrokeColor(): string {
+        if (this.labelPosition === 'center' && this.labelColor && color) {
+            return color(this.labelColor).isDark() ? 'white' : 'black';
+        }
+        return '';
     }
 
     getFlexDirection(): string {
