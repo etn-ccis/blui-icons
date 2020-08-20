@@ -13,6 +13,7 @@ echo -e "${BLUE}Building components...${NC}"
 cd ./angular/components
 yarn && yarn build
 cd ../demos/showcase
+yarn
 
 echo -en "${BLUE}Creating new folder in node_modules...${NC}"
 if [ -f ./node_modules/@pxblue/ng-progress-icons/package.json ]; then rm -rf "./node_modules/@pxblue/ng-progress-icons"; fi
