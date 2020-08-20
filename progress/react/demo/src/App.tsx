@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Battery, Ups, Pie, Heart } from '@pxblue/react-progress-icons';
 
 type LabelPosition = undefined | 'top' | 'right' | 'bottom' | 'left';
