@@ -10,7 +10,7 @@
         "test:functions": "yarn test:functions-react && yarn test:functions-angular",
         "test:build": "bash scripts/progressBuildTest.sh",
         "build:react": "cd react && yarn && yarn build",
-        "build:angular": "cd angular/components && yarn && yarn buil",
+        "build:angular": "cd angular/components && yarn && yarn build",
         "build:all": "yarn build:react && yarn build:angular",
         "start:angular": "bash scripts/linkProgressAngular.sh && cd angular/demos/showcase && yarn start",
         "start:react": "bash scripts/linkProgressReact.sh && cd react && yarn start"
