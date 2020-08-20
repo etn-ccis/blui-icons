@@ -1,11 +1,12 @@
 import React from 'react';
 import {ProgressIconProps} from "./types";
-import {makeStyles, createStyles, Theme} from '@material-ui/core/styles';
+
+import {createUseStyles} from 'react-jss'
 import clsx from 'clsx';
 import color from 'color';
 
-const useStyles = makeStyles<Theme, ProgressIconProps>(() =>
-    createStyles({
+const useStyles =
+   createUseStyles({
         progressIcon: {
             position: 'relative',
             justifyContent: 'center',
@@ -15,27 +16,31 @@ const useStyles = makeStyles<Theme, ProgressIconProps>(() =>
             display: 'flex',
             textAlign: 'center',
             zIndex: 2,
-            fontSize: (props): number => props.labelSize || props.size/4,
-            WebkitTextStrokeWidth: (props): number => props.size/60,
-            color: (props): string => props.labelColor,
         },
         centered: {
-            width: (props): number => props.size,
-            height: (props): number => props.size,
-            lineHeight: (props): string => `${props.size}px`,
             fontWeight: 900,
             display: 'block',
             position: 'absolute',
-            '-webkitTextFillColor': (props): string => props.labelColor,
-            '-webkitTextStrokeColor': (props): string => color && color(props.labelColor).isDark() ? 'white' : 'black',
-            '-webkitTextStrokeWidth': (props): string => `${props.size / 60}px`
         }
-    })
-);
+    });
 
 export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
     const { showPercentLabel, labelPosition = 'center', children, percent } = props;
     const defaultClasses = useStyles(props);
+
+    const propsProgressIconLabelStyles = {
+        fontSize: props.labelSize || props.size/4,
+        color: props.labelColor,
+    };
+
+    const propsCenteredStyles = {
+        '-webkitTextFillColor': props.labelColor,
+        '-webkitTextStrokeColor': color && color(props.labelColor).isDark() ? 'white' : 'black',
+        '-webkitTextStrokeWidth': `${props.size / 60}px`,
+        width: props.size,
+        height: props.size,
+        lineHeight: `${props.size}px`,
+    };
 
     const getFlexDirection = (): any => {
         switch (labelPosition) {
@@ -52,13 +57,14 @@ export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
         }
     };
 
-    // @ts-ignore
     const isCentered = (): boolean => labelPosition === 'center';
 
     return (
         <span className={defaultClasses.progressIcon} style={{ display: isCentered() ? 'inline-block' : 'inline-flex', flexDirection: getFlexDirection()}}>
             {showPercentLabel &&
-                <span className={clsx(defaultClasses.progressIconLabel, isCentered() ? defaultClasses.centered : '')}>
+                <span
+                   style={Object.assign(propsProgressIconLabelStyles, isCentered() ? propsCenteredStyles : {})}
+                   className={clsx(defaultClasses.progressIconLabel, isCentered() ? defaultClasses.centered : '')}>
                     {percent}%
                 </span>
             }
