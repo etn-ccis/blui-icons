@@ -33,7 +33,7 @@ jobs:
             - node_modules
             - progress/react/node_modules
             - progress/angular/components/node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/package.json" }}-{{ checksum "./progress/react/package.json" }}
+          key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/components/package.json" }}-{{ checksum "./progress/react/package.json" }}
       - run:
           name: Build Packages
           command: yarn build
