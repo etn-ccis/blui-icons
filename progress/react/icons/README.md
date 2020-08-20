@@ -50,7 +50,7 @@ These props are available on all of the progress icons in this package.
 | color            | The color used for the icon fill    | `string`                           | no       | 'inherit' |
 | showPercentLabel | Option to show percentage overlay   | `boolean`                          | no       | false     |
 | labelColor       | Label text color                    | `string`                           | no       |           |
-| labelPosition    | Where to display the text label     | `top, bottom, center, right, left` | no       | `center`  |
+| labelPosition    | Where to display the text label     | `'top'` \| `'bottom'` \| `'center'` \| `'right'` \| `'left'` | no       | `center`  |
 | labelSize        | Size of the label in px             | `number`                           | no       | `size/4`  |
 
 </div>
