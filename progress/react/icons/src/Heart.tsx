@@ -1,7 +1,7 @@
 import React from 'react';
 import { rangeValue } from './utilities';
 import { HeartProgressProps } from './types';
-import {ProgressIcon} from "./ProgressIcon";
+import { ProgressIcon } from './ProgressIcon';
 
 const basePath =
     'M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z';
@@ -11,13 +11,31 @@ const outlinedPath =
 const getPath = (outlined: boolean): string => (outlined ? outlinedPath : basePath);
 
 export const Heart: React.FC<HeartProgressProps> = (props) => {
-    const { outlined = false, size = 24, percent = 100, color = 'inherit', labelSize, labelColor, showPercentLabel, labelPosition,  ...svgProps } = props;
+    const {
+        outlined = false,
+        size = 24,
+        percent = 100,
+        color = 'inherit',
+        labelSize,
+        labelColor,
+        showPercentLabel,
+        labelPosition,
+        ...svgProps
+    } = props;
 
     const startY = outlined ? 18.35 : 21.35;
     const fillHeight = outlined ? 13.35 : 18.35;
 
     return (
-        <ProgressIcon color={color} percent={percent} labelColor={labelColor} labelSize={labelSize} size={size} showPercentLabel={showPercentLabel} labelPosition={labelPosition} >
+        <ProgressIcon
+            color={color}
+            percent={percent}
+            labelColor={labelColor}
+            labelSize={labelSize}
+            size={size}
+            showPercentLabel={showPercentLabel}
+            labelPosition={labelPosition}
+        >
             <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...svgProps}>
                 <path
                     fill={color || 'currentColor'}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { rangeValue, defaultProps } from './utilities';
 import { BatteryProgressProps } from './types';
-import {ProgressIcon} from "./ProgressIcon";
+import { ProgressIcon } from './ProgressIcon';
 
 const basePath =
     'M20,10V8.3C20,7.6,19.4,7,18.7,7H3.3C2.6,7,2,7.6,2,8.3v7.3C2,16.4,2.6,17,3.3,17h15.3c0.7,0,1.3-0.6,1.3-1.3V14h2v-4H20z';
@@ -17,7 +17,18 @@ const getClipPath = (charging: boolean): string => (charging ? chargePath : base
 const getID = (charging: boolean): string => (charging ? chargeID : baseID);
 
 export const Battery: React.FC<BatteryProgressProps> = (props) => {
-    const { outlined = false, charging = false, size = 24, percent = 100, color = 'inherit', labelSize, labelColor, showPercentLabel, labelPosition,  ...svgProps } = props;
+    const {
+        outlined = false,
+        charging = false,
+        size = 24,
+        percent = 100,
+        color = 'inherit',
+        labelSize,
+        labelColor,
+        showPercentLabel,
+        labelPosition,
+        ...svgProps
+    } = props;
 
     const maskIDleft = `maskLeft-${percent}`;
     const maskIDright = `maskRight-${percent}`;
@@ -25,7 +36,15 @@ export const Battery: React.FC<BatteryProgressProps> = (props) => {
     const fillWidth = outlined ? 14.2 : 18;
 
     return (
-        <ProgressIcon color={color} percent={percent} labelColor={labelColor} labelSize={labelSize} size={size} showPercentLabel={showPercentLabel} labelPosition={labelPosition} >
+        <ProgressIcon
+            color={color}
+            percent={percent}
+            labelColor={labelColor}
+            labelSize={labelSize}
+            size={size}
+            showPercentLabel={showPercentLabel}
+            labelPosition={labelPosition}
+        >
             <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...svgProps}>
                 <defs>
                     {outlined && (
@@ -72,6 +91,5 @@ export const Battery: React.FC<BatteryProgressProps> = (props) => {
                 </g>
             </svg>
         </ProgressIcon>
-
     );
 };
