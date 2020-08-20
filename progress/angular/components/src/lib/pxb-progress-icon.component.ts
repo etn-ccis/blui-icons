@@ -12,7 +12,7 @@ import color from 'color';
                   [class.inverted]="inverted"
                   [class.center]="labelPosition === 'center'"
                   [style.color]="labelColor"
-                  [style.webkitTextStrokeWidth.px]="labelPosition === 'center' ? size / 60 : 0"
+                  [ngStyle]="{'-webkit-text-stroke-width.px': labelPosition === 'center' ? size / 60 : 0}"
                   [style.fontSize.px]="labelSize || size/4"
                   [style.height.px]="labelPosition === 'center' ? size : 'unset'"
                   [style.width.px]="labelPosition === 'center' ? size : 'unset'"

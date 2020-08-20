@@ -1,9 +1,21 @@
 {
-    "extends": "../tsconfig.json",
+    "extends": "./tsconfig.json",
     "compilerOptions": {
-        "outDir": "../../out-tsc/spec",
-        "types": ["jasmine", "node"]
+        "paths": {
+            "core-js/es7/reflect": [
+                "node_modules/core-js/proposals/reflect-metadata"
+            ]
+        },
+        "types": [
+            "jasmine",
+            "node"
+        ]
     },
-    "files": ["src/test.ts"],
-    "include": ["**/*.spec.ts", "**/*.d.ts"]
+    "files": [
+        "test.ts"
+    ],
+    "include": [
+        "src/**/*.spec.ts",
+        "src/**/*.d.ts"
+    ]
 }

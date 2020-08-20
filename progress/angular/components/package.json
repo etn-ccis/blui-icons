@@ -8,7 +8,7 @@
         "test": "ng test"
     },
     "devDependencies": {
-        "@angular-devkit/build-angular": "^0.1000.6",
+        "@angular-devkit/build-angular": "0.803.29",
         "color": "^3.1.2",
         "@angular-devkit/build-ng-packagr": "~0.801.2",
         "@angular/animations": "^8.1.2",
@@ -38,7 +38,8 @@
         "tsickle": "^0.35.0",
         "tslib": "^1.9.0",
         "tslint": "~5.18.0",
-        "typescript": "~3.4.0"
+        "typescript": "~3.4.0",
+        "zone.js": "~0.10.2"
     },
     "peerDependencies": {
         "@angular/common": ">=6.0.0",
