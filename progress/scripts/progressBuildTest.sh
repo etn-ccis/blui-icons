@@ -39,8 +39,9 @@ if [ ! -f ./CHANGELOG.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else 
 
 
 echo -n "Checking progress icons (Angular)... "
-cd ../angular
+cd ../angular/components
 yarn && yarn build
+cd ..
 if [ ! -d ./dist ]; then echo -e "${RED}Not Found${NC}" && exit 1; fi
 if [ ! -s ./dist ]; then echo -e "${RED}Directory Empty${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo "Checking for required files..."
