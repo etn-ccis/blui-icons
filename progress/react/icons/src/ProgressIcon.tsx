@@ -1,6 +1,5 @@
 import React from 'react';
 import { ProgressIconProps } from './types';
-
 import { createUseStyles } from 'react-jss';
 import clsx from 'clsx';
 import color from 'color';
@@ -24,8 +23,8 @@ const useStyles = createUseStyles({
 });
 
 export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
-    const { showPercentLabel, labelPosition = 'center', children, percent } = props;
-    const defaultClasses = useStyles(props);
+    const { showPercentLabel, labelPosition = 'center', children, percent, classes = {} } = props;
+    const defaultClasses = useStyles();
 
     const propsProgressIconLabelStyles = {
         fontSize: props.labelSize || props.size / 4,
@@ -66,7 +65,12 @@ export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
             {showPercentLabel && (
                 <span
                     style={Object.assign(propsProgressIconLabelStyles, isCentered() ? propsCenteredStyles : {})}
-                    className={clsx(defaultClasses.progressIconLabel, isCentered() ? defaultClasses.centered : '')}
+                    className={clsx(
+                        defaultClasses.progressIconLabel,
+                        classes.progressIconLabel,
+                        isCentered() ? defaultClasses.centered : '',
+                        isCentered() ? classes.centered : ''
+                    )}
                 >
                     {percent}%
                 </span>

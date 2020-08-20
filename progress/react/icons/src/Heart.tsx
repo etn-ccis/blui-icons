@@ -20,6 +20,7 @@ export const Heart: React.FC<HeartProgressProps> = (props) => {
         labelColor,
         showPercentLabel,
         labelPosition,
+        classes,
         ...svgProps
     } = props;
 
@@ -35,6 +36,7 @@ export const Heart: React.FC<HeartProgressProps> = (props) => {
             size={size}
             showPercentLabel={showPercentLabel}
             labelPosition={labelPosition}
+            classes={classes}
         >
             <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...svgProps}>
                 <path

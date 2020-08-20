@@ -9,6 +9,11 @@ export type ProgressIconProps = SVGAttributes<SVGElement> & {
     labelPosition?: 'top' | 'bottom' | 'left' | 'right';
     labelColor?: string;
     labelSize?: number;
+    classes?: {
+        progressIcon?: string;
+        progressIconLabel?: string;
+        centered?: string;
+    };
 };
 
 export type PieProgressProps = ProgressIconProps & {
