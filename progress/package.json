@@ -5,7 +5,7 @@
     "author": "PX Blue <pxblue@eaton.com>",
     "license": "BSD-3-Clause",
     "scripts": {
-        "test:functions-angular": "cd angular/components && yarn test",
+        "test:functions-angular": "cd angular/components && yarn test && cd ../demos/showcase && yarn test",
         "test:functions-react": "cd react && yarn test",
         "test:functions": "yarn test:functions-react && yarn test:functions-angular",
         "test:build": "bash scripts/progressBuildTest.sh",
