@@ -5,7 +5,8 @@
     "main": "bundles/pxblue-ng-progress-icons.umd.js",
     "scripts": {
         "build": "rm -rf ../dist && yarn && ng build && cp ../README.md ../dist",
-        "test": "ng test"
+        "test": "ng test",
+        "test:ci": "ng test --watch false"
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "0.803.29",

@@ -52,3 +52,10 @@ jobs:
           command: |
             cd progress
             yarn test:functions
+            cd ..
+      - run:
+          name: Test progress icon demos
+          command: |
+            cd progress
+            yarn test:demos
+            cd ..

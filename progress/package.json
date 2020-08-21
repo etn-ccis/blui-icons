@@ -5,8 +5,11 @@
     "author": "PX Blue <pxblue@eaton.com>",
     "license": "BSD-3-Clause",
     "scripts": {
-        "test:functions-angular": "cd angular/components && yarn test && cd ../demos/showcase && yarn test",
-        "test:functions-react": "cd react && yarn test",
+        "test:demo-angular": "cd angular/demos/showcase && yarn test:ci && cd ../../..",
+        "test:demo-react": "echo 'No React Demo Test Script Yet'",
+        "test:demos": "yarn test:demo-angular && yarn test:demo-react",
+        "test:functions-angular": "cd angular/components && yarn test:ci && cd ../..",
+        "test:functions-react": "cd react && yarn test && cd ..",
         "test:functions": "yarn test:functions-react && yarn test:functions-angular",
         "test:build": "bash scripts/progressBuildTest.sh",
         "build:react": "cd react && yarn && yarn build",
