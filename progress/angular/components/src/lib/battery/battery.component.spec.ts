@@ -1,14 +1,14 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BatteryComponent } from './battery.component';
-import {PxbProgressIconComponent} from '../pxb-progress-icon.component';
+import { PxbProgressIconComponent } from '../pxb-progress-icon.component';
 
 describe('BatteryComponent', () => {
     let component: BatteryComponent;
     let fixture: ComponentFixture<BatteryComponent>;
 
     beforeEach(async(() => {
-        TestBed.configureTestingModule({
+        void TestBed.configureTestingModule({
             declarations: [PxbProgressIconComponent, BatteryComponent],
         }).compileComponents();
     }));
@@ -20,6 +20,6 @@ describe('BatteryComponent', () => {
     });
 
     it('should create', () => {
-        expect(component).toBeTruthy();
+        void expect(component).toBeTruthy();
     });
 });

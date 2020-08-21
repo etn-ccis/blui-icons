@@ -7,8 +7,8 @@
         "build": "ng build",
         "test": "ng test",
         "test:ci": "ng test --watch false",
-        "lint": "eslint \"src/**/**.ts\"",
         "e2e": "ng e2e",
+        "lint": "eslint \"src/**/**.ts\"",
         "lint:fix": "eslint \"src/**/**.ts\" --fix",
         "prettier": "prettier \"src/**/**.{ts,js,json,css,scss,html}\" --write",
         "prettier:check": "prettier \"src/**/**.{ts,js,json,css,scss,html}\" --check"

@@ -1,14 +1,14 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { UpsComponent } from './ups.component';
-import {PxbProgressIconComponent} from '../pxb-progress-icon.component';
+import { PxbProgressIconComponent } from '../pxb-progress-icon.component';
 
 describe('UPSComponent', () => {
     let component: UpsComponent;
     let fixture: ComponentFixture<UpsComponent>;
 
     beforeEach(async(() => {
-        TestBed.configureTestingModule({
+        void TestBed.configureTestingModule({
             declarations: [PxbProgressIconComponent, UpsComponent],
         }).compileComponents();
     }));
@@ -20,6 +20,6 @@ describe('UPSComponent', () => {
     });
 
     it('should create', () => {
-        expect(component).toBeTruthy();
+        void expect(component).toBeTruthy();
     });
 });

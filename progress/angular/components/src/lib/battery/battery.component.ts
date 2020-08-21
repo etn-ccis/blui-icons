@@ -1,67 +1,74 @@
-import {Component, OnInit, OnChanges, Input} from '@angular/core';
-import {PxbProgressIconComponent} from "../pxb-progress-icon.component";
+import { Component, OnChanges, Input } from '@angular/core';
+import { PxbProgressIconComponent } from '../pxb-progress-icon.component';
 import { rangeValue } from '../utilities';
 
 @Component({
     selector: 'battery-progress',
     template: `
-        <pxb-progress-icon [size]="size" [labelPosition]="labelPosition" [percent]="percent" [showPercentLabel]="showPercentLabel"  [labelColor]="labelColor" [labelSize]="labelSize" [color]="color">
+        <pxb-progress-icon
+            [size]="size"
+            [labelPosition]="labelPosition"
+            [percent]="percent"
+            [showPercentLabel]="showPercentLabel"
+            [labelColor]="labelColor"
+            [labelSize]="labelSize"
+            [color]="color"
+        >
             <svg
-               [attr.height]="size + 'px'"
-               [attr.width]="size + 'px'"
-               x="0px"
-               y="0px"
-               viewBox="0 0 24 24"
-               style="enable-background:new 0 0 24 24;"
-               xml:space="preserve"
+                [attr.height]="size + 'px'"
+                [attr.width]="size + 'px'"
+                x="0px"
+                y="0px"
+                viewBox="0 0 24 24"
+                style="enable-background:new 0 0 24 24;"
+                xml:space="preserve"
             >
-            <defs>
-                <mask *ngIf="outlined" [attr.id]="maskIDleft">
-                    <rect width="100%" height="100%" fill="white"/>
-                    <polygon fill="black" points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13 "/>
-                </mask>
-                <mask *ngIf="outlined" [attr.id]="maskIDright">
-                    <rect width="100%" height="100%" fill="white"/>
-                    <rect
-                       [attr.x]="startX"
-                       y="7"
-                       fill="black"
-                       [attr.width]="(rv(percent, 0, 100) / 100) * fillWidth"
-                       height="10"
-                    />
-                </mask>
-                <clipPath [id]="getID()">
-                    <path overflow="visible" [attr.d]="getClipPath()"/>
-                </clipPath>
-            </defs>
+                <defs>
+                    <mask *ngIf="outlined" [attr.id]="maskIDleft">
+                        <rect width="100%" height="100%" fill="white" />
+                        <polygon fill="black" points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13 " />
+                    </mask>
+                    <mask *ngIf="outlined" [attr.id]="maskIDright">
+                        <rect width="100%" height="100%" fill="white" />
+                        <rect
+                            [attr.x]="startX"
+                            y="7"
+                            fill="black"
+                            [attr.width]="(rv(percent, 0, 100) / 100) * fillWidth"
+                            height="10"
+                        />
+                    </mask>
+                    <clipPath [id]="getID()">
+                        <path overflow="visible" [attr.d]="getClipPath()" />
+                    </clipPath>
+                </defs>
                 <path
-                   [attr.fill]="color || 'currentColor'"
-                   [attr.fill-opacity]="outlined || percent >= 100 ? '1' : '0.3'"
-                   [attr.clip-path]="'url(#' + getID() + ')'"
-                   [attr.d]="getBasePath()"
+                    [attr.fill]="color || 'currentColor'"
+                    [attr.fill-opacity]="outlined || percent >= 100 ? '1' : '0.3'"
+                    [attr.clip-path]="'url(#' + getID() + ')'"
+                    [attr.d]="getBasePath()"
                 />
 
                 <g [attr.fill]="color || 'currentColor'">
-                <rect
-                   [attr.fill]="color || 'currentColor'"
-                   [attr.x]="startX"
-                   y="7"
-                   [attr.clip-path]="'url(#' + getID() + ')'"
-                   [attr.width]="(rv(percent, 0, 100) / 100) * fillWidth"
-                   height="10"
-                   [attr.mask]="outlined && charging ? 'url(#' + maskIDleft + ')' : null"
-                />
+                    <rect
+                        [attr.fill]="color || 'currentColor'"
+                        [attr.x]="startX"
+                        y="7"
+                        [attr.clip-path]="'url(#' + getID() + ')'"
+                        [attr.width]="(rv(percent, 0, 100) / 100) * fillWidth"
+                        height="10"
+                        [attr.mask]="outlined && charging ? 'url(#' + maskIDleft + ')' : null"
+                    />
                     <polygon
-                       *ngIf="outlined && charging"
-                       points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13"
-                       [attr.mask]="'url(#' + maskIDright + ')'"
+                        *ngIf="outlined && charging"
+                        points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13"
+                        [attr.mask]="'url(#' + maskIDright + ')'"
                     />
                 </g>
             </svg>
         </pxb-progress-icon>
-        
     `,
-    styleUrls: ['../pxb-progress-icon.scss']
+    styleUrls: ['../pxb-progress-icon.scss'],
 })
 export class BatteryComponent extends PxbProgressIconComponent implements OnChanges {
     @Input() charging = false;
@@ -83,23 +90,23 @@ export class BatteryComponent extends PxbProgressIconComponent implements OnChan
     baseID = 'pxb-battery-clip';
     chargeID = 'pxb-battery-clip-charge';
 
-    ngOnChanges() {
-        this.maskIDleft = 'maskLeft-' + this.percent;
-        this.maskIDright = 'maskRight-' + this.percent;
+    ngOnChanges(): void {
+        this.maskIDleft = `maskLeft-${this.percent}`;
+        this.maskIDright = `maskRight-${this.percent}`;
 
         this.startX = this.outlined ? 3.9 : 2;
         this.fillWidth = this.outlined ? 14.2 : 18;
     }
 
-    getBasePath() {
+    getBasePath(): string {
         return this.outlined ? this.outlinedPath : this.basePath;
     }
 
-    getClipPath() {
+    getClipPath(): string {
         return this.charging ? this.chargePath : this.basePath;
     }
 
-    getID() {
+    getID(): string {
         return this.charging ? this.chargeID : this.baseID;
     }
 }

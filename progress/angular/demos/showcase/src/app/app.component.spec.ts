@@ -3,21 +3,16 @@ import { AppComponent } from './app.component';
 import { NgProgressIconsModule } from '@pxblue/ng-progress-icons';
 
 describe('AppComponent', () => {
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [
-        AppComponent
-      ],
-      imports: [
-        NgProgressIconsModule
-      ]
-    }).compileComponents();
-  }));
+    beforeEach(async(() => {
+        void TestBed.configureTestingModule({
+            declarations: [AppComponent],
+            imports: [NgProgressIconsModule],
+        }).compileComponents();
+    }));
 
-  it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app).toBeTruthy();
-  });
-
+    it('should create the app', () => {
+        const fixture = TestBed.createComponent(AppComponent);
+        const app = fixture.componentInstance;
+        void expect(app).toBeTruthy();
+    });
 });
