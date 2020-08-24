@@ -8,8 +8,8 @@ export const App = (): any => (
         {positions.map((alignment) => (
             <>
                 <div style={{ fontSize: 36 }}>{(alignment || 'Center').toUpperCase()}</div>
-                {[24, 34, 48, 72].map((size) => (
-                    <div key={`row-${size}`}>
+                {[24, 34, 48, 72].map((size, i) => (
+                    <div key={i}>
                         <div style={{ fontSize: 24 }}>{`${size}px`}</div>
                         <Battery
                             percent={10}
