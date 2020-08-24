@@ -5,7 +5,7 @@ GRAY='\033[1;30m'
 NC='\033[0m' # No Color
 
 echo -n "Checking progress icons (React)... "
-cd ./react/icons
+cd ./react
 yarn && yarn build
 if [ ! -d ./dist ]; then echo -e "${RED}Not Found${NC}" && exit 1; fi
 if [ ! -s ./dist ]; then echo -e "${RED}Directory Empty${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
@@ -39,25 +39,26 @@ if [ ! -f ./CHANGELOG.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else 
 
 
 echo -n "Checking progress icons (Angular)... "
-cd ../../angular
+cd ../angular/components
 yarn && yarn build
+cd ..
 if [ ! -d ./dist ]; then echo -e "${RED}Not Found${NC}" && exit 1; fi
 if [ ! -s ./dist ]; then echo -e "${RED}Directory Empty${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo "Checking for required files..."
 echo -ne "  battery: "
-if [ ! -s ./dist/ng-progress-icons/lib/battery ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+if [ ! -s ./dist/lib/battery ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  heart: "
-if [ ! -s ./dist/ng-progress-icons/lib/heart ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+if [ ! -s ./dist/lib/heart ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  pie: "
-if [ ! -s ./dist/ng-progress-icons/lib/pie ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+if [ ! -s ./dist/lib/pie ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  ups: "
-if [ ! -s ./dist/ng-progress-icons/lib/ups ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+if [ ! -s ./dist/lib/ups ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  module: "
-if [ ! -f ./dist/ng-progress-icons/lib/ng-progress-icons.module.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+if [ ! -f ./dist/lib/ng-progress-icons.module.d.ts ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  package.json: "
-if [ ! -f ./package.json ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+if [ ! -f ./dist/package.json ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 echo -ne "  readme: "
-if [ ! -f ./README.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
+if [ ! -f ./dist/README.md ]; then echo -e "${RED}Not Found${NC}" && exit 1; else echo -e "${GREEN}Found${NC}"; fi
 
 cd ..
 cd ..

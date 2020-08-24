@@ -1,48 +1,64 @@
 version: 2
 jobs:
-  build:
-    docker: 
-      - image: circleci/node:12.6-browsers
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/package.json" }}-{{ checksum "./progress/react/icons/package.json" }}
-          - v1-dependencies-
-      - run: 
-          name: Install Dependencies
-          command: |
-            yarn
-            cd progress/react/icons
-            yarn
-            cd ../../angular
-            yarn
-            cd ..
-      - save_cache:
-          paths:
-            - node_modules
-            - progress/react/icons/node_modules
-            - progress/angular/node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/package.json" }}-{{ checksum "./progress/react/icons/package.json" }}
-      - run:
-          name: Build Packages
-          command: yarn build
-      - run:
-          name: Verify SVG Build Artifacts
-          command: yarn test:svg
-      - run:
-          name: Verify Progress Icon Build Artifacts
-          command: |
-            cd progress/react/icons
-            yarn build
-            cd ../../angular
-            yarn build  
-            cd ../..
-            yarn test:progress
-      - run:
-          name: Test progress icon utility functions
-          command: |
-            cd progress/react/icons
-            yarn test
-            cd ../../angular
-            yarn test
+    build:
+        docker:
+            - image: circleci/node:12.6-browsers
+        steps:
+            - checkout
+            - restore_cache:
+                  keys:
+                      - v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/components/package.json" }}-{{ checksum "./progress/react/package.json" }}
+                      - v1-dependencies-
+            - run:
+                  name: Install Dependencies
+                  command: |
+                      yarn install
+                      cd progress/react
+                      yarn install
+                      cd ../angular/components
+                      yarn install
+                      cd ../demos/showcase && yarn install
+                      cd ../../..
+            - save_cache:
+                  paths:
+                      - node_modules
+                      - progress/react/node_modules
+                      - progress/angular/components/node_modules
+                  key: v1-dependencies-{{ checksum "package.json" }}-{{ checksum "./progress/angular/components/package.json" }}-{{ checksum "./progress/react/package.json" }}
+            - run:
+                  name: Prettier Check
+                  command: |
+                      cd progress
+                      yarn prettier:check
+                      cd ..
+            - run:
+                  name: Lint
+                  command: |
+                      cd progress
+                      yarn lint
+                      cd ..
+            - run:
+                  name: Build Packages
+                  command: yarn build
+            - run:
+                  name: Verify SVG Build Artifacts
+                  command: yarn test:svg
+            - run:
+                  name: Verify Progress Icon Build Artifacts
+                  command: |
+                      cd progress
+                      yarn build:all
+                      cd ..
+                      yarn test:progress
+            - run:
+                  name: Test progress icon utility functions
+                  command: |
+                      cd progress
+                      yarn test:functions
+                      cd ..
+            - run:
+                  name: Test progress icon demos
+                  command: |
+                      cd progress
+                      yarn test:demos
+                      cd ..
