@@ -32,9 +32,9 @@ export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
     };
 
     const propsCenteredStyles = {
-        '-webkitTextFillColor': props.labelColor,
-        '-webkitTextStrokeColor': color && color(props.labelColor).isDark() ? 'white' : 'black',
-        '-webkitTextStrokeWidth': `${props.size / 60}px`,
+        WebkitTextFillColor: props.labelColor,
+        WebkitTextStrokeColor: color && color(props.labelColor).isDark() ? 'white' : 'black',
+        WebkitTextStrokeWidth: `${props.size / 60}px`,
         width: props.size,
         height: props.size,
         lineHeight: `${props.size}px`,

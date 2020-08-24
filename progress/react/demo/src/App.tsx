@@ -9,7 +9,7 @@ export const App = (): any => (
             <>
                 <div style={{ fontSize: 36 }}>{(alignment || 'Center').toUpperCase()}</div>
                 {[24, 34, 48, 72].map((size) => (
-                    <>
+                    <div key={`row-${size}`}>
                         <div style={{ fontSize: 24 }}>{`${size}px`}</div>
                         <Battery
                             percent={10}
@@ -40,7 +40,7 @@ export const App = (): any => (
                             labelPosition={alignment}
                         />
                         <br />
-                    </>
+                    </div>
                 ))}
                 <br />
                 <br />
