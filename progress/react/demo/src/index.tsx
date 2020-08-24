@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { App } from './App';
 import * as serviceWorker from './serviceWorker';
+import { CssBaseline } from '@material-ui/core';
+require('typeface-open-sans');
 
 ReactDOM.render(
     <React.StrictMode>
+        <CssBaseline />
         <App />
     </React.StrictMode>,
     document.getElementById('root')
