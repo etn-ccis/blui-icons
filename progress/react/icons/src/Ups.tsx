@@ -70,15 +70,15 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
                             </clipPath>
                         </defs>
                         <path
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                             d="M22 4C22 2.89543 21.1046 2 20 2H4C2.89543 2 2 2.89543 2 4V20C2 21.1046 2.89543 22 4 22H20C21.1046 22 22 21.1046 22 20V4ZM4 4V8H7V9H4V12H7V13H4V16H7V17H4V20H20V17H17V16H20V13H17V12H20V9H17V8H20V4H4Z"
-                            clip-path={`url(#outlined-border-clip-${rangedPercent})`}
-                            clip-rule="evenodd"
+                            clipPath={`url(#outlined-border-clip-${rangedPercent})`}
+                            clipRule="evenodd"
                             fill={color}
                         />
                         <path
-                            fill-rule="evenodd"
-                            clip-rule="evenodd"
+                            fillRule="evenodd"
+                            clipRule="evenodd"
                             d="M4 2C2.89543 2 2 2.89543 2 4V20C2 21.1046 2.89543 22 4 22H20C21.1046 22 22 21.1046 22 20V4C22 2.89543 21.1046 2 20 2H4ZM20 4H4V20H20V4Z"
                             fill={color}
                         />
@@ -87,7 +87,7 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
                             y={startY}
                             width="16"
                             height={fillHeight}
-                            clip-path="url(#outlined-progress-clip)"
+                            clipPath="url(#outlined-progress-clip)"
                             fill={color}
                         />
                     </>

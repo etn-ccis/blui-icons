@@ -6,8 +6,8 @@
     "scripts": {
         "test": "jest",
         "build": "yarn && tsc",
-        "lint": "eslint \"src/**/**.{tsx,ts}\"",
-        "lint:fix": "eslint \"src/**/**.{tsx,ts}\" --fix",
+        "lint": "eslint \"src/**/**.tsx\"",
+        "lint:fix": "eslint \"src/**/**.tsx\" --fix",
         "prettier": "prettier \"src/**/**.{ts,tsx,js,jsx,json,css,scss,html}\" --write"
     },
     "prettier": "@pxblue/prettier-config",
