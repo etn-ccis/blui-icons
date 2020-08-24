@@ -5,6 +5,7 @@ body,
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: "Open Sans";
 }
 * {
     box-sizing: border-box;
