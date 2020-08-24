@@ -5,11 +5,11 @@ type LabelPosition = undefined | 'top' | 'right' | 'bottom' | 'left';
 const positions: LabelPosition[] = [undefined, 'left', 'top', 'right', 'bottom'];
 export const App = (): any => (
     <>
-        {positions.map((alignment) => (
-            <>
+        {positions.map((alignment, posIndex) => (
+            <div key={`position-${posIndex}`}>
                 <div style={{ fontSize: 36 }}>{(alignment || 'Center').toUpperCase()}</div>
-                {[24, 34, 48, 72].map((size, i) => (
-                    <div key={i}>
+                {[24, 34, 48, 72].map((size, fontSizeIndex) => (
+                    <div key={`${String(alignment)}-${fontSizeIndex}`}>
                         <div style={{ fontSize: 24 }}>{`${size}px`}</div>
                         <Battery
                             percent={10}
@@ -44,7 +44,7 @@ export const App = (): any => (
                 ))}
                 <br />
                 <br />
-            </>
+            </div>
         ))}
     </>
 );
