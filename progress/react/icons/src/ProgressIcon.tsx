@@ -68,8 +68,10 @@ export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
                     className={clsx(
                         defaultClasses.progressIconLabel,
                         classes.progressIconLabel,
-                        isCentered() ? defaultClasses.centered : '',
-                        isCentered() ? classes.centered : ''
+                       {
+                           [defaultClasses.centered]:  isCentered(),
+                           [classes.centered]: isCentered()
+                       },
                     )}
                 >
                     {percent}%
