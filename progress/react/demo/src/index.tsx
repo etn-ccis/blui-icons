@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { App } from './App';
 import * as serviceWorker from './serviceWorker';
-import { CssBaseline } from '@material-ui/core';
+import {createMuiTheme, CssBaseline, ThemeProvider} from '@material-ui/core';
+import * as PXBThemes from '@pxblue/react-themes';
 require('typeface-open-sans');
 
 ReactDOM.render(
-    <React.StrictMode>
+    <ThemeProvider
+        theme={createMuiTheme(PXBThemes.blue)}>
         <CssBaseline />
         <App />
-    </React.StrictMode>,
+    </ThemeProvider>,
     document.getElementById('root')
 );
 
