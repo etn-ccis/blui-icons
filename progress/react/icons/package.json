@@ -8,7 +8,8 @@
         "build": "yarn && tsc",
         "lint": "eslint \"src/**/**.tsx\"",
         "lint:fix": "eslint \"src/**/**.tsx\" --fix",
-        "prettier": "prettier \"src/**/**.{ts,tsx,js,jsx,json,css,scss,html}\" --write"
+        "prettier": "prettier \"src/**/**.{ts,tsx,js,jsx,json,css,scss,html}\" --write",
+        "prettier:check": "prettier \"src/**/**.{ts,tsx,js,jsx,json,css,scss,html}\" --check"
     },
     "prettier": "@pxblue/prettier-config",
     "dependencies": {
