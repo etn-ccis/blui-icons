@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import { App } from './App';
 import * as serviceWorker from './serviceWorker';
-import {createMuiTheme, CssBaseline, ThemeProvider} from '@material-ui/core';
+import { createMuiTheme, CssBaseline, ThemeProvider } from '@material-ui/core';
 import * as PXBThemes from '@pxblue/react-themes';
 require('typeface-open-sans');
 
 ReactDOM.render(
-    <ThemeProvider
-        theme={createMuiTheme(PXBThemes.blue)}>
+    <ThemeProvider theme={createMuiTheme(PXBThemes.blue)}>
         <CssBaseline />
         <App />
     </ThemeProvider>,
