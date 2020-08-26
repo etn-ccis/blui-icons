@@ -24,7 +24,7 @@ const useStyles = createUseStyles({
 });
 
 export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
-    const { showPercentLabel, labelPosition = 'center', children, percent, classes = {}, labelProps = {} } = props;
+    const { showPercentLabel, labelPosition = 'center', children, percent, classes = {} } = props;
     const defaultClasses = useStyles();
 
     const propsProgressIconLabelStyles = {
@@ -65,7 +65,6 @@ export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
         >
             {showPercentLabel && (
                 <span
-                    {...labelProps}
                     style={Object.assign(propsProgressIconLabelStyles, isCentered() ? propsCenteredStyles : {})}
                     className={clsx(defaultClasses.progressIconLabel, classes.progressIconLabel, {
                         [defaultClasses.centered]: isCentered(),

@@ -1,4 +1,4 @@
-import { DetailedHTMLProps, HTMLAttributes, SVGAttributes } from 'react';
+import { SVGAttributes } from 'react';
 
 export type ProgressIconProps = SVGAttributes<SVGElement> & {
     percent?: number;
@@ -14,7 +14,6 @@ export type ProgressIconProps = SVGAttributes<SVGElement> & {
         progressIconLabel?: string;
         centered?: string;
     };
-    labelProps?: DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
 };
 
 export type PieProgressProps = ProgressIconProps & {
