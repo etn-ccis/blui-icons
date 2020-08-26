@@ -16,6 +16,7 @@ export const Pie: React.FC<PieProgressProps> = (props) => {
         showPercentLabel,
         labelPosition,
         classes,
+        labelProps,
         ...svgProps
     } = props;
 
@@ -84,6 +85,7 @@ Z
             size={size}
             showPercentLabel={showPercentLabel}
             labelPosition={labelPosition}
+            labelProps={labelProps}
             classes={classes}
         >
             <svg

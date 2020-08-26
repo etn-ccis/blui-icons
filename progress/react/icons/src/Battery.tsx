@@ -27,6 +27,7 @@ export const Battery: React.FC<BatteryProgressProps> = (props) => {
         labelColor,
         showPercentLabel,
         labelPosition,
+        labelProps,
         classes,
         ...svgProps
     } = props;
@@ -45,6 +46,7 @@ export const Battery: React.FC<BatteryProgressProps> = (props) => {
             size={size}
             showPercentLabel={showPercentLabel}
             labelPosition={labelPosition}
+            labelProps={labelProps}
             classes={classes}
         >
             <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...svgProps}>

@@ -13,6 +13,7 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
         labelColor,
         showPercentLabel,
         labelPosition,
+        labelProps,
         classes,
         ...svgProps
     } = props;
@@ -30,6 +31,7 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
             size={size}
             showPercentLabel={showPercentLabel}
             labelPosition={labelPosition}
+            labelProps={labelProps}
             classes={classes}
         >
             <svg height={`${size}px`} width={`${size}px`} x={0} y={0} viewBox="0 0 24 24" {...svgProps}>
