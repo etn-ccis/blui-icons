@@ -14,7 +14,7 @@ const useStyles = createUseStyles({
         display: 'flex',
         textAlign: 'center',
         zIndex: 2,
-        color: '#424e54'
+        color: '#424e54',
     },
     centered: {
         fontWeight: 900,
@@ -64,7 +64,8 @@ export const ProgressIcon: React.FC<ProgressIconProps> = (props) => {
             style={{ display: isCentered() ? 'inline-block' : 'inline-flex', flexDirection: getFlexDirection() }}
         >
             {showPercentLabel && (
-                <span {...labelProps}
+                <span
+                    {...labelProps}
                     style={Object.assign(propsProgressIconLabelStyles, isCentered() ? propsCenteredStyles : {})}
                     className={clsx(defaultClasses.progressIconLabel, classes.progressIconLabel, {
                         [defaultClasses.centered]: isCentered(),
