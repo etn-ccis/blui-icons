@@ -12,11 +12,11 @@
         display: unset;
         font-weight: 900;
         position: absolute;
-        -webkit-text-fill-color: black;
+        -webkit-text-fill-color: #424e54;
         -webkit-text-stroke-color: white;
     }
     &.inverted {
         -webkit-text-fill-color: white;
-        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-color: #424e54;
     }
 }
