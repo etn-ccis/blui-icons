@@ -2812,6 +2812,98 @@
 			],
 			"author": "Eaton",
 			"size": 24
-		}
+        }
+        ,
+        {
+            "name": "Power Plug",
+            "filename": "power_plug.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy",
+                "power"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Dimmer",
+            "filename": "dimer.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Light Switch",
+            "filename": "light_switch.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Outlet,
+            "filename": "outlet.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy",
+                "power"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Lightbulb,
+            "filename": "lightbulb.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Ceiling Fan",
+            "filename": "ceiling_fan.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
 	]
 }
