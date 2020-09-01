@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?43687c3190afbded19f49907e8d6d148?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?43687c3190afbded19f49907e8d6d148") format("woff2"),
-url("./PXBlueIcons.woff?43687c3190afbded19f49907e8d6d148") format("woff"),
-url("./PXBlueIcons.ttf?43687c3190afbded19f49907e8d6d148") format("truetype"),
-url("./PXBlueIcons.svg?43687c3190afbded19f49907e8d6d148#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?8e60135b5b7d3665d1e537b9a982cc8e?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?8e60135b5b7d3665d1e537b9a982cc8e") format("woff2"),
+url("./PXBlueIcons.woff?8e60135b5b7d3665d1e537b9a982cc8e") format("woff"),
+url("./PXBlueIcons.ttf?8e60135b5b7d3665d1e537b9a982cc8e") format("truetype"),
+url("./PXBlueIcons.svg?8e60135b5b7d3665d1e537b9a982cc8e#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -75,7 +75,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-carrot:before {
     content: "\f113";
 }
-.pxb-ceiling_fan:before {
+.pxb-ceiling_light:before {
     content: "\f114";
 }
 .pxb-chili_pepper:before {
@@ -222,10 +222,10 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-leaf:before {
     content: "\f144";
 }
-.pxb-light_switch:before {
+.pxb-light_bulb:before {
     content: "\f145";
 }
-.pxb-lightbulb:before {
+.pxb-light_switch:before {
     content: "\f146";
 }
 .pxb-maintenance:before {
