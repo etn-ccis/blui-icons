@@ -2877,8 +2877,8 @@
         }
         ,
         {
-            "name": "Lightbulb,
-            "filename": "lightbulb.svg",
+            "name": "Light Bulb,
+            "filename": "light_bulb.svg",
             "family": [
                 "Lighting"
             ],
