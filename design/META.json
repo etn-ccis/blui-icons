@@ -2861,7 +2861,7 @@
         }
         ,
         {
-            "name": "Outlet,
+            "name": "Outlet",
             "filename": "outlet.svg",
             "family": [
                 "Lighting"
@@ -2877,7 +2877,7 @@
         }
         ,
         {
-            "name": "Light Bulb,
+            "name": "Light Bulb",
             "filename": "light_bulb.svg",
             "family": [
                 "Lighting"
