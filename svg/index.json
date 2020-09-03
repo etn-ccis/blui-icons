@@ -2832,7 +2832,7 @@
         ,
         {
             "name": "Dimmer",
-            "filename": "dimer.svg",
+            "filename": "dimmer.svg",
             "family": [
                 "Lighting"
             ],
