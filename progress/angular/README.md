@@ -41,7 +41,7 @@ imports: [
 <battery-progress percent="80" size="36" color="green" [charging]="true" [outlined]="true"></battery-progress>
 <heart-progress percent="99" size="36" color="pink" [outlined]="true"></heart-progress>
 <pie-progress percent="30" size="36" color="#0000ff" ring="4" [outlined]="true"></pie-progress>
-<ups-progress percent="10" size="36" color="#0000ff" [outlined]="true" backgroundColor="white"></ups-progress>
+<ups-progress percent="10" size="36" color="#0000ff" [outlined]="true"></ups-progress>
 ```
 
 ## API
