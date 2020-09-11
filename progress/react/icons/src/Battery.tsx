@@ -18,6 +18,7 @@ const getID = (charging: boolean): string => (charging ? chargeID : baseID);
 
 export const Battery: React.FC<BatteryProgressProps> = (props) => {
     const {
+        backgroundColor,
         outlined = false,
         charging = false,
         size = 24,
@@ -71,9 +72,10 @@ export const Battery: React.FC<BatteryProgressProps> = (props) => {
                         <path overflow="visible" d={getClipPath(charging)} />
                     </clipPath>
                 </defs>
+                {backgroundColor && <path d={basePath} fill={backgroundColor} clipPath={`url(#${getID(charging)})`} />}
                 <path
-                    fill={color || 'currentColor'}
-                    fillOpacity={outlined || percent >= 100 ? '1' : 0.3}
+                    fill={(!outlined && backgroundColor) || color || 'currentColor'}
+                    fillOpacity={outlined || percent >= 100 || (!outlined && backgroundColor) ? 1 : 0.3}
                     clipPath={`url(#${getID(charging)})`}
                     d={getBasepath(outlined)}
                 />

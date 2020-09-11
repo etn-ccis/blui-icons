@@ -13,7 +13,7 @@ package-lock.json
 /build
 /tmp
 /progress/angular/dist
-/progress/react/dist
+/progress/react/icons/dist
 
 # misc
 .DS_Store
