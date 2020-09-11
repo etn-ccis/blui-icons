@@ -5,6 +5,7 @@ import { ProgressIcon } from './ProgressIcon';
 
 export const Pie: React.FC<PieProgressProps> = (props) => {
     const {
+        backgroundColor,
         outlined = false,
         ring = 10,
         style = {},
@@ -98,10 +99,13 @@ Z
                 <clipPath id={`pxb-donut-clip-${stroke}`}>
                     <path d={clipPath} />
                 </clipPath>
+                {outlined && backgroundColor && (
+                    <path d={twoToneBase} clipPath={`url(#pxb-donut-clip-${stroke})`} fill={backgroundColor} />
+                )}
                 <path
                     clipPath={`url(#pxb-donut-clip-${stroke})`}
-                    fill={color || 'currentColor'}
-                    fillOpacity={outlined || percent >= 100 ? '1' : '0.3'}
+                    fill={(!outlined && backgroundColor) || color || 'currentColor'}
+                    fillOpacity={outlined || percent >= 100 || (!outlined && backgroundColor) ? 1 : 0.3}
                     d={outlined ? outlineBase : twoToneBase}
                 />
                 {rangeValue(percent, 0, 100) > 0 && rangeValue(percent, 0, 100) < 100 && (

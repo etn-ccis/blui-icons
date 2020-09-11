@@ -3,8 +3,12 @@ import { rangeValue } from './utilities';
 import { UpsProgressProps } from './types';
 import { ProgressIcon } from './ProgressIcon';
 
+const basePath =
+    'M2 4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V6H19V8H22V11H19V13H22V16H19V18H22V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V18H5V16H2V13H5V11H2V8H5V6H2V4Z';
+
 export const Ups: React.FC<UpsProgressProps> = (props) => {
     const {
+        backgroundColor,
         outlined = false,
         size = 24,
         percent = 100,
@@ -36,12 +40,12 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
                 {!outlined && (
                     <>
                         <path
-                            opacity={0.3}
-                            d="M2 4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V6H19V8H22V11H19V13H22V16H19V18H22V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V18H5V16H2V13H5V11H2V8H5V6H2V4Z"
-                            fill={color}
+                            opacity={backgroundColor ? 1 : 0.3}
+                            d={basePath}
+                            fill={backgroundColor || color || 'currentColor'}
                         />
                         <mask
-                            id="mask0"
+                            id="mask-filled"
                             mask-type="alpha"
                             maskUnits="userSpaceOnUse"
                             x={2}
@@ -49,12 +53,9 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
                             width={20}
                             height={20}
                         >
-                            <path
-                                d="M2 4C2 2.89543 2.89543 2 4 2H20C21.1046 2 22 2.89543 22 4V6H19V8H22V11H19V13H22V16H19V18H22V20C22 21.1046 21.1046 22 20 22H4C2.89543 22 2 21.1046 2 20V18H5V16H2V13H5V11H2V8H5V6H2V4Z"
-                                fill={color}
-                            />
+                            <path d={basePath} fill={color || 'currentColor'} />
                         </mask>
-                        <g mask="url(#mask0)">
+                        <g mask="url(#mask-filled)">
                             <rect x={2} y={startY} width={20} height={fillHeight} fill={color} />
                         </g>
                     </>
@@ -69,6 +70,7 @@ export const Ups: React.FC<UpsProgressProps> = (props) => {
                                 <rect x="2" y="2" width="20" height={startY - 2} />
                             </clipPath>
                         </defs>
+                        {backgroundColor && <rect x={4} y={4} width={16} height={16} fill={backgroundColor} />}
                         <path
                             fillRule="evenodd"
                             d="M22 4C22 2.89543 21.1046 2 20 2H4C2.89543 2 2 2.89543 2 4V20C2 21.1046 2.89543 22 4 22H20C21.1046 22 22 21.1046 22 20V4ZM4 4V8H7V9H4V12H7V13H4V16H7V17H4V20H20V17H17V16H20V13H17V12H20V9H17V8H20V4H4Z"
