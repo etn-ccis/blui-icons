@@ -51,28 +51,34 @@ export const Battery: React.FC<BatteryProgressProps> = (props) => {
             <svg height={`${size}px`} width={`${size}px`} x="0px" y="0px" viewBox="0 0 24 24" {...svgProps}>
                 <defs>
                     {outlined && (
-                        <mask id={maskIDleft}>
-                            <rect width="100%" height="100%" fill="white" />
-                            <polygon fill="black" points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13 " />
-                        </mask>
-                    )}
-                    {outlined && (
-                        <mask id={maskIDright}>
-                            <rect width="100%" height="100%" fill="white" />
-                            <rect
-                                x={startX}
-                                y="7"
-                                fill="black"
-                                width={`${Math.min((rangeValue(percent, 0, 100) * fillWidth) / 100, fillWidth)}`}
-                                height="10"
-                            />
-                        </mask>
+                        <>
+                            <mask id={maskIDleft}>
+                                <rect width="100%" height="100%" fill="white" />
+                                <polygon fill="black" points="11.5,13 11.5,15 4,11 9.5,11 9.5,9 17,13 " />
+                            </mask>
+                            <mask id={maskIDright}>
+                                <rect width="100%" height="100%" fill="white" />
+                                <rect
+                                    x={startX}
+                                    y="7"
+                                    fill="black"
+                                    width={`${Math.min((rangeValue(percent, 0, 100) * fillWidth) / 100, fillWidth)}`}
+                                    height="10"
+                                />
+                            </mask>
+                        </>
                     )}
                     <clipPath id={getID(charging || defaultProps.charging)}>
                         <path overflow="visible" d={getClipPath(charging)} />
                     </clipPath>
                 </defs>
-                {backgroundColor && <path d={basePath} fill={backgroundColor} clipPath={`url(#${getID(charging)})`} />}
+                {backgroundColor && (
+                    <path
+                        d={basePath}
+                        fill={backgroundColor}
+                        clipPath={outlined ? undefined : `url(#${getID(charging)})`}
+                    />
+                )}
                 <path
                     fill={(!outlined && backgroundColor) || color || 'currentColor'}
                     fillOpacity={outlined || percent >= 100 || (!outlined && backgroundColor) ? 1 : 0.3}
