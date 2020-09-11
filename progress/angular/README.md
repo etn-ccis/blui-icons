@@ -41,7 +41,7 @@ imports: [
 <battery-progress percent="80" size="36" color="green" [charging]="true" [outlined]="true"></battery-progress>
 <heart-progress percent="99" size="36" color="pink" [outlined]="true"></heart-progress>
 <pie-progress percent="30" size="36" color="#0000ff" ring="4" [outlined]="true"></pie-progress>
-<ups-progress percent="10" size="36" color="#0000ff" [outlined]="true"></ups-progress>
+<ups-progress percent="10" size="36" color="#0000ff" [outlined]="true" backgroundColor="white"></ups-progress>
 ```
 
 ## API
@@ -52,16 +52,17 @@ These props are available on all of the progress icons in this package.
 
 <div style="overflow: auto;">
 
-| @Input           | Description                         | Type                                  | Required | Default        |
-| ---------------- | ----------------------------------- | ------------------------------------- | -------- | -------------- |
-| percent          | The amount to fill the icon (0-100) | `number`                              | no       | 100            |
-| size             | The size of the icon (in px)        | `number`                              | no       | 24             |
-| outlined         | Whether to use the outlined style   | `boolean`                             | no       | false          |
-| color            | The color used for the icon fill    | `string`                              | no       | 'currentColor' |
-| showPercentLabel | Option to show percentage overlay   | `boolean`                             | no       | false          |
-| labelColor       | Label text color                    | `string`                              | no       |                |
-| labelPosition    | Where to display the text label     | `top, bottom, center, right, left`    | no       | `center`       |
-| labelSize        | Size of the label in px             | `number`                              | no       | `size/4`       |
+| @Input           | Description                            | Type                               | Required | Default        |
+| ---------------- | -------------------------------------- | ---------------------------------- | -------- | -------------- |
+| percent          | The amount to fill the icon (0-100)    | `number`                           | no       | 100            |
+| size             | The size of the icon (in px)           | `number`                           | no       | 24             |
+| outlined         | Whether to use the outlined style      | `boolean`                          | no       | false          |
+| color            | The color used for the icon fill       | `string`                           | no       | 'currentColor' |
+| showPercentLabel | Option to show percentage overlay      | `boolean`                          | no       | false          |
+| labelColor       | Label text color                       | `string`                           | no       |                |
+| labelPosition    | Where to display the text label        | `top, bottom, center, right, left` | no       | `center`       |
+| labelSize        | Size of the label in px                | `number`                           | no       | `size/4`       |
+| backgroundColor  | Background color for the unfilled area | `string`                           | no       |                |
 
 </div>
 
@@ -71,17 +72,17 @@ Any other props supplied will be provided to the root element (`svg`).
 
 The battery supports all of the shared attributes above and the following additional attribute:
 
-| @Input    | Description                            | Type      | Required | Default |
-| --------- | -------------------------------------- | --------- | -------- | ------- |
-| charging  | Whether to show the charging indicator | `boolean` | no       | false   |
+| @Input   | Description                            | Type      | Required | Default |
+| -------- | -------------------------------------- | --------- | -------- | ------- |
+| charging | Whether to show the charging indicator | `boolean` | no       | false   |
 
 ### Pie Attributes
 
 The pie supports all of the shared attributes above and the following additional attribute:
 
-| @Input    | Description                                                        | Type     | Required | Default |
-| --------- | ------------------------------------------------------------------ | -------- | -------- | ------- |
-| ring      | The thickness of the outer ring (1 = thin ring, 10 = full circle ) | `number` | no       | 10      |
+| @Input | Description                                                        | Type     | Required | Default |
+| ------ | ------------------------------------------------------------------ | -------- | -------- | ------- |
+| ring   | The thickness of the outer ring (1 = thin ring, 10 = full circle ) | `number` | no       | 10      |
 
 ## Building & Packaging
 
