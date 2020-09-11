@@ -23,9 +23,10 @@ import { PxbProgressIconComponent } from '../pxb-progress-icon.component';
                 style="enable-background:new 0 0 24 24;"
                 xml:space="preserve"
             >
+                <path *ngIf="outlined && backgroundColor" [attr.d]="basePath" [attr.fill]="backgroundColor" />
                 <path
-                    [attr.fill]="color || 'currentColor'"
-                    [attr.fill-opacity]="outlined || percent >= 100 ? '1' : '0.3'"
+                    [attr.fill]="(!outlined && backgroundColor) || color || 'currentColor'"
+                    [attr.fill-opacity]="outlined || percent >= 100 || (!outlined && backgroundColor) ? '1' : '0.3'"
                     [attr.d]="getPath()"
                 />
                 <clipPath id="pxb-heart-clip">

@@ -26,9 +26,15 @@ import { PxbProgressIconComponent } from '../pxb-progress-icon.component';
                     <path [attr.d]="clipPath" />
                 </clipPath>
                 <path
+                    *ngIf="outlined && backgroundColor"
+                    [attr.d]="twoToneBase"
                     [attr.clip-path]="'url(#pxb-donut-clip-' + stroke + ')'"
-                    [attr.fill]="color || 'currentColor'"
-                    [attr.fill-opacity]="outlined || percent >= 100 ? '1' : '0.3'"
+                    [attr.fill]="backgroundColor"
+                />
+                <path
+                    [attr.clip-path]="'url(#pxb-donut-clip-' + stroke + ')'"
+                    [attr.fill]="(!outlined && backgroundColor) || color || 'currentColor'"
+                    [attr.fill-opacity]="outlined || percent >= 100 || (!outlined && backgroundColor) ? '1' : '0.3'"
                     [attr.d]="outlined ? outlineBase : twoToneBase"
                 />
                 <path

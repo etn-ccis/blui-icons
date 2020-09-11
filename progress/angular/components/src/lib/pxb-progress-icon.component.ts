@@ -37,6 +37,7 @@ export class PxbProgressIconComponent implements OnChanges {
     @Input() color: string;
     @Input() labelColor: string;
     @Input() labelSize: number;
+    @Input() backgroundColor: string;
 
     inverted: boolean;
 
