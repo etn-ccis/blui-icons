@@ -2,7 +2,7 @@
   <title>pie_chart_70</title>
   <g>
     <path d="M12,4a8,8,0,1,1-8,8,8,8,0,0,1,8-8m0-2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/>
-    <rect width="24" height="24" transform="translate(24 24) rotate(-180)" fill="none"/>
+    
     <path d="M12,12V2a10,10,0,0,0,0,20,9.85,9.85,0,0,0,9.51-6.91Z"/>
   </g>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
   <title>pxred</title>
   <path d="M12,23A11,11,0,1,1,23,12,11,11,0,0,1,12,23ZM12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"/>
-  <rect width="24" height="24" fill="none"/>
+  
   <path d="M13,14H11V13H6v3a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V13H13Zm4-6H15V6a1,1,0,0,0-1-1H10A1,1,0,0,0,9,6V8H7A1,1,0,0,0,6,9v3h5V11h2v1h5V9A1,1,0,0,0,17,8ZM14,8H10V7h4Z"/>
 </svg>

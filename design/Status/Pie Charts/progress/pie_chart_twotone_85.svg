@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
   <title>px_pie_chart_twotone_85_24px</title>
   <g>
-    <rect width="24" height="24" transform="translate(24 24) rotate(-180)" fill="none"/>
+    
     <g opacity="0.5">
       <path d="M12,12l8.09-5.88A9.71,9.71,0,0,0,12,2Z" transform="translate(0 0)"/>
     </g>

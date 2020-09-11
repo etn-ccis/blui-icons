@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
   <title>microsoft_onenote</title>
   <path d="M2,4.8,14,3.08V5h7a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1H20v8H14v2L2,19.21V4.8m9,12V8.25L9,8.5v4.25l-2-4L5,9v7l1.5.25v-5.5L9,16.5l2,.25M14,14h4V13H14v1m0-3h4V10H14v1m0-3h4V7H14V8m0,8v1h4V16Z"/>
-  <rect width="24" height="24" fill="none"/>
+  
 </svg>

@@ -2,10 +2,10 @@
   <title>pie_chart_25</title>
   <g>
     <g>
-      <rect width="24" height="24" fill="none"/>
+      
       <path d="M12,4a8,8,0,1,1-8,8,8,8,0,0,1,8-8m0-2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/>
     </g>
     <path d="M12,12H2A10,10,0,0,1,12,2h0Z"/>
-    <rect width="24" height="24" fill="none"/>
+    
   </g>
 </svg>
