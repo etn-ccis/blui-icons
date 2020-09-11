@@ -42,7 +42,7 @@ import { rangeValue } from '../utilities';
                         <path overflow="visible" [attr.d]="getClipPath()" />
                     </clipPath>
                 </defs>
-                <path *ngIf="outlined && backgroundColor" [attr.d]="basePath" [attr.fill]="backgroundColor" />
+                <path *ngIf="backgroundColor" [attr.d]="basePath" [attr.fill]="backgroundColor" />
                 <path
                     [attr.fill]="(!outlined && backgroundColor) || color || 'currentColor'"
                     [attr.fill-opacity]="outlined || percent >= 100 || (!outlined && backgroundColor) ? '1' : '0.3'"

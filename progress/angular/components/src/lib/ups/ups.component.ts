@@ -38,7 +38,7 @@ import { PxbProgressIconComponent } from '../pxb-progress-icon.component';
                 </mask>
                 <g mask="url(#mask-filled)" *ngIf="!outlined">
                     <path
-                        opacity="backgroundColor ? 1: 0.3"
+                        [attr.opacity]="backgroundColor ? 1 : 0.3"
                         [attr.d]="basePath"
                         [attr.fill]="backgroundColor || color || 'currentColor'"
                     />
