@@ -25,7 +25,8 @@ async function main() {
                 .replace(
                     /<rect width="24" height="24" transform="translate\(24 24\) rotate\(-180\)" fill="none"\/>/g,
                     ''
-                );
+                )
+                .replace(/<path d="M24,0V24H0V0Z" fill="none"\/>/g, '');
             fs.writeFileSync(doc, sanitizedData, { encoding: 'utf-8', flag: 'w' });
         }
     }
