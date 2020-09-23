@@ -2815,22 +2815,6 @@
         }
         ,
         {
-            "name": "Power Plug",
-            "filename": "power_plug.svg",
-            "family": [
-                "Lighting"
-            ],
-            "style": "baseline",
-            "tags": [
-                "light",
-                "energy",
-                "power"
-            ],
-            "author": "Eric Atha",
-            "size": 24
-        }
-        ,
-        {
             "name": "Dimmer",
             "filename": "dimmer.svg",
             "family": [
@@ -2903,6 +2887,52 @@
                 "energy"
             ],
             "author": "Eric Atha",
+            "size": 24
+        },
+        {
+            "name": "Account Settings",
+            "filename": "account_settings.svg",
+            "family": [
+                "General"
+            ],
+            "style": "baseline",
+            "tags": [
+                "account",
+				"settings",
+				"person"
+            ],
+            "author": "Material Community",
+            "size": 24
+        },
+        {
+            "name": "Internet",
+            "filename": "internet.svg",
+            "family": [
+				"general"
+            ],
+            "style": "baseline",
+            "tags": [
+                "general",
+				"network",
+				"net"
+            ],
+            "author": "Material Community",
+            "size": 24
+        },
+        {
+            "name": "Lock Reset",
+            "filename": "lock_reset.svg",
+            "family": [
+                "General"
+            ],
+            "style": "baseline",
+            "tags": [
+                "lock",
+				"reset",
+				"password",
+				"secure"
+            ],
+            "author": "Material Community",
             "size": 24
         }
 	]
