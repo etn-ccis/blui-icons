@@ -1,41 +1,49 @@
 {
-  "name": "@pxblue/icons",
-  "version": "1.0.22",
-  "description": "Px Blue icons",
-  "main": "./iconfont/index.css",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pxblue/icons.git"
-  },
-  "author": "PX Blue <pxblue@eaton.com>",
-  "license": "BSD-3-Clause",
-  "dependencies": {},
-  "scripts": {
-    "test:functions": "cd progress/react && yarn test && cd ../angular && yarn test && cd ../..",
-    "test:svg": "./svgBuildTest.sh",
-    "test:progress": "./progressBuildTest.sh",
-    "test:all": "yarn install && yarn install --dev && yarn test:svg && yarn test:progress",
-    "index": "cp design/META.json svg/index.json",
-    "move": "mkdir -p tmp && mv svg/README.md tmp/README.md && mv svg/package.json tmp/package.json",
-    "move-back": "mv tmp/README.md svg/README.md && mv tmp/package.json svg/package.json && rm -rf tmp",
-    "copy": "yarn move && rm -r svg && mkdir svg && copyfiles -f -e \"design/old/*.svg\" -e \"design/Internal/*.svg\" -e \"design/WIP/*.svg\" -e \"design/Products/**/*.svg\" \"design/Products/*.svg\" design/**/*.svg design/**/**/*.svg svg && yarn move-back",
-    "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons' && create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
-    "build": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb && yarn sprites && yarn index",
-    "build:progress": "cd progress/react && yarn && yarn build && cd ../angular && yarn && yarn build",
-    "build:all": "yarn && yarn build && yarn build:progress"
-  },
-  "bugs": {
-    "url": "https://github.com/pxblue/icons/issues"
-  },
-  "homepage": "https://github.com/pxblue/icons#readme",
-  "devDependencies": {
-    "copyfiles": "^2.1.0",
-    "create-svg-sprite": "~1.0.4",
-    "icon-font-generator": "^2.1.8"
-  },
-  "keywords": [
-    "icons",
-    "material",
-    "pxblue"
-  ]
+    "name": "@pxblue/icons",
+    "version": "1.0.27",
+    "description": "Px Blue icons",
+    "main": "./iconfont/index.css",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pxblue/icons.git"
+    },
+    "author": "PX Blue <pxblue@eaton.com>",
+    "license": "BSD-3-Clause",
+    "dependencies": {},
+    "scripts": {
+        "test:functions": "cd progress && yarn test:functions && cd ..",
+        "test:demos": "cd progress && yarn test:demos && cd ..",
+        "test:svg": "./scripts/svgBuildTest.sh",
+        "test:progress": "cd progress && yarn test:build",
+        "test:all": "yarn install && yarn install --dev && yarn test:svg && yarn test:progress && yarn test:functions && yarn test:demos",
+        "index": "cp design/META.json svg/index.json",
+        "move": "mkdir -p tmp && mv svg/README.md tmp/README.md && mv svg/package.json tmp/package.json",
+        "move-back": "mv tmp/README.md svg/README.md && mv tmp/package.json svg/package.json && rm -rf tmp",
+        "copy": "yarn move && rm -r svg && mkdir svg && copyfiles -f -e \"design/old/*.svg\" -e \"design/Internal/*.svg\" -e \"design/WIP/*.svg\" -e \"design/Products/**/*.svg\" \"design/Products/*.svg\" design/**/*.svg design/**/**/*.svg svg && yarn move-back",
+        "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons' && create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
+        "build": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb && yarn sprites && yarn index",
+        "build:progress": "cd progress && yarn build:all",
+        "build:all": "yarn && yarn build && yarn build:progress"
+    },
+    "files": [
+        "iconfont",
+        "LICENSE",
+        "package.json",
+        "README.md",
+        "CHANGELOG.md"
+    ],
+    "bugs": {
+        "url": "https://github.com/pxblue/icons/issues"
+    },
+    "homepage": "https://github.com/pxblue/icons#readme",
+    "devDependencies": {
+        "copyfiles": "^2.1.0",
+        "create-svg-sprite": "~1.0.4",
+        "icon-font-generator": "^2.1.8"
+    },
+    "keywords": [
+        "icons",
+        "material",
+        "pxblue"
+    ]
 }

@@ -1583,6 +1583,24 @@
 			"size": 24
 		},
 		{
+			"name": "Flask",
+			"filename": "flask.svg",
+			"family": [
+				"Industrial"
+			],
+			"style": "baseline",
+			"tags": [
+				"flask",
+				"formula",
+				"science",
+				"glass",
+				"container"
+			],
+			"description": "This icon can be used to represent a flask, science, formula",
+			"author": "Austin Andrews - materialdesignicons.com",
+			"size": 24
+		},
+		{
 			"name": "Fuel",
 			"filename": "fuel.svg",
 			"family": [
@@ -2574,8 +2592,8 @@
 			"size": 24
 		},
 		{
-			"name": "Road Variant",
-			"filename": "road_variant.svg",
+			"name": "Road Alt",
+			"filename": "road_alt.svg",
 			"family": [
 				"transportation"
 			],
@@ -2630,7 +2648,262 @@
 			],
 			"author": "Unknown",
 			"size": 24
+		},
+		{
+			"name": "Departments",
+			"filename": "departments.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"hexagon",
+				"hexagons"
+			],
+			"author": "Austin Andrews",
+			"size": 24
+		},
+		{
+			"name": "Department",
+			"filename": "department.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"hexagon"
+			],
+			"author": "Austin Andrews",
+			"size": 24
+		},
+		{
+			"name": "Piggy Bank",
+			"filename": "piggy_bank.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"save",
+				"savings",
+				"money",
+				"coin"
+			],
+			"author": "Alex Efremo",
+			"size": 24
+		},
+		{
+			"name": "Map Marker Multiple",
+			"filename": "map_marker_multiple.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"pins",
+				"places",
+				"locations"
+			],
+			"author": "Austin Andrews",
+			"size": 24
+		},
+		{
+			"name": "Map Marker Three",
+			"filename": "map_marker_three.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"pins",
+				"places",
+				"locations"
+			],
+			"author": "Eric Atha",
+			"size": 24
+		},
+		{
+			"name": "Factory",
+			"filename": "factory.svg",
+			"family": [
+				"industrial"
+			],
+			"style": "baseline",
+			"tags": [
+				"plant",
+				"place",
+				"location"
+			],
+			"author": "Austin Andrews",
+			"size": 24
+		},
+		{
+			"name": "Building",
+			"filename": "building.svg",
+			"family": [
+				"industrial"
+			],
+			"style": "baseline",
+			"tags": [
+				"pins",
+				"places",
+				"locations",
+				"office"
+			],
+			"author": "GreenTurtwig",
+			"size": 24
 		}
-		
+		,
+		{
+			"name": "Offline Bolt Outline",
+			"filename": "outline_offline_bolt.svg",
+			"family": [
+				"status"
+			],
+			"style": "outlined",
+			"tags": [
+				"energy",
+				"consumption"
+			],
+			"author": "Google",
+			"size": 24
+		}
+		,
+		{
+			"name": "Eaton Logo",
+			"filename": "eaton.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "baseline",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+		}
+		,
+		{
+			"name": "Eaton Logo with Tagline",
+			"filename": "eaton_tagline.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "baseline",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+		}
+		,
+		{
+			"name": "Eaton Logo Two Tone",
+			"filename": "eaton_two_tone.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "two-tone",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+        }
+        ,
+        {
+            "name": "Power Plug",
+            "filename": "power_plug.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy",
+                "power"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Dimmer",
+            "filename": "dimmer.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Light Switch",
+            "filename": "light_switch.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Outlet",
+            "filename": "outlet.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy",
+                "power"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Light Bulb",
+            "filename": "light_bulb.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Ceiling Light",
+            "filename": "ceiling_light.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
 	]
 }

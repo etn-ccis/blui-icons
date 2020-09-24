@@ -2658,8 +2658,8 @@
 			"size": 24
 		},
 		{
-			"name": "Road Variant",
-			"filename": "road_variant.svg",
+			"name": "Road Alt",
+			"filename": "road_alt.svg",
 			"family": [
 				"transportation"
 			],
@@ -2744,7 +2744,7 @@
 		},
 		{
 			"name": "Piggy Bank",
-			"filename": "piggy-bank.svg",
+			"filename": "piggy_bank.svg",
 			"family": [
 				"status"
 			],
@@ -2760,7 +2760,7 @@
 		},
 		{
 			"name": "Map Marker Multiple",
-			"filename": "map-marker-multiple.svg",
+			"filename": "map_marker_multiple.svg",
 			"family": [
 				"status"
 			],
@@ -2775,7 +2775,7 @@
 		},
 		{
 			"name": "Map Marker Three",
-			"filename": "map-marker-three.svg",
+			"filename": "map_marker_three.svg",
 			"family": [
 				"status"
 			],
@@ -2822,7 +2822,7 @@
 		,
 		{
 			"name": "Offline Bolt Outline",
-			"filename": "outline-offline_bolt.svg",
+			"filename": "outline_offline_bolt.svg",
 			"family": [
 				"status"
 			],
@@ -3322,9 +3322,143 @@
 			"author": "Eric Atha",
 			"size": 24
 		},
-
-
-
 		
+		{
+			"name": "Eaton Logo",
+			"filename": "eaton.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "baseline",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+		}
+		,
+		{
+			"name": "Eaton Logo with Tagline",
+			"filename": "eaton_tagline.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "baseline",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+		}
+		,
+		{
+			"name": "Eaton Logo Two Tone",
+			"filename": "eaton_two_tone.svg",
+			"family": [
+				"Platforms"
+			],
+			"style": "two-tone",
+			"tags": [
+				"eaton",
+				"logo"
+			],
+			"author": "Eaton",
+			"size": 24
+        }
+        ,
+        {
+            "name": "Power Plug",
+            "filename": "power_plug.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy",
+                "power"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Dimmer",
+            "filename": "dimmer.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Light Switch",
+            "filename": "light_switch.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Outlet",
+            "filename": "outlet.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy",
+                "power"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Light Bulb",
+            "filename": "light_bulb.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+        ,
+        {
+            "name": "Ceiling Light",
+            "filename": "ceiling_light.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        }
+
 	]
 }
