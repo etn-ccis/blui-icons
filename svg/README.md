@@ -59,7 +59,7 @@ export class AppComponent {
   ) {
     this.matIconRegistry.addSvgIcon(
       "breaker",
-      this.domSanitizer.bypassSecurityTrustResourceUrl(icon)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(icon.default)
     );
   }
 }
@@ -78,7 +78,7 @@ export class AppComponent {
     private matIconRegistry: MatIconRegistry,
     private domSanitizer: DomSanitizer
   ) {
-    this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(iconSet));
+    this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(iconSet.default));
   }
 }
 ```
