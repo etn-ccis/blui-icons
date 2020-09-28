@@ -43,8 +43,8 @@ import { MatIconRegistry } from "@angular/material/icon";
 import { DomSanitizer } from "@angular/platform-browser";
 
 declare var require: any;
-const icon = require("@pxblue/icons-svg/breaker.svg"); // individual icon
-const iconSet = require("@pxblue/icons-svg/icons.svg"); // full set
+const icon = require("@pxblue/icons-svg/breaker.svg").default; // individual icon
+const iconSet = require("@pxblue/icons-svg/icons.svg").default; // full set
 ```
 
 Then, in your constructor, register the icon or the icon set. It will then be available for use as a ```<mat-icon>```.
@@ -59,7 +59,7 @@ export class AppComponent {
   ) {
     this.matIconRegistry.addSvgIcon(
       "breaker",
-      this.domSanitizer.bypassSecurityTrustResourceUrl(icon.default)
+      this.domSanitizer.bypassSecurityTrustResourceUrl(icon)
     );
   }
 }
@@ -78,7 +78,7 @@ export class AppComponent {
     private matIconRegistry: MatIconRegistry,
     private domSanitizer: DomSanitizer
   ) {
-    this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(iconSet.default));
+    this.matIconRegistry.addSvgIconSetInNamespace('px-icons', this.domSanitizer.bypassSecurityTrustResourceUrl(iconSet));
   }
 }
 ```
