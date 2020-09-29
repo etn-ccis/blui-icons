@@ -13,7 +13,7 @@
 				"equipment"
 			],
 			"description": "Used to represent a generic device.",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -49,7 +49,7 @@
 				"battery"
 			],
 			"description": "Battery icon, displayed horizontally",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -69,7 +69,7 @@
 				"machine"
 			],
 			"description": "Used to represent a generic device.",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -94,7 +94,7 @@
 				"panel"
 			],
 			"description": "Used to represent a low voltage circuit breaker.",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -138,7 +138,7 @@
 				"capacity"
 			],
 			"description": "Used to represent a large capacitor as used in UPS, HVAC, etc.",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -160,7 +160,7 @@
 				"load"
 			],
 			"description": "Used to represent a generic device.",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -180,7 +180,7 @@
 				"symbol"
 			],
 			"description": "Used to represent a generic device.",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -206,7 +206,7 @@
 				"lumadapt"
 			],
 			"description": "A light fixture designed after the Ephesus Game On/Lumadapt products.",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -232,7 +232,7 @@
 				"lumadapt"
 			],
 			"description": "Ephesus Gateway device.",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -278,7 +278,7 @@
 				"industrial",
 				"power"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -299,7 +299,7 @@
 				"power",
 				"off"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -374,7 +374,7 @@
 				"power strip",
 				"cabinet"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -395,7 +395,7 @@
 				"liquid",
 				"mechanical"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -419,7 +419,7 @@
 				"computer",
 				"server"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -465,7 +465,7 @@
 				"starter",
 				"motor"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"description": "A Solid State Overload Relay",
 			"size": 24
 		},
@@ -485,7 +485,7 @@
 				"circuit",
 				"interrupt"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"description": "Represents an electrical switch",
 			"size": 24
 		},
@@ -509,7 +509,7 @@
 				"electricity",
 				"grid"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"description": "Represents an electrical switch",
 			"size": 24
 		},
@@ -532,7 +532,7 @@
 				"motor",
 				"dg1"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"description": "A Variable Frequency Drive",
 			"size": 24
 		},
@@ -553,7 +553,7 @@
 				"backup",
 				"solar"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"description": "Represents the ESB product xStorage",
 			"size": 24
 		},
@@ -595,7 +595,7 @@
 				"input"
 			],
 			"description": "Represents a UPS bypassing battery status",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -616,7 +616,7 @@
 				"flow",
 				"ciruit"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -639,7 +639,7 @@
 				"flow",
 				"ciruit"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -664,7 +664,7 @@
 				"flow",
 				"ciruit"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -683,7 +683,7 @@
 				"gallons",
 				"pipe"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -761,7 +761,7 @@
 				"health",
 				"healthy"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -782,7 +782,7 @@
 				"health",
 				"healthy"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -802,7 +802,7 @@
 				"circle",
 				"health"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -824,7 +824,7 @@
 				"bad",
 				"unhealthy"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -846,7 +846,7 @@
 				"bad",
 				"unhealthy"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -866,7 +866,7 @@
 				"medical",
 				"care"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -882,7 +882,7 @@
 				"occurence"
 			],
 			"description": "This icon represents and incident, or group of Alarms",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -899,7 +899,7 @@
 				"active"
 			],
 			"description": "This icon represents and incident, or group of Alarms that are currently Active",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -918,7 +918,7 @@
 				"occurence"
 			],
 			"description": "This icon represents and incident, or group of Alarms that are resolved or inactive",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -942,7 +942,7 @@
 				"event"
 			],
 			"description": "Used to represent maintainance mode or service event",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -966,7 +966,7 @@
 				"humidity"
 			],
 			"description": "Represents environmental values such as temperature and humidity",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -986,7 +986,7 @@
 				"wet",
 				"damp"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1006,7 +1006,7 @@
 				"harmonics"
 			],
 			"description": "",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1028,7 +1028,7 @@
 				"ciruit"
 			],
 			"description": "",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1051,7 +1051,7 @@
 				"ciruit"
 			],
 			"description": "",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1068,7 +1068,7 @@
 				"critical"
 			],
 			"description": "Used to denote (Binary) Priority",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1086,7 +1086,7 @@
 				"badge"
 			],
 			"description": "Represents a device Push Notification",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1105,7 +1105,7 @@
 				"outlined"
 			],
 			"description": "Represents a device Push Notification",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1165,7 +1165,7 @@
 				"speed"
 			],
 			"description": "Represents a motor running on high setting",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1187,7 +1187,7 @@
 				"speed"
 			],
 			"description": "Represents a motor running on low setting",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1207,7 +1207,7 @@
 				"ready"
 			],
 			"description": "Stop Sign, can be used to represent a device stopped state or action",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1228,7 +1228,7 @@
 				"starter"
 			],
 			"description": "Represents a motor stopping or decelerating",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1271,7 +1271,7 @@
 				"cold"
 			],
 			"description": "Represents a temperature",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1355,7 +1355,7 @@
 				"change"
 			],
 			"description": "Represents an increase over time",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1378,7 +1378,7 @@
 				"change"
 			],
 			"description": "Represents a decrease over time",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1399,7 +1399,7 @@
 				"no change"
 			],
 			"description": "Represents no change over time",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1418,7 +1418,7 @@
 				"opened"
 			],
 			"description": "An open or tripped switch or breaker",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1437,7 +1437,7 @@
 				"supply"
 			],
 			"description": "Represents Eaton's variable module management system for UPS devices",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1457,7 +1457,7 @@
 				"ciruit"
 			],
 			"description": "",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1479,7 +1479,7 @@
 				"ciruit"
 			],
 			"description": "",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1502,7 +1502,7 @@
 				"ciruit"
 			],
 			"description": "",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1521,7 +1521,7 @@
 				"sensor",
 				"wet"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1541,7 +1541,7 @@
 				"sensor",
 				"wet"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1561,7 +1561,7 @@
 				"oscilloscope",
 				"amplitude"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1631,7 +1631,7 @@
 				"gas"
 			],
 			"description": "This icon can be used to represent a tank of gas, industrial gasses",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1653,7 +1653,7 @@
 				"orchard",
 				"forest"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1677,7 +1677,7 @@
 				"environment",
 				"green"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"status": "possible redraw",
 			"size": 24
 		},
@@ -1701,7 +1701,7 @@
 				"feed",
 				"food"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -1818,7 +1818,7 @@
 				"feed",
 				"food"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2179,7 +2179,7 @@
 				"logo"
 			],
 			"description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2252,7 +2252,7 @@
 				"logo"
 			],
 			"description": "Studio Blue logo icon graphic",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2275,7 +2275,7 @@
 				"logo"
 			],
 			"description": "Studio Blue logo icon graphic",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2300,7 +2300,7 @@
 				"linux"
 			],
 			"description": "Power Xpert Red icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2325,7 +2325,7 @@
 				"embedded"
 			],
 			"description": "Power Xpert Green icon graphic, (somewhat) redesigned on the Material Design Icon spec",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2350,7 +2350,7 @@
 				"iot"
 			],
 			"description": "Power Xpert White icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2376,7 +2376,7 @@
 				"technology"
 			],
 			"description": "Cybersecurity icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2402,7 +2402,7 @@
 				"technology"
 			],
 			"description": "Cybersecurity icon graphic, redesigned on the Material Design Icon spec, includes two-tone traces in the background at 50% opacity",
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2719,7 +2719,7 @@
 				"places",
 				"locations"
 			],
-			"author": "Eric Atha",
+			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
 		{
@@ -2815,22 +2815,6 @@
         }
         ,
         {
-            "name": "Power Plug",
-            "filename": "power_plug.svg",
-            "family": [
-                "Lighting"
-            ],
-            "style": "baseline",
-            "tags": [
-                "light",
-                "energy",
-                "power"
-            ],
-            "author": "Eric Atha",
-            "size": 24
-        }
-        ,
-        {
             "name": "Dimmer",
             "filename": "dimmer.svg",
             "family": [
@@ -2841,7 +2825,7 @@
                 "light",
                 "energy"
             ],
-            "author": "Eric Atha",
+            "author": "Huayun Huang (PX Blue)",
             "size": 24
         }
         ,
@@ -2856,7 +2840,7 @@
                 "light",
                 "energy"
             ],
-            "author": "Eric Atha",
+            "author": "Google",
             "size": 24
         }
         ,
@@ -2872,7 +2856,7 @@
                 "energy",
                 "power"
             ],
-            "author": "Eric Atha",
+            "author": "GreenTurtwig",
             "size": 24
         }
         ,
@@ -2887,7 +2871,7 @@
                 "light",
                 "energy"
             ],
-            "author": "Eric Atha",
+            "author": "Google",
             "size": 24
         }
         ,
@@ -2902,7 +2886,53 @@
                 "light",
                 "energy"
             ],
-            "author": "Eric Atha",
+            "author": "GreenTurtwig",
+            "size": 24
+        },
+        {
+            "name": "Account Settings",
+            "filename": "account_settings.svg",
+            "family": [
+                "General"
+            ],
+            "style": "baseline",
+            "tags": [
+                "account",
+				"settings",
+				"person"
+            ],
+            "author": "Michael Irigoyen",
+            "size": 24
+        },
+        {
+            "name": "Internet",
+            "filename": "internet.svg",
+            "family": [
+				"general"
+            ],
+            "style": "baseline",
+            "tags": [
+                "general",
+				"network",
+				"net"
+            ],
+            "author": "Simran",
+            "size": 24
+        },
+        {
+            "name": "Lock Reset",
+            "filename": "lock_reset.svg",
+            "family": [
+                "General"
+            ],
+            "style": "baseline",
+            "tags": [
+                "lock",
+				"reset",
+				"password",
+				"secure"
+            ],
+            "author": "Google",
             "size": 24
         }
 	]

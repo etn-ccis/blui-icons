@@ -3,7 +3,7 @@
 ## v1.0.27 (to be published)
 
 -   Added new icons for three Eaton logo variants
--   Added new icons for Power Plug, Dimmer, Light Switch, Outlet, Light Bulb, and Ceiling Light.
+-   Added new icons for Dimmer, Light Switch, Outlet, Light Bulb, Ceiling Light, Account Settings, Lock Reset, and Internet.
 
 ## v1.0.26
 

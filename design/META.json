@@ -3289,7 +3289,7 @@
                 "light",
                 "energy"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Huayun Huang (PX Blue)",
             "size": 24
         }
         ,
@@ -3304,7 +3304,7 @@
                 "light",
                 "energy"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Google",
             "size": 24
         }
         ,
@@ -3320,7 +3320,7 @@
                 "energy",
                 "power"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "GreenTurtwig",
             "size": 24
         }
         ,
@@ -3335,7 +3335,7 @@
                 "light",
                 "energy"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Google",
             "size": 24
         }
         ,
@@ -3350,7 +3350,53 @@
                 "light",
                 "energy"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "GreenTurtwig",
+            "size": 24
+        },
+        {
+            "name": "Account Settings",
+            "filename": "account_settings.svg",
+            "family": [
+                "General"
+            ],
+            "style": "baseline",
+            "tags": [
+                "account",
+				"settings",
+				"person"
+            ],
+            "author": "Michael Irigoyen",
+            "size": 24
+        },
+        {
+            "name": "Internet",
+            "filename": "internet.svg",
+            "family": [
+				"general"
+            ],
+            "style": "baseline",
+            "tags": [
+                "general",
+				"network",
+				"net"
+            ],
+            "author": "Simran",
+            "size": 24
+        },
+        {
+            "name": "Lock Reset",
+            "filename": "lock_reset.svg",
+            "family": [
+                "General"
+            ],
+            "style": "baseline",
+            "tags": [
+                "lock",
+				"reset",
+				"password",
+				"secure"
+            ],
+            "author": "Google",
             "size": 24
         }
 
