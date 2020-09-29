@@ -3061,23 +3061,6 @@
 		},
 
 		{	
-			"name": "mask",
-			"filename": "mask_outlined.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "outlined",
-			"tags": [
-				"ppe",
-				"face",
-				"covering",
-				"medical"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-
-		{	
 			"name": "iPPE Vibrate",
 			"filename": "ippe_vibrate.svg",
 			"family": [
