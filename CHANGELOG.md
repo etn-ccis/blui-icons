@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.1
+
+### Fixed
+-   Missing icon metadata in the index file
+
 ## v1.1.0
 
 ### Added

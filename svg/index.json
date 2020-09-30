@@ -2989,6 +2989,24 @@
 		},
 
 		{	
+			"name": "Power Apparent AC",
+			"filename": "power_apparent_ac.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"power",
+				"apparent",
+				"ac",
+				"volt-amps"
+			],
+			"description": "Used to represent AC power in volt-amps",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
 			"name": "Line to Line",
 			"filename": "line_to_line.svg",
 			"family": [
