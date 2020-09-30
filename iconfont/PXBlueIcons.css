@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?6acc38d43e4f1bab397db57ec77b56e7?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?6acc38d43e4f1bab397db57ec77b56e7") format("woff2"),
-url("./PXBlueIcons.woff?6acc38d43e4f1bab397db57ec77b56e7") format("woff"),
-url("./PXBlueIcons.ttf?6acc38d43e4f1bab397db57ec77b56e7") format("truetype"),
-url("./PXBlueIcons.svg?6acc38d43e4f1bab397db57ec77b56e7#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?d50689cf733ad9c22d0a8a4a965f7337?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?d50689cf733ad9c22d0a8a4a965f7337") format("woff2"),
+url("./PXBlueIcons.woff?d50689cf733ad9c22d0a8a4a965f7337") format("woff"),
+url("./PXBlueIcons.ttf?d50689cf733ad9c22d0a8a4a965f7337") format("truetype"),
+url("./PXBlueIcons.svg?d50689cf733ad9c22d0a8a4a965f7337#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -105,19 +105,19 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-corn:before {
     content: "\f11d";
 }
-.pxb-current-ac:before {
+.pxb-current:before {
     content: "\f11e";
 }
-.pxb-current-dc:before {
+.pxb-current_ac:before {
     content: "\f11f";
 }
-.pxb-current:before {
+.pxb-current_circled:before {
     content: "\f120";
 }
-.pxb-current_circled:before {
+.pxb-current_circled_outline:before {
     content: "\f121";
 }
-.pxb-current_circled_outline:before {
+.pxb-current_dc:before {
     content: "\f122";
 }
 .pxb-cybersecurity:before {
@@ -333,19 +333,19 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-potato:before {
     content: "\f169";
 }
-.pxb-power-dc:before {
+.pxb-power_ac:before {
     content: "\f16a";
 }
-.pxb-power_ac:before {
+.pxb-power_apparent_ac:before {
     content: "\f16b";
 }
-.pxb-power_apparent_ac:before {
+.pxb-power_circled:before {
     content: "\f16c";
 }
-.pxb-power_circled:before {
+.pxb-power_circled_outline:before {
     content: "\f16d";
 }
-.pxb-power_circled_outline:before {
+.pxb-power_dc:before {
     content: "\f16e";
 }
 .pxb-priority:before {
@@ -510,19 +510,19 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-vmms:before {
     content: "\f1a4";
 }
-.pxb-voltage-ac:before {
+.pxb-voltage:before {
     content: "\f1a5";
 }
-.pxb-voltage-dc:before {
+.pxb-voltage_ac:before {
     content: "\f1a6";
 }
-.pxb-voltage:before {
+.pxb-voltage_circled:before {
     content: "\f1a7";
 }
-.pxb-voltage_circled:before {
+.pxb-voltage_circled_outline:before {
     content: "\f1a8";
 }
-.pxb-voltage_circled_outline:before {
+.pxb-voltage_dc:before {
     content: "\f1a9";
 }
 .pxb-water:before {

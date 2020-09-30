@@ -2990,7 +2990,7 @@
 
 		{	
 			"name": "Line to Line",
-			"filename": "line-to-line.svg",
+			"filename": "line_to_line.svg",
 			"family": [
 				"status"
 			],
@@ -3007,7 +3007,7 @@
 
 		{	
 			"name": "Line to Neutral",
-			"filename": "line-to-neutral.svg",
+			"filename": "line_to_neutral.svg",
 			"family": [
 				"status"
 			],
@@ -3260,22 +3260,6 @@
 			],
 			"author": "Eaton",
 			"size": 24
-        }
-        ,
-        {
-            "name": "Power Plug",
-            "filename": "power_plug.svg",
-            "family": [
-                "Lighting"
-            ],
-            "style": "baseline",
-            "tags": [
-                "light",
-                "energy",
-                "power"
-            ],
-            "author": "Eric Atha (PX Blue)",
-            "size": 24
         }
         ,
         {
