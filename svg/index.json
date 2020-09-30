@@ -142,6 +142,28 @@
 			"size": 24
 		},
 		{
+			"name": "Capacitor Symbol",
+			"filename": "capacitor_symbol.svg",
+			"family": [
+				"Devices"
+			],
+			"style": "baseline",
+			"tags": [
+				"device",
+				"product",
+				"equipment",
+				"component",
+				"symbol",
+				"electrical",
+				"industrial",
+				"power",
+				"capacity"
+			],
+			"description": "Used to represent a large capacitor as a symbol",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+		{
 			"name": "Computer",
 			"filename": "computer.svg",
 			"family": [
@@ -180,6 +202,26 @@
 				"symbol"
 			],
 			"description": "Used to represent a generic device.",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+		{
+			"name": "Diode",
+			"filename": "diode.svg",
+			"family": [
+				"Devices"
+			],
+			"style": "baseline",
+			"tags": [
+				"device",
+				"equipment",
+				"component",
+				"electrical",
+				"oneline",
+				"one-line",
+				"symbol"
+			],
+			"description": "Used to represent a diode.",
 			"author": "Eric Atha (PX Blue)",
 			"size": 24
 		},
@@ -487,6 +529,44 @@
 			],
 			"author": "Eric Atha (PX Blue)",
 			"description": "Represents an electrical switch",
+			"size": 24
+		},
+		{
+			"name": "Switchgear",
+			"filename": "switchgear.svg",
+			"family": [
+				"Devices"
+			],
+			"style": "outlined",
+			"tags": [
+				"device",
+				"product",
+				"equipment",
+				"electrical",
+				"switchgear",
+				"assembly"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"description": "Represents switchgear lineup",
+			"size": 24
+		},
+		{
+			"name": "Transformer",
+			"filename": "transformer.svg",
+			"family": [
+				"Devices"
+			],
+			"style": "baseline",
+			"tags": [
+				"device",
+				"product",
+				"equipment",
+				"electrical",
+				"symbol",
+				"circuit"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"description": "Represents a transfomer symbol",
 			"size": 24
 		},
 		{
@@ -2564,20 +2644,6 @@
 			"size": 24
 		},
 		{
-			"name": "Glasses",
-			"filename": "glasses.svg",
-			"family": [
-				"PPE"
-			],
-			"style": "baseline",
-			"tags": [
-				"glasses",
-				"ppe"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
 			"name": "Road",
 			"filename": "road.svg",
 			"family": [
@@ -2767,8 +2833,390 @@
 			],
 			"author": "Google",
 			"size": 24
-		}
-		,
+		},
+
+		{	
+			"name": "AMI Gateway",
+			"filename": "ami_gateway.svg",
+			"family": [
+				"device"
+			],
+			"style": "baseline",
+			"tags": [
+				"ami",
+				"gateway",
+				"cellular",
+				"control xpert"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Voltage AC",
+			"filename": "voltage_ac.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"voltage",
+				"volts",
+				"ac"
+			],
+			"description": "Used to represent AC voltage in volts",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Voltage DC",
+			"filename": "voltage_dc.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"voltage",
+				"volts",
+				"dc"
+			],
+			"description": "Used to represent DC voltage in volts",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Current AC",
+			"filename": "current_ac.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"current",
+				"amps",
+				"ac"
+			],
+			"description": "Used to represent AC current in amps",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Current DC",
+			"filename": "current_dc.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"current",
+				"amps",
+				"dc"
+			],
+			"description": "Used to represent DC current in amps",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "AC",
+			"filename": "ac.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"ac",
+				"current",
+				"alternating current"
+			],
+			"description": "Used to represent Alternating Current (AC)",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "DC",
+			"filename": "dc.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"dc",
+				"current",
+				"direct current"
+			],
+			"description": "Used to represent Direct Current (DC)",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Power AC",
+			"filename": "power_ac.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"power",
+				"ac",
+				"watts"
+			],
+			"description": "Used to represent AC power in watts",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Power DC",
+			"filename": "power_dc.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"power",
+				"dc",
+				"watts"
+			],
+			"description": "Used to represent DC power in watts",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Line to Line",
+			"filename": "line-to-line.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"line",
+				"average",
+				"compare"
+			],
+			"description": "Used to represent measuring or comparing line-to-line (l-l)",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Line to Neutral",
+			"filename": "line-to-neutral.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"line",
+				"neutral",
+				"average",
+				"compare"
+			],
+			"description": "Used to represent measuring or comparing line-to-neutral (l-n)",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Device Activating",
+			"filename": "device_activating.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"device",
+				"activating",
+				"cellular",
+				"pairing",
+				"syncing",
+				"gateway"
+			],
+			"description": "Used to represent a device Activating or communicating",
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Distance Apart",
+			"filename": "distance_apart.svg",
+			"family": [
+				"status"
+			],
+			"style": "baseline",
+			"tags": [
+				"distance",
+				"social",
+				"distancing",
+				"proximity"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "iPPE Vibrate",
+			"filename": "ippe_vibrate.svg",
+			"family": [
+				"ppe"
+			],
+			"style": "baseline",
+			"tags": [
+				"ppe",
+				"distance",
+				"social",
+				"distancing",
+				"proximity",
+				"haptic",
+				"motor",
+				"vibration"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+		{	
+			"name": "iPPE Vibrate Outlined",
+			"filename": "ippe_vibrate_outlined.svg",
+			"family": [
+				"ppe"
+			],
+			"style": "outlined",
+			"tags": [
+				"ppe",
+				"distance",
+				"social",
+				"distancing",
+				"proximity",
+				"haptic",
+				"motor",
+				"vibration"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "iPPE Vibrate Off",
+			"filename": "ippe_vibrate_off.svg",
+			"family": [
+				"ppe"
+			],
+			"style": "baseline",
+			"tags": [
+				"ppe",
+				"distance",
+				"social",
+				"distancing",
+				"proximity",
+				"haptic",
+				"motor",
+				"vibration"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Safety Boot",
+			"filename": "safety_boot.svg",
+			"family": [
+				"ppe"
+			],
+			"style": "baseline",
+			"tags": [
+				"ppe",
+				"footwear",
+				"shoe",
+				"boot",
+				"metatarsal",
+				"boot",
+				"foot",
+				"safe"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Safety Glasses",
+			"filename": "safety_glasses.svg",
+			"family": [
+				"ppe"
+			],
+			"style": "baseline",
+			"tags": [
+				"ppe",
+				"eyewear",
+				"eye",
+				"goggles",
+				"safe"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{	
+			"name": "Hearing Protection",
+			"filename": "hearing_protection.svg",
+			"family": [
+				"ppe"
+			],
+			"style": "baseline",
+			"tags": [
+				"ppe",
+				"hearing",
+				"ear",
+				"noise",
+				"sound",
+				"loud",
+				"safe"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+
+		{
+			"name": "Glasses",
+			"filename": "glasses.svg",
+			"family": [
+				"ppe"
+			],
+			"style": "baseline",
+			"tags": [
+				"glasses",
+				"eye",
+				"sunglasses",
+				"ppe"
+			],
+			"author": "Unknown",
+			"size": 24
+		},
+
+		{
+			"name": "Glass Divider",
+			"filename": "glass_divider.svg",
+			"family": [
+				"ppe"
+			],
+			"style": "baseline",
+			"tags": [
+				"plexiglass",
+				"barrier",
+				"divider",
+				"social distancing",
+				"between",
+				"separate"
+			],
+			"author": "Eric Atha (PX Blue)",
+			"size": 24
+		},
+		
 		{
 			"name": "Eaton Logo",
 			"filename": "eaton.svg",
@@ -2812,6 +3260,22 @@
 			],
 			"author": "Eaton",
 			"size": 24
+        }
+        ,
+        {
+            "name": "Power Plug",
+            "filename": "power_plug.svg",
+            "family": [
+                "Lighting"
+            ],
+            "style": "baseline",
+            "tags": [
+                "light",
+                "energy",
+                "power"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
         }
         ,
         {
@@ -2935,5 +3399,6 @@
             "author": "Google",
             "size": 24
         }
+
 	]
 }
