@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.2.0 (to be published)
+## v1.2.0
 
 -   Added UPS progress icon (`<ups-progress>`)
 -   Added the option to show label percentages, with the following attributes: `showPercentLabel`, `labelColor`, `labelPosition` and `labelSize`
