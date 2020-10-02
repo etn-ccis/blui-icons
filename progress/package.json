@@ -1,0 +1,25 @@
+{
+    "name": "px-blue-progress-icons",
+    "version": "0.0.0",
+    "description": "Px Blue progress icons",
+    "author": "PX Blue <pxblue@eaton.com>",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "test:demo-angular": "cd angular/demos/showcase && yarn test:ci && cd ../../..",
+        "test:demo-react": "echo 'No React Demo Test Script Yet'",
+        "test:demos": "yarn test:demo-angular && yarn test:demo-react",
+        "test:functions-angular": "cd angular/components && yarn test:ci && cd ../..",
+        "test:functions-react": "cd react/icons && yarn test && cd ..",
+        "test:functions": "yarn test:functions-react && yarn test:functions-angular",
+        "test:build": "bash scripts/progressBuildTest.sh",
+        "build:react": "cd react/icons && yarn && yarn build",
+        "build:angular": "cd angular/components && yarn && yarn build",
+        "build:all": "yarn build:react && yarn build:angular",
+        "start:angular": "bash scripts/linkProgressAngular.sh && cd angular/demos/showcase && yarn start",
+        "start:react": "bash scripts/linkProgressReact.sh && cd react/demo && yarn start",
+        "prettier": "cd angular/components && yarn prettier && cd ../demos/showcase && yarn prettier && cd ../../../react/icons && yarn prettier && cd ../demo && yarn prettier",
+        "prettier:check": "cd angular/components && yarn prettier:check && cd ../demos/showcase && yarn prettier:check && cd ../../../react/icons && yarn prettier:check && cd ../demo && yarn prettier:check",
+        "lint": "cd angular/components && yarn lint && cd ../demos/showcase && yarn lint && cd ../../../react/icons && yarn lint",
+        "lint:fix": "cd angular/components && yarn lint:fix && cd ../demos/showcase && yarn lint:fix"
+    }
+}
