@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.1
+
+### Changed
+    - Moved `color` from peerDependencies to dependencies
+    
 ## v1.2.0
 
 -   Added UPS progress icon (`<ups-progress>`)
