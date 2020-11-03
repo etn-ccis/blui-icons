@@ -39,7 +39,8 @@
     "devDependencies": {
         "copyfiles": "^2.1.0",
         "create-svg-sprite": "~1.0.4",
-        "icon-font-generator": "^2.1.8"
+        "icon-font-generator": "^2.1.8",
+        "yarn-audit-fix": "^3.2.7"
     },
     "keywords": [
         "icons",
