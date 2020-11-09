@@ -97,7 +97,7 @@ To change the color of the icon you are using, simply set the CSS color property
 
 ### React
 ```
-const icon = require('@pxblue/icons-svg/ICON_NAME.svg');
+import icon from '@pxblue/icons-svg/ICON_NAME.svg';
 ...
 <img src={icon}/>
 ```
