@@ -3,11 +3,14 @@
 ## v1.1.1
 
 ### Fixed
+
 -   Missing icon metadata in the index file
+-   Mildly crooked vector path in Department and Departments icons
 
 ## v1.1.0
 
 ### Added
+
 -   three Eaton logo variants.
 -   lighting icons for Dimmer, Light Switch, Outlet, Light Bulb, and Ceiling Light.
 -   general icons for Account Settings, Lock Reset, and Internet, Glass Divider.
