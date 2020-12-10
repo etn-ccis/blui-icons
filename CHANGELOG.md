@@ -1,11 +1,16 @@
 # Changelog
 
+## v1.1.2 (TBP)
+
+### Fixed
+
+-   Mildly crooked vector path in Department and Departments icons
+
 ## v1.1.1
 
 ### Fixed
 
 -   Missing icon metadata in the index file
--   Mildly crooked vector path in Department and Departments icons
 
 ## v1.1.0
 
