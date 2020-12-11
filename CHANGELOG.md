@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.1.2 (TBP)
+## v1.1.2 (Not Published Yet)
 
 ### Fixed
 
