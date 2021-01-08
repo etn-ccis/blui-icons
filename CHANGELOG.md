@@ -5,6 +5,7 @@
 ### Fixed
 
 -   Mildly crooked vector path in Department and Departments icons
+-   Wrong ratio in the Eaton logos
 
 ## v1.1.1
 
