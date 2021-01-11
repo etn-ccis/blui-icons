@@ -3,21 +3,28 @@
 ## v1.2.1
 
 ### Changed
-    - Moved `color` from peerDependencies to dependencies
+
+-    Moved `color` from peerDependencies to dependencies.
     
 ## v1.2.0
 
--   Added UPS progress icon (`<ups-progress>`)
--   Added the option to show label percentages, with the following attributes: `showPercentLabel`, `labelColor`, `labelPosition` and `labelSize`
--   Added an optional `backgroundColor` attribute to display a background in the unfilled area
+### Added 
+
+-   UPS progress icon (`<ups-progress>`).
+-   Option to show label percentages, with the following attributes: `showPercentLabel`, `labelColor`, `labelPosition` and `labelSize`.
+-   Optional `backgroundColor` attribute to display a background in the unfilled area.
 
 ## v1.1.3
 
-This version of the library has outlined progress icons and a charging bolt for Battery progress icon.
+### Added 
+
+-    Outlined progress icons and a charging bolt for Battery progress icon.
 
 ## v1.1.0
 
-This version of the library has collapsed the multiple icon libraries into a single library to simplify imports.
+### Changed  
+
+-  This version of the library has collapsed the multiple icon libraries into a single library to simplify imports.
 
 Breaking changes:
 
