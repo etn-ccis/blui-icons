@@ -69,7 +69,6 @@ jobs:
                   root: .
                   paths:
                     - iconfont
-                    - design
                     - svg
                     - symbols
                     - progress/angular/dist
