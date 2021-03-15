@@ -3436,6 +3436,79 @@
             "size": 24
         },
         {
+            "name": "Apple",
+            "filename": "apple.svg",
+            "family": [
+                "Companies"
+            ],
+            "style": "baseline",
+            "tags": [
+				"ios",
+				"macos",
+				"mac",
+				"homekit",
+				"apple"
+            ],
+            "author": "Apple",
+            "size": 24
+        },
+        {
+            "name": "Google",
+            "filename": "google.svg",
+            "family": [
+                "Companies"
+            ],
+            "style": "baseline",
+            "tags": [
+				"google",
+				"google home"
+            ],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Amazon",
+            "filename": "amazon.svg",
+            "family": [
+                "Companies"
+            ],
+            "style": "baseline",
+            "tags": [
+				"amazon",
+				"alexa",
+				"prime"
+            ],
+            "author": "Amazon",
+            "size": 24
+        },
+        {
+            "name": "Amazon Alexa",
+            "filename": "amazon_alexa.svg",
+            "family": [
+                "Companies"
+            ],
+            "style": "baseline",
+            "tags": [
+				"amazon",
+				"alexa"
+            ],
+            "author": "Amazon",
+            "size": 24
+        },
+        {
+            "name": "Facebook",
+            "filename": "facebook.svg",
+            "family": [
+                "Companies"
+            ],
+            "style": "baseline",
+            "tags": [
+				"facebook"
+            ],
+            "author": "Facebook",
+            "size": 24
+        },
+        {
             "name": "Pressure",
             "filename": "pressure.svg",
             "family": [
