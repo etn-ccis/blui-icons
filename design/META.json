@@ -3400,6 +3400,72 @@
             ],
             "author": "Google",
             "size": 24
+        },
+        {
+            "name": "Touch ID",
+            "filename": "touch_id.svg",
+            "family": [
+                "System"
+            ],
+            "style": "baseline",
+            "tags": [
+                "unlock",
+                "touch",
+				"fingerprint",
+				"ios",
+				"apple"
+            ],
+            "author": "Apple",
+            "size": 24
+        },
+        {
+            "name": "Face ID",
+            "filename": "face_id.svg",
+            "family": [
+                "System"
+            ],
+            "style": "baseline",
+            "tags": [
+                "unlock",
+                "face",
+				"scan",
+				"ios",
+				"apple"
+            ],
+            "author": "Apple",
+            "size": 24
+        },
+        {
+            "name": "Pressure",
+            "filename": "pressure.svg",
+            "family": [
+                "Status"
+            ],
+            "style": "baseline",
+            "tags": [
+                "pressure",
+                "gauge",
+                "psi",
+                "pipe"
+            ],
+            "author": "Eric Atha",
+            "size": 24
+        },
+        {
+            "name": "Pressure Alternate",
+            "filename": "pressure_alt.svg",
+            "family": [
+                "Status"
+            ],
+            "style": "baseline",
+            "tags": [
+                "pressure",
+                "gauge",
+                "psi",
+                "pipe"
+            ],
+            "author": "Eric Atha",
+            "size": 24
         }
 
 	]
