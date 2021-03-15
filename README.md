@@ -28,7 +28,6 @@ In order to use the icon font, you will need to modify your angular.json file "s
 ```
 "styles": [
     "src/styles.scss",
-    "./node_modules/typeface-open-sans",
     "./node_modules/@pxblue/icons/iconfont/PXBlueIcons.css"
 ],
 ```

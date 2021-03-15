@@ -1007,6 +1007,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@fontsource/open-sans@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.1.0.tgz#d44b4495bd23d78018675e4e79973894e393c0ed"
+  integrity sha512-sWDAAr6ESHJdBKXse6njvZem4sTZLILkugaEfAvpdFiaKBh2RnXTa4DJllDh5LzP0MLMUrfj/JAjMbKxWFo6pQ==
+
 "@istanbuljs/schema@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
@@ -1178,13 +1183,13 @@
     node-gyp "^7.1.0"
     read-package-json-fast "^1.1.3"
 
-"@pxblue/angular-themes@^5.1.1":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@pxblue/angular-themes/-/angular-themes-5.1.1.tgz#93686f63e7d337e88e1f8ecbcc58a6cbf8df8a2d"
-  integrity sha512-1kdXjeKo8sffTEc4M1L1NO5MmRncUmbjThZlF1g9Wg3YCcDlfMbOQOK8Cz+C6moMb04VNTqcDP9tkpCkowXHGg==
+"@pxblue/angular-themes@^6.0.0-beta.0":
+  version "6.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@pxblue/angular-themes/-/angular-themes-6.0.0-beta.0.tgz#1d91d3474a9cf1836656ab924445f4fd72531b1b"
+  integrity sha512-TvystZrlSh/owoyegIV020ausl8578uHpetxB185dFGcYHjBajIO/3lu2AallJXdJI6thfKKoJzZPfHymxoDGg==
   dependencies:
+    "@fontsource/open-sans" "^4.1.0"
     "@pxblue/colors" "^3.0.0"
-    typeface-open-sans "^0.0.75"
 
 "@pxblue/colors@^3.0.0":
   version "3.0.0"
@@ -1203,7 +1208,7 @@
   optionalDependencies:
     eslint-plugin-react "^7.16.0"
 
-"@pxblue/ng-progress-icons@latest":
+"@pxblue/ng-progress-icons@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@pxblue/ng-progress-icons/-/ng-progress-icons-1.1.4.tgz#02e3051d8d0d7be33deedccd603c033f17e1dd8c"
   integrity sha512-s3O4DINjeCUAXRWPMTqsbK9cTUEockb0/+MG7rsXoVur+ef9FDu1QQHVRC8jG6/+cB6LGt96Di8yFgCixQEQ4A==
@@ -9721,11 +9726,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typeface-open-sans@0.0.75, typeface-open-sans@^0.0.75:
-  version "0.0.75"
-  resolved "https://registry.yarnpkg.com/typeface-open-sans/-/typeface-open-sans-0.0.75.tgz#20d0c330f14c0c40463c334adbedd6005389abe4"
-  integrity sha512-0lLmB7pfj113OP4T78SbpSmC4OCdFQ0vUxdSXQccsSb6qF76F92iEuC/DghFgmPswTyidk8+Hwf+PS/htiJoRQ==
 
 typescript@3.6.5:
   version "3.6.5"
