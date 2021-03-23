@@ -4,9 +4,9 @@
 
 ### Added
 
--   Brand logos: Amazon, Amazon Alexa, Apple, Facebook, and Google.
+-   Brand logos: Amazon, Amazon Alexa, Apple, and Google.
 -   Industrial icons: Pressure and Pressure Alt.
--   Authentication icons: Face ID and Touch ID.
+-   System icon: Face ID.
 
 ## v1.1.2
 
