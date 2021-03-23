@@ -2108,15 +2108,6 @@
             "size": 24
         },
         {
-            "name": "Touch ID",
-            "filename": "touch_id.svg",
-            "family": ["System"],
-            "style": "baseline",
-            "tags": ["unlock", "touch", "fingerprint", "ios", "apple"],
-            "author": "Apple",
-            "size": 24
-        },
-        {
             "name": "Face ID",
             "filename": "face_id.svg",
             "family": ["System"],
@@ -2159,15 +2150,6 @@
             "style": "baseline",
             "tags": ["amazon", "alexa"],
             "author": "Amazon",
-            "size": 24
-        },
-        {
-            "name": "Facebook",
-            "filename": "facebook.svg",
-            "family": ["Companies"],
-            "style": "baseline",
-            "tags": ["facebook"],
-            "author": "Facebook",
             "size": 24
         },
         {
