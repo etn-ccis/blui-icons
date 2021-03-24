@@ -2158,7 +2158,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["pressure", "gauge", "psi", "pipe"],
-            "author": "Eric Atha",
+            "author": "Eric Atha (PX Blue)",
             "size": 24
         },
         {
@@ -2167,7 +2167,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["pressure", "gauge", "psi", "pipe"],
-            "author": "Eric Atha",
+            "author": "Eric Atha (PX Blue)",
             "size": 24
         }
     ]
