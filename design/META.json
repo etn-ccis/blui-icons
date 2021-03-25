@@ -1,3406 +1,2174 @@
 {
-	"icons": [
-		{
-			"name": "Device",
-			"filename": "device.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment"
-			],
-			"description": "Used to represent a generic device.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Air Filter",
-			"filename": "air_filter.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"filter",
-				"air",
-				"component",
-				"hvac",
-				"ac",
-				"conditioning",
-				"dust",
-				"quality",
-				"HEPA"
-			],
-			"description": "Used to represent a filter or air passing thru",
-			"author": "icons8",
-			"size": 24
-		},
-		{
-			"name": "Battery",
-			"filename": "battery.svg",
-			"family": [
-				"Device"
-			],
-			"style": "baseline",
-			"tags": [
-				"battery"
-			],
-			"description": "Battery icon, displayed horizontally",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Bearing",
-			"filename": "bearing.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"component",
-				"ball bearings",
-				"industrial",
-				"machine"
-			],
-			"description": "Used to represent a generic device.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Low Voltage Breaker",
-			"filename": "breaker.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"component",
-				"low",
-				"voltage",
-				"breaker",
-				"mccb",
-				"circuit",
-				"load",
-				"loadcenter",
-				"panel"
-			],
-			"description": "Used to represent a low voltage circuit breaker.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Camera",
-			"filename": "camera.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"camera",
-				"surveillance",
-				"video",
-				"watch",
-				"security",
-				"cctv"
-			],
-			"description": "Used to represent a more traditional cctv/security camera",
-			"author": "Roberto Graham, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Capacitor Large",
-			"filename": "capacitor_large.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"component",
-				"ups",
-				"electrical",
-				"industrial",
-				"power",
-				"capacity"
-			],
-			"description": "Used to represent a large capacitor as used in UPS, HVAC, etc.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Capacitor Symbol",
-			"filename": "capacitor_symbol.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"component",
-				"symbol",
-				"electrical",
-				"industrial",
-				"power",
-				"capacity"
-			],
-			"description": "Used to represent a large capacitor as a symbol",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Computer",
-			"filename": "computer.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"component",
-				"computer",
-				"tower",
-				"PC",
-				"desktop",
-				"load"
-			],
-			"description": "Used to represent a generic device.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Contactor",
-			"filename": "contactor.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"equipment",
-				"component",
-				"electrical",
-				"oneline",
-				"one-line",
-				"symbol"
-			],
-			"description": "Used to represent a generic device.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Diode",
-			"filename": "diode.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"equipment",
-				"component",
-				"electrical",
-				"oneline",
-				"one-line",
-				"symbol"
-			],
-			"description": "Used to represent a diode.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Ephesus Fixture",
-			"filename": "ephesus_fixture.svg",
-			"family": [
-				"Devices",
-				"Sports",
-				"Lighting"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"component",
-				"lighting",
-				"luminaire",
-				"light",
-				"ephesus",
-				"sports",
-				"game on",
-				"lumadapt"
-			],
-			"description": "A light fixture designed after the Ephesus Game On/Lumadapt products.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Ephesus Gateway",
-			"filename": "ephesus_gateway.svg",
-			"family": [
-				"Devices",
-				"Sports",
-				"Lighting"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"component",
-				"lighting",
-				"communication",
-				"gateway",
-				"ephesus",
-				"sports",
-				"game on",
-				"lumadapt"
-			],
-			"description": "Ephesus Gateway device.",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Fan",
-			"filename": "fan.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"component",
-				"fan",
-				"blades",
-				"hvac",
-				"cooling",
-				"air",
-				"airflow",
-				"flow",
-				"blow",
-				"impeller",
-				"rotor"
-			],
-			"author": "Austin Andrews, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Generator",
-			"filename": "generator.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"backup",
-				"g",
-				"industrial",
-				"power"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Generator Off",
-			"filename": "generator_off.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"backup",
-				"g",
-				"industrial",
-				"power",
-				"off"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Handheld Radio",
-			"filename": "radio_handheld.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"walkie-talkie",
-				"transceiver",
-				"HT",
-				"portable",
-				"radio",
-				"handset",
-				"communication",
-				"service"
-			],
-			"author": "Cody @XT3000, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Network Switch",
-			"filename": "network_switch.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"communication",
-				"gateway",
-				"hub",
-				"data",
-				"center",
-				"datacenter",
-				"it",
-				"network"
-			],
-			"author": "Austin Andrews, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "PDU",
-			"filename": "pdu.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"power",
-				"distribution",
-				"unit",
-				"outlet",
-				"mains",
-				"MDU",
-				"data",
-				"center",
-				"datacenter",
-				"it",
-				"network",
-				"power strip",
-				"cabinet"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Pump",
-			"filename": "pump.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"industrial",
-				"motor",
-				"water",
-				"liquid",
-				"mechanical"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Server",
-			"filename": "server.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"data",
-				"center",
-				"datacenter",
-				"it",
-				"network",
-				"cabinet",
-				"computer",
-				"server"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Servers",
-			"filename": "servers.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"data",
-				"center",
-				"datacenter",
-				"it",
-				"network",
-				"cabinet",
-				"computer",
-				"server"
-			],
-			"author": "Austin Andrews, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "SSOL",
-			"filename": "ssol.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"solid state",
-				"overload",
-				"relay",
-				"protection",
-				"starter",
-				"motor"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"description": "A Solid State Overload Relay",
-			"size": 24
-		},
-		{
-			"name": "Switch",
-			"filename": "switch.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"switch",
-				"circuit",
-				"interrupt"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"description": "Represents an electrical switch",
-			"size": 24
-		},
-		{
-			"name": "Switchgear",
-			"filename": "switchgear.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "outlined",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"switchgear",
-				"assembly"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"description": "Represents switchgear lineup",
-			"size": 24
-		},
-		{
-			"name": "Transformer",
-			"filename": "transformer.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"symbol",
-				"circuit"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"description": "Represents a transfomer symbol",
-			"size": 24
-		},
-		{
-			"name": "Utility",
-			"filename": "utility.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"power company",
-				"tower",
-				"transmission",
-				"pylon",
-				"power line",
-				"lattice",
-				"overhead",
-				"infrastructure",
-				"electricity",
-				"grid"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"description": "Represents an electrical switch",
-			"size": 24
-		},
-		{
-			"name": "VFD",
-			"filename": "vfd.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"variable",
-				"frequency",
-				"drive",
-				"starter",
-				"motor",
-				"dg1"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"description": "A Variable Frequency Drive",
-			"size": 24
-		},
-		{
-			"name": "xStorage",
-			"filename": "xstorage.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"battery",
-				"storage",
-				"backup",
-				"solar"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"description": "Represents the ESB product xStorage",
-			"size": 24
-		},
-		{
-			"name": "xStorage Alt",
-			"filename": "xstorage_alt.svg",
-			"family": [
-				"Devices"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"product",
-				"equipment",
-				"electrical",
-				"battery",
-				"storage",
-				"backup",
-				"solar"
-			],
-			"author": "Unknown",
-			"description": "Represents the ESB product xStorage",
-			"size": 24
-		},
-		{
-			"name": "Bypass Battery",
-			"filename": "bypass_battery.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"ups",
-				"battery",
-				"bypass",
-				"power",
-				"supply",
-				"output",
-				"input"
-			],
-			"description": "Represents a UPS bypassing battery status",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Current",
-			"filename": "current.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"current",
-				"electrical",
-				"electric",
-				"charge",
-				"amp",
-				"amps",
-				"ampere",
-				"flow",
-				"ciruit"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Current Circled",
-			"filename": "current_circled.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"current",
-				"circle",
-				"circled",
-				"electrical",
-				"electric",
-				"charge",
-				"amp",
-				"amps",
-				"ampere",
-				"flow",
-				"ciruit"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Current Circled Outline",
-			"filename": "current_circled_outline.svg",
-			"family": [
-				"Status"
-			],
-			"style": "outlined",
-			"tags": [
-				"current",
-				"circle",
-				"circled",
-				"outline",
-				"outlined",
-				"electrical",
-				"electric",
-				"charge",
-				"amp",
-				"amps",
-				"ampere",
-				"flow",
-				"ciruit"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Flow",
-			"filename": "flow.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"water",
-				"rate",
-				"wave",
-				"liquid",
-				"gpm",
-				"gallons",
-				"pipe"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Pipe Disconnected",
-			"filename": "pipe_disconnected.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"water",
-				"rate",
-				"wave",
-				"liquid",
-				"gpm",
-				"gallons",
-				"pipe"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Pipe Leak",
-			"filename": "pipe_leak.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"water",
-				"rate",
-				"wave",
-				"liquid",
-				"gpm",
-				"gallons",
-				"pipe"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Pipe",
-			"filename": "pipe.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"water",
-				"rate",
-				"wave",
-				"liquid",
-				"gpm",
-				"gallons",
-				"pipe"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Grade A",
-			"filename": "grade_a.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"grade",
-				"letter",
-				"score",
-				"points",
-				"gpa",
-				"a",
-				"circle",
-				"health",
-				"healthy"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Grade B",
-			"filename": "grade_b.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"grade",
-				"letter",
-				"score",
-				"points",
-				"gpa",
-				"b",
-				"circle",
-				"health",
-				"healthy"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Grade C",
-			"filename": "grade_c.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"grade",
-				"letter",
-				"score",
-				"points",
-				"gpa",
-				"c",
-				"circle",
-				"health"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Grade D",
-			"filename": "grade_d.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"grade",
-				"letter",
-				"score",
-				"points",
-				"gpa",
-				"d",
-				"circle",
-				"health",
-				"bad",
-				"unhealthy"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Grade F",
-			"filename": "grade_f.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"grade",
-				"letter",
-				"score",
-				"points",
-				"gpa",
-				"f",
-				"circle",
-				"health",
-				"bad",
-				"unhealthy"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Health",
-			"filename": "health.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"grade",
-				"score",
-				"points",
-				"gpa",
-				"circle",
-				"health",
-				"medical",
-				"care"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Incident",
-			"filename": "incident.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"incident",
-				"alarms",
-				"occurence"
-			],
-			"description": "This icon represents and incident, or group of Alarms",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Active Incident",
-			"filename": "incident_active.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"incident",
-				"alarms",
-				"occurence",
-				"active"
-			],
-			"description": "This icon represents and incident, or group of Alarms that are currently Active",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Resolved/Outlined Incident",
-			"filename": "incident_resolved.svg",
-			"family": [
-				"Status"
-			],
-			"style": [
-				"baseline",
-				"outline"
-			],
-			"tags": [
-				"incident",
-				"alarms",
-				"occurence"
-			],
-			"description": "This icon represents and incident, or group of Alarms that are resolved or inactive",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Maintenance Mode",
-			"filename": "maintenance.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"circle",
-				"maintain",
-				"mode",
-				"service",
-				"upkeep",
-				"condition",
-				"repair",
-				"wrench",
-				"tool",
-				"care",
-				"event"
-			],
-			"description": "Used to represent maintainance mode or service event",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Environment",
-			"filename": "environment.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"temp",
-				"temperature",
-				"thermometer",
-				"celcius",
-				"farenheit",
-				"environment",
-				"heat",
-				"hot",
-				"cold",
-				"moisture",
-				"humidity"
-			],
-			"description": "Represents environmental values such as temperature and humidity",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Moisture",
-			"filename": "moisture.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"water",
-				"liquid",
-				"drop",
-				"humidity",
-				"environment",
-				"sensor",
-				"wet",
-				"damp"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Overlap",
-			"filename": "overlap.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"interference",
-				"electrical",
-				"waveform",
-				"wave",
-				"radio",
-				"signals",
-				"harmonics"
-			],
-			"description": "",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Power",
-			"filename": "power_circled.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"current",
-				"circle",
-				"circled",
-				"electrical",
-				"electric",
-				"charge",
-				"volts",
-				"flow",
-				"ciruit"
-			],
-			"description": "",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Power",
-			"filename": "power_circled_outline.svg",
-			"family": [
-				"Status"
-			],
-			"style": "outlined",
-			"tags": [
-				"current",
-				"circle",
-				"circled",
-				"outline",
-				"electrical",
-				"electric",
-				"charge",
-				"volts",
-				"flow",
-				"ciruit"
-			],
-			"description": "",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Priority",
-			"filename": "priority.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"square",
-				"exclaimation",
-				"important",
-				"critical"
-			],
-			"description": "Used to denote (Binary) Priority",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Push Notification Solid",
-			"filename": "push_notification_solid.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"push",
-				"notify",
-				"alert",
-				"message",
-				"badge"
-			],
-			"description": "Represents a device Push Notification",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Push Notification",
-			"filename": "push_notification.svg",
-			"family": [
-				"Status"
-			],
-			"style": "outlined",
-			"tags": [
-				"push",
-				"notify",
-				"alert",
-				"message",
-				"badge",
-				"outlined"
-			],
-			"description": "Represents a device Push Notification",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "QR Code",
-			"filename": "qrcode.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"barcode",
-				"matrix",
-				"qr",
-				"scan",
-				"item",
-				"track"
-			],
-			"description": "Represents a QR Code (matrix barcode)",
-			"author": "Austin Andrews, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Scan QR Code",
-			"filename": "scan_qrcode.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"barcode",
-				"matrix",
-				"qr",
-				"scan",
-				"item",
-				"track"
-			],
-			"description": "Represents a QR Code (matrix barcode)",
-			"author": "Cody (@XT3000), materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Running High",
-			"filename": "running_high.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"motor",
-				"run",
-				"running",
-				"high",
-				"fast",
-				"drive",
-				"start",
-				"starter",
-				"speed"
-			],
-			"description": "Represents a motor running on high setting",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Running Low",
-			"filename": "running_low.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"motor",
-				"run",
-				"running",
-				"low",
-				"slow",
-				"drive",
-				"start",
-				"starter",
-				"speed"
-			],
-			"description": "Represents a motor running on low setting",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Stopped",
-			"filename": "stopped.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"motor",
-				"stop",
-				"drive",
-				"start",
-				"starter",
-				"sign",
-				"ready"
-			],
-			"description": "Stop Sign, can be used to represent a device stopped state or action",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Stopping",
-			"filename": "stopping.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"motor",
-				"run",
-				"running",
-				"stopping",
-				"decelerate",
-				"drive",
-				"start",
-				"starter"
-			],
-			"description": "Represents a motor stopping or decelerating",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Support",
-			"filename": "support.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"support",
-				"call",
-				"phone",
-				"representative",
-				"headset",
-				"head",
-				"face",
-				"assistant"
-			],
-			"description": "Represents a support person, phone call, or call center",
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Temp",
-			"filename": "temp.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"temp",
-				"temperature",
-				"thermometer",
-				"celcius",
-				"farenheit",
-				"environment",
-				"heat",
-				"hot",
-				"cold"
-			],
-			"description": "Represents a temperature",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Toggle On",
-			"filename": "toggle_on.svg",
-			"family": [
-				"Status",
-				"Toggle"
-			],
-			"style": "baseline",
-			"tags": [
-				"toggle"
-			],
-			"description": "A toggle that is toggled on",
-			"author": "Google",
-			"size": 24
-		},
-		{
-			"name": "Toggle Off",
-			"filename": "toggle_off.svg",
-			"family": [
-				"Status",
-				"Toggle"
-			],
-			"style": "baseline",
-			"tags": [
-				"toggle"
-			],
-			"description": "A toggle that is toggled off",
-			"author": "Google",
-			"size": 24
-		},
-		{
-			"name": "Toggle On Outlined",
-			"filename": "toggle_on_outlined.svg",
-			"family": [
-				"Status",
-				"Toggle"
-			],
-			"style": "baseline",
-			"tags": [
-				"toggle"
-			],
-			"description": "An outlined toggle that is toggled on",
-			"author": "Google",
-			"size": 24
-		},
-		{
-			"name": "Toggle Off Outlined",
-			"filename": "toggle_off_outlined.svg",
-			"family": [
-				"Status",
-				"Toggle"
-			],
-			"style": "outlined",
-			"tags": [
-				"toggle"
-			],
-			"description": "An outlined toggle that is toggled off",
-			"author": "Google",
-			"size": 24
-		},
-		{
-			"name": "Trending Up",
-			"filename": "trending_up.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"data",
-				"arrow",
-				"trend",
-				"chart",
-				"raise",
-				"more",
-				"high",
-				"trending",
-				"up",
-				"increase",
-				"change"
-			],
-			"description": "Represents an increase over time",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Trending Down",
-			"filename": "trending_down.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"data",
-				"arrow",
-				"trend",
-				"chart",
-				"less",
-				"lower",
-				"trending",
-				"down",
-				"decrease",
-				"change"
-			],
-			"description": "Represents a decrease over time",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Trending Flat",
-			"filename": "trending_flat.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"data",
-				"arrow",
-				"trend",
-				"chart",
-				"trending",
-				"flat",
-				"change",
-				"no change"
-			],
-			"description": "Represents no change over time",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Tripped",
-			"filename": "tripped.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"open",
-				"swtich",
-				"trip",
-				"breaker",
-				"tripped",
-				"opened"
-			],
-			"description": "An open or tripped switch or breaker",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "VMMS",
-			"filename": "vmms.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"ups",
-				"variable module management system",
-				"eaa",
-				"load",
-				"power",
-				"supply"
-			],
-			"description": "Represents Eaton's variable module management system for UPS devices",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Voltage",
-			"filename": "voltage.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"electrical",
-				"electric",
-				"charge",
-				"volts",
-				"potential",
-				"voltage",
-				"ciruit"
-			],
-			"description": "",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Voltage Circle",
-			"filename": "voltage_circled.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"circle",
-				"circled",
-				"electrical",
-				"electric",
-				"charge",
-				"volts",
-				"potential",
-				"voltage",
-				"ciruit"
-			],
-			"description": "",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Voltage Circle Outline",
-			"filename": "voltage_circled_outline.svg",
-			"family": [
-				"Status"
-			],
-			"style": "outlined",
-			"tags": [
-				"circle",
-				"circled",
-				"outline",
-				"electrical",
-				"electric",
-				"charge",
-				"volts",
-				"potential",
-				"voltage",
-				"ciruit"
-			],
-			"description": "",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Water",
-			"filename": "water.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"water",
-				"liquid",
-				"drop",
-				"humidity",
-				"environment",
-				"sensor",
-				"wet"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Water Outline",
-			"filename": "water_outline.svg",
-			"family": [
-				"Status"
-			],
-			"style": "outlined",
-			"tags": [
-				"outline",
-				"water",
-				"liquid",
-				"drop",
-				"humidity",
-				"environment",
-				"sensor",
-				"wet"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Waveform",
-			"filename": "waveform.svg",
-			"family": [
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"wave",
-				"waveform",
-				"current",
-				"electrical",
-				"harmonics",
-				"graph",
-				"oscilloscope",
-				"amplitude"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Barrel",
-			"filename": "barrel.svg",
-			"family": [
-				"Industrial"
-			],
-			"style": "baseline",
-			"tags": [
-				"barrel",
-				"water",
-				"oil",
-				"barrels per day",
-				"b/d"
-			],
-			"description": "This icon can be used to represent a barrel of water, oil, or barrels per unit of time",
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Flask",
-			"filename": "flask.svg",
-			"family": [
-				"Industrial"
-			],
-			"style": "baseline",
-			"tags": [
-				"flask",
-				"formula",
-				"science",
-				"glass",
-				"container"
-			],
-			"description": "This icon can be used to represent a flask, science, formula",
-			"author": "Austin Andrews - materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Fuel",
-			"filename": "fuel.svg",
-			"family": [
-				"Industrial"
-			],
-			"style": "baseline",
-			"tags": [
-				"fuel",
-				"can",
-				"tank",
-				"gas",
-				"gasoline",
-				"jug"
-			],
-			"description": "This icon can be used to represent a gas can",
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Gas Cylinder",
-			"filename": "gas_cylinder.svg",
-			"family": [
-				"Industrial"
-			],
-			"style": "baseline",
-			"tags": [
-				"tank",
-				"gas"
-			],
-			"description": "This icon can be used to represent a tank of gas, industrial gasses",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Tree",
-			"filename": "tree.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"tree",
-				"crop",
-				"fruit",
-				"nut",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"orchard",
-				"forest"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Leaf",
-			"filename": "leaf.svg",
-			"family": [
-				"Agriculture",
-				"Status"
-			],
-			"style": "baseline",
-			"tags": [
-				"leaf",
-				"crop",
-				"fruit",
-				"vegetable",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"eco",
-				"environment",
-				"green"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"status": "possible redraw",
-			"size": 24
-		},
-		{
-			"name": "Wheat",
-			"filename": "wheat.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"wheat",
-				"crop",
-				"grain",
-				"farm",
-				"field",
-				"cereal",
-				"silage",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Soybean",
-			"filename": "soybean.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"soy",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Apple",
-			"filename": "apple.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"apple",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Asparagus",
-			"filename": "asparagus.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"asparagus",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Corn",
-			"filename": "corn.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"corn",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"status": "redraw",
-			"size": 24
-		},
-		{
-			"name": "Barley",
-			"filename": "barley.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"barley",
-				"grain",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Barley Alt",
-			"filename": "barley_alt.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"barley",
-				"grain",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Grass",
-			"filename": "grass.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"grass",
-				"grain",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"status": "redraw",
-			"size": 24
-		},
-		{
-			"name": "Tomato",
-			"filename": "tomato.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"tomato",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"status": "possibly redraw",
-			"size": 24
-		},
-		{
-			"name": "Garlic",
-			"filename": "garlic.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"garlic",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Carrot",
-			"filename": "carrot.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"carrot",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Potato",
-			"filename": "potato.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"potato",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Broccoli",
-			"filename": "broccoli.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"broccoli",
-				"cauliflower",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Pepper",
-			"filename": "pepper.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"green",
-				"pepper",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food",
-				"spice"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Chili Pepper",
-			"filename": "chili_pepper.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"chili",
-				"pepper",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food",
-				"spice",
-				"hot"
-			],
-			"author": "Icons8",
-			"size": 24
-		},
-		{
-			"name": "Sunflower",
-			"filename": "sunflower.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"flower",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food",
-				"seed"
-			],
-			"author": "Icons8",
-			"status": "possibly redraw",
-			"size": 24
-		},
-		{
-			"name": "Silo",
-			"filename": "silo.svg",
-			"family": [
-				"Agriculture",
-				"Building"
-			],
-			"style": "baseline",
-			"tags": [
-				"farm",
-				"feed",
-				"food",
-				"grain",
-				"structure"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Pickup Truck",
-			"filename": "pickup_truck.svg",
-			"family": [
-				"Vehicles"
-			],
-			"style": "baseline",
-			"tags": [
-				"truck",
-				"pickup",
-				"light-duty",
-				"car",
-				"cargo",
-				"agriculture",
-				"industrial",
-				"transport",
-				"automotive"
-			],
-			"author": "Green Turtwig, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Forklift",
-			"filename": "forklift.svg",
-			"family": [
-				"Vehicles"
-			],
-			"style": "baseline",
-			"tags": [
-				"car",
-				"cargo",
-				"warehouse",
-				"truck",
-				"industrial",
-				"lift",
-				"transport",
-				"automotive"
-			],
-			"author": "Green Turtwig, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Utility Van",
-			"filename": "utility_van.svg",
-			"family": [
-				"Vehicles"
-			],
-			"style": "baseline",
-			"tags": [
-				"truck",
-				"van",
-				"light-duty",
-				"car",
-				"cargo",
-				"agriculture",
-				"industrial",
-				"transport",
-				"automotive"
-			],
-			"author": "Green Turtwig, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Car",
-			"filename": "car.svg",
-			"family": [
-				"Vehicles"
-			],
-			"style": "baseline",
-			"tags": [
-				"car",
-				"passenger",
-				"industrial",
-				"residential",
-				"transport",
-				"automotive"
-			],
-			"author": "Green Turtwig, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Sports Car",
-			"filename": "sports_car.svg",
-			"family": [
-				"Vehicles"
-			],
-			"style": "baseline",
-			"tags": [
-				"car",
-				"passenger",
-				"industrial",
-				"residential",
-				"transport",
-				"automotive"
-			],
-			"author": "Green Turtwig, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Tractor",
-			"filename": "tractor.svg",
-			"family": [
-				"Vehicles",
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"car",
-				"agriculture",
-				"transport",
-				"automotive",
-				"farm",
-				"harvest"
-			],
-			"author": "Green Turtwig, materialdesignicons.com",
-			"size": 24
-		},
-		{
-			"name": "Combine Harvester",
-			"filename": "combine_harvester.svg",
-			"family": [
-				"Vehicles",
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"equipment",
-				"agriculture",
-				"transport",
-				"automotive",
-				"farm",
-				"harvest"
-			],
-			"author": "icons8",
-			"size": 24
-		},
-		{
-			"name": "PXBlue",
-			"filename": "pxblue.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "baseline",
-			"tags": [
-				"pxblue",
-				"blue",
-				"power",
-				"xpert",
-				"platform",
-				"ux",
-				"ui",
-				"framework",
-				"ccis",
-				"px",
-				"code",
-				"logo"
-			],
-			"description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "PXBlue Small",
-			"filename": "pxblue_small.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "baseline",
-			"tags": [
-				"pxblue",
-				"blue",
-				"power",
-				"xpert",
-				"platform",
-				"ux",
-				"ui",
-				"framework",
-				"ccis",
-				"px",
-				"code",
-				"logo"
-			],
-			"description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "PXBlue Small Alt",
-			"filename": "pxblue_small_alt.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "baseline",
-			"tags": [
-				"pxblue",
-				"blue",
-				"power",
-				"xpert",
-				"platform",
-				"ux",
-				"ui",
-				"framework",
-				"ccis",
-				"px",
-				"code",
-				"logo"
-			],
-			"description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Studio Blue",
-			"filename": "studioblue.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "baseline",
-			"tags": [
-				"sb",
-				"blue",
-				"platform",
-				"ux",
-				"service",
-				"ccis",
-				"design",
-				"user experience",
-				"graphic",
-				"logo"
-			],
-			"description": "Studio Blue logo icon graphic",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Studio Blue Outlined",
-			"filename": "studioblue_outline.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "outlined",
-			"tags": [
-				"sb",
-				"blue",
-				"platform",
-				"ux",
-				"service",
-				"ccis",
-				"design",
-				"user experience",
-				"graphic",
-				"logo"
-			],
-			"description": "Studio Blue logo icon graphic",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "PXRed",
-			"filename": "pxred.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "baseline",
-			"tags": [
-				"pxred",
-				"red",
-				"power",
-				"xpert",
-				"platform",
-				"framework",
-				"ccis",
-				"px",
-				"code",
-				"logo",
-				"toolkit",
-				"linux"
-			],
-			"description": "Power Xpert Red icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "PXGreen",
-			"filename": "pxgreen.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "baseline",
-			"tags": [
-				"pxgreen",
-				"green",
-				"power",
-				"xpert",
-				"platform",
-				"framework",
-				"ccis",
-				"px",
-				"code",
-				"logo",
-				"toolkit",
-				"embedded"
-			],
-			"description": "Power Xpert Green icon graphic, (somewhat) redesigned on the Material Design Icon spec",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "PXWhite",
-			"filename": "pxwhite.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "baseline",
-			"tags": [
-				"pxwhite",
-				"white",
-				"power",
-				"xpert",
-				"platform",
-				"framework",
-				"ccis",
-				"px",
-				"code",
-				"logo",
-				"cloud",
-				"iot"
-			],
-			"description": "Power Xpert White icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Cybersecurity",
-			"filename": "cybersecurity.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "baseline",
-			"tags": [
-				"security",
-				"secure",
-				"lock",
-				"protection",
-				"certified",
-				"platform",
-				"framework",
-				"ccis",
-				"code",
-				"logo",
-				"cloud",
-				"iot",
-				"technology"
-			],
-			"description": "Cybersecurity icon graphic, redesigned on the Material Design Icon spec",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Cybersecurity Two Tone",
-			"filename": "cybersecurity_two_tone.svg",
-			"family": [
-				"Platform"
-			],
-			"style": "two-tone",
-			"tags": [
-				"security",
-				"secure",
-				"lock",
-				"protection",
-				"certified",
-				"platform",
-				"framework",
-				"ccis",
-				"code",
-				"logo",
-				"cloud",
-				"iot",
-				"technology"
-			],
-			"description": "Cybersecurity icon graphic, redesigned on the Material Design Icon spec, includes two-tone traces in the background at 50% opacity",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Baseball",
-			"filename": "baseball.svg",
-			"family": [
-				"Sports"
-			],
-			"style": "baseline",
-			"tags": [
-				"baseball",
-				"sports"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Basketball Hoop",
-			"filename": "basketball_hoop.svg",
-			"family": [
-				"Sports"
-			],
-			"style": "baseline",
-			"tags": [
-				"basketball",
-				"sports"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Boxing Glove",
-			"filename": "boxing_glove.svg",
-			"family": [
-				"Sports"
-			],
-			"style": "baseline",
-			"tags": [
-				"boxing",
-				"sports"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Football Helmet",
-			"filename": "football_helmet.svg",
-			"family": [
-				"Sports"
-			],
-			"style": "baseline",
-			"tags": [
-				"football",
-				"sports"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Hockey Puck",
-			"filename": "hockey_puck.svg",
-			"family": [
-				"Sports"
-			],
-			"style": "baseline",
-			"tags": [
-				"hockey",
-				"sports"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Hockey Sticks",
-			"filename": "hockey_sticks.svg",
-			"family": [
-				"Sports"
-			],
-			"style": "baseline",
-			"tags": [
-				"hockey",
-				"sports"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Tennis",
-			"filename": "tennis.svg",
-			"family": [
-				"Sports"
-			],
-			"style": "baseline",
-			"tags": [
-				"tennis",
-				"sports"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Flower",
-			"filename": "flower.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"flower",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food",
-				"seed"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Tulip",
-			"filename": "flower_tulip.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"flower",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food",
-				"seed"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Hops",
-			"filename": "hops.svg",
-			"family": [
-				"Agriculture"
-			],
-			"style": "baseline",
-			"tags": [
-				"hops",
-				"crop",
-				"farm",
-				"plant",
-				"grow",
-				"feed",
-				"food",
-				"seed"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Road",
-			"filename": "road.svg",
-			"family": [
-				"transportation"
-			],
-			"style": "baseline",
-			"tags": [
-				"road",
-				"transportation"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Road Alt",
-			"filename": "road_alt.svg",
-			"family": [
-				"transportation"
-			],
-			"style": "baseline",
-			"tags": [
-				"road",
-				"transportation"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Satellite Uplink",
-			"filename": "satellite_uplink.svg",
-			"family": [
-				"communication"
-			],
-			"style": "baseline",
-			"tags": [
-				"satellite",
-				"communication"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Sign Caution",
-			"filename": "sign_caution.svg",
-			"family": [
-				"PPE"
-			],
-			"style": "baseline",
-			"tags": [
-				"communication",
-				"ppe",
-				"caution"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Traffic Light",
-			"filename": "traffic_light.svg",
-			"family": [
-				"communication"
-			],
-			"style": "baseline",
-			"tags": [
-				"communication",
-				"traffic",
-				"light"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
-		{
-			"name": "Departments",
-			"filename": "departments.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"hexagon",
-				"hexagons"
-			],
-			"author": "Austin Andrews",
-			"size": 24
-		},
-		{
-			"name": "Department",
-			"filename": "department.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"hexagon"
-			],
-			"author": "Austin Andrews",
-			"size": 24
-		},
-		{
-			"name": "Piggy Bank",
-			"filename": "piggy_bank.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"save",
-				"savings",
-				"money",
-				"coin"
-			],
-			"author": "Alex Efremo",
-			"size": 24
-		},
-		{
-			"name": "Map Marker Multiple",
-			"filename": "map_marker_multiple.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"pins",
-				"places",
-				"locations"
-			],
-			"author": "Austin Andrews",
-			"size": 24
-		},
-		{
-			"name": "Map Marker Three",
-			"filename": "map_marker_three.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"pins",
-				"places",
-				"locations"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{
-			"name": "Factory",
-			"filename": "factory.svg",
-			"family": [
-				"industrial"
-			],
-			"style": "baseline",
-			"tags": [
-				"plant",
-				"place",
-				"location"
-			],
-			"author": "Austin Andrews",
-			"size": 24
-		},
-		{
-			"name": "Building",
-			"filename": "building.svg",
-			"family": [
-				"industrial"
-			],
-			"style": "baseline",
-			"tags": [
-				"pins",
-				"places",
-				"locations",
-				"office"
-			],
-			"author": "GreenTurtwig",
-			"size": 24
-		}
-		,
-		{
-			"name": "Offline Bolt Outline",
-			"filename": "outline_offline_bolt.svg",
-			"family": [
-				"status"
-			],
-			"style": "outlined",
-			"tags": [
-				"energy",
-				"consumption"
-			],
-			"author": "Google",
-			"size": 24
-		},
+    "icons": [
+        {
+            "name": "Device",
+            "filename": "device.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment"],
+            "description": "Used to represent a generic device.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Air Filter",
+            "filename": "air_filter.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["filter", "air", "component", "hvac", "ac", "conditioning", "dust", "quality", "HEPA"],
+            "description": "Used to represent a filter or air passing thru",
+            "author": "icons8",
+            "size": 24
+        },
+        {
+            "name": "Battery",
+            "filename": "battery.svg",
+            "family": ["Device"],
+            "style": "baseline",
+            "tags": ["battery"],
+            "description": "Battery icon, displayed horizontally",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Bearing",
+            "filename": "bearing.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "component", "ball bearings", "industrial", "machine"],
+            "description": "Used to represent a generic device.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Low Voltage Breaker",
+            "filename": "breaker.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "component",
+                "low",
+                "voltage",
+                "breaker",
+                "mccb",
+                "circuit",
+                "load",
+                "loadcenter",
+                "panel"
+            ],
+            "description": "Used to represent a low voltage circuit breaker.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Camera",
+            "filename": "camera.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "camera", "surveillance", "video", "watch", "security", "cctv"],
+            "description": "Used to represent a more traditional cctv/security camera",
+            "author": "Roberto Graham, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Capacitor Large",
+            "filename": "capacitor_large.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "component",
+                "ups",
+                "electrical",
+                "industrial",
+                "power",
+                "capacity"
+            ],
+            "description": "Used to represent a large capacitor as used in UPS, HVAC, etc.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Capacitor Symbol",
+            "filename": "capacitor_symbol.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "component",
+                "symbol",
+                "electrical",
+                "industrial",
+                "power",
+                "capacity"
+            ],
+            "description": "Used to represent a large capacitor as a symbol",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Computer",
+            "filename": "computer.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "component", "computer", "tower", "PC", "desktop", "load"],
+            "description": "Used to represent a generic device.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Contactor",
+            "filename": "contactor.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "equipment", "component", "electrical", "oneline", "one-line", "symbol"],
+            "description": "Used to represent a generic device.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Diode",
+            "filename": "diode.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "equipment", "component", "electrical", "oneline", "one-line", "symbol"],
+            "description": "Used to represent a diode.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Ephesus Fixture",
+            "filename": "ephesus_fixture.svg",
+            "family": ["Devices", "Sports", "Lighting"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "component",
+                "lighting",
+                "luminaire",
+                "light",
+                "ephesus",
+                "sports",
+                "game on",
+                "lumadapt"
+            ],
+            "description": "A light fixture designed after the Ephesus Game On/Lumadapt products.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Ephesus Gateway",
+            "filename": "ephesus_gateway.svg",
+            "family": ["Devices", "Sports", "Lighting"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "component",
+                "lighting",
+                "communication",
+                "gateway",
+                "ephesus",
+                "sports",
+                "game on",
+                "lumadapt"
+            ],
+            "description": "Ephesus Gateway device.",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Fan",
+            "filename": "fan.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "component",
+                "fan",
+                "blades",
+                "hvac",
+                "cooling",
+                "air",
+                "airflow",
+                "flow",
+                "blow",
+                "impeller",
+                "rotor"
+            ],
+            "author": "Austin Andrews, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Generator",
+            "filename": "generator.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "electrical", "backup", "g", "industrial", "power"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Generator Off",
+            "filename": "generator_off.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "electrical", "backup", "g", "industrial", "power", "off"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Handheld Radio",
+            "filename": "radio_handheld.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "walkie-talkie",
+                "transceiver",
+                "HT",
+                "portable",
+                "radio",
+                "handset",
+                "communication",
+                "service"
+            ],
+            "author": "Cody @XT3000, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Network Switch",
+            "filename": "network_switch.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "communication",
+                "gateway",
+                "hub",
+                "data",
+                "center",
+                "datacenter",
+                "it",
+                "network"
+            ],
+            "author": "Austin Andrews, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "PDU",
+            "filename": "pdu.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "electrical",
+                "power",
+                "distribution",
+                "unit",
+                "outlet",
+                "mains",
+                "MDU",
+                "data",
+                "center",
+                "datacenter",
+                "it",
+                "network",
+                "power strip",
+                "cabinet"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Pump",
+            "filename": "pump.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "electrical",
+                "industrial",
+                "motor",
+                "water",
+                "liquid",
+                "mechanical"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Server",
+            "filename": "server.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "electrical",
+                "data",
+                "center",
+                "datacenter",
+                "it",
+                "network",
+                "cabinet",
+                "computer",
+                "server"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Servers",
+            "filename": "servers.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "electrical",
+                "data",
+                "center",
+                "datacenter",
+                "it",
+                "network",
+                "cabinet",
+                "computer",
+                "server"
+            ],
+            "author": "Austin Andrews, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "SSOL",
+            "filename": "ssol.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "electrical",
+                "solid state",
+                "overload",
+                "relay",
+                "protection",
+                "starter",
+                "motor"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "description": "A Solid State Overload Relay",
+            "size": 24
+        },
+        {
+            "name": "Switch",
+            "filename": "switch.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "electrical", "switch", "circuit", "interrupt"],
+            "author": "Eric Atha (PX Blue)",
+            "description": "Represents an electrical switch",
+            "size": 24
+        },
+        {
+            "name": "Switchgear",
+            "filename": "switchgear.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["device", "product", "equipment", "electrical", "switchgear", "assembly"],
+            "author": "Eric Atha (PX Blue)",
+            "description": "Represents switchgear lineup",
+            "size": 24
+        },
+        {
+            "name": "Transformer",
+            "filename": "transformer.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "electrical", "symbol", "circuit"],
+            "author": "Eric Atha (PX Blue)",
+            "description": "Represents a transfomer symbol",
+            "size": 24
+        },
+        {
+            "name": "Utility",
+            "filename": "utility.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "power company",
+                "tower",
+                "transmission",
+                "pylon",
+                "power line",
+                "lattice",
+                "overhead",
+                "infrastructure",
+                "electricity",
+                "grid"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "description": "Represents an electrical switch",
+            "size": 24
+        },
+        {
+            "name": "VFD",
+            "filename": "vfd.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "electrical",
+                "variable",
+                "frequency",
+                "drive",
+                "starter",
+                "motor",
+                "dg1"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "description": "A Variable Frequency Drive",
+            "size": 24
+        },
+        {
+            "name": "xStorage",
+            "filename": "xstorage.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "electrical", "battery", "storage", "backup", "solar"],
+            "author": "Eric Atha (PX Blue)",
+            "description": "Represents the ESB product xStorage",
+            "size": 24
+        },
+        {
+            "name": "xStorage Alt",
+            "filename": "xstorage_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "electrical", "battery", "storage", "backup", "solar"],
+            "author": "Unknown",
+            "description": "Represents the ESB product xStorage",
+            "size": 24
+        },
+        {
+            "name": "Bypass Battery",
+            "filename": "bypass_battery.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["ups", "battery", "bypass", "power", "supply", "output", "input"],
+            "description": "Represents a UPS bypassing battery status",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Current",
+            "filename": "current.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["current", "electrical", "electric", "charge", "amp", "amps", "ampere", "flow", "ciruit"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Current Circled",
+            "filename": "current_circled.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "current",
+                "circle",
+                "circled",
+                "electrical",
+                "electric",
+                "charge",
+                "amp",
+                "amps",
+                "ampere",
+                "flow",
+                "ciruit"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Current Circled Outline",
+            "filename": "current_circled_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": [
+                "current",
+                "circle",
+                "circled",
+                "outline",
+                "outlined",
+                "electrical",
+                "electric",
+                "charge",
+                "amp",
+                "amps",
+                "ampere",
+                "flow",
+                "ciruit"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Flow",
+            "filename": "flow.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["water", "rate", "wave", "liquid", "gpm", "gallons", "pipe"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Pipe Disconnected",
+            "filename": "pipe_disconnected.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["water", "rate", "wave", "liquid", "gpm", "gallons", "pipe"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Pipe Leak",
+            "filename": "pipe_leak.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["water", "rate", "wave", "liquid", "gpm", "gallons", "pipe"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Pipe",
+            "filename": "pipe.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["water", "rate", "wave", "liquid", "gpm", "gallons", "pipe"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Grade A",
+            "filename": "grade_a.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["grade", "letter", "score", "points", "gpa", "a", "circle", "health", "healthy"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Grade B",
+            "filename": "grade_b.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["grade", "letter", "score", "points", "gpa", "b", "circle", "health", "healthy"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Grade C",
+            "filename": "grade_c.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["grade", "letter", "score", "points", "gpa", "c", "circle", "health"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Grade D",
+            "filename": "grade_d.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["grade", "letter", "score", "points", "gpa", "d", "circle", "health", "bad", "unhealthy"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Grade F",
+            "filename": "grade_f.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["grade", "letter", "score", "points", "gpa", "f", "circle", "health", "bad", "unhealthy"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Health",
+            "filename": "health.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["grade", "score", "points", "gpa", "circle", "health", "medical", "care"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Incident",
+            "filename": "incident.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["incident", "alarms", "occurence"],
+            "description": "This icon represents and incident, or group of Alarms",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Active Incident",
+            "filename": "incident_active.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["incident", "alarms", "occurence", "active"],
+            "description": "This icon represents and incident, or group of Alarms that are currently Active",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Resolved/Outlined Incident",
+            "filename": "incident_resolved.svg",
+            "family": ["Status"],
+            "style": ["baseline", "outline"],
+            "tags": ["incident", "alarms", "occurence"],
+            "description": "This icon represents and incident, or group of Alarms that are resolved or inactive",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Maintenance Mode",
+            "filename": "maintenance.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "circle",
+                "maintain",
+                "mode",
+                "service",
+                "upkeep",
+                "condition",
+                "repair",
+                "wrench",
+                "tool",
+                "care",
+                "event"
+            ],
+            "description": "Used to represent maintainance mode or service event",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Environment",
+            "filename": "environment.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "temp",
+                "temperature",
+                "thermometer",
+                "celcius",
+                "farenheit",
+                "environment",
+                "heat",
+                "hot",
+                "cold",
+                "moisture",
+                "humidity"
+            ],
+            "description": "Represents environmental values such as temperature and humidity",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Moisture",
+            "filename": "moisture.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["water", "liquid", "drop", "humidity", "environment", "sensor", "wet", "damp"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Overlap",
+            "filename": "overlap.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["interference", "electrical", "waveform", "wave", "radio", "signals", "harmonics"],
+            "description": "",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Power",
+            "filename": "power_circled.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["current", "circle", "circled", "electrical", "electric", "charge", "volts", "flow", "ciruit"],
+            "description": "",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Power",
+            "filename": "power_circled_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": [
+                "current",
+                "circle",
+                "circled",
+                "outline",
+                "electrical",
+                "electric",
+                "charge",
+                "volts",
+                "flow",
+                "ciruit"
+            ],
+            "description": "",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Priority",
+            "filename": "priority.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["square", "exclaimation", "important", "critical"],
+            "description": "Used to denote (Binary) Priority",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Push Notification Solid",
+            "filename": "push_notification_solid.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["push", "notify", "alert", "message", "badge"],
+            "description": "Represents a device Push Notification",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Push Notification",
+            "filename": "push_notification.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": ["push", "notify", "alert", "message", "badge", "outlined"],
+            "description": "Represents a device Push Notification",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "QR Code",
+            "filename": "qrcode.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["barcode", "matrix", "qr", "scan", "item", "track"],
+            "description": "Represents a QR Code (matrix barcode)",
+            "author": "Austin Andrews, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Scan QR Code",
+            "filename": "scan_qrcode.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["barcode", "matrix", "qr", "scan", "item", "track"],
+            "description": "Represents a QR Code (matrix barcode)",
+            "author": "Cody (@XT3000), materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Running High",
+            "filename": "running_high.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["motor", "run", "running", "high", "fast", "drive", "start", "starter", "speed"],
+            "description": "Represents a motor running on high setting",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Running Low",
+            "filename": "running_low.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["motor", "run", "running", "low", "slow", "drive", "start", "starter", "speed"],
+            "description": "Represents a motor running on low setting",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Stopped",
+            "filename": "stopped.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["motor", "stop", "drive", "start", "starter", "sign", "ready"],
+            "description": "Stop Sign, can be used to represent a device stopped state or action",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Stopping",
+            "filename": "stopping.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["motor", "run", "running", "stopping", "decelerate", "drive", "start", "starter"],
+            "description": "Represents a motor stopping or decelerating",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Support",
+            "filename": "support.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["support", "call", "phone", "representative", "headset", "head", "face", "assistant"],
+            "description": "Represents a support person, phone call, or call center",
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Temp",
+            "filename": "temp.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "temp",
+                "temperature",
+                "thermometer",
+                "celcius",
+                "farenheit",
+                "environment",
+                "heat",
+                "hot",
+                "cold"
+            ],
+            "description": "Represents a temperature",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Toggle On",
+            "filename": "toggle_on.svg",
+            "family": ["Status", "Toggle"],
+            "style": "baseline",
+            "tags": ["toggle"],
+            "description": "A toggle that is toggled on",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Toggle Off",
+            "filename": "toggle_off.svg",
+            "family": ["Status", "Toggle"],
+            "style": "baseline",
+            "tags": ["toggle"],
+            "description": "A toggle that is toggled off",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Toggle On Outlined",
+            "filename": "toggle_on_outlined.svg",
+            "family": ["Status", "Toggle"],
+            "style": "baseline",
+            "tags": ["toggle"],
+            "description": "An outlined toggle that is toggled on",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Toggle Off Outlined",
+            "filename": "toggle_off_outlined.svg",
+            "family": ["Status", "Toggle"],
+            "style": "outlined",
+            "tags": ["toggle"],
+            "description": "An outlined toggle that is toggled off",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Trending Up",
+            "filename": "trending_up.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "data",
+                "arrow",
+                "trend",
+                "chart",
+                "raise",
+                "more",
+                "high",
+                "trending",
+                "up",
+                "increase",
+                "change"
+            ],
+            "description": "Represents an increase over time",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Trending Down",
+            "filename": "trending_down.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["data", "arrow", "trend", "chart", "less", "lower", "trending", "down", "decrease", "change"],
+            "description": "Represents a decrease over time",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Trending Flat",
+            "filename": "trending_flat.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["data", "arrow", "trend", "chart", "trending", "flat", "change", "no change"],
+            "description": "Represents no change over time",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Tripped",
+            "filename": "tripped.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["open", "swtich", "trip", "breaker", "tripped", "opened"],
+            "description": "An open or tripped switch or breaker",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "VMMS",
+            "filename": "vmms.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["ups", "variable module management system", "eaa", "load", "power", "supply"],
+            "description": "Represents Eaton's variable module management system for UPS devices",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Voltage",
+            "filename": "voltage.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["electrical", "electric", "charge", "volts", "potential", "voltage", "ciruit"],
+            "description": "",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Voltage Circle",
+            "filename": "voltage_circled.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "circle",
+                "circled",
+                "electrical",
+                "electric",
+                "charge",
+                "volts",
+                "potential",
+                "voltage",
+                "ciruit"
+            ],
+            "description": "",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Voltage Circle Outline",
+            "filename": "voltage_circled_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": [
+                "circle",
+                "circled",
+                "outline",
+                "electrical",
+                "electric",
+                "charge",
+                "volts",
+                "potential",
+                "voltage",
+                "ciruit"
+            ],
+            "description": "",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Water",
+            "filename": "water.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["water", "liquid", "drop", "humidity", "environment", "sensor", "wet"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Water Outline",
+            "filename": "water_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": ["outline", "water", "liquid", "drop", "humidity", "environment", "sensor", "wet"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Waveform",
+            "filename": "waveform.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["wave", "waveform", "current", "electrical", "harmonics", "graph", "oscilloscope", "amplitude"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Barrel",
+            "filename": "barrel.svg",
+            "family": ["Industrial"],
+            "style": "baseline",
+            "tags": ["barrel", "water", "oil", "barrels per day", "b/d"],
+            "description": "This icon can be used to represent a barrel of water, oil, or barrels per unit of time",
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Flask",
+            "filename": "flask.svg",
+            "family": ["Industrial"],
+            "style": "baseline",
+            "tags": ["flask", "formula", "science", "glass", "container"],
+            "description": "This icon can be used to represent a flask, science, formula",
+            "author": "Austin Andrews - materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Fuel",
+            "filename": "fuel.svg",
+            "family": ["Industrial"],
+            "style": "baseline",
+            "tags": ["fuel", "can", "tank", "gas", "gasoline", "jug"],
+            "description": "This icon can be used to represent a gas can",
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Gas Cylinder",
+            "filename": "gas_cylinder.svg",
+            "family": ["Industrial"],
+            "style": "baseline",
+            "tags": ["tank", "gas"],
+            "description": "This icon can be used to represent a tank of gas, industrial gasses",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Tree",
+            "filename": "tree.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["tree", "crop", "fruit", "nut", "farm", "plant", "grow", "feed", "orchard", "forest"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Leaf",
+            "filename": "leaf.svg",
+            "family": ["Agriculture", "Status"],
+            "style": "baseline",
+            "tags": [
+                "leaf",
+                "crop",
+                "fruit",
+                "vegetable",
+                "farm",
+                "plant",
+                "grow",
+                "feed",
+                "eco",
+                "environment",
+                "green"
+            ],
+            "author": "Eric Atha (PX Blue)",
+            "status": "possible redraw",
+            "size": 24
+        },
+        {
+            "name": "Wheat",
+            "filename": "wheat.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["wheat", "crop", "grain", "farm", "field", "cereal", "silage", "plant", "grow", "feed", "food"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Soybean",
+            "filename": "soybean.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["soy", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Apple",
+            "filename": "apple.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["apple", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Asparagus",
+            "filename": "asparagus.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["asparagus", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Corn",
+            "filename": "corn.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["corn", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "status": "redraw",
+            "size": 24
+        },
+        {
+            "name": "Barley",
+            "filename": "barley.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["barley", "grain", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Barley Alt",
+            "filename": "barley_alt.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["barley", "grain", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Grass",
+            "filename": "grass.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["grass", "grain", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "status": "redraw",
+            "size": 24
+        },
+        {
+            "name": "Tomato",
+            "filename": "tomato.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["tomato", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "status": "possibly redraw",
+            "size": 24
+        },
+        {
+            "name": "Garlic",
+            "filename": "garlic.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["garlic", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Carrot",
+            "filename": "carrot.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["carrot", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Potato",
+            "filename": "potato.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["potato", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Broccoli",
+            "filename": "broccoli.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["broccoli", "cauliflower", "crop", "farm", "plant", "grow", "feed", "food"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Pepper",
+            "filename": "pepper.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["green", "pepper", "crop", "farm", "plant", "grow", "feed", "food", "spice"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Chili Pepper",
+            "filename": "chili_pepper.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["chili", "pepper", "crop", "farm", "plant", "grow", "feed", "food", "spice", "hot"],
+            "author": "Icons8",
+            "size": 24
+        },
+        {
+            "name": "Sunflower",
+            "filename": "sunflower.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["flower", "crop", "farm", "plant", "grow", "feed", "food", "seed"],
+            "author": "Icons8",
+            "status": "possibly redraw",
+            "size": 24
+        },
+        {
+            "name": "Silo",
+            "filename": "silo.svg",
+            "family": ["Agriculture", "Building"],
+            "style": "baseline",
+            "tags": ["farm", "feed", "food", "grain", "structure"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Pickup Truck",
+            "filename": "pickup_truck.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": [
+                "truck",
+                "pickup",
+                "light-duty",
+                "car",
+                "cargo",
+                "agriculture",
+                "industrial",
+                "transport",
+                "automotive"
+            ],
+            "author": "Green Turtwig, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Forklift",
+            "filename": "forklift.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": ["car", "cargo", "warehouse", "truck", "industrial", "lift", "transport", "automotive"],
+            "author": "Green Turtwig, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Utility Van",
+            "filename": "utility_van.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": [
+                "truck",
+                "van",
+                "light-duty",
+                "car",
+                "cargo",
+                "agriculture",
+                "industrial",
+                "transport",
+                "automotive"
+            ],
+            "author": "Green Turtwig, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Car",
+            "filename": "car.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": ["car", "passenger", "industrial", "residential", "transport", "automotive"],
+            "author": "Green Turtwig, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Sports Car",
+            "filename": "sports_car.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": ["car", "passenger", "industrial", "residential", "transport", "automotive"],
+            "author": "Green Turtwig, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Tractor",
+            "filename": "tractor.svg",
+            "family": ["Vehicles", "Agriculture"],
+            "style": "baseline",
+            "tags": ["car", "agriculture", "transport", "automotive", "farm", "harvest"],
+            "author": "Green Turtwig, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "Combine Harvester",
+            "filename": "combine_harvester.svg",
+            "family": ["Vehicles", "Agriculture"],
+            "style": "baseline",
+            "tags": ["equipment", "agriculture", "transport", "automotive", "farm", "harvest"],
+            "author": "icons8",
+            "size": 24
+        },
+        {
+            "name": "PXBlue",
+            "filename": "pxblue.svg",
+            "family": ["Platform"],
+            "style": "baseline",
+            "tags": [
+                "pxblue",
+                "blue",
+                "power",
+                "xpert",
+                "platform",
+                "ux",
+                "ui",
+                "framework",
+                "ccis",
+                "px",
+                "code",
+                "logo"
+            ],
+            "description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "PXBlue Small",
+            "filename": "pxblue_small.svg",
+            "family": ["Platform"],
+            "style": "baseline",
+            "tags": [
+                "pxblue",
+                "blue",
+                "power",
+                "xpert",
+                "platform",
+                "ux",
+                "ui",
+                "framework",
+                "ccis",
+                "px",
+                "code",
+                "logo"
+            ],
+            "description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "PXBlue Small Alt",
+            "filename": "pxblue_small_alt.svg",
+            "family": ["Platform"],
+            "style": "baseline",
+            "tags": [
+                "pxblue",
+                "blue",
+                "power",
+                "xpert",
+                "platform",
+                "ux",
+                "ui",
+                "framework",
+                "ccis",
+                "px",
+                "code",
+                "logo"
+            ],
+            "description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Studio Blue",
+            "filename": "studioblue.svg",
+            "family": ["Platform"],
+            "style": "baseline",
+            "tags": ["sb", "blue", "platform", "ux", "service", "ccis", "design", "user experience", "graphic", "logo"],
+            "description": "Studio Blue logo icon graphic",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Studio Blue Outlined",
+            "filename": "studioblue_outline.svg",
+            "family": ["Platform"],
+            "style": "outlined",
+            "tags": ["sb", "blue", "platform", "ux", "service", "ccis", "design", "user experience", "graphic", "logo"],
+            "description": "Studio Blue logo icon graphic",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "PXRed",
+            "filename": "pxred.svg",
+            "family": ["Platform"],
+            "style": "baseline",
+            "tags": [
+                "pxred",
+                "red",
+                "power",
+                "xpert",
+                "platform",
+                "framework",
+                "ccis",
+                "px",
+                "code",
+                "logo",
+                "toolkit",
+                "linux"
+            ],
+            "description": "Power Xpert Red icon graphic, redesigned on the Material Design Icon spec",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "PXGreen",
+            "filename": "pxgreen.svg",
+            "family": ["Platform"],
+            "style": "baseline",
+            "tags": [
+                "pxgreen",
+                "green",
+                "power",
+                "xpert",
+                "platform",
+                "framework",
+                "ccis",
+                "px",
+                "code",
+                "logo",
+                "toolkit",
+                "embedded"
+            ],
+            "description": "Power Xpert Green icon graphic, (somewhat) redesigned on the Material Design Icon spec",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "PXWhite",
+            "filename": "pxwhite.svg",
+            "family": ["Platform"],
+            "style": "baseline",
+            "tags": [
+                "pxwhite",
+                "white",
+                "power",
+                "xpert",
+                "platform",
+                "framework",
+                "ccis",
+                "px",
+                "code",
+                "logo",
+                "cloud",
+                "iot"
+            ],
+            "description": "Power Xpert White icon graphic, redesigned on the Material Design Icon spec",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Cybersecurity",
+            "filename": "cybersecurity.svg",
+            "family": ["Platform"],
+            "style": "baseline",
+            "tags": [
+                "security",
+                "secure",
+                "lock",
+                "protection",
+                "certified",
+                "platform",
+                "framework",
+                "ccis",
+                "code",
+                "logo",
+                "cloud",
+                "iot",
+                "technology"
+            ],
+            "description": "Cybersecurity icon graphic, redesigned on the Material Design Icon spec",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Cybersecurity Two Tone",
+            "filename": "cybersecurity_two_tone.svg",
+            "family": ["Platform"],
+            "style": "two-tone",
+            "tags": [
+                "security",
+                "secure",
+                "lock",
+                "protection",
+                "certified",
+                "platform",
+                "framework",
+                "ccis",
+                "code",
+                "logo",
+                "cloud",
+                "iot",
+                "technology"
+            ],
+            "description": "Cybersecurity icon graphic, redesigned on the Material Design Icon spec, includes two-tone traces in the background at 50% opacity",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Baseball",
+            "filename": "baseball.svg",
+            "family": ["Sports"],
+            "style": "baseline",
+            "tags": ["baseball", "sports"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Basketball Hoop",
+            "filename": "basketball_hoop.svg",
+            "family": ["Sports"],
+            "style": "baseline",
+            "tags": ["basketball", "sports"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Boxing Glove",
+            "filename": "boxing_glove.svg",
+            "family": ["Sports"],
+            "style": "baseline",
+            "tags": ["boxing", "sports"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Football Helmet",
+            "filename": "football_helmet.svg",
+            "family": ["Sports"],
+            "style": "baseline",
+            "tags": ["football", "sports"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Hockey Puck",
+            "filename": "hockey_puck.svg",
+            "family": ["Sports"],
+            "style": "baseline",
+            "tags": ["hockey", "sports"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Hockey Sticks",
+            "filename": "hockey_sticks.svg",
+            "family": ["Sports"],
+            "style": "baseline",
+            "tags": ["hockey", "sports"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Tennis",
+            "filename": "tennis.svg",
+            "family": ["Sports"],
+            "style": "baseline",
+            "tags": ["tennis", "sports"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Flower",
+            "filename": "flower.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["flower", "crop", "farm", "plant", "grow", "feed", "food", "seed"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Tulip",
+            "filename": "flower_tulip.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["flower", "crop", "farm", "plant", "grow", "feed", "food", "seed"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Hops",
+            "filename": "hops.svg",
+            "family": ["Agriculture"],
+            "style": "baseline",
+            "tags": ["hops", "crop", "farm", "plant", "grow", "feed", "food", "seed"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Road",
+            "filename": "road.svg",
+            "family": ["transportation"],
+            "style": "baseline",
+            "tags": ["road", "transportation"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Road Alt",
+            "filename": "road_alt.svg",
+            "family": ["transportation"],
+            "style": "baseline",
+            "tags": ["road", "transportation"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Satellite Uplink",
+            "filename": "satellite_uplink.svg",
+            "family": ["communication"],
+            "style": "baseline",
+            "tags": ["satellite", "communication"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Sign Caution",
+            "filename": "sign_caution.svg",
+            "family": ["PPE"],
+            "style": "baseline",
+            "tags": ["communication", "ppe", "caution"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Traffic Light",
+            "filename": "traffic_light.svg",
+            "family": ["communication"],
+            "style": "baseline",
+            "tags": ["communication", "traffic", "light"],
+            "author": "Unknown",
+            "size": 24
+        },
+        {
+            "name": "Departments",
+            "filename": "departments.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["hexagon", "hexagons"],
+            "author": "Austin Andrews",
+            "size": 24
+        },
+        {
+            "name": "Department",
+            "filename": "department.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["hexagon"],
+            "author": "Austin Andrews",
+            "size": 24
+        },
+        {
+            "name": "Piggy Bank",
+            "filename": "piggy_bank.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["save", "savings", "money", "coin"],
+            "author": "Alex Efremo",
+            "size": 24
+        },
+        {
+            "name": "Map Marker Multiple",
+            "filename": "map_marker_multiple.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["pins", "places", "locations"],
+            "author": "Austin Andrews",
+            "size": 24
+        },
+        {
+            "name": "Map Marker Three",
+            "filename": "map_marker_three.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["pins", "places", "locations"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Factory",
+            "filename": "factory.svg",
+            "family": ["industrial"],
+            "style": "baseline",
+            "tags": ["plant", "place", "location"],
+            "author": "Austin Andrews",
+            "size": 24
+        },
+        {
+            "name": "Building",
+            "filename": "building.svg",
+            "family": ["industrial"],
+            "style": "baseline",
+            "tags": ["pins", "places", "locations", "office"],
+            "author": "GreenTurtwig",
+            "size": 24
+        },
+        {
+            "name": "Offline Bolt Outline",
+            "filename": "outline_offline_bolt.svg",
+            "family": ["status"],
+            "style": "outlined",
+            "tags": ["energy", "consumption"],
+            "author": "Google",
+            "size": 24
+        },
 
-		{	
-			"name": "AMI Gateway",
-			"filename": "ami_gateway.svg",
-			"family": [
-				"device"
-			],
-			"style": "baseline",
-			"tags": [
-				"ami",
-				"gateway",
-				"cellular",
-				"control xpert"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "AMI Gateway",
+            "filename": "ami_gateway.svg",
+            "family": ["device"],
+            "style": "baseline",
+            "tags": ["ami", "gateway", "cellular", "control xpert"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Voltage AC",
-			"filename": "voltage_ac.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"voltage",
-				"volts",
-				"ac"
-			],
-			"description": "Used to represent AC voltage in volts",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Voltage AC",
+            "filename": "voltage_ac.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["voltage", "volts", "ac"],
+            "description": "Used to represent AC voltage in volts",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Voltage DC",
-			"filename": "voltage_dc.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"voltage",
-				"volts",
-				"dc"
-			],
-			"description": "Used to represent DC voltage in volts",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Voltage DC",
+            "filename": "voltage_dc.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["voltage", "volts", "dc"],
+            "description": "Used to represent DC voltage in volts",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Current AC",
-			"filename": "current_ac.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"current",
-				"amps",
-				"ac"
-			],
-			"description": "Used to represent AC current in amps",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Current AC",
+            "filename": "current_ac.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["current", "amps", "ac"],
+            "description": "Used to represent AC current in amps",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Current DC",
-			"filename": "current_dc.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"current",
-				"amps",
-				"dc"
-			],
-			"description": "Used to represent DC current in amps",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Current DC",
+            "filename": "current_dc.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["current", "amps", "dc"],
+            "description": "Used to represent DC current in amps",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "AC",
-			"filename": "ac.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"ac",
-				"current",
-				"alternating current"
-			],
-			"description": "Used to represent Alternating Current (AC)",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "AC",
+            "filename": "ac.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["ac", "current", "alternating current"],
+            "description": "Used to represent Alternating Current (AC)",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "DC",
-			"filename": "dc.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"dc",
-				"current",
-				"direct current"
-			],
-			"description": "Used to represent Direct Current (DC)",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "DC",
+            "filename": "dc.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["dc", "current", "direct current"],
+            "description": "Used to represent Direct Current (DC)",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Power AC",
-			"filename": "power_ac.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"power",
-				"ac",
-				"watts"
-			],
-			"description": "Used to represent AC power in watts",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Power AC",
+            "filename": "power_ac.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["power", "ac", "watts"],
+            "description": "Used to represent AC power in watts",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Power DC",
-			"filename": "power_dc.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"power",
-				"dc",
-				"watts"
-			],
-			"description": "Used to represent DC power in watts",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Power DC",
+            "filename": "power_dc.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["power", "dc", "watts"],
+            "description": "Used to represent DC power in watts",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Power Apparent AC",
-			"filename": "power_apparent_ac.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"power",
-				"apparent",
-				"ac",
-				"volt-amps"
-			],
-			"description": "Used to represent AC power in volt-amps",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Power Apparent AC",
+            "filename": "power_apparent_ac.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["power", "apparent", "ac", "volt-amps"],
+            "description": "Used to represent AC power in volt-amps",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Line to Line",
-			"filename": "line_to_line.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"line",
-				"average",
-				"compare"
-			],
-			"description": "Used to represent measuring or comparing line-to-line (l-l)",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Line to Line",
+            "filename": "line_to_line.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["line", "average", "compare"],
+            "description": "Used to represent measuring or comparing line-to-line (l-l)",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Line to Neutral",
-			"filename": "line_to_neutral.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"line",
-				"neutral",
-				"average",
-				"compare"
-			],
-			"description": "Used to represent measuring or comparing line-to-neutral (l-n)",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Line to Neutral",
+            "filename": "line_to_neutral.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["line", "neutral", "average", "compare"],
+            "description": "Used to represent measuring or comparing line-to-neutral (l-n)",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Device Activating",
-			"filename": "device_activating.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"device",
-				"activating",
-				"cellular",
-				"pairing",
-				"syncing",
-				"gateway"
-			],
-			"description": "Used to represent a device Activating or communicating",
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Device Activating",
+            "filename": "device_activating.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["device", "activating", "cellular", "pairing", "syncing", "gateway"],
+            "description": "Used to represent a device Activating or communicating",
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Distance Apart",
-			"filename": "distance_apart.svg",
-			"family": [
-				"status"
-			],
-			"style": "baseline",
-			"tags": [
-				"distance",
-				"social",
-				"distancing",
-				"proximity"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Distance Apart",
+            "filename": "distance_apart.svg",
+            "family": ["status"],
+            "style": "baseline",
+            "tags": ["distance", "social", "distancing", "proximity"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "iPPE Vibrate",
-			"filename": "ippe_vibrate.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "baseline",
-			"tags": [
-				"ppe",
-				"distance",
-				"social",
-				"distancing",
-				"proximity",
-				"haptic",
-				"motor",
-				"vibration"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		{	
-			"name": "iPPE Vibrate Outlined",
-			"filename": "ippe_vibrate_outlined.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "outlined",
-			"tags": [
-				"ppe",
-				"distance",
-				"social",
-				"distancing",
-				"proximity",
-				"haptic",
-				"motor",
-				"vibration"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "iPPE Vibrate",
+            "filename": "ippe_vibrate.svg",
+            "family": ["ppe"],
+            "style": "baseline",
+            "tags": ["ppe", "distance", "social", "distancing", "proximity", "haptic", "motor", "vibration"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "iPPE Vibrate Outlined",
+            "filename": "ippe_vibrate_outlined.svg",
+            "family": ["ppe"],
+            "style": "outlined",
+            "tags": ["ppe", "distance", "social", "distancing", "proximity", "haptic", "motor", "vibration"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "iPPE Vibrate Off",
-			"filename": "ippe_vibrate_off.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "baseline",
-			"tags": [
-				"ppe",
-				"distance",
-				"social",
-				"distancing",
-				"proximity",
-				"haptic",
-				"motor",
-				"vibration"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "iPPE Vibrate Off",
+            "filename": "ippe_vibrate_off.svg",
+            "family": ["ppe"],
+            "style": "baseline",
+            "tags": ["ppe", "distance", "social", "distancing", "proximity", "haptic", "motor", "vibration"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Safety Boot",
-			"filename": "safety_boot.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "baseline",
-			"tags": [
-				"ppe",
-				"footwear",
-				"shoe",
-				"boot",
-				"metatarsal",
-				"boot",
-				"foot",
-				"safe"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Safety Boot",
+            "filename": "safety_boot.svg",
+            "family": ["ppe"],
+            "style": "baseline",
+            "tags": ["ppe", "footwear", "shoe", "boot", "metatarsal", "boot", "foot", "safe"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Safety Glasses",
-			"filename": "safety_glasses.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "baseline",
-			"tags": [
-				"ppe",
-				"eyewear",
-				"eye",
-				"goggles",
-				"safe"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Safety Glasses",
+            "filename": "safety_glasses.svg",
+            "family": ["ppe"],
+            "style": "baseline",
+            "tags": ["ppe", "eyewear", "eye", "goggles", "safe"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{	
-			"name": "Hearing Protection",
-			"filename": "hearing_protection.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "baseline",
-			"tags": [
-				"ppe",
-				"hearing",
-				"ear",
-				"noise",
-				"sound",
-				"loud",
-				"safe"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
+        {
+            "name": "Hearing Protection",
+            "filename": "hearing_protection.svg",
+            "family": ["ppe"],
+            "style": "baseline",
+            "tags": ["ppe", "hearing", "ear", "noise", "sound", "loud", "safe"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
 
-		{
-			"name": "Glasses",
-			"filename": "glasses.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "baseline",
-			"tags": [
-				"glasses",
-				"eye",
-				"sunglasses",
-				"ppe"
-			],
-			"author": "Unknown",
-			"size": 24
-		},
+        {
+            "name": "Glasses",
+            "filename": "glasses.svg",
+            "family": ["ppe"],
+            "style": "baseline",
+            "tags": ["glasses", "eye", "sunglasses", "ppe"],
+            "author": "Unknown",
+            "size": 24
+        },
 
-		{
-			"name": "Glass Divider",
-			"filename": "glass_divider.svg",
-			"family": [
-				"ppe"
-			],
-			"style": "baseline",
-			"tags": [
-				"plexiglass",
-				"barrier",
-				"divider",
-				"social distancing",
-				"between",
-				"separate"
-			],
-			"author": "Eric Atha (PX Blue)",
-			"size": 24
-		},
-		
-		{
-			"name": "Eaton Logo",
-			"filename": "eaton.svg",
-			"family": [
-				"Platforms"
-			],
-			"style": "baseline",
-			"tags": [
-				"eaton",
-				"logo"
-			],
-			"author": "Eaton",
-			"size": 24
-		}
-		,
-		{
-			"name": "Eaton Logo with Tagline",
-			"filename": "eaton_tagline.svg",
-			"family": [
-				"Platforms"
-			],
-			"style": "baseline",
-			"tags": [
-				"eaton",
-				"logo"
-			],
-			"author": "Eaton",
-			"size": 24
-		}
-		,
-		{
-			"name": "Eaton Logo Two Tone",
-			"filename": "eaton_two_tone.svg",
-			"family": [
-				"Platforms"
-			],
-			"style": "two-tone",
-			"tags": [
-				"eaton",
-				"logo"
-			],
-			"author": "Eaton",
-			"size": 24
-        }
-        ,
+        {
+            "name": "Glass Divider",
+            "filename": "glass_divider.svg",
+            "family": ["ppe"],
+            "style": "baseline",
+            "tags": ["plexiglass", "barrier", "divider", "social distancing", "between", "separate"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+
+        {
+            "name": "Eaton Logo",
+            "filename": "eaton.svg",
+            "family": ["Platforms"],
+            "style": "baseline",
+            "tags": ["eaton", "logo"],
+            "author": "Eaton",
+            "size": 24
+        },
+        {
+            "name": "Eaton Logo with Tagline",
+            "filename": "eaton_tagline.svg",
+            "family": ["Platforms"],
+            "style": "baseline",
+            "tags": ["eaton", "logo"],
+            "author": "Eaton",
+            "size": 24
+        },
+        {
+            "name": "Eaton Logo Two Tone",
+            "filename": "eaton_two_tone.svg",
+            "family": ["Platforms"],
+            "style": "two-tone",
+            "tags": ["eaton", "logo"],
+            "author": "Eaton",
+            "size": 24
+        },
         {
             "name": "Dimmer",
             "filename": "dimmer.svg",
-            "family": [
-                "Lighting"
-            ],
+            "family": ["Lighting"],
             "style": "baseline",
-            "tags": [
-                "light",
-                "energy"
-            ],
+            "tags": ["light", "energy"],
             "author": "Huayun Huang (PX Blue)",
             "size": 24
-        }
-        ,
+        },
         {
             "name": "Light Switch",
             "filename": "light_switch.svg",
-            "family": [
-                "Lighting"
-            ],
+            "family": ["Lighting"],
             "style": "baseline",
-            "tags": [
-                "light",
-                "energy"
-            ],
+            "tags": ["light", "energy"],
             "author": "Google",
             "size": 24
-        }
-        ,
+        },
         {
             "name": "Outlet",
             "filename": "outlet.svg",
-            "family": [
-                "Lighting"
-            ],
+            "family": ["Lighting"],
             "style": "baseline",
-            "tags": [
-                "light",
-                "energy",
-                "power"
-            ],
+            "tags": ["light", "energy", "power"],
             "author": "GreenTurtwig",
             "size": 24
-        }
-        ,
+        },
         {
             "name": "Light Bulb",
             "filename": "light_bulb.svg",
-            "family": [
-                "Lighting"
-            ],
+            "family": ["Lighting"],
             "style": "baseline",
-            "tags": [
-                "light",
-                "energy"
-            ],
+            "tags": ["light", "energy"],
             "author": "Google",
             "size": 24
-        }
-        ,
+        },
         {
             "name": "Ceiling Light",
             "filename": "ceiling_light.svg",
-            "family": [
-                "Lighting"
-            ],
+            "family": ["Lighting"],
             "style": "baseline",
-            "tags": [
-                "light",
-                "energy"
-            ],
+            "tags": ["light", "energy"],
             "author": "GreenTurtwig",
             "size": 24
         },
         {
             "name": "Account Settings",
             "filename": "account_settings.svg",
-            "family": [
-                "General"
-            ],
+            "family": ["General"],
             "style": "baseline",
-            "tags": [
-                "account",
-				"settings",
-				"person"
-            ],
+            "tags": ["account", "settings", "person"],
             "author": "Michael Irigoyen",
             "size": 24
         },
         {
             "name": "Internet",
             "filename": "internet.svg",
-            "family": [
-				"general"
-            ],
+            "family": ["general"],
             "style": "baseline",
-            "tags": [
-                "general",
-				"network",
-				"net"
-            ],
+            "tags": ["general", "network", "net"],
             "author": "Simran",
             "size": 24
         },
         {
             "name": "Lock Reset",
             "filename": "lock_reset.svg",
-            "family": [
-                "General"
-            ],
+            "family": ["General"],
             "style": "baseline",
-            "tags": [
-                "lock",
-				"reset",
-				"password",
-				"secure"
-            ],
+            "tags": ["lock", "reset", "password", "secure"],
             "author": "Google",
             "size": 24
+        },
+        {
+            "name": "Face ID",
+            "filename": "face_id.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["unlock", "face", "scan", "ios", "apple"],
+            "author": "Apple",
+            "size": 24
+        },
+        {
+            "name": "Apple Logo",
+            "filename": "apple_logo.svg",
+            "family": ["Companies"],
+            "style": "baseline",
+            "tags": ["ios", "macos", "mac", "homekit", "apple"],
+            "author": "Apple",
+            "size": 24
+        },
+        {
+            "name": "Google",
+            "filename": "google.svg",
+            "family": ["Companies"],
+            "style": "baseline",
+            "tags": ["google", "google home"],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Amazon",
+            "filename": "amazon.svg",
+            "family": ["Companies"],
+            "style": "baseline",
+            "tags": ["amazon", "alexa", "prime"],
+            "author": "Amazon",
+            "size": 24
+        },
+        {
+            "name": "Amazon Alexa",
+            "filename": "amazon_alexa.svg",
+            "family": ["Companies"],
+            "style": "baseline",
+            "tags": ["amazon", "alexa"],
+            "author": "Amazon",
+            "size": 24
+        },
+        {
+            "name": "Pressure",
+            "filename": "pressure.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["pressure", "gauge", "psi", "pipe"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Pressure Alternate",
+            "filename": "pressure_alt.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["pressure", "gauge", "psi", "pipe"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
         }
-
-	]
+    ]
 }

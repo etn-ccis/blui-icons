@@ -65,3 +65,93 @@ jobs:
                       cd progress
                       yarn test:demos
                       cd ..
+            - persist_to_workspace:
+                  root: .
+                  paths:
+                    - iconfont
+                    - svg
+                    - symbols
+                    - progress/angular/dist
+                    - progress/react/icons/dist
+
+    publish:
+      docker:
+        - image: circleci/node:12.9.1-browsers
+      steps:
+        - checkout
+        - attach_workspace:
+            at: .
+        - run:
+            name: Authenticate with registry
+            command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+        - run:
+            name: Publish @pxblue/icons
+            command:  |
+              MASTER_VERSION=`node -p "require('./package.json').version"`
+              NPM_LATEST_VERSION=`npm show @pxblue/icons version`
+              if ! [ $MASTER_VERSION == $NPM_LATEST_VERSION ];
+              then
+                  npm publish
+              else
+                  echo "Latest version is already published."
+              fi
+        - run:
+            name: Publish @pxblue/symbols
+            command:  |
+              cd symbols
+              MASTER_VERSION=`node -p "require('./package.json').version"`
+              NPM_LATEST_VERSION=`npm show @pxblue/symbols version`
+              if ! [ $MASTER_VERSION == $NPM_LATEST_VERSION ];
+              then
+                  npm publish
+              else
+                  echo "Latest version is already published."
+              fi
+        - run:
+            name: Publish @pxblue/icons-svg
+            command:  |
+              cd svg
+              MASTER_VERSION=`node -p "require('./package.json').version"`
+              NPM_LATEST_VERSION=`npm show @pxblue/icons-svg version`
+              if ! [ $MASTER_VERSION == $NPM_LATEST_VERSION ];
+              then
+                  npm publish
+              else
+                  echo "Latest version is already published."
+              fi
+        - run:
+            name: Publish @pxblue/ng-progress-icons
+            command:  |
+              cd progress/angular/dist
+              MASTER_VERSION=`node -p "require('./package.json').version"`
+              NPM_LATEST_VERSION=`npm show @pxblue/ng-progress-icons version`
+              if ! [ $MASTER_VERSION == $NPM_LATEST_VERSION ];
+              then
+                  npm publish
+              else
+                  echo "Latest version is already published."
+              fi
+        - run:
+            name: Publish @pxblue/react-progress-icons
+            command:  |
+              cd progress/react/icons/dist
+              MASTER_VERSION=`node -p "require('./package.json').version"`
+              NPM_LATEST_VERSION=`npm show @pxblue/react-progress-icons version`
+              if ! [ $MASTER_VERSION == $NPM_LATEST_VERSION ];
+              then
+                  npm publish
+              else
+                  echo "Latest version is already published."
+              fi
+workflows:
+  version: 2
+  icons-mui:
+    jobs:
+      - build
+      - publish:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master

@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.2.0
+
+### Added
+
+-   Brand logos: Amazon, Amazon Alexa, Apple, and Google.
+-   Industrial icons: Pressure and Pressure Alt.
+-   System icon: Face ID.
+
 ## v1.1.2
 
 ### Fixed
@@ -27,14 +35,15 @@
 ## v1.0.26
 
 ### Changed
+
 -   Renamed road_variant to road_alt for consistency
 
+### Fixed
 
-### Fixed 
 -   Fixed a few alignment and color issues
 
 ## v1.0.24
 
-### Added 
+### Added
 
 -   New icons for Department, Departments, Building, Factory, Map Markers, Piggy Bank
