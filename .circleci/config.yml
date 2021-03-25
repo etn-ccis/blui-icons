@@ -134,7 +134,7 @@ jobs:
         - run:
             name: Publish @pxblue/react-progress-icons
             command:  |
-              cd progress/react/icons/dist
+              cd progress/react/icons
               MASTER_VERSION=`node -p "require('./package.json').version"`
               NPM_LATEST_VERSION=`npm show @pxblue/react-progress-icons version`
               if ! [ $MASTER_VERSION == $NPM_LATEST_VERSION ];
@@ -145,7 +145,7 @@ jobs:
               fi
 workflows:
   version: 2
-  icons-mui:
+  icons:
     jobs:
       - build
       - publish:
