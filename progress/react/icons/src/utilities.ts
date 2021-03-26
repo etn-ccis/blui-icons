@@ -1,6 +1,6 @@
 // if a value VALUE is outside the range, rangeValue(VALUE, min, max)
 // will return the closest point to VALUE in the range [min, max]
-export const rangeValue = function(value: number, min: number, max: number): number {
+export const rangeValue = function (value: number, min: number, max: number): number {
     return Math.max(min, Math.min(value, max));
 };
 
