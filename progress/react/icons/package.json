@@ -22,7 +22,7 @@
         "react-dom": ">=16.8.6"
     },
     "devDependencies": {
-        "@pxblue/eslint-config": "2.0.0",
+        "@pxblue/eslint-config": "^2.0.0",
         "@pxblue/prettier-config": "^1.0.2",
         "@types/color": "^3.0.1",
         "@types/jest": "^26.0.0",
