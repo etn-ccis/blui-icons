@@ -1575,10 +1575,10 @@
     color "^3.1.2"
     react-jss "^10.4.0"
 
-"@pxblue/react-themes@^6.0.0-beta.3":
-  version "6.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@pxblue/react-themes/-/react-themes-6.0.0-beta.3.tgz#bb4332d8629789f4ca036203720be5dc32e2ac81"
-  integrity sha512-zFOpRG2Lcr426LPATK3tnGvrOy9m8NHJnznVumEkqcxjh3AS2Z83iFyqr8Ovh2Cvv9x33zpa+WBm1mTC3QCn5A==
+"@pxblue/react-themes@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@pxblue/react-themes/-/react-themes-6.0.0.tgz#35ce84165263d8721bde638ed594f820c408727c"
+  integrity sha512-KiDJjMK3Dg45VayemC+NNIPAXA0kX0ExrBcln4wYn/yVfzH9/fK5GZF1yya6i3LWgHJYQo40Z6dCluFgn0GzvQ==
   dependencies:
     "@fontsource/open-sans" "^4.2.2"
     "@pxblue/colors" "^3.0.0"
