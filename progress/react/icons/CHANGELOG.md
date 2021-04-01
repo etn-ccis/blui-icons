@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.1.1
+
+### Added 
+-   Peer dependency support for React 17
+
 ## v2.1.0
 
 ### Added 
