@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.2.0
+## v1.2.0 (March 25, 2021)
 
 ### Added
 
@@ -8,20 +8,20 @@
 -   Industrial icons: Pressure and Pressure Alt.
 -   System icon: Face ID.
 
-## v1.1.2
+## v1.1.2 (January 11, 2021)
 
 ### Fixed
 
 -   Mildly crooked vector path in Department and Departments icons
 -   Wrong ratio in the Eaton logos
 
-## v1.1.1
+## v1.1.1 (December 10, 2020)
 
 ### Fixed
 
 -   Missing icon metadata in the index file
 
-## v1.1.0
+## v1.1.0 (September 30, 2020)
 
 ### Added
 
@@ -32,7 +32,7 @@
 -   PPE icons for Hearing Protection, Safety Boot, Safety Glasses, and Distance Apart.
 -   Device icons for AMI Gateway, IPPE Vibrate, IPPE Vibrate Off, IPPE Vibrate Outlined, and Device Activating.
 
-## v1.0.26
+## v1.0.26 (July 2, 2020)
 
 ### Changed
 
@@ -42,7 +42,7 @@
 
 -   Fixed a few alignment and color issues
 
-## v1.0.24
+## v1.0.24 (September 27, 2019)
 
 ### Added
 
