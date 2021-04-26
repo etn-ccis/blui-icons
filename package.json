@@ -23,7 +23,8 @@
         "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons' && create-svg-sprite --optimize --input './symbols' --output './symbols' --name 'symbols'",
         "build": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb && yarn sprites && yarn index",
         "build:progress": "cd progress && yarn build:all",
-        "build:all": "yarn && yarn build && yarn build:progress"
+        "build:all": "yarn && yarn build && yarn build:progress",
+        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
     },
     "files": [
         "iconfont",
