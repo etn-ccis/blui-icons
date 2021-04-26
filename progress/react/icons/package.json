@@ -9,7 +9,8 @@
         "lint": "eslint \"src/**/**.tsx\"",
         "lint:fix": "eslint \"src/**/**.tsx\" --fix",
         "prettier": "prettier \"src/**/**.{ts,tsx,js,jsx,json,css,scss,html}\" --write",
-        "prettier:check": "prettier \"src/**/**.{ts,tsx,js,jsx,json,css,scss,html}\" --check"
+        "prettier:check": "prettier \"src/**/**.{ts,tsx,js,jsx,json,css,scss,html}\" --check",
+        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
     },
     "prettier": "@pxblue/prettier-config",
     "dependencies": {
