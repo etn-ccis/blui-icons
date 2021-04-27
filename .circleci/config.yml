@@ -97,7 +97,7 @@ jobs:
             command: cd svg && yarn publish:package
         - run:
             name: Publish @pxblue/ng-progress-icons
-            command: cd progress/angular && yarn publish:package
+            command: cd progress/angular/components && yarn publish:package
         - run:
             name: Publish @pxblue/react-progress-icons
             command: cd progress/react/icons && yarn publish:package
