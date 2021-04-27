@@ -88,19 +88,19 @@ jobs:
               echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
         - run:
             name: Publish @pxblue/icons
-            command: yarn publish:package
+            command: yarn publish:package -b $CIRCLE_BRANCH
         - run:
             name: Publish @pxblue/symbols
-            command: cd symbols &&  yarn publish:package
+            command: cd symbols &&  yarn publish:package -b $CIRCLE_BRANCH
         - run:
             name: Publish @pxblue/icons-svg
-            command: cd svg && yarn publish:package
+            command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
         - run:
             name: Publish @pxblue/ng-progress-icons
-            command: cd progress/angular/components && yarn publish:package
+            command: cd progress/angular/components && yarn publish:package -b $CIRCLE_BRANCH
         - run:
             name: Publish @pxblue/react-progress-icons
-            command: cd progress/react/icons && yarn publish:package
+            command: cd progress/react/icons && yarn publish:package -b $CIRCLE_BRANCH
 workflows:
   version: 2
   icons:
