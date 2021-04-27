@@ -11,7 +11,7 @@
         "prettier:check": "prettier \"src/**/**.{ts,tsx,js,jsx,json,css,scss,html}\" --check",
         "lint": "eslint \"src/**/**.ts\"",
         "lint:fix": "eslint \"src/**/**.ts\" --fix",
-        "publish:package": "cd dist && set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
+        "publish:package": "cd ../dist && set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
     },
     "dependencies": {
         "color": "^3.1.2"
