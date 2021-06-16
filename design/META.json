@@ -2169,6 +2169,42 @@
             "tags": ["pressure", "gauge", "psi", "pipe"],
             "author": "Eric Atha (PX Blue)",
             "size": 24
+        },
+        {
+            "name": "Battery Reset",
+            "filename": "battery_reset.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "test", "reset"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Battery Reset Outline",
+            "filename": "battery_reset_outline.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "test", "reset", "outline"],
+            "author": "Santak",
+            "size": 24
+        },
+        {
+            "name": "Battery Large",
+            "filename": "battery_large.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery"],
+            "author": "Santak",
+            "size": 24
+        },
+        {
+            "name": "Technician",
+            "filename": "technician.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["technician", "electrician", "service", "person", "account hard hat"],
+            "author": "Austin Andrews",
+            "size": 24
         }
     ]
 }
