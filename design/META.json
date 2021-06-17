@@ -2185,7 +2185,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["battery", "test", "reset", "outline"],
-            "author": "Santak",
+            "author": "Amy Deng",
             "size": 24
         },
         {
@@ -2194,7 +2194,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["battery"],
-            "author": "Santak",
+            "author": "Amy Deng",
             "size": 24
         },
         {
