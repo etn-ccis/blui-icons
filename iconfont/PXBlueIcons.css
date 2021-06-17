@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?ae7b8a33e70d29b7c33f8d04c3800f3b?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?ae7b8a33e70d29b7c33f8d04c3800f3b") format("woff2"),
-url("./PXBlueIcons.woff?ae7b8a33e70d29b7c33f8d04c3800f3b") format("woff"),
-url("./PXBlueIcons.ttf?ae7b8a33e70d29b7c33f8d04c3800f3b") format("truetype"),
-url("./PXBlueIcons.svg?ae7b8a33e70d29b7c33f8d04c3800f3b#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?70595a8f6da41f4b305f65fad8486c60?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?70595a8f6da41f4b305f65fad8486c60") format("woff2"),
+url("./PXBlueIcons.woff?70595a8f6da41f4b305f65fad8486c60") format("woff"),
+url("./PXBlueIcons.ttf?70595a8f6da41f4b305f65fad8486c60") format("truetype"),
+url("./PXBlueIcons.svg?70595a8f6da41f4b305f65fad8486c60#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -66,10 +66,10 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-battery_large:before {
     content: "\f110";
 }
-.pxb-battery_reset:before {
+.pxb-battery_large_reset:before {
     content: "\f111";
 }
-.pxb-battery_reset_outline:before {
+.pxb-battery_large_reset_outline:before {
     content: "\f112";
 }
 .pxb-bearing:before {

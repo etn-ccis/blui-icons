@@ -2171,8 +2171,8 @@
             "size": 24
         },
         {
-            "name": "Battery Reset",
-            "filename": "battery_reset.svg",
+            "name": "Battery Large Reset",
+            "filename": "battery_large_reset.svg",
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["battery", "test", "reset"],
@@ -2180,8 +2180,8 @@
             "size": 24
         },
         {
-            "name": "Battery Reset Outline",
-            "filename": "battery_reset_outline.svg",
+            "name": "Battery Large Reset Outline",
+            "filename": "battery_large_reset_outline.svg",
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["battery", "test", "reset", "outline"],
@@ -2203,7 +2203,7 @@
             "family": ["General"],
             "style": "baseline",
             "tags": ["technician", "electrician", "service", "person", "account hard hat"],
-            "author": "Austin Andrews",
+            "author": "Austin Andrews, materialdesignicons.com",
             "size": 24
         }
     ]
