@@ -2175,7 +2175,7 @@
             "filename": "battery_large_reset.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery", "test", "reset"],
+            "tags": ["battery", "test", "reset", "large battery"],
             "author": "Huayun Huang (PX Blue)",
             "size": 24
         },
@@ -2184,8 +2184,17 @@
             "filename": "battery_large_reset_outline.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery", "test", "reset", "outline"],
-            "author": "Amy Deng",
+            "tags": ["battery", "test", "reset", "outline", "large battery"],
+            "author": "Amy Deng (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Battery Large Showing Terminal",
+            "filename": "battery_large_showing_terminal.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "terminal", "large battery"],
+            "author": "Amy Deng (PX Blue)",
             "size": 24
         },
         {
@@ -2193,8 +2202,17 @@
             "filename": "battery_large.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery"],
-            "author": "Amy Deng",
+            "tags": ["battery", "large battery"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Battery Large Outline",
+            "filename": "battery_large_outline.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "large battery"],
+            "author": "Huayun Huang (PX Blue)",
             "size": 24
         },
         {
