@@ -4,7 +4,7 @@
 
 ### Added
 
--   Device icons: Battery Reset, Battery Reset Outline and Battery Large
+-   Device icons: Battery Large, Battery Large Outline, Battery Large Reset, Battery Large Reset Outline and Battery Large Showing Terminals
 -   General icons: Technician
 
 ## v1.2.0 (March 25, 2021)

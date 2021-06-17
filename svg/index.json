@@ -2189,11 +2189,11 @@
             "size": 24
         },
         {
-            "name": "Battery Large Showing Terminal",
-            "filename": "battery_large_showing_terminal.svg",
+            "name": "Battery Large Showing Terminals",
+            "filename": "battery_large_showing_terminals.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery", "terminal", "large battery"],
+            "tags": ["battery", "terminal", "terminals", "large battery"],
             "author": "Amy Deng (PX Blue)",
             "size": 24
         },

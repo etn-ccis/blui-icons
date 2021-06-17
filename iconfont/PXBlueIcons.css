@@ -1,10 +1,10 @@
 @font-face {
     font-family: "PXBlueIcons";
-    src: url("./PXBlueIcons.eot?9c0394f689b26fe21522cb0452d5234a?#iefix") format("embedded-opentype"),
-url("./PXBlueIcons.woff2?9c0394f689b26fe21522cb0452d5234a") format("woff2"),
-url("./PXBlueIcons.woff?9c0394f689b26fe21522cb0452d5234a") format("woff"),
-url("./PXBlueIcons.ttf?9c0394f689b26fe21522cb0452d5234a") format("truetype"),
-url("./PXBlueIcons.svg?9c0394f689b26fe21522cb0452d5234a#PXBlueIcons") format("svg");
+    src: url("./PXBlueIcons.eot?a4e900e2406773af98e2a813fa12f6f1?#iefix") format("embedded-opentype"),
+url("./PXBlueIcons.woff2?a4e900e2406773af98e2a813fa12f6f1") format("woff2"),
+url("./PXBlueIcons.woff?a4e900e2406773af98e2a813fa12f6f1") format("woff"),
+url("./PXBlueIcons.ttf?a4e900e2406773af98e2a813fa12f6f1") format("truetype"),
+url("./PXBlueIcons.svg?a4e900e2406773af98e2a813fa12f6f1#PXBlueIcons") format("svg");
 }
 
 i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
@@ -75,7 +75,7 @@ i[class^="pxb-"]:before, i[class*=" pxb-"]:before {
 .pxb-battery_large_reset_outline:before {
     content: "\f113";
 }
-.pxb-battery_large_showing_terminal:before {
+.pxb-battery_large_showing_terminals:before {
     content: "\f114";
 }
 .pxb-bearing:before {
