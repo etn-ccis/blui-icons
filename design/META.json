@@ -2169,6 +2169,60 @@
             "tags": ["pressure", "gauge", "psi", "pipe"],
             "author": "Eric Atha (PX Blue)",
             "size": 24
+        },
+        {
+            "name": "Battery Large Reset",
+            "filename": "battery_large_reset.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "test", "reset", "large battery"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Battery Large Reset Outline",
+            "filename": "battery_large_reset_outline.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "test", "reset", "outline", "large battery"],
+            "author": "Amy Deng (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Battery Large Showing Terminals",
+            "filename": "battery_large_showing_terminals.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "terminal", "terminals", "large battery"],
+            "author": "Amy Deng (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Battery Large",
+            "filename": "battery_large.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "large battery"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Battery Large Outline",
+            "filename": "battery_large_outline.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["battery", "large battery"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Technician",
+            "filename": "technician.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["technician", "electrician", "service", "person", "account hard hat"],
+            "author": "Austin Andrews, materialdesignicons.com",
+            "size": 24
         }
     ]
 }

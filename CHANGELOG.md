@@ -1,10 +1,17 @@
 # Changelog
 
+## v1.3.0 (not published)
+
+### Added
+
+-   Device icons: Battery Large, Battery Large Outline, Battery Large Reset, Battery Large Reset Outline and Battery Large Showing Terminals
+-   General icons: Technician
+
 ## v1.2.0 (March 25, 2021)
 
 ### Added
 
--   Brand logos: Amazon, Amazon Alexa, Apple, and Google.
+-   Brand logos: Amazon, Amazon Alexa, Apple Logo and Google.
 -   Industrial icons: Pressure and Pressure Alt.
 -   System icon: Face ID.
 
