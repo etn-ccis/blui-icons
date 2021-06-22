@@ -2175,7 +2175,7 @@
             "filename": "battery_large_reset.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery", "test", "reset", "large battery"],
+            "tags": ["battery", "test", "reset", "large battery", "lead acid", "batteries"],
             "author": "Huayun Huang (PX Blue)",
             "size": 24
         },
@@ -2184,7 +2184,7 @@
             "filename": "battery_large_reset_outline.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery", "test", "reset", "outline", "large battery"],
+            "tags": ["battery", "test", "reset", "outline", "large battery", "lead acid", "batteries"],
             "author": "Amy Deng (PX Blue)",
             "size": 24
         },
@@ -2193,7 +2193,7 @@
             "filename": "battery_large_showing_terminals.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery", "terminal", "terminals", "large battery"],
+            "tags": ["battery", "terminal", "terminals", "large battery", "lead acid", "batteries"],
             "author": "Amy Deng (PX Blue)",
             "size": 24
         },
@@ -2202,7 +2202,7 @@
             "filename": "battery_large.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery", "large battery"],
+            "tags": ["battery", "large battery", "lead acid", "batteries"],
             "author": "Huayun Huang (PX Blue)",
             "size": 24
         },
@@ -2211,7 +2211,7 @@
             "filename": "battery_large_outline.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["battery", "large battery"],
+            "tags": ["battery", "large battery", "lead acid", "batteries"],
             "author": "Huayun Huang (PX Blue)",
             "size": 24
         },
