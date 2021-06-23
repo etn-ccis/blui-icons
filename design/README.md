@@ -1,6 +1,6 @@
 # Power Xpert Blue Icons
 
-This repository contains icon files for Power Xpert Blue. These icons are grouped into 'family' folders of related icons. Family folders follow a similar naming convention to Material Design, e.g., **Status** and **Devices**. Each icon should be available as a clean, minified SVG file. You may optionally include a source (AI) file for the icon as well - it may be beneficial to group families of icons into a single AI file.
+This repository contains icon files for Power Xpert Blue. These icons are grouped into 'family' folders of related icons. Family folders follow a similar naming convention to Material Design, e.g., **Status** and **Devices**. Each icon should be available as a clean, minified SVG file. You may optionally include a source (AI) file for the icon as well - it may be beneficial to group families of icons into a single AI file. Each icon SVG file will need converted to PNG icons files so the icons are available in two formats.
 
 ## Icon Approval
 
@@ -45,6 +45,48 @@ Select the following options from the export dialog:
 
 Icon SVGs should follow the naming convention of just using an icon name (e.g. `device`). If the name of an icon has more than one word, the name must have an underscore between each word (e.g. `battery_full`). Do not use dashes. Do not use prefixes or suffixes - these will be automatically applied as part of the build process.
 
+## PNG Icons
+
+Power Xpert Blue offers matching PNG icons for each SVG icon in this repository, located in the PNG folders. Each SVG icon is converted to PNG format in four colors and two sizes of 24dp and 48dp.
+
+Colors:
+```
+Blue 500 #007bc1
+Black 500 #424e54
+Gray 500 #727e84
+White 50 #ffffff
+```
+Size:
+```
+24dp and 48dp
+```
+
+PNG icons can be created using your favorite tool of choice or if you're comfortable you can choose to use the NPM package and the steps below. For complete usage and documentation look at [convert-svg-to-png](https://www.npmjs.com/package/convert-svg-to-png) page.
+
+## Installation
+
+```
+yarn global add convert-svg-to-png
+```
+## Convert-SVG-To-PNG cli quick steps
+First change the default SVG icon colors.
+- Update the path to include ```<path fill="your-hex-color"```
+- Find and replace in your IDE works for this or your favorite tool.
+- Caution that some SVG's have multiple paths and can require addtional fill colors.
+
+To create PNG icons from existing SVG icons in the same directory at a height and width of 24dp.
+
+Convert one specific SVG icon to a PNG icon.
+- Open terminal and change directories to the location of SVG files.
+- Run ```convert-svg-to-png <file-name>.svg --height 24 --width 24 --scale 1```
+- The original SVG icon file will not be changed and new file with the same name will be created in PNG format.
+- Copy the new PNG icon file to the corresponding PNG folder in this repository. 
+
+Convert all SVG icons to PNG icons.
+- Open terminal and change directories to the location of SVG files.
+- Run ```convert-svg-to-png *.svg --height 24 --width 24 --scale 1```
+- The original SVG icon files will not be changed and new files with the same name will be created in PNG format.
+- Copy the new PNG icon files to the corresponding PNG folder in this repository.
 
 ## Git Steps for Designers
 The following instructions are for individuals who are comfortable working with GitHub and the command line on their computer. If you prefer, you can send new icons directly to the PX Blue team via email and we will take care of this part of the process for you.
