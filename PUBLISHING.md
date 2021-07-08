@@ -13,7 +13,7 @@ If you need to publish a package manually, you can run the following commands fr
 
 ### @pxblue/icons
 ```
-yarn build:all
+yarn build
 yarn publish:package
 ```
 
