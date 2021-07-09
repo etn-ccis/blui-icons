@@ -24,13 +24,6 @@ cd svg
 yarn publish:package
 ```
 
-### @pxblue/symbols
-```
-yarn build:all
-cd symbols
-yarn publish:package
-```
-
 The publishing script will look at the version in the `package.json` and automatically determine whether to publish an alpha, beta, or latest package.
 
 For this command to work, you must have an NPM token configured in your environment variables or you can perform a login prior to executing the publish command via:
