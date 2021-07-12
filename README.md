@@ -4,7 +4,6 @@
 [![](https://img.shields.io/npm/v/@pxblue/icons-svg.svg?label=@pxblue/icons-svg&style=flat)](https://www.npmjs.com/package/@pxblue/icons-svg)
 [![](https://img.shields.io/npm/v/@pxblue/ng-progress-icons.svg?label=@pxblue/ng-progress-icons&style=flat)](https://www.npmjs.com/package/@pxblue/ng-progress-icons)
 [![](https://img.shields.io/npm/v/@pxblue/react-progress-icons.svg?label=@pxblue/react-progress-icons&style=flat)](https://www.npmjs.com/package/@pxblue/react-progress-icons)
-[![](https://img.shields.io/npm/v/@pxblue/symbols.svg?label=@pxblue/symbols&style=flat)](https://www.npmjs.com/package/@pxblue/symbols)
 [![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat)](https://circleci.com/gh/pxblue/icons/tree/master)
 
 This is a library of supplemental icons, to be used in conjunction with the standard Material Design icons in PX Blue applications.

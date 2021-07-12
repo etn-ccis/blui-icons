@@ -28,7 +28,6 @@ jobs:
                   paths:
                     - iconfont
                     - svg
-                    - symbols
 
     publish:
       docker:
@@ -45,9 +44,6 @@ jobs:
         - run:
             name: Publish @pxblue/icons
             command: yarn publish:package -b $CIRCLE_BRANCH
-        - run:
-            name: Publish @pxblue/symbols
-            command: cd symbols &&  yarn publish:package -b $CIRCLE_BRANCH
         - run:
             name: Publish @pxblue/icons-svg
             command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
