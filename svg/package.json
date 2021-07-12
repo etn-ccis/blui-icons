@@ -1,6 +1,6 @@
 {
   "name": "@pxblue/icons-svg",
-  "version": "1.3.0",
+  "version": "1.4.0-beta.0",
   "description": "svg icons for Eaton applications",
   "main": "index.js",
   "scripts": {
