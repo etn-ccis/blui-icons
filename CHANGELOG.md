@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3.1 (Not Published)
+
+### Fixed
+
+- Crooked icon paths in current_ac, current_dc, grade_a, line_to_neutral, power_dc, power_ac, power_apparent_ac, voltage_ac, voltage_dc, 
+
 ## v1.3.0 (June 23, 2021)
 
 ### Added
