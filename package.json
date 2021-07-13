@@ -11,11 +11,7 @@
     "license": "BSD-3-Clause",
     "dependencies": {},
     "scripts": {
-        "test:functions": "cd progress && yarn test:functions && cd ..",
-        "test:demos": "cd progress && yarn test:demos && cd ..",
-        "test:svg": "./scripts/svgBuildTest.sh",
-        "test:progress": "cd progress && yarn test:build",
-        "test:all": "yarn install && yarn install --dev && yarn test:svg && yarn test:progress && yarn test:functions && yarn test:demos",
+        "test": "yarn install && yarn install --dev && ./scripts/svgBuildTest.sh",
         "index": "cp design/META.json svg/index.json",
         "move": "mkdir -p tmp && mv svg/README.md tmp/README.md && mv svg/package.json tmp/package.json",
         "move-back": "mv tmp/README.md svg/README.md && mv tmp/package.json svg/package.json && rm -rf tmp",

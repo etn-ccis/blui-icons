@@ -22,41 +22,41 @@ jobs:
                   command: yarn build
             - run:
                   name: Verify SVG Build Artifacts
-                  command: yarn test:svg
+                  command: yarn test
             - persist_to_workspace:
                   root: .
                   paths:
-                    - iconfont
-                    - svg
+                      - iconfont
+                      - svg
 
     publish:
-      docker:
-        - image: circleci/node:12.9.1-browsers
-      steps:
-        - checkout
-        - attach_workspace:
-            at: .
-        - run:
-            name: Authenticate with registry
-            command:  |
-              echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
-              echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-        - run:
-            name: Publish @pxblue/icons
-            command: yarn publish:package -b $CIRCLE_BRANCH
-        - run:
-            name: Publish @pxblue/icons-svg
-            command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
+        docker:
+            - image: circleci/node:12.9.1-browsers
+        steps:
+            - checkout
+            - attach_workspace:
+                  at: .
+            - run:
+                  name: Authenticate with registry
+                  command: |
+                      echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+                      echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+            - run:
+                  name: Publish @pxblue/icons
+                  command: yarn publish:package -b $CIRCLE_BRANCH
+            - run:
+                  name: Publish @pxblue/icons-svg
+                  command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
 workflows:
-  version: 2
-  icons:
-    jobs:
-      - build
-      - publish:
-          requires:
+    version: 2
+    icons:
+        jobs:
             - build
-          filters:
-            branches:
-              only:
-                - master
-                - dev
+            - publish:
+                  requires:
+                      - build
+                  filters:
+                      branches:
+                          only:
+                              - master
+                              - dev
