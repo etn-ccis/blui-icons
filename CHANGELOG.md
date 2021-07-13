@@ -1,6 +1,10 @@
 # Changelog
 
-## v1.3.1 (Not Published)
+## v1.4.0 (Unpublished)
+
+### Changed
+
+-   Switched from deprecated icon-font-generator package to fantasticon ([#138](https://github.com/pxblue/icons/issues/138))
 
 ### Fixed
 

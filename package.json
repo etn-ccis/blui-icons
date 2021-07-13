@@ -1,8 +1,8 @@
 {
     "name": "@pxblue/icons",
-    "version": "1.3.1",
+    "version": "1.4.0-beta.0",
     "description": "Px Blue icons",
-    "main": "./iconfont/index.css",
+    "main": "./iconfont/PXBlueIcons.css",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/pxblue/icons.git"
@@ -17,7 +17,8 @@
         "move-back": "mv tmp/README.md svg/README.md && mv tmp/package.json svg/package.json && rm -rf tmp",
         "copy": "yarn move && rm -r svg && mkdir svg && copyfiles -f -e \"design/old/*.svg\" -e \"design/Internal/*.svg\" -e \"design/WIP/*.svg\" -e \"design/Products/**/*.svg\" \"design/Products/*.svg\" design/**/*.svg design/**/**/*.svg svg && yarn move-back",
         "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons'",
-        "build": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && icon-font-generator svg/*.svg -o iconfont -n PXBlueIcons -p pxb && yarn sprites && yarn index",
+        "build": "yarn build:font",
+        "build:font": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && fantasticon svg -o iconfont -n PXBlueIcons -p pxb -t ttf -t woff -t woff2 -t eot -t svg --font-height 300 && yarn sprites && yarn index",
         "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
     },
     "files": [
@@ -35,10 +36,10 @@
     "devDependencies": {
         "@pxblue/prettier-config": "^1.0.3",
         "copyfiles": "^2.1.0",
-        "create-svg-sprite": "~1.0.4",
-        "icon-font-generator": "^2.1.8",
+        "create-svg-sprite": "~1.0.0",
+        "fantasticon": "^1.2.2",
         "prettier": "^2.2.1",
-        "yarn-audit-fix": "^3.2.7"
+        "yarn-audit-fix": "^6.0.0"
     },
     "keywords": [
         "icons",
