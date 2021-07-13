@@ -7,8 +7,8 @@ jobs:
             - checkout
             - restore_cache:
                   keys:
-                      - v1-dependencies-{{ checksum "package.json" }}
-                      - v1-dependencies-
+                      - v2-dependencies-{{ checksum "package.json" }}
+                      - v2-dependencies-
             - run:
                   name: Install Dependencies
                   command: |
@@ -16,7 +16,7 @@ jobs:
             - save_cache:
                   paths:
                       - node_modules
-                  key: v1-dependencies-{{ checksum "package.json" }}
+                  key: v2-dependencies-{{ checksum "package.json" }}
             - run:
                   name: Build Packages
                   command: yarn build
@@ -31,7 +31,7 @@ jobs:
 
     publish:
         docker:
-            - image: circleci/node:12.9.1-browsers
+            - image: circleci/node:14.9-browsers
         steps:
             - checkout
             - attach_workspace:
