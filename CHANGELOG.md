@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.4.0 (July 14, 2021)
+
+### Changed
+
+-   Switched from deprecated icon-font-generator package to fantasticon ([#138](https://github.com/pxblue/icons/issues/138))
+
+### Fixed
+
+-   Crooked icon paths in current_ac, current_dc, grade_a, line_to_neutral, power_dc, power_ac, power_apparent_ac, voltage_ac, voltage_dc,
+
 ## v1.3.0 (June 23, 2021)
 
 ### Added

@@ -1,26 +1,26 @@
 {
-  "name": "@pxblue/icons-svg",
-  "version": "1.3.0",
-  "description": "svg icons for Eaton applications",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pxblue/icons.git"
-  },
-  "keywords": [
-    "icons",
-    "pxblue",
-    "eaton",
-    "svg"
-  ],
-  "author": "px-blue <pxblue@eaton.com>",
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/pxblue/icons/issues"
-  },
-  "homepage": "https://github.com/pxblue/icons#readme"
+    "name": "@pxblue/icons-svg",
+    "version": "1.4.0",
+    "description": "svg icons for Eaton applications",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pxblue/icons.git"
+    },
+    "keywords": [
+        "icons",
+        "pxblue",
+        "eaton",
+        "svg"
+    ],
+    "author": "px-blue <pxblue@eaton.com>",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/pxblue/icons/issues"
+    },
+    "homepage": "https://github.com/pxblue/icons#readme"
 }
