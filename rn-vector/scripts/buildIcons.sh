@@ -22,6 +22,10 @@ cp ../iconfont/PXBlueIcons.json ./GlyphMaps
 cp ../iconfont/PXBlueIcons.ttf ./Fonts
 echo -e "${BLUE}Done${NC}"
 
+echo -ne "Compiling typescript...${NC}"
+tsc --p tsconfig.lib.json
+echo -e "${BLUE}Done${NC}"
+
 echo -e "\r\n${GREEN}-----------------------------------"
 echo -e "RNPXBVectorIcons package successfully created"
 echo -e "-----------------------------------${NC}\r\n\r\n"
