@@ -7,27 +7,35 @@ jobs:
             - checkout
             - restore_cache:
                   keys:
-                      - v2-dependencies-{{ checksum "package.json" }}
+                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}
                       - v2-dependencies-
             - run:
                   name: Install Dependencies
                   command: |
-                      yarn install
+                      yarn install && cd mui && yarn install
             - save_cache:
                   paths:
                       - node_modules
-                  key: v2-dependencies-{{ checksum "package.json" }}
+                      - mui/node_modules
+                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}
             - run:
                   name: Build Packages
                   command: yarn build
             - run:
+                name: Build MUI
+                command: cd mui && yarn build
+            - run:
                   name: Verify SVG Build Artifacts
                   command: yarn test
+            - run:
+                name: Verify MUI Artifacts
+                command: cd mui && yarn test
             - persist_to_workspace:
                   root: .
                   paths:
                       - iconfont
                       - svg
+                      - icons
 
     publish:
         docker:
@@ -47,6 +55,9 @@ jobs:
             - run:
                   name: Publish @pxblue/icons-svg
                   command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
+            - run:
+                name: Publish @pxblue/icons-mui
+                command: cd mui && yarn publish:package -b $CIRCLE_BRANCH
 workflows:
     version: 2
     icons:
