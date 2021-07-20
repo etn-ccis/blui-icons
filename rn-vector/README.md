@@ -22,7 +22,7 @@ or
 yarn add react-native-vector-icons
 ```
 
-> Carefully follow the integration instructions in their documentation for making the icons available in your project.
+> Carefully follow the [integration instructions](https://github.com/oblador/react-native-vector-icons#installation) in their documentation for making the icons available in your project.
 
 #### iOS
 
