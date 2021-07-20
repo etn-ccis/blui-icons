@@ -30,7 +30,7 @@ To use this package in iOS projects, the native modules will need to be linked (
 
 Add the following to your `Podfile`:
 ```
-pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+pod 'RNPXBVectorIcons', :path => '../node_modules/@pxblue/react-native-vector-icons'
 ```
 
 Edit your `Info.plist`
