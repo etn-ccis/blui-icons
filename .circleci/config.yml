@@ -59,7 +59,7 @@ workflows:
     icons:
         jobs:
             - build
-            - publish_:
+            - publish:
                   requires:
                       - build
                   filters:
