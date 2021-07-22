@@ -69,6 +69,10 @@ We also have PX Blue oneline symbols (ported from PX Blue 1.0) available:
 -   [SVG Symbols](https://www.npmjs.com/package/@pxblue/symbols)
 -   [React Components](https://www.npmjs.com/package/@pxblue/symbols-mui)
 
+Our library of dynamic progress icons has been split off into a dedicated repository:
+
+-   [Progress Icons](https://github.com/pxblue/progress-icons)
+
 # For Icon Creators
 
 Please read the instructions in the [Design](https://github.com/pxblue/icons/blob/master/design/README.md) folder before creating or submitting new icons.
