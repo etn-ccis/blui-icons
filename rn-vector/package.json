@@ -1,7 +1,7 @@
 {
   "name": "@pxblue/react-native-vector-icons",
   "title": "React Native PX Blue Vector Icons",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "description": "PX Blue vector icons for use in React Native projects, based on react-native-vector-icons",
   "main": "index.js",
   "files": [
