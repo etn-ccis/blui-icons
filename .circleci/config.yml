@@ -12,8 +12,8 @@ jobs:
                   name: Install Dependencies
                   command: |
                       yarn install
-                      cd rn-vector && yarn install
-                      yarn install && cd mui && yarn install
+                      cd rn-vector && yarn install && cd ..
+                      cd mui && yarn install
             - save_cache:
                   paths:
                       - node_modules

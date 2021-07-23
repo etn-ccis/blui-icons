@@ -16,17 +16,16 @@ rm -rf icons
 mkdir -p icons
 echo -e "${BLUE}Done${NC}"
 
-echo -ne "Loading latest PX Blue icon package...${NC}"
-yarn upgrade @pxblue/icons-svg
-rm -rf node_modules/@pxblue/icons-svg/icons.svg
+echo -ne "Building latest PX Blue icon package...${NC}"
+cd .. && yarn build && cd mui
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Running MUI converter utility...${NC}"
 cd scripts/mui-icon-builder
-babel-node --config-file ./babel.config.js builder.js --output-dir ../../icons --svg-dir ../../node_modules/@pxblue/icons-svg
+babel-node --config-file ./babel.config.js builder.js --output-dir ../../icons --svg-dir ../../..svg
 cd ../..
 babel icons --presets=@babel/preset-react,@babel/preset-env --out-dir icons
-cp node_modules/@pxblue/icons-svg/index.json ./icons/index.json
+cp ../svg/index.json ./icons/index.json
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Creating TypeScript typings...${NC}"
