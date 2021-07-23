@@ -8,19 +8,23 @@ jobs:
             - restore_cache:
                   keys:
                       - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}
+                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "rn-vector/package.json"}}
                       - v2-dependencies-
             - run:
                   name: Install Dependencies
                   command: |
+                      yarn install
+                      cd rn-vector && yarn install
                       yarn install && cd mui && yarn install
             - save_cache:
                   paths:
                       - node_modules
-                      - mui/node_modules
                   key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}
             - run:
                   name: Build Packages
-                  command: yarn build
+                  command: |
+                      yarn build
+                      cd rn-vector && yarn build
             - run:
                 name: Build MUI
                 command: cd mui && yarn build
@@ -35,6 +39,7 @@ jobs:
                   paths:
                       - iconfont
                       - svg
+                      - rn-vector
                       - icons
 
     publish:
@@ -58,6 +63,9 @@ jobs:
             - run:
                 name: Publish @pxblue/icons-mui
                 command: cd mui && yarn publish:package -b $CIRCLE_BRANCH
+            - run:
+                  name: Publish @pxblue/react-native-vector-icons
+                  command: cd rn-vector && yarn publish:package -b $CIRCLE_BRANCH
 workflows:
     version: 2
     icons:
