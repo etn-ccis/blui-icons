@@ -7,9 +7,7 @@ jobs:
             - checkout
             - restore_cache:
                   keys:
-                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}
-                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "rn-vector/package.json"}}
-                      - v2-dependencies-
+                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}-{{ checksum "rn-vector/package.json"}}
             - run:
                   name: Install Dependencies
                   command: |
@@ -19,7 +17,7 @@ jobs:
             - save_cache:
                   paths:
                       - node_modules
-                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}
+                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}-{{ checksum "rn-vector/package.json"}}
             - run:
                   name: Build Packages
                   command: |
