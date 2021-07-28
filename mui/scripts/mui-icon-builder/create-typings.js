@@ -4,8 +4,8 @@ import chalk from 'chalk';
 import fse from 'fs-extra';
 import glob from 'glob';
 
-const SRC_DIR = path.resolve(__dirname, '../../icons');
-const TARGET_DIR = path.resolve(__dirname, '../../icons');
+const SRC_DIR = path.resolve(__dirname, '../../dist');
+const TARGET_DIR = path.resolve(__dirname, '../../dist');
 
 function normalizeFileName(file) {
     return path.parse(file).name;

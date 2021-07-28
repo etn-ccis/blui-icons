@@ -38,7 +38,7 @@ jobs:
                       - iconfont
                       - svg
                       - rn-vector
-                      - icons
+                      - mui/dist
 
     publish:
         docker:

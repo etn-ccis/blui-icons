@@ -22,7 +22,8 @@
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "start": "yarn start:showcase",
         "test": "./scripts/buildTest.sh",
-        "publish:package": "cd icons && set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
+        "publish:package": "cd dist && set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
+        "tag:package": "cd dist && set npm_config_yes=true && npx -p @pxblue/tag pxb-tag"
     },
     "bugs": {
         "url": "https://github.com/pxblue/icons-mui/issues"
