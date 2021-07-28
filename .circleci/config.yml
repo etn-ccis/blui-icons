@@ -19,19 +19,20 @@ jobs:
                       - node_modules
                   key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}-{{ checksum "rn-vector/package.json"}}
             - run:
-                  name: Build Packages
-                  command: |
-                      yarn build
-                      cd rn-vector && yarn build
+                  name: Build Font and SVG Icons
+                  command: yarn build
             - run:
-                name: Build MUI
-                command: cd mui && yarn build
+                  name: Build RN Vector Icons
+                  command: cd rn-vector && yarn build
+            - run:
+                  name: Build MUI
+                  command: cd mui && yarn build
             - run:
                   name: Verify SVG Build Artifacts
                   command: yarn test
             - run:
-                name: Verify MUI Artifacts
-                command: cd mui && yarn test
+                  name: Verify MUI Artifacts
+                  command: cd mui && yarn test
             - persist_to_workspace:
                   root: .
                   paths:
