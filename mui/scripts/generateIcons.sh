@@ -17,7 +17,7 @@ mkdir -p dist
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Building latest PX Blue icon package...${NC}"
-cd .. && yarn copy && yarn index && cd mui
+cd .. && yarn build && cd mui
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Running MUI converter utility...${NC}"
