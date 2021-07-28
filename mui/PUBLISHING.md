@@ -11,8 +11,11 @@ This package is published to NPM automatically by CircleCI when code is merged i
 
 If you need to publish a package manually, you can run the following commands from the root folder:
 
+From the root: 
+
 ```sh
 yarn build 
+cd mui && yarn build
 yarn publish:package
 ```
 
@@ -22,6 +25,7 @@ For this command to work, you must have an NPM token configured in your environm
 
 ```sh
 yarn build 
+cd mui && yarn build
 npm adduser && yarn publish:package
 ```
 
