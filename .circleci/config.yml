@@ -65,6 +65,27 @@ jobs:
             - run:
                   name: Publish @pxblue/react-native-vector-icons
                   command: cd rn-vector && yarn publish:package -b $CIRCLE_BRANCH
+
+    tag:
+      docker:
+        - image: circleci/node:14.9-browsers
+      steps:
+        - checkout
+        - attach_workspace:
+            at: .
+        - gh/setup
+        - run:
+            name: Publish @pxblue/icons
+            command: yarn publish:package -b $CIRCLE_BRANCH
+        - run:
+            name: Publish @pxblue/icons-svg
+            command: cd svg && yarn tag:package -b $CIRCLE_BRANCH
+        - run:
+            name: Publish @pxblue/icons-mui
+            command: cd mui && yarn tag:package -b $CIRCLE_BRANCH
+        - run:
+            name: Publish @pxblue/react-native-vector-icons
+            command: cd rn-vector && yarn tag:package -b $CIRCLE_BRANCH
 workflows:
     version: 2
     icons:
@@ -78,3 +99,10 @@ workflows:
                           only:
                               - master
                               - dev
+            - tag:
+                requires:
+                  - publish
+                filters:
+                  branches:
+                    only:
+                      - master

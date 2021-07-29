@@ -22,7 +22,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "bash ./scripts/buildIcons.sh",
-    "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
+    "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
+    "tag:package": "set npm_config_yes=true && npx -p @pxblue/tag pxb-tag"
   },
   "repository": {
     "type": "git",

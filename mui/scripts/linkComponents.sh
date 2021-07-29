@@ -20,10 +20,7 @@ mkdir -p "./demos/showcase/node_modules/@pxblue/icons-mui"
 echo -e "${GREEN}Done${NC}"
 
 echo -en "${BLUE}Copying build output into node_modules...${NC}";
-# cp -r ./icons/package.json ./demos/showcase/node_modules/@pxblue/icons-mui/package.json
-cp -r ./icons/. ./demos/showcase/node_modules/@pxblue/icons-mui
-# cp -r ./components/package.json ./demos/storybook/node_modules/@pxblue/icons-mui/package.json
-# cp -r ./dist/. ./demos/storybook/node_modules/@pxblue/icons-mui
+cp -r ./dist/. ./demos/storybook/node_modules/@pxblue/icons-mui
 echo -e "${GREEN}Done${NC}"
 
 echo -en "\r\n${BLUE}Linking Components: ${NC}"
