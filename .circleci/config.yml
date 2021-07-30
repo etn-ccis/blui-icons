@@ -7,31 +7,39 @@ jobs:
             - checkout
             - restore_cache:
                   keys:
-                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "rn-vector/package.json"}}
-                      - v2-dependencies-
+                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}-{{ checksum "rn-vector/package.json"}}
             - run:
                   name: Install Dependencies
                   command: |
                       yarn install
-                      cd rn-vector && yarn install
+                      cd rn-vector && yarn install && cd ..
+                      cd mui && yarn install
             - save_cache:
                   paths:
                       - node_modules
-                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "rn-vector/package.json"}}
+                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}-{{ checksum "rn-vector/package.json"}}
             - run:
-                  name: Build Packages
-                  command: | 
-                      yarn build
-                      cd rn-vector && yarn build
+                  name: Build Font and SVG Icons
+                  command: yarn build
+            - run:
+                  name: Build RN Vector Icons
+                  command: cd rn-vector && yarn build
+            - run:
+                  name: Build MUI
+                  command: cd mui && yarn build
             - run:
                   name: Verify SVG Build Artifacts
                   command: yarn test
+            - run:
+                  name: Verify MUI Artifacts
+                  command: cd mui && yarn test
             - persist_to_workspace:
                   root: .
                   paths:
                       - iconfont
                       - svg
                       - rn-vector
+                      - mui/dist
 
     publish:
         docker:
@@ -52,8 +60,32 @@ jobs:
                   name: Publish @pxblue/icons-svg
                   command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
             - run:
+                name: Publish @pxblue/icons-mui
+                command: cd mui && yarn publish:package -b $CIRCLE_BRANCH
+            - run:
                   name: Publish @pxblue/react-native-vector-icons
                   command: cd rn-vector && yarn publish:package -b $CIRCLE_BRANCH
+
+    tag:
+      docker:
+        - image: circleci/node:14.9-browsers
+      steps:
+        - checkout
+        - attach_workspace:
+            at: .
+        - gh/setup
+        - run:
+            name: Tag @pxblue/icons
+            command: yarn tag:package -b $CIRCLE_BRANCH
+        - run:
+            name: Tag @pxblue/icons-svg
+            command: cd svg && yarn tag:package -b $CIRCLE_BRANCH
+        - run:
+            name: Tag @pxblue/icons-mui
+            command: cd mui && yarn tag:package -b $CIRCLE_BRANCH
+        - run:
+            name: Tag @pxblue/react-native-vector-icons
+            command: cd rn-vector && yarn tag:package -b $CIRCLE_BRANCH
 workflows:
     version: 2
     icons:
@@ -67,3 +99,10 @@ workflows:
                           only:
                               - master
                               - dev
+            - tag:
+                requires:
+                  - publish
+                filters:
+                  branches:
+                    only:
+                      - master
