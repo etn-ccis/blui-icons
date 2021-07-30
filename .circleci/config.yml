@@ -75,16 +75,16 @@ jobs:
             at: .
         - gh/setup
         - run:
-            name: Publish @pxblue/icons
-            command: yarn publish:package -b $CIRCLE_BRANCH
+            name: Tag @pxblue/icons
+            command: yarn tag:package -b $CIRCLE_BRANCH
         - run:
-            name: Publish @pxblue/icons-svg
+            name: Tag @pxblue/icons-svg
             command: cd svg && yarn tag:package -b $CIRCLE_BRANCH
         - run:
-            name: Publish @pxblue/icons-mui
+            name: Tag @pxblue/icons-mui
             command: cd mui && yarn tag:package -b $CIRCLE_BRANCH
         - run:
-            name: Publish @pxblue/react-native-vector-icons
+            name: Tag @pxblue/react-native-vector-icons
             command: cd rn-vector && yarn tag:package -b $CIRCLE_BRANCH
 workflows:
     version: 2
