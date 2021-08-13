@@ -2183,7 +2183,7 @@
             "name": "Battery Large Reset Outline",
             "filename": "battery_large_reset_outline.svg",
             "family": ["Devices"],
-            "style": "baseline",
+            "style": "outlined",
             "tags": ["battery", "test", "reset", "outline", "large battery", "lead acid", "batteries"],
             "author": "Amy Deng (PX Blue)",
             "size": 24
@@ -2210,7 +2210,7 @@
             "name": "Battery Large Outline",
             "filename": "battery_large_outline.svg",
             "family": ["Devices"],
-            "style": "baseline",
+            "style": "outlined",
             "tags": ["battery", "large battery", "lead acid", "batteries"],
             "author": "Huayun Huang (PX Blue)",
             "size": 24
@@ -2222,6 +2222,500 @@
             "style": "baseline",
             "tags": ["technician", "electrician", "service", "person", "account hard hat"],
             "author": "Austin Andrews, materialdesignicons.com",
+            "size": 24
+        },
+        {
+            "name": "ATS",
+            "filename": "ats_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["automatic", "transfer", "switch", "circuit", "node"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "ATS Alt",
+            "filename": "ats.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["automatic", "transfer", "switch", "circuit", "node"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Distribution Box",
+            "filename": "distribution_box.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "electricity",
+                "board",
+                "control",
+                "power",
+                "distribute",
+                "panelboard",
+                "breaker",
+                "panel",
+                "electric",
+                "DB",
+                "cell",
+                "consumer unit"
+            ],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Distribution Box Outline",
+            "filename": "distribution_box_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": [
+                "electricity",
+                "board",
+                "control",
+                "power",
+                "distribute",
+                "panelboard",
+                "breaker",
+                "panel",
+                "electric",
+                "DB",
+                "consumer unit"
+            ],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Drive",
+            "filename": "drive.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["buttons", "arrows", "direction", "start", "stop", "component", "regulate"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Meter",
+            "filename": "meter.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["buttons", "arrows", "direction", "speed", "unit", "monitor"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Motor Alt",
+            "filename": "motor_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["engine", "spin", "equipment", "rotate", "rotation", "electric"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Motor Controller Outline",
+            "filename": "motor_controller_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["control", "engine", "spin", "equipment", "rotate", "rotation", "electric"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Motor Controller",
+            "filename": "motor_controller.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["control", "engine", "spin", "equipment", "rotate", "rotation", "electric"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Motor Outline",
+            "filename": "motor_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["engine", "spin", "equipment", "rotate", "rotation", "electric"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Motor Starter",
+            "filename": "motor_starter.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "control",
+                "controller",
+                "switch",
+                "buttons",
+                "stop",
+                "engine",
+                "spin",
+                "equipment",
+                "rotate",
+                "rotation",
+                "electric"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Motor",
+            "filename": "motor.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["engine", "spin", "equipment", "rotate", "rotation", "electric"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Pinwheel",
+            "filename": "pinwheel.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["toy", "pin", "air", "fan", "rotate", "rotation", "child", "whirligig", "wind"],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Relay",
+            "filename": "relay.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["oneline", "switch", "circuit", "control", "conductor", "equipment"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Sensor Alt",
+            "filename": "sensor_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["signal", "receive", "detect", "anomaly", "monitor", "fault"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Sensor Device Alt",
+            "filename": "sensor_device_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["signal", "receive", "detect", "anomaly", "monitor", "fault"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Sensor Device",
+            "filename": "sensor_device.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["signal", "receive", "detect", "anomaly", "monitor", "fault"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Sensor",
+            "filename": "sensor.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["signal", "receive", "detect", "anomaly", "monitor", "fault"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "System",
+            "filename": "system.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["info", "information", "serial number", "version", "identifier", "code name"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Trip Curve Alt",
+            "filename": "trip_curve_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["curve", "characteristic", "breaker", "circuit", "overload", "short circuit", "unit", "fault"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Trip Curve",
+            "filename": "trip_curve.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["curve", "characteristic", "breaker", "circuit", "overload", "short circuit", "unit", "fault"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Trip Unit",
+            "filename": "trip_unit.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["curve", "breaker", "circuit", "overload", "short circuit", "unit", "fault"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "UPS Outline",
+            "filename": "ups_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": [
+                "uninterrupted",
+                "uninterruptible",
+                "power",
+                "supply",
+                "battery",
+                "electricity",
+                "source",
+                "energy",
+                "input",
+                "protection",
+                "continuous"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "UPS",
+            "filename": "ups.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "uninterrupted",
+                "uninterruptible",
+                "power",
+                "supply",
+                "battery",
+                "electricity",
+                "source",
+                "energy",
+                "input",
+                "protection",
+                "continuous"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Configuration Alt",
+            "filename": "configuration_alt.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["options", "adjust", "settings", "device", "levels", "slider", "preference", "filter", "tweak"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Configuration",
+            "filename": "configuration.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["options", "adjust", "settings", "device", "levels", "wrench", "preference", "filter", "tweak"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Control",
+            "filename": "control.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["select", "dimmer", "level", "step", "discrete", "twist", "knob", "dial", "handle", "rotate"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Diagnostic Alt",
+            "filename": "diagnostic_alt.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": [
+                "state",
+                "monitor",
+                "health",
+                "report",
+                "diagnose",
+                "check",
+                "exam",
+                "look",
+                "test",
+                "board",
+                "sheet",
+                "heart beat"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Diagnostic",
+            "filename": "diagnostic.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": [
+                "state",
+                "search",
+                "health",
+                "report",
+                "magnifier",
+                "diagnose",
+                "check",
+                "exam",
+                "look",
+                "test",
+                "heart beat",
+                "result"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Apparent Energy",
+            "filename": "apparent_energy.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["triangle", "graph", "diagonal", "up", "E"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Apparent Power",
+            "filename": "apparent_power.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["triangle", "graph", "diagonal", "up", "P"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Bypass Alt",
+            "filename": "bypass_alt.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["arrow", "detour", "bounce back", "dismiss"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Bypass",
+            "filename": "bypass.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["arrow", "detour", "dismiss"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Flood",
+            "filename": "flood.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "flood detector",
+                "water",
+                "sensor",
+                "float",
+                "anomaly",
+                "immerse",
+                "wet",
+                "moisture",
+                "wave",
+                "equipment"
+            ],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Frequency",
+            "filename": "frequency.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["wave", "graph", "line", "curve", "period", "duration", "length"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Harmonics",
+            "filename": "harmonics.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["wave", "graph", "line", "curve", "pattern"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Phase Angle",
+            "filename": "phase_angle.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "phi",
+                "phasor",
+                "phase vector",
+                "phasor",
+                "complex amplitude",
+                "sinor",
+                "complexor",
+                "arithmetic"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Power Factor",
+            "filename": "power_factor.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["PF", "+", "-", "ratio", "plus", "minus"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Reactive Energy",
+            "filename": "reactive_energy.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["triangle", "graph", "up", "E"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Reactive Power",
+            "filename": "reactive_power.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["triangle", "graph", "up", "P"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Real Energy",
+            "filename": "real_energy.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["triangle", "graph", "right", "E"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Real Power",
+            "filename": "real_power.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["triangle", "graph", "right", "P"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Sequence",
+            "filename": "sequence.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["steps", "triangle", "VB", "VR", "VY", "load", "component"],
+            "author": "Renato Martins (PX Blue)",
             "size": 24
         }
     ]
