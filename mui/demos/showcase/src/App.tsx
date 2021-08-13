@@ -13,10 +13,13 @@ export const App: React.FC = () => (
             //@ts-ignore
             const Component = Icons[getMuiIconName(icon.filename)];
             return (
-                <React.Fragment key={icon.filename}>
-                    <Component />
-                    {/* <h1>{icon.filename}</h1> */}
-                </React.Fragment>
+                <div
+                    key={icon.filename}
+                    style={{ display: 'inline-flex', flexDirection: 'column', alignItems: 'center', margin: 10 }}
+                >
+                    <Component style={{ fontSize: 64 }} />
+                    <div>{icon.filename}</div>
+                </div>
             );
         })}
     </div>
