@@ -1,8 +1,15 @@
 # Changelog
 
+## v2.5.0 (August 13, 2021)
+
+### Added:
+
+-   Device- and channel-related icons: ATS, ATS Alt, Distribution Box, Distribution Box Outline, Drive, Meter, Motor Alt, Motor Controller Outline, Motor Controller, Motor Outline, Motor Starter, Motor, Relay, Sensor Alt, Sensor Device Alt, Sensor Device, Sensor, System, Trip Curve Alt, Trip Curve, Trip Unit, UPS Outline, UPS, Configuration Alt, Configuration, Control, Diagnostic Alt, Diagnostic, Apparent Energy, Apparent Power, Bypass Alt, Bypass, Flood, Frequency, Harmonics, Phase Angle, Power Factor, Reactive Energy, Reactive Power, Real Energy, Real Power, Sequence, Air Conditioner, Fan Alt.
+
 ## v2.4.1 (July 19, 2021)
 
 ### Fixed
+
 -   Crooked icon paths in current_ac, current_dc, grade_a, line_to_neutral, power_dc, power_ac, power_apparent_ac, voltage_ac, voltage_dc.
 
 ## v2.4.0 (June 25, 2021)

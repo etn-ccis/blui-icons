@@ -1,10 +1,10 @@
 # Changelog
 
-## v1.5.0 (August 12, 2021)
+## v1.5.0 (August 13, 2021)
 
 ### Added:
 
--   Device- and channel-related icons: ATS, ATS Alt, Distribution Box, Distribution Box Outline, Drive, Meter, Motor Alt, Motor Controller Outline, Motor Controller, Motor Outline, Motor Starter, Motor, Pinwheel, Relay, Sensor Alt, Sensor Device Alt, Sensor Device, Sensor, System, Trip Curve Alt, Trip Curve, Trip Unit, UPS Outline, UPS, Configuration Alt, Configuration, Control, Diagnostic Alt, Diagnostic, Apparent Energy, Apparent Power, Bypass Alt, Bypass, Flood, Frequency, Harmonics, Phase Angle, Power Factor, Reactive Energy, Reactive Power, Real Energy, Real Power, Sequence.
+-   Device- and channel-related icons: ATS, ATS Alt, Distribution Box, Distribution Box Outline, Drive, Meter, Motor Alt, Motor Controller Outline, Motor Controller, Motor Outline, Motor Starter, Motor, Relay, Sensor Alt, Sensor Device Alt, Sensor Device, Sensor, System, Trip Curve Alt, Trip Curve, Trip Unit, UPS Outline, UPS, Configuration Alt, Configuration, Control, Diagnostic Alt, Diagnostic, Apparent Energy, Apparent Power, Bypass Alt, Bypass, Flood, Frequency, Harmonics, Phase Angle, Power Factor, Reactive Energy, Reactive Power, Real Energy, Real Power, Sequence, Air Conditioner, Fan Alt.
 
 ## v1.4.0 (July 14, 2021)
 

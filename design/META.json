@@ -2370,15 +2370,6 @@
             "size": 24
         },
         {
-            "name": "Pinwheel",
-            "filename": "pinwheel.svg",
-            "family": ["Devices"],
-            "style": "baseline",
-            "tags": ["toy", "pin", "air", "fan", "rotate", "rotation", "child", "whirligig", "wind"],
-            "author": "Google",
-            "size": 24
-        },
-        {
             "name": "Relay",
             "filename": "relay.svg",
             "family": ["Devices"],
@@ -2716,6 +2707,24 @@
             "style": "baseline",
             "tags": ["steps", "triangle", "VB", "VR", "VY", "load", "component"],
             "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Fan Alt",
+            "filename": "fan_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["air", "fan", "rotate", "rotation", "wind", "ac", "circled"],
+            "author": "Amy Deng (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Air Conditioner",
+            "filename": "air_conditioner.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["air", "fan", "rotate", "rotation", "wind", "ac", "circled", "equipment"],
+            "author": "Amy Deng (PX Blue)",
             "size": 24
         }
     ]
