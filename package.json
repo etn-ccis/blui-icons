@@ -17,7 +17,7 @@
         "move-back": "mv tmp/README.md svg/README.md && mv tmp/package.json svg/package.json && rm -rf tmp",
         "copy": "yarn move && rm -r svg && mkdir svg && copyfiles -f -e \"design/old/*.svg\" -e \"design/Internal/*.svg\" -e \"design/WIP/*.svg\" -e \"design/Products/**/*.svg\" \"design/Products/*.svg\" design/**/*.svg design/**/**/*.svg svg && yarn move-back",
         "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons'",
-        "build": "yarn build:font",
+        "build": "yarn build:font && yarn build:rn-vector",
         "build:font": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && fantasticon svg -o iconfont -n PXBlueIcons -p pxb -t ttf -t woff -t woff2 -t eot -t svg --font-height 300 && yarn sprites && yarn index",
         "build:rn-vector": "cd rn-vector && yarn build",
         "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
