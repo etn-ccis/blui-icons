@@ -2415,11 +2415,11 @@
             "size": 24
         },
         {
-            "name": "System",
-            "filename": "system.svg",
+            "name": "Device Info",
+            "filename": "device_info.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["info", "information", "serial number", "version", "identifier", "code name"],
+            "tags": ["info", "information", "serial number", "version", "identifier", "code name", "system"],
             "author": "Renato Martins (PX Blue)",
             "size": 24
         },
@@ -2493,8 +2493,8 @@
             "size": 24
         },
         {
-            "name": "Configuration Alt",
-            "filename": "configuration_alt.svg",
+            "name": "Configuration",
+            "filename": "configuration.svg",
             "family": ["General"],
             "style": "baseline",
             "tags": ["options", "adjust", "settings", "device", "levels", "slider", "preference", "filter", "tweak"],
@@ -2502,8 +2502,8 @@
             "size": 24
         },
         {
-            "name": "Configuration",
-            "filename": "configuration.svg",
+            "name": "Device Configuration",
+            "filename": "device_configuration.svg",
             "family": ["General"],
             "style": "baseline",
             "tags": ["options", "adjust", "settings", "device", "levels", "wrench", "preference", "filter", "tweak"],
@@ -2710,11 +2710,11 @@
             "size": 24
         },
         {
-            "name": "Fan Alt",
-            "filename": "fan_alt.svg",
+            "name": "Fan Circled",
+            "filename": "fan_circled.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["air", "fan", "rotate", "rotation", "wind", "ac", "circled"],
+            "tags": ["air", "fan", "rotate", "rotation", "wind", "ac", "cooling", "cold", "temperature", "climate"],
             "author": "Amy Deng (PX Blue)",
             "size": 24
         },
@@ -2723,7 +2723,19 @@
             "filename": "air_conditioner.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["air", "fan", "rotate", "rotation", "wind", "ac", "circled", "equipment"],
+            "tags": [
+                "air",
+                "fan",
+                "rotate",
+                "rotation",
+                "wind",
+                "ac",
+                "equipment",
+                "cooling",
+                "cold",
+                "temperature",
+                "climate"
+            ],
             "author": "Amy Deng (PX Blue)",
             "size": 24
         }
