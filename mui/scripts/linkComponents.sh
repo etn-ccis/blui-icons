@@ -18,7 +18,7 @@ mkdir -p "./demos/showcase/node_modules/@pxblue/icons-mui"
 echo -e "${GREEN}Done${NC}"
 
 echo -en "${BLUE}Copying build output into node_modules...${NC}";
-cp -r ./dist/. ./demos/storybook/node_modules/@pxblue/icons-mui
+cp -r ./dist/. ./demos/showcase/node_modules/@pxblue/icons-mui
 echo -e "${GREEN}Done${NC}"
 
 echo -en "\r\n${BLUE}Linking Components: ${NC}"
