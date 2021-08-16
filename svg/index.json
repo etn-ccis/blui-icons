@@ -2296,10 +2296,10 @@
         },
         {
             "name": "Meter",
-            "filename": "meter.svg",
+            "filename": "meter_face.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["buttons", "arrows", "direction", "speed", "unit", "monitor"],
+            "tags": ["buttons", "readings", "speed", "unit", "monitor", "display"],
             "author": "Renato Martins (PX Blue)",
             "size": 24
         },

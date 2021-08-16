@@ -121,7 +121,7 @@ export type PxBlueIconsId =
   | "maintenance"
   | "map_marker_multiple"
   | "map_marker_three"
-  | "meter"
+  | "meter_face"
   | "moisture"
   | "motor_alt"
   | "motor_controller_outline"
@@ -355,7 +355,7 @@ export type PxBlueIconsKey =
   | "Maintenance"
   | "MapMarkerMultiple"
   | "MapMarkerThree"
-  | "Meter"
+  | "MeterFace"
   | "Moisture"
   | "MotorAlt"
   | "MotorControllerOutline"
@@ -589,7 +589,7 @@ export enum PxBlueIcons {
   Maintenance = "maintenance",
   MapMarkerMultiple = "map_marker_multiple",
   MapMarkerThree = "map_marker_three",
-  Meter = "meter",
+  MeterFace = "meter_face",
   Moisture = "moisture",
   MotorAlt = "motor_alt",
   MotorControllerOutline = "motor_controller_outline",
@@ -824,7 +824,7 @@ export const PX_BLUE_ICONS_CODEPOINTS: { [key in PxBlueIcons]: string } = {
   [PxBlueIcons.Maintenance]: "61816",
   [PxBlueIcons.MapMarkerMultiple]: "61817",
   [PxBlueIcons.MapMarkerThree]: "61818",
-  [PxBlueIcons.Meter]: "61819",
+  [PxBlueIcons.MeterFace]: "61819",
   [PxBlueIcons.Moisture]: "61820",
   [PxBlueIcons.MotorAlt]: "61821",
   [PxBlueIcons.MotorControllerOutline]: "61822",
