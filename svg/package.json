@@ -1,11 +1,12 @@
 {
     "name": "@pxblue/icons-svg",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "svg icons for Eaton applications",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
+        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
+        "tag:package": "set npm_config_yes=true && npx -p @pxblue/tag pxb-tag"
     },
     "repository": {
         "type": "git",

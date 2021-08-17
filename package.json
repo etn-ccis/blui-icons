@@ -1,6 +1,6 @@
 {
     "name": "@pxblue/icons",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Px Blue icons",
     "main": "./iconfont/PXBlueIcons.css",
     "repository": {
@@ -20,7 +20,8 @@
         "build": "yarn build:font",
         "build:font": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && fantasticon svg -o iconfont -n PXBlueIcons -p pxb -t ttf -t woff -t woff2 -t eot -t svg --font-height 300 && yarn sprites && yarn index",
         "build:rn-vector": "cd rn-vector && yarn build",
-        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish"
+        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
+        "tag:package": "set npm_config_yes=true && npx -p @pxblue/tag pxb-tag"
     },
     "files": [
         "iconfont",

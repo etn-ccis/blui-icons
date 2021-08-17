@@ -1,13 +1,18 @@
 export type PxBlueIconsId =
   | "ac"
   | "account_settings"
+  | "air_conditioner"
   | "air_filter"
   | "amazon_alexa"
   | "amazon"
   | "ami_gateway"
+  | "apparent_energy"
+  | "apparent_power"
   | "apple_logo"
   | "apple"
   | "asparagus"
+  | "ats_alt"
+  | "ats"
   | "barley_alt"
   | "barley"
   | "barrel"
@@ -24,7 +29,9 @@ export type PxBlueIconsId =
   | "breaker"
   | "broccoli"
   | "building"
+  | "bypass_alt"
   | "bypass_battery"
+  | "bypass"
   | "camera"
   | "capacitor_large"
   | "capacitor_symbol"
@@ -34,7 +41,9 @@ export type PxBlueIconsId =
   | "chili_pepper"
   | "combine_harvester"
   | "computer"
+  | "configuration"
   | "contactor"
+  | "control"
   | "corn"
   | "current_ac"
   | "current_circled_outline"
@@ -47,10 +56,17 @@ export type PxBlueIconsId =
   | "department"
   | "departments"
   | "device_activating"
+  | "device_configuration"
+  | "device_info"
   | "device"
+  | "diagnostic_alt"
+  | "diagnostic"
   | "dimmer"
   | "diode"
   | "distance_apart"
+  | "distribution_box_outline"
+  | "distribution_box"
+  | "drive"
   | "eaton_tagline"
   | "eaton_two_tone"
   | "eaton"
@@ -59,13 +75,16 @@ export type PxBlueIconsId =
   | "ephesus_gateway"
   | "face_id"
   | "factory"
+  | "fan_circled"
   | "fan"
   | "flask"
+  | "flood"
   | "flow"
   | "flower_tulip"
   | "flower"
   | "football_helmet"
   | "forklift"
+  | "frequency"
   | "fuel"
   | "garlic"
   | "gas_cylinder"
@@ -80,6 +99,7 @@ export type PxBlueIconsId =
   | "grade_d"
   | "grade_f"
   | "grass"
+  | "harmonics"
   | "health"
   | "hearing_protection"
   | "hockey_puck"
@@ -101,13 +121,21 @@ export type PxBlueIconsId =
   | "maintenance"
   | "map_marker_multiple"
   | "map_marker_three"
+  | "meter_face"
   | "moisture"
+  | "motor_alt"
+  | "motor_controller_outline"
+  | "motor_controller"
+  | "motor_outline"
+  | "motor_starter"
+  | "motor"
   | "network_switch"
   | "outlet"
   | "outline_offline_bolt"
   | "overlap"
   | "pdu"
   | "pepper"
+  | "phase_angle"
   | "pickup_truck"
   | "piggy_bank"
   | "pipe_disconnected"
@@ -119,6 +147,7 @@ export type PxBlueIconsId =
   | "power_circled_outline"
   | "power_circled"
   | "power_dc"
+  | "power_factor"
   | "pressure_alt"
   | "pressure"
   | "priority"
@@ -133,6 +162,11 @@ export type PxBlueIconsId =
   | "pxwhite"
   | "qrcode"
   | "radio_handheld"
+  | "reactive_energy"
+  | "reactive_power"
+  | "real_energy"
+  | "real_power"
+  | "relay"
   | "road_alt"
   | "road"
   | "running_high"
@@ -141,6 +175,11 @@ export type PxBlueIconsId =
   | "safety_glasses"
   | "satellite_uplink"
   | "scan_qrcode"
+  | "sensor_alt"
+  | "sensor_device_alt"
+  | "sensor_device"
+  | "sensor"
+  | "sequence"
   | "server"
   | "servers"
   | "sign_caution"
@@ -171,7 +210,12 @@ export type PxBlueIconsId =
   | "trending_down"
   | "trending_flat"
   | "trending_up"
+  | "trip_curve_alt"
+  | "trip_curve"
+  | "trip_unit"
   | "tripped"
+  | "ups_outline"
+  | "ups"
   | "utility_van"
   | "utility"
   | "vfd"
@@ -191,13 +235,18 @@ export type PxBlueIconsId =
 export type PxBlueIconsKey =
   | "Ac"
   | "AccountSettings"
+  | "AirConditioner"
   | "AirFilter"
   | "AmazonAlexa"
   | "Amazon"
   | "AmiGateway"
+  | "ApparentEnergy"
+  | "ApparentPower"
   | "AppleLogo"
   | "Apple"
   | "Asparagus"
+  | "AtsAlt"
+  | "Ats"
   | "BarleyAlt"
   | "Barley"
   | "Barrel"
@@ -214,7 +263,9 @@ export type PxBlueIconsKey =
   | "Breaker"
   | "Broccoli"
   | "Building"
+  | "BypassAlt"
   | "BypassBattery"
+  | "Bypass"
   | "Camera"
   | "CapacitorLarge"
   | "CapacitorSymbol"
@@ -224,7 +275,9 @@ export type PxBlueIconsKey =
   | "ChiliPepper"
   | "CombineHarvester"
   | "Computer"
+  | "Configuration"
   | "Contactor"
+  | "Control"
   | "Corn"
   | "CurrentAc"
   | "CurrentCircledOutline"
@@ -237,10 +290,17 @@ export type PxBlueIconsKey =
   | "Department"
   | "Departments"
   | "DeviceActivating"
+  | "DeviceConfiguration"
+  | "DeviceInfo"
   | "Device"
+  | "DiagnosticAlt"
+  | "Diagnostic"
   | "Dimmer"
   | "Diode"
   | "DistanceApart"
+  | "DistributionBoxOutline"
+  | "DistributionBox"
+  | "Drive"
   | "EatonTagline"
   | "EatonTwoTone"
   | "Eaton"
@@ -249,13 +309,16 @@ export type PxBlueIconsKey =
   | "EphesusGateway"
   | "FaceId"
   | "Factory"
+  | "FanCircled"
   | "Fan"
   | "Flask"
+  | "Flood"
   | "Flow"
   | "FlowerTulip"
   | "Flower"
   | "FootballHelmet"
   | "Forklift"
+  | "Frequency"
   | "Fuel"
   | "Garlic"
   | "GasCylinder"
@@ -270,6 +333,7 @@ export type PxBlueIconsKey =
   | "GradeD"
   | "GradeF"
   | "Grass"
+  | "Harmonics"
   | "Health"
   | "HearingProtection"
   | "HockeyPuck"
@@ -291,13 +355,21 @@ export type PxBlueIconsKey =
   | "Maintenance"
   | "MapMarkerMultiple"
   | "MapMarkerThree"
+  | "MeterFace"
   | "Moisture"
+  | "MotorAlt"
+  | "MotorControllerOutline"
+  | "MotorController"
+  | "MotorOutline"
+  | "MotorStarter"
+  | "Motor"
   | "NetworkSwitch"
   | "Outlet"
   | "OutlineOfflineBolt"
   | "Overlap"
   | "Pdu"
   | "Pepper"
+  | "PhaseAngle"
   | "PickupTruck"
   | "PiggyBank"
   | "PipeDisconnected"
@@ -309,6 +381,7 @@ export type PxBlueIconsKey =
   | "PowerCircledOutline"
   | "PowerCircled"
   | "PowerDc"
+  | "PowerFactor"
   | "PressureAlt"
   | "Pressure"
   | "Priority"
@@ -323,6 +396,11 @@ export type PxBlueIconsKey =
   | "Pxwhite"
   | "Qrcode"
   | "RadioHandheld"
+  | "ReactiveEnergy"
+  | "ReactivePower"
+  | "RealEnergy"
+  | "RealPower"
+  | "Relay"
   | "RoadAlt"
   | "Road"
   | "RunningHigh"
@@ -331,6 +409,11 @@ export type PxBlueIconsKey =
   | "SafetyGlasses"
   | "SatelliteUplink"
   | "ScanQrcode"
+  | "SensorAlt"
+  | "SensorDeviceAlt"
+  | "SensorDevice"
+  | "Sensor"
+  | "Sequence"
   | "Server"
   | "Servers"
   | "SignCaution"
@@ -361,7 +444,12 @@ export type PxBlueIconsKey =
   | "TrendingDown"
   | "TrendingFlat"
   | "TrendingUp"
+  | "TripCurveAlt"
+  | "TripCurve"
+  | "TripUnit"
   | "Tripped"
+  | "UpsOutline"
+  | "Ups"
   | "UtilityVan"
   | "Utility"
   | "Vfd"
@@ -381,13 +469,18 @@ export type PxBlueIconsKey =
 export enum PxBlueIcons {
   Ac = "ac",
   AccountSettings = "account_settings",
+  AirConditioner = "air_conditioner",
   AirFilter = "air_filter",
   AmazonAlexa = "amazon_alexa",
   Amazon = "amazon",
   AmiGateway = "ami_gateway",
+  ApparentEnergy = "apparent_energy",
+  ApparentPower = "apparent_power",
   AppleLogo = "apple_logo",
   Apple = "apple",
   Asparagus = "asparagus",
+  AtsAlt = "ats_alt",
+  Ats = "ats",
   BarleyAlt = "barley_alt",
   Barley = "barley",
   Barrel = "barrel",
@@ -404,7 +497,9 @@ export enum PxBlueIcons {
   Breaker = "breaker",
   Broccoli = "broccoli",
   Building = "building",
+  BypassAlt = "bypass_alt",
   BypassBattery = "bypass_battery",
+  Bypass = "bypass",
   Camera = "camera",
   CapacitorLarge = "capacitor_large",
   CapacitorSymbol = "capacitor_symbol",
@@ -414,7 +509,9 @@ export enum PxBlueIcons {
   ChiliPepper = "chili_pepper",
   CombineHarvester = "combine_harvester",
   Computer = "computer",
+  Configuration = "configuration",
   Contactor = "contactor",
+  Control = "control",
   Corn = "corn",
   CurrentAc = "current_ac",
   CurrentCircledOutline = "current_circled_outline",
@@ -427,10 +524,17 @@ export enum PxBlueIcons {
   Department = "department",
   Departments = "departments",
   DeviceActivating = "device_activating",
+  DeviceConfiguration = "device_configuration",
+  DeviceInfo = "device_info",
   Device = "device",
+  DiagnosticAlt = "diagnostic_alt",
+  Diagnostic = "diagnostic",
   Dimmer = "dimmer",
   Diode = "diode",
   DistanceApart = "distance_apart",
+  DistributionBoxOutline = "distribution_box_outline",
+  DistributionBox = "distribution_box",
+  Drive = "drive",
   EatonTagline = "eaton_tagline",
   EatonTwoTone = "eaton_two_tone",
   Eaton = "eaton",
@@ -439,13 +543,16 @@ export enum PxBlueIcons {
   EphesusGateway = "ephesus_gateway",
   FaceId = "face_id",
   Factory = "factory",
+  FanCircled = "fan_circled",
   Fan = "fan",
   Flask = "flask",
+  Flood = "flood",
   Flow = "flow",
   FlowerTulip = "flower_tulip",
   Flower = "flower",
   FootballHelmet = "football_helmet",
   Forklift = "forklift",
+  Frequency = "frequency",
   Fuel = "fuel",
   Garlic = "garlic",
   GasCylinder = "gas_cylinder",
@@ -460,6 +567,7 @@ export enum PxBlueIcons {
   GradeD = "grade_d",
   GradeF = "grade_f",
   Grass = "grass",
+  Harmonics = "harmonics",
   Health = "health",
   HearingProtection = "hearing_protection",
   HockeyPuck = "hockey_puck",
@@ -481,13 +589,21 @@ export enum PxBlueIcons {
   Maintenance = "maintenance",
   MapMarkerMultiple = "map_marker_multiple",
   MapMarkerThree = "map_marker_three",
+  MeterFace = "meter_face",
   Moisture = "moisture",
+  MotorAlt = "motor_alt",
+  MotorControllerOutline = "motor_controller_outline",
+  MotorController = "motor_controller",
+  MotorOutline = "motor_outline",
+  MotorStarter = "motor_starter",
+  Motor = "motor",
   NetworkSwitch = "network_switch",
   Outlet = "outlet",
   OutlineOfflineBolt = "outline_offline_bolt",
   Overlap = "overlap",
   Pdu = "pdu",
   Pepper = "pepper",
+  PhaseAngle = "phase_angle",
   PickupTruck = "pickup_truck",
   PiggyBank = "piggy_bank",
   PipeDisconnected = "pipe_disconnected",
@@ -499,6 +615,7 @@ export enum PxBlueIcons {
   PowerCircledOutline = "power_circled_outline",
   PowerCircled = "power_circled",
   PowerDc = "power_dc",
+  PowerFactor = "power_factor",
   PressureAlt = "pressure_alt",
   Pressure = "pressure",
   Priority = "priority",
@@ -513,6 +630,11 @@ export enum PxBlueIcons {
   Pxwhite = "pxwhite",
   Qrcode = "qrcode",
   RadioHandheld = "radio_handheld",
+  ReactiveEnergy = "reactive_energy",
+  ReactivePower = "reactive_power",
+  RealEnergy = "real_energy",
+  RealPower = "real_power",
+  Relay = "relay",
   RoadAlt = "road_alt",
   Road = "road",
   RunningHigh = "running_high",
@@ -521,6 +643,11 @@ export enum PxBlueIcons {
   SafetyGlasses = "safety_glasses",
   SatelliteUplink = "satellite_uplink",
   ScanQrcode = "scan_qrcode",
+  SensorAlt = "sensor_alt",
+  SensorDeviceAlt = "sensor_device_alt",
+  SensorDevice = "sensor_device",
+  Sensor = "sensor",
+  Sequence = "sequence",
   Server = "server",
   Servers = "servers",
   SignCaution = "sign_caution",
@@ -551,7 +678,12 @@ export enum PxBlueIcons {
   TrendingDown = "trending_down",
   TrendingFlat = "trending_flat",
   TrendingUp = "trending_up",
+  TripCurveAlt = "trip_curve_alt",
+  TripCurve = "trip_curve",
+  TripUnit = "trip_unit",
   Tripped = "tripped",
+  UpsOutline = "ups_outline",
+  Ups = "ups",
   UtilityVan = "utility_van",
   Utility = "utility",
   Vfd = "vfd",
@@ -572,190 +704,234 @@ export enum PxBlueIcons {
 export const PX_BLUE_ICONS_CODEPOINTS: { [key in PxBlueIcons]: string } = {
   [PxBlueIcons.Ac]: "61697",
   [PxBlueIcons.AccountSettings]: "61698",
-  [PxBlueIcons.AirFilter]: "61699",
-  [PxBlueIcons.AmazonAlexa]: "61700",
-  [PxBlueIcons.Amazon]: "61701",
-  [PxBlueIcons.AmiGateway]: "61702",
-  [PxBlueIcons.AppleLogo]: "61703",
-  [PxBlueIcons.Apple]: "61704",
-  [PxBlueIcons.Asparagus]: "61705",
-  [PxBlueIcons.BarleyAlt]: "61706",
-  [PxBlueIcons.Barley]: "61707",
-  [PxBlueIcons.Barrel]: "61708",
-  [PxBlueIcons.Baseball]: "61709",
-  [PxBlueIcons.BasketballHoop]: "61710",
-  [PxBlueIcons.BatteryLargeOutline]: "61711",
-  [PxBlueIcons.BatteryLargeResetOutline]: "61712",
-  [PxBlueIcons.BatteryLargeReset]: "61713",
-  [PxBlueIcons.BatteryLargeShowingTerminals]: "61714",
-  [PxBlueIcons.BatteryLarge]: "61715",
-  [PxBlueIcons.Battery]: "61716",
-  [PxBlueIcons.Bearing]: "61717",
-  [PxBlueIcons.BoxingGlove]: "61718",
-  [PxBlueIcons.Breaker]: "61719",
-  [PxBlueIcons.Broccoli]: "61720",
-  [PxBlueIcons.Building]: "61721",
-  [PxBlueIcons.BypassBattery]: "61722",
-  [PxBlueIcons.Camera]: "61723",
-  [PxBlueIcons.CapacitorLarge]: "61724",
-  [PxBlueIcons.CapacitorSymbol]: "61725",
-  [PxBlueIcons.Car]: "61726",
-  [PxBlueIcons.Carrot]: "61727",
-  [PxBlueIcons.CeilingLight]: "61728",
-  [PxBlueIcons.ChiliPepper]: "61729",
-  [PxBlueIcons.CombineHarvester]: "61730",
-  [PxBlueIcons.Computer]: "61731",
-  [PxBlueIcons.Contactor]: "61732",
-  [PxBlueIcons.Corn]: "61733",
-  [PxBlueIcons.CurrentAc]: "61734",
-  [PxBlueIcons.CurrentCircledOutline]: "61735",
-  [PxBlueIcons.CurrentCircled]: "61736",
-  [PxBlueIcons.CurrentDc]: "61737",
-  [PxBlueIcons.Current]: "61738",
-  [PxBlueIcons.CybersecurityTwoTone]: "61739",
-  [PxBlueIcons.Cybersecurity]: "61740",
-  [PxBlueIcons.Dc]: "61741",
-  [PxBlueIcons.Department]: "61742",
-  [PxBlueIcons.Departments]: "61743",
-  [PxBlueIcons.DeviceActivating]: "61744",
-  [PxBlueIcons.Device]: "61745",
-  [PxBlueIcons.Dimmer]: "61746",
-  [PxBlueIcons.Diode]: "61747",
-  [PxBlueIcons.DistanceApart]: "61748",
-  [PxBlueIcons.EatonTagline]: "61749",
-  [PxBlueIcons.EatonTwoTone]: "61750",
-  [PxBlueIcons.Eaton]: "61751",
-  [PxBlueIcons.Environment]: "61752",
-  [PxBlueIcons.EphesusFixture]: "61753",
-  [PxBlueIcons.EphesusGateway]: "61754",
-  [PxBlueIcons.FaceId]: "61755",
-  [PxBlueIcons.Factory]: "61756",
-  [PxBlueIcons.Fan]: "61757",
-  [PxBlueIcons.Flask]: "61758",
-  [PxBlueIcons.Flow]: "61759",
-  [PxBlueIcons.FlowerTulip]: "61760",
-  [PxBlueIcons.Flower]: "61761",
-  [PxBlueIcons.FootballHelmet]: "61762",
-  [PxBlueIcons.Forklift]: "61763",
-  [PxBlueIcons.Fuel]: "61764",
-  [PxBlueIcons.Garlic]: "61765",
-  [PxBlueIcons.GasCylinder]: "61766",
-  [PxBlueIcons.GeneratorOff]: "61767",
-  [PxBlueIcons.Generator]: "61768",
-  [PxBlueIcons.GlassDivider]: "61769",
-  [PxBlueIcons.Glasses]: "61770",
-  [PxBlueIcons.Google]: "61771",
-  [PxBlueIcons.GradeA]: "61772",
-  [PxBlueIcons.GradeB]: "61773",
-  [PxBlueIcons.GradeC]: "61774",
-  [PxBlueIcons.GradeD]: "61775",
-  [PxBlueIcons.GradeF]: "61776",
-  [PxBlueIcons.Grass]: "61777",
-  [PxBlueIcons.Health]: "61778",
-  [PxBlueIcons.HearingProtection]: "61779",
-  [PxBlueIcons.HockeyPuck]: "61780",
-  [PxBlueIcons.HockeySticks]: "61781",
-  [PxBlueIcons.Hops]: "61782",
-  [PxBlueIcons.IncidentActive]: "61783",
-  [PxBlueIcons.IncidentResolved]: "61784",
-  [PxBlueIcons.Incident]: "61785",
-  [PxBlueIcons.Internet]: "61786",
-  [PxBlueIcons.IppeVibrateOff]: "61787",
-  [PxBlueIcons.IppeVibrateOutlined]: "61788",
-  [PxBlueIcons.IppeVibrate]: "61789",
-  [PxBlueIcons.Leaf]: "61790",
-  [PxBlueIcons.LightBulb]: "61791",
-  [PxBlueIcons.LightSwitch]: "61792",
-  [PxBlueIcons.LineToLine]: "61793",
-  [PxBlueIcons.LineToNeutral]: "61794",
-  [PxBlueIcons.LockReset]: "61795",
-  [PxBlueIcons.Maintenance]: "61796",
-  [PxBlueIcons.MapMarkerMultiple]: "61797",
-  [PxBlueIcons.MapMarkerThree]: "61798",
-  [PxBlueIcons.Moisture]: "61799",
-  [PxBlueIcons.NetworkSwitch]: "61800",
-  [PxBlueIcons.Outlet]: "61801",
-  [PxBlueIcons.OutlineOfflineBolt]: "61802",
-  [PxBlueIcons.Overlap]: "61803",
-  [PxBlueIcons.Pdu]: "61804",
-  [PxBlueIcons.Pepper]: "61805",
-  [PxBlueIcons.PickupTruck]: "61806",
-  [PxBlueIcons.PiggyBank]: "61807",
-  [PxBlueIcons.PipeDisconnected]: "61808",
-  [PxBlueIcons.PipeLeak]: "61809",
-  [PxBlueIcons.Pipe]: "61810",
-  [PxBlueIcons.Potato]: "61811",
-  [PxBlueIcons.PowerAc]: "61812",
-  [PxBlueIcons.PowerApparentAc]: "61813",
-  [PxBlueIcons.PowerCircledOutline]: "61814",
-  [PxBlueIcons.PowerCircled]: "61815",
-  [PxBlueIcons.PowerDc]: "61816",
-  [PxBlueIcons.PressureAlt]: "61817",
-  [PxBlueIcons.Pressure]: "61818",
-  [PxBlueIcons.Priority]: "61819",
-  [PxBlueIcons.Pump]: "61820",
-  [PxBlueIcons.PushNotificationSolid]: "61821",
-  [PxBlueIcons.PushNotification]: "61822",
-  [PxBlueIcons.PxblueSmallAlt]: "61823",
-  [PxBlueIcons.PxblueSmall]: "61824",
-  [PxBlueIcons.Pxblue]: "61825",
-  [PxBlueIcons.Pxgreen]: "61826",
-  [PxBlueIcons.Pxred]: "61827",
-  [PxBlueIcons.Pxwhite]: "61828",
-  [PxBlueIcons.Qrcode]: "61829",
-  [PxBlueIcons.RadioHandheld]: "61830",
-  [PxBlueIcons.RoadAlt]: "61831",
-  [PxBlueIcons.Road]: "61832",
-  [PxBlueIcons.RunningHigh]: "61833",
-  [PxBlueIcons.RunningLow]: "61834",
-  [PxBlueIcons.SafetyBoot]: "61835",
-  [PxBlueIcons.SafetyGlasses]: "61836",
-  [PxBlueIcons.SatelliteUplink]: "61837",
-  [PxBlueIcons.ScanQrcode]: "61838",
-  [PxBlueIcons.Server]: "61839",
-  [PxBlueIcons.Servers]: "61840",
-  [PxBlueIcons.SignCaution]: "61841",
-  [PxBlueIcons.Silo]: "61842",
-  [PxBlueIcons.Soybean]: "61843",
-  [PxBlueIcons.SportsCar]: "61844",
-  [PxBlueIcons.Ssol]: "61845",
-  [PxBlueIcons.Stopped]: "61846",
-  [PxBlueIcons.Stopping]: "61847",
-  [PxBlueIcons.StudioblueOutline]: "61848",
-  [PxBlueIcons.Studioblue]: "61849",
-  [PxBlueIcons.Sunflower]: "61850",
-  [PxBlueIcons.Support]: "61851",
-  [PxBlueIcons.Switch]: "61852",
-  [PxBlueIcons.Switchgear]: "61853",
-  [PxBlueIcons.Technician]: "61854",
-  [PxBlueIcons.Temp]: "61855",
-  [PxBlueIcons.Tennis]: "61856",
-  [PxBlueIcons.ToggleOffOutlined]: "61857",
-  [PxBlueIcons.ToggleOff]: "61858",
-  [PxBlueIcons.ToggleOnOutlined]: "61859",
-  [PxBlueIcons.ToggleOn]: "61860",
-  [PxBlueIcons.Tomato]: "61861",
-  [PxBlueIcons.Tractor]: "61862",
-  [PxBlueIcons.TrafficLight]: "61863",
-  [PxBlueIcons.Transformer]: "61864",
-  [PxBlueIcons.Tree]: "61865",
-  [PxBlueIcons.TrendingDown]: "61866",
-  [PxBlueIcons.TrendingFlat]: "61867",
-  [PxBlueIcons.TrendingUp]: "61868",
-  [PxBlueIcons.Tripped]: "61869",
-  [PxBlueIcons.UtilityVan]: "61870",
-  [PxBlueIcons.Utility]: "61871",
-  [PxBlueIcons.Vfd]: "61872",
-  [PxBlueIcons.Vmms]: "61873",
-  [PxBlueIcons.VoltageAc]: "61874",
-  [PxBlueIcons.VoltageCircledOutline]: "61875",
-  [PxBlueIcons.VoltageCircled]: "61876",
-  [PxBlueIcons.VoltageDc]: "61877",
-  [PxBlueIcons.Voltage]: "61878",
-  [PxBlueIcons.WaterOutline]: "61879",
-  [PxBlueIcons.Water]: "61880",
-  [PxBlueIcons.Waveform]: "61881",
-  [PxBlueIcons.Wheat]: "61882",
-  [PxBlueIcons.XstorageAlt]: "61883",
-  [PxBlueIcons.Xstorage]: "61884",
+  [PxBlueIcons.AirConditioner]: "61699",
+  [PxBlueIcons.AirFilter]: "61700",
+  [PxBlueIcons.AmazonAlexa]: "61701",
+  [PxBlueIcons.Amazon]: "61702",
+  [PxBlueIcons.AmiGateway]: "61703",
+  [PxBlueIcons.ApparentEnergy]: "61704",
+  [PxBlueIcons.ApparentPower]: "61705",
+  [PxBlueIcons.AppleLogo]: "61706",
+  [PxBlueIcons.Apple]: "61707",
+  [PxBlueIcons.Asparagus]: "61708",
+  [PxBlueIcons.AtsAlt]: "61709",
+  [PxBlueIcons.Ats]: "61710",
+  [PxBlueIcons.BarleyAlt]: "61711",
+  [PxBlueIcons.Barley]: "61712",
+  [PxBlueIcons.Barrel]: "61713",
+  [PxBlueIcons.Baseball]: "61714",
+  [PxBlueIcons.BasketballHoop]: "61715",
+  [PxBlueIcons.BatteryLargeOutline]: "61716",
+  [PxBlueIcons.BatteryLargeResetOutline]: "61717",
+  [PxBlueIcons.BatteryLargeReset]: "61718",
+  [PxBlueIcons.BatteryLargeShowingTerminals]: "61719",
+  [PxBlueIcons.BatteryLarge]: "61720",
+  [PxBlueIcons.Battery]: "61721",
+  [PxBlueIcons.Bearing]: "61722",
+  [PxBlueIcons.BoxingGlove]: "61723",
+  [PxBlueIcons.Breaker]: "61724",
+  [PxBlueIcons.Broccoli]: "61725",
+  [PxBlueIcons.Building]: "61726",
+  [PxBlueIcons.BypassAlt]: "61727",
+  [PxBlueIcons.BypassBattery]: "61728",
+  [PxBlueIcons.Bypass]: "61729",
+  [PxBlueIcons.Camera]: "61730",
+  [PxBlueIcons.CapacitorLarge]: "61731",
+  [PxBlueIcons.CapacitorSymbol]: "61732",
+  [PxBlueIcons.Car]: "61733",
+  [PxBlueIcons.Carrot]: "61734",
+  [PxBlueIcons.CeilingLight]: "61735",
+  [PxBlueIcons.ChiliPepper]: "61736",
+  [PxBlueIcons.CombineHarvester]: "61737",
+  [PxBlueIcons.Computer]: "61738",
+  [PxBlueIcons.Configuration]: "61739",
+  [PxBlueIcons.Contactor]: "61740",
+  [PxBlueIcons.Control]: "61741",
+  [PxBlueIcons.Corn]: "61742",
+  [PxBlueIcons.CurrentAc]: "61743",
+  [PxBlueIcons.CurrentCircledOutline]: "61744",
+  [PxBlueIcons.CurrentCircled]: "61745",
+  [PxBlueIcons.CurrentDc]: "61746",
+  [PxBlueIcons.Current]: "61747",
+  [PxBlueIcons.CybersecurityTwoTone]: "61748",
+  [PxBlueIcons.Cybersecurity]: "61749",
+  [PxBlueIcons.Dc]: "61750",
+  [PxBlueIcons.Department]: "61751",
+  [PxBlueIcons.Departments]: "61752",
+  [PxBlueIcons.DeviceActivating]: "61753",
+  [PxBlueIcons.DeviceConfiguration]: "61754",
+  [PxBlueIcons.DeviceInfo]: "61755",
+  [PxBlueIcons.Device]: "61756",
+  [PxBlueIcons.DiagnosticAlt]: "61757",
+  [PxBlueIcons.Diagnostic]: "61758",
+  [PxBlueIcons.Dimmer]: "61759",
+  [PxBlueIcons.Diode]: "61760",
+  [PxBlueIcons.DistanceApart]: "61761",
+  [PxBlueIcons.DistributionBoxOutline]: "61762",
+  [PxBlueIcons.DistributionBox]: "61763",
+  [PxBlueIcons.Drive]: "61764",
+  [PxBlueIcons.EatonTagline]: "61765",
+  [PxBlueIcons.EatonTwoTone]: "61766",
+  [PxBlueIcons.Eaton]: "61767",
+  [PxBlueIcons.Environment]: "61768",
+  [PxBlueIcons.EphesusFixture]: "61769",
+  [PxBlueIcons.EphesusGateway]: "61770",
+  [PxBlueIcons.FaceId]: "61771",
+  [PxBlueIcons.Factory]: "61772",
+  [PxBlueIcons.FanCircled]: "61773",
+  [PxBlueIcons.Fan]: "61774",
+  [PxBlueIcons.Flask]: "61775",
+  [PxBlueIcons.Flood]: "61776",
+  [PxBlueIcons.Flow]: "61777",
+  [PxBlueIcons.FlowerTulip]: "61778",
+  [PxBlueIcons.Flower]: "61779",
+  [PxBlueIcons.FootballHelmet]: "61780",
+  [PxBlueIcons.Forklift]: "61781",
+  [PxBlueIcons.Frequency]: "61782",
+  [PxBlueIcons.Fuel]: "61783",
+  [PxBlueIcons.Garlic]: "61784",
+  [PxBlueIcons.GasCylinder]: "61785",
+  [PxBlueIcons.GeneratorOff]: "61786",
+  [PxBlueIcons.Generator]: "61787",
+  [PxBlueIcons.GlassDivider]: "61788",
+  [PxBlueIcons.Glasses]: "61789",
+  [PxBlueIcons.Google]: "61790",
+  [PxBlueIcons.GradeA]: "61791",
+  [PxBlueIcons.GradeB]: "61792",
+  [PxBlueIcons.GradeC]: "61793",
+  [PxBlueIcons.GradeD]: "61794",
+  [PxBlueIcons.GradeF]: "61795",
+  [PxBlueIcons.Grass]: "61796",
+  [PxBlueIcons.Harmonics]: "61797",
+  [PxBlueIcons.Health]: "61798",
+  [PxBlueIcons.HearingProtection]: "61799",
+  [PxBlueIcons.HockeyPuck]: "61800",
+  [PxBlueIcons.HockeySticks]: "61801",
+  [PxBlueIcons.Hops]: "61802",
+  [PxBlueIcons.IncidentActive]: "61803",
+  [PxBlueIcons.IncidentResolved]: "61804",
+  [PxBlueIcons.Incident]: "61805",
+  [PxBlueIcons.Internet]: "61806",
+  [PxBlueIcons.IppeVibrateOff]: "61807",
+  [PxBlueIcons.IppeVibrateOutlined]: "61808",
+  [PxBlueIcons.IppeVibrate]: "61809",
+  [PxBlueIcons.Leaf]: "61810",
+  [PxBlueIcons.LightBulb]: "61811",
+  [PxBlueIcons.LightSwitch]: "61812",
+  [PxBlueIcons.LineToLine]: "61813",
+  [PxBlueIcons.LineToNeutral]: "61814",
+  [PxBlueIcons.LockReset]: "61815",
+  [PxBlueIcons.Maintenance]: "61816",
+  [PxBlueIcons.MapMarkerMultiple]: "61817",
+  [PxBlueIcons.MapMarkerThree]: "61818",
+  [PxBlueIcons.MeterFace]: "61819",
+  [PxBlueIcons.Moisture]: "61820",
+  [PxBlueIcons.MotorAlt]: "61821",
+  [PxBlueIcons.MotorControllerOutline]: "61822",
+  [PxBlueIcons.MotorController]: "61823",
+  [PxBlueIcons.MotorOutline]: "61824",
+  [PxBlueIcons.MotorStarter]: "61825",
+  [PxBlueIcons.Motor]: "61826",
+  [PxBlueIcons.NetworkSwitch]: "61827",
+  [PxBlueIcons.Outlet]: "61828",
+  [PxBlueIcons.OutlineOfflineBolt]: "61829",
+  [PxBlueIcons.Overlap]: "61830",
+  [PxBlueIcons.Pdu]: "61831",
+  [PxBlueIcons.Pepper]: "61832",
+  [PxBlueIcons.PhaseAngle]: "61833",
+  [PxBlueIcons.PickupTruck]: "61834",
+  [PxBlueIcons.PiggyBank]: "61835",
+  [PxBlueIcons.PipeDisconnected]: "61836",
+  [PxBlueIcons.PipeLeak]: "61837",
+  [PxBlueIcons.Pipe]: "61838",
+  [PxBlueIcons.Potato]: "61839",
+  [PxBlueIcons.PowerAc]: "61840",
+  [PxBlueIcons.PowerApparentAc]: "61841",
+  [PxBlueIcons.PowerCircledOutline]: "61842",
+  [PxBlueIcons.PowerCircled]: "61843",
+  [PxBlueIcons.PowerDc]: "61844",
+  [PxBlueIcons.PowerFactor]: "61845",
+  [PxBlueIcons.PressureAlt]: "61846",
+  [PxBlueIcons.Pressure]: "61847",
+  [PxBlueIcons.Priority]: "61848",
+  [PxBlueIcons.Pump]: "61849",
+  [PxBlueIcons.PushNotificationSolid]: "61850",
+  [PxBlueIcons.PushNotification]: "61851",
+  [PxBlueIcons.PxblueSmallAlt]: "61852",
+  [PxBlueIcons.PxblueSmall]: "61853",
+  [PxBlueIcons.Pxblue]: "61854",
+  [PxBlueIcons.Pxgreen]: "61855",
+  [PxBlueIcons.Pxred]: "61856",
+  [PxBlueIcons.Pxwhite]: "61857",
+  [PxBlueIcons.Qrcode]: "61858",
+  [PxBlueIcons.RadioHandheld]: "61859",
+  [PxBlueIcons.ReactiveEnergy]: "61860",
+  [PxBlueIcons.ReactivePower]: "61861",
+  [PxBlueIcons.RealEnergy]: "61862",
+  [PxBlueIcons.RealPower]: "61863",
+  [PxBlueIcons.Relay]: "61864",
+  [PxBlueIcons.RoadAlt]: "61865",
+  [PxBlueIcons.Road]: "61866",
+  [PxBlueIcons.RunningHigh]: "61867",
+  [PxBlueIcons.RunningLow]: "61868",
+  [PxBlueIcons.SafetyBoot]: "61869",
+  [PxBlueIcons.SafetyGlasses]: "61870",
+  [PxBlueIcons.SatelliteUplink]: "61871",
+  [PxBlueIcons.ScanQrcode]: "61872",
+  [PxBlueIcons.SensorAlt]: "61873",
+  [PxBlueIcons.SensorDeviceAlt]: "61874",
+  [PxBlueIcons.SensorDevice]: "61875",
+  [PxBlueIcons.Sensor]: "61876",
+  [PxBlueIcons.Sequence]: "61877",
+  [PxBlueIcons.Server]: "61878",
+  [PxBlueIcons.Servers]: "61879",
+  [PxBlueIcons.SignCaution]: "61880",
+  [PxBlueIcons.Silo]: "61881",
+  [PxBlueIcons.Soybean]: "61882",
+  [PxBlueIcons.SportsCar]: "61883",
+  [PxBlueIcons.Ssol]: "61884",
+  [PxBlueIcons.Stopped]: "61885",
+  [PxBlueIcons.Stopping]: "61886",
+  [PxBlueIcons.StudioblueOutline]: "61887",
+  [PxBlueIcons.Studioblue]: "61888",
+  [PxBlueIcons.Sunflower]: "61889",
+  [PxBlueIcons.Support]: "61890",
+  [PxBlueIcons.Switch]: "61891",
+  [PxBlueIcons.Switchgear]: "61892",
+  [PxBlueIcons.Technician]: "61893",
+  [PxBlueIcons.Temp]: "61894",
+  [PxBlueIcons.Tennis]: "61895",
+  [PxBlueIcons.ToggleOffOutlined]: "61896",
+  [PxBlueIcons.ToggleOff]: "61897",
+  [PxBlueIcons.ToggleOnOutlined]: "61898",
+  [PxBlueIcons.ToggleOn]: "61899",
+  [PxBlueIcons.Tomato]: "61900",
+  [PxBlueIcons.Tractor]: "61901",
+  [PxBlueIcons.TrafficLight]: "61902",
+  [PxBlueIcons.Transformer]: "61903",
+  [PxBlueIcons.Tree]: "61904",
+  [PxBlueIcons.TrendingDown]: "61905",
+  [PxBlueIcons.TrendingFlat]: "61906",
+  [PxBlueIcons.TrendingUp]: "61907",
+  [PxBlueIcons.TripCurveAlt]: "61908",
+  [PxBlueIcons.TripCurve]: "61909",
+  [PxBlueIcons.TripUnit]: "61910",
+  [PxBlueIcons.Tripped]: "61911",
+  [PxBlueIcons.UpsOutline]: "61912",
+  [PxBlueIcons.Ups]: "61913",
+  [PxBlueIcons.UtilityVan]: "61914",
+  [PxBlueIcons.Utility]: "61915",
+  [PxBlueIcons.Vfd]: "61916",
+  [PxBlueIcons.Vmms]: "61917",
+  [PxBlueIcons.VoltageAc]: "61918",
+  [PxBlueIcons.VoltageCircledOutline]: "61919",
+  [PxBlueIcons.VoltageCircled]: "61920",
+  [PxBlueIcons.VoltageDc]: "61921",
+  [PxBlueIcons.Voltage]: "61922",
+  [PxBlueIcons.WaterOutline]: "61923",
+  [PxBlueIcons.Water]: "61924",
+  [PxBlueIcons.Waveform]: "61925",
+  [PxBlueIcons.Wheat]: "61926",
+  [PxBlueIcons.XstorageAlt]: "61927",
+  [PxBlueIcons.Xstorage]: "61928",
 };
