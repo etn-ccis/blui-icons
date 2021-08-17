@@ -3,6 +3,7 @@ jobs:
     build:
         docker:
             - image: circleci/node:14.9-browsers
+            - gh: circleci/github-cli@1.0.3
         steps:
             - checkout
             - restore_cache:
