@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
-        "tag:package": "set npm_config_yes=true && npx -p @pxblue/tag pxb-tag"
+        "tag:package": "set npm_config_yes=true && cp ../CHANGELOG.md CHANGELOG.md && npx -p @pxblue/tag pxb-tag"
     },
     "repository": {
         "type": "git",
