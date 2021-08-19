@@ -8,7 +8,7 @@
 
 ### Changed
 
--   Modified the style of Air Filter.
+-   Modified the style of Air Filter, Power Factor.
 
 ## v1.5.0 (August 17, 2021)
 
