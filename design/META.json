@@ -2738,6 +2738,51 @@
             ],
             "author": "Amy Deng (PX Blue)",
             "size": 24
+        },
+        {
+            "name": "Output Flow",
+            "filename": "output_flow.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["outflow", "exit", "export", "air", "water", "waste", "exhaust"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Input Flow",
+            "filename": "input_flow.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["influx", "inflow", "inrush", "entry", "import", "air", "water"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Smoke Detector",
+            "filename": "smoke_detector.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["air", "fire", "sensor", "carbon monoxide", "indicator", "alarm", "outline", "co"],
+            "author": "Amy Deng (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "File PDF",
+            "filename": "file_pdf.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["extension", "portable document format", "export"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "File DOC",
+            "filename": "file_doc.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["extension", "docs", "export"],
+            "author": "Eric Atha (PX Blue)",
+            "size": 24
         }
     ]
 }
