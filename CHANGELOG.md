@@ -4,7 +4,7 @@
 
 ### Added
 
--   New icons: Output Flow, Input Flow, Smoke Detector, File PDF, File DOC.
+-   New icons: Output Flow, Input Flow, Smoke Detector, File PDF, File DOC, Load Factor.
 
 ### Changed
 

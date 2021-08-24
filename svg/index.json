@@ -2783,6 +2783,13 @@
             "tags": ["extension", "docs", "export"],
             "author": "Eric Atha (PX Blue)",
             "size": 24
+        },
+        {
+            "name": "Load Factor",
+            "filename": "load_factor.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["usage", "percentage", "chart", "average", "billing", "line", "consumption", "ratio", "cost"]
         }
     ]
 }

@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.2.0 (Not published)
+
+### Added
+
+-   New icons: Output Flow, Input Flow, Smoke Detector, File PDF, File DOC, Load Factor.
+
+### Changed
+
+-   Modified the style of Air Filter, Power Factor.
+
 ## v1.1.0 (August 17, 2021)
 
 ### Added:
