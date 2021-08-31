@@ -2789,7 +2789,71 @@
             "filename": "load_factor.svg",
             "family": ["Status"],
             "style": "baseline",
-            "tags": ["usage", "percentage", "chart", "average", "billing", "line", "consumption", "ratio", "cost"]
+            "tags": ["usage", "percentage", "chart", "average", "billing", "line", "consumption", "ratio", "cost"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Type 1",
+            "filename": "ev_plug_type_one.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "j1772", "japan", "charge", "charging station"],
+            "author": "Jeremy Matter (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Type 2",
+            "filename": "ev_plug_type_one.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "mennekes", "europe", "charge", "charging station"],
+            "author": "Jeremy Matter (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug CCS Combo",
+            "filename": "ev_plug_ccs_combo.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "united states of america",
+                "us",
+                "charge",
+                "charging station"
+            ],
+            "author": "Jeremy Matter (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug CHAdeMO",
+            "filename": "ev_plug_chademo.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "japan",
+                "charge",
+                "charging station"
+            ],
+            "author": "Jeremy Matter (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "RFID",
+            "filename": "rfid.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["radio frequency identification", "tag", "reader", "data", "tracking", "monitor"],
+            "author": "Huayun Huang (PX Blue)",
+            "size": 24
         }
     ]
 }
