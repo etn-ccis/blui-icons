@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.7.0 (To be published)
+
+### Added
+
+-   New icons: EV Plug Type 1, EV Plug Type 2, EV Plug CCS Combo, EV Plug CHAdeMO, RFID
+
 ## v2.6.0 (August 25, 2021)
 
 ### Added

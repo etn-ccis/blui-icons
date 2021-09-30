@@ -2804,7 +2804,7 @@
         },
         {
             "name": "EV Plug Type 2",
-            "filename": "ev_plug_type_one.svg",
+            "filename": "ev_plug_type_two.svg",
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "mennekes", "europe", "charge", "charging station"],
