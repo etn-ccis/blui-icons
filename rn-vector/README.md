@@ -53,6 +53,8 @@ Edit `android/app/build.gradle` ( NOT `android/build.gradle` ) and add the follo
 apply from: "../../node_modules/@pxblue/react-native-vector-icons/fonts.gradle"
 ```
 
+> NOTE: if you are restricting which fonts are being added to your application for `react-native-vector-icons`, you will need to include 'PXBlueIcons.ttf' in your `iconFontNames` array in this file as well.
+
 ## Usage
 
 Using these icons in your application is exactly the same as using react-native-vector-icons (we use their library to build ours so the API is identical).
