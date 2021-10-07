@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.8.0 (Published as Beta)
+
+### Fixed
+
+-   Icon clipping that results in undesired results in iconfonts.
+
 ## v1.7.0 (October 1, 2021)
 
 ### Added
