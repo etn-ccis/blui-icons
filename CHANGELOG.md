@@ -1,10 +1,10 @@
 # Changelog
 
-## v1.8.0 (Published as Beta)
+## v1.7.1 (Published as Beta)
 
 ### Fixed
 
--   Icon clipping that results in undesired results in iconfonts.
+-   Icon clipping that results in undesired results for some icons. <!-- TODO: include a list of all icons fixed in this batch. Same for rn-vector changelog. -->
 
 ## v1.7.0 (October 1, 2021)
 
