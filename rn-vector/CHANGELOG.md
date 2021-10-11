@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3.1 (Published as Beta)
+
+### Fixed
+
+-   Icon clipping that results in undesired results for some icons.
+
 ## v1.3.0 (October 1, 2021)
 
 ### Added
