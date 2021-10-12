@@ -1,6 +1,6 @@
 {
     "name": "@pxblue/icons",
-    "version": "1.7.1-beta.0",
+    "version": "1.7.1-beta.1",
     "description": "Px Blue icons",
     "main": "./iconfont/PXBlueIcons.css",
     "repository": {
