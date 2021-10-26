@@ -4,12 +4,7 @@
 
 ### Fixed
 
--   Icon clipping that results in undesired results for the following icons:
-    - VMMS
-    - File PDF
-    - EV Plug CCS Combo
-    - EV Plug CHAdeMO
-    - EV Plug Type 1
+-   Icon clipping that results in undesired results: VMMS, File PDF, EV Plug CCS Combo, EV Plug CHAdeMO, EV Plug Type 1
 
 ## v1.7.0 (October 1, 2021)
 
