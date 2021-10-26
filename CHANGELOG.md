@@ -1,10 +1,15 @@
 # Changelog
 
-## v1.7.1 (Published as Beta)
+## v1.7.1 (October 26, 2021)
 
 ### Fixed
 
--   Icon clipping that results in undesired results for some icons. <!-- TODO: include a list of all icons fixed in this batch. Same for rn-vector changelog. -->
+-   Icon clipping that results in undesired results for the following icons:
+    - VMMS
+    - File PDF
+    - EV Plug CCS Combo
+    - EV Plug CHAdeMO
+    - EV Plug Type 1
 
 ## v1.7.0 (October 1, 2021)
 
