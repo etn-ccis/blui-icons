@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.7.1 (October 27, 2021)
+
+### Fixed
+
+-   Icon clipping that results in undesired results: VMMS, File PDF, EV Plug CCS Combo, EV Plug CHAdeMO, EV Plug Type 1
+
 ## v1.7.0 (October 1, 2021)
 
 ### Added

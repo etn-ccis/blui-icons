@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <title>px_vmms_24px</title>
-  <path d="M6,5V19H4V5H6M6,3H4A2,2,0,0,0,2,5V19a2,2,0,0,0,2,2H6a2,2,0,0,0,2-2V5A2,2,0,0,0,6,3Z"/>
-  <path d="M20,5V19H18V5h2m0-2H18a2,2,0,0,0-2,2V19a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V5a2,2,0,0,0-2-2Z"/>
-  <path d="M13,5V19H11V5h2m0-2H11A2,2,0,0,0,9,5V19a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V5a2,2,0,0,0-2-2Z"/>
-  <rect x="2" y="7" width="6" height="14" rx="2" ry="2"/>
-  <rect width="24" height="24" fill="none"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20,5V19H18V5Zm0-2H18a2,2,0,0,0-2,2V19a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V5A2,2,0,0,0,20,3Z"/><path d="M13,5V19H11V5Zm0-2H11A2,2,0,0,0,9,5V19a2,2,0,0,0,2,2h2a2,2,0,0,0,2-2V5A2,2,0,0,0,13,3Z"/><path d="M6,3H4A2,2,0,0,0,2,5V19a2,2,0,0,0,2,2H6a2,2,0,0,0,2-2V5A2,2,0,0,0,6,3ZM4,7V5H6V7Z"/><rect width="24" height="24" fill="none"/></svg>
