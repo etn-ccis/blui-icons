@@ -56,16 +56,16 @@ jobs:
                       echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
                       echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
             - run:
-                  name: Publish @pxblue/icons
+                  name: Publish @brightlayer-ui/icons
                   command: yarn publish:package -b $CIRCLE_BRANCH
             - run:
-                  name: Publish @pxblue/icons-svg
+                  name: Publish @brightlayer-ui/icons-svg
                   command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
             - run:
-                name: Publish @pxblue/icons-mui
+                name: Publish @brightlayer-ui/icons-mui
                 command: cd mui && yarn publish:package -b $CIRCLE_BRANCH
             - run:
-                  name: Publish @pxblue/react-native-vector-icons
+                  name: Publish @brightlayer-ui/react-native-vector-icons
                   command: cd rn-vector && yarn publish:package -b $CIRCLE_BRANCH
 
     tag:
@@ -77,17 +77,17 @@ jobs:
             at: .
         - gh/setup
         - run:
-            name: Tag @pxblue/icons
-            command: yarn tag:package -b $CIRCLE_BRANCH
+            name: Tag @brightlayer-ui/icons
+            command: yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons
         - run:
-            name: Tag @pxblue/icons-svg
-            command: cd svg && yarn tag:package -b $CIRCLE_BRANCH
+            name: Tag @brightlayer-ui/icons-svg
+            command: cd svg && yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons-svg
         - run:
-            name: Tag @pxblue/icons-mui
-            command: cd mui && yarn tag:package -b $CIRCLE_BRANCH
+            name: Tag @brightlayer-ui/icons-mui
+            command: cd mui && yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons-mui
         - run:
-            name: Tag @pxblue/react-native-vector-icons
-            command: cd rn-vector && yarn tag:package -b $CIRCLE_BRANCH
+            name: Tag @brightlayer-ui/react-native-vector-icons
+            command: cd rn-vector && yarn tag:package -b $CIRCLE_BRANCH -s -blui-react-native-vector-icons
 workflows:
     version: 2
     icons:

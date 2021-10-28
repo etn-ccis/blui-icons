@@ -1,8 +1,8 @@
 {
-    "name": "@pxblue/react-native-vector-icons",
-    "title": "React Native PX Blue Vector Icons",
-    "version": "1.3.1",
-    "description": "PX Blue vector icons for use in React Native projects, based on react-native-vector-icons",
+    "name": "@brightlayer-ui/react-native-vector-icons",
+    "title": "React Native Brightlayer UI Vector Icons",
+    "version": "1.3.1-beta.0",
+    "description": "Brightlayer UI vector icons for use in React Native projects, based on react-native-vector-icons",
     "main": "index.js",
     "files": [
         "android",
@@ -14,7 +14,7 @@
         "index.d.ts",
         "ios",
         "LICENSE",
-        "RNPXBVectorIcons.podspec",
+        "RNBLUIVectorIcons.podspec",
         "README.md",
         "!android/build",
         "!ios/build"
@@ -22,26 +22,29 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "yarn && bash ./scripts/buildIcons.sh",
-        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
-        "tag:package": "set npm_config_yes=true && npx -p @pxblue/tag pxb-tag"
+        "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag"
+    },
+    "bugs": {
+        "url": "https://github.com/brightlayer-ui/icons/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pxblue/icons.git",
-        "baseUrl": "https://github.com/pxblue/icons/tree/master/react-native-vector-icons"
+        "url": "git+https://github.com/brightlayer-ui/icons.git",
+        "baseUrl": "https://github.com/brightlayer-ui/icons/tree/master/react-native-vector-icons"
     },
     "keywords": [
         "react-native",
-        "px blue",
-        "pxblue",
+        "Brightlayer UI",
+        "brightlayer-ui",
         "icons",
         "vector",
         "power",
         "eaton"
     ],
     "author": {
-        "name": "PX Blue",
-        "email": "pxblue@eaton.com"
+        "name": "Brightlayer UI",
+        "email": "brightlayer-ui@eaton.com"
     },
     "license": "BSD-3-Clause",
     "licenseFilename": "LICENSE",
