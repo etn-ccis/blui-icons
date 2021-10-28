@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>px_pie_chart_twotone_90_24px</title>
+  <g>
+    <rect width="24" height="24" transform="translate(24 24) rotate(-180)" fill="none"/>
+    <g opacity="0.5">
+      <path d="M12,12l5.88-8.09A9.58,9.58,0,0,0,12,2Z" transform="translate(0 0)"/>
+    </g>
+    <path d="M12,12V2A10,10,0,1,0,22,12a9.71,9.71,0,0,0-4.12-8.09Z" transform="translate(0 0)"/>
+  </g>
+</svg>

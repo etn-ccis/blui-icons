@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>safety_boot</title><path d="M21.5 10V6h-1l-1 1H15l-1-1h-1l-1 4-5 3H4a2 2 0 0 0-2 2v3h8l3-1h2v1h6.5v-2a6.07 6.07 0 0 0 .5-2.5 17.74 17.74 0 0 0-.5-3.5z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <title>safety_boot</title>
+  <path d="M21.5,10V6h-1l-1,1H15L14,6H13l-1,4L7,13H4a2,2,0,0,0-2,2v3h8l3-1h2v1h6.5V16a6.07,6.07,0,0,0,.5-2.5A17.74,17.74,0,0,0,21.5,10Z"/>
+</svg>
