@@ -1,6 +1,6 @@
 <!-- AndroidManifest.xml -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="io.brightlayer-ui">
+          package="io.brightlayerui">
 
 </manifest>

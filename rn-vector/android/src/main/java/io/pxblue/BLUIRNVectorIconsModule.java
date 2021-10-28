@@ -1,24 +1,24 @@
-// PXBRNVectorIconsModule.java
+// BLUIRNVectorIconsModule.java
 
-package io.pxblue;
+package io.brightlayerui;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 
-public class PXBRNVectorIconsModule extends ReactContextBaseJavaModule {
+public class BLUIRNVectorIconsModule extends ReactContextBaseJavaModule {
 
     private final ReactApplicationContext reactContext;
 
-    public PXBRNVectorIconsModule(ReactApplicationContext reactContext) {
+    public BLUIRNVectorIconsModule(ReactApplicationContext reactContext) {
         super(reactContext);
         this.reactContext = reactContext;
     }
 
     @Override
     public String getName() {
-        return "PXBRNVectorIcons";
+        return "BLUIRNVectorIcons";
     }
 
     @ReactMethod

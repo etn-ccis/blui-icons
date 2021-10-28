@@ -2,11 +2,11 @@
 
 [![](https://img.shields.io/npm/v/@brightlayer-ui/react-native-vector-icons.svg?label=@brightlayer-ui/react-native-vectoricons&style=flat)](https://www.npmjs.com/package/@brightlayer-ui/react-native-vector-icons)
 
-This package allows you to use PX Blue supplemental icons in the same way as you use [react-native-vector-icons](https://www.npmjs.com/package/react-native-vector-icons) for Material Icons.
+This package allows you to use Brightlayer UI supplemental icons in the same way as you use [react-native-vector-icons](https://www.npmjs.com/package/react-native-vector-icons) for Material Icons.
 
 ## Installation
 
-To install the PX Blue react native vector icons from NPM as a dependency for your project, you can run one of the following commands in your project root:
+To install the Brightlayer UI react native vector icons from NPM as a dependency for your project, you can run one of the following commands in your project root:
 
 ```
 npm install --save @brightlayer-ui/react-native-vector-icons
