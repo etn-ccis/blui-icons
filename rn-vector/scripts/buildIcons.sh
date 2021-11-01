@@ -13,13 +13,13 @@ rm -rf GlyphMaps/*
 echo -e "${BLUE}Done${NC}"
 
 # we will use the latest icons from this folder instead of from NPM
-# echo -ne "Loading latest PX Blue icon font package...${NC}"
-# yarn upgrade @pxblue/icons
+# echo -ne "Loading latest Brightlayer UI icon font package...${NC}"
+# yarn upgrade @brightlayer-ui/icons
 # echo -e "${BLUE}Done${NC}"
 
 echo -ne "Copying latest icon font and glyph map...${NC}"
-cp ../iconfont/PXBlueIcons.json ./GlyphMaps
-cp ../iconfont/PXBlueIcons.ttf ./Fonts
+cp ../iconfont/BrightlayerUIIcons.json ./GlyphMaps
+cp ../iconfont/BrightlayerUIIcons.ttf ./Fonts
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Compiling typescript...${NC}"
@@ -27,7 +27,7 @@ tsc --p tsconfig.lib.json
 echo -e "${BLUE}Done${NC}"
 
 echo -e "\r\n${GREEN}-----------------------------------"
-echo -e "RNPXBVectorIcons package successfully created"
+echo -e "RNBLUIVectorIcons package successfully created"
 echo -e "-----------------------------------${NC}\r\n\r\n"
 
 exit 0

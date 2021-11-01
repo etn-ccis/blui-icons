@@ -4,5 +4,5 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_native_vector_icons_1 = require("react-native-vector-icons");
-const PXBlueIcons_json_1 = __importDefault(require("./GlyphMaps/PXBlueIcons.json"));
-exports.default = react_native_vector_icons_1.createIconSet(PXBlueIcons_json_1.default, 'PXBlueIcons', 'PXBlueIcons.ttf');
+const BrightlayerUIIcons_json_1 = __importDefault(require("./GlyphMaps/BrightlayerUIIcons.json"));
+exports.default = react_native_vector_icons_1.createIconSet(BrightlayerUIIcons_json_1.default, 'BrightlayerUIIcons', 'BrightlayerUIIcons.ttf');
