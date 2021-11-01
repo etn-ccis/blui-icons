@@ -1,7 +1,7 @@
 module.exports =  {
         root: true,
         parser:  '@typescript-eslint/parser',
-        extends:  [ '@brightlayer-ui/eslint-config/tsx' ],
+        extends:  [ '@pxblue/eslint-config/tsx' ],
         parserOptions:  {
             project: "./tsconfig.json",
         },
