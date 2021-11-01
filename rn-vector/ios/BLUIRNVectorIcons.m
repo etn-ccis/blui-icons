@@ -1,9 +1,9 @@
-// PXBRNVectorIcons.m
+// BLUIRNVectorIcons.m
 
-#import "PXBRNVectorIcons.h"
+#import "BLUIRNVectorIcons.h"
 
 
-@implementation PXBRNVectorIcons
+@implementation BLUIRNVectorIcons
 
 RCT_EXPORT_MODULE()
 
