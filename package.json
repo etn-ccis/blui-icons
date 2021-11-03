@@ -1,13 +1,13 @@
 {
-    "name": "@pxblue/icons",
+    "name": "@brightlayer-ui/icons",
     "version": "1.7.1",
-    "description": "Px Blue icons",
-    "main": "./iconfont/PXBlueIcons.css",
+    "description": "Brightlayer UI Icons",
+    "main": "./iconfont/BrightlayerUIIcons.css",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pxblue/icons.git"
+        "url": "git+https://github.com/brightlayer-ui/icons.git"
     },
-    "author": "PX Blue <pxblue@eaton.com>",
+    "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "dependencies": {},
     "scripts": {
@@ -18,11 +18,11 @@
         "copy": "yarn move && rm -r svg && mkdir svg && copyfiles -f -e \"design/old/*.svg\" -e \"design/Internal/*.svg\" -e \"design/WIP/*.svg\" -e \"design/Products/**/*.svg\" \"design/Products/*.svg\" design/**/*.svg design/**/**/*.svg svg && yarn move-back",
         "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons'",
         "build": "yarn build:font",
-        "build:font": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && fantasticon svg -o iconfont -n PXBlueIcons -p pxb -t ttf -t woff -t woff2 -t eot -t svg --font-height 300 && yarn sprites && yarn index",
+        "build:font": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && fantasticon svg -o iconfont -n BrightlayerUIIcons -p blui -t ttf -t woff -t woff2 -t eot -t svg --font-height 300 && yarn sprites && yarn index",
         "build:rn-vector": "cd rn-vector && yarn build",
-        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
-        "tag:package": "set npm_config_yes=true && npx -p @pxblue/tag pxb-tag",
-        "start": "yarn build:font && open ./iconfont/PXBlueIcons.html && cd mui && yarn start"
+        "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag",
+        "start": "yarn build:font && open ./iconfont/BrightlayerUIIcons.html && cd mui && yarn start"
     },
     "files": [
         "iconfont",
@@ -32,12 +32,12 @@
         "CHANGELOG.md"
     ],
     "bugs": {
-        "url": "https://github.com/pxblue/icons/issues"
+        "url": "https://github.com/brightlayer-ui/icons/issues"
     },
-    "homepage": "https://github.com/pxblue/icons#readme",
-    "prettier": "@pxblue/prettier-config",
+    "homepage": "https://github.com/brightlayer-ui/icons#readme",
+    "prettier": "@brightlayer-ui/prettier-config",
     "devDependencies": {
-        "@pxblue/prettier-config": "^1.0.3",
+        "@brightlayer-ui/prettier-config": "^1.0.3",
         "copyfiles": "^2.1.0",
         "create-svg-sprite": "~1.0.0",
         "fantasticon": "^1.2.2",
@@ -47,6 +47,6 @@
     "keywords": [
         "icons",
         "material",
-        "pxblue"
+        "brightlayer-ui"
     ]
 }

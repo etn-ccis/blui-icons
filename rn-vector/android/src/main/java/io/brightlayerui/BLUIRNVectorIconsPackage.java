@@ -1,6 +1,6 @@
-// PXBRNVectorIconsPackage.java
+// BLUIRNVectorIconsPackage.java
 
-package io.pxblue;
+package io.brightlayerui;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -11,10 +11,10 @@ import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 
-public class PXBRNVectorIconsPackage implements ReactPackage {
+public class BLUIRNVectorIconsPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
-        return Arrays.<NativeModule>asList(new PXBRNVectorIconsModule(reactContext));
+        return Arrays.<NativeModule>asList(new BLUIRNVectorIconsModule(reactContext));
     }
 
     @Override

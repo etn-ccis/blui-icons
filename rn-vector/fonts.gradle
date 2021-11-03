@@ -3,7 +3,7 @@
  */
 afterEvaluate {
     def config = project.hasProperty("vectoricons") ? project.vectoricons : [];
-    def iconFontsDir = config.iconFontsDir ?: "../../node_modules/@pxblue/react-native-vector-icons/Fonts";
+    def iconFontsDir = config.iconFontsDir ?: "../../node_modules/@brightlayer-ui/react-native-vector-icons/Fonts";
     def iconFontNames = config.iconFontNames ?: [ "*.ttf" ];
 
     android.applicationVariants.all { def variant ->
@@ -12,7 +12,7 @@ afterEvaluate {
 
         // Create task for copying fonts
         def currentFontCopyTask = tasks.create(
-            name: "copy${targetName}ReactNativePXBVectorIconFonts",
+            name: "copy${targetName}ReactNativeBLUIVectorIconFonts",
             type: Copy) {
             group = "react"
             description = "copy fonts into ${targetName}."

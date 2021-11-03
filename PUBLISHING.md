@@ -11,13 +11,13 @@ This package is published to NPM automatically by CircleCI when code is merged i
 
 If you need to publish a package manually, you can run the following commands from the root folder:
 
-### @pxblue/icons
+### @brightlayer-ui/icons
 ```
 yarn build
 yarn publish:package
 ```
 
-### @pxblue/icons-svg
+### @brightlayer-ui/icons-svg
 ```
 yarn build:all
 cd svg

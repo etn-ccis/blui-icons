@@ -1,27 +1,27 @@
 {
-    "name": "@pxblue/icons-svg",
+    "name": "@brightlayer-ui/icons-svg",
     "version": "1.7.0",
-    "description": "svg icons for Eaton applications",
+    "description": "SVG icons for Eaton applications",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "publish:package": "set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
-        "tag:package": "set npm_config_yes=true && cp ../CHANGELOG.md CHANGELOG.md && npx -p @pxblue/tag pxb-tag"
+        "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "set npm_config_yes=true && cp ../CHANGELOG.md CHANGELOG.md && npx -p @brightlayer-ui/tag blui-tag"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pxblue/icons.git"
+        "url": "git+https://github.com/brightlayer-ui/icons.git"
     },
     "keywords": [
         "icons",
-        "pxblue",
+        "brightlayer-ui",
         "eaton",
         "svg"
     ],
-    "author": "px-blue <pxblue@eaton.com>",
+    "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/pxblue/icons/issues"
+        "url": "https://github.com/brightlayer-ui/icons/issues"
     },
-    "homepage": "https://github.com/pxblue/icons#readme"
+    "homepage": "https://github.com/brightlayer-ui/icons#readme"
 }

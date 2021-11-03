@@ -1,13 +1,13 @@
 {
-    "name": "@pxblue/icons-mui",
+    "name": "@brightlayer-ui/icons-mui",
     "version": "2.7.0",
-    "description": "PX Blue icons for Material UI",
+    "description": "Brightlayer UI icons for Material UI",
     "main": "./index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/pxblue/icons-mui.git"
+        "url": "git+https://github.com/brightlayer-ui/icons.git"
     },
-    "author": "px-blue <pxblue@eaton.com>",
+    "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "peerDependencies": {
         "@material-ui/core": ">=3.3.1",
@@ -22,28 +22,28 @@
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "start": "yarn start:showcase",
         "test": "./scripts/buildTest.sh",
-        "publish:package": "cd dist && set npm_config_yes=true && npx -p @pxblue/publish pxb-publish",
-        "tag:package": "cd dist && set npm_config_yes=true && npx -p @pxblue/tag pxb-tag"
+        "publish:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag"
     },
     "bugs": {
-        "url": "https://github.com/pxblue/icons-mui/issues"
+        "url": "https://github.com/brightlayer-ui/icons/issues"
     },
-    "prettier": "@pxblue/prettier-config",
-    "homepage": "https://github.com/pxblue/icons-mui#readme",
+    "prettier": "@brightlayer-ui/prettier-config",
+    "homepage": "https://github.com/brightlayer-ui/icons/mui#readme",
     "devDependencies": {
         "@babel/cli": "^7.1.2",
         "@babel/core": "^7.1.2",
         "@babel/node": "7.0.0",
         "@babel/preset-env": "^7.1.0",
         "@babel/preset-react": "^7.0.0",
-        "@pxblue/icons-svg": "^1.3.0",
-        "@pxblue/prettier-config": "^1.0.2",
+        "@brightlayer-ui/icons-svg": "latest",
+        "@brightlayer-ui/prettier-config": "^1.0.3",
         "prettier": "^2.3.1"
     },
     "keywords": [
         "icons",
         "material",
         "material-ui",
-        "pxblue"
+        "brightlayer-ui"
     ]
 }
