@@ -113,5 +113,5 @@ Previous versions listed after this indicator refer to our deprecated `@pxblue` 
 
 ```tsx
 // new import syntax
-import IconName from '@brightlayer-ui/icons-mui/IconName';
+import IconName from '@pxblue/icons-mui/IconName';
 ```
