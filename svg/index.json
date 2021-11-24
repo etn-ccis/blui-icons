@@ -2854,6 +2854,145 @@
             "tags": ["radio frequency identification", "tag", "reader", "data", "tracking", "monitor"],
             "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
+        },
+        {
+            "name": "Video Alert Outline",
+            "filename": "video_alert_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": ["video", "camera", "bell", "alarm", "monitor"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Redundancy",
+            "filename": "redundancy.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "arrow",
+                "sync",
+                "cycle",
+                "loop",
+                "redundant",
+                "pdu",
+                "battery",
+                "backup",
+                "refresh",
+                "active",
+                "enabled"
+            ],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Redundancy Off",
+            "filename": "redundancy_off.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "arrow",
+                "sync",
+                "cycle",
+                "loop",
+                "redundant",
+                "pdu",
+                "battery",
+                "backup",
+                "refresh",
+                "inactive",
+                "disabled"
+            ],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Video Alert",
+            "filename": "video_alert.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["video", "camera", "bell", "alarm", "monitor"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Video Streaming Outline",
+            "filename": "video_streaming_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": ["video", "camera", "play", "monitor", "playback", "recording", "surveillance"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Video Streaming",
+            "filename": "video_streaming.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["video", "camera", "filled", "play", "monitor", "playback", "recording", "surveillance"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Incident Maintenance",
+            "filename": "incident_maintenance.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "incidents",
+                "alarm",
+                "alert",
+                "service",
+                "multiple",
+                "stacked",
+                "notification",
+                "event",
+                "wrench",
+                "repair"
+            ],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "ARC Maintenance Log",
+            "filename": "arc_maintenance_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "service",
+                "representative",
+                "help",
+                "helpdesk",
+                "headphone",
+                "log",
+                "history",
+                "diagnose",
+                "talk",
+                "conversation",
+                "call",
+                "customer",
+                "document"
+            ],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Notification Log",
+            "filename": "notification_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["notification", "incident", "event", "alarm", "trigger", "log", "history", "document"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Panel Log",
+            "filename": "panel_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["panel", "board", "breaker", "operate", "grid", "section", "shelf", "log", "history", "document"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
         }
     ]
 }

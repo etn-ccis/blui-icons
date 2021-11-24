@@ -2957,7 +2957,7 @@
             "name": "ARC Maintenance Log",
             "filename": "arc_maintenance_log.svg",
             "family": ["Status"],
-            "style": "outlined",
+            "style": "baseline",
             "tags": [
                 "service",
                 "representative",
@@ -2980,8 +2980,17 @@
             "name": "Notification Log",
             "filename": "notification_log.svg",
             "family": ["Status"],
-            "style": "outlined",
+            "style": "baseline",
             "tags": ["notification", "incident", "event", "alarm", "trigger", "log", "history", "document"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Panel Log",
+            "filename": "panel_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["panel", "board", "breaker", "operate", "grid", "section", "shelf", "log", "history", "document"],
             "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         }
