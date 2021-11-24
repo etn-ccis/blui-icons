@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.0 (Not published)
+
+### Added
+
+-   New icons: Redundancy, Redundancy Off, Video Alert, Video Alert Outline, Video Streaming, Video Streaming Outline, Incident Maintenance, ARC Maintenance Log, Notification Log.
+
 ## v2.7.0 (November 3, 2021)
 
 ### Changed
