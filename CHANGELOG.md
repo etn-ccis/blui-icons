@@ -8,7 +8,7 @@
 
 ### Changed
 
--   Fixed icons that caused a clipping issue for icon fonts.
+-   Fixed icons that caused a clipping issue for icon fonts ([#171](https://github.com/pxblue/icons/pull/171)).
 
 ## v1.7.1 (November 3, 2021)
 
