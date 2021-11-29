@@ -44,7 +44,7 @@ Previous versions listed after this indicator refer to our deprecated `@pxblue` 
 
 ### Changed
 
--   Switched from deprecated icon-font-generator package to fantasticon ([#138](https://github.com/pxblue/icons/issues/138))
+-   Switched from deprecated icon-font-generator package to fantasticon ([#138](https://github.com/brightlayer-ui/icons/issues/138))
 
 ### Fixed
 
