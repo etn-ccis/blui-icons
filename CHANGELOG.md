@@ -8,7 +8,7 @@
 
 ### Changed
 
--   Fixed icons that caused a clipping issue for icon fonts ([#171](https://github.com/pxblue/icons/pull/171)).
+-   Icon clipping that results in undesired outcomes for icon fonts ([#171](https://github.com/pxblue/icons/pull/171)).
 
 ## v1.7.1 (November 3, 2021)
 
@@ -26,7 +26,7 @@ Previous versions listed after this indicator refer to our deprecated `@pxblue` 
 
 ### Fixed
 
--   Icon clipping that results in undesired results: VMMS, File PDF, EV Plug CCS Combo, EV Plug CHAdeMO, EV Plug Type 1
+-   Icon clipping that results in undesired outcomes: VMMS, File PDF, EV Plug CCS Combo, EV Plug CHAdeMO, EV Plug Type 1
 
 ## v1.7.0 (October 1, 2021)
 
