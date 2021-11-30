@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>dimmer</title><path d="M13 5h-2v7H9v2h6v-2h-2zM11 15h2v4h-2z"/><path d="M5 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v18a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2zm2 0h10v18H7z" fill-rule="evenodd"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 14H9v-2h2V5h2v7h2zm-4 5h2v-4h-2zm8-16v18a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2zm-2 0H7v18h10z" fill-rule="evenodd"/><path fill="none" d="M0 0h24v24H0z"/></svg>
