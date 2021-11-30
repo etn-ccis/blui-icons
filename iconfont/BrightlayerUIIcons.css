@@ -1,18 +1,10 @@
 @font-face {
     font-family: "BrightlayerUIIcons";
-<<<<<<< HEAD
-    src: url("./BrightlayerUIIcons.ttf?66a6890cbb1f815248ea17dfa93743b3") format("truetype"),
-url("./BrightlayerUIIcons.woff?66a6890cbb1f815248ea17dfa93743b3") format("woff"),
-url("./BrightlayerUIIcons.woff2?66a6890cbb1f815248ea17dfa93743b3") format("woff2"),
-url("./BrightlayerUIIcons.eot?66a6890cbb1f815248ea17dfa93743b3#iefix") format("embedded-opentype"),
-url("./BrightlayerUIIcons.svg?66a6890cbb1f815248ea17dfa93743b3#BrightlayerUIIcons") format("svg");
-=======
-    src: url("./BrightlayerUIIcons.ttf?6efbdfa185e74cfb6c43922195b9e180") format("truetype"),
-url("./BrightlayerUIIcons.woff?6efbdfa185e74cfb6c43922195b9e180") format("woff"),
-url("./BrightlayerUIIcons.woff2?6efbdfa185e74cfb6c43922195b9e180") format("woff2"),
-url("./BrightlayerUIIcons.eot?6efbdfa185e74cfb6c43922195b9e180#iefix") format("embedded-opentype"),
-url("./BrightlayerUIIcons.svg?6efbdfa185e74cfb6c43922195b9e180#BrightlayerUIIcons") format("svg");
->>>>>>> dev
+    src: url("./BrightlayerUIIcons.ttf?1c7af22acefadd791fc98eeb3597ea6a") format("truetype"),
+url("./BrightlayerUIIcons.woff?1c7af22acefadd791fc98eeb3597ea6a") format("woff"),
+url("./BrightlayerUIIcons.woff2?1c7af22acefadd791fc98eeb3597ea6a") format("woff2"),
+url("./BrightlayerUIIcons.eot?1c7af22acefadd791fc98eeb3597ea6a#iefix") format("embedded-opentype"),
+url("./BrightlayerUIIcons.svg?1c7af22acefadd791fc98eeb3597ea6a#BrightlayerUIIcons") format("svg");
 }
 
 i[class^="blui-"]:before, i[class*=" blui-"]:before {
