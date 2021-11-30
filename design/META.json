@@ -2865,8 +2865,8 @@
             "size": 24
         },
         {
-            "name": "Redundancy",
-            "filename": "redundancy.svg",
+            "name": "Power Redundancy",
+            "filename": "power_redundancy.svg",
             "family": ["Status"],
             "style": "baseline",
             "tags": [
@@ -2886,8 +2886,8 @@
             "size": 24
         },
         {
-            "name": "Redundancy Off",
-            "filename": "redundancy_off.svg",
+            "name": "Power Redundancy Off",
+            "filename": "power_redundancy_off.svg",
             "family": ["Status"],
             "style": "baseline",
             "tags": [
@@ -2954,8 +2954,8 @@
             "size": 24
         },
         {
-            "name": "ARC Maintenance Log",
-            "filename": "arc_maintenance_log.svg",
+            "name": "Help Desk Log",
+            "filename": "help_desk_log.svg",
             "family": ["Status"],
             "style": "baseline",
             "tags": [
@@ -2963,6 +2963,8 @@
                 "representative",
                 "help",
                 "helpdesk",
+                "desk",
+                "arc",
                 "headphone",
                 "log",
                 "history",
