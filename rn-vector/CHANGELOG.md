@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.4.0 (Not published)
+
+### Added
+
+-   New icons: Redundancy, Redundancy Off, Video Alert, Video Alert Outline, Video Streaming, Video Streaming Outline, Incident Maintenance, ARC Maintenance Log, Notification Log, Panel Log.
+
+### Changed
+
+-   Icon clipping that results in undesired outcomes ([#171](https://github.com/pxblue/icons/pull/171)).
+
 ## v1.3.1 (November 3, 2021)
 
 ### Changed
@@ -16,8 +26,8 @@ Previous versions listed after this indicator refer to our deprecated `@pxblue` 
 
 ### Fixed
 
--   Icon clipping that results in undesired results: VMMS, File PDF, EV Plug CCS Combo, EV Plug CHAdeMO, EV Plug Type 1
-    
+-   Icon clipping that results in undesired outcomes: VMMS, File PDF, EV Plug CCS Combo, EV Plug CHAdeMO, EV Plug Type 1
+
 ## v1.3.0 (October 1, 2021)
 
 ### Added
