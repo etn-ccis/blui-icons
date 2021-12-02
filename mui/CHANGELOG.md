@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.0 (Not published)
+
+### Added
+
+-   New icons: Power Redundancy, Power Redundancy Off, Video Alert, Video Alert Outline, Video Streaming, Video Streaming Outline, Incident Maintenance, Help Desk Log, Notification Log, Panel Log.
+
 ## v2.7.0 (November 3, 2021)
 
 ### Changed

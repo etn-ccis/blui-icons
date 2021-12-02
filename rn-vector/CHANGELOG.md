@@ -4,11 +4,11 @@
 
 ### Added
 
--   New icons: Redundancy, Redundancy Off, Video Alert, Video Alert Outline, Video Streaming, Video Streaming Outline, Incident Maintenance, ARC Maintenance Log, Notification Log, Panel Log.
+-   New icons: Power Redundancy, Power Redundancy Off, Video Alert, Video Alert Outline, Video Streaming, Video Streaming Outline, Incident Maintenance, Help Desk Log, Notification Log, Panel Log.
 
 ### Changed
 
--   Icon clipping that results in undesired outcomes ([#171](https://github.com/pxblue/icons/pull/171)).
+-   Icon clipping that results in undesired outcomes ([#171](https://github.com/brightlayer-ui/icons/pull/171)).
 
 ## v1.3.1 (November 3, 2021)
 
