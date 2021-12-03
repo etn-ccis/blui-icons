@@ -73,10 +73,31 @@ export type BrightlayerUiIconsId =
   | "environment"
   | "ephesus_fixture"
   | "ephesus_gateway"
-  | "ev_plug_ccs_combo"
   | "ev_plug_chademo"
-  | "ev_plug_type_one"
-  | "ev_plug_type_two"
+  | "ev_plug_domestic_a"
+  | "ev_plug_domestic_b"
+  | "ev_plug_domestic_c"
+  | "ev_plug_domestic_d"
+  | "ev_plug_domestic_e"
+  | "ev_plug_domestic_f"
+  | "ev_plug_domestic_g"
+  | "ev_plug_domestic_h"
+  | "ev_plug_domestic_i"
+  | "ev_plug_domestic_j"
+  | "ev_plug_domestic_k"
+  | "ev_plug_domestic_l"
+  | "ev_plug_iec_60309_2_single_16"
+  | "ev_plug_iec_60309_2_three_16"
+  | "ev_plug_iec_60309_2_three_32"
+  | "ev_plug_iec_60309_2_three_64"
+  | "ev_plug_iec_62196_combo"
+  | "ev_plug_iec_62196_t1"
+  | "ev_plug_iec_62196_t2_combo"
+  | "ev_plug_iec_62196_t2"
+  | "ev_plug_iec_62196_t3a"
+  | "ev_plug_iec_62196_t3c"
+  | "ev_plug_tesla_r"
+  | "ev_plug_tesla_s"
   | "face_id"
   | "factory"
   | "fan_circled"
@@ -112,6 +133,7 @@ export type BrightlayerUiIconsId =
   | "hockey_puck"
   | "hockey_sticks"
   | "hops"
+  | "hubjec_partner"
   | "incident_active"
   | "incident_maintenance"
   | "incident_resolved"
@@ -146,6 +168,8 @@ export type BrightlayerUiIconsId =
   | "output_flow"
   | "overlap"
   | "panel_log"
+  | "pantograph_bottom_up"
+  | "pantograph_top_down"
   | "pdu"
   | "pepper"
   | "phase_angle"
@@ -328,10 +352,31 @@ export type BrightlayerUiIconsKey =
   | "Environment"
   | "EphesusFixture"
   | "EphesusGateway"
-  | "EvPlugCcsCombo"
   | "EvPlugChademo"
-  | "EvPlugTypeOne"
-  | "EvPlugTypeTwo"
+  | "EvPlugDomesticA"
+  | "EvPlugDomesticB"
+  | "EvPlugDomesticC"
+  | "EvPlugDomesticD"
+  | "EvPlugDomesticE"
+  | "EvPlugDomesticF"
+  | "EvPlugDomesticG"
+  | "EvPlugDomesticH"
+  | "EvPlugDomesticI"
+  | "EvPlugDomesticJ"
+  | "EvPlugDomesticK"
+  | "EvPlugDomesticL"
+  | "EvPlugIec_60309_2Single_16"
+  | "EvPlugIec_60309_2Three_16"
+  | "EvPlugIec_60309_2Three_32"
+  | "EvPlugIec_60309_2Three_64"
+  | "EvPlugIec_62196Combo"
+  | "EvPlugIec_62196T1"
+  | "EvPlugIec_62196T2Combo"
+  | "EvPlugIec_62196T2"
+  | "EvPlugIec_62196T3a"
+  | "EvPlugIec_62196T3c"
+  | "EvPlugTeslaR"
+  | "EvPlugTeslaS"
   | "FaceId"
   | "Factory"
   | "FanCircled"
@@ -367,6 +412,7 @@ export type BrightlayerUiIconsKey =
   | "HockeyPuck"
   | "HockeySticks"
   | "Hops"
+  | "HubjecPartner"
   | "IncidentActive"
   | "IncidentMaintenance"
   | "IncidentResolved"
@@ -401,6 +447,8 @@ export type BrightlayerUiIconsKey =
   | "OutputFlow"
   | "Overlap"
   | "PanelLog"
+  | "PantographBottomUp"
+  | "PantographTopDown"
   | "Pdu"
   | "Pepper"
   | "PhaseAngle"
@@ -583,10 +631,31 @@ export enum BrightlayerUiIcons {
   Environment = "environment",
   EphesusFixture = "ephesus_fixture",
   EphesusGateway = "ephesus_gateway",
-  EvPlugCcsCombo = "ev_plug_ccs_combo",
   EvPlugChademo = "ev_plug_chademo",
-  EvPlugTypeOne = "ev_plug_type_one",
-  EvPlugTypeTwo = "ev_plug_type_two",
+  EvPlugDomesticA = "ev_plug_domestic_a",
+  EvPlugDomesticB = "ev_plug_domestic_b",
+  EvPlugDomesticC = "ev_plug_domestic_c",
+  EvPlugDomesticD = "ev_plug_domestic_d",
+  EvPlugDomesticE = "ev_plug_domestic_e",
+  EvPlugDomesticF = "ev_plug_domestic_f",
+  EvPlugDomesticG = "ev_plug_domestic_g",
+  EvPlugDomesticH = "ev_plug_domestic_h",
+  EvPlugDomesticI = "ev_plug_domestic_i",
+  EvPlugDomesticJ = "ev_plug_domestic_j",
+  EvPlugDomesticK = "ev_plug_domestic_k",
+  EvPlugDomesticL = "ev_plug_domestic_l",
+  EvPlugIec_60309_2Single_16 = "ev_plug_iec_60309_2_single_16",
+  EvPlugIec_60309_2Three_16 = "ev_plug_iec_60309_2_three_16",
+  EvPlugIec_60309_2Three_32 = "ev_plug_iec_60309_2_three_32",
+  EvPlugIec_60309_2Three_64 = "ev_plug_iec_60309_2_three_64",
+  EvPlugIec_62196Combo = "ev_plug_iec_62196_combo",
+  EvPlugIec_62196T1 = "ev_plug_iec_62196_t1",
+  EvPlugIec_62196T2Combo = "ev_plug_iec_62196_t2_combo",
+  EvPlugIec_62196T2 = "ev_plug_iec_62196_t2",
+  EvPlugIec_62196T3a = "ev_plug_iec_62196_t3a",
+  EvPlugIec_62196T3c = "ev_plug_iec_62196_t3c",
+  EvPlugTeslaR = "ev_plug_tesla_r",
+  EvPlugTeslaS = "ev_plug_tesla_s",
   FaceId = "face_id",
   Factory = "factory",
   FanCircled = "fan_circled",
@@ -622,6 +691,7 @@ export enum BrightlayerUiIcons {
   HockeyPuck = "hockey_puck",
   HockeySticks = "hockey_sticks",
   Hops = "hops",
+  HubjecPartner = "hubjec_partner",
   IncidentActive = "incident_active",
   IncidentMaintenance = "incident_maintenance",
   IncidentResolved = "incident_resolved",
@@ -656,6 +726,8 @@ export enum BrightlayerUiIcons {
   OutputFlow = "output_flow",
   Overlap = "overlap",
   PanelLog = "panel_log",
+  PantographBottomUp = "pantograph_bottom_up",
+  PantographTopDown = "pantograph_top_down",
   Pdu = "pdu",
   Pepper = "pepper",
   PhaseAngle = "phase_angle",
@@ -839,183 +911,207 @@ export const BRIGHTLAYER_UI_ICONS_CODEPOINTS: { [key in BrightlayerUiIcons]: str
   [BrightlayerUiIcons.Environment]: "61768",
   [BrightlayerUiIcons.EphesusFixture]: "61769",
   [BrightlayerUiIcons.EphesusGateway]: "61770",
-  [BrightlayerUiIcons.EvPlugCcsCombo]: "61771",
-  [BrightlayerUiIcons.EvPlugChademo]: "61772",
-  [BrightlayerUiIcons.EvPlugTypeOne]: "61773",
-  [BrightlayerUiIcons.EvPlugTypeTwo]: "61774",
-  [BrightlayerUiIcons.FaceId]: "61775",
-  [BrightlayerUiIcons.Factory]: "61776",
-  [BrightlayerUiIcons.FanCircled]: "61777",
-  [BrightlayerUiIcons.Fan]: "61778",
-  [BrightlayerUiIcons.FileDoc]: "61779",
-  [BrightlayerUiIcons.FilePdf]: "61780",
-  [BrightlayerUiIcons.Flask]: "61781",
-  [BrightlayerUiIcons.Flood]: "61782",
-  [BrightlayerUiIcons.Flow]: "61783",
-  [BrightlayerUiIcons.FlowerTulip]: "61784",
-  [BrightlayerUiIcons.Flower]: "61785",
-  [BrightlayerUiIcons.FootballHelmet]: "61786",
-  [BrightlayerUiIcons.Forklift]: "61787",
-  [BrightlayerUiIcons.Frequency]: "61788",
-  [BrightlayerUiIcons.Fuel]: "61789",
-  [BrightlayerUiIcons.Garlic]: "61790",
-  [BrightlayerUiIcons.GasCylinder]: "61791",
-  [BrightlayerUiIcons.GeneratorOff]: "61792",
-  [BrightlayerUiIcons.Generator]: "61793",
-  [BrightlayerUiIcons.GlassDivider]: "61794",
-  [BrightlayerUiIcons.Glasses]: "61795",
-  [BrightlayerUiIcons.Google]: "61796",
-  [BrightlayerUiIcons.GradeA]: "61797",
-  [BrightlayerUiIcons.GradeB]: "61798",
-  [BrightlayerUiIcons.GradeC]: "61799",
-  [BrightlayerUiIcons.GradeD]: "61800",
-  [BrightlayerUiIcons.GradeF]: "61801",
-  [BrightlayerUiIcons.Grass]: "61802",
-  [BrightlayerUiIcons.Harmonics]: "61803",
-  [BrightlayerUiIcons.Health]: "61804",
-  [BrightlayerUiIcons.HearingProtection]: "61805",
-  [BrightlayerUiIcons.HelpDeskLog]: "61806",
-  [BrightlayerUiIcons.HockeyPuck]: "61807",
-  [BrightlayerUiIcons.HockeySticks]: "61808",
-  [BrightlayerUiIcons.Hops]: "61809",
-  [BrightlayerUiIcons.IncidentActive]: "61810",
-  [BrightlayerUiIcons.IncidentMaintenance]: "61811",
-  [BrightlayerUiIcons.IncidentResolved]: "61812",
-  [BrightlayerUiIcons.Incident]: "61813",
-  [BrightlayerUiIcons.InputFlow]: "61814",
-  [BrightlayerUiIcons.Internet]: "61815",
-  [BrightlayerUiIcons.IppeVibrateOff]: "61816",
-  [BrightlayerUiIcons.IppeVibrateOutlined]: "61817",
-  [BrightlayerUiIcons.IppeVibrate]: "61818",
-  [BrightlayerUiIcons.Leaf]: "61819",
-  [BrightlayerUiIcons.LightBulb]: "61820",
-  [BrightlayerUiIcons.LightSwitch]: "61821",
-  [BrightlayerUiIcons.LineToLine]: "61822",
-  [BrightlayerUiIcons.LineToNeutral]: "61823",
-  [BrightlayerUiIcons.LoadFactor]: "61824",
-  [BrightlayerUiIcons.LockReset]: "61825",
-  [BrightlayerUiIcons.Maintenance]: "61826",
-  [BrightlayerUiIcons.MapMarkerMultiple]: "61827",
-  [BrightlayerUiIcons.MapMarkerThree]: "61828",
-  [BrightlayerUiIcons.MeterFace]: "61829",
-  [BrightlayerUiIcons.Moisture]: "61830",
-  [BrightlayerUiIcons.MotorAlt]: "61831",
-  [BrightlayerUiIcons.MotorControllerOutline]: "61832",
-  [BrightlayerUiIcons.MotorController]: "61833",
-  [BrightlayerUiIcons.MotorOutline]: "61834",
-  [BrightlayerUiIcons.MotorStarter]: "61835",
-  [BrightlayerUiIcons.Motor]: "61836",
-  [BrightlayerUiIcons.NetworkSwitch]: "61837",
-  [BrightlayerUiIcons.NotificationLog]: "61838",
-  [BrightlayerUiIcons.Outlet]: "61839",
-  [BrightlayerUiIcons.OutlineOfflineBolt]: "61840",
-  [BrightlayerUiIcons.OutputFlow]: "61841",
-  [BrightlayerUiIcons.Overlap]: "61842",
-  [BrightlayerUiIcons.PanelLog]: "61843",
-  [BrightlayerUiIcons.Pdu]: "61844",
-  [BrightlayerUiIcons.Pepper]: "61845",
-  [BrightlayerUiIcons.PhaseAngle]: "61846",
-  [BrightlayerUiIcons.PickupTruck]: "61847",
-  [BrightlayerUiIcons.PiggyBank]: "61848",
-  [BrightlayerUiIcons.PipeDisconnected]: "61849",
-  [BrightlayerUiIcons.PipeLeak]: "61850",
-  [BrightlayerUiIcons.Pipe]: "61851",
-  [BrightlayerUiIcons.Potato]: "61852",
-  [BrightlayerUiIcons.PowerAc]: "61853",
-  [BrightlayerUiIcons.PowerApparentAc]: "61854",
-  [BrightlayerUiIcons.PowerCircledOutline]: "61855",
-  [BrightlayerUiIcons.PowerCircled]: "61856",
-  [BrightlayerUiIcons.PowerDc]: "61857",
-  [BrightlayerUiIcons.PowerFactor]: "61858",
-  [BrightlayerUiIcons.PowerRedundancyOff]: "61859",
-  [BrightlayerUiIcons.PowerRedundancy]: "61860",
-  [BrightlayerUiIcons.PressureAlt]: "61861",
-  [BrightlayerUiIcons.Pressure]: "61862",
-  [BrightlayerUiIcons.Priority]: "61863",
-  [BrightlayerUiIcons.Pump]: "61864",
-  [BrightlayerUiIcons.PushNotificationSolid]: "61865",
-  [BrightlayerUiIcons.PushNotification]: "61866",
-  [BrightlayerUiIcons.PxblueSmallAlt]: "61867",
-  [BrightlayerUiIcons.PxblueSmall]: "61868",
-  [BrightlayerUiIcons.Pxblue]: "61869",
-  [BrightlayerUiIcons.Pxgreen]: "61870",
-  [BrightlayerUiIcons.Pxred]: "61871",
-  [BrightlayerUiIcons.Pxwhite]: "61872",
-  [BrightlayerUiIcons.Qrcode]: "61873",
-  [BrightlayerUiIcons.RadioHandheld]: "61874",
-  [BrightlayerUiIcons.ReactiveEnergy]: "61875",
-  [BrightlayerUiIcons.ReactivePower]: "61876",
-  [BrightlayerUiIcons.RealEnergy]: "61877",
-  [BrightlayerUiIcons.RealPower]: "61878",
-  [BrightlayerUiIcons.Relay]: "61879",
-  [BrightlayerUiIcons.Rfid]: "61880",
-  [BrightlayerUiIcons.RoadAlt]: "61881",
-  [BrightlayerUiIcons.Road]: "61882",
-  [BrightlayerUiIcons.RunningHigh]: "61883",
-  [BrightlayerUiIcons.RunningLow]: "61884",
-  [BrightlayerUiIcons.SafetyBoot]: "61885",
-  [BrightlayerUiIcons.SafetyGlasses]: "61886",
-  [BrightlayerUiIcons.SatelliteUplink]: "61887",
-  [BrightlayerUiIcons.ScanQrcode]: "61888",
-  [BrightlayerUiIcons.SensorAlt]: "61889",
-  [BrightlayerUiIcons.SensorDeviceAlt]: "61890",
-  [BrightlayerUiIcons.SensorDevice]: "61891",
-  [BrightlayerUiIcons.Sensor]: "61892",
-  [BrightlayerUiIcons.Sequence]: "61893",
-  [BrightlayerUiIcons.Server]: "61894",
-  [BrightlayerUiIcons.Servers]: "61895",
-  [BrightlayerUiIcons.SignCaution]: "61896",
-  [BrightlayerUiIcons.Silo]: "61897",
-  [BrightlayerUiIcons.SmokeDetector]: "61898",
-  [BrightlayerUiIcons.Soybean]: "61899",
-  [BrightlayerUiIcons.SportsCar]: "61900",
-  [BrightlayerUiIcons.Ssol]: "61901",
-  [BrightlayerUiIcons.Stopped]: "61902",
-  [BrightlayerUiIcons.Stopping]: "61903",
-  [BrightlayerUiIcons.StudioblueOutline]: "61904",
-  [BrightlayerUiIcons.Studioblue]: "61905",
-  [BrightlayerUiIcons.Sunflower]: "61906",
-  [BrightlayerUiIcons.Support]: "61907",
-  [BrightlayerUiIcons.Switch]: "61908",
-  [BrightlayerUiIcons.Switchgear]: "61909",
-  [BrightlayerUiIcons.Technician]: "61910",
-  [BrightlayerUiIcons.Temp]: "61911",
-  [BrightlayerUiIcons.Tennis]: "61912",
-  [BrightlayerUiIcons.ToggleOffOutlined]: "61913",
-  [BrightlayerUiIcons.ToggleOff]: "61914",
-  [BrightlayerUiIcons.ToggleOnOutlined]: "61915",
-  [BrightlayerUiIcons.ToggleOn]: "61916",
-  [BrightlayerUiIcons.Tomato]: "61917",
-  [BrightlayerUiIcons.Tractor]: "61918",
-  [BrightlayerUiIcons.TrafficLight]: "61919",
-  [BrightlayerUiIcons.Transformer]: "61920",
-  [BrightlayerUiIcons.Tree]: "61921",
-  [BrightlayerUiIcons.TrendingDown]: "61922",
-  [BrightlayerUiIcons.TrendingFlat]: "61923",
-  [BrightlayerUiIcons.TrendingUp]: "61924",
-  [BrightlayerUiIcons.TripCurveAlt]: "61925",
-  [BrightlayerUiIcons.TripCurve]: "61926",
-  [BrightlayerUiIcons.TripUnit]: "61927",
-  [BrightlayerUiIcons.Tripped]: "61928",
-  [BrightlayerUiIcons.UpsOutline]: "61929",
-  [BrightlayerUiIcons.Ups]: "61930",
-  [BrightlayerUiIcons.UtilityVan]: "61931",
-  [BrightlayerUiIcons.Utility]: "61932",
-  [BrightlayerUiIcons.Vfd]: "61933",
-  [BrightlayerUiIcons.VideoAlertOutline]: "61934",
-  [BrightlayerUiIcons.VideoAlert]: "61935",
-  [BrightlayerUiIcons.VideoStreamingOutline]: "61936",
-  [BrightlayerUiIcons.VideoStreaming]: "61937",
-  [BrightlayerUiIcons.Vmms]: "61938",
-  [BrightlayerUiIcons.VoltageAc]: "61939",
-  [BrightlayerUiIcons.VoltageCircledOutline]: "61940",
-  [BrightlayerUiIcons.VoltageCircled]: "61941",
-  [BrightlayerUiIcons.VoltageDc]: "61942",
-  [BrightlayerUiIcons.Voltage]: "61943",
-  [BrightlayerUiIcons.WaterOutline]: "61944",
-  [BrightlayerUiIcons.Water]: "61945",
-  [BrightlayerUiIcons.Waveform]: "61946",
-  [BrightlayerUiIcons.Wheat]: "61947",
-  [BrightlayerUiIcons.XstorageAlt]: "61948",
-  [BrightlayerUiIcons.Xstorage]: "61949",
+  [BrightlayerUiIcons.EvPlugChademo]: "61771",
+  [BrightlayerUiIcons.EvPlugDomesticA]: "61772",
+  [BrightlayerUiIcons.EvPlugDomesticB]: "61773",
+  [BrightlayerUiIcons.EvPlugDomesticC]: "61774",
+  [BrightlayerUiIcons.EvPlugDomesticD]: "61775",
+  [BrightlayerUiIcons.EvPlugDomesticE]: "61776",
+  [BrightlayerUiIcons.EvPlugDomesticF]: "61777",
+  [BrightlayerUiIcons.EvPlugDomesticG]: "61778",
+  [BrightlayerUiIcons.EvPlugDomesticH]: "61779",
+  [BrightlayerUiIcons.EvPlugDomesticI]: "61780",
+  [BrightlayerUiIcons.EvPlugDomesticJ]: "61781",
+  [BrightlayerUiIcons.EvPlugDomesticK]: "61782",
+  [BrightlayerUiIcons.EvPlugDomesticL]: "61783",
+  [BrightlayerUiIcons.EvPlugIec_60309_2Single_16]: "61784",
+  [BrightlayerUiIcons.EvPlugIec_60309_2Three_16]: "61785",
+  [BrightlayerUiIcons.EvPlugIec_60309_2Three_32]: "61786",
+  [BrightlayerUiIcons.EvPlugIec_60309_2Three_64]: "61787",
+  [BrightlayerUiIcons.EvPlugIec_62196Combo]: "61788",
+  [BrightlayerUiIcons.EvPlugIec_62196T1]: "61789",
+  [BrightlayerUiIcons.EvPlugIec_62196T2Combo]: "61790",
+  [BrightlayerUiIcons.EvPlugIec_62196T2]: "61791",
+  [BrightlayerUiIcons.EvPlugIec_62196T3a]: "61792",
+  [BrightlayerUiIcons.EvPlugIec_62196T3c]: "61793",
+  [BrightlayerUiIcons.EvPlugTeslaR]: "61794",
+  [BrightlayerUiIcons.EvPlugTeslaS]: "61795",
+  [BrightlayerUiIcons.FaceId]: "61796",
+  [BrightlayerUiIcons.Factory]: "61797",
+  [BrightlayerUiIcons.FanCircled]: "61798",
+  [BrightlayerUiIcons.Fan]: "61799",
+  [BrightlayerUiIcons.FileDoc]: "61800",
+  [BrightlayerUiIcons.FilePdf]: "61801",
+  [BrightlayerUiIcons.Flask]: "61802",
+  [BrightlayerUiIcons.Flood]: "61803",
+  [BrightlayerUiIcons.Flow]: "61804",
+  [BrightlayerUiIcons.FlowerTulip]: "61805",
+  [BrightlayerUiIcons.Flower]: "61806",
+  [BrightlayerUiIcons.FootballHelmet]: "61807",
+  [BrightlayerUiIcons.Forklift]: "61808",
+  [BrightlayerUiIcons.Frequency]: "61809",
+  [BrightlayerUiIcons.Fuel]: "61810",
+  [BrightlayerUiIcons.Garlic]: "61811",
+  [BrightlayerUiIcons.GasCylinder]: "61812",
+  [BrightlayerUiIcons.GeneratorOff]: "61813",
+  [BrightlayerUiIcons.Generator]: "61814",
+  [BrightlayerUiIcons.GlassDivider]: "61815",
+  [BrightlayerUiIcons.Glasses]: "61816",
+  [BrightlayerUiIcons.Google]: "61817",
+  [BrightlayerUiIcons.GradeA]: "61818",
+  [BrightlayerUiIcons.GradeB]: "61819",
+  [BrightlayerUiIcons.GradeC]: "61820",
+  [BrightlayerUiIcons.GradeD]: "61821",
+  [BrightlayerUiIcons.GradeF]: "61822",
+  [BrightlayerUiIcons.Grass]: "61823",
+  [BrightlayerUiIcons.Harmonics]: "61824",
+  [BrightlayerUiIcons.Health]: "61825",
+  [BrightlayerUiIcons.HearingProtection]: "61826",
+  [BrightlayerUiIcons.HelpDeskLog]: "61827",
+  [BrightlayerUiIcons.HockeyPuck]: "61828",
+  [BrightlayerUiIcons.HockeySticks]: "61829",
+  [BrightlayerUiIcons.Hops]: "61830",
+  [BrightlayerUiIcons.HubjecPartner]: "61831",
+  [BrightlayerUiIcons.IncidentActive]: "61832",
+  [BrightlayerUiIcons.IncidentMaintenance]: "61833",
+  [BrightlayerUiIcons.IncidentResolved]: "61834",
+  [BrightlayerUiIcons.Incident]: "61835",
+  [BrightlayerUiIcons.InputFlow]: "61836",
+  [BrightlayerUiIcons.Internet]: "61837",
+  [BrightlayerUiIcons.IppeVibrateOff]: "61838",
+  [BrightlayerUiIcons.IppeVibrateOutlined]: "61839",
+  [BrightlayerUiIcons.IppeVibrate]: "61840",
+  [BrightlayerUiIcons.Leaf]: "61841",
+  [BrightlayerUiIcons.LightBulb]: "61842",
+  [BrightlayerUiIcons.LightSwitch]: "61843",
+  [BrightlayerUiIcons.LineToLine]: "61844",
+  [BrightlayerUiIcons.LineToNeutral]: "61845",
+  [BrightlayerUiIcons.LoadFactor]: "61846",
+  [BrightlayerUiIcons.LockReset]: "61847",
+  [BrightlayerUiIcons.Maintenance]: "61848",
+  [BrightlayerUiIcons.MapMarkerMultiple]: "61849",
+  [BrightlayerUiIcons.MapMarkerThree]: "61850",
+  [BrightlayerUiIcons.MeterFace]: "61851",
+  [BrightlayerUiIcons.Moisture]: "61852",
+  [BrightlayerUiIcons.MotorAlt]: "61853",
+  [BrightlayerUiIcons.MotorControllerOutline]: "61854",
+  [BrightlayerUiIcons.MotorController]: "61855",
+  [BrightlayerUiIcons.MotorOutline]: "61856",
+  [BrightlayerUiIcons.MotorStarter]: "61857",
+  [BrightlayerUiIcons.Motor]: "61858",
+  [BrightlayerUiIcons.NetworkSwitch]: "61859",
+  [BrightlayerUiIcons.NotificationLog]: "61860",
+  [BrightlayerUiIcons.Outlet]: "61861",
+  [BrightlayerUiIcons.OutlineOfflineBolt]: "61862",
+  [BrightlayerUiIcons.OutputFlow]: "61863",
+  [BrightlayerUiIcons.Overlap]: "61864",
+  [BrightlayerUiIcons.PanelLog]: "61865",
+  [BrightlayerUiIcons.PantographBottomUp]: "61866",
+  [BrightlayerUiIcons.PantographTopDown]: "61867",
+  [BrightlayerUiIcons.Pdu]: "61868",
+  [BrightlayerUiIcons.Pepper]: "61869",
+  [BrightlayerUiIcons.PhaseAngle]: "61870",
+  [BrightlayerUiIcons.PickupTruck]: "61871",
+  [BrightlayerUiIcons.PiggyBank]: "61872",
+  [BrightlayerUiIcons.PipeDisconnected]: "61873",
+  [BrightlayerUiIcons.PipeLeak]: "61874",
+  [BrightlayerUiIcons.Pipe]: "61875",
+  [BrightlayerUiIcons.Potato]: "61876",
+  [BrightlayerUiIcons.PowerAc]: "61877",
+  [BrightlayerUiIcons.PowerApparentAc]: "61878",
+  [BrightlayerUiIcons.PowerCircledOutline]: "61879",
+  [BrightlayerUiIcons.PowerCircled]: "61880",
+  [BrightlayerUiIcons.PowerDc]: "61881",
+  [BrightlayerUiIcons.PowerFactor]: "61882",
+  [BrightlayerUiIcons.PowerRedundancyOff]: "61883",
+  [BrightlayerUiIcons.PowerRedundancy]: "61884",
+  [BrightlayerUiIcons.PressureAlt]: "61885",
+  [BrightlayerUiIcons.Pressure]: "61886",
+  [BrightlayerUiIcons.Priority]: "61887",
+  [BrightlayerUiIcons.Pump]: "61888",
+  [BrightlayerUiIcons.PushNotificationSolid]: "61889",
+  [BrightlayerUiIcons.PushNotification]: "61890",
+  [BrightlayerUiIcons.PxblueSmallAlt]: "61891",
+  [BrightlayerUiIcons.PxblueSmall]: "61892",
+  [BrightlayerUiIcons.Pxblue]: "61893",
+  [BrightlayerUiIcons.Pxgreen]: "61894",
+  [BrightlayerUiIcons.Pxred]: "61895",
+  [BrightlayerUiIcons.Pxwhite]: "61896",
+  [BrightlayerUiIcons.Qrcode]: "61897",
+  [BrightlayerUiIcons.RadioHandheld]: "61898",
+  [BrightlayerUiIcons.ReactiveEnergy]: "61899",
+  [BrightlayerUiIcons.ReactivePower]: "61900",
+  [BrightlayerUiIcons.RealEnergy]: "61901",
+  [BrightlayerUiIcons.RealPower]: "61902",
+  [BrightlayerUiIcons.Relay]: "61903",
+  [BrightlayerUiIcons.Rfid]: "61904",
+  [BrightlayerUiIcons.RoadAlt]: "61905",
+  [BrightlayerUiIcons.Road]: "61906",
+  [BrightlayerUiIcons.RunningHigh]: "61907",
+  [BrightlayerUiIcons.RunningLow]: "61908",
+  [BrightlayerUiIcons.SafetyBoot]: "61909",
+  [BrightlayerUiIcons.SafetyGlasses]: "61910",
+  [BrightlayerUiIcons.SatelliteUplink]: "61911",
+  [BrightlayerUiIcons.ScanQrcode]: "61912",
+  [BrightlayerUiIcons.SensorAlt]: "61913",
+  [BrightlayerUiIcons.SensorDeviceAlt]: "61914",
+  [BrightlayerUiIcons.SensorDevice]: "61915",
+  [BrightlayerUiIcons.Sensor]: "61916",
+  [BrightlayerUiIcons.Sequence]: "61917",
+  [BrightlayerUiIcons.Server]: "61918",
+  [BrightlayerUiIcons.Servers]: "61919",
+  [BrightlayerUiIcons.SignCaution]: "61920",
+  [BrightlayerUiIcons.Silo]: "61921",
+  [BrightlayerUiIcons.SmokeDetector]: "61922",
+  [BrightlayerUiIcons.Soybean]: "61923",
+  [BrightlayerUiIcons.SportsCar]: "61924",
+  [BrightlayerUiIcons.Ssol]: "61925",
+  [BrightlayerUiIcons.Stopped]: "61926",
+  [BrightlayerUiIcons.Stopping]: "61927",
+  [BrightlayerUiIcons.StudioblueOutline]: "61928",
+  [BrightlayerUiIcons.Studioblue]: "61929",
+  [BrightlayerUiIcons.Sunflower]: "61930",
+  [BrightlayerUiIcons.Support]: "61931",
+  [BrightlayerUiIcons.Switch]: "61932",
+  [BrightlayerUiIcons.Switchgear]: "61933",
+  [BrightlayerUiIcons.Technician]: "61934",
+  [BrightlayerUiIcons.Temp]: "61935",
+  [BrightlayerUiIcons.Tennis]: "61936",
+  [BrightlayerUiIcons.ToggleOffOutlined]: "61937",
+  [BrightlayerUiIcons.ToggleOff]: "61938",
+  [BrightlayerUiIcons.ToggleOnOutlined]: "61939",
+  [BrightlayerUiIcons.ToggleOn]: "61940",
+  [BrightlayerUiIcons.Tomato]: "61941",
+  [BrightlayerUiIcons.Tractor]: "61942",
+  [BrightlayerUiIcons.TrafficLight]: "61943",
+  [BrightlayerUiIcons.Transformer]: "61944",
+  [BrightlayerUiIcons.Tree]: "61945",
+  [BrightlayerUiIcons.TrendingDown]: "61946",
+  [BrightlayerUiIcons.TrendingFlat]: "61947",
+  [BrightlayerUiIcons.TrendingUp]: "61948",
+  [BrightlayerUiIcons.TripCurveAlt]: "61949",
+  [BrightlayerUiIcons.TripCurve]: "61950",
+  [BrightlayerUiIcons.TripUnit]: "61951",
+  [BrightlayerUiIcons.Tripped]: "61952",
+  [BrightlayerUiIcons.UpsOutline]: "61953",
+  [BrightlayerUiIcons.Ups]: "61954",
+  [BrightlayerUiIcons.UtilityVan]: "61955",
+  [BrightlayerUiIcons.Utility]: "61956",
+  [BrightlayerUiIcons.Vfd]: "61957",
+  [BrightlayerUiIcons.VideoAlertOutline]: "61958",
+  [BrightlayerUiIcons.VideoAlert]: "61959",
+  [BrightlayerUiIcons.VideoStreamingOutline]: "61960",
+  [BrightlayerUiIcons.VideoStreaming]: "61961",
+  [BrightlayerUiIcons.Vmms]: "61962",
+  [BrightlayerUiIcons.VoltageAc]: "61963",
+  [BrightlayerUiIcons.VoltageCircledOutline]: "61964",
+  [BrightlayerUiIcons.VoltageCircled]: "61965",
+  [BrightlayerUiIcons.VoltageDc]: "61966",
+  [BrightlayerUiIcons.Voltage]: "61967",
+  [BrightlayerUiIcons.WaterOutline]: "61968",
+  [BrightlayerUiIcons.Water]: "61969",
+  [BrightlayerUiIcons.Waveform]: "61970",
+  [BrightlayerUiIcons.Wheat]: "61971",
+  [BrightlayerUiIcons.XstorageAlt]: "61972",
+  [BrightlayerUiIcons.Xstorage]: "61973",
 };
