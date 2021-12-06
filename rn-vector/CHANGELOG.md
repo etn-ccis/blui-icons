@@ -4,8 +4,7 @@
 
 ### Added
 
--   New electric vehicle-related icons: EV Plug Domestic A, EV Plug Domestic B, EV Plug Domestic C, EV Plug Domestic D, EV Plug Domestic E, EV Plug Domestic F, EV Plug Domestic G, EV Plug Domestic H, EV Plug Domestic I, EV Plug Domestic J, EV Plug Domestic K, EV Plug Domestic L, EV Plug IEC 60309-2 Single 16, EV Plug IEC 60309-2 Three 16, EV Plug IEC 60309-2 Three 32, EV Plug IEC 60309-2 Three 64, EV Plug IEC 62196 T1, EV Plug IEC 62196 T1 Combo, EV Plug IEC 62196 T2, EV Plug IEC 62196 T2 Combo, EV Plug IEC 62196 T3A, EV Plug IEC 62196 T3C, EV Plug Tesla R, EV Plug Tesla S, EV Plug CHAdeMO, Pantograph Bottom Up, Pantograph Top Down, Hubject.
--   New icons: Power Redundancy, Power Redundancy Off, Video Alert, Video Alert Outline, Video Streaming, Video Streaming Outline, Incident Maintenance, Help Desk Log, Notification Log, Panel Log.
+-   New electric vehicle-related icons (28): EV Plug Domestic A, EV Plug Domestic B, EV Plug Domestic C, EV Plug Domestic D, EV Plug Domestic E, EV Plug Domestic F, EV Plug Domestic G, EV Plug Domestic H, EV Plug Domestic I, EV Plug Domestic J, EV Plug Domestic K, EV Plug Domestic L, EV Plug IEC 60309-2 Single 16, EV Plug IEC 60309-2 Three 16, EV Plug IEC 60309-2 Three 32, EV Plug IEC 60309-2 Three 64, EV Plug IEC 62196 T1, EV Plug IEC 62196 T1 Combo, EV Plug IEC 62196 T2, EV Plug IEC 62196 T2 Combo, EV Plug IEC 62196 T3A, EV Plug IEC 62196 T3C, EV Plug Tesla R, EV Plug Tesla S, EV Plug - Other new icons (10): Power Redundancy, Power Redundancy Off, Video Alert, Video Alert Outline, Video Streaming, Video Streaming Outline, Incident Maintenance, Help Desk Log, Notification Log, Panel Log.
 
 ### Changed
 
