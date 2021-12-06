@@ -3337,7 +3337,7 @@
             "size": 24
         },
         {
-            "name": "Pantograph Bottom Up",
+            "name": "Pantograph Bottom-Up",
             "filename": "pantograph_bottom_up.svg",
             "family": ["Vehicles"],
             "style": "baseline",
@@ -3361,7 +3361,7 @@
             "size": 24
         },
         {
-            "name": "Pantograph Top Down",
+            "name": "Pantograph Top-Down",
             "filename": "pantograph_top_down.svg",
             "family": ["Vehicles"],
             "style": "baseline",
