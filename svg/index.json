@@ -2949,7 +2949,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2958,7 +2958,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2967,7 +2967,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2976,7 +2976,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2985,7 +2985,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2994,7 +2994,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3003,7 +3003,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3012,7 +3012,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3021,7 +3021,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3030,7 +3030,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3039,7 +3039,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3048,7 +3048,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3067,7 +3067,7 @@
                 "connector",
                 "international electrotechnical commission"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3086,7 +3086,7 @@
                 "connector",
                 "international electrotechnical commission"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3105,7 +3105,7 @@
                 "connector",
                 "international electrotechnical commission"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3124,7 +3124,7 @@
                 "connector",
                 "international electrotechnical commission"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3143,7 +3143,7 @@
                 "sae",
                 "type 1"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3162,7 +3162,7 @@
                 "sae",
                 "type 1"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24,
             "deprecatedToBLUIIcon": "ev_plug_iec_62196_t1"
         },
@@ -3183,7 +3183,7 @@
                 "multi",
                 "multiple"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3201,7 +3201,7 @@
                 "charging station",
                 "type 2"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3219,7 +3219,7 @@
                 "charging station",
                 "type 2"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24,
             "deprecatedToBLUIIcon": "ev_plug_iec_62196_t2"
         },
@@ -3241,7 +3241,7 @@
                 "multi",
                 "multiple"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3262,7 +3262,7 @@
                 "multi",
                 "multiple"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24,
             "deprecatedToBLUIIcon": "ev_plug_iec_62196_t2_combo"
         },
@@ -3280,7 +3280,7 @@
                 "charge",
                 "charging station"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3298,7 +3298,7 @@
                 "charging station",
                 "scame"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3307,7 +3307,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "tesla", "charge", "charging station"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3316,7 +3316,7 @@
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": ["electric vehicle", "inlet", "connector", "tesla", "charge", "charging station"],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3333,7 +3333,7 @@
                 "charge",
                 "charging station"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3357,7 +3357,7 @@
                 "line",
                 "apparatus"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -3381,7 +3381,7 @@
                 "line",
                 "apparatus"
             ],
-            "author": "Jeremy Matter (Brightlayer UI)",
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
