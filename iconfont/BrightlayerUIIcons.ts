@@ -99,8 +99,8 @@ export type BrightlayerUiIconsId =
   | "ev_plug_iec_62196_t3c"
   | "ev_plug_tesla_r"
   | "ev_plug_tesla_s"
-  | "ev_plug_type_1"
-  | "ev_plug_type_2"
+  | "ev_plug_type_one"
+  | "ev_plug_type_two"
   | "face_id"
   | "factory"
   | "fan_circled"
@@ -381,8 +381,8 @@ export type BrightlayerUiIconsKey =
   | "EvPlugIec_62196T3c"
   | "EvPlugTeslaR"
   | "EvPlugTeslaS"
-  | "EvPlugType_1"
-  | "EvPlugType_2"
+  | "EvPlugTypeOne"
+  | "EvPlugTypeTwo"
   | "FaceId"
   | "Factory"
   | "FanCircled"
@@ -663,8 +663,8 @@ export enum BrightlayerUiIcons {
   EvPlugIec_62196T3c = "ev_plug_iec_62196_t3c",
   EvPlugTeslaR = "ev_plug_tesla_r",
   EvPlugTeslaS = "ev_plug_tesla_s",
-  EvPlugType_1 = "ev_plug_type_1",
-  EvPlugType_2 = "ev_plug_type_2",
+  EvPlugTypeOne = "ev_plug_type_one",
+  EvPlugTypeTwo = "ev_plug_type_two",
   FaceId = "face_id",
   Factory = "factory",
   FanCircled = "fan_circled",
@@ -946,8 +946,8 @@ export const BRIGHTLAYER_UI_ICONS_CODEPOINTS: { [key in BrightlayerUiIcons]: str
   [BrightlayerUiIcons.EvPlugIec_62196T3c]: "61794",
   [BrightlayerUiIcons.EvPlugTeslaR]: "61795",
   [BrightlayerUiIcons.EvPlugTeslaS]: "61796",
-  [BrightlayerUiIcons.EvPlugType_1]: "61797",
-  [BrightlayerUiIcons.EvPlugType_2]: "61798",
+  [BrightlayerUiIcons.EvPlugTypeOne]: "61797",
+  [BrightlayerUiIcons.EvPlugTypeTwo]: "61798",
   [BrightlayerUiIcons.FaceId]: "61799",
   [BrightlayerUiIcons.Factory]: "61800",
   [BrightlayerUiIcons.FanCircled]: "61801",

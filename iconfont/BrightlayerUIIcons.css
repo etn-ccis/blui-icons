@@ -1,10 +1,10 @@
 @font-face {
     font-family: "BrightlayerUIIcons";
-    src: url("./BrightlayerUIIcons.ttf?1fb227d93b349b62b05785881d8347ed") format("truetype"),
-url("./BrightlayerUIIcons.woff?1fb227d93b349b62b05785881d8347ed") format("woff"),
-url("./BrightlayerUIIcons.woff2?1fb227d93b349b62b05785881d8347ed") format("woff2"),
-url("./BrightlayerUIIcons.eot?1fb227d93b349b62b05785881d8347ed#iefix") format("embedded-opentype"),
-url("./BrightlayerUIIcons.svg?1fb227d93b349b62b05785881d8347ed#BrightlayerUIIcons") format("svg");
+    src: url("./BrightlayerUIIcons.ttf?cf56adfda803915fe70e5d2a18c90b92") format("truetype"),
+url("./BrightlayerUIIcons.woff?cf56adfda803915fe70e5d2a18c90b92") format("woff"),
+url("./BrightlayerUIIcons.woff2?cf56adfda803915fe70e5d2a18c90b92") format("woff2"),
+url("./BrightlayerUIIcons.eot?cf56adfda803915fe70e5d2a18c90b92#iefix") format("embedded-opentype"),
+url("./BrightlayerUIIcons.svg?cf56adfda803915fe70e5d2a18c90b92#BrightlayerUIIcons") format("svg");
 }
 
 i[class^="blui-"]:before, i[class*=" blui-"]:before {
@@ -318,10 +318,10 @@ i[class^="blui-"]:before, i[class*=" blui-"]:before {
 .blui-ev_plug_tesla_s:before {
     content: "\f164";
 }
-.blui-ev_plug_type_1:before {
+.blui-ev_plug_type_one:before {
     content: "\f165";
 }
-.blui-ev_plug_type_2:before {
+.blui-ev_plug_type_two:before {
     content: "\f166";
 }
 .blui-face_id:before {

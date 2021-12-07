@@ -3147,8 +3147,8 @@
             "size": 24
         },
         {
-            "name": "EV Plug Type 1",
-            "filename": "ev_plug_type_1.svg",
+            "name": "EV Plug Type One",
+            "filename": "ev_plug_type_one.svg",
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": [
@@ -3205,8 +3205,8 @@
             "size": 24
         },
         {
-            "name": "EV Plug Type 2",
-            "filename": "ev_plug_type_2.svg",
+            "name": "EV Plug Type Two",
+            "filename": "ev_plug_type_two.svg",
             "family": ["Vehicles"],
             "style": "outlined",
             "tags": [
