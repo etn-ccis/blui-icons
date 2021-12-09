@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.8.0 (December 9, 2021)
+
+### Added
+
+-   New electric vehicle-related icons (28): EV Plug Domestic A, EV Plug Domestic B, EV Plug Domestic C, EV Plug Domestic D, EV Plug Domestic E, EV Plug Domestic F, EV Plug Domestic G, EV Plug Domestic H, EV Plug Domestic I, EV Plug Domestic J, EV Plug Domestic K, EV Plug Domestic L, EV Plug IEC 60309-2 Single 16, EV Plug IEC 60309-2 Three 16, EV Plug IEC 60309-2 Three 32, EV Plug IEC 60309-2 Three 64, EV Plug IEC 62196 T1, EV Plug IEC 62196 T1 Combo, EV Plug IEC 62196 T2, EV Plug IEC 62196 T2 Combo, EV Plug IEC 62196 T3A, EV Plug IEC 62196 T3C, EV Plug Tesla R, EV Plug Tesla S, EV Plug CHAdeMO, Pantograph Bottom Up, Pantograph Top Down, Hubject.
+-   Other new icons (10): Power Redundancy, Power Redundancy Off, Video Alert, Video Alert Outline, Video Streaming, Video Streaming Outline, Incident Maintenance, Help Desk Log, Notification Log, Panel Log.
+
+### Fixed
+
+-   Icon clipping that results in undesired outcomes for icon fonts ([#171](https://github.com/brightlayer-ui/icons/pull/171)).
+
 ## v1.7.1 (November 3, 2021)
 
 ### Changed
@@ -16,7 +27,7 @@ Previous versions listed after this indicator refer to our deprecated `@pxblue` 
 
 ### Fixed
 
--   Icon clipping that results in undesired results: VMMS, File PDF, EV Plug CCS Combo, EV Plug CHAdeMO, EV Plug Type 1
+-   Icon clipping that results in undesired outcomes: VMMS, File PDF, EV Plug CCS Combo, EV Plug CHAdeMO, EV Plug Type 1
 
 ## v1.7.0 (October 1, 2021)
 
