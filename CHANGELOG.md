@@ -9,7 +9,7 @@
 
 ### Fixed
 
--   Icon clipping that results in undesired outcomes for icon fonts ([#171](https://github.com/brightlayer-ui/icons/pull/171)).
+-   Icon clipping that results in undesired outcomes for icon fonts ([#171](https://github.com/pxblue/icons/pull/171)).
 
 ## v1.7.1 (October 27, 2021)
 

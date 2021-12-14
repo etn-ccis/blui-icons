@@ -8,7 +8,7 @@
 
 ### Changed
 
--   Icon clipping that results in undesired outcomes ([#171](https://github.com/brightlayer-ui/icons/pull/171)).
+-   Icon clipping that results in undesired outcomes ([#171](https://github.com/pxblue/icons/pull/171)).
 
 
 ## v1.3.1 (October 26, 2021)

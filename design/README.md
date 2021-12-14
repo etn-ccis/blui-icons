@@ -1,26 +1,26 @@
-# Brightlayer UI Icons
+# PX Blue Icons
 
-This repository contains icon files for Brightlayer UI. These icons are grouped into 'family' folders of related icons. Family folders follow a similar naming convention to Material Design, e.g., **Status** and **Devices**. Each icon should be available as a clean, minified SVG file. You may optionally include a source (AI) file for the icon as well - it may be beneficial to group families of icons into a single AI file. Each icon SVG file will need converted to PNG icons files so the icons are available in two formats.
+This repository contains icon files for PX Blue. These icons are grouped into 'family' folders of related icons. Family folders follow a similar naming convention to Material Design, e.g., **Status** and **Devices**. Each icon should be available as a clean, minified SVG file. You may optionally include a source (AI) file for the icon as well - it may be beneficial to group families of icons into a single AI file. Each icon SVG file will need converted to PNG icons files so the icons are available in two formats.
 
 ## Icon Approval
 
-All icons created for Brightlayer UI must go through the Pull Request process and be approved by the Brightlayer UI team before they will be merged into the master branch and released in the Brightlayer UI icon packages. 
+All icons created for PX Blue must go through the Pull Request process and be approved by the PX Blue team before they will be merged into the master branch and released in the PX Blue icon packages. 
 
 If you are comfortable using GitHub and the command line on your computer, you can follow the instructions below for creating your own Pull Request. 
 
 > If you're not familiar with GitHub and/or the command line, you can also send us your icons directly via email and we will create the Pull Request for you and relay any feedback.
 
 Before acceptance, new icons must be reviewed by:
-- A Senior Brightlayer UI designer to ensure that the icons are properly following Material Design guidelines
-- A Brightlayer UI developer to ensure that the SVG files are properly formatted and function correctly with the build pipeline
+- A Senior PX Blue designer to ensure that the icons are properly following Material Design guidelines
+- A PX Blue developer to ensure that the SVG files are properly formatted and function correctly with the build pipeline
 
 Reviewers must also agree that the name of the icon makes sense, avoids collisions, and that the icon fits into the proposed family folder.
 
 ## Icon Creation
 
 When creating icons, follow the Material Design [icon design guidelines](https://material.io/design/iconography/system-icons.html) (we only use 24dp icons, not 20dp). Icon designs that do not adhere to these guidelines will be rejected. Templates are available to assist you:
--   Illustrator: [IconTemplate.ait](https://github.com/brightlayer-ui/icons/raw/master/design/IconTemplate.ait)
--   Printable: [MDILetter.pdf](https://github.com/brightlayer-ui/icons/raw/master/design/MDILetter.pdf), [MDITabloid.pdf](https://github.com/brightlayer-ui/icons/raw/master/design/MDITabloid.pdf)
+-   Illustrator: [IconTemplate.ait](https://github.com/pxblue/icons/raw/master/design/IconTemplate.ait)
+-   Printable: [MDILetter.pdf](https://github.com/pxblue/icons/raw/master/design/MDILetter.pdf), [MDITabloid.pdf](https://github.com/pxblue/icons/raw/master/design/MDITabloid.pdf)
 
 Design files should ideally contain both original paths, strokes, text, etc. (in the case that the icon must be modified to increase stroke width or font size, for example) as well as the expanded paths version. The expanded version should be use to generate the SVG file.
 
@@ -47,7 +47,7 @@ Icon SVGs should follow the naming convention of just using an icon name (e.g. `
 
 ## PNG Icons
 
-Brightlayer UI offers matching PNG icons for each SVG icon in this repository, located in the PNG folders. Each SVG icon is converted to PNG format in four colors and two sizes of 24dp and 48dp.
+PX Blue offers matching PNG icons for each SVG icon in this repository, located in the PNG folders. Each SVG icon is converted to PNG format in four colors and two sizes of 24dp and 48dp.
 
 Colors:
 ```
@@ -89,18 +89,18 @@ Convert all SVG icons to PNG icons.
 - Copy the new PNG icon files to the corresponding PNG folder in this repository.
 
 ## Git Steps for Designers
-The following instructions are for individuals who are comfortable working with GitHub and the command line on their computer. If you prefer, you can send new icons directly to the Brightlayer UI team via email and we will take care of this part of the process for you.
+The following instructions are for individuals who are comfortable working with GitHub and the command line on their computer. If you prefer, you can send new icons directly to the PX Blue team via email and we will take care of this part of the process for you.
 
 In order to work with this GitHub repository, you will need to have a GitHub account (if you don't have one, you can [sign up](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) for free).
 
-For outside contributors, please refer to our [Contribution Guidelines](https://github.com/brightlayer-ui/.github/blob/master/CONTRIBUTING.md#get-started). To summarize the steps for adding your icons and creating a Pull Request for approval:
+For outside contributors, please refer to our [Contribution Guidelines](https://github.com/pxblue/.github/blob/master/CONTRIBUTING.md#get-started). To summarize the steps for adding your icons and creating a Pull Request for approval:
 - Fork the icons repository to your account
-    - Go to https://github.com/brightlayer-ui/icons and click the Fork button in the top right of the screen (outside contributors who have been added to the icons repository can clone directly from the Brightlayer UI repository without forking)
+    - Go to https://github.com/pxblue/icons and click the Fork button in the top right of the screen (outside contributors who have been added to the icons repository can clone directly from the PX Blue repository without forking)
 - Clone the repository to your local computer
     ```
     git clone https://github.com/<your-user-id>/icons
     cd icons
-    git remote add upstream https://github.com/brightlayer-ui/icons
+    git remote add upstream https://github.com/pxblue/icons
     git pull upstream dev
     ```
 -   Create a new Branch for your changes. The name of the branch should start with `feature/` followed by the name of your icon (or a simple summary if you are including multiple icons), e.g., `feature/ups`. If your icon name is multiple words, you must separate them with a dash.
@@ -116,7 +116,7 @@ For outside contributors, please refer to our [Contribution Guidelines](https://
     git push -u origin <your branch name>
     ```  
 -   Create a Pull Request to begun the process of reviewing and publishing your changes.
-    - Go to https://github.com/brightlayer-ui/icons
+    - Go to https://github.com/pxblue/icons
     - Click on the Pull Requests tab in the upper left
     - Click on the green "New Pull Request" button
         - In the 'base' dropdown, select 'dev'
