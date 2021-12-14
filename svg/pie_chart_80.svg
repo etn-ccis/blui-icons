@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <title>pie_chart_80</title>
-  <g>
-    <path d="M12,4a8,8,0,1,1-8,8,8,8,0,0,1,8-8m0-2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Z"/>
-    <rect width="24" height="24" transform="translate(24 24) rotate(-180)" fill="none"/>
-    <path d="M12,12V2A10,10,0,1,0,22,12a9.56,9.56,0,0,0-.49-3.09Z"/>
-  </g>
-</svg>

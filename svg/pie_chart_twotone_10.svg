@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <g>
-    <rect width="24" height="24" fill="none"/>
-    <path d="M12,12,6.12,3.91A9.58,9.58,0,0,1,12,2Z" transform="translate(0 0)"/>
-    <g opacity="0.5">
-      <path d="M12,12V2A10,10,0,1,1,2,12,9.71,9.71,0,0,1,6.12,3.91Z" transform="translate(0 0)"/>
-    </g>
-  </g>
-</svg>
