@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 20V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2M18 4H6v16h12z"/><path d="M7.77 9.91l3.24-3.25 1.06 1.06-3.24 3.25-1.06-1.06M8.184 14.24l5.664-5.663 1.06 1.06-5.663 5.665z"/><path fill="none" d="M24 0v24H0V0z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path d="M4,20V4A2,2,0,0,1,6,2H18a2,2,0,0,1,2,2V20a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2M18,4H6V20H18Z"/>
+  <polyline points="7.77 9.91 11.01 6.66 12.07 7.72 8.83 10.97 7.77 9.91"/>
+  <rect x="7.54" y="11.19" width="8.01" height="1.5" transform="translate(-5.06 11.66) rotate(-45)"/>
+  <rect width="24" height="24" transform="translate(24 0) rotate(90)" fill="none"/>
+</svg>

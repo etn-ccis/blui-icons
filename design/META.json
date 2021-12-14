@@ -7,7 +7,7 @@
             "style": "baseline",
             "tags": ["device", "product", "equipment"],
             "description": "Used to represent a generic device.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -27,7 +27,7 @@
             "style": "baseline",
             "tags": ["battery"],
             "description": "Battery icon, displayed horizontally",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -37,7 +37,7 @@
             "style": "baseline",
             "tags": ["device", "product", "equipment", "component", "ball bearings", "industrial", "machine"],
             "description": "Used to represent a generic device.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -60,7 +60,7 @@
                 "panel"
             ],
             "description": "Used to represent a low voltage circuit breaker.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -90,7 +90,7 @@
                 "capacity"
             ],
             "description": "Used to represent a large capacitor as used in UPS, HVAC, etc.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -110,7 +110,7 @@
                 "capacity"
             ],
             "description": "Used to represent a large capacitor as a symbol",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -120,7 +120,7 @@
             "style": "baseline",
             "tags": ["device", "product", "equipment", "component", "computer", "tower", "PC", "desktop", "load"],
             "description": "Used to represent a generic device.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -130,7 +130,7 @@
             "style": "baseline",
             "tags": ["device", "equipment", "component", "electrical", "oneline", "one-line", "symbol"],
             "description": "Used to represent a generic device.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -140,7 +140,7 @@
             "style": "baseline",
             "tags": ["device", "equipment", "component", "electrical", "oneline", "one-line", "symbol"],
             "description": "Used to represent a diode.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -162,7 +162,7 @@
                 "lumadapt"
             ],
             "description": "A light fixture designed after the Ephesus Game On/Lumadapt products.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -184,7 +184,7 @@
                 "lumadapt"
             ],
             "description": "Ephesus Gateway device.",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -217,7 +217,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["device", "product", "equipment", "electrical", "backup", "g", "industrial", "power"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -226,7 +226,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["device", "product", "equipment", "electrical", "backup", "g", "industrial", "power", "off"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -295,7 +295,7 @@
                 "power strip",
                 "cabinet"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -314,7 +314,7 @@
                 "liquid",
                 "mechanical"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -336,7 +336,7 @@
                 "computer",
                 "server"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -378,7 +378,7 @@
                 "starter",
                 "motor"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "description": "A Solid State Overload Relay",
             "size": 24
         },
@@ -388,7 +388,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["device", "product", "equipment", "electrical", "switch", "circuit", "interrupt"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "description": "Represents an electrical switch",
             "size": 24
         },
@@ -398,7 +398,7 @@
             "family": ["Devices"],
             "style": "outlined",
             "tags": ["device", "product", "equipment", "electrical", "switchgear", "assembly"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "description": "Represents switchgear lineup",
             "size": 24
         },
@@ -408,7 +408,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["device", "product", "equipment", "electrical", "symbol", "circuit"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "description": "Represents a transfomer symbol",
             "size": 24
         },
@@ -430,7 +430,7 @@
                 "electricity",
                 "grid"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "description": "Represents an electrical switch",
             "size": 24
         },
@@ -451,7 +451,7 @@
                 "motor",
                 "dg1"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "description": "A Variable Frequency Drive",
             "size": 24
         },
@@ -461,7 +461,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["device", "product", "equipment", "electrical", "battery", "storage", "backup", "solar"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "description": "Represents the ESB product xStorage",
             "size": 24
         },
@@ -482,7 +482,7 @@
             "style": "baseline",
             "tags": ["ups", "battery", "bypass", "power", "supply", "output", "input"],
             "description": "Represents a UPS bypassing battery status",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -491,7 +491,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["current", "electrical", "electric", "charge", "amp", "amps", "ampere", "flow", "ciruit"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -512,7 +512,7 @@
                 "flow",
                 "ciruit"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -535,7 +535,7 @@
                 "flow",
                 "ciruit"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -544,7 +544,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["water", "rate", "wave", "liquid", "gpm", "gallons", "pipe"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -580,7 +580,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["grade", "letter", "score", "points", "gpa", "a", "circle", "health", "healthy"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -589,7 +589,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["grade", "letter", "score", "points", "gpa", "b", "circle", "health", "healthy"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -598,7 +598,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["grade", "letter", "score", "points", "gpa", "c", "circle", "health"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -607,7 +607,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["grade", "letter", "score", "points", "gpa", "d", "circle", "health", "bad", "unhealthy"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -616,7 +616,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["grade", "letter", "score", "points", "gpa", "f", "circle", "health", "bad", "unhealthy"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -625,7 +625,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["grade", "score", "points", "gpa", "circle", "health", "medical", "care"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -635,7 +635,7 @@
             "style": "baseline",
             "tags": ["incident", "alarms", "occurence"],
             "description": "This icon represents and incident, or group of Alarms",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -645,7 +645,7 @@
             "style": "baseline",
             "tags": ["incident", "alarms", "occurence", "active"],
             "description": "This icon represents and incident, or group of Alarms that are currently Active",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -655,7 +655,7 @@
             "style": ["baseline", "outline"],
             "tags": ["incident", "alarms", "occurence"],
             "description": "This icon represents and incident, or group of Alarms that are resolved or inactive",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -677,7 +677,7 @@
                 "event"
             ],
             "description": "Used to represent maintainance mode or service event",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -699,7 +699,7 @@
                 "humidity"
             ],
             "description": "Represents environmental values such as temperature and humidity",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -708,7 +708,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["water", "liquid", "drop", "humidity", "environment", "sensor", "wet", "damp"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -718,7 +718,7 @@
             "style": "baseline",
             "tags": ["interference", "electrical", "waveform", "wave", "radio", "signals", "harmonics"],
             "description": "",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -728,7 +728,7 @@
             "style": "baseline",
             "tags": ["current", "circle", "circled", "electrical", "electric", "charge", "volts", "flow", "ciruit"],
             "description": "",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -749,7 +749,7 @@
                 "ciruit"
             ],
             "description": "",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -759,7 +759,7 @@
             "style": "baseline",
             "tags": ["square", "exclaimation", "important", "critical"],
             "description": "Used to denote (Binary) Priority",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -769,7 +769,7 @@
             "style": "baseline",
             "tags": ["push", "notify", "alert", "message", "badge"],
             "description": "Represents a device Push Notification",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -779,7 +779,7 @@
             "style": "outlined",
             "tags": ["push", "notify", "alert", "message", "badge", "outlined"],
             "description": "Represents a device Push Notification",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -809,7 +809,7 @@
             "style": "baseline",
             "tags": ["motor", "run", "running", "high", "fast", "drive", "start", "starter", "speed"],
             "description": "Represents a motor running on high setting",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -819,7 +819,7 @@
             "style": "baseline",
             "tags": ["motor", "run", "running", "low", "slow", "drive", "start", "starter", "speed"],
             "description": "Represents a motor running on low setting",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -829,7 +829,7 @@
             "style": "baseline",
             "tags": ["motor", "stop", "drive", "start", "starter", "sign", "ready"],
             "description": "Stop Sign, can be used to represent a device stopped state or action",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -839,7 +839,7 @@
             "style": "baseline",
             "tags": ["motor", "run", "running", "stopping", "decelerate", "drive", "start", "starter"],
             "description": "Represents a motor stopping or decelerating",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -869,7 +869,7 @@
                 "cold"
             ],
             "description": "Represents a temperature",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -931,7 +931,7 @@
                 "change"
             ],
             "description": "Represents an increase over time",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -941,7 +941,7 @@
             "style": "baseline",
             "tags": ["data", "arrow", "trend", "chart", "less", "lower", "trending", "down", "decrease", "change"],
             "description": "Represents a decrease over time",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -951,7 +951,7 @@
             "style": "baseline",
             "tags": ["data", "arrow", "trend", "chart", "trending", "flat", "change", "no change"],
             "description": "Represents no change over time",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -961,7 +961,7 @@
             "style": "baseline",
             "tags": ["open", "swtich", "trip", "breaker", "tripped", "opened"],
             "description": "An open or tripped switch or breaker",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -971,7 +971,7 @@
             "style": "baseline",
             "tags": ["ups", "variable module management system", "eaa", "load", "power", "supply"],
             "description": "Represents Eaton's variable module management system for UPS devices",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -981,7 +981,7 @@
             "style": "baseline",
             "tags": ["electrical", "electric", "charge", "volts", "potential", "voltage", "ciruit"],
             "description": "",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1001,7 +1001,7 @@
                 "ciruit"
             ],
             "description": "",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1022,7 +1022,7 @@
                 "ciruit"
             ],
             "description": "",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1031,7 +1031,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["water", "liquid", "drop", "humidity", "environment", "sensor", "wet"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1040,7 +1040,7 @@
             "family": ["Status"],
             "style": "outlined",
             "tags": ["outline", "water", "liquid", "drop", "humidity", "environment", "sensor", "wet"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1049,7 +1049,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["wave", "waveform", "current", "electrical", "harmonics", "graph", "oscilloscope", "amplitude"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1089,7 +1089,7 @@
             "style": "baseline",
             "tags": ["tank", "gas"],
             "description": "This icon can be used to represent a tank of gas, industrial gasses",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1098,7 +1098,7 @@
             "family": ["Agriculture"],
             "style": "baseline",
             "tags": ["tree", "crop", "fruit", "nut", "farm", "plant", "grow", "feed", "orchard", "forest"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1119,7 +1119,7 @@
                 "environment",
                 "green"
             ],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "status": "possible redraw",
             "size": 24
         },
@@ -1129,7 +1129,7 @@
             "family": ["Agriculture"],
             "style": "baseline",
             "tags": ["wheat", "crop", "grain", "farm", "field", "cereal", "silage", "plant", "grow", "feed", "food"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1184,7 +1184,7 @@
             "family": ["Agriculture"],
             "style": "baseline",
             "tags": ["barley", "grain", "crop", "farm", "plant", "grow", "feed", "food"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1383,7 +1383,7 @@
                 "logo"
             ],
             "description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1439,7 +1439,7 @@
             "style": "baseline",
             "tags": ["sb", "blue", "platform", "ux", "service", "ccis", "design", "user experience", "graphic", "logo"],
             "description": "Studio Blue logo icon graphic",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1449,7 +1449,7 @@
             "style": "outlined",
             "tags": ["sb", "blue", "platform", "ux", "service", "ccis", "design", "user experience", "graphic", "logo"],
             "description": "Studio Blue logo icon graphic",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1472,7 +1472,7 @@
                 "linux"
             ],
             "description": "Power Xpert Red icon graphic, redesigned on the Material Design Icon spec",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1495,7 +1495,7 @@
                 "embedded"
             ],
             "description": "Power Xpert Green icon graphic, (somewhat) redesigned on the Material Design Icon spec",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1518,7 +1518,7 @@
                 "iot"
             ],
             "description": "Power Xpert White icon graphic, redesigned on the Material Design Icon spec",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1542,7 +1542,7 @@
                 "technology"
             ],
             "description": "Cybersecurity icon graphic, redesigned on the Material Design Icon spec",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1566,7 +1566,7 @@
                 "technology"
             ],
             "description": "Cybersecurity icon graphic, redesigned on the Material Design Icon spec, includes two-tone traces in the background at 50% opacity",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1746,7 +1746,7 @@
             "family": ["status"],
             "style": "baseline",
             "tags": ["pins", "places", "locations"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1783,7 +1783,7 @@
             "family": ["device"],
             "style": "baseline",
             "tags": ["ami", "gateway", "cellular", "control xpert"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1794,7 +1794,7 @@
             "style": "baseline",
             "tags": ["voltage", "volts", "ac"],
             "description": "Used to represent AC voltage in volts",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1805,7 +1805,7 @@
             "style": "baseline",
             "tags": ["voltage", "volts", "dc"],
             "description": "Used to represent DC voltage in volts",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1816,7 +1816,7 @@
             "style": "baseline",
             "tags": ["current", "amps", "ac"],
             "description": "Used to represent AC current in amps",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1827,7 +1827,7 @@
             "style": "baseline",
             "tags": ["current", "amps", "dc"],
             "description": "Used to represent DC current in amps",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1838,7 +1838,7 @@
             "style": "baseline",
             "tags": ["ac", "current", "alternating current"],
             "description": "Used to represent Alternating Current (AC)",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1849,7 +1849,7 @@
             "style": "baseline",
             "tags": ["dc", "current", "direct current"],
             "description": "Used to represent Direct Current (DC)",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1860,7 +1860,7 @@
             "style": "baseline",
             "tags": ["power", "ac", "watts"],
             "description": "Used to represent AC power in watts",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1871,7 +1871,7 @@
             "style": "baseline",
             "tags": ["power", "dc", "watts"],
             "description": "Used to represent DC power in watts",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1882,7 +1882,7 @@
             "style": "baseline",
             "tags": ["power", "apparent", "ac", "volt-amps"],
             "description": "Used to represent AC power in volt-amps",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1893,7 +1893,7 @@
             "style": "baseline",
             "tags": ["line", "average", "compare"],
             "description": "Used to represent measuring or comparing line-to-line (l-l)",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1904,7 +1904,7 @@
             "style": "baseline",
             "tags": ["line", "neutral", "average", "compare"],
             "description": "Used to represent measuring or comparing line-to-neutral (l-n)",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1915,7 +1915,7 @@
             "style": "baseline",
             "tags": ["device", "activating", "cellular", "pairing", "syncing", "gateway"],
             "description": "Used to represent a device Activating or communicating",
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1925,7 +1925,7 @@
             "family": ["status"],
             "style": "baseline",
             "tags": ["distance", "social", "distancing", "proximity"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1935,7 +1935,7 @@
             "family": ["ppe"],
             "style": "baseline",
             "tags": ["ppe", "distance", "social", "distancing", "proximity", "haptic", "motor", "vibration"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -1944,7 +1944,7 @@
             "family": ["ppe"],
             "style": "outlined",
             "tags": ["ppe", "distance", "social", "distancing", "proximity", "haptic", "motor", "vibration"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1954,7 +1954,7 @@
             "family": ["ppe"],
             "style": "baseline",
             "tags": ["ppe", "distance", "social", "distancing", "proximity", "haptic", "motor", "vibration"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1964,7 +1964,7 @@
             "family": ["ppe"],
             "style": "baseline",
             "tags": ["ppe", "footwear", "shoe", "boot", "metatarsal", "boot", "foot", "safe"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1974,7 +1974,7 @@
             "family": ["ppe"],
             "style": "baseline",
             "tags": ["ppe", "eyewear", "eye", "goggles", "safe"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -1984,7 +1984,7 @@
             "family": ["ppe"],
             "style": "baseline",
             "tags": ["ppe", "hearing", "ear", "noise", "sound", "loud", "safe"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -2004,7 +2004,7 @@
             "family": ["ppe"],
             "style": "baseline",
             "tags": ["plexiglass", "barrier", "divider", "social distancing", "between", "separate"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
 
@@ -2041,7 +2041,7 @@
             "family": ["Lighting"],
             "style": "baseline",
             "tags": ["light", "energy"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2158,7 +2158,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["pressure", "gauge", "psi", "pipe"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2167,7 +2167,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["pressure", "gauge", "psi", "pipe"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2176,7 +2176,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["battery", "test", "reset", "large battery", "lead acid", "batteries"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2185,7 +2185,7 @@
             "family": ["Devices"],
             "style": "outlined",
             "tags": ["battery", "test", "reset", "outline", "large battery", "lead acid", "batteries"],
-            "author": "Amy Deng (PX Blue)",
+            "author": "Amy Deng (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2194,7 +2194,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["battery", "terminal", "terminals", "large battery", "lead acid", "batteries"],
-            "author": "Amy Deng (PX Blue)",
+            "author": "Amy Deng (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2203,7 +2203,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["battery", "large battery", "lead acid", "batteries"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2212,7 +2212,7 @@
             "family": ["Devices"],
             "style": "outlined",
             "tags": ["battery", "large battery", "lead acid", "batteries"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2230,7 +2230,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["automatic", "transfer", "switch", "circuit", "node"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2239,7 +2239,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["automatic", "transfer", "switch", "circuit", "node"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2261,7 +2261,7 @@
                 "cell",
                 "consumer unit"
             ],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2282,7 +2282,7 @@
                 "DB",
                 "consumer unit"
             ],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2291,7 +2291,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["buttons", "arrows", "direction", "start", "stop", "component", "regulate"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2300,7 +2300,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["buttons", "readings", "speed", "unit", "monitor", "display"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2309,7 +2309,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["engine", "spin", "equipment", "rotate", "rotation", "electric"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2318,7 +2318,7 @@
             "family": ["Devices"],
             "style": "outlined",
             "tags": ["control", "engine", "spin", "equipment", "rotate", "rotation", "electric"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2327,7 +2327,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["control", "engine", "spin", "equipment", "rotate", "rotation", "electric"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2336,7 +2336,7 @@
             "family": ["Devices"],
             "style": "outlined",
             "tags": ["engine", "spin", "equipment", "rotate", "rotation", "electric"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2357,7 +2357,7 @@
                 "rotation",
                 "electric"
             ],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2366,7 +2366,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["engine", "spin", "equipment", "rotate", "rotation", "electric"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2375,7 +2375,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["oneline", "switch", "circuit", "control", "conductor", "equipment"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2384,7 +2384,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["signal", "receive", "detect", "anomaly", "monitor", "fault"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2393,7 +2393,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["signal", "receive", "detect", "anomaly", "monitor", "fault"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2402,7 +2402,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["signal", "receive", "detect", "anomaly", "monitor", "fault"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2411,7 +2411,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["signal", "receive", "detect", "anomaly", "monitor", "fault"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2420,7 +2420,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["info", "information", "serial number", "version", "identifier", "code name", "system"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2429,7 +2429,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["curve", "characteristic", "breaker", "circuit", "overload", "short circuit", "unit", "fault"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2438,7 +2438,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["curve", "characteristic", "breaker", "circuit", "overload", "short circuit", "unit", "fault"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2447,7 +2447,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["curve", "breaker", "circuit", "overload", "short circuit", "unit", "fault"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2468,7 +2468,7 @@
                 "protection",
                 "continuous"
             ],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2489,7 +2489,7 @@
                 "protection",
                 "continuous"
             ],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2498,7 +2498,7 @@
             "family": ["General"],
             "style": "baseline",
             "tags": ["options", "adjust", "settings", "device", "levels", "slider", "preference", "filter", "tweak"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2507,7 +2507,7 @@
             "family": ["General"],
             "style": "baseline",
             "tags": ["options", "adjust", "settings", "device", "levels", "wrench", "preference", "filter", "tweak"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2516,7 +2516,7 @@
             "family": ["General"],
             "style": "baseline",
             "tags": ["select", "dimmer", "level", "step", "discrete", "twist", "knob", "dial", "handle", "rotate"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2538,7 +2538,7 @@
                 "sheet",
                 "heart beat"
             ],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2560,7 +2560,7 @@
                 "heart beat",
                 "result"
             ],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2569,7 +2569,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["triangle", "graph", "diagonal", "up", "E"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2578,7 +2578,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["triangle", "graph", "diagonal", "up", "P"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2587,7 +2587,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["arrow", "detour", "bounce back", "dismiss"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2596,7 +2596,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["arrow", "detour", "dismiss"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2616,7 +2616,7 @@
                 "wave",
                 "equipment"
             ],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2625,7 +2625,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["wave", "graph", "line", "curve", "period", "duration", "length"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2634,7 +2634,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["wave", "graph", "line", "curve", "pattern"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2652,7 +2652,7 @@
                 "complexor",
                 "arithmetic"
             ],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2661,7 +2661,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["PF", "+", "-", "ratio", "plus", "minus"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2670,7 +2670,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["triangle", "graph", "up", "E"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2679,7 +2679,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["triangle", "graph", "up", "P"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2688,7 +2688,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["triangle", "graph", "right", "E"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2697,7 +2697,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["triangle", "graph", "right", "P"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2706,7 +2706,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["steps", "triangle", "VB", "VR", "VY", "load", "component"],
-            "author": "Renato Martins (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2715,7 +2715,7 @@
             "family": ["Devices"],
             "style": "baseline",
             "tags": ["air", "fan", "rotate", "rotation", "wind", "ac", "cooling", "cold", "temperature", "climate"],
-            "author": "Amy Deng (PX Blue)",
+            "author": "Amy Deng (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2736,7 +2736,7 @@
                 "temperature",
                 "climate"
             ],
-            "author": "Amy Deng (PX Blue)",
+            "author": "Amy Deng (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2745,7 +2745,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["outflow", "exit", "export", "air", "water", "waste", "exhaust"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2754,7 +2754,7 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["influx", "inflow", "inrush", "entry", "import", "air", "water"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2763,7 +2763,7 @@
             "family": ["Devices"],
             "style": "outlined",
             "tags": ["air", "fire", "sensor", "carbon monoxide", "indicator", "alarm", "outline", "co"],
-            "author": "Amy Deng (PX Blue)",
+            "author": "Amy Deng (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2772,7 +2772,7 @@
             "family": ["System"],
             "style": "baseline",
             "tags": ["extension", "portable document format", "export"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2781,7 +2781,7 @@
             "family": ["System"],
             "style": "baseline",
             "tags": ["extension", "docs", "export"],
-            "author": "Eric Atha (PX Blue)",
+            "author": "Eric Atha (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2790,25 +2790,458 @@
             "family": ["Status"],
             "style": "baseline",
             "tags": ["usage", "percentage", "chart", "average", "billing", "line", "consumption", "ratio", "cost"],
-            "author": "Huayun Huang (PX Blue)",
+            "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
         {
-            "name": "EV Plug Type 1",
+            "name": "RFID",
+            "filename": "rfid.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["radio frequency identification", "tag", "reader", "data", "tracking", "monitor"],
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Video Alert Outline",
+            "filename": "video_alert_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": ["video", "camera", "bell", "alarm", "monitor"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Power Redundancy",
+            "filename": "power_redundancy.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "arrow",
+                "sync",
+                "cycle",
+                "loop",
+                "redundant",
+                "pdu",
+                "battery",
+                "backup",
+                "refresh",
+                "active",
+                "enabled"
+            ],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Power Redundancy Off",
+            "filename": "power_redundancy_off.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "arrow",
+                "sync",
+                "cycle",
+                "loop",
+                "redundant",
+                "pdu",
+                "battery",
+                "backup",
+                "refresh",
+                "inactive",
+                "disabled"
+            ],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Video Alert",
+            "filename": "video_alert.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["video", "camera", "bell", "alarm", "monitor"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Video Streaming Outline",
+            "filename": "video_streaming_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": ["video", "camera", "play", "monitor", "playback", "recording", "surveillance"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Video Streaming",
+            "filename": "video_streaming.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["video", "camera", "filled", "play", "monitor", "playback", "recording", "surveillance"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Incident Maintenance",
+            "filename": "incident_maintenance.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "incidents",
+                "alarm",
+                "alert",
+                "service",
+                "multiple",
+                "stacked",
+                "notification",
+                "event",
+                "wrench",
+                "repair"
+            ],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Help Desk Log",
+            "filename": "help_desk_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "service",
+                "representative",
+                "help",
+                "helpdesk",
+                "desk",
+                "arc",
+                "headphone",
+                "log",
+                "history",
+                "diagnose",
+                "talk",
+                "conversation",
+                "call",
+                "customer",
+                "document"
+            ],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Notification Log",
+            "filename": "notification_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["notification", "incident", "event", "alarm", "trigger", "log", "history", "document"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Panel Log",
+            "filename": "panel_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["panel", "board", "breaker", "operate", "grid", "section", "shelf", "log", "history", "document"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic A",
+            "filename": "ev_plug_domestic_a.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic B",
+            "filename": "ev_plug_domestic_b.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic C",
+            "filename": "ev_plug_domestic_c.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic D",
+            "filename": "ev_plug_domestic_d.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic E",
+            "filename": "ev_plug_domestic_e.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic F",
+            "filename": "ev_plug_domestic_f.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic G",
+            "filename": "ev_plug_domestic_g.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic H",
+            "filename": "ev_plug_domestic_h.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic I",
+            "filename": "ev_plug_domestic_i.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic J",
+            "filename": "ev_plug_domestic_j.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic K",
+            "filename": "ev_plug_domestic_k.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic L",
+            "filename": "ev_plug_domestic_l.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 60309-2 Single 16",
+            "filename": "ev_plug_iec_60309_2_single_16.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 60309-2 Three 16",
+            "filename": "ev_plug_iec_60309_2_three_16.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 60309-2 Three 32",
+            "filename": "ev_plug_iec_60309_2_three_32.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 60309-2 Three 64",
+            "filename": "ev_plug_iec_60309_2_three_64.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 62196 T1",
+            "filename": "ev_plug_iec_62196_t1.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "j1772",
+                "japan",
+                "charge",
+                "charging station",
+                "sae",
+                "type 1"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Type One",
             "filename": "ev_plug_type_one.svg",
             "family": ["Vehicles"],
             "style": "outlined",
-            "tags": ["electric vehicle", "inlet", "connector", "j1772", "japan", "charge", "charging station"],
-            "author": "Jeremy Matter (PX Blue)",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "j1772",
+                "japan",
+                "charge",
+                "charging station",
+                "sae",
+                "type 1"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24,
+            "deprecatedToBLUIIcon": "ev_plug_iec_62196_t1"
+        },
+        {
+            "name": "EV Plug IEC 62196 T1 Combo",
+            "filename": "ev_plug_iec_62196_t1_combo.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "japan",
+                "charge",
+                "charging station",
+                "combination",
+                "multi",
+                "multiple"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
-            "name": "EV Plug Type 2",
+            "name": "EV Plug IEC 62196 T2",
+            "filename": "ev_plug_iec_62196_t2.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "mennekes",
+                "europe",
+                "charge",
+                "charging station",
+                "type 2"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Type Two",
             "filename": "ev_plug_type_two.svg",
             "family": ["Vehicles"],
             "style": "outlined",
-            "tags": ["electric vehicle", "inlet", "connector", "mennekes", "europe", "charge", "charging station"],
-            "author": "Jeremy Matter (PX Blue)",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "mennekes",
+                "europe",
+                "charge",
+                "charging station",
+                "type 2"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24,
+            "deprecatedToBLUIIcon": "ev_plug_iec_62196_t2"
+        },
+        {
+            "name": "EV Plug IEC 62196 T2 Combo",
+            "filename": "ev_plug_iec_62196_t2_combo.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "us",
+                "charge",
+                "charging station",
+                "ccs",
+                "combination",
+                "multi",
+                "multiple"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2821,12 +3254,69 @@
                 "inlet",
                 "connector",
                 "combined charging system",
-                "united states of america",
                 "us",
+                "charge",
+                "charging station",
+                "ccs",
+                "combination",
+                "multi",
+                "multiple"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24,
+            "deprecatedToBLUIIcon": "ev_plug_iec_62196_t2_combo"
+        },
+        {
+            "name": "EV Plug IEC 62196 T3A",
+            "filename": "ev_plug_iec_62196_t3a.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "japan",
                 "charge",
                 "charging station"
             ],
-            "author": "Jeremy Matter (PX Blue)",
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 62196 T3C",
+            "filename": "ev_plug_iec_62196_t3c.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "japan",
+                "charge",
+                "charging station",
+                "scame"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Tesla R",
+            "filename": "ev_plug_tesla_r.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "tesla", "charge", "charging station"],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Tesla S",
+            "filename": "ev_plug_tesla_s.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "tesla", "charge", "charging station"],
+            "author": "Paulo Morgado (Brightlayer UI)",
             "size": 24
         },
         {
@@ -2843,16 +3333,64 @@
                 "charge",
                 "charging station"
             ],
-            "author": "Jeremy Matter (PX Blue)",
+            "author": "Renato Martins (Brightlayer UI)",
             "size": 24
         },
         {
-            "name": "RFID",
-            "filename": "rfid.svg",
-            "family": ["Devices"],
-            "style": "outlined",
-            "tags": ["radio frequency identification", "tag", "reader", "data", "tracking", "monitor"],
-            "author": "Huayun Huang (PX Blue)",
+            "name": "Pantograph Bottom-Up",
+            "filename": "pantograph_bottom_up.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": [
+                "electric vehicle",
+                "ev",
+                "inlet",
+                "connector",
+                "bus",
+                "buses",
+                "train",
+                "on-board",
+                "cables",
+                "panto",
+                "pan",
+                "overhead",
+                "line",
+                "apparatus"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Pantograph Top-Down",
+            "filename": "pantograph_top_down.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": [
+                "electric vehicle",
+                "ev",
+                "inlet",
+                "connector",
+                "bus",
+                "buses",
+                "train",
+                "on-board",
+                "cables",
+                "panto",
+                "pan",
+                "overhead",
+                "line",
+                "apparatus"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Hubject",
+            "filename": "hubject.svg",
+            "family": ["Companies"],
+            "style": "baseline",
+            "tags": ["electric vehicle", "roaming", "partner", "operator", "emobility", "service", "logo", "e"],
+            "author": "Hubject",
             "size": 24
         }
     ]
