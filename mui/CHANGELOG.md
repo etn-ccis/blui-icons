@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.8.1 (Unpublished)
+
+### Fixed
+-   Icon Font clipping issue for cybersecurity two-tone icon [#174](https://github.com/pxblue/icons/issues/174)
+
+
 ## v2.8.0 (December 9, 2021)
 
 ### Added
