@@ -2794,21 +2794,454 @@
             "size": 24
         },
         {
-            "name": "EV Plug Type 1",
-            "filename": "ev_plug_type_one.svg",
-            "family": ["Vehicles"],
+            "name": "RFID",
+            "filename": "rfid.svg",
+            "family": ["Devices"],
             "style": "outlined",
-            "tags": ["electric vehicle", "inlet", "connector", "j1772", "japan", "charge", "charging station"],
-            "author": "Jeremy Matter (PX Blue)",
+            "tags": ["radio frequency identification", "tag", "reader", "data", "tracking", "monitor"],
+            "author": "Huayun Huang (PX Blue)",
             "size": 24
         },
         {
-            "name": "EV Plug Type 2",
+            "name": "Video Alert Outline",
+            "filename": "video_alert_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": ["video", "camera", "bell", "alarm", "monitor"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Power Redundancy",
+            "filename": "power_redundancy.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "arrow",
+                "sync",
+                "cycle",
+                "loop",
+                "redundant",
+                "pdu",
+                "battery",
+                "backup",
+                "refresh",
+                "active",
+                "enabled"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Power Redundancy Off",
+            "filename": "power_redundancy_off.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "arrow",
+                "sync",
+                "cycle",
+                "loop",
+                "redundant",
+                "pdu",
+                "battery",
+                "backup",
+                "refresh",
+                "inactive",
+                "disabled"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Video Alert",
+            "filename": "video_alert.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["video", "camera", "bell", "alarm", "monitor"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Video Streaming Outline",
+            "filename": "video_streaming_outline.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": ["video", "camera", "play", "monitor", "playback", "recording", "surveillance"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Video Streaming",
+            "filename": "video_streaming.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["video", "camera", "filled", "play", "monitor", "playback", "recording", "surveillance"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Incident Maintenance",
+            "filename": "incident_maintenance.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "incidents",
+                "alarm",
+                "alert",
+                "service",
+                "multiple",
+                "stacked",
+                "notification",
+                "event",
+                "wrench",
+                "repair"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Help Desk Log",
+            "filename": "help_desk_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "service",
+                "representative",
+                "help",
+                "helpdesk",
+                "desk",
+                "arc",
+                "headphone",
+                "log",
+                "history",
+                "diagnose",
+                "talk",
+                "conversation",
+                "call",
+                "customer",
+                "document"
+            ],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Notification Log",
+            "filename": "notification_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["notification", "incident", "event", "alarm", "trigger", "log", "history", "document"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Panel Log",
+            "filename": "panel_log.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": ["panel", "board", "breaker", "operate", "grid", "section", "shelf", "log", "history", "document"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic A",
+            "filename": "ev_plug_domestic_a.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic B",
+            "filename": "ev_plug_domestic_b.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic C",
+            "filename": "ev_plug_domestic_c.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic D",
+            "filename": "ev_plug_domestic_d.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic E",
+            "filename": "ev_plug_domestic_e.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic F",
+            "filename": "ev_plug_domestic_f.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic G",
+            "filename": "ev_plug_domestic_g.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic H",
+            "filename": "ev_plug_domestic_h.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic I",
+            "filename": "ev_plug_domestic_i.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic J",
+            "filename": "ev_plug_domestic_j.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic K",
+            "filename": "ev_plug_domestic_k.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Domestic L",
+            "filename": "ev_plug_domestic_l.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "charge", "charging station", "household", "home"],
+            "author": "Renato Martins (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 60309-2 Single 16",
+            "filename": "ev_plug_iec_60309_2_single_16.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 60309-2 Three 16",
+            "filename": "ev_plug_iec_60309_2_three_16.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 60309-2 Three 32",
+            "filename": "ev_plug_iec_60309_2_three_32.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 60309-2 Three 64",
+            "filename": "ev_plug_iec_60309_2_three_64.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 62196 T1",
+            "filename": "ev_plug_iec_62196_t1.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "j1772",
+                "japan",
+                "charge",
+                "charging station",
+                "sae",
+                "type 1"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Type One",
+            "filename": "ev_plug_type_one.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "j1772",
+                "japan",
+                "charge",
+                "charging station",
+                "sae",
+                "type 1"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24,
+            "deprecatedToPXBIcon": "ev_plug_iec_62196_t1"
+        },
+        {
+            "name": "EV Plug IEC 62196 T1 Combo",
+            "filename": "ev_plug_iec_62196_t1_combo.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "japan",
+                "charge",
+                "charging station",
+                "combination",
+                "multi",
+                "multiple"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 62196 T2",
+            "filename": "ev_plug_iec_62196_t2.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "mennekes",
+                "europe",
+                "charge",
+                "charging station",
+                "type 2"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Type Two",
             "filename": "ev_plug_type_two.svg",
             "family": ["Vehicles"],
             "style": "outlined",
-            "tags": ["electric vehicle", "inlet", "connector", "mennekes", "europe", "charge", "charging station"],
-            "author": "Jeremy Matter (PX Blue)",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "mennekes",
+                "europe",
+                "charge",
+                "charging station",
+                "type 2"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24,
+            "deprecatedToPXBIcon": "ev_plug_iec_62196_t2"
+        },
+        {
+            "name": "EV Plug IEC 62196 T2 Combo",
+            "filename": "ev_plug_iec_62196_t2_combo.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "us",
+                "charge",
+                "charging station",
+                "ccs",
+                "combination",
+                "multi",
+                "multiple"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
             "size": 24
         },
         {
@@ -2821,12 +3254,69 @@
                 "inlet",
                 "connector",
                 "combined charging system",
-                "united states of america",
                 "us",
+                "charge",
+                "charging station",
+                "ccs",
+                "combination",
+                "multi",
+                "multiple"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24,
+            "deprecatedToPXBIcon": "ev_plug_iec_62196_t2_combo"
+        },
+        {
+            "name": "EV Plug IEC 62196 T3A",
+            "filename": "ev_plug_iec_62196_t3a.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "japan",
                 "charge",
                 "charging station"
             ],
-            "author": "Jeremy Matter (PX Blue)",
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 62196 T3C",
+            "filename": "ev_plug_iec_62196_t3c.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "combined charging system",
+                "japan",
+                "charge",
+                "charging station",
+                "scame"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Tesla R",
+            "filename": "ev_plug_tesla_r.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "tesla", "charge", "charging station"],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Tesla S",
+            "filename": "ev_plug_tesla_s.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": ["electric vehicle", "inlet", "connector", "tesla", "charge", "charging station"],
+            "author": "Paulo Morgado (PX Blue)",
             "size": 24
         },
         {
@@ -2843,16 +3333,64 @@
                 "charge",
                 "charging station"
             ],
-            "author": "Jeremy Matter (PX Blue)",
+            "author": "Renato Martins (PX Blue)",
             "size": 24
         },
         {
-            "name": "RFID",
-            "filename": "rfid.svg",
-            "family": ["Devices"],
-            "style": "outlined",
-            "tags": ["radio frequency identification", "tag", "reader", "data", "tracking", "monitor"],
-            "author": "Huayun Huang (PX Blue)",
+            "name": "Pantograph Bottom-Up",
+            "filename": "pantograph_bottom_up.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": [
+                "electric vehicle",
+                "ev",
+                "inlet",
+                "connector",
+                "bus",
+                "buses",
+                "train",
+                "on-board",
+                "cables",
+                "panto",
+                "pan",
+                "overhead",
+                "line",
+                "apparatus"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Pantograph Top-Down",
+            "filename": "pantograph_top_down.svg",
+            "family": ["Vehicles"],
+            "style": "baseline",
+            "tags": [
+                "electric vehicle",
+                "ev",
+                "inlet",
+                "connector",
+                "bus",
+                "buses",
+                "train",
+                "on-board",
+                "cables",
+                "panto",
+                "pan",
+                "overhead",
+                "line",
+                "apparatus"
+            ],
+            "author": "Paulo Morgado (PX Blue)",
+            "size": 24
+        },
+        {
+            "name": "Hubject",
+            "filename": "hubject.svg",
+            "family": ["Companies"],
+            "style": "baseline",
+            "tags": ["electric vehicle", "roaming", "partner", "operator", "emobility", "service", "logo", "e"],
+            "author": "Hubject",
             "size": 24
         }
     ]

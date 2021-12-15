@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <title>px_tripped_24px</title>
-  <rect width="24" height="24" fill="none"/>
-  <path d="M17,14v2h6V14ZM1,16H7V14H1Z"/>
-  <rect x="4.76" y="10.76" width="10" height="2" transform="translate(-5.46 10.34) rotate(-45)"/>
-  <polygon points="11.88 6.81 4.81 13.88 3 16 6.93 16 14 8.93 11.88 6.81"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path d="M23,14v2H17V14ZM14,8.93h0L12.59,7.51h0l-.7-.7L4.81,13.88l-.1.12H1v2H7v-.07l7-7Z"/></svg>

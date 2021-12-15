@@ -1,6 +1,6 @@
-# Power Xpert Blue Icons
+# PX Blue Icons
 
-This repository contains icon files for Power Xpert Blue. These icons are grouped into 'family' folders of related icons. Family folders follow a similar naming convention to Material Design, e.g., **Status** and **Devices**. Each icon should be available as a clean, minified SVG file. You may optionally include a source (AI) file for the icon as well - it may be beneficial to group families of icons into a single AI file. Each icon SVG file will need converted to PNG icons files so the icons are available in two formats.
+This repository contains icon files for PX Blue. These icons are grouped into 'family' folders of related icons. Family folders follow a similar naming convention to Material Design, e.g., **Status** and **Devices**. Each icon should be available as a clean, minified SVG file. You may optionally include a source (AI) file for the icon as well - it may be beneficial to group families of icons into a single AI file. Each icon SVG file will need converted to PNG icons files so the icons are available in two formats.
 
 ## Icon Approval
 
@@ -47,7 +47,7 @@ Icon SVGs should follow the naming convention of just using an icon name (e.g. `
 
 ## PNG Icons
 
-Power Xpert Blue offers matching PNG icons for each SVG icon in this repository, located in the PNG folders. Each SVG icon is converted to PNG format in four colors and two sizes of 24dp and 48dp.
+PX Blue offers matching PNG icons for each SVG icon in this repository, located in the PNG folders. Each SVG icon is converted to PNG format in four colors and two sizes of 24dp and 48dp.
 
 Colors:
 ```
