@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons-svg",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "SVG icons for Eaton applications",
     "main": "index.js",
     "scripts": {
