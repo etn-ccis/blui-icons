@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Icons from '@brightlayer-ui/icons-mui';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
 const meta = require('@brightlayer-ui/icons-mui/index.json');
 
 const getMuiIconName = (filename: string): string =>

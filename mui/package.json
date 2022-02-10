@@ -10,8 +10,8 @@
     "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "peerDependencies": {
-        "@material-ui/core": ">=3.3.1",
-        "@material-ui/icons": ">=3.0.1"
+        "@mui/material": "^5.4.0",
+        "@mui/icons-material": "^5.3.1"
     },
     "scripts": {
         "build": "bash ./scripts/generateIcons.sh",
@@ -44,6 +44,7 @@
         "icons",
         "material",
         "material-ui",
+        "mui",
         "brightlayer-ui"
     ]
 }
