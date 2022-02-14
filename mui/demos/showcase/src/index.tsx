@@ -11,19 +11,17 @@ import {
     adaptV4Theme,
 } from '@mui/material';
 import { Theme } from '@mui/material/styles';
-import "@mui/styles";
+import '@mui/styles';
 import * as BLUIThemes from '@brightlayer-ui/react-themes';
 import '@brightlayer-ui/react-themes/open-sans';
 import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 
-
 declare module '@mui/styles/defaultTheme' {
-  // eslint-disable-next-line @typescript-eslint/no-empty-interface
-  interface DefaultTheme extends Theme {}
+    // eslint-disable-next-line @typescript-eslint/no-empty-interface
+    interface DefaultTheme extends Theme {}
 }
-
 
 ReactDOM.render(
     <React.StrictMode>
