@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom';
 import {
     CssBaseline,
     ThemeProvider,
-    // Theme,
     StyledEngineProvider,
     createTheme,
     adaptV4Theme,
