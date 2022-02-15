@@ -5,16 +5,16 @@
     "main": "./index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mui-org/material-ui/tree/master/packages/material-ui-icons"
+        "url": "https://github.com/mui/material-ui/tree/master/packages/mui-icons-material"
     },
     "author": "MUI",
     "license": "MIT",
     "dependencies": {},
     "scripts": {},
     "bugs": {
-        "url": "https://github.com/mui-org/material-ui/tree/master/packages/material-ui-icons/issues"
+        "url": "https://github.com/mui/material-ui/issues"
     },
-    "homepage": "https://github.com/mui-org/material-ui/tree/master/packages/material-ui-icons",
+    "homepage": "https://github.com/mui/material-ui/tree/master/packages/mui-icons-material",
     "devDependencies": {
         "@babel/cli": "7.0.0",
         "@babel/core": "7.0.0",

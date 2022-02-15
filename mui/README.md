@@ -1,4 +1,3 @@
-
 [![](https://img.shields.io/circleci/project/github/brightlayer-ui/icons/mui/master.svg?style=flat)](https://circleci.com/gh/brightlayer-ui/icons/tree/master)
 ![npm](https://img.shields.io/npm/v/@brightlayer-ui/icons-mui?label=%40brightlayer-ui/icons-mui)
 
@@ -16,7 +15,7 @@ or
 yarn add @brightlayer-ui/icons-mui
 ```
 
-> **NOTE (Peer Dependencies):** Using this package requires you to have @material-ui/core and @material-ui/icons defined as dependencies in your project's package.json file.
+> **NOTE (Peer Dependencies):** Using this package requires you to have @mui/material and @mui/icons-material defined as dependencies in your project's package.json file.
 
 ## Usage
 
