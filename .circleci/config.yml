@@ -4,7 +4,7 @@ orbs:
 jobs:
     build:
         docker:
-            - image: circleci/node:14.9-browsers
+            - image: cimg/node:14.19.0-browsers
         steps:
             - checkout
             - restore_cache:
@@ -45,7 +45,7 @@ jobs:
 
     publish:
         docker:
-            - image: circleci/node:14.9-browsers
+            - image: cimg/node:14.19.0-browsers
         steps:
             - checkout
             - attach_workspace:
@@ -70,7 +70,7 @@ jobs:
 
     tag:
       docker:
-        - image: circleci/node:14.9-browsers
+        - image: cimg/node:14.19.0-browsers
       steps:
         - checkout
         - attach_workspace:
