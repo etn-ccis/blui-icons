@@ -3,7 +3,7 @@
 
 # Brightlayer UI Icons for Material-UI
 
-This library contains componentized svg icons from [@brightlayer-ui/icons](https://github.com/brightlayer-ui/icons) for use in React applications using Material UI. The icons are made available in the same way that Material UI exposes the [Material Icons](https://mui.com/components/material-icons/#heading-api).
+This library contains componentized svg icons from [@brightlayer-ui/icons](https://github.com/brightlayer-ui/icons) for use in React applications using Material UI. The icons are made available in the same way that Material UI exposes the [Material Icons](https://mui.com/components/icons/).
 
 ## Installation
 

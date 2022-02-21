@@ -1,6 +1,6 @@
 # Changelog
 
-## v2.8.1-beta.0 (Not yet published)
+## v3.0.0 (Not yet published)
 
 -   Updated to MUI v5 for creating MUI Icons. [#187](https://github.com/brightlayer-ui/icons/issues/187)
 
