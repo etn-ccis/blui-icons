@@ -1,7 +1,7 @@
 {
     "name": "@brightlayer-ui/icons-mui",
     "version": "3.0.0-beta.0",
-    "description": "Brightlayer UI icons for Material UI",
+    "description": "Brightlayer UI icons for MUI",
     "main": "./index.js",
     "repository": {
         "type": "git",
@@ -44,7 +44,7 @@
         "icons",
         "material",
         "material-ui",
-        "mui",
+        "MUI",
         "brightlayer-ui"
     ]
 }

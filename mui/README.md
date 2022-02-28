@@ -1,9 +1,9 @@
 [![](https://img.shields.io/circleci/project/github/brightlayer-ui/icons/mui/master.svg?style=flat)](https://circleci.com/gh/brightlayer-ui/icons/tree/master)
 ![npm](https://img.shields.io/npm/v/@brightlayer-ui/icons-mui?label=%40brightlayer-ui/icons-mui)
 
-# Brightlayer UI Icons for Material-UI
+# Brightlayer UI Icons for MUI
 
-This library contains componentized svg icons from [@brightlayer-ui/icons](https://github.com/brightlayer-ui/icons) for use in React applications using Material UI. The icons are made available in the same way that Material UI exposes the [Material Icons](https://mui.com/components/icons/).
+This library contains componentized svg icons from [@brightlayer-ui/icons](https://github.com/brightlayer-ui/icons) for use in React applications using MUI. The icons are made available in the same way that MUI exposes the [Material Icons](https://mui.com/components/icons/).
 
 ## Installation
 
@@ -82,4 +82,4 @@ npm publish
 
 ## Browser Support
 
-Brightlayer UI Icons for Material-UI will work with any modern browser. For details refer to our [Browser Support](https://brightlayer-ui.github.io/development/frameworks-web/react#browser-support) documentation.
+Brightlayer UI Icons for MUI will work with any modern browser. For details refer to our [Browser Support](https://brightlayer-ui.github.io/development/frameworks-web/react#browser-support) documentation.
