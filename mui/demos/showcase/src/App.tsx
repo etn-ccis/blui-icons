@@ -1,6 +1,10 @@
 import React from 'react';
 import * as Icons from '@brightlayer-ui/icons-mui';
-import { Grid } from '@material-ui/core';
+import { Grid } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
+import createStyles from '@mui/styles/createStyles';
+import { useTheme, Theme } from '@mui/material/styles';
+
 const meta = require('@brightlayer-ui/icons-mui/index.json');
 
 const getMuiIconName = (filename: string): string =>
@@ -8,21 +12,50 @@ const getMuiIconName = (filename: string): string =>
 
 const sorted = meta.icons.sort((a: any, b: any) => (a.filename > b.filename ? 1 : -1));
 
-export const App: React.FC = () => (
-    <>
-        <Grid container spacing={6} style={{ maxWidth: 700, margin: 'auto' }}>
-            {sorted.map((icon: any) => {
-                //@ts-ignore
-                const Component = Icons[getMuiIconName(icon.filename)];
-                return (
-                    <Grid item xs={2} key={icon.filename}>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                            <Component style={{ fontSize: 48 }} />
-                            <div style={{ wordBreak: 'break-all', textAlign: 'center' }}>{icon.filename}</div>
-                        </div>
-                    </Grid>
-                );
-            })}
-        </Grid>
-    </>
+const useStyles = makeStyles((theme: Theme) =>
+    createStyles({
+        container: {
+            maxWidth: 700,
+            margin: 'auto',
+        },
+        gridItem: {
+            padding: theme.spacing(2),
+        },
+        iconWrapper: {
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+        },
+        icon: {
+            fontSize: theme.spacing(6),
+        },
+        iconName: {
+            wordBreak: 'break-all',
+            textAlign: 'center',
+        },
+    })
 );
+
+export const App: React.FC = () => {
+    const theme = useTheme();
+    const classes = useStyles(theme);
+
+    return (
+        <>
+            <Grid container spacing={2} classes={{ root: classes.container }}>
+                {sorted.map((icon: any) => {
+                    //@ts-ignore
+                    const Component = Icons[getMuiIconName(icon.filename)];
+                    return (
+                        <Grid item xs={2} key={icon.filename} classes={{ root: classes.gridItem }}>
+                            <div className={classes.iconWrapper}>
+                                <Component className={classes.icon} />
+                                <div className={classes.iconName}>{icon.filename}</div>
+                            </div>
+                        </Grid>
+                    );
+                })}
+            </Grid>
+        </>
+    );
+};

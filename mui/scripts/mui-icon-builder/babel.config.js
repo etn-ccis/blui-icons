@@ -39,8 +39,8 @@ module.exports = {
                     {
                         root: ['./'],
                         alias: {
-                            '@material-ui/core': './packages/material-ui/src',
-                            '@material-ui/icons': './packages/material-ui-icons/src',
+                            '@mui/material': './packages/mui-material/src',
+                            '@mui/icons-material': './packages/mui-icons-material/src',
                         },
                     },
                 ],
@@ -65,10 +65,10 @@ module.exports = {
                     'babel-plugin-module-resolver',
                     {
                         alias: {
-                            '@material-ui/core': './packages/material-ui/src',
-                            '@material-ui/docs': './packages/material-ui-docs/src',
-                            '@material-ui/icons': './packages/material-ui-icons/src',
-                            '@material-ui/lab': './packages/material-ui-lab/src',
+                            '@mui/material': './packages/mui-material/src',
+                            '@mui/docs': './packages/mui-docs/src',
+                            '@mui/icons-material': './packages/mui-icons-material/src',
+                            '@mui/lab': './packages/mui-lab/src',
                             docs: './docs',
                             modules: './modules',
                             pages: './pages',
@@ -84,10 +84,10 @@ module.exports = {
                     'babel-plugin-module-resolver',
                     {
                         alias: {
-                            '@material-ui/core': './packages/material-ui/src',
-                            '@material-ui/docs': './packages/material-ui-docs/src',
-                            '@material-ui/icons': './packages/material-ui-icons/src',
-                            '@material-ui/lab': './packages/material-ui-lab/src',
+                            '@mui/material': './packages/mui-material/src',
+                            '@mui/docs': './packages/mui-docs/src',
+                            '@mui/icons-material': './packages/mui-icons-material/src',
+                            '@mui/lab': './packages/mui-lab/src',
                             docs: './docs',
                             modules: './modules',
                             pages: './pages',
@@ -153,8 +153,8 @@ module.exports = {
                     {
                         root: ['./'],
                         alias: {
-                            '@material-ui/core': './packages/material-ui/src',
-                            '@material-ui/icons': './packages/material-ui-icons/src',
+                            '@mui/material': './packages/mui-material/src',
+                            '@mui/icons-material': './packages/mui-icons-material/src',
                         },
                     },
                 ],
