@@ -3392,6 +3392,51 @@
             "tags": ["electric vehicle", "roaming", "partner", "operator", "emobility", "service", "logo", "e"],
             "author": "Hubject",
             "size": 24
+        },
+        {
+            "name": "API",
+            "filename": "api.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["application programming interface", "computer", "protocol"],
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "API Settings",
+            "filename": "api_settings.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["application programming interface", "computer", "protocol", "config", "wrench", "management", "preference"],
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Paywall",
+            "filename": "paywall.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["entitlement", "lock", "money", "$", "monetization", "access", "subscribe"],
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Protocol",
+            "filename": "protocol.svg",
+            "family": ["General"],
+            "style": "baseline",
+            "tags": ["communication", "connection", "internet", "network", "transfer", "data", "file", "node", "handshake", "talk", "document", "rule"],
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Device with Keypad",
+            "filename": "device_with_keypad.svg",
+            "family": ["devices"],
+            "style": "baseline",
+            "tags": ["keyboard", "panel", "equipment", "commander", "keypad", "device", "screen", "interface", "hmi", "input", "terminal", "enter", "portal"],
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
         }
     ]
 }

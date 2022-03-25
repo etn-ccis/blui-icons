@@ -1,7 +1,7 @@
 {
     "name": "@brightlayer-ui/react-native-vector-icons",
     "title": "React Native Brightlayer UI Vector Icons",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "description": "Brightlayer UI vector icons for use in React Native projects, based on react-native-vector-icons",
     "main": "index.js",
     "files": [
