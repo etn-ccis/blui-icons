@@ -1,10 +1,10 @@
 # Changelog
 
-## v1.5.0 (To be published, 2022)
+## v1.5.0 (March 29, 2022)
 
 ### Added
 
-- New icons: API, API Settings, Paywall, Protocol, and Device with Keypad.
+-   New icons: API, API Settings, Paywall, Protocol, and Device with Keypad.
 
 ## v1.4.1 (December 17, 2021)
 
