@@ -1,6 +1,12 @@
 # Changelog
 
-## v3.0.0 (Not yet published)
+## v3.0.0 (March 29, 2022)
+
+### Added
+
+-   New icons: API, API Settings, Paywall, Protocol, and Device with Keypad.
+
+### Changed
 
 -   Updated to MUI v5 for creating MUI Icons. [#187](https://github.com/brightlayer-ui/icons/issues/187)
 

@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons",
-    "version": "1.8.1",
+    "version": "1.9.0",
     "description": "Brightlayer UI Icons",
     "main": "./iconfont/BrightlayerUIIcons.css",
     "repository": {
