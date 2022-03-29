@@ -72,7 +72,7 @@ We also have Brightlayer UI one-line symbols (ported from Brightlayer UI 1.0) av
 
 Our library of dynamic progress icons has been split off into a dedicated repository:
 
--   [Progress Icons](https://github.com/brightlayer-ui/progress-icons)
+-   [Progress Icons](https://github.com/brightlayer-ui/progress-icons/tree/master)
 
 # For Icon Creators
 

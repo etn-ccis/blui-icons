@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons",
-    "version": "1.8.1",
+    "version": "1.9.0",
     "description": "Brightlayer UI Icons",
     "main": "./iconfont/BrightlayerUIIcons.css",
     "repository": {
@@ -22,7 +22,8 @@
         "build:rn-vector": "cd rn-vector && yarn build",
         "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
         "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag",
-        "start": "yarn build:font && open ./iconfont/BrightlayerUIIcons.html && cd mui && yarn start"
+        "start": "yarn build:font && open ./iconfont/BrightlayerUIIcons.html && cd mui && yarn start",
+        "generate:licenses": "npm-license-crawler -onlyDirectDependencies -json LICENSES.json"
     },
     "files": [
         "iconfont",
@@ -41,6 +42,7 @@
         "copyfiles": "^2.1.0",
         "create-svg-sprite": "~1.0.0",
         "fantasticon": "^1.2.2",
+        "npm-license-crawler": "^0.2.1",
         "prettier": "^2.2.1",
         "yarn-audit-fix": "^6.0.0"
     },

@@ -7,9 +7,10 @@ This code is licensed under the BSD-3 license found in the LICENSE file in the r
 **/
 
 import React from 'react';
-import createSvgIcon from '@material-ui/icons/utils/createSvgIcon';
-import SvgIcon from '@material-ui/core/SvgIcon';
-import { makeStyles, createStyles } from '@material-ui/core';
+import { createSvgIcon } from '@mui/material/utils';
+import SvgIcon from '@mui/material/SvgIcon';
+import createStyles from '@mui/styles/createStyles';
+import makeStyles from '@mui/styles/makeStyles';
 
 const useStyles = makeStyles(() =>
     createStyles({

@@ -2,19 +2,29 @@ import 'react-app-polyfill/ie11';
 import 'react-app-polyfill/stable';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CssBaseline, ThemeProvider, createMuiTheme } from '@material-ui/core';
+import { CssBaseline, ThemeProvider, StyledEngineProvider, createTheme, adaptV4Theme } from '@mui/material';
+import { Theme } from '@mui/material/styles';
+import '@mui/styles';
 import * as BLUIThemes from '@brightlayer-ui/react-themes';
 import '@brightlayer-ui/react-themes/open-sans';
 import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 
+declare module '@mui/styles/defaultTheme' {
+    /* eslint-disable */
+    interface DefaultTheme extends Theme {}
+    /* eslint-enable */
+}
+
 ReactDOM.render(
     <React.StrictMode>
-        <ThemeProvider theme={createMuiTheme(BLUIThemes.blue)}>
-            <CssBaseline />
-            <App />
-        </ThemeProvider>
+        <StyledEngineProvider injectFirst>
+            <ThemeProvider theme={createTheme(adaptV4Theme(BLUIThemes.blue))}>
+                <CssBaseline />
+                <App />
+            </ThemeProvider>
+        </StyledEngineProvider>
     </React.StrictMode>,
     document.getElementById('root')
 );

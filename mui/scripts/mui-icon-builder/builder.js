@@ -268,7 +268,7 @@ if (require.main === module) {
                 ' use arbitrary build directories to organize icons' +
                 ' e.g. "action/svg/production/icon_3d_rotation_24px.svg"'
         )
-        .describe('file-suffix', 'Filter only files ending with a suffix (pretty much only for @material-ui/icons)')
+        .describe('file-suffix', 'Filter only files ending with a suffix (pretty much only for @mui/icons-material)')
         .describe(
             'rename-filter',
             `Path to JS module used to rename destination filename and path.
