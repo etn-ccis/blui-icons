@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.1.0 (July 8, 2022)
+
+### Added
+
+-   New icons: Outlet C19, Outlet C14, Outlet C39, Outlet Alt, Outlet C19 Off, Outlet C14 Off, Outlet C39 Off and Outlet Alt Off.
+
 ## v3.0.0 (March 29, 2022)
 
 ### Added
