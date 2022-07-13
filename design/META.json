@@ -3407,7 +3407,15 @@
             "filename": "api_settings.svg",
             "family": ["General"],
             "style": "baseline",
-            "tags": ["application programming interface", "computer", "protocol", "config", "wrench", "management", "preference"],
+            "tags": [
+                "application programming interface",
+                "computer",
+                "protocol",
+                "config",
+                "wrench",
+                "management",
+                "preference"
+            ],
             "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
@@ -3425,7 +3433,20 @@
             "filename": "protocol.svg",
             "family": ["General"],
             "style": "baseline",
-            "tags": ["communication", "connection", "internet", "network", "transfer", "data", "file", "node", "handshake", "talk", "document", "rule"],
+            "tags": [
+                "communication",
+                "connection",
+                "internet",
+                "network",
+                "transfer",
+                "data",
+                "file",
+                "node",
+                "handshake",
+                "talk",
+                "document",
+                "rule"
+            ],
             "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
         },
@@ -3434,8 +3455,146 @@
             "filename": "device_with_keypad.svg",
             "family": ["devices"],
             "style": "baseline",
-            "tags": ["keyboard", "panel", "equipment", "commander", "keypad", "device", "screen", "interface", "hmi", "input", "terminal", "enter", "portal"],
+            "tags": [
+                "keyboard",
+                "panel",
+                "equipment",
+                "commander",
+                "keypad",
+                "device",
+                "screen",
+                "interface",
+                "hmi",
+                "input",
+                "terminal",
+                "enter",
+                "portal"
+            ],
             "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Outlet C19",
+            "filename": "outlet_c19.svg",
+            "family": ["devices"],
+            "style": "outlined",
+            "tags": ["outlet", "plug", "edelwiss", "socket", "connecter", "electricity", "power"],
+            "author": "Ian Todhunter (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Outlet C14",
+            "filename": "outlet_c14.svg",
+            "family": ["devices"],
+            "style": "outlined",
+            "tags": ["outlet", "plug", "edelwiss", "socket", "connecter", "electricity", "power"],
+            "author": "Ian Todhunter (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Outlet C39",
+            "filename": "outlet_c39.svg",
+            "family": ["devices"],
+            "style": "outlined",
+            "tags": ["outlet", "plug", "edelwiss", "socket", "connecter", "electricity", "power"],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Outlet Alt",
+            "filename": "outlet_alt.svg",
+            "family": ["devices"],
+            "style": "outlined",
+            "tags": ["outlet", "plug", "edelwiss", "socket", "connecter", "electricity", "power"],
+            "author": "Ian Todhunter (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Outlet C19 Off",
+            "filename": "outlet_c19_off.svg",
+            "family": ["devices"],
+            "style": "outlined",
+            "tags": [
+                "outlet",
+                "plug",
+                "edelwiss",
+                "socket",
+                "connecter",
+                "electricity",
+                "power",
+                "slash",
+                "disabled",
+                "off",
+                "no",
+                "not"
+            ],
+            "author": "Ian Todhunter (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Outlet C14 Off",
+            "filename": "outlet_c14_off.svg",
+            "family": ["devices"],
+            "style": "outlined",
+            "tags": [
+                "outlet",
+                "plug",
+                "edelwiss",
+                "socket",
+                "connecter",
+                "electricity",
+                "power",
+                "slash",
+                "disabled",
+                "off",
+                "no",
+                "not"
+            ],
+            "author": "Ian Todhunter (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Outlet C39 Off",
+            "filename": "outlet_c39_off.svg",
+            "family": ["devices"],
+            "style": "outlined",
+            "tags": [
+                "outlet",
+                "plug",
+                "edelwiss",
+                "socket",
+                "connecter",
+                "electricity",
+                "power",
+                "slash",
+                "disabled",
+                "off",
+                "no",
+                "not"
+            ],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Outlet Alt Off",
+            "filename": "outlet_alt_off.svg",
+            "family": ["devices"],
+            "style": "outlined",
+            "tags": [
+                "outlet",
+                "plug",
+                "edelwiss",
+                "socket",
+                "connecter",
+                "electricity",
+                "power",
+                "slash",
+                "disabled",
+                "off",
+                "no",
+                "not"
+            ],
+            "author": "Ian Todhunter (Brightlayer UI)",
             "size": 24
         }
     ]
