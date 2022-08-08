@@ -4,7 +4,7 @@
 
 ### Added
 
--   New icons: ChampVMVL.
+-   New icon: ChampVMVL.
 
 ## v1.6.0 (July 13, 2022)
 
