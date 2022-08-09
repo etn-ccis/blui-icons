@@ -29,7 +29,7 @@
         "url": "https://github.com/brightlayer-ui/icons/issues"
     },
     "prettier": "@brightlayer-ui/prettier-config",
-    "homepage": "https://github.com/brightlayer-ui/icons/mui#readme",
+    "homepage": "https://github.com/brightlayer-ui/icons/tree/master/mui#brightlayer-ui-icons-for-mui",
     "devDependencies": {
         "@babel/cli": "^7.1.2",
         "@babel/core": "^7.1.2",
