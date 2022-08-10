@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.11.0 (Aug 10, 2022)
+
+### Added
+
+-   New icon: ChampVMVL.
+
 ## v1.10.0 (July 13, 2022)
 
 ### Added

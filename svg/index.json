@@ -3596,6 +3596,15 @@
             ],
             "author": "Ian Todhunter (Brightlayer UI)",
             "size": 24
+        },
+        {
+            "name": "Champ VMVL",
+            "filename": "champ_vmvl.svg",
+            "family": ["devices"],
+            "style": "baseline",
+            "tags": ["hazloc", "hazardous", "classified", "led", "light", "fixture", "crouse-hinds"],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
         }
     ]
 }
