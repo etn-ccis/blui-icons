@@ -9,17 +9,14 @@ This code is licensed under the BSD-3 license found in the LICENSE file in the r
 import React from 'react';
 import { createSvgIcon } from '@mui/material/utils';
 import SvgIcon from '@mui/material/SvgIcon';
-import createStyles from '@mui/styles/createStyles';
-import makeStyles from '@mui/styles/makeStyles';
+import { makeStyles } from 'tss-react/mui';
 
-const useStyles = makeStyles(() =>
-    createStyles({
+const useStyles = makeStyles()(() => ({
         notSquare: {
             height: '1em',
             width: 'auto',
         },
-    })
-);
+    }));
 
 const create = ({{width}} !== 24 || {{height}} !== 24) ? 
     (props) => {

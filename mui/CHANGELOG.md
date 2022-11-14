@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.3.0 (unreleased)
+
+### Updated
+
+-   Remove dependency on @mui/styles. [#232](https://github.com/brightlayer-ui/icons/issues/232)
+
 ## v3.2.0 (Aug 10, 2022)
 
 ### Added
