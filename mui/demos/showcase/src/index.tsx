@@ -3,7 +3,7 @@ import 'react-app-polyfill/stable';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { CssBaseline, ThemeProvider, StyledEngineProvider, createTheme, adaptV4Theme } from '@mui/material';
-import { Theme } from '@mui/material/styles';
+// import { Theme } from '@mui/material/styles';
 import * as BLUIThemes from '@brightlayer-ui/react-themes';
 import '@brightlayer-ui/react-themes/open-sans';
 import { App } from './App';

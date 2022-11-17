@@ -1,12 +1,11 @@
+/* eslint-disable */
 import React from 'react';
 import * as Icons from '@brightlayer-ui/icons-mui';
 import { Box, Grid } from '@mui/material';
 import { useTheme, Theme } from '@mui/material/styles';
+import camelCase from 'camelcase';
 
 const meta = require('@brightlayer-ui/icons-mui/index.json');
-
-const getMuiIconName = (filename: string): string =>
-    filename.replace(/\.svg/, '').replace(/(^.)|(_)(.)/g, (match, p1, p2, p3) => (p1 || p3).toUpperCase());
 
 const sorted = meta.icons.sort((a: any, b: any) => (a.filename > b.filename ? 1 : -1));
 
@@ -41,7 +40,7 @@ export const App: React.FC = () => {
             <Grid container spacing={2} sx={{ root: defaultStyles.container }}>
                 {sorted.map((icon: any) => {
                     //@ts-ignore
-                    const Component = Icons[getMuiIconName(icon.filename)];
+                    const Component = Icons[camelCase(icon.filename.replace('.svg', ''), { pascalCase: true })];
                     return (
                         <Grid item xs={2} key={icon.filename} sx={{ root: defaultStyles.gridItem }}>
                             <Box sx={defaultStyles.iconWrapper}>
