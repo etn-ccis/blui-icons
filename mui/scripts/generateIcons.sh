@@ -17,10 +17,9 @@ mkdir -p dist
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Running MUI converter utility...${NC}"
-cd scripts/mui-icon-builder
-npx @svgr/cli --out-dir ../../dist --template svgr-template.js  -- ../../../svg
-npx @svgr/cli --out-dir ../../dist --no-index --template svgr-eaton-template.js -- ../../../svg/eaton*.svg
-cd ../..
+svgr --out-dir ./dist --template svgr-template.js  -- ../svg
+svgr --out-dir ./dist --no-index --template svgr-eaton-template.js -- ../svg/eaton*.svg
+
 babel dist --presets=@babel/preset-react,@babel/preset-env --out-dir dist
 cp ../svg/index.json ./dist/index.json
 echo -e "${BLUE}Done${NC}"
