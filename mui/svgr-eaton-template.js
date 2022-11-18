@@ -21,7 +21,7 @@ const template = ({ imports, interfaces, componentName, jsx, exports }, { tpl })
     ${imports}
     import SvgIcon from '@mui/material/SvgIcon';
     ${interfaces};
-    const ${componentName} = (props) => React.createElement(SvgIcon,{...props, style: {height: '1rem', width: 'auto'}, viewBox: ${viewBox}},${jsx.children});
+    const ${componentName} = (props) => React.createElement(SvgIcon,{style: {height: '1em', width: 'auto'}, ...props, viewBox: ${viewBox}},${jsx.children});
     ${exports};
     `;
 };

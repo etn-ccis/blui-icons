@@ -29,13 +29,13 @@
         "licenseUrl": "https://github.com/emotion-js/emotion/tree/main/packages/styled/raw/master/LICENSE",
         "parents": "showcase"
     },
-    "@mui/icons-material@5.10.9": {
+    "@mui/icons-material@5.10.14": {
         "licenses": "MIT",
         "repository": "https://github.com/mui/material-ui",
         "licenseUrl": "https://github.com/mui/material-ui/raw/master/LICENSE",
         "parents": "showcase"
     },
-    "@mui/material@5.10.13": {
+    "@mui/material@5.10.14": {
         "licenses": "MIT",
         "repository": "https://github.com/mui/material-ui",
         "licenseUrl": "https://github.com/mui/material-ui/raw/master/LICENSE",
@@ -59,10 +59,22 @@
         "licenseUrl": "https://github.com/testing-library/user-event/raw/master/LICENSE",
         "parents": "showcase"
     },
+    "camelcase@7.0.0": {
+        "licenses": "MIT",
+        "repository": "https://github.com/sindresorhus/camelcase",
+        "licenseUrl": "https://github.com/sindresorhus/camelcase/raw/master/license",
+        "parents": "showcase"
+    },
     "react-app-polyfill@2.0.0": {
         "licenses": "MIT",
         "repository": "https://github.com/facebook/create-react-app",
         "licenseUrl": "https://github.com/facebook/create-react-app/raw/master/LICENSE",
+        "parents": "showcase"
+    },
+    "react-dom@17.0.2": {
+        "licenses": "MIT",
+        "repository": "https://github.com/facebook/react",
+        "licenseUrl": "https://github.com/facebook/react/raw/master/LICENSE",
         "parents": "showcase"
     },
     "react-scripts@5.0.0": {
@@ -71,13 +83,13 @@
         "licenseUrl": "https://github.com/facebook/create-react-app/raw/master/LICENSE",
         "parents": "showcase"
     },
-    "tss-react@4.4.4": {
+    "react@17.0.2": {
         "licenses": "MIT",
-        "repository": "https://github.com/garronej/tss-react",
-        "licenseUrl": "https://github.com/garronej/tss-react/raw/master/LICENSE",
+        "repository": "https://github.com/facebook/react",
+        "licenseUrl": "https://github.com/facebook/react/raw/master/LICENSE",
         "parents": "showcase"
     },
-    "typescript@4.8.4": {
+    "typescript@4.9.3": {
         "licenses": "Apache-2.0",
         "repository": "https://github.com/Microsoft/TypeScript",
         "licenseUrl": "https://github.com/Microsoft/TypeScript/raw/master/LICENSE.txt",

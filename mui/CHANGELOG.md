@@ -1,10 +1,12 @@
 # Changelog
 
-## v3.3.0 (unreleased)
+## v4.0.0 (unreleased)
 
 ### Updated
 
--   Remove dependency on @mui/styles. [#232](https://github.com/brightlayer-ui/icons/issues/232)
+-   Removed dependency on @mui/styles. [#232](https://github.com/brightlayer-ui/icons/issues/232)
+-   `SvgEvPlugIec62196T3a` icon name changed to `SvgEvPlugIec62196T3A`
+-   `SvgEvPlugIec62196T3c` icon name changed to `SvgEvPlugIec62196T3C`
 
 ## v3.2.0 (Aug 10, 2022)
 
