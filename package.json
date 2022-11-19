@@ -6,13 +6,13 @@
         "packages/icon-font",
         "packages/mui",
         "packages/rn-vector",
-        "demo/*"
+        "demos/react-demo"
     ],
     "scripts": {
-        "build": "yarn workspaces foreach run build",
+        "build": "yarn workspaces foreach -v --topological-dev run build",
         "start": "yarn workspaces foreach run start",
-        "prettier": "yarn workspaces foreach run prettier",
-        "prettier:check": "yarn workspaces foreach run prettier:check"
+        "prettier": "yarn workspaces foreach -p run prettier",
+        "prettier:check": "yarn workspaces foreach -p run prettier:check"
     },
     "homepage": "https://github.com/brightlayer-ui/icons#readme",
     "repository": {

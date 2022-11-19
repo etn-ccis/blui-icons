@@ -1617,7 +1617,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-mui@workspace:packages/mui"
   dependencies:
-    "@brightlayer-ui/icons-svg": latest
+    "@brightlayer-ui/icons-svg": ^1.11.0
     "@svgr/cli": ^6.5.1
     rimraf: ^3.0.2
     typescript: ^4.2.3
@@ -1637,17 +1637,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@npm:latest":
-  version: 1.11.0
-  resolution: "@brightlayer-ui/icons-svg@npm:1.11.0"
-  checksum: 775d595ad068a8792fba74d4b43becafb350922f1e4a00cb245cfac72dd12afe561a0f7c97f8649548e58404a5641c2bb16a35d40aab95c13623334a59affda7
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/icons@1.11.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@1.11.0, @brightlayer-ui/icons@^1.11.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
+    "@brightlayer-ui/icons-svg": ^1.11.0
     fantasticon: ^1.2.2
     rimraf: ^3.0.2
   languageName: unknown
@@ -1683,10 +1677,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
+"@brightlayer-ui/react-native-vector-icons@^2.0.0, @brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector"
   dependencies:
+    "@brightlayer-ui/icons": ^1.11.0
     "@types/react-native-vector-icons": ^6.4.12
     react: 18.1.0
     react-native: 0.70.0
@@ -14048,9 +14043,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-demo@workspace:demo/react-demo":
+"react-demo@workspace:demos/react-demo":
   version: 0.0.0-use.local
-  resolution: "react-demo@workspace:demo/react-demo"
+  resolution: "react-demo@workspace:demos/react-demo"
   dependencies:
     "@brightlayer-ui/colors": ^3.1.1
     "@brightlayer-ui/eslint-config": ^3.0.1
@@ -14059,6 +14054,7 @@ __metadata:
     "@brightlayer-ui/icons-svg": ^1.11.0
     "@brightlayer-ui/prettier-config": ^1.0.3
     "@brightlayer-ui/react-components": ^6.1.1
+    "@brightlayer-ui/react-native-vector-icons": ^2.0.0
     "@brightlayer-ui/react-themes": ^7.0.0
     "@emotion/css": ^11.10.5
     "@emotion/react": ^11.10.5

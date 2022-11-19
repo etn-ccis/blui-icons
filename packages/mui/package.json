@@ -31,7 +31,7 @@
     "prettier": "@brightlayer-ui/prettier-config",
     "homepage": "https://github.com/brightlayer-ui/icons/tree/master/mui#brightlayer-ui-icons-for-mui",
     "devDependencies": {
-        "@brightlayer-ui/icons-svg": "latest",
+        "@brightlayer-ui/icons-svg": "^1.11.0",
         "@svgr/cli": "^6.5.1",
         "rimraf": "^3.0.2",
         "typescript": "^4.2.3"

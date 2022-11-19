@@ -10,7 +10,7 @@
     "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "scripts": {
-        "clear:fonts": "rimraf BrightlayerUIIcons.*",
+        "clear:fonts": "rimraf BrightlayerUIIcons.* && exit 0",
         "generate:fonts": "fantasticon ../svg -o ./ -n BrightlayerUIIcons -p blui -t ttf -t woff -t woff2 -t eot -t svg --normalize --font-height 300",
         "build": "yarn clear:fonts && yarn generate:fonts",
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
@@ -21,6 +21,7 @@
     },
     "homepage": "https://github.com/brightlayer-ui/icons#readme",
     "devDependencies": {
+        "@brightlayer-ui/icons-svg": "^1.11.0",
         "fantasticon": "^1.2.2",
         "rimraf": "^3.0.2"
     },
