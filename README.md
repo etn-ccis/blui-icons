@@ -25,3 +25,21 @@ See the [Iconography](https://brightlayer-ui.github.io/style/iconography) on bri
 # For Icon Creators
 
 Please read the instructions in the [Design](https://github.com/brightlayer-ui/icons/blob/master/design/README.md) folder before creating or submitting new icons.
+
+# For Maintainers / Contributors
+
+This repository uses yarn workspaces with the latest version of yarn. To get started working with the libraries:
+
+```sh
+git clone https://github.com/brightlayer-ui/icons.git
+cd icons
+yarn set version stable
+yarn plugin import workspace-tools
+yarn install
+```
+
+There is a demo project in the repository which shows the various icon formats being used in a project. To start the demo, run:
+
+```sh
+yarn start
+```

@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from 'react';
 import * as Icons from '@brightlayer-ui/icons-mui';
 import { Box, Grid, SxProps } from '@mui/material';
