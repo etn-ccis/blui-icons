@@ -1,0 +1,33 @@
+{
+    "name": "@brightlayer-ui/icons",
+    "version": "1.11.0",
+    "description": "Brightlayer UI Icons",
+    "main": "./BrightlayerUIIcons.css",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brightlayer-ui/icons.git"
+    },
+    "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "clear:fonts": "rimraf BrightlayerUIIcons.*",
+        "generate:fonts": "fantasticon ../svg -o ./ -n BrightlayerUIIcons -p blui -t ttf -t woff -t woff2 -t eot -t svg --normalize --font-height 300",
+        "build": "yarn clear:fonts && yarn generate:fonts",
+        "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
+        "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check"
+    },
+    "bugs": {
+        "url": "https://github.com/brightlayer-ui/icons/issues"
+    },
+    "homepage": "https://github.com/brightlayer-ui/icons#readme",
+    "devDependencies": {
+        "fantasticon": "^1.2.2",
+        "rimraf": "^3.0.2"
+    },
+    "keywords": [
+        "icons",
+        "material",
+        "brightlayer-ui",
+        "font"
+    ]
+}

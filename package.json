@@ -1,54 +1,38 @@
 {
-    "name": "@brightlayer-ui/icons",
-    "version": "1.11.0",
-    "description": "Brightlayer UI Icons",
-    "main": "./iconfont/BrightlayerUIIcons.css",
+    "description": "Brightlayer UI Icon Packages",
+    "private": true,
+    "workspaces": [
+        "packages/svg",
+        "packages/icon-font",
+        "packages/mui",
+        "packages/rn-vector",
+        "demo/*"
+    ],
+    "scripts": {
+        "build": "yarn workspaces foreach run build",
+        "start": "yarn workspaces foreach run start",
+        "prettier": "yarn workspaces foreach run prettier",
+        "prettier:check": "yarn workspaces foreach run prettier:check"
+    },
+    "homepage": "https://github.com/brightlayer-ui/icons#readme",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/brightlayer-ui/icons.git"
     },
     "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
-    "dependencies": {},
-    "scripts": {
-        "test": "yarn install && yarn install --dev && ./scripts/svgBuildTest.sh",
-        "index": "cp design/META.json svg/index.json",
-        "move": "mkdir -p tmp && mv svg/README.md tmp/README.md && mv svg/package.json tmp/package.json",
-        "move-back": "mv tmp/README.md svg/README.md && mv tmp/package.json svg/package.json && rm -rf tmp",
-        "copy": "yarn move && rm -r svg && mkdir svg && copyfiles -f -e \"design/old/*.svg\" -e \"design/Internal/*.svg\" -e \"design/WIP/*.svg\" -e \"design/Products/**/*.svg\" \"design/Products/*.svg\" design/**/*.svg design/**/**/*.svg svg && yarn move-back",
-        "sprites": "create-svg-sprite --optimize --input './svg' --output './svg' --name 'icons'",
-        "build": "yarn build:font",
-        "build:font": "yarn && yarn copy && rm -r iconfont && mkdir iconfont && fantasticon svg -o iconfont -n BrightlayerUIIcons -p blui -t ttf -t woff -t woff2 -t eot -t svg --font-height 300 && yarn sprites && yarn index",
-        "build:rn-vector": "cd rn-vector && yarn build",
-        "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
-        "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag",
-        "start": "yarn build:font && open ./iconfont/BrightlayerUIIcons.html && cd mui && yarn start",
-        "generate:licenses": "npm-license-crawler -onlyDirectDependencies -json LICENSES.json"
-    },
-    "files": [
-        "iconfont",
-        "LICENSE",
-        "package.json",
-        "README.md",
-        "CHANGELOG.md"
-    ],
-    "bugs": {
-        "url": "https://github.com/brightlayer-ui/icons/issues"
-    },
-    "homepage": "https://github.com/brightlayer-ui/icons#readme",
-    "prettier": "@brightlayer-ui/prettier-config",
-    "devDependencies": {
-        "@brightlayer-ui/prettier-config": "^1.0.3",
-        "copyfiles": "^2.1.0",
-        "create-svg-sprite": "~1.0.0",
-        "fantasticon": "^1.2.2",
-        "npm-license-crawler": "^0.2.1",
-        "prettier": "^2.2.1",
-        "yarn-audit-fix": "^6.0.0"
-    },
     "keywords": [
         "icons",
         "material",
         "brightlayer-ui"
-    ]
+    ],
+    "prettier": "@brightlayer-ui/prettier-config",
+    "bugs": {
+        "url": "https://github.com/brightlayer-ui/icons/issues"
+    },
+    "devDependencies": {
+        "@brightlayer-ui/prettier-config": "^1.0.3",
+        "prettier": "^2.2.1"
+    },
+    "packageManager": "yarn@3.3.0"
 }

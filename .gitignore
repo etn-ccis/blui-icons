@@ -1,17 +1,17 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 **/**/node_modules
 **/**/package-lock.json
 
+# cache
+.yarn
 
 # testing
 /coverage
 
 # production
 /build
-/tmp
+**/**/dist
 
 # misc
 .DS_Store
@@ -26,5 +26,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /.idea/
-
-mui/dist

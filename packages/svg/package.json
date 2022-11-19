@@ -1,0 +1,38 @@
+{
+    "name": "@brightlayer-ui/icons-svg",
+    "version": "1.11.0",
+    "description": "SVG icons for Eaton applications",
+    "main": "index.js",
+    "scripts": {
+        "build": "yarn clear:svg && yarn copy:from-design && yarn generate:sprite && yarn copy:index",
+        "clear:svg": "rimraf *.svg",
+        "copy:from-design": "copyfiles -f -e \"../../design/old/*.svg\" -e \"../../design/Internal/*.svg\" -e \"../../design/WIP/*.svg\" -e \"../../design/Products/**/*.svg\" \"../../design/Products/*.svg\" ../../design/**/*.svg ../../design/**/**/*.svg .",
+        "generate:sprite": "create-svg-sprite --optimize --input './' --output './' --name 'icons'",
+        "copy:index": "cp ../../design/META.json ./index.json",
+        "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
+        "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
+        "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "set npm_config_yes=true && cp ../CHANGELOG.md CHANGELOG.md && npx -p @brightlayer-ui/tag blui-tag"
+    },
+    "devDependencies": {
+        "copyfiles": "^2.1.0",
+        "create-svg-sprite": "^1.0.0",
+        "rimraf": "^3.0.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brightlayer-ui/icons.git"
+    },
+    "keywords": [
+        "icons",
+        "brightlayer-ui",
+        "eaton",
+        "svg"
+    ],
+    "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://github.com/brightlayer-ui/icons/issues"
+    },
+    "homepage": "https://github.com/brightlayer-ui/icons#readme"
+}
