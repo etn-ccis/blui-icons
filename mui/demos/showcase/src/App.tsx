@@ -8,7 +8,7 @@ const meta = require('@brightlayer-ui/icons-mui/index.json');
 
 const sorted = meta.icons.sort((a: any, b: any) => (a.filename > b.filename ? 1 : -1));
 
-const styles = (theme: Theme) => ({
+const styles = (theme: Theme): any => ({
     container: {
         maxWidth: 700,
         margin: 'auto',
