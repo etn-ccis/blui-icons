@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons-mui",
-    "version": "3.2.0",
+    "version": "4.0.0-alpha.0",
     "description": "Brightlayer UI icons for MUI",
     "main": "./index.js",
     "repository": {
@@ -10,13 +10,13 @@
     "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "peerDependencies": {
-        "@mui/material": "^5.0.0",
-        "@mui/icons-material": "^5.0.0"
+        "@mui/icons-material": "^5.0.0",
+        "@mui/material": "^5.0.0"
     },
     "scripts": {
         "build": "bash ./scripts/generateIcons.sh",
         "link:components": "bash ./scripts/linkComponents.sh",
-        "install:dependencies": "yarn && cd scripts/mui-icon-builder && yarn && cd ../.. && cd demos/showcase && yarn && cd ..",
+        "install:dependencies": "yarn && cd demos/showcase && yarn && cd ..",
         "start:showcase": "yarn install:dependencies && yarn build && yarn link:components && cd demos/showcase && yarn start",
         "start:storybook": "echo 'No storybook demo yet'",
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
@@ -38,7 +38,23 @@
         "@babel/preset-react": "^7.0.0",
         "@brightlayer-ui/icons-svg": "latest",
         "@brightlayer-ui/prettier-config": "^1.0.3",
-        "prettier": "^2.3.1"
+        "@svgr/cli": "^6.5.1",
+        "prettier": "^2.3.1",
+        "@babel/plugin-proposal-class-properties": "7.0.0",
+        "@babel/plugin-proposal-object-rest-spread": "7.0.0",
+        "@babel/plugin-transform-object-assign": "7.0.0",
+        "@babel/plugin-transform-runtime": "7.0.0",
+        "@babel/register": "7.0.0",
+        "@babel/runtime": "7.0.0",
+        "babel-eslint": "^9.0.0",
+        "babel-loader": "^8.0.0",
+        "babel-plugin-istanbul": "^5.0.0",
+        "babel-plugin-module-resolver": "^3.0.0",
+        "babel-plugin-preval": "^2.0.0",
+        "babel-plugin-react-remove-properties": "^0.2.5",
+        "babel-plugin-transform-dev-warning": "^0.1.0",
+        "babel-plugin-transform-react-constant-elements": "^6.23.0",
+        "babel-plugin-transform-react-remove-prop-types": "^0.4.10"
     },
     "keywords": [
         "icons",
