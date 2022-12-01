@@ -20,6 +20,16 @@ echo -ne "Running MUI converter utility...${NC}"
 svgr --out-dir ./dist --template svgr-template.js  -- ../svg
 svgr --out-dir ./dist --no-index --template svgr-eaton-template.js -- ../svg/eaton*.svg
 
+EvPlugIec62196T3AFILE=./dist/EvPlugIec62196T3A.js
+if [ -f "$EvPlugIec62196T3AFILE" ]; then
+    mv ./dist/EvPlugIec62196T3A.js ./dist/EvPlugIec62196T3a.js
+fi
+
+EvPlugIec62196T3CFILE=./dist/EvPlugIec62196T3C.js
+if [ -f "$EvPlugIec62196T3CFILE" ]; then
+    mv ./dist/EvPlugIec62196T3C.js ./dist/EvPlugIec62196T3c.js
+fi
+
 babel dist --presets=@babel/preset-react,@babel/preset-env --out-dir dist
 cp ../svg/index.json ./dist/index.json
 echo -e "${BLUE}Done${NC}"
