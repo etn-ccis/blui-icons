@@ -33,8 +33,6 @@ This repository uses yarn workspaces with the latest version of yarn. To get sta
 ```sh
 git clone https://github.com/brightlayer-ui/icons.git
 cd icons
-yarn set version stable
-yarn plugin import workspace-tools
 yarn install
 ```
 

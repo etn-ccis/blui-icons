@@ -29,11 +29,13 @@ yarn add react-native-vector-icons
 To use this package in iOS projects, the native modules will need to be linked (this will be very familiar after you have linked the native modules for RNVI). We recommend doing this via CocoaPods:
 
 Add the following to your `Podfile`:
+
 ```
 pod 'RNBLUIVectorIcons', :path => '../node_modules/@brightlayer-ui/react-native-vector-icons'
 ```
 
 Edit your `Info.plist`
+
 -   Under the "Fonts Provided By Application" property (which you should have added when setting up RNVI), add an entry for BrightlayerUIIcons.ttf.
 
 After updating these files you will need to install the Pods and recompile your application:
