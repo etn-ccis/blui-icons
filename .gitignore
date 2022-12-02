@@ -4,7 +4,8 @@
 **/**/package-lock.json
 
 # cache
-.yarn
+.yarn/cache
+.yarn/install-state.gz
 
 # testing
 /coverage
