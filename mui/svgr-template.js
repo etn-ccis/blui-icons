@@ -1,4 +1,4 @@
-const template = ({ imports, interfaces, componentName, jsx, exports }, { tpl }) => {
+const template = ({ imports, interfaces, componentName, jsx }, { tpl }) => {
     const getComponentName = (name) => {
         let newComponentName;
 
@@ -16,41 +16,14 @@ const template = ({ imports, interfaces, componentName, jsx, exports }, { tpl })
         return newComponentName;
     };
 
-    const getComponentExports = (name) => {
-        let newComponentExports;
-
-        switch (name) {
-            case 'SvgEvPlugIec62196T3A':
-                newComponentExports = [
-                    {
-                        type: 'ExportDefaultDeclaration',
-                        declaration: { type: 'Identifier', name: 'SvgEvPlugIec62196T3a' },
-                    },
-                ];
-                break;
-            case 'SvgEvPlugIec62196T3C':
-                newComponentExports = [
-                    {
-                        type: 'ExportDefaultDeclaration',
-                        declaration: { type: 'Identifier', name: 'SvgEvPlugIec62196T3c' },
-                    },
-                ];
-                break;
-            default:
-                newComponentExports = exports;
-        }
-
-        return newComponentExports;
-    };
+    const updatedComponentName = getComponentName(componentName);
 
     return tpl`
     ${imports};
     import { createSvgIcon } from '@mui/material/utils';
     ${interfaces};
-    const ${getComponentName(componentName)} = createSvgIcon(React.createElement(React.Fragment, {}, ${
-        jsx.children
-    }), '${getComponentName(componentName)}');
-    ${getComponentExports(componentName)};
+    const ${updatedComponentName} = createSvgIcon(React.createElement(React.Fragment, {}, ${jsx.children}), '${updatedComponentName}');
+    export default ${updatedComponentName}
     `;
 };
 
