@@ -17,7 +17,7 @@ mkdir -p dist
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Running MUI converter utility...${NC}"
-svgr --out-dir ./dist --template svgr-template.js  -- ../svg
+svgr --out-dir ./dist --template svgr-template.js --index-template index-template.js  -- ../svg
 svgr --out-dir ./dist --no-index --template svgr-eaton-template.js -- ../svg/eaton*.svg
 
 EvPlugIec62196T3AFILE=./dist/EvPlugIec62196T3A.js
