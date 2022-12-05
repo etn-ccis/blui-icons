@@ -23,7 +23,8 @@
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
         "publish:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
-        "tag:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag"
+        "tag:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag",
+        "test": "./scripts/buildTest.sh"
     },
     "bugs": {
         "url": "https://github.com/brightlayer-ui/icons/issues"
