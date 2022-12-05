@@ -38,8 +38,18 @@ export const App: React.FC = () => {
         <>
             <Grid container spacing={2} sx={{ root: defaultStyles.container }}>
                 {sorted.map((icon: any) => {
-                    //@ts-ignore
-                    const Component = Icons[camelCase(icon.filename.replace('.svg', ''), { pascalCase: true })];
+                    let Component;
+
+                    if (camelCase(icon.filename.replace('.svg', ''), { pascalCase: true }) === 'EvPlugIec62196T3A') {
+                        Component = Icons['EvPlugIec62196T3a'];
+                    } else if (
+                        camelCase(icon.filename.replace('.svg', ''), { pascalCase: true }) === 'EvPlugIec62196T3C'
+                    ) {
+                        Component = Icons['EvPlugIec62196T3c'];
+                    } else {
+                        //@ts-ignore
+                        Component = Icons[camelCase(icon.filename.replace('.svg', ''), { pascalCase: true })];
+                    }
                     return (
                         <Grid item xs={2} key={icon.filename} sx={{ root: defaultStyles.gridItem }}>
                             <Box sx={defaultStyles.iconWrapper}>
