@@ -2,19 +2,17 @@ const path = require('path');
 
 function bluiIndexTemplate(filePaths) {
     const exportEntries = filePaths.map((filePath) => {
+        let basename;
+
         if (path.basename(filePath, path.extname(filePath)) === 'EvPlugIec62196T3A') {
-            const basename = 'EvPlugIec62196T3a';
-            const exportName = /^\d/.test(basename) ? `Svg${basename}` : basename;
-            return `export { default as ${exportName} } from './${basename}'`;
+            basename = 'EvPlugIec62196T3a';
         } else if (path.basename(filePath, path.extname(filePath)) === 'EvPlugIec62196T3C') {
-            const basename = 'EvPlugIec62196T3c';
-            const exportName = /^\d/.test(basename) ? `Svg${basename}` : basename;
-            return `export { default as ${exportName} } from './${basename}'`;
+            basename = 'EvPlugIec62196T3c';
         } else {
-            const basename = path.basename(filePath, path.extname(filePath));
-            const exportName = /^\d/.test(basename) ? `Svg${basename}` : basename;
-            return `export { default as ${exportName} } from './${basename}'`;
+            basename = path.basename(filePath, path.extname(filePath));
         }
+        const exportName = /^\d/.test(basename) ? `Svg${basename}` : basename;
+        return `export { default as ${exportName} } from './${basename}'`;
     });
     return exportEntries.join('\n');
 }
