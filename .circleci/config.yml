@@ -31,7 +31,7 @@ jobs:
                   command: cd packages/mui && yarn build
             - run:
                   name: Verify SVG Build Artifacts
-                  command: yarn test
+                  command: cd packages/svg && yarn test
             - run:
                   name: Verify MUI Artifacts
                   command: cd packages/mui && yarn test
