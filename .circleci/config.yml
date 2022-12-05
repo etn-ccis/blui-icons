@@ -42,31 +42,30 @@ jobs:
                       - packages/svg
                       - packages/rn-vector
                       - packages/mui/dist
-#     publish:
-#         docker:
-#             - image: cimg/node:14.19.0-browsers
-#         steps:
-#             - checkout
-#             - attach_workspace:
-#                   at: .
-#             - run:
-#                   name: Authenticate with registry
-#                   command: |
-#                       echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
-#                       echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-#             - run:
-#                   name: Publish @brightlayer-ui/icons
-#                   command: yarn publish:package -b $CIRCLE_BRANCH
-#             - run:
-#                   name: Publish @brightlayer-ui/icons-svg
-#                   command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
-#             - run:
-#                   name: Publish @brightlayer-ui/icons-mui
-#                   command: cd mui && yarn publish:package -b $CIRCLE_BRANCH
-#             - run:
-#                   name: Publish @brightlayer-ui/react-native-vector-icons
-#                   command: cd rn-vector && yarn publish:package -b $CIRCLE_BRANCH
-
+    publish:
+        docker:
+            - image: cimg/node:14.19.0-browsers
+        steps:
+            - checkout
+            - attach_workspace:
+                  at: .
+            - run:
+                  name: Authenticate with registry
+                  command: |
+                      echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+                      echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+            - run:
+                  name: Publish @brightlayer-ui/icons
+                  command: yarn publish:package -b $CIRCLE_BRANCH
+            - run:
+                  name: Publish @brightlayer-ui/icons-svg
+                  command: cd packages/svg && yarn publish:package -b $CIRCLE_BRANCH
+            - run:
+                  name: Publish @brightlayer-ui/icons-mui
+                  command: cd packages/mui && yarn publish:package -b $CIRCLE_BRANCH
+            - run:
+                  name: Publish @brightlayer-ui/react-native-vector-icons
+                  command: cd packages/rn-vector && yarn publish:package -b $CIRCLE_BRANCH
 #     tag:
 #         docker:
 #             - image: cimg/node:14.19.0-browsers
