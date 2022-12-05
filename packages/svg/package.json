@@ -12,7 +12,8 @@
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
         "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
-        "tag:package": "set npm_config_yes=true && cp ../CHANGELOG.md CHANGELOG.md && npx -p @brightlayer-ui/tag blui-tag"
+        "tag:package": "set npm_config_yes=true && cp ../CHANGELOG.md CHANGELOG.md && npx -p @brightlayer-ui/tag blui-tag",
+        "test": "yarn install && ./scripts/svgBuildTest.sh"
     },
     "devDependencies": {
         "copyfiles": "^2.1.0",
