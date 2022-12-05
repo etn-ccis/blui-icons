@@ -13,7 +13,7 @@
         "start": "yarn workspaces foreach run start",
         "prettier": "yarn workspaces foreach -p run prettier",
         "prettier:check": "yarn workspaces foreach -p run prettier:check",
-        "test": "cd packages/svg && yarn install && yarn install --dev && ../../scripts/svgBuildTest.sh"
+        "test": "cd packages/svg && yarn install && ../../scripts/svgBuildTest.sh"
     },
     "homepage": "https://github.com/brightlayer-ui/icons#readme",
     "repository": {
