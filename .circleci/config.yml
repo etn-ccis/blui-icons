@@ -21,6 +21,9 @@ jobs:
                   name: Prettier Check
                   command: yarn prettier:check
             - run:
+                  name: Lint
+                  command: yarn lint
+            - run:
                   name: Build Font, SVG Icons, RN Vector Icons and MUI
                   command: yarn build
             - run:
@@ -33,6 +36,7 @@ jobs:
                       - packages/svg
                       - packages/rn-vector
                       - packages/mui/dist
+                      - demos/react-demo
     build_reactdemo:
         docker:
             - image: cimg/node:14.19.0-browsers
@@ -40,21 +44,6 @@ jobs:
             - checkout
             - attach_workspace:
                   at: .
-            - run:
-                  name: Install Dependencies
-                  command: |
-                      cd demos/react-demo
-                      yarn install
-            - run:
-                  name: Prettier Check
-                  command: |
-                      cd demos/react-demo
-                      yarn prettier:check
-            - run:
-                  name: Lint
-                  command: |
-                      cd demos/react-demo
-                      yarn lint
             - run:
                   name: Build React Demo
                   command: |
@@ -109,7 +98,9 @@ workflows:
     icons:
         jobs:
             - build
-            - build_reactdemo
+            - build_reactdemo:
+                  requires:
+                      - build
             - publish:
                   requires:
                       - build
