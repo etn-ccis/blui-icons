@@ -91,9 +91,6 @@ workflows:
     icons:
         jobs:
             - build
-            - build_reactdemo:
-                  requires:
-                      - build
             - publish:
                   requires:
                       - build
