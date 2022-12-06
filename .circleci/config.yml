@@ -44,11 +44,7 @@ jobs:
                   name: Install Dependencies
                   command: |
                       cd demos/react-demo
-                      yarn install  
-
-                      # Install the packed version of @brightlayer-ui/icons-mui
-                       cd ../../mui
-                       cp -a /dist/. demos/showcase/node_modules/@brightlayer-ui/icons-mui
+                      yarn install
             - run:
                   name: Prettier Check
                   command: |
