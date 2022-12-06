@@ -15,8 +15,8 @@
     },
     "scripts": {
         "clear:dist": "rimraf dist && mkdir dist",
-        "generate:core": "svgr --typescript --out-dir ./tsx --template svgr-template.js  -- ../svg",
-        "generate:logos": "svgr --typescript --out-dir ./tsx --no-index --template svgr-eaton-template.js -- ../svg/eaton*.svg",
+        "generate:core": "svgr --typescript --out-dir ./tsx --index-template index-template.js --template svgr-template.js  -- ../svg",
+        "generate:logos": "svgr --typescript --out-dir ./tsx --no-index --template svgr-eaton-template.js -- ../svg/eaton*.svg && bash ./scripts/moveFiles.sh",
         "copy:meta": "cp ../svg/index.json ./dist/index.json && cp ../svg/index.json ./index.json && cp package.json dist/package.json && cp README.md dist/README.md && cp LICENSE dist/LICENSE && cp CHANGELOG.md dist/CHANGELOG.md",
         "compile": "tsc -p ./tsconfig.lib.json",
         "build": "yarn clear:dist && yarn generate:core && yarn generate:logos && yarn compile && yarn copy:meta",

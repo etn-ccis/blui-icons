@@ -1,6 +1,6 @@
 import React from 'react';
 import { createSvgIcon } from '@mui/material/utils';
-const SvgEvPlugIec62196T3A = createSvgIcon(
+const SvgEvPlugIec62196T3a = createSvgIcon(
     React.createElement(
         React.Fragment,
         {},
@@ -10,6 +10,6 @@ const SvgEvPlugIec62196T3A = createSvgIcon(
         />,
         <path fill="none" d="M0 0h24v24H0z" />
     ),
-    'SvgEvPlugIec62196T3A'
+    'SvgEvPlugIec62196T3a'
 );
-export default SvgEvPlugIec62196T3A;
+export default SvgEvPlugIec62196T3a;

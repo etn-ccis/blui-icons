@@ -13,8 +13,8 @@
         "clear:fonts": "rimraf BrightlayerUIIcons.* && exit 0",
         "generate:fonts": "fantasticon ../svg -o ./ -n BrightlayerUIIcons -p blui -t ttf -t woff -t woff2 -t eot -t svg --normalize --font-height 300",
         "build": "yarn clear:fonts && yarn generate:fonts",
-        "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
-        "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check"
+        "prettier": "prettier \"**/**.{md}\" --write",
+        "prettier:check": "prettier \"**/**.{md}\" --check"
     },
     "bugs": {
         "url": "https://github.com/brightlayer-ui/icons/issues"
