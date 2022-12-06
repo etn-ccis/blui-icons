@@ -12,7 +12,8 @@
         "build": "yarn workspaces foreach -v --topological-dev run build",
         "start": "yarn workspaces foreach run start",
         "prettier": "yarn workspaces foreach -p run prettier",
-        "prettier:check": "yarn workspaces foreach -p run prettier:check"
+        "prettier:check": "yarn workspaces foreach -p run prettier:check",
+        "test": "yarn workspaces foreach -p run test"
     },
     "homepage": "https://github.com/brightlayer-ui/icons#readme",
     "repository": {

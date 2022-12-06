@@ -12,33 +12,20 @@ jobs:
                       - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - run:
                   name: Install Dependencies
-                  command: |
-                      yarn install
-                      cd packages/rn-vector && yarn install && cd ..
-                      cd mui && yarn install
+                  command: yarn install
             - save_cache:
                   paths:
                       - node_modules
                   key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - run:
                   name: Prettier Check
-                  command: |
-                      yarn prettier:check
+                  command: yarn prettier:check
             - run:
-                  name: Build Font and SVG Icons
-                  command: cd packages/icon-font && yarn build
+                  name: Build Font, SVG Icons, RN Vector Icons and MUI
+                  command: yarn build
             - run:
-                  name: Build RN Vector Icons
-                  command: cd packages/rn-vector && yarn build
-            - run:
-                  name: Build MUI
-                  command: cd packages/mui && yarn build
-            - run:
-                  name: Verify SVG Build Artifacts
-                  command: cd packages/svg && yarn test
-            - run:
-                  name: Verify MUI Artifacts
-                  command: cd packages/mui && yarn test
+                  name: Verify SVG Build and MUI Artifacts
+                  command: yarn test
             - persist_to_workspace:
                   root: .
                   paths:
@@ -60,8 +47,8 @@ jobs:
                       yarn install  
 
                       # Install the packed version of @brightlayer-ui/icons-mui
-                       PACKAGED_VERSION=`node -p "require('../../packages/mui/dist/package.json').version"`
-                       yarn add ../../packages/mui/dist/brightlayer-ui/icons-mui-$PACKAGED_VERSION.tgz
+                       cd ../../mui
+                       cp -a /dist/. demos/showcase/node_modules/@brightlayer-ui/icons-mui
             - run:
                   name: Prettier Check
                   command: |
