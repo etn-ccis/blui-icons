@@ -14,7 +14,7 @@
         "prettier": "yarn workspaces foreach -p run prettier",
         "prettier:check": "yarn workspaces foreach -p run prettier:check",
         "lint": "yarn workspaces foreach -p run lint",
-        "test": "yarn workspaces foreach -p run test"
+        "test": "yarn workspaces foreach -v run test"
     },
     "homepage": "https://github.com/brightlayer-ui/icons#readme",
     "repository": {
