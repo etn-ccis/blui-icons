@@ -12,7 +12,7 @@ jobs:
                       - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - run:
                   name: Install Dependencies
-                  command: yarn install --immutable
+                  command: yarn install
             - save_cache:
                   paths:
                       - node_modules
@@ -24,9 +24,6 @@ jobs:
                   name: Lint
                   command: yarn lint
             - run:
-                  name: Verify SVG Build and MUI Artifacts
-                  command: yarn test
-            - run:
                   name: Build Font, SVG Icons, RN Vector Icons and MUI
                   command: yarn build
             - run:
@@ -34,6 +31,9 @@ jobs:
                   command: |
                       cd demos/react-demo
                       yarn build-app
+             - run:
+                  name: Verify SVG Build and MUI Artifacts
+                  command: yarn test          
             - persist_to_workspace:
                   root: .
                   paths:
