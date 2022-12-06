@@ -21,6 +21,10 @@ jobs:
                       - node_modules
                   key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - run:
+                  name: Prettier Check
+                  command: |
+                      yarn prettier:check
+            - run:
                   name: Build Font and SVG Icons
                   command: cd packages/icon-font && yarn build
             - run:
@@ -42,6 +46,37 @@ jobs:
                       - packages/svg
                       - packages/rn-vector
                       - packages/mui/dist
+    build_reactdemo:
+        docker:
+            - image: cimg/node:14.19.0-browsers
+        steps:
+            - checkout
+            - attach_workspace:
+                  at: .
+            - run:
+                  name: Install Dependencies
+                  command: |
+                      cd demos/react-demo
+                      yarn install  
+
+                      # Install the packed version of @brightlayer-ui/icons-mui
+                       PACKAGED_VERSION=`node -p "require('../../packages/mui/dist/package.json').version"`
+                       yarn add ../../packages/mui/dist/brightlayer-ui/icons-mui-$PACKAGED_VERSION.tgz
+            - run:
+                  name: Prettier Check
+                  command: |
+                      cd demos/react-demo
+                      yarn prettier:check
+            - run:
+                  name: Lint
+                  command: |
+                      cd demos/react-demo
+                      yarn lint
+            - run:
+                  name: Build React Demo
+                  command: |
+                      cd demos/react-demo
+                      yarn build
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
@@ -91,6 +126,7 @@ workflows:
     icons:
         jobs:
             - build
+            - build_reactdemo
             - publish:
                   requires:
                       - build
