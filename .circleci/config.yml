@@ -24,6 +24,9 @@ jobs:
                   name: Lint
                   command: yarn lint
             - run:
+                  name: Verify SVG Build and MUI Artifacts
+                  command: yarn test
+            - run:
                   name: Build Font, SVG Icons, RN Vector Icons and MUI
                   command: yarn build
             - run:
@@ -31,9 +34,6 @@ jobs:
                   command: |
                       cd demos/react-demo
                       yarn build-app
-            - run:
-                  name: Verify SVG Build and MUI Artifacts
-                  command: yarn test
             - persist_to_workspace:
                   root: .
                   paths:
@@ -41,7 +41,6 @@ jobs:
                       - packages/svg
                       - packages/rn-vector
                       - packages/mui/dist
-                      - demos/react-demo
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
