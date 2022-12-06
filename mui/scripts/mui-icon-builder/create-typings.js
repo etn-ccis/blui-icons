@@ -8,7 +8,9 @@ const SRC_DIR = path.resolve(__dirname, '../../dist');
 const TARGET_DIR = path.resolve(__dirname, '../../dist');
 
 function normalizeFileName(file) {
-    return path.parse(file).name;
+    if (path.parse(file).name === 'EvPlugIec62196T3A') return 'EvPlugIec62196T3a';
+    else if (path.parse(file).name === 'EvPlugIec62196T3C') return 'EvPlugIec62196T3c';
+    else return path.parse(file).name;
 }
 
 function createIconTyping(file) {
