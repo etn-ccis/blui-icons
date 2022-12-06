@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.3.0 (Unreleased)
+
+### Changed
+
+-   Updated the circle ci config after yarn workspaces refactoring.
+
 ## v4.0.0 (November 30, 2022)
 
 ### Changed
