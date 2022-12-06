@@ -59,7 +59,7 @@ jobs:
                   name: Build React Demo
                   command: |
                       cd demos/react-demo
-                      yarn build
+                      yarn build-app
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
