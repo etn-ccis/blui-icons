@@ -27,6 +27,11 @@ jobs:
                   name: Build Font, SVG Icons, RN Vector Icons and MUI
                   command: yarn build
             - run:
+                  name: Build React Demo
+                  command: |
+                      cd demos/react-demo
+                      yarn build-app
+            - run:
                   name: Verify SVG Build and MUI Artifacts
                   command: yarn test
             - persist_to_workspace:
@@ -37,18 +42,6 @@ jobs:
                       - packages/rn-vector
                       - packages/mui/dist
                       - demos/react-demo
-    build_reactdemo:
-        docker:
-            - image: cimg/node:14.19.0-browsers
-        steps:
-            - checkout
-            - attach_workspace:
-                  at: .
-            - run:
-                  name: Build React Demo
-                  command: |
-                      cd demos/react-demo
-                      yarn build-app
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
