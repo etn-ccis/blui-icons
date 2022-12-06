@@ -20,6 +20,7 @@
         "!ios/build"
     ],
     "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 0",
         "build": "yarn && bash ./scripts/buildIcons.sh",
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
