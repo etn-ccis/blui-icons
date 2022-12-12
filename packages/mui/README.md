@@ -58,12 +58,12 @@ See the [Iconography](https://brightlayer-ui.github.io/style/iconography) on bri
 To build the icons-mui package (e.g., after new icons are added to Brightlayer UI):
 
 ```
-git clone https://github.com/brightlayer-ui/icons-mui
-cd icons-mui
-yarn build:full
+git clone https://github.com/brightlayer-ui/icons
+cd packages/mui
+yarn build
 ```
 
-This will populate the /icons directory with all of the icon components as well as copy over necessary files for publishing (Readme, package.json, etc.).
+This will populate the /dist folder with all of the icon components as well as copy over necessary files for publishing (Readme, package.json, etc.).
 
 > When building the icons-mui package, it imports the latest icons from the @brightlayer-ui/icons-svg package, so when new icons are added, @brightlayer-ui/icons-svg must be published to NPM before this package can be updated.
 
@@ -72,13 +72,12 @@ This will populate the /icons directory with all of the icon components as well 
 To publish the package:
 
 ```
-yarn build:full
-cd icons
+yarn build
 npm version < patch | minor | major >
-npm publish
+npm publish:package
 ```
 
-> **NOTE:** This package must be published from the /icons directory, not the root directory.
+> **NOTE:** This package must be published from the /dist folder, not the root directory.
 
 ## Browser Support
 
