@@ -1647,7 +1647,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@1.11.0, @brightlayer-ui/icons@^1.11.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@npm:1.11.0, @brightlayer-ui/icons@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "@brightlayer-ui/icons@npm:1.11.0"
+  checksum: 889c40ef4bd1a0a4edaaa8a71a25557207b730633abba731970745859c7c9095b0d72993b533f0a1db2888dfba8b09e7f0a9b5a9f805bf8352e9bb4df544b18f
+  languageName: node
+  linkType: hard
+
+"@brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
