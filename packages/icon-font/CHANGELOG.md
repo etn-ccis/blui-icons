@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.0 (Unreleased)
+
+### Changed
+
+-   Changed import path of icon font from `icons/iconfont` to `icons`.
+
 ## v1.11.0 (Aug 10, 2022)
 
 ### Added

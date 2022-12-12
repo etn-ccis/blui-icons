@@ -25,7 +25,7 @@ In order to use the icon font, you will need to modify your angular.json file "s
 ```
 "styles": [
     "src/styles.scss",
-    "./node_modules/@brightlayer-ui/icons/iconfont/BrightlayerUIIcons.css"
+    "./node_modules/@brightlayer-ui/icons/BrightlayerUIIcons.css"
 ],
 ```
 
@@ -34,7 +34,7 @@ In order to use the icon font, you will need to modify your angular.json file "s
 For React, you'll need to require the font in your top-level JS file (typically index.js).
 
 ```
-require('@brightlayer-ui/icons/iconfont/BrightlayerUIIcons.css');
+require('@brightlayer-ui/icons/BrightlayerUIIcons.css');
 ```
 
 ## Using the icon font in your application

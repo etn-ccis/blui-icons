@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons",
-    "version": "1.11.0",
+    "version": "2.0.0",
     "description": "Brightlayer UI Icons",
     "main": "./BrightlayerUIIcons.css",
     "repository": {
@@ -14,7 +14,9 @@
         "generate:fonts": "fantasticon ../svg -o ./ -n BrightlayerUIIcons -p blui -t ttf -t woff -t woff2 -t eot -t svg --normalize --font-height 300",
         "build": "yarn clear:fonts && yarn generate:fonts",
         "prettier": "prettier \".md\" --write",
-        "prettier:check": "prettier \"*.md\" --check"
+        "prettier:check": "prettier \"*.md\" --check",
+        "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/icons blui-publish",
+        "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag"
     },
     "bugs": {
         "url": "https://github.com/brightlayer-ui/icons/issues"
