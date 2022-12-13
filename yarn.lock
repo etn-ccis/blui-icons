@@ -1647,14 +1647,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@npm:1.11.0, @brightlayer-ui/icons@npm:^1.11.0":
-  version: 1.11.0
-  resolution: "@brightlayer-ui/icons@npm:1.11.0"
-  checksum: 889c40ef4bd1a0a4edaaa8a71a25557207b730633abba731970745859c7c9095b0d72993b533f0a1db2888dfba8b09e7f0a9b5a9f805bf8352e9bb4df544b18f
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -1663,6 +1656,13 @@ __metadata:
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
+
+"@brightlayer-ui/icons@npm:^1.11.0":
+  version: 1.11.0
+  resolution: "@brightlayer-ui/icons@npm:1.11.0"
+  checksum: 889c40ef4bd1a0a4edaaa8a71a25557207b730633abba731970745859c7c9095b0d72993b533f0a1db2888dfba8b09e7f0a9b5a9f805bf8352e9bb4df544b18f
+  languageName: node
+  linkType: hard
 
 "@brightlayer-ui/prettier-config@npm:^1.0.3":
   version: 1.0.3
@@ -14081,7 +14081,7 @@ __metadata:
   dependencies:
     "@brightlayer-ui/colors": ^3.1.1
     "@brightlayer-ui/eslint-config": ^3.0.1
-    "@brightlayer-ui/icons": 1.11.0
+    "@brightlayer-ui/icons": 2.0.0
     "@brightlayer-ui/icons-mui": 4.0.0-alpha.0
     "@brightlayer-ui/icons-svg": ^1.11.0
     "@brightlayer-ui/prettier-config": ^1.0.3
