@@ -4,7 +4,11 @@
 
 ### Changed
 
--   Changed import path of icon font from `icons/iconfont` to `icons`.
+-   Changed import path of icon font files to `icons`.
+
+```sh
+import '@brightlayer-ui/icons/BrightlayerUIIcons.css'
+```
 
 ## v1.11.0 (Aug 10, 2022)
 

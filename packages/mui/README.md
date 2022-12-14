@@ -73,8 +73,9 @@ To publish the package:
 
 ```
 yarn build
+cd dist
 npm version < patch | minor | major >
-npm publish:package
+npm publish
 ```
 
 > **NOTE:** This package must be published from the /dist folder, not the root directory.
