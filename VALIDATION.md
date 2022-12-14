@@ -12,7 +12,7 @@
 
 #### React Native Vector Icons
 
-1. Validate a beta package integrates into the react demo.
+1. Validate a beta package integrates into the new react native project generated from the CLI.
 
 #### Icons SVG
 

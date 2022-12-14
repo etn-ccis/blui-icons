@@ -55,7 +55,7 @@ jobs:
                       echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
             - run:
                   name: Publish @brightlayer-ui/icons
-                  command: cd packages/icon-font yarn publish:package -b $CIRCLE_BRANCH
+                  command: cd packages/icon-font && yarn publish:package -b $CIRCLE_BRANCH
             - run:
                   name: Publish @brightlayer-ui/icons-svg
                   command: cd packages/svg && yarn publish:package -b $CIRCLE_BRANCH
