@@ -36,6 +36,12 @@ cd icons
 yarn install
 ```
 
+To build the libraries:
+
+```sh
+yarn build
+```
+
 There is a demo project in the repository which shows the various icon formats being used in a project. To start the demo, run:
 
 ```sh

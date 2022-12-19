@@ -18,8 +18,8 @@ echo -e "${BLUE}Done${NC}"
 # echo -e "${BLUE}Done${NC}"
 
 echo -ne "Copying latest icon font and glyph map...${NC}"
-cp ../iconfont/BrightlayerUIIcons.json ./GlyphMaps
-cp ../iconfont/BrightlayerUIIcons.ttf ./Fonts
+cp ../icon-font/BrightlayerUIIcons.json ./GlyphMaps
+cp ../icon-font/BrightlayerUIIcons.ttf ./Fonts
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Compiling typescript...${NC}"

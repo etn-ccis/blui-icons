@@ -1,3 +1,13 @@
+# React Demo
+
+This application is a demo application for React that is used to demonstrate and test various Brightlayer UI icons and svgs.
+
+This applications contains pages for:
+
+-   MUI Icons
+-   SVG Icons
+-   Font Icons
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
