@@ -16,7 +16,7 @@
         "prettier": "prettier \".md\" --write",
         "prettier:check": "prettier \"*.md\" --check",
         "publish:package": "set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
-        "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s blui-icons-svg"
+        "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s blui-icons"
     },
     "bugs": {
         "url": "https://github.com/brightlayer-ui/icons/issues"
