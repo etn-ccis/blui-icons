@@ -6,8 +6,18 @@
 
 -   Changed import path of icon font files to `icons`.
 
-```sh
-import '@brightlayer-ui/icons/BrightlayerUIIcons.css'
+#### React
+
+```diff
+- import '@brightlayer-ui/icons/iconfont/BrightlayerUIIcons.css'
++ import '@brightlayer-ui/icons/BrightlayerUIIcons.css'
+```
+
+#### Angular
+
+```diff
+- "styles": ["src/styles.scss", "./node_modules/@brightlayer-ui/icons/iconfont/BrightlayerUIIcons.css"]
++ "styles": ["src/styles.scss", "./node_modules/@brightlayer-ui/icons/BrightlayerUIIcons.css"]
 ```
 
 ## v1.11.0 (Aug 10, 2022)
