@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "types": ["node"],
+        "declaration": true
+    },
+    "exclude": ["**/*.test.tsx"]
+}

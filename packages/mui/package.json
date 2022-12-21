@@ -1,0 +1,47 @@
+{
+    "name": "@brightlayer-ui/icons-mui",
+    "version": "3.3.0",
+    "description": "Brightlayer UI icons for MUI",
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brightlayer-ui/icons.git"
+    },
+    "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
+    "license": "BSD-3-Clause",
+    "peerDependencies": {
+        "@mui/icons-material": "^5.0.0",
+        "@mui/material": "^5.0.0"
+    },
+    "scripts": {
+        "clear:dist": "rimraf dist && mkdir dist",
+        "generate:core": "svgr --typescript --out-dir ./tsx --index-template ./templates/index-template.js --template ./templates/svgr-template.js  -- ../svg  && bash ./scripts/renameFiles.sh",
+        "generate:logos": "svgr --typescript --out-dir ./tsx --no-index --template ./templates/svgr-eaton-template.js -- ../svg/eaton*.svg",
+        "copy:meta": "cp ../svg/index.json ./dist/index.json && cp ../svg/index.json ./index.json && cp package.json dist/package.json && cp README.md dist/README.md && cp LICENSE dist/LICENSE && cp CHANGELOG.md dist/CHANGELOG.md",
+        "compile": "tsc -p ./tsconfig.lib.json",
+        "build": "yarn clear:dist && rimraf tsx/* && yarn generate:core && yarn generate:logos && yarn compile && yarn copy:meta",
+        "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
+        "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
+        "publish:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag",
+        "test": "./scripts/buildTest.sh"
+    },
+    "bugs": {
+        "url": "https://github.com/brightlayer-ui/icons/issues"
+    },
+    "prettier": "@brightlayer-ui/prettier-config",
+    "homepage": "https://github.com/brightlayer-ui/icons/tree/master/mui#brightlayer-ui-icons-for-mui",
+    "devDependencies": {
+        "@brightlayer-ui/icons-svg": "^1.11.0",
+        "@svgr/cli": "^6.5.1",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.2.3"
+    },
+    "keywords": [
+        "icons",
+        "material",
+        "material-ui",
+        "MUI",
+        "brightlayer-ui"
+    ]
+}

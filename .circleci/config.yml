@@ -1,6 +1,6 @@
 version: 2.1
 orbs:
-  gh: circleci/github-cli@1.0.3
+    gh: circleci/github-cli@1.0.3
 jobs:
     build:
         docker:
@@ -9,40 +9,38 @@ jobs:
             - checkout
             - restore_cache:
                   keys:
-                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}-{{ checksum "rn-vector/package.json"}}
+                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - run:
                   name: Install Dependencies
-                  command: |
-                      yarn install
-                      cd rn-vector && yarn install && cd ..
-                      cd mui && yarn install
+                  command: yarn install --immutable
             - save_cache:
                   paths:
                       - node_modules
-                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "mui/package.json" }}-{{ checksum "rn-vector/package.json"}}
+                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - run:
-                  name: Build Font and SVG Icons
+                  name: Prettier Check
+                  command: yarn prettier:check
+            - run:
+                  name: Lint
+                  command: yarn lint
+            - run:
+                  name: Build Font, SVG Icons, RN Vector Icons and MUI
                   command: yarn build
             - run:
-                  name: Build RN Vector Icons
-                  command: cd rn-vector && yarn build
+                  name: Build React Demo
+                  command: |
+                      cd demos/react-demo
+                      yarn build-app
             - run:
-                  name: Build MUI
-                  command: cd mui && yarn build
-            - run:
-                  name: Verify SVG Build Artifacts
+                  name: Verify SVG Build and MUI Artifacts
                   command: yarn test
-            - run:
-                  name: Verify MUI Artifacts
-                  command: cd mui && yarn test
             - persist_to_workspace:
                   root: .
                   paths:
-                      - iconfont
-                      - svg
-                      - rn-vector
-                      - mui/dist
-
+                      - packages/iconfont
+                      - packages/svg
+                      - packages/rn-vector
+                      - packages/mui/dist
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
@@ -57,37 +55,36 @@ jobs:
                       echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
             - run:
                   name: Publish @brightlayer-ui/icons
-                  command: yarn publish:package -b $CIRCLE_BRANCH
+                  command: cd packages/icon-font && yarn publish:package -b $CIRCLE_BRANCH
             - run:
                   name: Publish @brightlayer-ui/icons-svg
-                  command: cd svg && yarn publish:package -b $CIRCLE_BRANCH
+                  command: cd packages/svg && yarn publish:package -b $CIRCLE_BRANCH
             - run:
-                name: Publish @brightlayer-ui/icons-mui
-                command: cd mui && yarn publish:package -b $CIRCLE_BRANCH
+                  name: Publish @brightlayer-ui/icons-mui
+                  command: cd packages/mui && yarn publish:package -b $CIRCLE_BRANCH
             - run:
                   name: Publish @brightlayer-ui/react-native-vector-icons
-                  command: cd rn-vector && yarn publish:package -b $CIRCLE_BRANCH
-
+                  command: cd packages/rn-vector && yarn publish:package -b $CIRCLE_BRANCH
     tag:
-      docker:
-        - image: cimg/node:14.19.0-browsers
-      steps:
-        - checkout
-        - attach_workspace:
-            at: .
-        - gh/setup
-        - run:
-            name: Tag @brightlayer-ui/icons
-            command: yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons
-        - run:
-            name: Tag @brightlayer-ui/icons-svg
-            command: cd svg && yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons-svg
-        - run:
-            name: Tag @brightlayer-ui/icons-mui
-            command: cd mui && yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons-mui
-        - run:
-            name: Tag @brightlayer-ui/react-native-vector-icons
-            command: cd rn-vector && yarn tag:package -b $CIRCLE_BRANCH -s -blui-react-native-vector-icons
+        docker:
+            - image: cimg/node:14.19.0-browsers
+        steps:
+            - checkout
+            - attach_workspace:
+                  at: .
+            - gh/setup
+            - run:
+                  name: Tag @brightlayer-ui/icons
+                  command: yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons
+            - run:
+                  name: Tag @brightlayer-ui/icons-svg
+                  command: cd packages/svg && yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons-svg
+            - run:
+                  name: Tag @brightlayer-ui/icons-mui
+                  command: cd packages/mui && yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons-mui
+            - run:
+                  name: Tag @brightlayer-ui/react-native-vector-icons
+                  command: cd packages/rn-vector && yarn tag:package -b $CIRCLE_BRANCH -s -blui-react-native-vector-icons
 workflows:
     version: 2
     icons:
@@ -102,9 +99,9 @@ workflows:
                               - master
                               - dev
             - tag:
-                requires:
-                  - publish
-                filters:
-                  branches:
-                    only:
-                      - master
+                  requires:
+                      - publish
+                  filters:
+                      branches:
+                          only:
+                              - master
