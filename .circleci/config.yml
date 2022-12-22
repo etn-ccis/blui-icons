@@ -41,6 +41,7 @@ jobs:
                       - packages/svg
                       - packages/rn-vector
                       - packages/mui/dist
+                      - .yarn
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
@@ -55,7 +56,7 @@ jobs:
                       echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
             - run:
                   name: Publish @brightlayer-ui/icons
-                  command: yarn publish:package -b $CIRCLE_BRANCH
+                  command: cd packages/icon-font && yarn publish:package -b $CIRCLE_BRANCH
             - run:
                   name: Publish @brightlayer-ui/icons-svg
                   command: cd packages/svg && yarn publish:package -b $CIRCLE_BRANCH
