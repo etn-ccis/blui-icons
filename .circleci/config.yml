@@ -66,26 +66,7 @@ jobs:
             - run:
                   name: Publish @brightlayer-ui/react-native-vector-icons
                   command: cd packages/rn-vector && yarn publish:package -b $CIRCLE_BRANCH
-    tag:
-        docker:
-            - image: cimg/node:14.19.0-browsers
-        steps:
-            - checkout
-            - attach_workspace:
-                  at: .
-            - gh/setup
-            - run:
-                  name: Tag @brightlayer-ui/icons
-                  command: yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons
-            - run:
-                  name: Tag @brightlayer-ui/icons-svg
-                  command: cd packages/svg && yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons-svg
-            - run:
-                  name: Tag @brightlayer-ui/icons-mui
-                  command: cd packages/mui && yarn tag:package -b $CIRCLE_BRANCH -s -blui-icons-mui
-            - run:
-                  name: Tag @brightlayer-ui/react-native-vector-icons
-                  command: cd packages/rn-vector && yarn tag:package -b $CIRCLE_BRANCH -s -blui-react-native-vector-icons
+  
 workflows:
     version: 2
     icons:
@@ -99,10 +80,3 @@ workflows:
                           only:
                               - master
                               - dev
-            - tag:
-                  requires:
-                      - publish
-                  filters:
-                      branches:
-                          only:
-                              - master
