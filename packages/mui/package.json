@@ -5,7 +5,7 @@
     "main": "./index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/brightlayer-ui/icons.git"
+        "url": "git+https://github.com/etn-ccis/blui-icons.git"
     },
     "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
@@ -27,10 +27,10 @@
         "test": "./scripts/buildTest.sh"
     },
     "bugs": {
-        "url": "https://github.com/brightlayer-ui/icons/issues"
+        "url": "https://github.com/etn-ccis/blui-icons/issues"
     },
     "prettier": "@brightlayer-ui/prettier-config",
-    "homepage": "https://github.com/brightlayer-ui/icons/tree/master/mui#brightlayer-ui-icons-for-mui",
+    "homepage": "https://github.com/etn-ccis/blui-icons/tree/master/mui#brightlayer-ui-icons-for-mui",
     "devDependencies": {
         "@brightlayer-ui/icons-svg": "^1.11.0",
         "@svgr/cli": "^6.5.1",

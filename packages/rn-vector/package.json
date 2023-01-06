@@ -28,12 +28,12 @@
         "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag"
     },
     "bugs": {
-        "url": "https://github.com/brightlayer-ui/icons/issues"
+        "url": "https://github.com/etn-ccis/blui-icons/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/brightlayer-ui/icons.git",
-        "baseUrl": "https://github.com/brightlayer-ui/icons/tree/master/react-native-vector-icons"
+        "url": "git+https://github.com/etn-ccis/blui-icons.git",
+        "baseUrl": "https://github.com/etn-ccis/blui-icons/tree/master/react-native-vector-icons"
     },
     "keywords": [
         "react-native",

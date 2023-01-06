@@ -29,7 +29,7 @@
 
 ### Fixed
 
--   Icon Font clipping issue for cybersecurity two-tone icon [#174](https://github.com/brightlayer-ui/icons/issues/174)
+-   Icon Font clipping issue for cybersecurity two-tone icon [#174](https://github.com/etn-ccis/blui-icons/issues/174)
 
 ## v1.4.0 (December 9, 2021)
 
@@ -39,7 +39,7 @@
 
 ### Changed
 
--   Icon clipping that results in undesired outcomes ([#171](https://github.com/brightlayer-ui/icons/pull/171)).
+-   Icon clipping that results in undesired outcomes ([#171](https://github.com/etn-ccis/blui-icons/pull/171)).
 
 ## v1.3.1 (November 3, 2021)
 
