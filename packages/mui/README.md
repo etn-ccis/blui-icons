@@ -1,9 +1,9 @@
-[![](https://img.shields.io/circleci/project/github/brightlayer-ui/icons/mui/master.svg?style=flat)](https://circleci.com/gh/brightlayer-ui/icons/tree/master)
+[![](https://img.shields.io/circleci/project/github/etn-ccis/blui-icons/mui/master.svg?style=flat)](https://circleci.com/gh/etn-ccis/blui-icons/tree/master)
 ![npm](https://img.shields.io/npm/v/@brightlayer-ui/icons-mui?label=%40brightlayer-ui/icons-mui)
 
 # Brightlayer UI Icons for MUI
 
-This library contains componentized svg icons from [@brightlayer-ui/icons](https://github.com/brightlayer-ui/icons) for use in React applications using MUI. The icons are made available in the same way that MUI exposes the [Material Icons](https://mui.com/components/icons/).
+This library contains componentized svg icons from [@brightlayer-ui/icons](https://github.com/etn-ccis/blui-icons) for use in React applications using MUI. The icons are made available in the same way that MUI exposes the [Material Icons](https://mui.com/components/icons/).
 
 ## Installation
 
@@ -21,7 +21,7 @@ yarn add @brightlayer-ui/icons-mui
 
 ### Angular
 
-This package is intended for use only in React applications. For a way to link svg icons for use in Angular applications, see [@brightlayer-ui/icons](https://github.com/brightlayer-ui/icons).
+This package is intended for use only in React applications. For a way to link svg icons for use in Angular applications, see [@brightlayer-ui/icons](https://github.com/etn-ccis/blui-icons).
 
 ### React
 
@@ -58,7 +58,7 @@ See the [Iconography](https://brightlayer-ui.github.io/style/iconography) on bri
 To build the icons-mui package (e.g., after new icons are added to Brightlayer UI):
 
 ```
-git clone https://github.com/brightlayer-ui/icons
+git clone https://github.com/etn-ccis/blui-icons
 cd packages/mui
 yarn build
 ```

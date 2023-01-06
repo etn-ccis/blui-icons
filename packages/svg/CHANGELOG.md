@@ -22,7 +22,7 @@
 
 ### Fixed
 
--   Icon Font clipping issue for cybersecurity two-tone icon [#174](https://github.com/brightlayer-ui/icons/issues/174)
+-   Icon Font clipping issue for cybersecurity two-tone icon [#174](https://github.com/etn-ccis/blui-icons/issues/174)
 
 ## v1.8.0 (December 9, 2021)
 
@@ -33,7 +33,7 @@
 
 ### Fixed
 
--   Icon clipping that results in undesired outcomes for icon fonts ([#171](https://github.com/brightlayer-ui/icons/pull/171)).
+-   Icon clipping that results in undesired outcomes for icon fonts ([#171](https://github.com/etn-ccis/blui-icons/pull/171)).
 
 ## v1.7.1 (November 3, 2021)
 
@@ -79,7 +79,7 @@ Previous versions listed after this indicator refer to our deprecated `@pxblue` 
 
 ### Changed
 
--   Switched from deprecated icon-font-generator package to fantasticon ([#138](https://github.com/brightlayer-ui/icons/issues/138))
+-   Switched from deprecated icon-font-generator package to fantasticon ([#138](https://github.com/etn-ccis/blui-icons/issues/138))
 
 ### Fixed
 

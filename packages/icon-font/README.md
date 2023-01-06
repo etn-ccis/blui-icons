@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/npm/v/@brightlayer-ui/icons.svg?label=@brightlayer-ui/icons&style=flat)](https://www.npmjs.com/package/@brightlayer-ui/icons)
 [![](https://img.shields.io/npm/v/@brightlayer-ui/icons-svg.svg?label=@brightlayer-ui/icons-svg&style=flat)](https://www.npmjs.com/package/@brightlayer-ui/icons-svg)
-[![](https://img.shields.io/circleci/project/github/brightlayer-ui/icons/master.svg?style=flat)](https://circleci.com/gh/brightlayer-ui/icons/tree/master)
+[![](https://img.shields.io/circleci/project/github/etn-ccis/blui-icons/master.svg?style=flat)](https://circleci.com/gh/etn-ccis/blui-icons/tree/master)
 
 This is a library of supplemental icons, to be used in conjunction with the standard Material Design icons in Brightlayer UI applications.
 
@@ -72,8 +72,8 @@ We also have Brightlayer UI one-line symbols (ported from Brightlayer UI 1.0) av
 
 Our library of dynamic progress icons has been split off into a dedicated repository:
 
--   [Progress Icons](https://github.com/brightlayer-ui/progress-icons/tree/master)
+-   [Progress Icons](https://github.com/etn-ccis/blui-progress-icons/tree/master)
 
 # For Icon Creators
 
-Please read the instructions in the [Design](https://github.com/brightlayer-ui/icons/blob/master/design/README.md) folder before creating or submitting new icons.
+Please read the instructions in the [Design](https://github.com/etn-ccis/blui-icons/blob/master/design/README.md) folder before creating or submitting new icons.

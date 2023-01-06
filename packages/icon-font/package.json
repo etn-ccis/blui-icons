@@ -5,7 +5,7 @@
     "main": "./BrightlayerUIIcons.css",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/brightlayer-ui/icons.git"
+        "url": "git+https://github.com/etn-ccis/blui-icons.git"
     },
     "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
@@ -19,9 +19,9 @@
         "tag:package": "set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s blui-icons"
     },
     "bugs": {
-        "url": "https://github.com/brightlayer-ui/icons/issues"
+        "url": "https://github.com/etn-ccis/blui-icons/issues"
     },
-    "homepage": "https://github.com/brightlayer-ui/icons#readme",
+    "homepage": "https://github.com/etn-ccis/blui-icons#readme",
     "devDependencies": {
         "@brightlayer-ui/icons-svg": "^1.11.0",
         "fantasticon": "^1.2.2",

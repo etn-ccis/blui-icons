@@ -4,7 +4,7 @@
 
 ### Changed
 
--   Removed dependency on @mui/styles. [#232](https://github.com/brightlayer-ui/icons/issues/232)
+-   Removed dependency on @mui/styles. [#232](https://github.com/etn-ccis/blui-icons/issues/232)
 
 ## v3.2.0 (Aug 10, 2022)
 
@@ -26,13 +26,13 @@
 
 ### Changed
 
--   Updated to MUI v5 for creating MUI Icons. [#187](https://github.com/brightlayer-ui/icons/issues/187)
+-   Updated to MUI v5 for creating MUI Icons. [#187](https://github.com/etn-ccis/blui-icons/issues/187)
 
 ## v2.8.1 (December 17, 2021)
 
 ### Fixed
 
--   Icon Font clipping issue for cybersecurity two-tone icon [#174](https://github.com/brightlayer-ui/icons/issues/174)
+-   Icon Font clipping issue for cybersecurity two-tone icon [#174](https://github.com/etn-ccis/blui-icons/issues/174)
 
 ## v2.8.0 (December 9, 2021)
 
