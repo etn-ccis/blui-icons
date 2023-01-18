@@ -42,6 +42,7 @@ jobs:
                       - packages/rn-vector
                       - packages/mui/dist
                       - .yarn
+                      - yarnrc.yml
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
