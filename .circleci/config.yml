@@ -22,9 +22,6 @@ jobs:
                       - packages/svg/node_modules
                   key: v3-dependencies-{{ checksum "yarn.lock" }}
             - run:
-                  name: Test ENV command via yarn
-                  command: yarn --cwd packages/icon-font set:env
-            - run:
                   name: Prettier Check
                   command: yarn prettier:check
             - run:
@@ -44,13 +41,13 @@ jobs:
             - persist_to_workspace:
                   root: .
                   paths:
-                  #     - node_modules
+                      - node_modules
                       - packages/iconfont
                       - packages/svg
                       - packages/rn-vector
                       - packages/mui
-                  #     - .yarn
-                  #     - yarnrc.yml
+                      - .yarn
+                      - yarnrc.yml
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
@@ -63,21 +60,21 @@ jobs:
                   command: |
                       echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
                       echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+            # - run:
+            #       name: Publish All Packages
+            #       command: yarn publish:packages
             - run:
-                  name: Publish Packages
-                  command: yarn publish:packages
-            # - run:
-            #       name: Publish @brightlayer-ui/icons
-            #       command: cd packages/icon-font && yarn publish:package -b $CIRCLE_BRANCH
-            # - run:
-            #       name: Publish @brightlayer-ui/icons-svg
-            #       command: cd packages/svg && yarn publish:package -b $CIRCLE_BRANCH
-            # - run:
-            #       name: Publish @brightlayer-ui/icons-mui
-            #       command: cd packages/mui && yarn publish:package -b $CIRCLE_BRANCH
-            # - run:
-            #       name: Publish @brightlayer-ui/react-native-vector-icons
-            #       command: cd packages/rn-vector && yarn publish:package -b $CIRCLE_BRANCH
+                  name: Publish @brightlayer-ui/icons
+                  command: yarn --cwd packages/icon-font publish:package -b $CIRCLE_BRANCH
+            - run:
+                  name: Publish @brightlayer-ui/icons-svg
+                  command: yarn --cwd packages/svg publish:package -b $CIRCLE_BRANCH
+            - run:
+                  name: Publish @brightlayer-ui/icons-mui
+                  command: yarn --cwd packages/mui publish:package -b $CIRCLE_BRANCH
+            - run:
+                  name: Publish @brightlayer-ui/react-native-vector-icons
+                  command: yarn --cwd packages/rn-vector publish:package -b $CIRCLE_BRANCH
   
 workflows:
     version: 2
