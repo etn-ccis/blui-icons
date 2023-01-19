@@ -37,6 +37,7 @@ jobs:
             - persist_to_workspace:
                   root: .
                   paths:
+                      - node_modules
                       - packages/iconfont
                       - packages/svg
                       - packages/rn-vector
