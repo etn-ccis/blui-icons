@@ -49,6 +49,16 @@ jobs:
             - image: cimg/node:14.19.0-browsers
         steps:
             - checkout
+            - restore_cache:
+                  keys:
+                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
+            - run:
+                  name: Install Dependencies
+                  command: yarn install --immutable
+            - save_cache:
+                  paths:
+                      - node_modules
+                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - attach_workspace:
                   at: .
             - run:
