@@ -16,7 +16,8 @@
         "prettier": "prettier \".md\" --write",
         "prettier:check": "prettier \"*.md\" --check",
         "publish:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
-        "tag:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s blui-icons"
+        "tag:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s blui-icons",
+        "set:env": "cross-env npm_config_yes=true"
     },
     "bugs": {
         "url": "https://github.com/etn-ccis/blui-icons/issues"

@@ -34,6 +34,9 @@ jobs:
             - run:
                   name: Verify SVG Build and MUI Artifacts
                   command: yarn test
+            - run:
+                  name: Test ENV command
+                  command: cd packages/icon-font && yarn set:env
             - persist_to_workspace:
                   root: .
                   paths:
