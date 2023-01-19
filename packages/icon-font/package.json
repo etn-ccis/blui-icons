@@ -25,6 +25,7 @@
     "homepage": "https://github.com/etn-ccis/blui-icons#readme",
     "devDependencies": {
         "@brightlayer-ui/icons-svg": "^1.11.0",
+        "cross-env": "^7.0.3",
         "fantasticon": "^1.2.2",
         "rimraf": "^3.0.2"
     },

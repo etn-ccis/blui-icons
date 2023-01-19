@@ -36,7 +36,6 @@
     },
     "devDependencies": {
         "@brightlayer-ui/prettier-config": "^1.0.3",
-        "cross-env": "^7.0.3",
         "prettier": "^2.2.1"
     },
     "packageManager": "yarn@3.3.0"

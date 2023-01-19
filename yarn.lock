@@ -1654,6 +1654,7 @@ __metadata:
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
     "@brightlayer-ui/icons-svg": ^1.11.0
+    cross-env: ^7.0.3
     fantasticon: ^1.2.2
     rimraf: ^3.0.2
   languageName: unknown
@@ -14963,7 +14964,6 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@brightlayer-ui/prettier-config": ^1.0.3
-    cross-env: ^7.0.3
     prettier: ^2.2.1
   languageName: unknown
   linkType: soft
