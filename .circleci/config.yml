@@ -37,11 +37,13 @@ jobs:
             - persist_to_workspace:
                   root: .
                   paths:
+                      - node_modules
                       - packages/iconfont
                       - packages/svg
                       - packages/rn-vector
                       - packages/mui/dist
                       - .yarn
+                      - yarnrc.yml
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
