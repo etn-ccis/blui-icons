@@ -22,8 +22,8 @@
         "build": "yarn clear:dist && rimraf tsx/* && yarn generate:core && yarn generate:logos && yarn compile && yarn copy:meta",
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
-        "publish:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
-        "tag:package": "cd dist && set npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag",
+        "publish:package": "cd dist && cross-env npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "cd dist && cross-env npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag",
         "test": "./scripts/buildTest.sh"
     },
     "bugs": {
@@ -34,6 +34,7 @@
     "devDependencies": {
         "@brightlayer-ui/icons-svg": "^1.11.0",
         "@svgr/cli": "^6.5.1",
+        "cross-env": "^7.0.3",
         "rimraf": "^3.0.2",
         "typescript": "^4.2.3"
     },
