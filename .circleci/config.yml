@@ -18,6 +18,9 @@ jobs:
                       - node_modules
                   key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - run:
+                  name: Test ENV command
+                  command: cd packages/icon-font && yarn set:env && cd ../..
+            - run:
                   name: Prettier Check
                   command: yarn prettier:check
             - run:
@@ -34,9 +37,6 @@ jobs:
             - run:
                   name: Verify SVG Build and MUI Artifacts
                   command: yarn test
-            - run:
-                  name: Test ENV command
-                  command: cd packages/icon-font && yarn set:env
             - persist_to_workspace:
                   root: .
                   paths:
