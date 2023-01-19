@@ -26,7 +26,7 @@ jobs:
                   command: cd packages/icon-font && npm run set:env && cd ../..
             - run:
                   name: Test ENV command via yarn
-                  command: cd packages/icon-font && yarn set:env && cd ../..
+                  command: yarn cwd packages/icon-font set:env
             - run:
                   name: Prettier Check
                   command: yarn prettier:check
