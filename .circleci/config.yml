@@ -9,17 +9,24 @@ jobs:
             - checkout
             - restore_cache:
                   keys:
-                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
+                      - v3-dependencies-{{ checksum "yarn.lock" }}
             - run:
                   name: Install Dependencies
                   command: yarn install --immutable
             - save_cache:
                   paths:
                       - node_modules
-                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
+                      - packages/icon-font/node_modules
+                      - packages/mui/node_modules
+                      - packages/rn-vector/node_modules
+                      - packages/svg/node_modules
+                  key: v3-dependencies-{{ checksum "yarn.lock" }}
             - run:
-                  name: Test ENV command
+                  name: Test ENV command via npm
                   command: cd packages/icon-font && npm run set:env && cd ../..
+            - run:
+                  name: Test ENV command via yarn
+                  command: cd packages/icon-font && yarn set:env && cd ../..
             - run:
                   name: Prettier Check
                   command: yarn prettier:check
@@ -40,28 +47,18 @@ jobs:
             - persist_to_workspace:
                   root: .
                   paths:
-                      - node_modules
+                  #     - node_modules
                       - packages/iconfont
                       - packages/svg
                       - packages/rn-vector
-                      - packages/mui/dist
-                      - .yarn
-                      - yarnrc.yml
+                      - packages/mui
+                  #     - .yarn
+                  #     - yarnrc.yml
     publish:
         docker:
             - image: cimg/node:14.19.0-browsers
         steps:
             - checkout
-            - restore_cache:
-                  keys:
-                      - v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
-            - run:
-                  name: Install Dependencies
-                  command: yarn install --immutable
-            - save_cache:
-                  paths:
-                      - node_modules
-                  key: v2-dependencies-{{ checksum "package.json" }}-{{ checksum "packages/mui/package.json" }}-{{ checksum "packages/rn-vector/package.json"}}
             - attach_workspace:
                   at: .
             - run:
