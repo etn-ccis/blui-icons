@@ -23,7 +23,7 @@ jobs:
                   key: v3-dependencies-{{ checksum "yarn.lock" }}
             - run:
                   name: Test ENV command via yarn
-                  command: yarn set:env
+                  command: yarn --cwd packages/icon-font set:env
             - run:
                   name: Prettier Check
                   command: yarn prettier:check
