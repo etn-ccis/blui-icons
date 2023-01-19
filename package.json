@@ -14,6 +14,8 @@
         "prettier": "yarn workspaces foreach -v run prettier",
         "prettier:check": "yarn workspaces foreach -v run prettier:check",
         "lint": "yarn workspaces foreach -v run lint",
+        "set:env": "yarn workspaces foreach -v run set:env",
+        "publish:packages": "yarn workspaces foreach -v run publish:package",
         "test": "yarn workspaces foreach -v run test"
     },
     "homepage": "https://github.com/etn-ccis/blui-icons#readme",

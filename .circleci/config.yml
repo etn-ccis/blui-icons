@@ -22,11 +22,8 @@ jobs:
                       - packages/svg/node_modules
                   key: v3-dependencies-{{ checksum "yarn.lock" }}
             - run:
-                  name: Test ENV command via npm
-                  command: cd packages/icon-font && npm run set:env && cd ../..
-            - run:
                   name: Test ENV command via yarn
-                  command: yarn --cwd packages/icon-font set:env
+                  command: yarn set:env
             - run:
                   name: Prettier Check
                   command: yarn prettier:check
@@ -67,17 +64,20 @@ jobs:
                       echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
                       echo "//registry.yarnpkg.com/:_authToken=$NPM_TOKEN" >> ~/.npmrc
             - run:
-                  name: Publish @brightlayer-ui/icons
-                  command: cd packages/icon-font && yarn publish:package -b $CIRCLE_BRANCH
-            - run:
-                  name: Publish @brightlayer-ui/icons-svg
-                  command: cd packages/svg && yarn publish:package -b $CIRCLE_BRANCH
-            - run:
-                  name: Publish @brightlayer-ui/icons-mui
-                  command: cd packages/mui && yarn publish:package -b $CIRCLE_BRANCH
-            - run:
-                  name: Publish @brightlayer-ui/react-native-vector-icons
-                  command: cd packages/rn-vector && yarn publish:package -b $CIRCLE_BRANCH
+                  name: Publish Packages
+                  command: yarn publish:packages
+            # - run:
+            #       name: Publish @brightlayer-ui/icons
+            #       command: cd packages/icon-font && yarn publish:package -b $CIRCLE_BRANCH
+            # - run:
+            #       name: Publish @brightlayer-ui/icons-svg
+            #       command: cd packages/svg && yarn publish:package -b $CIRCLE_BRANCH
+            # - run:
+            #       name: Publish @brightlayer-ui/icons-mui
+            #       command: cd packages/mui && yarn publish:package -b $CIRCLE_BRANCH
+            # - run:
+            #       name: Publish @brightlayer-ui/react-native-vector-icons
+            #       command: cd packages/rn-vector && yarn publish:package -b $CIRCLE_BRANCH
   
 workflows:
     version: 2
