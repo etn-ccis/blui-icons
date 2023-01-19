@@ -14963,6 +14963,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@brightlayer-ui/prettier-config": ^1.0.3
+    cross-env: ^7.0.3
     prettier: ^2.2.1
   languageName: unknown
   linkType: soft
