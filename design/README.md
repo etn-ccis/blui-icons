@@ -18,9 +18,9 @@ Reviewers must also agree that the name of the icon makes sense, avoids collisio
 
 ## Icon Creation
 
-When creating icons, follow the Material Design [icon design guidelines](https://material.io/design/iconography/system-icons.html) (we only use 24dp icons, not 20dp). Icon designs that do not adhere to these guidelines will be rejected. Templates are available to assist you:
--   Illustrator: [IconTemplate.ait](https://github.com/brightlayer-ui/icons/raw/master/design/IconTemplate.ait)
--   Printable: [MDILetter.pdf](https://github.com/brightlayer-ui/icons/raw/master/design/MDILetter.pdf), [MDITabloid.pdf](https://github.com/brightlayer-ui/icons/raw/master/design/MDITabloid.pdf)
+When creating icons, follow the Material Design [icon design guidelines](https://material.io/design/iconography/system-icons.html) (we only use 24dp icons, not 20dp) as well as the [Brightlayer UI icon design guidelines](https://brightlayer-ui.github.io/style/icon-guidelines#design-your-own-icons). Icon designs that do not adhere to these guidelines will be rejected. Templates are available to assist you:
+-   Illustrator: [IconTemplate.ait](https://github.com/etn-ccis/blui-icons/raw/master/design/IconTemplate.ait)
+-   Printable: [MDILetter.pdf](https://github.com/etn-ccis/blui-icons/raw/master/design/MDILetter.pdf), [MDITabloid.pdf](https://github.com/etn-ccis/blui-icons/raw/master/design/MDITabloid.pdf)
 
 Design files should ideally contain both original paths, strokes, text, etc. (in the case that the icon must be modified to increase stroke width or font size, for example) as well as the expanded paths version. The expanded version should be use to generate the SVG file.
 
@@ -93,14 +93,14 @@ The following instructions are for individuals who are comfortable working with 
 
 In order to work with this GitHub repository, you will need to have a GitHub account (if you don't have one, you can [sign up](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) for free).
 
-For outside contributors, please refer to our [Contribution Guidelines](https://github.com/brightlayer-ui/.github/blob/master/CONTRIBUTING.md#get-started). To summarize the steps for adding your icons and creating a Pull Request for approval:
+For outside contributors, please refer to our [Contribution Guidelines](https://github.com/etn-ccis/blui-doc-it/blob/master/src/docs/community/contributing-guideline.md). To summarize the steps for adding your icons and creating a Pull Request for approval:
 - Fork the icons repository to your account
-    - Go to https://github.com/brightlayer-ui/icons and click the Fork button in the top right of the screen (outside contributors who have been added to the icons repository can clone directly from the Brightlayer UI repository without forking)
+    - Go to https://github.com/etn-ccis/blui-icons and click the Fork button in the top right of the screen (outside contributors who have been added to the icons repository can clone directly from the Brightlayer UI repository without forking)
 - Clone the repository to your local computer
     ```
     git clone https://github.com/<your-user-id>/icons
     cd icons
-    git remote add upstream https://github.com/brightlayer-ui/icons
+    git remote add upstream https://github.com/etn-ccis/blui-icons
     git pull upstream dev
     ```
 -   Create a new Branch for your changes. The name of the branch should start with `feature/` followed by the name of your icon (or a simple summary if you are including multiple icons), e.g., `feature/ups`. If your icon name is multiple words, you must separate them with a dash.
@@ -116,7 +116,7 @@ For outside contributors, please refer to our [Contribution Guidelines](https://
     git push -u origin <your branch name>
     ```  
 -   Create a Pull Request to begun the process of reviewing and publishing your changes.
-    - Go to https://github.com/brightlayer-ui/icons
+    - Go to https://github.com/etn-ccis/blui-icons
     - Click on the Pull Requests tab in the upper left
     - Click on the green "New Pull Request" button
         - In the 'base' dropdown, select 'dev'

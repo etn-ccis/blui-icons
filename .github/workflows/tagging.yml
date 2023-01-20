@@ -1,0 +1,32 @@
+name: Tagging
+
+env:
+  GH_TOKEN: ${{ github.token }}
+  CURRENT_BRANCH: ${{ github.ref_name }}
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  tag-icons-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn tag:package -b ${CURRENT_BRANCH} -s -blui-icons
+  tag-icons-svg-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd packages/svg && yarn tag:package -b ${CURRENT_BRANCH} -s -blui-icons-svg
+  tag-icons-mui-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd packages/mui && yarn tag:package -b ${CURRENT_BRANCH} -s -blui-icons-mui
+  tag-rn-vector-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: cd packages/rn-vector && yarn tag:package -b ${CURRENT_BRANCH} -s -blui-react-native-vector-icons
