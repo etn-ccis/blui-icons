@@ -2,7 +2,8 @@
 
 [![](https://img.shields.io/npm/v/@brightlayer-ui/icons.svg?label=@brightlayer-ui/icons&style=flat)](https://www.npmjs.com/package/@brightlayer-ui/icons)
 [![](https://img.shields.io/npm/v/@brightlayer-ui/icons-svg.svg?label=@brightlayer-ui/icons-svg&style=flat)](https://www.npmjs.com/package/@brightlayer-ui/icons-svg)
-[![](https://img.shields.io/circleci/project/github/etn-ccis/blui-icons/master.svg?style=flat)](https://circleci.com/gh/etn-ccis/blui-icons/tree/master)
+![npm](https://img.shields.io/npm/v/@brightlayer-ui/icons-mui?label=%40brightlayer-ui/icons-mui)
+[![](https://img.shields.io/npm/v/@brightlayer-ui/react-native-vector-icons.svg?label=@brightlayer-ui/react-native-vectoricons&style=flat)](https://www.npmjs.com/package/@brightlayer-ui/react-native-vector-icons)
 
 This is a library of supplemental icons, to be used in conjunction with the standard Material Design icons in Brightlayer UI applications.
 
@@ -20,7 +21,7 @@ Our library of dynamic progress icons has been split off into a dedicated reposi
 
 ### Available Icons
 
-See the [Iconography](https://brightlayer-ui.github.io/style/iconography) on brightlayer-ui.github.io for a list of currently available icons.
+See the [Iconography](https://brightlayer-ui.github.io/style/icon-library) on brightlayer-ui.github.io for a list of currently available icons.
 
 # For Icon Creators
 
