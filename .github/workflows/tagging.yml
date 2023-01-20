@@ -10,23 +10,32 @@ on:
       - master
 
 jobs:
+  install-dependencies:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - run: yarn install
   tag-icons-package:
     runs-on: ubuntu-latest
+    needs: install-dependencies
     steps:
       - uses: actions/checkout@v2
-      - run: yarn tag:package -b ${CURRENT_BRANCH} -s -blui-icons
+      - run: yarn --cwd packages/icon-font tag:package -b ${CURRENT_BRANCH} -s -blui-icons
   tag-icons-svg-package:
     runs-on: ubuntu-latest
+    needs: install-dependencies
     steps:
       - uses: actions/checkout@v2
-      - run: cd packages/svg && yarn tag:package -b ${CURRENT_BRANCH} -s -blui-icons-svg
+      - run: yarn --cwd packages/svg tag:package -b ${CURRENT_BRANCH} -s -blui-icons-svg
   tag-icons-mui-package:
     runs-on: ubuntu-latest
+    needs: install-dependencies
     steps:
       - uses: actions/checkout@v2
-      - run: cd packages/mui && yarn tag:package -b ${CURRENT_BRANCH} -s -blui-icons-mui
+      - run: yarn --cwd packages/mui tag:package -b ${CURRENT_BRANCH} -s -blui-icons-mui
   tag-rn-vector-package:
     runs-on: ubuntu-latest
+    needs: install-dependencies
     steps:
       - uses: actions/checkout@v2
-      - run: cd packages/rn-vector && yarn tag:package -b ${CURRENT_BRANCH} -s -blui-react-native-vector-icons
+      - run: yarn --cwd packages/rn-vector tag:package -b ${CURRENT_BRANCH} -s -blui-react-native-vector-icons
