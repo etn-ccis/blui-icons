@@ -16,6 +16,7 @@
         "lint": "yarn workspaces foreach -v run lint",
         "set:env": "yarn workspaces foreach -v run set:env",
         "publish:packages": "yarn workspaces foreach -v run publish:package",
+        "tag:packages": "yarn workspaces foreach -v run tag:package",
         "test": "yarn workspaces foreach -v run test"
     },
     "homepage": "https://github.com/etn-ccis/blui-icons#readme",

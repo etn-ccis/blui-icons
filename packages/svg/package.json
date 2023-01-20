@@ -12,7 +12,7 @@
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
         "publish:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
-        "tag:package": "cross-env npm_config_yes=true && cp ../CHANGELOG.md CHANGELOG.md && npx -p @brightlayer-ui/tag blui-tag",
+        "tag:package": "cross-env npm_config_yes=true && cp ../CHANGELOG.md CHANGELOG.md && npx -p @brightlayer-ui/tag blui-tag -s -blui-icons-svg",
         "test": "yarn install && ./scripts/svgBuildTest.sh"
     },
     "devDependencies": {

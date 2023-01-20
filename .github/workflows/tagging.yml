@@ -11,23 +11,9 @@ on:
       - dev
 
 jobs:
-  tag-icons-package:
+  tag-packages:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - uses: actions/checkout@v2
-      - run: cd packages/icon-font && npm run tag:package -b ${CURRENT_BRANCH} -s -blui-icons
-  tag-icons-svg-package:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: cd packages/svg && npm run tag:package -b ${CURRENT_BRANCH} -s -blui-icons-svg
-  tag-icons-mui-package:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: cd packages/mui && npm run tag:package -b ${CURRENT_BRANCH} -s -blui-icons-mui
-  tag-rn-vector-package:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: cd packages/rn-vector && npm run tag:package -b ${CURRENT_BRANCH} -s -blui-react-native-vector-icons
+      - run: yarn install --immutable
+      - run: yarn tag:packages -b ${CURRENT_BRANCH}
