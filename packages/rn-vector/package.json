@@ -25,7 +25,7 @@
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
         "publish:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
-        "tag:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag"
+        "tag:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s -blui-react-native-vector-icons"
     },
     "bugs": {
         "url": "https://github.com/etn-ccis/blui-icons/issues"
@@ -57,7 +57,7 @@
         "react-native-vector-icons": "^9.2.0"
     },
     "devDependencies": {
-        "@brightlayer-ui/icons": "^1.11.0",
+        "@brightlayer-ui/icons": "^2.0.0",
         "@brightlayer-ui/prettier-config": "^1.0.3",
         "@types/react-native-vector-icons": "^6.4.12",
         "cross-env": "^7.0.3",
