@@ -10,32 +10,10 @@ on:
       - master
 
 jobs:
-  install-dependencies:
+  tag-packages:
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
-      - run: yarn install
-  tag-icons-package:
-    runs-on: ubuntu-latest
-    needs: install-dependencies
-    steps:
-      - uses: actions/checkout@v2
-      - run: yarn --cwd packages/icon-font tag:package -b ${CURRENT_BRANCH} -s -blui-icons
-  tag-icons-svg-package:
-    runs-on: ubuntu-latest
-    needs: install-dependencies
-    steps:
-      - uses: actions/checkout@v2
-      - run: yarn --cwd packages/svg tag:package -b ${CURRENT_BRANCH} -s -blui-icons-svg
-  tag-icons-mui-package:
-    runs-on: ubuntu-latest
-    needs: install-dependencies
-    steps:
-      - uses: actions/checkout@v2
-      - run: yarn --cwd packages/mui tag:package -b ${CURRENT_BRANCH} -s -blui-icons-mui
-  tag-rn-vector-package:
-    runs-on: ubuntu-latest
-    needs: install-dependencies
-    steps:
-      - uses: actions/checkout@v2
-      - run: yarn --cwd packages/rn-vector tag:package -b ${CURRENT_BRANCH} -s -blui-react-native-vector-icons
+      - run: yarn install --immutable
+      - run: yarn build
+      - run: yarn tag:packages -b ${CURRENT_BRANCH}
