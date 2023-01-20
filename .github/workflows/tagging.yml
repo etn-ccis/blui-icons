@@ -16,5 +16,5 @@ jobs:
     steps: 
       - uses: actions/checkout@v2
       - run: yarn install --immutable
-      - run: yar build
+      - run: yarn build
       - run: yarn tag:packages -b ${CURRENT_BRANCH}
