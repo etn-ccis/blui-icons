@@ -33,7 +33,7 @@ This repository uses yarn workspaces with the latest version of yarn. To get sta
 
 ```sh
 git clone https://github.com/etn-ccis/blui-icons.git
-cd icons
+cd blui-icons
 yarn install
 ```
 
