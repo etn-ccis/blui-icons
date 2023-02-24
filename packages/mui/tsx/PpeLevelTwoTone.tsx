@@ -10,7 +10,7 @@ const SvgPpeLevelTwoTone = createSvgIcon(
             fillRule="evenodd"
             clipRule="evenodd"
             d="M10 8h3l-2 5 4-2-2 6h1l-2 3-2-3h1l1-3-3 2 1-8Z"
-            fill="black"
+            fill="#001"
         />
     ),
     'SvgPpeLevelTwoTone'
