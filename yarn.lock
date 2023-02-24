@@ -1613,17 +1613,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-mui@npm:4.0.0-alpha.0":
-  version: 4.0.0-alpha.0
-  resolution: "@brightlayer-ui/icons-mui@npm:4.0.0-alpha.0"
-  peerDependencies:
-    "@mui/icons-material": ^5.0.0
-    "@mui/material": ^5.0.0
-  checksum: 9aed784504269de38e84a63c2086b79ad0661e690738a35f6fcc016759dd1b07da6b8101227651aa745dbf475683983337ce551240b3c8c5ecafec48905e7ba5
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/icons-mui@workspace:packages/mui":
+"@brightlayer-ui/icons-mui@3.4.0, @brightlayer-ui/icons-mui@workspace:packages/mui":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-mui@workspace:packages/mui"
   dependencies:
@@ -1638,7 +1628,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@1.12.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1649,7 +1639,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@2.0.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@2.1.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -14199,9 +14189,9 @@ __metadata:
   dependencies:
     "@brightlayer-ui/colors": ^3.1.1
     "@brightlayer-ui/eslint-config": ^3.0.1
-    "@brightlayer-ui/icons": 2.0.0
-    "@brightlayer-ui/icons-mui": 4.0.0-alpha.0
-    "@brightlayer-ui/icons-svg": ^1.11.0
+    "@brightlayer-ui/icons": 2.1.0
+    "@brightlayer-ui/icons-mui": 3.4.0
+    "@brightlayer-ui/icons-svg": 1.12.0
     "@brightlayer-ui/prettier-config": ^1.0.3
     "@brightlayer-ui/react-components": ^6.1.2
     "@brightlayer-ui/react-native-vector-icons": ^2.0.0
