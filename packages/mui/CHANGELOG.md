@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.4.0 (Feb 28, 2023)
+
+### Added
+
+-   33 new icons for PPE, tools, and companies.
+
 ## v3.3.0 (December 5, 2022)
 
 ### Changed
