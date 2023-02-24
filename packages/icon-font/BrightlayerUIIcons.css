@@ -1,10 +1,10 @@
 @font-face {
     font-family: "BrightlayerUIIcons";
-    src: url("./BrightlayerUIIcons.ttf?96b04b95b0466450c973cee6399fa905") format("truetype"),
-url("./BrightlayerUIIcons.woff?96b04b95b0466450c973cee6399fa905") format("woff"),
-url("./BrightlayerUIIcons.woff2?96b04b95b0466450c973cee6399fa905") format("woff2"),
-url("./BrightlayerUIIcons.eot?96b04b95b0466450c973cee6399fa905#iefix") format("embedded-opentype"),
-url("./BrightlayerUIIcons.svg?96b04b95b0466450c973cee6399fa905#BrightlayerUIIcons") format("svg");
+    src: url("./BrightlayerUIIcons.ttf?9a70d46710f2a67cfed4f2bdf8e1e6cf") format("truetype"),
+url("./BrightlayerUIIcons.woff?9a70d46710f2a67cfed4f2bdf8e1e6cf") format("woff"),
+url("./BrightlayerUIIcons.woff2?9a70d46710f2a67cfed4f2bdf8e1e6cf") format("woff2"),
+url("./BrightlayerUIIcons.eot?9a70d46710f2a67cfed4f2bdf8e1e6cf#iefix") format("embedded-opentype"),
+url("./BrightlayerUIIcons.svg?9a70d46710f2a67cfed4f2bdf8e1e6cf#BrightlayerUIIcons") format("svg");
 }
 
 i[class^="blui-"]:before, i[class*=" blui-"]:before {
