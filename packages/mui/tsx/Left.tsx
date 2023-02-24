@@ -4,10 +4,7 @@ const SvgLeft = createSvgIcon(
     React.createElement(
         React.Fragment,
         {},
-        <path
-            clipRule="evenodd"
-            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10ZM11 7H9v10h6v-2h-4V7Z"
-        />
+        <path d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0Zm3 15H7V5h2v8h4v2Z" />
     ),
     'SvgLeft'
 );

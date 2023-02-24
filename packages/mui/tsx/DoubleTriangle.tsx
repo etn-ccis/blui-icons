@@ -4,8 +4,7 @@ const SvgDoubleTriangle = createSvgIcon(
     React.createElement(
         React.Fragment,
         {},
-        <path d="M3.5 16 12 1l8.5 15h-6.278l-1.11-2H17l-5-9-5 9h3.889l-1.111 2H3.5Z" />,
-        <path clipRule="evenodd" d="M12 8 3.5 23h17L12 8ZM7 21l5-9 5 9H7Z" />
+        <path d="M20.5 16 12 1 3.5 16h3.97L3.5 23h17l-3.97-7h3.97ZM17 21H7l2.78-5L12 12l2.22 4L17 21ZM12 8l-3.4 6H7l5-9 5 9h-1.6L12 8Z" />
     ),
     'SvgDoubleTriangle'
 );
