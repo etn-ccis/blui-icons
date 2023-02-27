@@ -59,12 +59,6 @@
         "licenseUrl": "https://github.com/testing-library/user-event/raw/master/LICENSE",
         "parents": "showcase"
     },
-    "camelcase@7.0.0": {
-        "licenses": "MIT",
-        "repository": "https://github.com/sindresorhus/camelcase",
-        "licenseUrl": "https://github.com/sindresorhus/camelcase/raw/master/license",
-        "parents": "showcase"
-    },
     "react-app-polyfill@2.0.0": {
         "licenses": "MIT",
         "repository": "https://github.com/facebook/create-react-app",
