@@ -1659,9 +1659,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/react-components@npm:^6.1.2":
-  version: 6.1.2
-  resolution: "@brightlayer-ui/react-components@npm:6.1.2"
+"@brightlayer-ui/react-components@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "@brightlayer-ui/react-components@npm:6.2.0"
   dependencies:
     "@brightlayer-ui/colors": ^3.1.1
     "@emotion/css": ^11.10.5
@@ -1675,7 +1675,7 @@ __metadata:
     "@mui/material": ^5.4.0
     react: ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 385c7dc19fe18fea3a4393f38a108e62e5448c2eb6f405fd298a64e9a21469cf39789052ddf9195c261507157b69e0c9a96e2e8ef2789d9a82a4170d44d0fdcc
+  checksum: 860e28abce68ec8da24cc5b09c60593cf0f7b905d64f5173bdc34017c3f8e2f77aa4120dfa9d7d3b38edb3a30a66371e832116d1eab8bb967920088c6cbd36f4
   languageName: node
   linkType: hard
 
@@ -14193,7 +14193,7 @@ __metadata:
     "@brightlayer-ui/icons-mui": 3.4.0
     "@brightlayer-ui/icons-svg": 1.12.0
     "@brightlayer-ui/prettier-config": ^1.0.3
-    "@brightlayer-ui/react-components": ^6.1.2
+    "@brightlayer-ui/react-components": ^6.2.0
     "@brightlayer-ui/react-native-vector-icons": ^2.0.0
     "@brightlayer-ui/react-themes": ^7.0.0
     "@emotion/css": ^11.10.5
