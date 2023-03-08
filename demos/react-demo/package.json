@@ -11,7 +11,7 @@
         "@brightlayer-ui/react-native-vector-icons": "^2.0.0",
         "@brightlayer-ui/react-themes": "^7.0.0",
         "@emotion/css": "^11.10.5",
-        "@emotion/react": "^11.10.5",
+        "@emotion/react": "^11.10.6",
         "@emotion/styled": "^11.10.5",
         "@mui/icons-material": "^5.10.14",
         "@mui/material": "^5.10.17",
