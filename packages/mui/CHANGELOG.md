@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.4.0 (June 29, 2023)
+
+### Added
+
+-   New icons: Cloud Done, Cloud Off Filled, Utility Disabled, File CSV, Breaker Closed, Battery Disabled, EV Plug IEC 61851 GB/T, Notification Active Outline, Battery Disabled Alt, Sitemap Outline, Warehouse Alt, Floor Plan, Garage Closed, Cloud Done, Cloud Off Filled, Utility Disabled, File CSV, Breaker Closed, Battery Disabled, EV Plug IEC 61851 GB/T, Notification Active Outline, Battery Disabled Alt, Sitemap Outline, Warehouse Alt, Floor Plan, Garage Closed.
+
 ## v3.3.0 (December 5, 2022)
 
 ### Changed

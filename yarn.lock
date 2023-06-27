@@ -1649,7 +1649,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@2.0.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -1659,6 +1659,13 @@ __metadata:
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
+
+"@brightlayer-ui/icons@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@brightlayer-ui/icons@npm:2.0.0"
+  checksum: cc13e0421c39a7ace487612bf60340e59e3532f310ecfdd135e1aa70b5d399f256658b20e6e4dde0caf0fa11fdafb82efc7a8ac3a9ae1a21fa2d53ea1c0daeac
+  languageName: node
+  linkType: hard
 
 "@brightlayer-ui/prettier-config@npm:^1.0.3":
   version: 1.0.3
