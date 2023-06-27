@@ -2,7 +2,6 @@ import React from 'react';
 import * as Icons from '@brightlayer-ui/icons-mui';
 import { Box, Grid, SxProps } from '@mui/material';
 import { Theme } from '@mui/material/styles';
-import camelCase from 'camelcase';
 
 const meta = require('@brightlayer-ui/icons-mui/index.json');
 
@@ -34,8 +33,15 @@ export const MuiPage: React.FC = () => (
     <>
         <Grid container spacing={2} sx={styles.container}>
             {sorted.map((icon: any) => {
-                //@ts-ignore
-                const Component = Icons[camelCase(icon.filename.replace('.svg', ''), { pascalCase: true })];
+                const Component =
+                    //@ts-ignore
+                    Icons[
+                        icon.filename
+                            .replace('.svg', '')
+                            .split('_')
+                            .map((s: string) => `${s.charAt(0).toUpperCase()}${s.slice(1)}`)
+                            .join('')
+                    ];
                 return (
                     <Grid item xs={2} key={icon.filename} sx={styles.gridItem}>
                         <Box sx={styles.iconWrapper}>
