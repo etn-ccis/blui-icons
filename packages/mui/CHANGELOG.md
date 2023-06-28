@@ -1,6 +1,6 @@
 # Changelog
 
-## v3.5.0 (June 29, 2023)
+## v3.5.0 (June 30, 2023)
 
 ### Added
 
