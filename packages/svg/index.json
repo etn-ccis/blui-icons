@@ -4083,6 +4083,228 @@
             ],
             "author": "Eric Atha (Brightlayer UI)",
             "size": 24
+        },
+        {
+            "name": "Cloud Done",
+            "filename": "cloud_done.svg",
+            "family": ["Status"],
+            "style": "outlined",
+            "tags": [
+                "server",
+                "backup",
+                "connection",
+                "communication",
+                "communicate",
+                "network",
+                "internet",
+                "complete",
+                "finish",
+                "check",
+                "ok",
+                "state",
+                "confirm",
+                "yes",
+                "true"
+            ],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Cloud Off Filled",
+            "filename": "cloud_off_filled.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "server",
+                "backup",
+                "connection",
+                "communication",
+                "communicate",
+                "network",
+                "internet",
+                "error",
+                "offline",
+                "disabled",
+                "na",
+                "no",
+                "disconnect",
+                "false"
+            ],
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Utility Disabled",
+            "filename": "utility_disabled.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [""],
+            "author": "Paulo Morgado (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "File CSV",
+            "filename": "file_csv.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["extension", "comma separated value", "export", "table", "document", "report", "log", "audit"],
+            "author": "Yanoé Roy-Fitton (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Breaker Closed",
+            "filename": "breaker_closed.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": [
+                "product",
+                "equipment",
+                "component",
+                "low",
+                "voltage",
+                "breaker",
+                "mccb",
+                "circuit",
+                "load",
+                "loadcenter",
+                "panel",
+                "off",
+                "disconnect",
+                "connect",
+                "active",
+                "trigger"
+            ],
+            "author": "Yanoé Roy-Fitton (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Battery Disabled",
+            "filename": "battery_disabled.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "component",
+                "ups",
+                "electrical",
+                "industrial",
+                "power",
+                "capacity",
+                "off",
+                "low",
+                "zero",
+                "na",
+                "drain",
+                "empty"
+            ],
+            "author": "Yanoé Roy-Fitton (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "EV Plug IEC 61851 GB/T",
+            "filename": "ev_plug_iec_61851_gbt.svg",
+            "family": ["Vehicles"],
+            "style": "outlined",
+            "tags": [
+                "electric vehicle",
+                "inlet",
+                "connector",
+                "charge",
+                "charging station",
+                "industrial",
+                "business",
+                "connector",
+                "international electrotechnical commission",
+                "china",
+                "chinese",
+                "guo biao"
+            ],
+            "author": "Jeremy Matter (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Notification Active Outline",
+            "filename": "notifications_active_outline.svg",
+            "family": ["General"],
+            "style": "outlined",
+            "tags": [
+                "active",
+                "alarm",
+                "alert",
+                "bell",
+                "chime",
+                "notifications",
+                "notify",
+                "reminder",
+                "ring",
+                "ringing",
+                "sound"
+            ],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Battery Disabled Alt",
+            "filename": "battery_disabled_alt.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": [
+                "device",
+                "product",
+                "equipment",
+                "component",
+                "ups",
+                "electrical",
+                "industrial",
+                "power",
+                "capacity",
+                "off",
+                "low",
+                "zero",
+                "na",
+                "drain",
+                "empty"
+            ],
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Sitemap Outline",
+            "filename": "sitemap_outline.svg",
+            "family": ["Maps"],
+            "style": "outlined",
+            "tags": ["tree", "structure", "organization", "hierarchy", "sub", "location", "group"],
+            "author": "Michael Irigoyen",
+            "size": 24
+        },
+        {
+            "name": "Warehouse Alt",
+            "filename": "warehouse_alt.svg",
+            "family": ["Maps"],
+            "style": "baseline",
+            "tags": ["shed", "storage", "inventory", "house", "place", "cargo", "tools"],
+            "author": "Tarilonte",
+            "size": 24
+        },
+        {
+            "name": "Floor Plan",
+            "filename": "floor_plan.svg",
+            "family": ["Maps"],
+            "style": "outlined",
+            "tags": ["zone", "interior", "inside", "design", "architecture", "room", "place"],
+            "author": "james-fry",
+            "size": 24
+        },
+        {
+            "name": "Garage Closed",
+            "filename": "garage_closed.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["car", "door", "shed", "storage", "tool", "house"],
+            "author": "Michael Irigoyen",
+            "size": 24
         }
     ]
 }
