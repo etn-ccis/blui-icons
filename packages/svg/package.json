@@ -19,7 +19,7 @@
         "copyfiles": "^2.1.0",
         "create-svg-sprite": "^1.0.0",
         "cross-env": "^7.0.3",
-        "rimraf": "^3.0.2"
+        "rimraf": "^5.0.1"
     },
     "repository": {
         "type": "git",
