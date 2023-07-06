@@ -9,6 +9,7 @@
         "demos/react-demo"
     ],
     "scripts": {
+        "update:demo": "node ./scripts/updateDemoDependencies.js",
         "build": "yarn workspaces foreach -v --topological-dev run build",
         "start": "yarn workspaces foreach -v run start",
         "prettier": "yarn workspaces foreach -v run prettier",
