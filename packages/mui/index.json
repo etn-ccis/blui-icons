@@ -1274,7 +1274,7 @@
         {
             "name": "Silo",
             "filename": "silo.svg",
-            "family": ["Agriculture", "Building"],
+            "family": ["Agriculture", "Maps"],
             "style": "baseline",
             "tags": ["farm", "feed", "food", "grain", "structure"],
             "author": "Unknown",
@@ -1761,7 +1761,7 @@
         {
             "name": "Building",
             "filename": "building.svg",
-            "family": ["industrial"],
+            "family": ["Maps"],
             "style": "baseline",
             "tags": ["pins", "places", "locations", "office"],
             "author": "GreenTurtwig",
@@ -4300,7 +4300,7 @@
         {
             "name": "Garage Closed",
             "filename": "garage_closed.svg",
-            "family": ["System"],
+            "family": ["Maps"],
             "style": "baseline",
             "tags": ["car", "door", "shed", "storage", "tool", "house"],
             "author": "Michael Irigoyen",
