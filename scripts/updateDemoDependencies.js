@@ -1,13 +1,4 @@
 const fs = require('fs');
-// const fileName = './file.json';
-// const dependencies = [
-//     {package: '@brightlayer-ui/icons', file: './packages/icon-font/package.json'},
-//     {package: '@brightlayer-ui/icons-mui', file: './packages/mui/package.json'},
-//     {package: '@brightlayer-ui/icons-svg', file: './packages/svg/package.json'},
-// ]
-// const file = require(fileName);
-
-// file.key = "new value";
 
 console.log('Updating demo dependency versions');
 const demoJson = JSON.parse(fs.readFileSync('./demos/react-demo/package.json'));
