@@ -1800,7 +1800,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@1.13.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1810,6 +1810,13 @@ __metadata:
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
+
+"@brightlayer-ui/icons-svg@npm:1.13.0":
+  version: 1.13.0
+  resolution: "@brightlayer-ui/icons-svg@npm:1.13.0"
+  checksum: b61ac923222ce5084da4800a33483f71cb837369db71c618d9907d1af06bca3d915b0048a166b474573848059fd13320902e13a33a3ea52473278afff9335318
+  languageName: node
+  linkType: hard
 
 "@brightlayer-ui/icons@2.2.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
