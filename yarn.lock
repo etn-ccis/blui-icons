@@ -1937,7 +1937,7 @@ __metadata:
   dependencies:
     "@brightlayer-ui/icons-svg": ^1.11.0
     cross-env: ^7.0.3
-    fantasticon: ^1.2.2
+    fantasticon: ^2.0.0
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
@@ -5078,7 +5078,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"argparse@npm:^1.0.6, argparse@npm:^1.0.7":
+"argparse@npm:^1.0.7":
   version: 1.0.10
   resolution: "argparse@npm:1.0.10"
   dependencies:
@@ -6130,7 +6130,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-color@npm:^2.0.0":
+"cli-color@npm:^2.0.2":
   version: 2.0.3
   resolution: "cli-color@npm:2.0.3"
   dependencies:
@@ -6397,7 +6397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^9.4.0, commander@npm:^9.4.1":
+"commander@npm:^9.3.0, commander@npm:^9.4.0, commander@npm:^9.4.1":
   version: 9.5.0
   resolution: "commander@npm:9.5.0"
   checksum: c7a3e27aa59e913b54a1bafd366b88650bc41d6651f0cbe258d4ff09d43d6a7394232a4dadd0bf518b3e696fdf595db1028a0d82c785b88bd61f8a440cecfade
@@ -8396,24 +8396,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fantasticon@npm:^1.2.2":
-  version: 1.2.3
-  resolution: "fantasticon@npm:1.2.3"
+"fantasticon@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "fantasticon@npm:2.0.0"
   dependencies:
     change-case: ^4.1.2
-    cli-color: ^2.0.0
-    commander: ^7.2.0
-    glob: ^7.2.0
+    cli-color: ^2.0.2
+    commander: ^9.4.1
+    glob: ^8.0.3
     handlebars: ^4.7.7
-    slugify: ^1.6.0
+    slugify: ^1.6.5
     svg2ttf: ^6.0.3
-    svgicons2svgfont: ^10.0.3
-    ttf2eot: ^2.0.0
+    svgicons2svgfont: ^12.0.0
+    ttf2eot: ^3.1.0
     ttf2woff: ^3.0.0
-    ttf2woff2: ^4.0.4
+    ttf2woff2: ^4.0.5
   bin:
     fantasticon: bin/fantasticon
-  checksum: abd30b1802a38956a5d03c7ea90b6787d3e5e898b834c098e5d84d8845ca40bbf44889ab37418d75ebf0830636f1b91e6abbbae849e28ba4393be40fbe155569
+  checksum: 080b3c0bf2cd3613690f5dfa02fcb03850f482038b10a2f3635992396439aec13260df0e451a1351c62c5f8424d3f2e4a806b6c0948a60adb4448c9b5a7220cf
   languageName: node
   linkType: hard
 
@@ -8896,13 +8896,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"geometry-interfaces@npm:^1.1.4":
-  version: 1.1.4
-  resolution: "geometry-interfaces@npm:1.1.4"
-  checksum: 336bb45c8e8fefaea4f4f706a2e038a7f1b7c0ab03388a0ff26238cc9f248b2e18778ba8488485b9e9a8f8f8ae1026631323c912dcfa4917aafa1869302812e5
-  languageName: node
-  linkType: hard
-
 "get-caller-file@npm:^2.0.1, get-caller-file@npm:^2.0.5":
   version: 2.0.5
   resolution: "get-caller-file@npm:2.0.5"
@@ -9008,7 +9001,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^7.0.0, glob@npm:^7.0.5, glob@npm:^7.1.1, glob@npm:^7.1.2, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6, glob@npm:^7.2.0":
+"glob@npm:^7.0.0, glob@npm:^7.0.5, glob@npm:^7.1.1, glob@npm:^7.1.2, glob@npm:^7.1.3, glob@npm:^7.1.4, glob@npm:^7.1.6":
   version: 7.2.3
   resolution: "glob@npm:7.2.3"
   dependencies:
@@ -12616,15 +12609,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"neatequal@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "neatequal@npm:1.0.0"
-  dependencies:
-    varstream: ^0.3.2
-  checksum: b38dc9460917f2f22258ff9a5f53047bf9d17a393c44b25c9b454176297d9503b14819dc82be983d85428412ba9aed1297ddd1ef175ea95e785f50096b253f05
-  languageName: node
-  linkType: hard
-
 "negotiator@npm:0.6.3, negotiator@npm:^0.6.3":
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
@@ -14913,18 +14897,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^1.0.33":
-  version: 1.1.14
-  resolution: "readable-stream@npm:1.1.14"
-  dependencies:
-    core-util-is: ~1.0.0
-    inherits: ~2.0.1
-    isarray: 0.0.1
-    string_decoder: ~0.10.x
-  checksum: 17dfeae3e909945a4a1abc5613ea92d03269ef54c49288599507fc98ff4615988a1c39a999dcf9aacba70233d9b7040bc11a5f2bfc947e262dedcc0a8b32b5a0
-  languageName: node
-  linkType: hard
-
 "readable-stream@npm:^2.0.1, readable-stream@npm:~2.3.6":
   version: 2.3.8
   resolution: "readable-stream@npm:2.3.8"
@@ -15876,7 +15848,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slugify@npm:^1.6.0":
+"slugify@npm:^1.6.5":
   version: 1.6.6
   resolution: "slugify@npm:1.6.6"
   checksum: 04773c2d3b7aea8d2a61fa47cc7e5d29ce04e1a96cbaec409da57139df906acb3a449fac30b167d203212c806e73690abd4ff94fbad0a9a7b7ea109a2a638ae9
@@ -16495,7 +16467,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svg-pathdata@npm:^6.0.0":
+"svg-pathdata@npm:^6.0.3":
   version: 6.0.3
   resolution: "svg-pathdata@npm:6.0.3"
   checksum: f0e55be50c654be5d259d70945ed7e5354bf78e51c6039b4045d9f7c49d703a0c33dda36751815aec2824d046c417c35226e7491246ffff3e9164735ea428446
@@ -16518,20 +16490,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svgicons2svgfont@npm:^10.0.3":
-  version: 10.0.6
-  resolution: "svgicons2svgfont@npm:10.0.6"
+"svgicons2svgfont@npm:^12.0.0":
+  version: 12.0.0
+  resolution: "svgicons2svgfont@npm:12.0.0"
   dependencies:
-    commander: ^7.2.0
-    geometry-interfaces: ^1.1.4
-    glob: ^7.1.6
-    neatequal: ^1.0.0
-    readable-stream: ^3.4.0
+    commander: ^9.3.0
+    glob: ^8.0.3
     sax: ^1.2.4
-    svg-pathdata: ^6.0.0
+    svg-pathdata: ^6.0.3
   bin:
     svgicons2svgfont: bin/svgicons2svgfont.js
-  checksum: 30ab33343ac9498523c5e85fe289caf3b0e30900465b3df0bb5e478c5dd0bd51251e95b08d164729e4015ac98ab970a0e4c37b7d70f7de13251a94c7aef7a13c
+  checksum: 55a37f08e71785b2734e58f9a73de36c935a06109b3b99d9f3760840bd1c47a7bb9c3d8c4e46971971d6b41d421e0c7333bef442d496ae75e9032e6003aed9f4
   languageName: node
   linkType: hard
 
@@ -16977,19 +16946,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ttf2eot@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "ttf2eot@npm:2.0.0"
+"ttf2eot@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "ttf2eot@npm:3.1.0"
   dependencies:
-    argparse: ^1.0.6
-    microbuffer: ^1.0.0
+    argparse: ^2.0.1
   bin:
-    ttf2eot: ./ttf2eot.js
-  checksum: 597509ee51968d5a6e90b5515ed73c0ff4d9a834fd14c8fb11b99f55efbbd280b396cd82b0f2356feae7065282ca2321d65267704c102ae76f4dd9663d76e787
+    ttf2eot: ttf2eot.js
+  checksum: d56bd039a0976bd6d3cf2b579bf36fb899c3ef0e2834373346630c2928fa91fcec75b9c8ebd73b070bdc314ed74d44fa74f78789cfe35da1709b3738c2983a50
   languageName: node
   linkType: hard
 
-"ttf2woff2@npm:^4.0.4":
+"ttf2woff2@npm:^4.0.5":
   version: 4.0.5
   resolution: "ttf2woff2@npm:4.0.5"
   dependencies:
@@ -17418,18 +17386,6 @@ __metadata:
     convert-source-map: ^1.6.0
     source-map: ^0.7.3
   checksum: 54ce92bec2727879626f623d02c8d193f0c7e919941fa373ec135189a8382265117f5316ea317a1e12a5f9c13d84d8449052a731fe3306fa4beaafbfa4cab229
-  languageName: node
-  linkType: hard
-
-"varstream@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "varstream@npm:0.3.2"
-  dependencies:
-    readable-stream: ^1.0.33
-  bin:
-    json2varstream: cli/json2varstream.js
-    varstream2json: cli/varstream2json.js
-  checksum: 9f195681ac3cf1cbc536a4900ee5b600739b8c82389d2294dc4c253b7be08c4ae22e148dc0d443655d9ec52c979a45d91c148bc0574d49829956b625fc8a9866
   languageName: node
   linkType: hard
 
