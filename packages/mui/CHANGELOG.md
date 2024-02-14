@@ -4,7 +4,7 @@
 
 ### Added
 
-- New icons: Ethernet Port, Skillet, Skillet Cooktop, Cooking, Stockpot, Stove, Wind Turbine, Water Energy, IOT Scene.
+-   New icons: Ethernet Port, Skillet, Skillet Cooktop, Cooking, Stockpot, Stove, Wind Turbine, Water Energy, IOT Scene.
 
 ## v3.5.0 (June 30, 2023)
 

@@ -1898,7 +1898,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-mui@3.5.0, @brightlayer-ui/icons-mui@workspace:packages/mui":
+"@brightlayer-ui/icons-mui@npm:3.5.0":
+  version: 3.5.0
+  resolution: "@brightlayer-ui/icons-mui@npm:3.5.0"
+  peerDependencies:
+    "@mui/icons-material": ^5.0.0
+    "@mui/material": ^5.0.0
+  checksum: 97fdd821ae19c326e8288bd8a62f586e3bfb6767cc41b90b37cb443200ba6a6089bd8f2274944076472df2cde1527549f7fd3161b8800cf1396094e882e64e52
+  languageName: node
+  linkType: hard
+
+"@brightlayer-ui/icons-mui@workspace:packages/mui":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-mui@workspace:packages/mui"
   dependencies:
@@ -1913,7 +1923,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@1.13.1, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1924,7 +1934,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@2.2.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons-svg@npm:1.13.1":
+  version: 1.13.1
+  resolution: "@brightlayer-ui/icons-svg@npm:1.13.1"
+  checksum: 83e44ee8bbeb4296134fb8430707a920609776d1f4cfc6e5cf0c34d65930873d22f3a9faf77deee16e37f1b72961aaa0bf0796a092017b7d098427eef2e4f492
+  languageName: node
+  linkType: hard
+
+"@brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -1934,6 +1951,13 @@ __metadata:
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
+
+"@brightlayer-ui/icons@npm:2.2.0":
+  version: 2.2.0
+  resolution: "@brightlayer-ui/icons@npm:2.2.0"
+  checksum: 4e3f029d20dee0f1b637f1a5f70e9f2b9e5bedb2248ecdf7e3c3a7c5e375bd58af8ae06c7b6d125954a6c78481de84e35ab46606f402510b5d858e07cbc62869
+  languageName: node
+  linkType: hard
 
 "@brightlayer-ui/prettier-config@npm:^1.0.3":
   version: 1.0.3
