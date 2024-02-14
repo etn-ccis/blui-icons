@@ -1898,17 +1898,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-mui@npm:3.5.0":
-  version: 3.5.0
-  resolution: "@brightlayer-ui/icons-mui@npm:3.5.0"
-  peerDependencies:
-    "@mui/icons-material": ^5.0.0
-    "@mui/material": ^5.0.0
-  checksum: 97fdd821ae19c326e8288bd8a62f586e3bfb6767cc41b90b37cb443200ba6a6089bd8f2274944076472df2cde1527549f7fd3161b8800cf1396094e882e64e52
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/icons-mui@workspace:packages/mui":
+"@brightlayer-ui/icons-mui@3.6.0, @brightlayer-ui/icons-mui@workspace:packages/mui":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-mui@workspace:packages/mui"
   dependencies:
@@ -1923,7 +1913,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@1.14.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1934,14 +1924,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@npm:1.13.1":
-  version: 1.13.1
-  resolution: "@brightlayer-ui/icons-svg@npm:1.13.1"
-  checksum: 83e44ee8bbeb4296134fb8430707a920609776d1f4cfc6e5cf0c34d65930873d22f3a9faf77deee16e37f1b72961aaa0bf0796a092017b7d098427eef2e4f492
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@2.3.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -1951,13 +1934,6 @@ __metadata:
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
-
-"@brightlayer-ui/icons@npm:2.2.0":
-  version: 2.2.0
-  resolution: "@brightlayer-ui/icons@npm:2.2.0"
-  checksum: 4e3f029d20dee0f1b637f1a5f70e9f2b9e5bedb2248ecdf7e3c3a7c5e375bd58af8ae06c7b6d125954a6c78481de84e35ab46606f402510b5d858e07cbc62869
-  languageName: node
-  linkType: hard
 
 "@brightlayer-ui/prettier-config@npm:^1.0.3":
   version: 1.0.3
@@ -3361,17 +3337,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@remix-run/router@npm:1.6.2"
-  checksum: 5969d313bff6ba5c75917910090cebafda84b9d3b4b453fae6b3d60fea9f938078578ffca769c532ab7ce252cd4a207b78d1024d7c727ab80dd572e62fd3b3f2
-  languageName: node
-  linkType: hard
-
-"@remix-run/router@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@remix-run/router@npm:1.7.2"
-  checksum: ea43bb662f1f5c93965989b1667fb6e8a301cb69c44341ee92c81cb15ea685b494168e5905593b5777d59058f1455b4b58083d5b895f04382e49362e420d7af4
+"@remix-run/router@npm:1.15.0":
+  version: 1.15.0
+  resolution: "@remix-run/router@npm:1.15.0"
+  checksum: 0b5ea6b2e7bb7f3266005e033337a6fed29c458aa5ddc9a97a90ff19813ae6dfb4392871722d66d7e8db93a29760a8257830a9af58824b3a3363ed58e1e471d8
   languageName: node
   linkType: hard
 
@@ -14587,9 +14556,9 @@ __metadata:
   dependencies:
     "@brightlayer-ui/colors": ^3.1.1
     "@brightlayer-ui/eslint-config": ^3.0.1
-    "@brightlayer-ui/icons": 2.2.0
-    "@brightlayer-ui/icons-mui": 3.5.0
-    "@brightlayer-ui/icons-svg": 1.13.1
+    "@brightlayer-ui/icons": 2.3.0
+    "@brightlayer-ui/icons-mui": 3.6.0
+    "@brightlayer-ui/icons-svg": 1.14.0
     "@brightlayer-ui/prettier-config": ^1.0.3
     "@brightlayer-ui/react-components": ^6.2.0
     "@brightlayer-ui/react-native-vector-icons": ^2.0.0
@@ -14617,8 +14586,8 @@ __metadata:
     react: ^18.2.0
     react-app-polyfill: ^3.0.0
     react-dom: ^18.2.0
-    react-router: ^6.4.3
-    react-router-dom: ^6.14.2
+    react-router: ^6.22.0
+    react-router-dom: ^6.22.0
     react-scripts: 5.0.1
     typescript: ^4.9.3
     web-vitals: ^2.1.4
@@ -14797,38 +14766,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.14.2":
-  version: 6.14.2
-  resolution: "react-router-dom@npm:6.14.2"
+"react-router-dom@npm:^6.22.0":
+  version: 6.22.0
+  resolution: "react-router-dom@npm:6.22.0"
   dependencies:
-    "@remix-run/router": 1.7.2
-    react-router: 6.14.2
+    "@remix-run/router": 1.15.0
+    react-router: 6.22.0
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: a53dbc566ecab7890b829d42d38553684f704803c1f615db1bd6aa2d71542c369a1a79e4385be31ae71a14b72ddbcd0d8b51188248c2bccd44e015050d1927df
+  checksum: 21cbdda0070dffb50845a97e2688648a9925c7ebabd1f9335523a1f8ae66048c1d9d06442f1b0ec35a266d1c63ed3b56b437db70807f73440a185f3e2d3c632f
   languageName: node
   linkType: hard
 
-"react-router@npm:6.14.2":
-  version: 6.14.2
-  resolution: "react-router@npm:6.14.2"
+"react-router@npm:6.22.0, react-router@npm:^6.22.0":
+  version: 6.22.0
+  resolution: "react-router@npm:6.22.0"
   dependencies:
-    "@remix-run/router": 1.7.2
+    "@remix-run/router": 1.15.0
   peerDependencies:
     react: ">=16.8"
-  checksum: 7507bf5732b3a8ddbd901c2061216eebca73e194449bff58acc1445171e22bdda36b455b8af066e467748ebfb5875b3c0a565941c46af65c6f653a6ed0dc4fe4
-  languageName: node
-  linkType: hard
-
-"react-router@npm:^6.4.3":
-  version: 6.11.2
-  resolution: "react-router@npm:6.11.2"
-  dependencies:
-    "@remix-run/router": 1.6.2
-  peerDependencies:
-    react: ">=16.8"
-  checksum: e47f875dca70033a3b42704cb5ec076b60f9629a5cdc3be613707f3d5a5706123fb80301037455c285c6d5a1011b443e1784e0103969ebfac7071648d360c413
+  checksum: 94f382f3fa6fcb8525c143d83d4c3a3b010979f417cac0bbe7a63f906b3809e2bb56e8c329b9b3fd3212a498670ab278aea72893e921b827dcf00024c3d115dd
   languageName: node
   linkType: hard
 
