@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.3.0 (February 16, 2024)
+
+### Added
+
+-   New icons: Ethernet Port, Skillet, Skillet Cooktop, Cooking, Stockpot, Stove, Wind Turbine, Water Energy, IOT Scene.
+
 ## v2.2.0 (June 30, 2023)
 
 ### Added

@@ -4305,6 +4305,145 @@
             "tags": ["car", "door", "shed", "storage", "tool", "house"],
             "author": "Michael Irigoyen",
             "size": 24
+        },
+        {
+            "name": "Ethernet Port",
+            "filename": "ethernet_port.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["iot", "internet", "network", "plug", "connection", "web", "local", "cable", "link"],
+            "author": "Simran",
+            "size": 24
+        },
+        {
+            "name": "Skillet",
+            "filename": "skillet.svg",
+            "family": ["Residential"],
+            "style": "baseline",
+            "tags": ["iot", "cooking", "pot", "kitchen", "ware", "container", "heat", "cuiline", "stove", "soup"],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Skillet Cooktop",
+            "filename": "skillet_cooktop.svg",
+            "family": ["Residential"],
+            "style": "baseline",
+            "tags": ["iot", "cooking", "pot", "kitchen", "ware", "container", "heat", "cuiline", "stove", "soup"],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Cooking",
+            "filename": "cooking.svg",
+            "family": ["Residential"],
+            "style": "baseline",
+            "tags": ["iot", "cooking", "pot", "kitchen", "ware", "container", "heat", "cuiline", "stove", "soup"],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Stockpot",
+            "filename": "stockpot.svg",
+            "family": ["Residential"],
+            "style": "baseline",
+            "tags": [
+                "iot",
+                "cooking",
+                "pot",
+                "kitchen",
+                "ware",
+                "container",
+                "heat",
+                "cuiline",
+                "stove",
+                "soup",
+                "dutch oven"
+            ],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Stove",
+            "filename": "stove.svg",
+            "family": ["Residential"],
+            "style": "baseline",
+            "tags": ["iot", "cooking", "pot", "kitchen", "ware", "container", "heat", "cuiline", "stove"],
+            "author": "Austin Andrews",
+            "size": 24
+        },
+        {
+            "name": "Wind Turbine",
+            "filename": "wind_turbine.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": [
+                "renewable",
+                "energy",
+                "green",
+                "carbon",
+                "footprint",
+                "blade",
+                "farm",
+                "grid",
+                "electricity",
+                "source",
+                "fan",
+                "generator",
+                "generate",
+                "generation",
+                "power"
+            ],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Water Energy",
+            "filename": "water_energy.svg",
+            "family": ["Status"],
+            "style": "baseline",
+            "tags": [
+                "renewable",
+                "energy",
+                "green",
+                "carbon",
+                "footprint",
+                "turbine",
+                "turbo",
+                "grid",
+                "dam",
+                "hydro",
+                "electricity",
+                "source",
+                "generator",
+                "generate",
+                "generation",
+                "power"
+            ],
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "IOT Scene",
+            "filename": "iot_scene.svg",
+            "family": ["Residential"],
+            "style": "baseline",
+            "tags": [
+                "iot",
+                "scenario",
+                "automation",
+                "living room",
+                "sofa",
+                "lamp",
+                "reading",
+                "recliner",
+                "light",
+                "time",
+                "schedule",
+                "control"
+            ],
+            "author": "Google",
+            "size": 24
         }
     ]
 }
