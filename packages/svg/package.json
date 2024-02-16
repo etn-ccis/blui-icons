@@ -1,13 +1,15 @@
 {
     "name": "@brightlayer-ui/icons-svg",
-    "version": "1.14.0",
+    "version": "1.15.0-alpha.0",
     "description": "SVG icons for Eaton applications",
     "main": "index.js",
     "scripts": {
-        "build": "yarn clear:svg && yarn copy:from-design && yarn generate:sprite && yarn copy:index",
+        "build": "yarn clear:svg && yarn copy:from-design && yarn generate:sprite && yarn copy:index && yarn generate:sprites",
         "clear:svg": "rimraf *.svg",
         "copy:from-design": "copyfiles -f -e \"../../design/old/*.svg\" -e \"../../design/Internal/*.svg\" -e \"../../design/WIP/*.svg\" -e \"../../design/Products/**/*.svg\" \"../../design/Products/*.svg\" ../../design/**/*.svg ../../design/**/**/*.svg .",
         "generate:sprite": "create-svg-sprite --optimize --input './' --output './' --name 'icons'",
+        "generate:sprites": "node ./scripts/generateSprites.js && yarn tsc && rm -rf sprites/index.ts && yarn clear:material",
+        "clear:material": "rimraf material-design-icons",
         "copy:index": "cp ../../design/META.json ./index.json",
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
@@ -16,10 +18,14 @@
         "test": "yarn install && ./scripts/svgBuildTest.sh"
     },
     "devDependencies": {
+        "cheerio": "^1.0.0-rc.12",
         "copyfiles": "^2.1.0",
         "create-svg-sprite": "^1.0.0",
         "cross-env": "^7.0.3",
-        "rimraf": "^3.0.2"
+        "rimraf": "^3.0.2",
+        "simple-git": "^3.22.0",
+        "svg-sprite": "^2.0.2",
+        "typescript": "^5.3.3"
     },
     "repository": {
         "type": "git",

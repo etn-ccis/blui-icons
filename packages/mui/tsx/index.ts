@@ -209,6 +209,7 @@ export { default as HockeySticks } from './HockeySticks';
 export { default as HomeRepairServiceOutline } from './HomeRepairServiceOutline';
 export { default as Hops } from './Hops';
 export { default as Hubject } from './Hubject';
+export { default as Icons } from './Icons';
 export { default as Incident } from './Incident';
 export { default as IncidentActive } from './IncidentActive';
 export { default as IncidentMaintenance } from './IncidentMaintenance';
