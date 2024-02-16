@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons-mui",
-    "version": "3.5.0",
+    "version": "3.6.0",
     "description": "Brightlayer UI icons for MUI",
     "main": "./index.js",
     "repository": {

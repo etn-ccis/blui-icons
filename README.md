@@ -37,14 +37,15 @@ cd blui-icons
 yarn install
 ```
 
-To build the libraries:
+After you have made changes, you may build the packages:
 
 ```sh
 yarn build
 ```
 
-There is a demo project in the repository which shows the various icon formats being used in a project. To start the demo, run:
+There is a demo project in the repository which shows the various icon formats being used in a project. To start the demo, ensure that the demo project is using the latest version of packages you created before spinning up the development server:
 
 ```sh
+yarn update:demo
 yarn start
 ```
