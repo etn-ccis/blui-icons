@@ -32,7 +32,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
     - run: yarn install --immutable
-    - run: yarn prettier
+    - run: yarn prettier:check
     - run: yarn lint
 
   build_icons_library:
@@ -55,9 +55,9 @@ jobs:
     - name: Save iconfont build
       uses: actions/upload-artifact@v3
       with:
-        name: iconfont
+        name: icon-font
         if-no-files-found: error
-        path: packages/iconfont
+        path: packages/icon-font
     - name: Save svg build
       uses: actions/upload-artifact@v3
       with:
