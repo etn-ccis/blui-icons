@@ -1,0 +1,140 @@
+name: CI Run
+
+on:
+  push:
+    branches: [ "dev", "master" ]
+  pull_request:
+    branches: [ "dev", "master" ]
+  pull_request_target:
+    types:
+      - opened
+    branches:
+      - '*/*'
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  prettier_lint:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'yarn'
+    - run: yarn install --immutable
+    - run: yarn prettier
+    - run: yarn lint
+
+  build_icons_library:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'yarn'
+    - run: yarn --frozen-lockfile
+    - run: yarn build
+    - name: Save iconfont build
+      uses: actions/upload-artifact@v3
+      with:
+        name: iconfont
+        if-no-files-found: error
+        path: packages/iconfont
+    - name: Save svg build
+      uses: actions/upload-artifact@v3
+      with:
+        name: svg
+        if-no-files-found: error
+        path: packages/svg
+    - name: Save rn-vector build
+      uses: actions/upload-artifact@v3
+      with:
+        name: rn-vector
+        if-no-files-found: error
+        path: packages/rn-vector
+    - name: Save mui build
+      uses: actions/upload-artifact@v3
+      with:
+        name: mui
+        if-no-files-found: error
+        path: packages/mui
+
+  # test_artifacts:
+  #   runs-on: ubuntu-latest
+  #   needs: build_icons_library
+  #   steps:
+  #   - name: Checkout
+  #     uses: actions/checkout@v4
+  #   - name: Download the dist folder
+  #     uses: actions/download-artifact@v3
+  #     with:
+  #       name: dist
+  #       path: dist
+  #   - run: yarn test
+
+  # build_demo:
+  #   runs-on: ubuntu-latest
+
+  #   strategy:
+  #     matrix:
+  #       node-version: [18.x]
+
+  #   steps:
+  #   - name: Checkout
+  #     uses: actions/checkout@v4
+  #   - name: Use Node.js ${{ matrix.node-version }}
+  #     uses: actions/setup-node@v4
+  #     with:
+  #       node-version: ${{ matrix.node-version }}
+  #       cache: 'yarn'
+  #   - run: yarn --frozen-lockfile
+  #     working-directory: demos/react-demo
+  #   - run: yarn build
+  #     working-directory: demos/react-demo
+
+  # publish:
+  #   runs-on: ubuntu-latest
+  #   if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+  #   needs: build_icons_library
+  #   strategy:
+  #     matrix:
+  #       node-version: [18.x]
+  #   env:
+  #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+  #     BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Download icon font package
+  #       uses: actions/download-artifact@v3
+  #       with:
+  #         name: iconfont
+  #         path: packages/iconfont
+  #     - name: Download svg package
+  #       uses: actions/download-artifact@v3
+  #       with:
+  #           name: svg
+  #           path: packages/svg
+  #     - uses: actions/setup-node@v3
+  #       with:
+  #         node-version: ${{ matrix.node-version }}
+  #         registry-url: 'https://registry.npmjs.org'
+  #     - run: yarn --frozen-lockfile
+  #     - run: yarn publish:package -b ${{env.BRANCH}}
