@@ -50,15 +50,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
-    - run: yarn --frozen-lockfile
+    - run: yarn install --immutable
     - run: yarn build
+    - name: Zip artifacts
+      run: zip node_modules.zip ./* -r
     - name: Save node modules
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v3
       with:
-        compression-level: 0
         name: node_modules
         if-no-files-found: error
-        path: node_modules
+        path: node_modules.zip
     - name: Save .yarn file
       uses: actions/upload-artifact@v3
       with:
