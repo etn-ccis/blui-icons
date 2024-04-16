@@ -53,8 +53,9 @@ jobs:
     - run: yarn --frozen-lockfile
     - run: yarn build
     - name: Save node modules
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
+        compression-level: 0
         name: node_modules
         if-no-files-found: error
         path: node_modules
