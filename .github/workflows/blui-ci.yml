@@ -52,8 +52,16 @@ jobs:
         cache: 'yarn'
     - run: yarn install --immutable
     - run: yarn build
-    - name: Zip artifacts
+    - name: Zip node modules
       run: zip node_modules.zip ./* -r
+    - name: Zip icon-font
+      run: zip icon-font.zip ./* -r
+    - name: Zip svg
+      run: zip svg.zip ./* -r
+    - name: Zip rn-vector
+      run: zip rn-vector.zip ./* -r
+    - name: Zip mui
+      run: zip mui.zip ./* -r
     - name: Save node modules
       uses: actions/upload-artifact@v3
       with:
@@ -72,11 +80,32 @@ jobs:
         name: .yarnrc.yml
         if-no-files-found: error
         path: .yarnrc.yml
-    - name: Save icon packages
+    - name: Save iconfont build
       uses: actions/upload-artifact@v3
       with:
+        name: icon-font
         if-no-files-found: error
-        path: packages/*
+        path: packages/icon-font.zip
+    - name: Save svg build
+      uses: actions/upload-artifact@v3
+      with:
+        name: svg
+        if-no-files-found: error
+        path: packages/svg.zip
+    - name: Save rn-vector build
+      uses: actions/upload-artifact@v3
+      with:
+        name: rn-vector
+        if-no-files-found: error
+        path: packages/rn-vector.zip
+    - name: Save mui build
+      uses: actions/upload-artifact@v3
+      with:
+        name: mui
+        if-no-files-found: error
+        path: packages/mui.zip
+
+
 
   # test_artifacts:
   #   runs-on: ubuntu-latest
