@@ -69,10 +69,10 @@ jobs:
     - name: Save yarnrc file
       uses: actions/upload-artifact@v3
       with:
-        name: yarnrc.yml
+        name: .yarnrc.yml
         if-no-files-found: error
-        path: yarnrc.yml
-    - name: Save build icon packages
+        path: .yarnrc.yml
+    - name: Save icon packages
       uses: actions/upload-artifact@v3
       with:
         if-no-files-found: error
