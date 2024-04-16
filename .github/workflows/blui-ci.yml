@@ -80,18 +80,18 @@ jobs:
         name: .yarnrc.yml
         if-no-files-found: error
         path: .yarnrc.yml
-    - name: Save iconfont build
+    - name: Save icon-font build
       uses: actions/upload-artifact@v3
       with:
         name: icon-font
         if-no-files-found: error
-        path: packages/icon-font.zip
+        path: icon-font.zip
     - name: Save svg build
       uses: actions/upload-artifact@v3
       with:
         name: svg
         if-no-files-found: error
-        path: packages/svg.zip
+        path: svg.zip
     - name: Save rn-vector build
       uses: actions/upload-artifact@v3
       with:
@@ -103,7 +103,7 @@ jobs:
       with:
         name: mui
         if-no-files-found: error
-        path: packages/mui.zip
+        path: mui.zip
 
 
 
