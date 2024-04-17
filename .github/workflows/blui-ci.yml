@@ -80,51 +80,98 @@ jobs:
         if-no-files-found: error
         path: packages/mui
 
-  # build_react_demo:
-  #   runs-on: ubuntu-latest
+  publish_icon-font:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+    needs: build_icons_library
+    strategy:
+      matrix:
+        node-version: [18.x]
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download icon font package
+        uses: actions/download-artifact@v3
+        with:
+          name: icon-font
+          path: packages/icon-font
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: 'https://registry.npmjs.org'
+      - run: yarn --frozen-lockfile
+      - run: yarn --cwd packages/icon-font publish:package -b ${{env.BRANCH}}
 
-  #   strategy:
-  #     matrix:
-  #       node-version: [18.x]
+  publish_icons-svg:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+    needs: build_icons_library
+    strategy:
+      matrix:
+        node-version: [18.x]
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download icons svg package
+        uses: actions/download-artifact@v3
+        with:
+          name: svg
+          path: packages/svg
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: 'https://registry.npmjs.org'
+      - run: yarn --frozen-lockfile
+      - run: yarn --cwd packages/svg publish:package -b ${{env.BRANCH}}
 
-  #   steps:
-  #   - name: Checkout
-  #     uses: actions/checkout@v4
-  #   - name: Use Node.js ${{ matrix.node-version }}
-  #     uses: actions/setup-node@v4
-  #     with:
-  #       node-version: ${{ matrix.node-version }}
-  #       cache: 'yarn'
-  #   - run: yarn install --immutable
-  #     working-directory: demos/react-demo
-  #   - run: yarn build-app
-  #     working-directory: demos/react-demo
+  publish_icons-mui:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+    needs: build_icons_library
+    strategy:
+      matrix:
+        node-version: [18.x]
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download icons mui package
+        uses: actions/download-artifact@v3
+        with:
+          name: mui
+          path: packages/mui
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: 'https://registry.npmjs.org'
+      - run: yarn --frozen-lockfile
+      - run: yarn --cwd packages/mui publish:package -b ${{env.BRANCH}}
 
-  # publish:
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-  #   needs: build_icons_library
-  #   strategy:
-  #     matrix:
-  #       node-version: [18.x]
-  #   env:
-  #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-  #     BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
-  #   steps:
-  #     - uses: actions/checkout@v4
-  #     - name: Download icon font package
-  #       uses: actions/download-artifact@v3
-  #       with:
-  #         name: iconfont
-  #         path: packages/iconfont
-  #     - name: Download svg package
-  #       uses: actions/download-artifact@v3
-  #       with:
-  #           name: svg
-  #           path: packages/svg
-  #     - uses: actions/setup-node@v3
-  #       with:
-  #         node-version: ${{ matrix.node-version }}
-  #         registry-url: 'https://registry.npmjs.org'
-  #     - run: yarn --frozen-lockfile
-  #     - run: yarn publish:package -b ${{env.BRANCH}}
+  publish_rn_vector_icons:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+    needs: build_icons_library
+    strategy:
+      matrix:
+        node-version: [18.x]
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download rn-vector package
+        uses: actions/download-artifact@v3
+        with:
+          name: rn-vector
+          path: packages/rn-vector
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          registry-url: 'https://registry.npmjs.org'
+      - run: yarn --frozen-lockfile
+      - run: yarn --cwd packages/rn-vector publish:package -b ${{env.BRANCH}}
