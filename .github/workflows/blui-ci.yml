@@ -53,6 +53,8 @@ jobs:
     - run: yarn install --immutable
     - run: yarn build
     - run: yarn test
+    - run: yarn build-app
+      working-directory: demos/react-demo
     - name: Save icon-font build
       uses: actions/upload-artifact@v3
       with:
@@ -78,25 +80,25 @@ jobs:
         if-no-files-found: error
         path: packages/mui
 
-  build_react_demo:
-    runs-on: ubuntu-latest
+  # build_react_demo:
+  #   runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
+  #   strategy:
+  #     matrix:
+  #       node-version: [18.x]
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'yarn'
-    - run: yarn install --immutable
-      working-directory: demos/react-demo
-    - run: yarn build-app
-      working-directory: demos/react-demo
+  #   steps:
+  #   - name: Checkout
+  #     uses: actions/checkout@v4
+  #   - name: Use Node.js ${{ matrix.node-version }}
+  #     uses: actions/setup-node@v4
+  #     with:
+  #       node-version: ${{ matrix.node-version }}
+  #       cache: 'yarn'
+  #   - run: yarn install --immutable
+  #     working-directory: demos/react-demo
+  #   - run: yarn build-app
+  #     working-directory: demos/react-demo
 
   # publish:
   #   runs-on: ubuntu-latest
