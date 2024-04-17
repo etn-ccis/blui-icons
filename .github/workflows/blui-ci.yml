@@ -53,24 +53,6 @@ jobs:
     - run: yarn install --immutable
     - run: yarn build
     - run: yarn test
-    # - name: Save node modules
-    #   uses: actions/upload-artifact@v3
-    #   with:
-    #     name: node_modules
-    #     if-no-files-found: error
-    #     path: node_modules
-    # - name: Save .yarn file
-    #   uses: actions/upload-artifact@v3
-    #   with:
-    #     name: .yarn
-    #     if-no-files-found: error
-    #     path: .yarn
-    # - name: Save yarnrc file
-    #   uses: actions/upload-artifact@v3
-    #   with:
-    #     name: .yarnrc.yml
-    #     if-no-files-found: error
-    #     path: .yarnrc.yml
     - name: Save icon-font build
       uses: actions/upload-artifact@v3
       with:
@@ -96,55 +78,25 @@ jobs:
         if-no-files-found: error
         path: packages/mui
 
+  build_react_demo:
+    runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [18.x]
 
-  # test_artifacts:
-  #   runs-on: ubuntu-latest
-  #   needs: build_icons_library
-  #   steps:
-  #   - name: Checkout
-  #     uses: actions/checkout@v4
-  #   - name: Download the icon-font folder
-  #     uses: actions/download-artifact@v3
-  #     with:
-  #       name: icon-font
-  #       path: packages/icon-font
-  #   - name: Download the svg folder
-  #     uses: actions/download-artifact@v3
-  #     with:
-  #       name: svg
-  #       path: packages/svg
-  #   - name: Download the rn-vector folder
-  #     uses: actions/download-artifact@v3
-  #     with:
-  #       name: rn-vector
-  #       path: packages/rn-vector
-  #   - name: Download the mui folder
-  #     uses: actions/download-artifact@v3
-  #     with:
-  #       name: mui
-  #       path: packages/mui
-  #   - run: yarn test
-
-  # build_demo:
-  #   runs-on: ubuntu-latest
-
-  #   strategy:
-  #     matrix:
-  #       node-version: [18.x]
-
-  #   steps:
-  #   - name: Checkout
-  #     uses: actions/checkout@v4
-  #   - name: Use Node.js ${{ matrix.node-version }}
-  #     uses: actions/setup-node@v4
-  #     with:
-  #       node-version: ${{ matrix.node-version }}
-  #       cache: 'yarn'
-  #   - run: yarn --frozen-lockfile
-  #     working-directory: demos/react-demo
-  #   - run: yarn build
-  #     working-directory: demos/react-demo
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'yarn'
+    - run: yarn install --immutable
+      working-directory: demos/react-demo
+    - run: yarn build
+      working-directory: demos/react-demo
 
   # publish:
   #   runs-on: ubuntu-latest
