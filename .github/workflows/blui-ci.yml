@@ -52,58 +52,49 @@ jobs:
         cache: 'yarn'
     - run: yarn install --immutable
     - run: yarn build
-    - name: Zip node modules
-      run: zip node_modules.zip ./* -r
-    - name: Zip icon-font
-      run: zip icon-font.zip ./* -r
-    - name: Zip svg
-      run: zip svg.zip ./* -r
-    - name: Zip rn-vector
-      run: zip rn-vector.zip ./* -r
-    - name: Zip mui
-      run: zip mui.zip ./* -r
-    - name: Save node modules
-      uses: actions/upload-artifact@v3
-      with:
-        name: node_modules
-        if-no-files-found: error
-        path: node_modules.zip
-    - name: Save .yarn file
-      uses: actions/upload-artifact@v3
-      with:
-        name: .yarn
-        if-no-files-found: error
-        path: .yarn
-    - name: Save yarnrc file
-      uses: actions/upload-artifact@v3
-      with:
-        name: .yarnrc.yml
-        if-no-files-found: error
-        path: .yarnrc.yml
+    - run: yarn test
+    # - name: Save node modules
+    #   uses: actions/upload-artifact@v3
+    #   with:
+    #     name: node_modules
+    #     if-no-files-found: error
+    #     path: node_modules
+    # - name: Save .yarn file
+    #   uses: actions/upload-artifact@v3
+    #   with:
+    #     name: .yarn
+    #     if-no-files-found: error
+    #     path: .yarn
+    # - name: Save yarnrc file
+    #   uses: actions/upload-artifact@v3
+    #   with:
+    #     name: .yarnrc.yml
+    #     if-no-files-found: error
+    #     path: .yarnrc.yml
     - name: Save icon-font build
       uses: actions/upload-artifact@v3
       with:
         name: icon-font
         if-no-files-found: error
-        path: icon-font.zip
+        path: packages/icon-font
     - name: Save svg build
       uses: actions/upload-artifact@v3
       with:
         name: svg
         if-no-files-found: error
-        path: svg.zip
+        path: packages/svg
     - name: Save rn-vector build
       uses: actions/upload-artifact@v3
       with:
         name: rn-vector
         if-no-files-found: error
-        path: packages/rn-vector.zip
+        path: packages/rn-vector
     - name: Save mui build
       uses: actions/upload-artifact@v3
       with:
         name: mui
         if-no-files-found: error
-        path: mui.zip
+        path: packages/mui
 
 
 
