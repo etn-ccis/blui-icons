@@ -95,7 +95,7 @@ jobs:
         cache: 'yarn'
     - run: yarn install --immutable
       working-directory: demos/react-demo
-    - run: yarn build
+    - run: yarn build-app
       working-directory: demos/react-demo
 
   # publish:
