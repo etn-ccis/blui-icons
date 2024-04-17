@@ -35,7 +35,7 @@ jobs:
     - run: yarn prettier:check
     - run: yarn lint
 
-  build_icons_library:
+  build_test_icons_library:
     runs-on: ubuntu-latest
 
     strategy:
@@ -83,7 +83,7 @@ jobs:
   publish_icon_font:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_icons_library
+    needs: build_test_icons_library
     strategy:
       matrix:
         node-version: [18.x]
@@ -107,7 +107,7 @@ jobs:
   publish_icons_svg:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_icons_library
+    needs: build_test_icons_library
     strategy:
       matrix:
         node-version: [18.x]
@@ -131,7 +131,7 @@ jobs:
   publish_icons_mui:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_icons_library
+    needs: build_test_icons_library
     strategy:
       matrix:
         node-version: [18.x]
@@ -155,7 +155,7 @@ jobs:
   publish_rn_vector_icons:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_icons_library
+    needs: build_test_icons_library
     strategy:
       matrix:
         node-version: [18.x]
