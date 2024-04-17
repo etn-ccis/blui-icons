@@ -35,7 +35,7 @@ jobs:
     - run: yarn prettier:check
     - run: yarn lint
 
-  build_icons_library:
+  build_test_icons_library:
     runs-on: ubuntu-latest
 
     strategy:
@@ -80,10 +80,10 @@ jobs:
         if-no-files-found: error
         path: packages/mui
 
-  publish_icon-font:
+  publish_icon_font:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_icons_library
+    needs: build_test_icons_library
     strategy:
       matrix:
         node-version: [18.x]
@@ -104,10 +104,10 @@ jobs:
       - run: yarn --frozen-lockfile
       - run: yarn --cwd packages/icon-font publish:package -b ${{env.BRANCH}}
 
-  publish_icons-svg:
+  publish_icons_svg:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_icons_library
+    needs: build_test_icons_library
     strategy:
       matrix:
         node-version: [18.x]
@@ -128,10 +128,10 @@ jobs:
       - run: yarn --frozen-lockfile
       - run: yarn --cwd packages/svg publish:package -b ${{env.BRANCH}}
 
-  publish_icons-mui:
+  publish_icons_mui:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_icons_library
+    needs: build_test_icons_library
     strategy:
       matrix:
         node-version: [18.x]
@@ -155,7 +155,7 @@ jobs:
   publish_rn_vector_icons:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_icons_library
+    needs: build_test_icons_library
     strategy:
       matrix:
         node-version: [18.x]
