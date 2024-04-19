@@ -102,7 +102,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --frozen-lockfile
-      - run: npm run --cwd packages/icon-font publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -b ${{env.BRANCH}}
+        working-directory: icon-font
 
   publish_icons_svg:
     runs-on: ubuntu-latest
@@ -126,7 +127,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --frozen-lockfile
-      - run: npm run --cwd packages/svg publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -b ${{env.BRANCH}}
+        working-directory: svg
 
   publish_icons_mui:
     runs-on: ubuntu-latest
@@ -150,7 +152,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --frozen-lockfile
-      - run: npm run --cwd packages/mui publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -b ${{env.BRANCH}}
+        working-directory: mui
 
   publish_rn_vector_icons:
     runs-on: ubuntu-latest
@@ -174,4 +177,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --frozen-lockfile
-      - run: npm run --cwd packages/rn-vector publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -b ${{env.BRANCH}}
+        working-directory: rn-vector
