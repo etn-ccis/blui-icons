@@ -103,7 +103,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --frozen-lockfile
       - run: npm run publish:package -b ${{env.BRANCH}}
-        working-directory: icon-font
+        working-directory: packages/icon-font
 
   publish_icons_svg:
     runs-on: ubuntu-latest
@@ -128,7 +128,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --frozen-lockfile
       - run: npm run publish:package -b ${{env.BRANCH}}
-        working-directory: svg
+        working-directory: packages/svg
 
   publish_icons_mui:
     runs-on: ubuntu-latest
@@ -153,7 +153,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --frozen-lockfile
       - run: npm run publish:package -b ${{env.BRANCH}}
-        working-directory: mui
+        working-directory: packages/mui
 
   publish_rn_vector_icons:
     runs-on: ubuntu-latest
@@ -178,4 +178,4 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --frozen-lockfile
       - run: npm run publish:package -b ${{env.BRANCH}}
-        working-directory: rn-vector
+        working-directory: packages/rn-vector
