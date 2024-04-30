@@ -1,7 +1,7 @@
 # Brightlayer UI Supplemental Icons
 
 [![](https://img.shields.io/npm/v/@brightlayer-ui/icons.svg?label=@brightlayer-ui/icons&style=flat)](https://www.npmjs.com/package/@brightlayer-ui/icons)
-[![](https://img.shields.io/circleci/project/github/etn-ccis/blui-icons/master.svg?style=flat)](https://circleci.com/gh/etn-ccis/blui-icons/tree/master)
+[![Build](https://github.com/etn-ccis/blui-icons/actions/workflows/blui-ci.yml/badge.svg?branch=master)](https://github.com/etn-ccis/blui-icons/actions/workflows/blui-ci.yml)
 
 This is a library of supplemental icons, to be used in conjunction with the standard Material Design icons in Brightlayer UI applications.
 
