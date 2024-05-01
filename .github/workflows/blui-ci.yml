@@ -101,7 +101,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
-      - run: yarn --frozen-lockfile
+      - run: yarn --immutable
       - run: npm run publish:package -b ${{env.BRANCH}}
         working-directory: packages/icon-font
 
@@ -126,7 +126,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
-      - run: yarn --frozen-lockfile
+      - run: yarn --immutable
       - run: npm run publish:package -b ${{env.BRANCH}}
         working-directory: packages/svg
 
@@ -151,7 +151,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
-      - run: yarn --frozen-lockfile
+      - run: yarn --immutable
       - run: npm run publish:package -b ${{env.BRANCH}}
         working-directory: packages/mui
 
@@ -176,6 +176,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
-      - run: yarn --frozen-lockfile
+      - run: yarn --immutable
       - run: npm run publish:package -b ${{env.BRANCH}}
         working-directory: packages/rn-vector
