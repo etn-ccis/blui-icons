@@ -1,7 +1,7 @@
 # Brightlayer UI SVG Icons
 
 [![](https://img.shields.io/npm/v/@brightlayer-ui/icons-svg.svg?label=@brightlayer-ui/icons-svg&style=flat)](https://www.npmjs.com/package/@brightlayer-ui/icons-svg)
-[![](https://img.shields.io/circleci/project/github/etn-ccis/blui-icons/master.svg?style=flat)](https://circleci.com/gh/etn-ccis/blui-icons/tree/master)
+[![Build](https://github.com/etn-ccis/blui-icons/actions/workflows/blui-ci.yml/badge.svg?branch=master)](https://github.com/etn-ccis/blui-icons/actions/workflows/blui-ci.yml)
 
 This is a library of SVG Icons for use in Brightlayer UI applications.
 
