@@ -102,7 +102,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --immutable
-      - run: npm run publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -- -b ${{env.BRANCH}}
         working-directory: packages/icon-font
 
   publish_icons_svg:
@@ -127,7 +127,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --immutable
-      - run: npm run publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -- -b ${{env.BRANCH}}
         working-directory: packages/svg
 
   publish_icons_mui:
@@ -152,7 +152,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --immutable
-      - run: npm run publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -- -b ${{env.BRANCH}}
         working-directory: packages/mui
 
   publish_rn_vector_icons:
@@ -177,5 +177,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - run: yarn --immutable
-      - run: npm run publish:package -b ${{env.BRANCH}}
+      - run: npm run publish:package -- -b ${{env.BRANCH}}
         working-directory: packages/rn-vector
