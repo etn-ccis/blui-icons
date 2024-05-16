@@ -8,8 +8,8 @@ android.sourceSets.main.assets.srcDirs += file("$buildDir/intermediates/ReactNat
  */
 afterEvaluate {
     def config = project.hasProperty("vectoricons") ? project.vectoricons : [];
-    def iconFontsDir = config.iconFontsDir ?: "../../node_modules/@brightlayer-ui/react-native-vector-icons/Fonts";
-    def iconFontNames = config.iconFontNames ?: [ "*.ttf" ];
+    def iconFontsDir = config.bluiIconFontsDir ?: "../../node_modules/@brightlayer-ui/react-native-vector-icons/Fonts";
+    def iconFontNames = config.bluiIconFontNames ?: [ "*.ttf" ];
 
     def fontCopyTask = tasks.create(
         name: "copyReactNativeBLUIVectorIconFonts",

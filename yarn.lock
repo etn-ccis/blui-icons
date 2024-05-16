@@ -1806,14 +1806,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@npm:1.14.0, @brightlayer-ui/icons-svg@npm:^1.11.0":
-  version: 1.14.0
-  resolution: "@brightlayer-ui/icons-svg@npm:1.14.0"
-  checksum: 8ad6ee642b4cebca24c32fa9ce75033dc3e3ee66e58f692dc393492c78d7540f50d80d4b495c42a89f9f433d9c0d3fa8bff0bef2c0496d472ee1a289a7687287
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@1.15.0-alpha.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1828,14 +1821,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@npm:2.3.0, @brightlayer-ui/icons@npm:^2.0.0":
-  version: 2.3.0
-  resolution: "@brightlayer-ui/icons@npm:2.3.0"
-  checksum: 4ec04586dfe456c9c03a709e8e350bf57c351aaa65af7206eba151f97da162120883eeae68a4dbea158490bdc777dbefed3931003b2ff3b592c05c10e3de01b8
+"@brightlayer-ui/icons-svg@npm:^1.11.0":
+  version: 1.14.0
+  resolution: "@brightlayer-ui/icons-svg@npm:1.14.0"
+  checksum: 8ad6ee642b4cebca24c32fa9ce75033dc3e3ee66e58f692dc393492c78d7540f50d80d4b495c42a89f9f433d9c0d3fa8bff0bef2c0496d472ee1a289a7687287
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@2.4.0-alpha.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -1845,6 +1838,13 @@ __metadata:
     rimraf: ^5.0.5
   languageName: unknown
   linkType: soft
+
+"@brightlayer-ui/icons@npm:^2.0.0":
+  version: 2.3.0
+  resolution: "@brightlayer-ui/icons@npm:2.3.0"
+  checksum: 4ec04586dfe456c9c03a709e8e350bf57c351aaa65af7206eba151f97da162120883eeae68a4dbea158490bdc777dbefed3931003b2ff3b592c05c10e3de01b8
+  languageName: node
+  linkType: hard
 
 "@brightlayer-ui/prettier-config@npm:^1.0.3":
   version: 1.0.3
@@ -15053,9 +15053,9 @@ __metadata:
   dependencies:
     "@brightlayer-ui/colors": ^3.1.1
     "@brightlayer-ui/eslint-config": ^3.0.1
-    "@brightlayer-ui/icons": 2.3.0
+    "@brightlayer-ui/icons": 2.4.0-alpha.0
     "@brightlayer-ui/icons-mui": 3.6.0
-    "@brightlayer-ui/icons-svg": 1.14.0
+    "@brightlayer-ui/icons-svg": 1.15.0-alpha.0
     "@brightlayer-ui/prettier-config": ^1.0.3
     "@brightlayer-ui/react-components": ^6.2.0
     "@brightlayer-ui/react-native-vector-icons": ^2.0.0
