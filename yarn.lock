@@ -1806,7 +1806,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@1.15.0-alpha.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@1.15.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1820,13 +1820,6 @@ __metadata:
     typescript: ^5.3.3
   languageName: unknown
   linkType: soft
-
-"@brightlayer-ui/icons-svg@npm:^1.11.0":
-  version: 1.14.0
-  resolution: "@brightlayer-ui/icons-svg@npm:1.14.0"
-  checksum: 8ad6ee642b4cebca24c32fa9ce75033dc3e3ee66e58f692dc393492c78d7540f50d80d4b495c42a89f9f433d9c0d3fa8bff0bef2c0496d472ee1a289a7687287
-  languageName: node
-  linkType: hard
 
 "@brightlayer-ui/icons@2.4.0-alpha.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
@@ -1875,18 +1868,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/react-native-vector-icons@npm:^2.0.0":
-  version: 2.3.0
-  resolution: "@brightlayer-ui/react-native-vector-icons@npm:2.3.0"
-  peerDependencies:
-    react: ">=16.8.1"
-    react-native: ">=0.60.0-rc.0 <1.0.x"
-    react-native-vector-icons: ^9.2.0
-  checksum: 82c7b3d3cb9ebaaadc9337aea22eb74b2a695dd28251ec162df8bc54a04eaf5f61145b7b2c1e8e34f88dc86fa7afe66ec4313c5db061eb2ede2fc69eb1ac2614
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
+"@brightlayer-ui/react-native-vector-icons@^2.0.0, @brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector"
   dependencies:
@@ -15055,7 +15037,7 @@ __metadata:
     "@brightlayer-ui/eslint-config": ^3.0.1
     "@brightlayer-ui/icons": 2.4.0-alpha.0
     "@brightlayer-ui/icons-mui": 3.6.0
-    "@brightlayer-ui/icons-svg": 1.15.0-alpha.0
+    "@brightlayer-ui/icons-svg": 1.15.0
     "@brightlayer-ui/prettier-config": ^1.0.3
     "@brightlayer-ui/react-components": ^6.2.0
     "@brightlayer-ui/react-native-vector-icons": ^2.0.0
