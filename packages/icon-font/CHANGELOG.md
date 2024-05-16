@@ -1,11 +1,5 @@
 # Changelog
 
-## v2.4.0 (Unreleased)
-
-### Added
-
--   New family sprites, including all Material icons and BLUI icons.
-
 ## v2.3.0 (February 16, 2024)
 
 ### Added

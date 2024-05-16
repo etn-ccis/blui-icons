@@ -1,10 +1,10 @@
 {
     "name": "@brightlayer-ui/icons-svg",
-    "version": "1.15.0-alpha.0",
+    "version": "1.15.0",
     "description": "SVG icons for Eaton applications",
     "main": "index.js",
     "scripts": {
-        "build": "yarn clear:svg && yarn copy:from-design && yarn generate:sprite && yarn copy:index && yarn generate:sprites",
+        "build": "yarn clear:svg && yarn copy:from-design && yarn copy:index && yarn generate:sprites",
         "clear:svg": "rimraf *.svg",
         "copy:from-design": "copyfiles -f -e \"../../design/old/*.svg\" -e \"../../design/Internal/*.svg\" -e \"../../design/WIP/*.svg\" -e \"../../design/Products/**/*.svg\" \"../../design/Products/*.svg\" ../../design/**/*.svg ../../design/**/**/*.svg .",
         "generate:sprite": "create-svg-sprite --optimize --input './' --output './' --name 'icons'",

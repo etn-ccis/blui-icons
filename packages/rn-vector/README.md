@@ -55,7 +55,19 @@ Edit `android/app/build.gradle` ( NOT `android/build.gradle` ) and add the follo
 apply from: "../../node_modules/@brightlayer-ui/react-native-vector-icons/fonts.gradle"
 ```
 
-> NOTE: if you are restricting which fonts are being added to your application for `react-native-vector-icons`, you will need to include 'BrightlayerUIIcons.ttf' in your `iconFontNames` array in this file as well.
+##### Mono-repo configuration
+
+If you need to restrict which icon libraries are included or point to a different node module location other than the default (e.g., if you are using this inside of a monorepo with hoisted dependencies), you will need to update the path to the `fonts.gradle` file above and specify the following in your `project.ext.vectoricons` configuration (refer to react-native-vector-icons [setup](https://github.com/oblador/react-native-vector-icons?tab=readme-ov-file#android-setup)):
+
+```diff
+project.ext.vectoricons = [
+  iconFontsDir: "../../../../node_modules/react-native-vector-icons/Fonts",
+  iconFontNames: ["YourFont.ttf", "..."]
++ bluiIconFontsDir: "../../../../node_modules/@brightlayer-ui/react-native-vector-icons/Fonts",
+]
+```
+
+> NOTE: You may need to adjust the relative path to point to the actual location of your `node_modules` folder depending on your project setup.
 
 ## Usage
 
