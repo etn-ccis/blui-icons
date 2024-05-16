@@ -1,4 +1,4 @@
-[![](https://img.shields.io/circleci/project/github/etn-ccis/blui-icons/mui/master.svg?style=flat)](https://circleci.com/gh/etn-ccis/blui-icons/tree/master)
+[![Build](https://github.com/etn-ccis/blui-icons/actions/workflows/blui-ci.yml/badge.svg?branch=master)](https://github.com/etn-ccis/blui-icons/actions/workflows/blui-ci.yml)
 ![npm](https://img.shields.io/npm/v/@brightlayer-ui/icons-mui?label=%40brightlayer-ui/icons-mui)
 
 # Brightlayer UI Icons for MUI

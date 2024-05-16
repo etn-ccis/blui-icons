@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.4.0 (May 17, 2024)
+
+### Fixed
+
+-   Issue when using package inside of a monorepo where node_modules are at a different relative path than the default.
+
 ## v2.3.0 (February 16, 2024)
 
 ### Added
