@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@brightlayer-ui/colors": "^3.1.1",
+        "@brightlayer-ui/colors": "^4.0.0",
         "@brightlayer-ui/icons": "2.4.0-alpha.0",
         "@brightlayer-ui/icons-mui": "3.6.0",
         "@brightlayer-ui/icons-svg": "1.15.0",

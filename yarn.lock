@@ -1773,6 +1773,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@brightlayer-ui/colors@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@brightlayer-ui/colors@npm:4.0.0"
+  checksum: 0d3e8094fd5b9d7170e4c8e3b1b303633ba5e95a9b041721079dcd39c7a3adbd4b67a3e6711a709fab0968a7791dae28267eec11d462a4d1baccaa461f1c54bb
+  languageName: node
+  linkType: hard
+
 "@brightlayer-ui/eslint-config@npm:^3.0.1":
   version: 3.0.1
   resolution: "@brightlayer-ui/eslint-config@npm:3.0.1"
@@ -15033,7 +15040,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-demo@workspace:demos/react-demo"
   dependencies:
-    "@brightlayer-ui/colors": ^3.1.1
+    "@brightlayer-ui/colors": ^4.0.0
     "@brightlayer-ui/eslint-config": ^3.0.1
     "@brightlayer-ui/icons": 2.4.0-alpha.0
     "@brightlayer-ui/icons-mui": 3.6.0
