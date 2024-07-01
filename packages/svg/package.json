@@ -24,7 +24,7 @@
         "cross-env": "^7.0.3",
         "rimraf": "^5.0.5",
         "simple-git": "^3.22.0",
-        "svg-sprite": "^2.0.2",
+        "svg-sprite": "^2.0.4",
         "typescript": "^5.3.3"
     },
     "repository": {
