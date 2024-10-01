@@ -1885,7 +1885,7 @@ __metadata:
     cross-env: ^7.0.3
     eslint-config-prettier: ^8.5.0
     prettier: ^3.2.5
-    react: 18.1.0
+    react: 18.3.1
     react-native: 0.70.0
     react-native-vector-icons: ^9.2.0
     typescript: ^4.8.3
@@ -4445,7 +4445,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.48":
+"@types/react@npm:*":
   version: 18.2.48
   resolution: "@types/react@npm:18.2.48"
   dependencies:
@@ -4453,6 +4453,16 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: c9ca43ed2995389b7e09492c24e6f911a8439bb8276dd17cc66a2fbebbf0b42daf7b2ad177043256533607c2ca644d7d928fdfce37a67af1f8646d2bac988900
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.3.10":
+  version: 18.3.10
+  resolution: "@types/react@npm:18.3.10"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: 04261654b5f4bc9584e9d882c7dfd5b36dc58963f958f8c3efd24cb68c9d205bc2d57558a1479b86d7827f0e5116d5bd111791d1253583d1e1c165f0aeb48c48
   languageName: node
   linkType: hard
 
@@ -15105,7 +15115,7 @@ __metadata:
     "@testing-library/user-event": ^14.4.3
     "@types/jest": ^29.4.0
     "@types/node": ^18.0.0
-    "@types/react": 18.2.48
+    "@types/react": 18.3.10
     "@types/react-dom": ^18.2.18
     "@types/react-router-dom": ^5.3.3
     "@typescript-eslint/eslint-plugin": ^5.57.0
@@ -15114,7 +15124,7 @@ __metadata:
     eslint-config-prettier: ^8.5.0
     eslint-plugin-react: ^7.32.2
     prettier: ^3.2.5
-    react: ^18.2.0
+    react: ^18.3.1
     react-app-polyfill: ^3.0.0
     react-dom: ^18.2.0
     react-router: ^6.22.0
@@ -15415,21 +15425,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.1.0":
-  version: 18.1.0
-  resolution: "react@npm:18.1.0"
+"react@npm:18.3.1, react@npm:^18.3.1":
+  version: 18.3.1
+  resolution: "react@npm:18.3.1"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: 5bb296b561b43ef2220395da4faac86c14a087c8c80e1a7598a5740f01ee605c11eaf249985c1e2000971c4cd32ccb46d40f00479bbd9fb6b1c7cf857393b7d4
-  languageName: node
-  linkType: hard
-
-"react@npm:^18.2.0":
-  version: 18.2.0
-  resolution: "react@npm:18.2.0"
-  dependencies:
-    loose-envify: ^1.1.0
-  checksum: 88e38092da8839b830cda6feef2e8505dec8ace60579e46aa5490fc3dc9bba0bd50336507dc166f43e3afc1c42939c09fe33b25fae889d6f402721dcd78fca1b
+  checksum: a27bcfa8ff7c15a1e50244ad0d0c1cb2ad4375eeffefd266a64889beea6f6b64c4966c9b37d14ee32d6c9fcd5aa6ba183b6988167ab4d127d13e7cb5b386a376
   languageName: node
   linkType: hard
 
