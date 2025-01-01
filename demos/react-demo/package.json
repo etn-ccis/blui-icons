@@ -22,7 +22,7 @@
         "react-router": "^6.22.0",
         "react-router-dom": "^6.22.0",
         "react-scripts": "5.0.1",
-        "web-vitals": "^2.1.4"
+        "web-vitals": "^4.2.4"
     },
     "scripts": {
         "start": "yarn update:demo && yarn && react-scripts start",
