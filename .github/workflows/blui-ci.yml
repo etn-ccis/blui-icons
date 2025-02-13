@@ -1,181 +1,181 @@
 name: Build
 
 on:
-  push:
-    branches: [ "dev", "master" ]
-  pull_request:
-    branches: [ "dev", "master" ]
-  pull_request_target:
-    types:
-      - opened
-    branches:
-      - '*/*'
+    push:
+        branches: ['dev', 'master']
+    pull_request:
+        branches: ['dev', 'master']
+    pull_request_target:
+        types:
+            - opened
+        branches:
+            - '*/*'
 
 permissions:
-  pull-requests: write
-  contents: read
+    pull-requests: write
+    contents: read
 
 jobs:
-  prettier_lint:
-    runs-on: ubuntu-latest
+    prettier_lint:
+        runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
+        strategy:
+            matrix:
+                node-version: [18.x]
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'yarn'
-    - run: yarn
-    - run: yarn prettier:check
-    - run: yarn lint
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  cache: 'yarn'
+            - run: yarn
+            - run: yarn prettier:check
+            - run: yarn lint
 
-  build_test_icons_library:
-    runs-on: ubuntu-latest
+    build_test_icons_library:
+        runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
+        strategy:
+            matrix:
+                node-version: [18.x]
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'yarn'
-    - run: yarn
-    - run: yarn build
-    - run: yarn test
-    - run: yarn build-app
-      working-directory: demos/react-demo
-    - name: Save icon-font build
-      uses: actions/upload-artifact@v3
-      with:
-        name: icon-font
-        if-no-files-found: error
-        path: packages/icon-font
-    - name: Save svg build
-      uses: actions/upload-artifact@v3
-      with:
-        name: svg
-        if-no-files-found: error
-        path: packages/svg
-    - name: Save rn-vector build
-      uses: actions/upload-artifact@v3
-      with:
-        name: rn-vector
-        if-no-files-found: error
-        path: packages/rn-vector
-    - name: Save mui build
-      uses: actions/upload-artifact@v3
-      with:
-        name: mui
-        if-no-files-found: error
-        path: packages/mui
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  cache: 'yarn'
+            - run: yarn
+            - run: yarn build
+            - run: yarn test
+            - run: yarn build-app
+              working-directory: demos/react-demo
+            - name: Save icon-font build
+              uses: actions/upload-artifact@v4
+              with:
+                  name: icon-font
+                  if-no-files-found: error
+                  path: packages/icon-font
+            - name: Save svg build
+              uses: actions/upload-artifact@v4
+              with:
+                  name: svg
+                  if-no-files-found: error
+                  path: packages/svg
+            - name: Save rn-vector build
+              uses: actions/upload-artifact@v4
+              with:
+                  name: rn-vector
+                  if-no-files-found: error
+                  path: packages/rn-vector
+            - name: Save mui build
+              uses: actions/upload-artifact@v4
+              with:
+                  name: mui
+                  if-no-files-found: error
+                  path: packages/mui
 
-  publish_icon_font:
-    runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_test_icons_library
-    strategy:
-      matrix:
-        node-version: [18.x]
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
-    steps:
-      - uses: actions/checkout@v4
-      - name: Download icon font package
-        uses: actions/download-artifact@v3
-        with:
-          name: icon-font
-          path: packages/icon-font
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
-      - run: yarn --immutable
-      - run: npm run publish:package -- -b ${{env.BRANCH}}
-        working-directory: packages/icon-font
+    publish_icon_font:
+        runs-on: ubuntu-latest
+        if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+        needs: build_test_icons_library
+        strategy:
+            matrix:
+                node-version: [18.x]
+        env:
+            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+            BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+        steps:
+            - uses: actions/checkout@v4
+            - name: Download icon font package
+              uses: actions/download-artifact@v4
+              with:
+                  name: icon-font
+                  path: packages/icon-font
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  registry-url: 'https://registry.npmjs.org'
+            - run: yarn --immutable
+            - run: npm run publish:package -- -b ${{env.BRANCH}}
+              working-directory: packages/icon-font
 
-  publish_icons_svg:
-    runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_test_icons_library
-    strategy:
-      matrix:
-        node-version: [18.x]
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
-    steps:
-      - uses: actions/checkout@v4
-      - name: Download icons svg package
-        uses: actions/download-artifact@v3
-        with:
-          name: svg
-          path: packages/svg
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
-      - run: yarn --immutable
-      - run: npm run publish:package -- -b ${{env.BRANCH}}
-        working-directory: packages/svg
+    publish_icons_svg:
+        runs-on: ubuntu-latest
+        if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+        needs: build_test_icons_library
+        strategy:
+            matrix:
+                node-version: [18.x]
+        env:
+            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+            BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+        steps:
+            - uses: actions/checkout@v4
+            - name: Download icons svg package
+              uses: actions/download-artifact@v4
+              with:
+                  name: svg
+                  path: packages/svg
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  registry-url: 'https://registry.npmjs.org'
+            - run: yarn --immutable
+            - run: npm run publish:package -- -b ${{env.BRANCH}}
+              working-directory: packages/svg
 
-  publish_icons_mui:
-    runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_test_icons_library
-    strategy:
-      matrix:
-        node-version: [18.x]
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
-    steps:
-      - uses: actions/checkout@v4
-      - name: Download icons mui package
-        uses: actions/download-artifact@v3
-        with:
-          name: mui
-          path: packages/mui
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
-      - run: yarn --immutable
-      - run: npm run publish:package -- -b ${{env.BRANCH}}
-        working-directory: packages/mui
+    publish_icons_mui:
+        runs-on: ubuntu-latest
+        if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+        needs: build_test_icons_library
+        strategy:
+            matrix:
+                node-version: [18.x]
+        env:
+            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+            BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+        steps:
+            - uses: actions/checkout@v4
+            - name: Download icons mui package
+              uses: actions/download-artifact@v4
+              with:
+                  name: mui
+                  path: packages/mui
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  registry-url: 'https://registry.npmjs.org'
+            - run: yarn --immutable
+            - run: npm run publish:package -- -b ${{env.BRANCH}}
+              working-directory: packages/mui
 
-  publish_rn_vector_icons:
-    runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-    needs: build_test_icons_library
-    strategy:
-      matrix:
-        node-version: [18.x]
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
-    steps:
-      - uses: actions/checkout@v4
-      - name: Download rn-vector package
-        uses: actions/download-artifact@v3
-        with:
-          name: rn-vector
-          path: packages/rn-vector
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
-      - run: yarn --immutable
-      - run: npm run publish:package -- -b ${{env.BRANCH}}
-        working-directory: packages/rn-vector
+    publish_rn_vector_icons:
+        runs-on: ubuntu-latest
+        if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
+        needs: build_test_icons_library
+        strategy:
+            matrix:
+                node-version: [18.x]
+        env:
+            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+            BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
+        steps:
+            - uses: actions/checkout@v4
+            - name: Download rn-vector package
+              uses: actions/download-artifact@v4
+              with:
+                  name: rn-vector
+                  path: packages/rn-vector
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  registry-url: 'https://registry.npmjs.org'
+            - run: yarn --immutable
+            - run: npm run publish:package -- -b ${{env.BRANCH}}
+              working-directory: packages/rn-vector
