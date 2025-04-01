@@ -25,7 +25,7 @@
         "rimraf": "^5.0.5",
         "simple-git": "^3.27.0",
         "svg-sprite": "^2.0.4",
-        "typescript": "^5.3.3"
+        "typescript": "^5.8.2"
     },
     "repository": {
         "type": "git",
