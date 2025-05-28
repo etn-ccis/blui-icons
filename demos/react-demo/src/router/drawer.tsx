@@ -1,10 +1,11 @@
 import React, { useState, useCallback } from 'react';
-import { useMediaQuery, useTheme } from '@mui/material';
-import { useNavigate, useLocation } from 'react-router';
+import {  useTheme } from '@mui/material/styles';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useDrawer } from '../contexts/drawerContextProvider';
 import Menu from '@mui/icons-material/Menu';
 import { Drawer, DrawerBody, DrawerHeader, DrawerNavGroup } from '@brightlayer-ui/react-components';
 import { PAGES } from './routes';
+import { useMediaQuery } from '@mui/material';
 
 export const NavigationDrawer: React.FC = () => {
     const { drawerOpen, setDrawerOpen } = useDrawer();
@@ -16,6 +17,7 @@ export const NavigationDrawer: React.FC = () => {
 
     const handleNavigate = useCallback(
         (id: string): void => {
+            // eslint-disable-next-line
             navigate(id);
             setSelected(id);
         },
