@@ -4,7 +4,7 @@
 
 ### Changed
 
-- Updated peer dependency on `@mui/material` and `@mui/icons-material`.
+-   Updated peer dependency on `@mui/material` and `@mui/icons-material`.
 
 ## v3.6.0 (February 16, 2024)
 

@@ -1861,7 +1861,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-mui@3.6.0, @brightlayer-ui/icons-mui@workspace:packages/mui":
+"@brightlayer-ui/icons-mui@npm:3.6.0":
+  version: 3.6.0
+  resolution: "@brightlayer-ui/icons-mui@npm:3.6.0"
+  peerDependencies:
+    "@mui/icons-material": ^5.0.0
+    "@mui/material": ^5.0.0
+  checksum: 7f0b002a51e6b8b508402e901688ada999858e2e674d5f163ad9560b2e67d5c329bbeaadce839df2cbc68316275aee174cf2726015d73a90fc4ee1cb7d007c4d
+  languageName: node
+  linkType: hard
+
+"@brightlayer-ui/icons-mui@workspace:packages/mui":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-mui@workspace:packages/mui"
   dependencies:
