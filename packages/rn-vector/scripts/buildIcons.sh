@@ -18,12 +18,15 @@ echo -e "${BLUE}Done${NC}"
 # echo -e "${BLUE}Done${NC}"
 
 echo -ne "Copying latest icon font and glyph map...${NC}"
-cp ../icon-font/BrightlayerUIIcons.json ./GlyphMaps
-cp ../icon-font/BrightlayerUIIcons.ttf ./Fonts
+cp ../icon-font/BrightlayerUIIcons.json ./glyphmaps
+cp ../icon-font/BrightlayerUIIcons.ttf ./fonts
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Compiling typescript...${NC}"
-tsc --p tsconfig.lib.json
+tsc --p tsconfig.build.json
+cp lib/src/* lib/
+rm -rf lib/src
+rm -rf lib/glyphmaps
 echo -e "${BLUE}Done${NC}"
 
 echo -e "\r\n${GREEN}-----------------------------------"

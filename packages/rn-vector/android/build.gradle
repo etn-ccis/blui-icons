@@ -1,49 +1,60 @@
-buildscript {
-  // The Android Gradle plugin is only required when opening the android folder stand-alone.
-  // This avoids unnecessary downloads and potential conflicts when the library is included as a
-  // module dependency in an application project.
-  if (project == rootProject) {
-    repositories {
-      mavenCentral()
-      google()
-    }
+// NOTE:This file was generated from packages/generator-react-native-vector-icons/src/app/templates
+// If you're contributing to react-native-vector-icons, make the change there, otherwise it'll be lost
 
-    dependencies {
-      classpath("com.android.tools.build:gradle:3.5.3")
-    }
-  }
+def isNewArchitectureEnabled() {
+  return rootProject.hasProperty("newArchEnabled") && rootProject.getProperty("newArchEnabled") == "true"
 }
 
-apply plugin: 'com.android.library'
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
 
-def safeExtGet(prop, fallback) {
-    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+if (isNewArchitectureEnabled()) {
+  apply plugin: "com.facebook.react"
 }
 
+def supportsNamespace() {
+  def parsed = com.android.Version.ANDROID_GRADLE_PLUGIN_VERSION.tokenize('.')
+  def major = parsed[0].toInteger()
+  def minor = parsed[1].toInteger()
+
+  // Namespace support was added in 7.3.0
+  return (major == 7 && minor >= 3) || major >= 8
+}
 
 android {
-  compileSdkVersion safeExtGet('compileSdkVersion', 28)
-  
-  defaultConfig {
-    minSdkVersion safeExtGet('minSdkVersion', 16)
-    targetSdkVersion safeExtGet('targetSdkVersion', 28)
-    versionCode 1
-    versionName "1.0"
-  }
-  lintOptions {
-    abortOnError false
-  }
-}
+  if (supportsNamespace()) {
+    namespace "com.reactnativevectoricons.rnvector"
 
-repositories {
-    mavenLocal()
-    google()
-    maven {
-        // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
-        url "$rootDir/../node_modules/react-native/android"
+    sourceSets {
+      main {
+        manifest.srcFile "src/main/AndroidManifestNew.xml"
+      }
     }
+  }
+
+  compileSdkVersion 31
 }
 
 dependencies {
   implementation "com.facebook.react:react-native:+"
 }
+
+if (isNewArchitectureEnabled()) {
+  react {
+    jsRootDir = file("../src/")
+    libraryName = "VectorIconsRnVector"
+    codegenJavaPackageName = "com.reactnativevectoricons.rnvector"
+  }
+}
+
+android.sourceSets.main.assets.srcDirs += file("$buildDir/intermediates/RNVI-rnvector")
+
+task copyFonts(type: Copy) {
+  from "../fonts"
+  include "*.ttf"
+
+  into "${buildDir}/intermediates/RNVI-rnvector/fonts"
+  eachFile { println "(RNVI:rnvector) Copying font ${it.file}" }
+}
+
+preBuild.dependsOn(copyFonts)
