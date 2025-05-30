@@ -18,7 +18,7 @@ echo -e "${BLUE}Done${NC}"
 # echo -e "${BLUE}Done${NC}"
 
 echo -ne "Copying latest icon font and glyph map...${NC}"
-cp ../icon-font/BrightlayerUIIcons.json ./glyphMaps
+cp ../icon-font/BrightlayerUIIcons.json ./glyphmaps
 cp ../icon-font/BrightlayerUIIcons.ttf ./fonts
 echo -e "${BLUE}Done${NC}"
 
