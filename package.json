@@ -6,7 +6,8 @@
         "packages/icon-font",
         "packages/mui",
         "packages/rn-vector",
-        "demos/react-demo"
+        "demos/react-demo",
+        "packages/material-symbols"
     ],
     "scripts": {
         "update:demo": "node ./scripts/updateDemoDependencies.js",

@@ -1,0 +1,81 @@
+{
+    "name": "@brightlayer-ui/material-symbols",
+    "version": "1.0.0",
+    "description": "Brightlayer UI Material symbols vector icons for use in React Native projects, based on react-native-vector-icons",
+    "main": "lib/index.js",
+    "files": [
+        "src",
+        "lib",
+        "glyphmaps",
+        "fonts",
+        "android",
+        "ios",
+        "cpp",
+        "*.podspec",
+        "!ios/build",
+        "!android/build",
+        "!android/gradle",
+        "!android/gradlew",
+        "!android/gradlew.bat",
+        "!android/local.properties",
+        "!**/__tests__",
+        "!**/__fixtures__",
+        "!**/__mocks__",
+        "!**/.*"
+    ],
+    "scripts": {
+        "generate:glyphmaps": "node ./scripts/generateGlyphmaps.js",
+        "test": "echo \"No test specified yet\" && exit 0",
+        "build": "yarn && bash ./scripts/buildIcons.sh",
+        "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
+        "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
+        "publish:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
+        "tag:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s -blui-react-native-vector-icons"
+    },
+    "bugs": {
+        "url": "https://github.com/etn-ccis/blui-icons/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/etn-ccis/blui-icons.git",
+        "baseUrl": "https://github.com/etn-ccis/blui-icons/tree/master",
+        "directory": "packages/material-symbols"
+    },
+    "homepage": "https://github.com/etn-ccis/blui-icons",
+    "keywords": [
+        "react-native",
+        "Brightlayer UI",
+        "brightlayer-ui",
+        "icons",
+        "vector",
+        "power",
+        "eaton"
+    ],
+    "author": {
+        "name": "Brightlayer UI",
+        "email": "brightlayer-ui@eaton.com"
+    },
+    "license": "BSD-3-Clause",
+    "licenseFilename": "LICENSE",
+    "readmeFilename": "README.md",
+    "peerDependencies": {
+        "react": ">=16.8.1",
+        "react-native": ">=0.60.0-rc.0 <1.0.x",
+        "react-native-vector-icons": "^10.2.0"
+    },
+    "devDependencies": {
+        "@brightlayer-ui/prettier-config": "^1.0.3",
+        "@types/react-native-vector-icons": "^6.4.12",
+        "cross-env": "^7.0.3",
+        "eslint-config-prettier": "^8.5.0",
+        "prettier": "^3.2.5",
+        "react": "18.1.0",
+        "react-native": "0.70.0",
+        "react-native-vector-icons": "^10.2.0",
+        "typescript": "^4.8.3"
+    },
+    "prettier": "@brightlayer-ui/prettier-config",
+    "dependencies": {
+        "@react-native-vector-icons/common": "^12.0.0"
+    }
+}
