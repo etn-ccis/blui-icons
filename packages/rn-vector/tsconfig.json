@@ -1,17 +1,29 @@
 {
-    "compilerOptions": {
-        "allowSyntheticDefaultImports": true,
-        "declaration": true,
-        "esModuleInterop": true,
-        "jsx": "react",
-        "lib": ["es6"],
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "noEmit": false,
-        "strict": true,
-        "skipLibCheck": true,
-        "target": "esnext",
-        "resolveJsonModule": true
-    },
-    "include": ["./index.ts"]
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "lib",
+    "declaration": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "lib": ["ES6"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules", "dist", "lib"]
 }
