@@ -1,6 +1,6 @@
 # Changelog
 
-## v3.6.1 (May 28, 2025)
+## v3.6.1 (May 30, 2025)
 
 ### Changed
 
