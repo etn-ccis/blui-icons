@@ -1,6 +1,3 @@
-# NOTE:This file was generated from packages/generator-react-native-vector-icons/src/app/templates
-# If you're contributing to react-native-vector-icons, make the change there, otherwise it'll be lost
-
 require 'json'
 
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))

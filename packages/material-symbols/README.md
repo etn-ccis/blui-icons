@@ -1,1 +1,1 @@
-# material-symbols
+# Brightlayer UI Material Symbols

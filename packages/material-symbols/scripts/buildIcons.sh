@@ -5,7 +5,7 @@ BLUE='\033[0;34m'
 GRAY='\033[1;30m'
 NC='\033[0m' # No Color
 
-echo "Building new RN-Material-Symbols-vector-icon-style icons..."
+echo "Building new RNBLUI-Material-Symbols-vector-icon-style icons..."
 
 echo -ne "${BLUE}Clearing existing Font folder...${NC}"
 rm -rf lib/*
@@ -30,7 +30,7 @@ rm -rf lib/glyphmaps
 echo -e "${BLUE}Done${NC}"
 
 echo -e "\r\n${GREEN}-----------------------------------"
-echo -e "RNBLUIVectorIcons package successfully created"
+echo -e "RNBLUIMaterialSymbolsVectorIcons package successfully created"
 echo -e "-----------------------------------${NC}\r\n\r\n"
 
 exit 0
