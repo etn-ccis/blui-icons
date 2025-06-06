@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-console.log('Generating glyphmaps...');
+console.log('\x1b[33m%s\x1b[0m', 'Generating glyphmaps...');
 
 const codepoints = fs.readFileSync('./glyphmaps/MaterialSymbolsOutlined.codepoints', { encoding: 'utf8' }).split('\n');
 
@@ -14,4 +14,4 @@ codepoints.forEach((point) => {
 
 fs.writeFileSync('./glyphmaps/MaterialSymbols.json', JSON.stringify(glyphMap, null, 4), 'utf8');
 
-console.log('Generating glyphmaps: COMPLETE');
+console.log('\x1b[32m', 'Generating glyphmaps: COMPLETE');
