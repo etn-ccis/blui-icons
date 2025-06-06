@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.summary      = package["description"]
   s.homepage     = package['homepage']
   s.license      = package['license']
-  s.authors      = package['author'] || package['authors'] || { "Brightlayer UI" => "brightlayer-ui@eaton.com" }
+  s.authors      = package['author']
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => package['repository']['url'].gsub('git+ssh://git@', 'https://').gsub('git+https://', 'https://').gsub('git@', 'https://').gsub(':', '/'), :tag => "#{s.version}" }
+  s.source       = { :git => package['repository']['url'], :tag => "#{s.version}" }
   s.resources      = ["Fonts/*.ttf"]
   s.requires_arc = true
   s.dependency "React"
