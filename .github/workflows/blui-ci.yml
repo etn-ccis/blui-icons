@@ -53,7 +53,7 @@ jobs:
             - run: yarn
             - run: yarn build
             - run: yarn test
-            - run: yarn build-app
+            - run: NODE_OPTIONS="--max_old_space_size=6144" yarn build-app
               working-directory: demos/react-demo
             - name: Save icon-font build
               uses: actions/upload-artifact@v4
