@@ -1,8 +1,9 @@
 import React from 'react';
 // import * as Icons from '@brightlayer-ui/icons-mui';
-import { Box, Grid, SxProps } from '@mui/material';
+import { Box, SxProps } from '@mui/material';
 import { Theme } from '@mui/material/styles';
 // import camelCase from 'camelcase';
+import Grid from '@mui/material/Grid';
 
 const meta = require('@brightlayer-ui/icons-mui/index.json');
 
@@ -32,7 +33,7 @@ const styles: { [key: string]: SxProps<Theme> } = {
 
 export const FontPage: React.FC = () => (
     <>
-        <Grid container spacing={2} sx={styles.container}>
+        <Grid container sx={styles.container}>
             {sorted.map(
                 (
                     icon: any //{
@@ -40,7 +41,7 @@ export const FontPage: React.FC = () => (
                     //@ts-ignore
                     // const Component = Icons[camelCase(icon.filename.replace('.svg', ''), { pascalCase: true })];
                     // return (
-                    <Grid item xs={2} key={icon.filename} sx={styles.gridItem}>
+                    <Grid size={2} key={icon.filename} sx={styles.gridItem}>
                         <Box sx={styles.iconWrapper}>
                             {/* <Component sx={styles.icon} /> */}
                             <i

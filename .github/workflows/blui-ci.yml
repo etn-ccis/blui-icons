@@ -21,7 +21,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
 
         steps:
             - name: Checkout
@@ -40,7 +40,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
 
         steps:
             - name: Checkout
@@ -53,7 +53,8 @@ jobs:
             - run: yarn
             - run: yarn build
             - run: yarn test
-            - run: yarn build-app
+            - run: yarn cache clean
+            - run: NODE_OPTIONS="--max_old_space_size=8192" GENERATE_SOURCEMAP=false yarn build-app
               working-directory: demos/react-demo
             - name: Save icon-font build
               uses: actions/upload-artifact@v4
@@ -86,7 +87,7 @@ jobs:
         needs: build_test_icons_library
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
@@ -111,7 +112,7 @@ jobs:
         needs: build_test_icons_library
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
@@ -136,7 +137,7 @@ jobs:
         needs: build_test_icons_library
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
@@ -161,7 +162,7 @@ jobs:
         needs: build_test_icons_library
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
