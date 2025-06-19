@@ -1,5 +1,11 @@
 # Changelog
 
+# v4.0.0 (Unreleased)
+
+### Changed
+
+- Upgraded `@mui/material` dependency to version v7.
+
 ## v3.6.1 (May 30, 2025)
 
 ### Changed
