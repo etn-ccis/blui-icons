@@ -4,7 +4,7 @@
 
 ### Changed
 
-- Upgraded `@mui/material` dependency to version v7.
+-   Upgraded `@mui/material` dependency to version v7.
 
 ## v3.6.1 (May 30, 2025)
 
