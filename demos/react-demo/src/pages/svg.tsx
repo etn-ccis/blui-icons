@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Grid, SxProps } from '@mui/material';
+import { Box, SxProps } from '@mui/material';
+import Grid from '@mui/material/Grid';
 import { Theme } from '@mui/material/styles';
 import EatonLogo from '@brightlayer-ui/icons-svg/eaton.svg';
 import EatonLogoWithTagline from '@brightlayer-ui/icons-svg/eaton_tagline.svg';
@@ -97,9 +98,9 @@ const styles: { [key: string]: SxProps<Theme> } = {
 
 export const SvgPage: React.FC = () => (
     <>
-        <Grid container spacing={2} sx={styles.container}>
+        <Grid container sx={styles.container}>
             {sorted.map((icon: any) => (
-                <Grid item xs={2} key={icon.filename} sx={styles.gridItem}>
+                <Grid size={2} key={icon.filename} sx={styles.gridItem}>
                     <Box sx={styles.iconWrapper}>
                         <img src={icon.icon} />
                         <Box sx={styles.iconName}>{icon.filename}</Box>
