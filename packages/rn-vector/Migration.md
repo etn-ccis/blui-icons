@@ -1,6 +1,6 @@
 # Migration from v2 to v3
 
-Going forward in v3 for monorepo setup for android environment we would no longer be require to manually set the fonts path.
+Going forward in v3 for monorepo setups on Android, it will no longer be necessary to manually set the fonts path.
 
 ```diff
 
