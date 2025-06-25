@@ -1969,7 +1969,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/react-native-vector-icons@^2.0.0, @brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
+"@brightlayer-ui/react-native-vector-icons@npm:^2.0.0":
+  version: 2.4.0
+  resolution: "@brightlayer-ui/react-native-vector-icons@npm:2.4.0"
+  peerDependencies:
+    react: ">=16.8.1"
+    react-native: ">=0.60.0-rc.0 <1.0.x"
+    react-native-vector-icons: ^9.2.0
+  checksum: 1dca63fe92f333065b07d1626d3d52021cf6a74e176022fd11e4bf56a0c91dab4b4e903280a8dcc38aba28f77c203fa4c4ad4a7f98a9400bafd2cfec671418e0
+  languageName: node
+  linkType: hard
+
+"@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector"
   dependencies:
