@@ -42,6 +42,9 @@ jobs:
             matrix:
                 node-version: [18.x]
 
+        env:
+            NODE_OPTIONS: --max-old-space-size=8192
+
         steps:
             - name: Checkout
               uses: actions/checkout@v4
@@ -51,9 +54,11 @@ jobs:
                   node-version: ${{ matrix.node-version }}
                   cache: 'yarn'
             - run: yarn
+            - name: Clean
+              run: yarn clean || rm -rf dist build
             - run: yarn build
             - run: yarn test
-            - run: NODE_OPTIONS="--max-old-space-size=8192" yarn build-app
+            - run: yarn build-app
               working-directory: demos/react-demo
             - name: Save icon-font build
               uses: actions/upload-artifact@v4
