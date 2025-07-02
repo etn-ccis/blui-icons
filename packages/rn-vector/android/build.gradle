@@ -1,6 +1,3 @@
-// NOTE:This file was generated from packages/generator-react-native-vector-icons/src/app/templates
-// If you're contributing to react-native-vector-icons, make the change there, otherwise it'll be lost
-
 def isNewArchitectureEnabled() {
   return rootProject.hasProperty("newArchEnabled") && rootProject.getProperty("newArchEnabled") == "true"
 }

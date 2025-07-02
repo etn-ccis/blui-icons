@@ -54,6 +54,7 @@ Edit `android/app/build.gradle` ( NOT `android/build.gradle` ) and remove the fo
 ```diff
 - apply from: "../../node_modules/@brightlayer-ui/react-native-vector-icons/fonts.gradle"
 ```
+
 ## Installation for Expo
 
 To install the Brightlayer UI React Native Vector Icons in your Expo project, run the following command in your project root:
@@ -76,18 +77,16 @@ You need to use [`prebuild`](https://docs.expo.dev/workflow/prebuild/), to be ab
 
 ```js
 module.exports = {
-  expo: {
-    plugins: [
-      [
-        "expo-font",
-        {
-          fonts: [
-            "./node_modules/@brightlayer-ui/react-native-vector-icons/Fonts/BrightlayerUIIcons.ttf",
-          ],
-        },
-      ],
-    ],
-  },
+    expo: {
+        plugins: [
+            [
+                'expo-font',
+                {
+                    fonts: ['./node_modules/@brightlayer-ui/react-native-vector-icons/Fonts/BrightlayerUIIcons.ttf'],
+                },
+            ],
+        ],
+    },
 };
 ```
 
@@ -132,7 +131,6 @@ If you need to remove the icon font from your iOS project:
 1. Open your workspace in Xcode.
 2. In the project navigator, locate the `fonts` folder under `Resources`.
 3. Delete the reference to `BrightlayerUIIcons.ttf`.
-
 
 #### Migration Guide
 
