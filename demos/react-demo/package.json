@@ -27,7 +27,7 @@
     },
     "scripts": {
         "start": "yarn update:demo && yarn && react-scripts start",
-        "build-app": "react-scripts build",
+        "build-app": "NODE_OPTIONS='--max-old-space-size=8192' react-scripts build",
         "test": "react-scripts test --passWithNoTests --watchAll=false",
         "eject": "react-scripts eject",
         "lint": "eslint \"src/**/**.{ts,tsx}\"",
