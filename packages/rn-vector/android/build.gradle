@@ -1,6 +1,24 @@
 // NOTE:This file was generated from packages/generator-react-native-vector-icons/src/app/templates
 // If you're contributing to react-native-vector-icons, make the change there, otherwise it'll be lost
 
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:7.0.4") // Use your required version
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10") // Or your Kotlin version
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
 def isNewArchitectureEnabled() {
   return rootProject.hasProperty("newArchEnabled") && rootProject.getProperty("newArchEnabled") == "true"
 }
