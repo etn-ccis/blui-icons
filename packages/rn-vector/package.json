@@ -1,7 +1,7 @@
 {
     "name": "@brightlayer-ui/react-native-vector-icons",
     "title": "React Native Brightlayer UI Vector Icons",
-    "version": "3.0.0-alpha.3",
+    "version": "3.0.0-alpha.4",
     "description": "Brightlayer UI vector icons for use in React Native projects, based on react-native-vector-icons",
     "main": "lib/index.js",
     "files": [
@@ -9,7 +9,7 @@
         "CHANGELOG.md",
         "fonts.gradle",
         "Fonts/**/*",
-        "GlypMmaps/**/*",
+        "GlyphMaps/**/*",
         "src",
         "index.js",
         "index.d.ts",
