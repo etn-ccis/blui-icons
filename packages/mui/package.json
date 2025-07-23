@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons-mui",
-    "version": "3.6.1",
+    "version": "4.0.0",
     "description": "Brightlayer UI icons for MUI",
     "main": "./index.js",
     "repository": {
@@ -10,8 +10,8 @@
     "author": "Brightlayer UI <brightlayer-ui@eaton.com>",
     "license": "BSD-3-Clause",
     "peerDependencies": {
-        "@mui/icons-material": "^5.0.0 || ^6.0.0",
-        "@mui/material": "^5.0.0 || ^6.0.0"
+        "@mui/icons-material": "^7.1.1",
+        "@mui/material": "^7.1.1"
     },
     "scripts": {
         "clear:dist": "rimraf dist && mkdir dist",

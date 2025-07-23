@@ -28,6 +28,7 @@ export const NavigationDrawer: React.FC = () => {
         <Drawer
             open={drawerOpen}
             ModalProps={{
+                //@ts-ignore
                 onBackdropClick: (): void => {
                     setDrawerOpen(false);
                 },

@@ -4,7 +4,7 @@
 
 This package allows you to use Brightlayer UI supplemental icons in the same way as you use [react-native-vector-icons](https://www.npmjs.com/package/react-native-vector-icons) for Material Icons.
 
-## Installation
+## Installation for RN CLI
 
 To install the Brightlayer UI react native vector icons from NPM as a dependency for your project, you can run one of the following commands in your project root:
 
@@ -26,17 +26,17 @@ yarn add react-native-vector-icons
 
 #### iOS
 
-To use this package in iOS projects, the native modules will need to be linked (this will be very familiar after you have linked the native modules for RNVI). We recommend doing this via CocoaPods:
+To use this package in iOS projects, Edit your `Info.plist`
 
-Add the following to your `Podfile`:
+-   Under the "UIAppFonts" key, add an entry for BrightlayerUIIcons.ttf.
 
 ```
-pod 'RNBLUIVectorIcons', :path => '../node_modules/@brightlayer-ui/react-native-vector-icons'
+<key>UIAppFonts</key>
+<array>
+  <string>BrightlayerUIIcons.ttf</string>
+</array>
+
 ```
-
-Edit your `Info.plist`
-
--   Under the "Fonts Provided By Application" property (which you should have added when setting up RNVI), add an entry for BrightlayerUIIcons.ttf.
 
 After updating these files you will need to install the Pods and recompile your application:
 
@@ -47,27 +47,94 @@ pod install
 
 #### Android
 
-To use this package in Android projects, you need to make the icon font available in your application (this will be very familiar after you have linked the fonts for RNVI). We recommend doing this via Gradle:
+To use this package in Android projects, if you had previously provided the path for fonts.gradle under build.gradle you need to remove this path now:
 
-Edit `android/app/build.gradle` ( NOT `android/build.gradle` ) and add the following:
-
-```
-apply from: "../../node_modules/@brightlayer-ui/react-native-vector-icons/fonts.gradle"
-```
-
-##### Mono-repo configuration
-
-If you need to restrict which icon libraries are included or point to a different node module location other than the default (e.g., if you are using this inside of a monorepo with hoisted dependencies), you will need to update the path to the `fonts.gradle` file above and specify the following in your `project.ext.vectoricons` configuration (refer to react-native-vector-icons [setup](https://github.com/oblador/react-native-vector-icons?tab=readme-ov-file#android-setup)):
+Edit `android/app/build.gradle` ( NOT `android/build.gradle` ) and remove the following:
 
 ```diff
-project.ext.vectoricons = [
-  iconFontsDir: "../../../../node_modules/react-native-vector-icons/Fonts",
-  iconFontNames: ["YourFont.ttf", "..."]
-+ bluiIconFontsDir: "../../../../node_modules/@brightlayer-ui/react-native-vector-icons/Fonts",
-]
+- apply from: "../../node_modules/@brightlayer-ui/react-native-vector-icons/fonts.gradle"
 ```
 
-> NOTE: You may need to adjust the relative path to point to the actual location of your `node_modules` folder depending on your project setup.
+## Installation for Expo
+
+To install the Brightlayer UI React Native Vector Icons in your Expo project, run the following command in your project root:
+
+```sh
+yarn add @brightlayer-ui/react-native-vector-icons
+```
+
+## Setup guide for Expo Apps
+
+`react-native-vector-icons` supports Expo, and no further steps are required for native platforms, but you can optionally follow the steps below to set up the font config plugin.
+
+### Set up font config plugin
+
+This is optional but recommended because through the config plugin, the icon font will be available in the app since build time, rather than being loaded at runtime - [see more](https://docs.expo.dev/develop/user-interface/fonts/#with-expo-font-config-plugin).
+
+You need to use [`prebuild`](https://docs.expo.dev/workflow/prebuild/), to be able to use config plugins.
+
+1. In your app.config.json / js, add the following:
+
+```js
+module.exports = {
+    expo: {
+        plugins: [
+            [
+                'expo-font',
+                {
+                    fonts: ['./node_modules/@brightlayer-ui/react-native-vector-icons/Fonts/BrightlayerUIIcons.ttf'],
+                },
+            ],
+        ],
+    },
+};
+```
+
+2. Run `npx expo prebuild`.
+3. Rebuild the app: `npx expo run:ios` or `npx expo run:android`.
+
+### How to Fix iOS Issues
+
+If you encounter issues with iOS builds, follow these steps to clean your environment and resolve common problems:
+
+#### Clean Derived Data and iOS Build Artifacts
+
+From your project root, run:
+
+```sh
+rm -rf ios/build
+rm -rf ios/Pods
+rm -rf ios/Podfile.lock
+cd ios
+pod install
+cd ..
+```
+
+Clean Xcode derived data:
+
+```sh
+rm -rf ~/Library/Developer/Xcode/DerivedData
+```
+
+#### Regenerate Codegen Files (Expo Managed Workflow)
+
+If you are using Expo prebuild (managed workflow), run:
+
+```sh
+npx expo prebuild --clean
+```
+
+#### Remove Font from iOS
+
+If you need to remove the icon font from your iOS project:
+
+1. Open your workspace in Xcode.
+2. In the project navigator, locate the `fonts` folder under `Resources`.
+3. Delete the reference to `BrightlayerUIIcons.ttf`.
+
+#### Migration Guide
+
+Follow this migration guide to know more about [migration](./Migration.md)
 
 ## Usage
 
