@@ -2,9 +2,9 @@
 
 ## v3.0.0 (July 23, 2025)
 
-### Changed 
+### Changed
 
--  Updated package structure to follow Oblador conventions for improved organization and maintainability.
+-   Updated package structure to follow Oblador conventions for improved organization and maintainability.
 
 ## v2.4.0 (May 17, 2024)
 
