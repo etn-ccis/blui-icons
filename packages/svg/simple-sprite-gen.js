@@ -48,7 +48,9 @@ async function generateSprites(dictionary) {
         for (const [iconName, filePath] of Object.entries(icons)) {
             try {
                 const svgContent = await readFile(filePath, 'utf8');
-                spriter.add(filePath, iconName, svgContent);
+                // Use just the filename and sanitize the icon name for SVG ID
+                const sanitizedIconName = iconName.replace(/[^a-zA-Z0-9_-]/g, '_');
+                spriter.add(path.basename(filePath), sanitizedIconName, svgContent);
             } catch (error) {
                 console.warn(`Warning: Could not read ${filePath}:`, error.message);
             }
