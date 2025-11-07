@@ -453,4 +453,33 @@ export enum WeatherIcon {
     theme_light_dark = 'weather.svg#theme_light_dark',
 }
 
-export type BluiIcon = DevicesIcon | DeviceIcon | SportsIcon | LightingIcon | StatusIcon | ToggleIcon | IndustrialIcon | AgricultureIcon | MapsIcon | VehiclesIcon | PlatformIcon | TransportationIcon | CommunicationIcon | PPEIcon | StatusIcon | IndustrialIcon | DeviceIcon | PpeIcon | PlatformsIcon | GeneralIcon | GeneralIcon | SystemIcon | CompaniesIcon | DevicesIcon | ToolsIcon | CompaniesIcon | ToolsIcon | ResidentialIcon | WeatherIcon;
+export type BluiIcon =
+    | DevicesIcon
+    | DeviceIcon
+    | SportsIcon
+    | LightingIcon
+    | StatusIcon
+    | ToggleIcon
+    | IndustrialIcon
+    | AgricultureIcon
+    | MapsIcon
+    | VehiclesIcon
+    | PlatformIcon
+    | TransportationIcon
+    | CommunicationIcon
+    | PPEIcon
+    | StatusIcon
+    | IndustrialIcon
+    | DeviceIcon
+    | PpeIcon
+    | PlatformsIcon
+    | GeneralIcon
+    | GeneralIcon
+    | SystemIcon
+    | CompaniesIcon
+    | DevicesIcon
+    | ToolsIcon
+    | CompaniesIcon
+    | ToolsIcon
+    | ResidentialIcon
+    | WeatherIcon;
