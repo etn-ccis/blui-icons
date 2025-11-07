@@ -389,6 +389,7 @@ export { default as Switchgear } from './Switchgear';
 export { default as Technician } from './Technician';
 export { default as Temp } from './Temp';
 export { default as Tennis } from './Tennis';
+export { default as ThemeLightDark } from './ThemeLightDark';
 export { default as ToggleOff } from './ToggleOff';
 export { default as ToggleOffOutlined } from './ToggleOffOutlined';
 export { default as ToggleOn } from './ToggleOn';

@@ -1886,7 +1886,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@1.15.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1900,6 +1900,13 @@ __metadata:
     typescript: ^5.9.3
   languageName: unknown
   linkType: soft
+
+"@brightlayer-ui/icons-svg@npm:1.15.0":
+  version: 1.15.0
+  resolution: "@brightlayer-ui/icons-svg@npm:1.15.0"
+  checksum: 6f8a0b4657effb82bdd6d8fc6154319a4e9e6a8fe12afcc5008609eee535aeac7daf90636d7b62d63b515b3db2474a52e427c6caf738eb304b63c66e4adebc9c
+  languageName: node
+  linkType: hard
 
 "@brightlayer-ui/icons@2.4.0-alpha.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
