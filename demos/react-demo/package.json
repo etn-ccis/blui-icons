@@ -5,8 +5,8 @@
     "dependencies": {
         "@brightlayer-ui/colors": "^4.0.0",
         "@brightlayer-ui/icons": "2.4.0-alpha.0",
-        "@brightlayer-ui/icons-mui": "4.0.0-alpha.0",
-        "@brightlayer-ui/icons-svg": "1.15.0",
+        "@brightlayer-ui/icons-mui": "4.0.0",
+        "@brightlayer-ui/icons-svg": "1.15.1",
         "@brightlayer-ui/react-components": "^6.2.0",
         "@brightlayer-ui/react-native-vector-icons": "^2.0.0",
         "@brightlayer-ui/react-themes": "^7.0.0",

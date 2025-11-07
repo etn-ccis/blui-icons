@@ -13,6 +13,7 @@ import Maintenance from '@brightlayer-ui/icons-svg/maintenance.svg';
 import MapMarkerMultiple from '@brightlayer-ui/icons-svg/map_marker_multiple.svg';
 import XStorage from '@brightlayer-ui/icons-svg/xstorage.svg';
 import XStorageAlt from '@brightlayer-ui/icons-svg/xstorage_alt.svg';
+import ThemeLightDark from '@brightlayer-ui/icons-svg/theme_light_dark.svg';
 
 const svgIcons = [
     {
@@ -69,6 +70,11 @@ const svgIcons = [
         name: 'xStorage Alt',
         filename: 'xstorage_alt.svg',
         icon: XStorageAlt,
+    },
+    {
+        name: 'Theme Light Dark',
+        filename: 'theme_light_dark.svg',
+        icon: ThemeLightDark,
     },
 ];
 
