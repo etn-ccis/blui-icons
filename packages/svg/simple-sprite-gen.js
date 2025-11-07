@@ -1,8 +1,6 @@
 const { readFile, writeFile, mkdir } = require('node:fs/promises');
 const path = require('node:path');
 const SVGSpriter = require('svg-sprite');
-const cheerio = require('cheerio');
-const { glob } = require('glob');
 
 const OUT_PATH = 'sprites/';
 const BLUI_SVG_INDEX = 'index.json';
