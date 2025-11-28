@@ -32,7 +32,8 @@ export type BluiIcon =
     | BluiIcons.Toggle
     | BluiIcons.Tools
     | BluiIcons.Transportation
-    | BluiIcons.Vehicles;
+    | BluiIcons.Vehicles
+    | BluiIcons.Weather;
 export declare namespace BluiIcons {
     enum Action {
         _123 = 'action.svg#123',
@@ -2634,5 +2635,8 @@ export declare namespace BluiIcons {
         SportsCar = 'vehicles.svg#sports_car',
         Tractor = 'vehicles.svg#tractor',
         UtilityVan = 'vehicles.svg#utility_van',
+    }
+    enum Weather {
+        ThemeLightDark = 'weather.svg#theme_light_dark',
     }
 }

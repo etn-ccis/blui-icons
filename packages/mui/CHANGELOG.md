@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.1.0 (November 28, 2025)
+
+### Added
+
+-   New icon: Theme Light Dark.
+
 # v4.0.0 (July 23, 2025)
 
 ### Changed

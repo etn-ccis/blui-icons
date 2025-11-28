@@ -4444,6 +4444,15 @@
             ],
             "author": "Google",
             "size": 24
+        },
+        {
+            "name": "Theme Light Dark",
+            "filename": "theme_light_dark.svg",
+            "family": ["Weather"],
+            "style": "baseline",
+            "tags": ["theme", "mode", "setting", "preference", "light", "dark"],
+            "author": "Google",
+            "size": 24
         }
     ]
 }

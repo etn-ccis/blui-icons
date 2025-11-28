@@ -2635,4 +2635,8 @@ export var BluiIcons;
         Vehicles['Tractor'] = 'vehicles.svg#tractor';
         Vehicles['UtilityVan'] = 'vehicles.svg#utility_van';
     })((Vehicles = BluiIcons.Vehicles || (BluiIcons.Vehicles = {})));
+    var Weather;
+    (function (Weather) {
+        Weather['ThemeLightDark'] = 'weather.svg#theme_light_dark';
+    })((Weather = BluiIcons.Weather || (BluiIcons.Weather = {})));
 })(BluiIcons || (BluiIcons = {}));
