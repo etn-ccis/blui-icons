@@ -15,7 +15,7 @@
         "clear:fonts": "rimraf BrightlayerUIIcons.* && exit 0",
         "generate:fonts": "fantasticon ./svg -o ./ -n BrightlayerUIIcons -p blui -t ttf -t woff -t woff2 -t eot -t svg --normalize --font-height 300",
         "build": "yarn clear:fonts && yarn copy:core && yarn generate:fonts && yarn clear:core",
-        "prettier": "prettier \".md\" --write",
+        "prettier": "prettier \"*.md\" --write",
         "prettier:check": "prettier \"*.md\" --check",
         "publish:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
         "tag:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s blui-icons",

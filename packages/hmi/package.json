@@ -21,8 +21,8 @@
         "copy:meta": "cp package.json dist/package.json && cp README.md dist/README.md && cp LICENSE dist/LICENSE && cp CHANGELOG.md dist/CHANGELOG.md",
         "compile": "tsc -p ./tsconfig.lib.json",
         "build": "yarn clear:dist && rimraf tsx/* && yarn copy:core && yarn generate:core && yarn clear:core && yarn compile && yarn copy:meta",
-        "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
-        "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
+        "prettier": "prettier \"**/*.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
+        "prettier:check": "prettier \"**/*.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
         "publish:package": "cd dist && cross-env npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",
         "tag:package": "cd dist && cross-env npm_config_yes=true && npx -p @brightlayer-ui/tag blui-tag -s -blui-icons-hmi",
         "test": "./scripts/buildTest.sh"
