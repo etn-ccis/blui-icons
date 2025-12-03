@@ -1749,7 +1749,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-hmi@workspace:packages/hmi"
   dependencies:
-    "@brightlayer-ui/icons-svg": ^1.11.0
     "@svgr/cli": ^6.5.1
     cross-env: ^7.0.3
     rimraf: ^5.0.5
