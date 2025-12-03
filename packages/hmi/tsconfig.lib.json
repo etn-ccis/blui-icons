@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "types": ["node"],
+        "declaration": true,
+        "skipLibCheck": true
+    },
+    "exclude": ["**/*.test.tsx"]
+}
