@@ -6,5 +6,5 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
--   Initial release of HMI icons package
--   Added `lock_unlocked` icon for HMI applications
+- Initial release of HMI icons package
+- Added `lock_unlocked` icon for HMI applications

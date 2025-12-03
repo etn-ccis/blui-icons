@@ -3,7 +3,8 @@
     "compilerOptions": {
         "outDir": "./dist",
         "types": ["node"],
-        "declaration": true
+        "declaration": true,
+        "skipLibCheck": true
     },
     "exclude": ["**/*.test.tsx"]
 }

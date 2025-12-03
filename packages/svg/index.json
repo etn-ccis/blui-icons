@@ -4566,7 +4566,7 @@
         },
         {
             "name": "EV Station Alternate",
-            "filename": "ev _station_alternate.svg",
+            "filename": "ev_station_alternate.svg",
             "family": ["HMI"],
             "style": "baseline",
             "tags": ["ev", "electric", "vehicle", "station", "charging", "charger", "hmi"],

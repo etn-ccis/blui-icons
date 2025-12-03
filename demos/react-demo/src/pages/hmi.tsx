@@ -38,29 +38,30 @@ export const HmiPage: React.FC = () => (
                 const componentName = icon.filename
                     .replace('.svg', '')
                     .split('_')
-                    .map((s: string) => (
-                        // If the part has numbers or mixed case (like "1X", "2G", "LTE"), 
-                        // just capitalize first letter and lowercase the rest
-                        // This matches SVGR's default behavior
-                         s.charAt(0).toUpperCase() + s.slice(1).toLowerCase()
-                    ))
+                    .map(
+                        (s: string) =>
+                            // If the part has numbers or mixed case (like "1X", "2G", "LTE"),
+                            // just capitalize first letter and lowercase the rest
+                            // This matches SVGR's default behavior
+                            s.charAt(0).toUpperCase() + s.slice(1).toLowerCase()
+                    )
                     .join('')
                     .split(' ')
                     .map((s: string) => s.charAt(0).toUpperCase() + s.slice(1))
                     .join('')
                     // Now handle the special cases where we need uppercase letters preserved
-                    .replace(/(\d)x/gi, '$1X')  // 1x -> 1X
+                    .replace(/(\d)x/gi, '$1X') // 1x -> 1X
                     .replace(/(\d)g/gi, '$1G'); // 2g -> 2G, 3g -> 3G, etc.
-                
+
                 const Component =
                     //@ts-ignore
                     Icons[componentName];
-                
+
                 // Skip icons that don't have a corresponding component
                 if (!Component) {
                     return null;
                 }
-                
+
                 return (
                     <Grid size={2} key={icon.filename} sx={styles.gridItem}>
                         <Box sx={styles.iconWrapper}>
