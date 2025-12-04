@@ -1745,7 +1745,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-hmi@1.0.0, @brightlayer-ui/icons-hmi@workspace:packages/hmi":
+"@brightlayer-ui/icons-hmi@1.0.0-alpha.0, @brightlayer-ui/icons-hmi@workspace:packages/hmi":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-hmi@workspace:packages/hmi"
   dependencies:
@@ -15444,7 +15444,7 @@ __metadata:
     "@brightlayer-ui/colors": ^4.0.0
     "@brightlayer-ui/eslint-config": ^3.0.1
     "@brightlayer-ui/icons": 2.4.0-alpha.0
-    "@brightlayer-ui/icons-hmi": 1.0.0
+    "@brightlayer-ui/icons-hmi": 1.0.0-alpha.0
     "@brightlayer-ui/icons-mui": 4.1.0
     "@brightlayer-ui/icons-svg": 1.16.0
     "@brightlayer-ui/prettier-config": ^1.0.3
