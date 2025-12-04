@@ -4836,7 +4836,7 @@
         },
         {
             "name": "Signal LTE",
-            "filename": "signal_LTE.svg",
+            "filename": "signal_lte.svg",
             "family": ["HMI"],
             "style": "baseline",
             "tags": ["signal", "lte", "network", "mobile", "cellular", "hmi"],
