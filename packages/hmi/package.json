@@ -18,7 +18,7 @@
         "copy:core": "mkdir svg && cp ../../design/HMI/*.svg ./svg",
         "clear:core": "rimraf svg",
         "generate:core": "svgr --typescript --out-dir ./tsx --index-template ./templates/index-template.js --template ./templates/svgr-template.js  -- ./svg  && bash ./scripts/renameFiles.sh",
-        "copy:meta": "cp package.json dist/package.json && cp README.md dist/README.md && cp LICENSE dist/LICENSE && cp CHANGELOG.md dist/CHANGELOG.md",
+        "copy:meta": "cp package.json dist/package.json && cp README.md dist/README.md && cp LICENSE dist/LICENSE && cp CHANGELOG.md dist/CHANGELOG.md && cp index.json dist/index.json",
         "compile": "tsc -p ./tsconfig.lib.json",
         "build": "yarn clear:dist && rimraf tsx/* && yarn copy:core && yarn generate:core && yarn clear:core && yarn compile && yarn copy:meta",
         "prettier": "prettier \"**/*.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
