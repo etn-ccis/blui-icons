@@ -38,6 +38,9 @@
     "bugs": {
         "url": "https://github.com/etn-ccis/blui-icons/issues"
     },
+    "engines": {
+        "node": ">=20.0.0"
+    },
     "devDependencies": {
         "@brightlayer-ui/prettier-config": "^1.0.3",
         "@types/node": "^20",
