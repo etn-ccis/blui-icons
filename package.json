@@ -5,7 +5,6 @@
         "packages/svg",
         "packages/icon-font",
         "packages/mui",
-        "packages/hmi",
         "packages/rn-vector",
         "demos/react-demo",
         "packages/material-symbols"
@@ -37,9 +36,6 @@
     "prettier": "@brightlayer-ui/prettier-config",
     "bugs": {
         "url": "https://github.com/etn-ccis/blui-icons/issues"
-    },
-    "engines": {
-        "node": ">=20.0.0"
     },
     "devDependencies": {
         "@brightlayer-ui/prettier-config": "^1.0.3",

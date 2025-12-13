@@ -5,7 +5,6 @@
     "dependencies": {
         "@brightlayer-ui/colors": "^4.0.0",
         "@brightlayer-ui/icons": "2.4.0-alpha.0",
-        "@brightlayer-ui/icons-hmi": "1.0.0-alpha.0",
         "@brightlayer-ui/icons-mui": "4.1.0",
         "@brightlayer-ui/icons-svg": "1.16.0",
         "@brightlayer-ui/react-components": "^6.2.0",

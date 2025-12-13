@@ -28,7 +28,7 @@ yarn add react-native-vector-icons
 
 To use this package in iOS projects, Edit your `Info.plist`
 
-- Under the "UIAppFonts" key, add an entry for BrightlayerUIIcons.ttf.
+-   Under the "UIAppFonts" key, add an entry for BrightlayerUIIcons.ttf.
 
 ```
 <key>UIAppFonts</key>

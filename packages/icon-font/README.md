@@ -60,18 +60,18 @@ See the [Iconography](https://brightlayer-ui.github.io/style/iconography) on bri
 
 The icon font is a great way to include lots of icons in your application. If you only need a few, you can also check out these alternative packages:
 
-- [SVG Icons](https://www.npmjs.com/package/@brightlayer-ui/icons-svg)
-- [React Components](https://www.npmjs.com/package/@brightlayer-ui/icons-mui)
-- [React Native Vector Icons](https://www.npmjs.com/package/@brightlayer-ui/react-native-vector-icons)
+-   [SVG Icons](https://www.npmjs.com/package/@brightlayer-ui/icons-svg)
+-   [React Components](https://www.npmjs.com/package/@brightlayer-ui/icons-mui)
+-   [React Native Vector Icons](https://www.npmjs.com/package/@brightlayer-ui/react-native-vector-icons)
 
 We also have Brightlayer UI one-line symbols (ported from Brightlayer UI 1.0) available:
 
-- [SVG Symbols](https://www.npmjs.com/package/@brightlayer-ui/symbols)
-- [React Components](https://www.npmjs.com/package/@brightlayer-ui/symbols-mui)
+-   [SVG Symbols](https://www.npmjs.com/package/@brightlayer-ui/symbols)
+-   [React Components](https://www.npmjs.com/package/@brightlayer-ui/symbols-mui)
 
 Our library of dynamic progress icons has been split off into a dedicated repository:
 
-- [Progress Icons](https://github.com/etn-ccis/blui-progress-icons/tree/master)
+-   [Progress Icons](https://github.com/etn-ccis/blui-progress-icons/tree/master)
 
 # For Icon Creators
 

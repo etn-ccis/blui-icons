@@ -42,8 +42,5 @@
     "bugs": {
         "url": "https://github.com/etn-ccis/blui-icons/issues"
     },
-    "homepage": "https://github.com/etn-ccis/blui-icons#readme",
-    "engines": {
-        "node": ">=20.0.0"
-    }
+    "homepage": "https://github.com/etn-ccis/blui-icons#readme"
 }
