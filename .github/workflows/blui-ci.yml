@@ -79,12 +79,6 @@ jobs:
                   name: mui
                   if-no-files-found: error
                   path: packages/mui
-            - name: Save hmi build
-              uses: actions/upload-artifact@v4
-              with:
-                  name: hmi
-                  if-no-files-found: error
-                  path: packages/hmi
 
     publish_icon_font:
         runs-on: ubuntu-latest
@@ -186,27 +180,3 @@ jobs:
             - run: npm run publish:package -- -b ${{env.BRANCH}}
               working-directory: packages/rn-vector
 
-    publish_icons_hmi:
-        runs-on: ubuntu-latest
-        if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
-        needs: build_test_icons_library
-        strategy:
-            matrix:
-                node-version: [20.x]
-        env:
-            NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-            BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
-        steps:
-            - uses: actions/checkout@v4
-            - name: Download icons hmi package
-              uses: actions/download-artifact@v4
-              with:
-                  name: hmi
-                  path: packages/hmi
-            - uses: actions/setup-node@v4
-              with:
-                  node-version: ${{ matrix.node-version }}
-                  registry-url: 'https://registry.npmjs.org'
-            - run: yarn --immutable
-            - run: npm run publish:package -- -b ${{env.BRANCH}}
-              working-directory: packages/hmi
