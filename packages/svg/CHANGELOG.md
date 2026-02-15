@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.17.0 (February 15, 2026)
+
+### Added
+
+-   New icons: Man Off, Lock Level 1, Lock Level 1 Outline, Lock Level 2, Lock Level 2 Outline, Lock Level 3, Lock Level 3 Outline, Unlock Level 1, Unlock Level 1 Outline, Unlock Level 2, Unlock Level 2 Outline, Unlock Level 3, Unlock Level 3 Outline, Lock Open Right, Lock Open Right Outline, Unlock Right Level 1, Unlock Right Level 1 Outline, Unlock Right Level 2, Unlock Right Level 2 Outline, Unlock Right Level 3, Unlock Right Level 3 Outline, Size XS, Size S, Size M, Size L, Size XL.
+
 ## v1.16.0 (November 28, 2025)
 
 ### Added
