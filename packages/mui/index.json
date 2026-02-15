@@ -4453,6 +4453,266 @@
             "tags": ["theme", "mode", "setting", "preference", "light", "dark"],
             "author": "Google",
             "size": 24
+        },
+        {
+            "name": "Lock Level 1",
+            "filename": "lock_level_1.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "1", "one"],
+            "description": "Lock icon with access level 1",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Lock Level 1 Outline",
+            "filename": "lock_level_1_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "1", "one"],
+            "description": "Lock icon with access level 1 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Lock Level 2",
+            "filename": "lock_level_2.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "2", "two"],
+            "description": "Lock icon with access level 2",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Lock Level 2 Outline",
+            "filename": "lock_level_2_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "2", "two"],
+            "description": "Lock icon with access level 2 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Lock Level 3",
+            "filename": "lock_level_3.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "3", "three"],
+            "description": "Lock icon with access level 3",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Lock Level 3 Outline",
+            "filename": "lock_level_3_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "3", "three"],
+            "description": "Lock icon with access level 3 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Level 1",
+            "filename": "unlock_level_1.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unsecure", "🔓", "🔓 open", "1", "one"],
+            "description": "Unlock icon with access level 1",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Level 1 Outline",
+            "filename": "unlock_level_1_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unsecure", "🔓", "🔓 open", "1", "one"],
+            "description": "Unlock icon with access level 1 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Level 2",
+            "filename": "unlock_level_2.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unsecure", "🔓", "🔓 open", "2", "two"],
+            "description": "Unlock icon with access level 2",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Level 2 Outline",
+            "filename": "unlock_level_2_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unsecure", "🔓", "🔓 open", "2", "two"],
+            "description": "Unlock icon with access level 2 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Level 3",
+            "filename": "unlock_level_3.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unsecure", "🔓", "🔓 open", "3", "three"],
+            "description": "Unlock icon with access level 3",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Level 3 Outline",
+            "filename": "unlock_level_3_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unsecure", "🔓", "🔓 open", "3", "three"],
+            "description": "Unlock icon with access level 3 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Right Level 1",
+            "filename": "unlock_right_level_1.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "right", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unlocked right", "unsecure", "🔓", "🔓 open", "1", "one"],
+            "description": "Unlock right icon with access level 1",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Right Level 1 Outline",
+            "filename": "unlock_right_level_1_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "right", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unlocked right", "unsecure", "🔓", "🔓 open", "1", "one"],
+            "description": "Unlock right icon with access level 1 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Right Level 2",
+            "filename": "unlock_right_level_2.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "right", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unlocked right", "unsecure", "🔓", "🔓 open", "2", "two"],
+            "description": "Unlock right icon with access level 2",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Right Level 2 Outline",
+            "filename": "unlock_right_level_2_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "right", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unlocked right", "unsecure", "🔓", "🔓 open", "2", "two"],
+            "description": "Unlock right icon with access level 2 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Right Level 3",
+            "filename": "unlock_right_level_3.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "right", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unlocked right", "unsecure", "🔓", "🔓 open", "3", "three"],
+            "description": "Unlock right icon with access level 3",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Unlock Right Level 3 Outline",
+            "filename": "unlock_right_level_3_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access granted", "access level", "admin", "authenticate", "authorization", "authorized", "control", "key", "lock", "padlock", "password", "privacy", "privacy settings", "private", "protection", "right", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlocked", "unlocked right", "unsecure", "🔓", "🔓 open", "3", "three"],
+            "description": "Unlock right icon with access level 3 (outline)",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Lock Open Right",
+            "filename": "lock_open_right.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["access", "access control", "access granted", "access level", "authenticate", "authorization", "authorized", "control", "key", "lock", "lock open", "open", "open lock", "open right", "padlock", "password", "privacy", "privacy settings", "private", "protection", "right", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlock", "unlocked", "unlocked right", "unsecure", "🔓", "🔓 open", "🔓 open right", "🔓 unlocked"],
+            "description": "Lock open right icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Lock Open Right Outline",
+            "filename": "lock_open_right_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["access", "access control", "access granted", "access level", "authenticate", "authorization", "authorized", "control", "key", "lock", "lock open", "open", "open lock", "open right", "padlock", "password", "privacy", "privacy settings", "private", "protection", "right", "safe", "safety", "secure", "security", "unauthenticated", "unchained", "unlock", "unlocked", "unlocked right", "unsecure", "🔓", "🔓 open", "🔓 open right", "🔓 unlocked"],
+            "description": "Lock open right icon (outline)",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Size XS",
+            "filename": "size_xs.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["size", "sizing", "screen width", "height", "resolution", "pixel", "dimension", "measurement", "shirt", "clothing", "fit", "xs", "extra small", "tiny"],
+            "description": "Size extra small icon",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Size S",
+            "filename": "size_s.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["size", "sizing", "screen width", "height", "resolution", "pixel", "dimension", "measurement", "shirt", "clothing", "fit", "s", "small"],
+            "description": "Size small icon",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Size M",
+            "filename": "size_m.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["size", "sizing", "screen width", "height", "resolution", "pixel", "dimension", "measurement", "shirt", "clothing", "fit", "m", "medium", "middle", "average"],
+            "description": "Size medium icon",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Size L",
+            "filename": "size_l.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["size", "sizing", "screen width", "height", "resolution", "pixel", "dimension", "measurement", "shirt", "clothing", "fit", "l", "large", "big", "huge"],
+            "description": "Size large icon",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Size XL",
+            "filename": "size_xl.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["size", "sizing", "screen width", "height", "resolution", "pixel", "dimension", "measurement", "shirt", "clothing", "fit", "xl", "extra large", "big", "huge"],
+            "description": "Size extra large icon",
+            "author": "Eric Atha (Brightlayer UI)",
+            "size": 24
+        },
+        {
+            "name": "Man Off",
+            "filename": "man_off.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["Activity", "alert", "area", "blocked", "boundary", "corner", "cross", "denied", "detection", "disable", "disabled", "enabled", "home", "inactive", "limited", "line", "monitor", "monitoring", "nest", "off", "offline", "on", "pause", "perimeter", "person", "rectangle", "restricted", "security", "sensor", "shape", "slash", "square", "stopped", "surveillance", "unavailable", "warning", "zone"],
+            "description": "Represents restricted access for a person or area, often used in security or monitoring contexts.",
+            "author": "Huayun Huang (Brightlayer UI)",
+            "size": 24
         }
     ]
 }
