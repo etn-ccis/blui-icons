@@ -4,7 +4,7 @@ const SvgSizeXl = createSvgIcon(
     React.createElement(
         React.Fragment,
         {},
-        <path d="M6 7h2l1 2.5L10 7h2l-2 5 2 5h-2l-1-2.5L8 17H6l2-5-2-5Zm7 0h2v8h4v2h-6V7Z" fill="#727E84" />
+        <path d="M13.213 18.75H9.196l-2.505-4.017-2.478 4.017H.284l4.263-6.574L.539 5.9h3.85l2.32 3.973L8.941 5.9h3.964l-4.07 6.548 4.378 6.302ZM14.663 18.75V5.9h3.472v10.046h4.948v2.804h-8.42Z" />
     ),
     'SvgSizeXl'
 );

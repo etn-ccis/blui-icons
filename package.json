@@ -5,7 +5,6 @@
         "packages/svg",
         "packages/icon-font",
         "packages/mui",
-        "packages/hmi",
         "packages/rn-vector",
         "demos/react-demo",
         "packages/material-symbols"
