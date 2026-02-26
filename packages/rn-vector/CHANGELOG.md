@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.3.0 (February 26, 2026)
+
+### Added
+
+-   New icons: Host, Host Outline, Memory Alt, Memory Alt Outline, Protection Curve, Speed Filled, Switch Closed.
+
 ## v3.2.0 (February 15, 2026)
 
 ### Added

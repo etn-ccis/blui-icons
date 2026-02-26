@@ -4713,6 +4713,76 @@
             "description": "Represents restricted access for a person or area, often used in security or monitoring contexts.",
             "author": "Huayun Huang (Brightlayer UI)",
             "size": 24
+        },
+        {
+            "name": "Host",
+            "filename": "host.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "server", "host", "computer", "machine", "network", "hardware", "system", "infrastructure"],
+            "description": "Represents a host device or server in a network infrastructure",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Host Outline",
+            "filename": "host_outline.svg",
+            "family": ["Devices"],
+            "style": "outline",
+            "tags": ["device", "server", "host", "computer", "machine", "network", "hardware", "system", "infrastructure", "outline"],
+            "description": "Represents a host device or server in a network infrastructure (outline style)",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Memory Alt",
+            "filename": "memory_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "memory", "ram", "chip", "component", "hardware", "storage", "computer", "circuit"],
+            "description": "Alternative memory or RAM chip icon",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Memory Alt Outline",
+            "filename": "memory_alt_outline.svg",
+            "family": ["Devices"],
+            "style": "outline",
+            "tags": ["device", "memory", "ram", "chip", "component", "hardware", "storage", "computer", "circuit", "outline"],
+            "description": "Alternative memory or RAM chip icon (outline style)",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Protection Curve",
+            "filename": "protection_curve.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "protection", "curve", "electrical", "circuit", "breaker", "safety", "power", "trip"],
+            "description": "Represents protection curve settings for electrical devices",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Speed Filled",
+            "filename": "speed_filled.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "speed", "gauge", "meter", "performance", "fast", "velocity", "dashboard", "filled"],
+            "description": "Filled speed gauge or meter icon",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Switch Closed",
+            "filename": "switch_closed.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "switch", "closed", "electrical", "circuit", "on", "connected", "active", "power"],
+            "description": "Represents a closed electrical switch or circuit",
+            "author": "Brightlayer UI",
+            "size": 24
         }
     ]
 }
