@@ -458,7 +458,9 @@ export type BrightlayerUIIconsId =
   | "air_filter"
   | "air_conditioner"
   | "account_settings"
-  | "ac";
+  | "ac"
+  | "eaton_padded"
+  | "placeholder";
 
 export type BrightlayerUIIconsKey =
   | "XstorageAlt"
@@ -920,7 +922,9 @@ export type BrightlayerUIIconsKey =
   | "AirFilter"
   | "AirConditioner"
   | "AccountSettings"
-  | "Ac";
+  | "Ac"
+  | "EatonPadded"
+  | "Placeholder";
 
 export enum BrightlayerUIIcons {
   XstorageAlt = "xstorage_alt",
@@ -1383,6 +1387,8 @@ export enum BrightlayerUIIcons {
   AirConditioner = "air_conditioner",
   AccountSettings = "account_settings",
   Ac = "ac",
+  EatonPadded = "eaton_padded",
+  Placeholder = "placeholder",
 }
 
 export const BRIGHTLAYER_UI_ICONS_CODEPOINTS: { [key in BrightlayerUIIcons]: string } = {
@@ -1846,4 +1852,6 @@ export const BRIGHTLAYER_UI_ICONS_CODEPOINTS: { [key in BrightlayerUIIcons]: str
   [BrightlayerUIIcons.AirConditioner]: "62154",
   [BrightlayerUIIcons.AccountSettings]: "62155",
   [BrightlayerUIIcons.Ac]: "62156",
+  [BrightlayerUIIcons.EatonPadded]: "62157",
+  [BrightlayerUIIcons.Placeholder]: "62158",
 };

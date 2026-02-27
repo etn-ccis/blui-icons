@@ -458,5 +458,7 @@
     "air_filter": 62153,
     "air_conditioner": 62154,
     "account_settings": 62155,
-    "ac": 62156
+    "ac": 62156,
+    "eaton_padded": 62157,
+    "placeholder": 62158
 }
