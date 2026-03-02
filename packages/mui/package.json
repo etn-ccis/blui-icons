@@ -36,6 +36,7 @@
     "devDependencies": {
         "@brightlayer-ui/icons-svg": "^1.11.0",
         "@svgr/cli": "^6.5.1",
+        "@types/scheduler": "^0.16.8",
         "cross-env": "^7.0.3",
         "rimraf": "^5.0.5",
         "typescript": "^5.9.3"
