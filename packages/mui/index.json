@@ -5425,7 +5425,21 @@
             "filename": "placeholder.svg",
             "family": ["Internal"],
             "style": "baseline",
-            "tags": ["shapes", "geometry", "triangle", "circle", "intersect", "union", "place holder", "filler", "replacement", "fall back", "thumbnail", "avatar", "icon"],
+            "tags": [
+                "shapes",
+                "geometry",
+                "triangle",
+                "circle",
+                "intersect",
+                "union",
+                "place holder",
+                "filler",
+                "replacement",
+                "fall back",
+                "thumbnail",
+                "avatar",
+                "icon"
+            ],
             "author": "Eric Atha",
             "size": 24
         }
