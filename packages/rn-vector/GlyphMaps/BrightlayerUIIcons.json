@@ -184,8 +184,6 @@
     "pickup_truck": 61879,
     "phase_angle": 61880,
     "pepper": 61881,
-    "eaton_padded": 62157,
-    "placeholder": 62158,
     "pending_outline": 61882,
     "pdu": 61883,
     "paywall": 61884,
@@ -465,5 +463,7 @@
     "air_filter": 62158,
     "air_conditioner": 62159,
     "account_settings": 62160,
-    "ac": 62161
+    "ac": 62161,
+    "eaton_padded": 62162,
+    "placeholder": 62163
 }
