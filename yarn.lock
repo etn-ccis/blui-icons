@@ -1745,7 +1745,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-mui@4.3.0, @brightlayer-ui/icons-mui@workspace:packages/mui":
+"@brightlayer-ui/icons-mui@4.2.0, @brightlayer-ui/icons-mui@workspace:packages/mui":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-mui@workspace:packages/mui"
   dependencies:
@@ -1760,7 +1760,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@1.18.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@1.17.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1775,7 +1775,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@2.6.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@2.5.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -1836,7 +1836,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/react-native-vector-icons@workspace:*, @brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
+"@brightlayer-ui/react-native-vector-icons@npm:^2.0.0":
+  version: 2.4.0
+  resolution: "@brightlayer-ui/react-native-vector-icons@npm:2.4.0"
+  peerDependencies:
+    react: ">=16.8.1"
+    react-native: ">=0.60.0-rc.0 <1.0.x"
+    react-native-vector-icons: ^9.2.0
+  checksum: 1dca63fe92f333065b07d1626d3d52021cf6a74e176022fd11e4bf56a0c91dab4b4e903280a8dcc38aba28f77c203fa4c4ad4a7f98a9400bafd2cfec671418e0
+  languageName: node
+  linkType: hard
+
+"@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector"
   dependencies:
@@ -4434,7 +4445,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.0, @types/react-dom@npm:^18.3.0":
+"@types/react-dom@npm:^18.0.0, @types/react-dom@npm:^18.2.18":
   version: 18.3.7
   resolution: "@types/react-dom@npm:18.3.7"
   peerDependencies:
@@ -4501,13 +4512,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.0":
-  version: 18.3.28
-  resolution: "@types/react@npm:18.3.28"
+"@types/react@npm:18.2.48":
+  version: 18.2.48
+  resolution: "@types/react@npm:18.2.48"
   dependencies:
     "@types/prop-types": "*"
-    csstype: ^3.2.2
-  checksum: 9d59fb3def4e712d4f8fa15998791a07f9799462f8d581d17039a9503017bfce3463d57fc737ce1d28d6aa3f482f4a3a5bae5a662d97560a9359aab111556c97
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: c9ca43ed2995389b7e09492c24e6f911a8439bb8276dd17cc66a2fbebbf0b42daf7b2ad177043256533607c2ca644d7d928fdfce37a67af1f8646d2bac988900
   languageName: node
   linkType: hard
 
@@ -4524,6 +4536,13 @@ __metadata:
   version: 0.12.0
   resolution: "@types/retry@npm:0.12.0"
   checksum: 61a072c7639f6e8126588bf1eb1ce8835f2cb9c2aba795c4491cf6310e013267b0c8488039857c261c387e9728c1b43205099223f160bb6a76b4374f741b5603
+  languageName: node
+  linkType: hard
+
+"@types/scheduler@npm:*":
+  version: 0.26.0
+  resolution: "@types/scheduler@npm:0.26.0"
+  checksum: 295ede5e7f991c7c52f9ed8e58d3076526be9a560e59ae11bf1c1414f9755a17bd750f3bfed4657b118283d1eb082bb27dcbe2eadf335a982b0c3b6a562771c2
   languageName: node
   linkType: hard
 
@@ -15407,12 +15426,12 @@ __metadata:
   dependencies:
     "@brightlayer-ui/colors": ^4.0.0
     "@brightlayer-ui/eslint-config": ^3.0.1
-    "@brightlayer-ui/icons": 2.6.0
-    "@brightlayer-ui/icons-mui": 4.3.0
-    "@brightlayer-ui/icons-svg": 1.18.0
+    "@brightlayer-ui/icons": 2.5.0
+    "@brightlayer-ui/icons-mui": 4.2.0
+    "@brightlayer-ui/icons-svg": 1.17.0
     "@brightlayer-ui/prettier-config": ^1.0.3
     "@brightlayer-ui/react-components": ^6.2.0
-    "@brightlayer-ui/react-native-vector-icons": "workspace:*"
+    "@brightlayer-ui/react-native-vector-icons": ^2.0.0
     "@brightlayer-ui/react-themes": ^7.0.0
     "@emotion/css": ^11.13.5
     "@emotion/react": ^11.10.8
@@ -15426,8 +15445,8 @@ __metadata:
     "@testing-library/user-event": ^14.4.3
     "@types/jest": ^29.4.0
     "@types/node": ^18.0.0
-    "@types/react": ^18.3.0
-    "@types/react-dom": ^18.3.0
+    "@types/react": 18.2.48
+    "@types/react-dom": ^18.2.18
     "@types/react-router-dom": ^5.3.3
     "@typescript-eslint/eslint-plugin": ^5.57.0
     "@typescript-eslint/parser": ^6.16.0
