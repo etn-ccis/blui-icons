@@ -4763,6 +4763,76 @@
             "description": "Device in open or active state (outline version)",
             "author": "Huayun Huang",
             "size": 24
+        },
+        {
+            "name": "Host",
+            "filename": "host.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["host", "server", "computer", "device", "network", "data center", "rack", "system", "hardware"],
+            "description": "Host or server device icon",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Host Outline",
+            "filename": "host_outline.svg",
+            "family": ["Devices"],
+            "style": "outline",
+            "tags": ["host", "server", "computer", "device", "network", "data center", "rack", "system", "hardware", "outline"],
+            "description": "Host or server device icon (outline version)",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Memory Alt",
+            "filename": "memory_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["memory", "ram", "chip", "processor", "component", "hardware", "storage", "device", "computer"],
+            "description": "Memory or RAM component icon",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Memory Alt Outline",
+            "filename": "memory_alt_outline.svg",
+            "family": ["Devices"],
+            "style": "outline",
+            "tags": ["memory", "ram", "chip", "processor", "component", "hardware", "storage", "device", "computer", "outline"],
+            "description": "Memory or RAM component icon (outline version)",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Protection Curve",
+            "filename": "protection_curve.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["protection", "curve", "graph", "chart", "trip", "breaker", "relay", "setting", "characteristic", "electrical"],
+            "description": "Protection curve or trip characteristic icon",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Speed Filled",
+            "filename": "speed_filled.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["speed", "gauge", "meter", "speedometer", "performance", "velocity", "fast", "measure", "dashboard"],
+            "description": "Speed gauge or meter icon (filled version)",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Switch Closed",
+            "filename": "switch_closed.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["switch", "closed", "on", "connected", "active", "energized", "breaker", "circuit", "electrical", "state"],
+            "description": "Switch in closed or energized state",
+            "author": "Brightlayer UI",
+            "size": 24
         }
     ]
 }

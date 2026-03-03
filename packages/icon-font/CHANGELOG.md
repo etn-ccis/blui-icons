@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.6.0 (Unreleased)
+
+### Added
+
+-   New icons: Host, Host Outline, Memory Alt, Memory Alt Outline, Protection Curve, Speed Filled, Switch Closed.
+
 ## v2.5.0 (Unreleased)
 
 ### Added
