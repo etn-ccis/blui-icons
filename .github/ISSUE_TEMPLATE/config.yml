@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://brightlayer-ui.github.io/style/icon-library
+    about: Check the documentation before creating an issue. It may have the answer to your question.
