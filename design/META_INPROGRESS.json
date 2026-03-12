@@ -3324,7 +3324,25 @@
             "author": "Eric Atha",
             "size": 24
         },
+        {
+            "name": "Eaton Padded",
+            "filename": "eaton_padded.svg",
+            "family": ["Internal"],
+            "style": "baseline",
+            "tags": ["eaton", "logo", "platforms"],
+            "author": "Eric Atha",
+            "size": 24
+        },
 
+        {
+            "name": "Placeholder",
+            "filename": "placeholder.svg",
+            "family": ["Internal"],
+            "style": "baseline",
+            "tags": ["shapes", "geometry", "triangle", "circle", "intersect", "union", "place holder", "filler", "replacement", "fall back", "thumbnail", "avatar", "icon"],
+            "author": "Eric Atha",
+            "size": 24
+        },
         {
             "name": "Affinity",
             "filename": "affinity.svg",
@@ -3335,7 +3353,6 @@
             "author": "Eric Atha",
             "size": 24
         },
-
         {
             "name": "Card Sorting",
             "filename": "cardsorting.svg",
@@ -3346,7 +3363,6 @@
             "author": "Eric Atha",
             "size": 24
         },
-
         {
             "name": "Contextual Inquiry",
             "filename": "contextualinquiry.svg",
