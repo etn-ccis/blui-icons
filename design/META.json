@@ -4923,6 +4923,186 @@
             "description": "Database schema or data structure icon (outline version)",
             "author": "Google",
             "size": 24
+        },
+        {
+            "name": "Arrow Selector Tool",
+            "filename": "arrow_selector_tool.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["selector", "tool", "arrow", "select", "selection", "ui", "editor", "design", "interface", "interaction"],
+            "description": "Arrow selector tool for UI design and selection",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Bottom Panel Close",
+            "filename": "bottom_panel_close.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["panel", "bottom", "close", "collapse", "ui", "control", "interface", "minimize"],
+            "description": "Icon to close or collapse a bottom panel",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Bottom Panel Open",
+            "filename": "bottom_panel_open.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["panel", "bottom", "open", "expand", "ui", "control", "interface", "maximize"],
+            "description": "Icon to open or expand a bottom panel",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Connector",
+            "filename": "connector.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["connector", "connect", "link", "connection", "flow", "relationship", "diagram", "drawing"],
+            "description": "Connector or relationship icon for diagrams",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Dataset",
+            "filename": "dataset.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["dataset", "data", "collection", "group", "table", "database", "records"],
+            "description": "Dataset or data collection icon",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Dataset Outline",
+            "filename": "dataset_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["dataset", "data", "collection", "group", "table", "database", "records", "outline"],
+            "description": "Dataset or data collection icon (outline version)",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Left Panel Close",
+            "filename": "left_panel_close.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["panel", "left", "close", "collapse", "ui", "control", "interface", "minimize"],
+            "description": "Icon to close or collapse a left panel",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Left Panel Open",
+            "filename": "left_panel_open.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["panel", "left", "open", "expand", "ui", "control", "interface", "maximize"],
+            "description": "Icon to open or expand a left panel",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Pan Tool Alt",
+            "filename": "pan_tool_alt.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["pan", "tool", "drag", "move", "navigation", "ui", "editor", "design", "hand"],
+            "description": "Pan tool for navigation and dragging in editor",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Right Panel Close",
+            "filename": "right_panel_close.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["panel", "right", "close", "collapse", "ui", "control", "interface", "minimize"],
+            "description": "Icon to close or collapse a right panel",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Right Panel Open",
+            "filename": "right_panel_open.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["panel", "right", "open", "expand", "ui", "control", "interface", "maximize"],
+            "description": "Icon to open or expand a right panel",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Section",
+            "filename": "section.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["section", "divide", "divider", "layout", "ui", "structure", "segment", "partition"],
+            "description": "Section divider or layout icon",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Selector Tool",
+            "filename": "selector_tool.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["selector", "tool", "select", "selection", "ui", "editor", "design", "interface", "interaction", "pointer"],
+            "description": "Selector tool for UI design and selection",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Settings Outline",
+            "filename": "settings_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["settings", "options", "configuration", "preferences", "gear", "config", "outline"],
+            "description": "Settings or configuration icon (outline version)",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Top Panel Close",
+            "filename": "top_panel_close.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["panel", "top", "close", "collapse", "ui", "control", "interface", "minimize"],
+            "description": "Icon to close or collapse a top panel",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "Top Panel Open",
+            "filename": "top_panel_open.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["panel", "top", "open", "expand", "ui", "control", "interface", "maximize"],
+            "description": "Icon to open or expand a top panel",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "View Sidebar",
+            "filename": "view_sidebar.svg",
+            "family": ["System"],
+            "style": "baseline",
+            "tags": ["sidebar", "view", "panel", "layout", "navigation", "ui", "interface"],
+            "description": "View or toggle sidebar icon",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "View Sidebar Outline",
+            "filename": "view_sidebar_outline.svg",
+            "family": ["System"],
+            "style": "outline",
+            "tags": ["sidebar", "view", "panel", "layout", "navigation", "ui", "interface", "outline"],
+            "description": "View or toggle sidebar icon (outline version)",
+            "author": "Brightlayer UI",
+            "size": 24
         }
     ]
 }

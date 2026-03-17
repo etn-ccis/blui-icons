@@ -1,6 +1,12 @@
 # Changelog
 
-## v2.5.0 (Unreleased)
+## v2.6.0 (Unreleased)
+
+### Added
+
+- UI Actions family: Arrow Selector Tool, Bottom Panel Close, Bottom Panel Open, Connector, Dataset, Dataset Outline, Left Panel Close, Left Panel Open, Pan Tool Alt, Right Panel Close, Right Panel Open, Section, Selector Tool, Settings Outline, Top Panel Close, Top Panel Open, View Sidebar, View Sidebar Outline.
+
+## v2.5.0
 
 ### Added
 
