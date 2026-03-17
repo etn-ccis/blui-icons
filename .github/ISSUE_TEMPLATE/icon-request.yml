@@ -1,0 +1,72 @@
+name: "🧩 Icon Request"
+description: "Request a new icon or an update to an existing icon"
+title: "[Icon]: "
+labels: ['status: needs-review', 'brightlayer-ui', 'type: enhancement 🚀']
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: '## Welcome!'
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time for requesting an icon addition or update.
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request Type
+      description: What kind of request is this?
+      options:
+        - New icon
+        - Existing icon update
+    validations:
+      required: true
+  - type: input
+    id: request-name
+    attributes:
+      label: Icon Name
+      description: 'What should this icon be called?'
+    validations:
+      required: true
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Problem / Need
+      description: "Explain the need and intended usage. Include the concept, where it appears, and any expected variants (filled/outlined/alt)."
+    validations:
+      required: true
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: Detailed Description
+      description: "Describe the user need or product requirement this request solves"
+      placeholder: What need does this icon addition or update address?
+    validations:
+      required: true
+  - type: textarea
+    id: look-and-feel
+    attributes:
+      label: Where Have You Seen This Before?
+      description: "Provide references: - URLs (Material UI etc.) - Product screenshots - Figma samples"
+    validations:
+      required: false
+  - type: textarea
+    id: visual-references
+    attributes:
+      label: Visual References
+      description: "Upload sketches, mockups, or screenshots"
+    validations:
+      required: false
+  - type: textarea
+    id: icon-details
+    attributes:
+      label: Icon Details (optional)
+      description: "Describe visual style, line weight, filled/outlined behavior, and any naming or variant expectations"
+    validations:
+      required: false
+  - type: input
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: 'Anything else the reviewers should know?'
+    validations:
+      required: false
