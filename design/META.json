@@ -4931,7 +4931,7 @@
             "style": "baseline",
             "tags": ["arrow", "selector", "tool", "ui", "action", "pointer"],
             "description": "Arrow selector tool for UI interactions",
-            "author": "Brightlayer UI",
+            "author": "Reyhaneh Zarezadeh",
             "size": 24
         },
         {
@@ -4941,7 +4941,7 @@
             "style": "baseline",
             "tags": ["panel", "close", "bottom", "ui"],
             "description": "Close bottom panel icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -4951,7 +4951,7 @@
             "style": "baseline",
             "tags": ["panel", "open", "bottom", "ui"],
             "description": "Open bottom panel icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -4961,7 +4961,7 @@
             "style": "baseline",
             "tags": ["connector", "connection", "link", "ui"],
             "description": "Icon for connecting elements",
-            "author": "Brightlayer UI",
+            "author": "Reyhaneh Zarezadeh",
             "size": 24
         },
         {
@@ -4971,7 +4971,7 @@
             "style": "baseline",
             "tags": ["cursor", "pointer", "mouse", "click"],
             "description": "Cursor pointer icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -4981,7 +4981,7 @@
             "style": "baseline",
             "tags": ["dataset", "data", "collection"],
             "description": "Dataset icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -4991,7 +4991,7 @@
             "style": "outline",
             "tags": ["dataset", "data", "outline"],
             "description": "Outline dataset icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -5001,7 +5001,7 @@
             "style": "baseline",
             "tags": ["panel", "close", "left", "ui"],
             "description": "Close left panel icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -5011,7 +5011,7 @@
             "style": "baseline",
             "tags": ["panel", "open", "left", "ui"],
             "description": "Open left panel icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -5021,7 +5021,7 @@
             "style": "baseline",
             "tags": ["panel", "close", "right", "ui"],
             "description": "Close right panel icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -5031,7 +5031,7 @@
             "style": "baseline",
             "tags": ["panel", "open", "right", "ui"],
             "description": "Open right panel icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -5041,7 +5041,7 @@
             "style": "baseline",
             "tags": ["section", "divide", "layout"],
             "description": "Section divider icon",
-            "author": "Brightlayer UI",
+            "author": "Reyhaneh Zarezadeh",
             "size": 24
         },
         {
@@ -5051,7 +5051,7 @@
             "style": "baseline",
             "tags": ["selector", "tool", "select"],
             "description": "Selector tool icon",
-            "author": "Brightlayer UI",
+            "author": "Reyhaneh Zarezadeh",
             "size": 24
         },
         {
@@ -5061,7 +5061,7 @@
             "style": "outline",
             "tags": ["settings", "config", "gear"],
             "description": "Outline settings icon",
-            "author": "Brightlayer UI",
+            "author": "Google",
             "size": 24
         },
         {
@@ -5071,7 +5071,7 @@
             "style": "baseline",
             "tags": ["panel", "close", "top", "ui"],
             "description": "Close top panel icon",
-            "author": "Brightlayer UI",
+            "author": "Huayun Huang",
             "size": 24
         },
         {
@@ -5081,7 +5081,7 @@
             "style": "baseline",
             "tags": ["panel", "open", "top", "ui"],
             "description": "Open top panel icon",
-            "author": "Brightlayer UI",
+            "author": "Huayun Huang",
             "size": 24
         },
         {
@@ -5091,7 +5091,7 @@
             "style": "baseline",
             "tags": ["sidebar", "view", "panel"],
             "description": "Show sidebar view icon",
-            "author": "Brightlayer UI",
+            "author": "Huayun Huang",
             "size": 24
         },
         {
@@ -5101,7 +5101,7 @@
             "style": "outline",
             "tags": ["sidebar", "view", "outline"],
             "description": "Outline sidebar view icon",
-            "author": "Brightlayer UI",
+            "author": "Huayun Huang",
             "size": 24
         }
     ]
