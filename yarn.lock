@@ -1775,7 +1775,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@2.5.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@2.4.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -15418,7 +15418,7 @@ __metadata:
   dependencies:
     "@brightlayer-ui/colors": ^4.0.0
     "@brightlayer-ui/eslint-config": ^3.0.1
-    "@brightlayer-ui/icons": 2.5.0
+    "@brightlayer-ui/icons": 2.4.0
     "@brightlayer-ui/icons-mui": 4.2.0
     "@brightlayer-ui/icons-svg": 1.17.0
     "@brightlayer-ui/prettier-config": ^1.0.3
