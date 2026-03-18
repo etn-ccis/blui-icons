@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons-svg",
-    "version": "1.16.0",
+    "version": "1.17.0",
     "description": "SVG icons for Eaton applications",
     "main": "index.js",
     "scripts": {
@@ -42,5 +42,8 @@
     "bugs": {
         "url": "https://github.com/etn-ccis/blui-icons/issues"
     },
-    "homepage": "https://github.com/etn-ccis/blui-icons#readme"
+    "homepage": "https://github.com/etn-ccis/blui-icons#readme",
+    "engines": {
+        "node": ">=20.0.0"
+    }
 }

@@ -43,8 +43,10 @@ export const NavigationDrawer: React.FC = () => {
                 onIconClick={(): void => {
                     setDrawerOpen(!drawerOpen);
                 }}
+                onResize={undefined}
+                onResizeCapture={undefined}
             />
-            <DrawerBody>
+            <DrawerBody onResize={undefined} onResizeCapture={undefined}>
                 <DrawerNavGroup
                     items={PAGES.map((page) => {
                         const Icon = page.icon;
@@ -62,6 +64,8 @@ export const NavigationDrawer: React.FC = () => {
                         };
                     })}
                     hidePadding
+                    onResize={undefined}
+                    onResizeCapture={undefined}
                 />
             </DrawerBody>
         </Drawer>

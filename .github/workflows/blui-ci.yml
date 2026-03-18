@@ -21,7 +21,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
 
         steps:
             - name: Checkout
@@ -40,7 +40,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
 
         steps:
             - name: Checkout
@@ -86,7 +86,7 @@ jobs:
         needs: build_test_icons_library
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
@@ -111,7 +111,7 @@ jobs:
         needs: build_test_icons_library
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
@@ -136,7 +136,7 @@ jobs:
         needs: build_test_icons_library
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
@@ -161,7 +161,7 @@ jobs:
         needs: build_test_icons_library
         strategy:
             matrix:
-                node-version: [18.x]
+                node-version: [20.x]
         env:
             NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
             BRANCH: ${{ github.ref == 'refs/heads/master' && 'master' || 'dev' }}
@@ -179,3 +179,4 @@ jobs:
             - run: yarn --immutable
             - run: npm run publish:package -- -b ${{env.BRANCH}}
               working-directory: packages/rn-vector
+

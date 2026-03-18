@@ -6,6 +6,9 @@ const template = ({ imports, interfaces, componentName, jsx, exports }, { tpl })
             case 'SvgEaton':
                 viewBoxDimensions = `'0 0 24 7'`;
                 break;
+            case 'SvgEatonPadded':
+                viewBoxDimensions = `'0 0 24 24'`;
+                break;
             case 'SvgEatonTagline':
             case 'SvgEatonTwoTone':
             default:
