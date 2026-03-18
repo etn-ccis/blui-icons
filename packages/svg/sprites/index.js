@@ -2641,6 +2641,27 @@ export var BluiIcons;
         Transportation['Road'] = 'transportation.svg#road';
         Transportation['RoadAlt'] = 'transportation.svg#road_alt';
     })((Transportation = BluiIcons.Transportation || (BluiIcons.Transportation = {})));
+    var Uiactions;
+    (function (Uiactions) {
+        Uiactions['ArrowSelectorTool'] = 'uiactions.svg#arrow_selector_tool';
+        Uiactions['BottomPanelClose'] = 'uiactions.svg#bottom_panel_close';
+        Uiactions['BottomPanelOpen'] = 'uiactions.svg#bottom_panel_open';
+        Uiactions['Connector'] = 'uiactions.svg#connector';
+        Uiactions['CursorPointer'] = 'uiactions.svg#cursor_pointer';
+        Uiactions['Dataset'] = 'uiactions.svg#dataset';
+        Uiactions['DatasetOutline'] = 'uiactions.svg#dataset_outline';
+        Uiactions['LeftPanelClose'] = 'uiactions.svg#left_panel_close';
+        Uiactions['LeftPanelOpen'] = 'uiactions.svg#left_panel_open';
+        Uiactions['RightPanelClose'] = 'uiactions.svg#right_panel_close';
+        Uiactions['RightPanelOpen'] = 'uiactions.svg#right_panel_open';
+        Uiactions['Section'] = 'uiactions.svg#section';
+        Uiactions['SelectorTool'] = 'uiactions.svg#selector_tool';
+        Uiactions['SettingsOutline'] = 'uiactions.svg#settings_outline';
+        Uiactions['TopPanelClose'] = 'uiactions.svg#top_panel_close';
+        Uiactions['TopPanelOpen'] = 'uiactions.svg#top_panel_open';
+        Uiactions['ViewSidebar'] = 'uiactions.svg#view_sidebar';
+        Uiactions['ViewSidebarOutline'] = 'uiactions.svg#view_sidebar_outline';
+    })((Uiactions = BluiIcons.Uiactions || (BluiIcons.Uiactions = {})));
     var Vehicles;
     (function (Vehicles) {
         Vehicles['Car'] = 'vehicles.svg#car';

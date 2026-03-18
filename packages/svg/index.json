@@ -6168,6 +6168,186 @@
             "description": "Database schema or data structure icon (outline version)",
             "author": "Google",
             "size": 24
+        },
+        {
+            "name": "Arrow Selector Tool",
+            "filename": "arrow_selector_tool.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["arrow", "selector", "tool", "ui", "action", "pointer"],
+            "description": "Arrow selector tool for UI interactions",
+            "author": "Reyhaneh Zarezadeh",
+            "size": 24
+        },
+        {
+            "name": "Bottom Panel Close",
+            "filename": "bottom_panel_close.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["panel", "close", "bottom", "ui"],
+            "description": "Close bottom panel icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Bottom Panel Open",
+            "filename": "bottom_panel_open.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["panel", "open", "bottom", "ui"],
+            "description": "Open bottom panel icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Connector",
+            "filename": "connector.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["connector", "connection", "link", "ui"],
+            "description": "Icon for connecting elements",
+            "author": "Reyhaneh Zarezadeh",
+            "size": 24
+        },
+        {
+            "name": "Cursor Pointer",
+            "filename": "cursor_pointer.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["cursor", "pointer", "mouse", "click"],
+            "description": "Cursor pointer icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Dataset",
+            "filename": "dataset.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["dataset", "data", "collection"],
+            "description": "Dataset icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Dataset Outline",
+            "filename": "dataset_outline.svg",
+            "family": ["UIActions"],
+            "style": "outline",
+            "tags": ["dataset", "data", "outline"],
+            "description": "Outline dataset icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Left Panel Close",
+            "filename": "left_panel_close.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["panel", "close", "left", "ui"],
+            "description": "Close left panel icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Left Panel Open",
+            "filename": "left_panel_open.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["panel", "open", "left", "ui"],
+            "description": "Open left panel icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Right Panel Close",
+            "filename": "right_panel_close.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["panel", "close", "right", "ui"],
+            "description": "Close right panel icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Right Panel Open",
+            "filename": "right_panel_open.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["panel", "open", "right", "ui"],
+            "description": "Open right panel icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Section",
+            "filename": "section.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["section", "divide", "layout"],
+            "description": "Section divider icon",
+            "author": "Reyhaneh Zarezadeh",
+            "size": 24
+        },
+        {
+            "name": "Selector Tool",
+            "filename": "selector_tool.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["selector", "tool", "select"],
+            "description": "Selector tool icon",
+            "author": "Reyhaneh Zarezadeh",
+            "size": 24
+        },
+        {
+            "name": "Settings Outline",
+            "filename": "settings_outline.svg",
+            "family": ["UIActions"],
+            "style": "outline",
+            "tags": ["settings", "config", "gear"],
+            "description": "Outline settings icon",
+            "author": "Google",
+            "size": 24
+        },
+        {
+            "name": "Top Panel Close",
+            "filename": "top_panel_close.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["panel", "close", "top", "ui"],
+            "description": "Close top panel icon",
+            "author": "Huayun Huang",
+            "size": 24
+        },
+        {
+            "name": "Top Panel Open",
+            "filename": "top_panel_open.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["panel", "open", "top", "ui"],
+            "description": "Open top panel icon",
+            "author": "Huayun Huang",
+            "size": 24
+        },
+        {
+            "name": "View Sidebar",
+            "filename": "view_sidebar.svg",
+            "family": ["UIActions"],
+            "style": "baseline",
+            "tags": ["sidebar", "view", "panel"],
+            "description": "Show sidebar view icon",
+            "author": "Huayun Huang",
+            "size": 24
+        },
+        {
+            "name": "View Sidebar Outline",
+            "filename": "view_sidebar_outline.svg",
+            "family": ["UIActions"],
+            "style": "outline",
+            "tags": ["sidebar", "view", "outline"],
+            "description": "Outline sidebar view icon",
+            "author": "Huayun Huang",
+            "size": 24
         }
     ]
 }
