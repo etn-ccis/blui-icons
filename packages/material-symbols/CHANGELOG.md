@@ -4,4 +4,4 @@
 
 ### Added
 
--   New Icons Package: `@brightlayer-ui/material-symbols`.
+- New Icons Package: `@brightlayer-ui/material-symbols`.
