@@ -32,6 +32,7 @@ export type BluiIcon =
     | BluiIcons.Toggle
     | BluiIcons.Tools
     | BluiIcons.Transportation
+    | BluiIcons.Uiactions
     | BluiIcons.Vehicles
     | BluiIcons.Weather;
 export declare namespace BluiIcons {
@@ -2642,6 +2643,26 @@ export declare namespace BluiIcons {
     enum Transportation {
         Road = 'transportation.svg#road',
         RoadAlt = 'transportation.svg#road_alt',
+    }
+    enum Uiactions {
+        ArrowSelectorTool = 'uiactions.svg#arrow_selector_tool',
+        BottomPanelClose = 'uiactions.svg#bottom_panel_close',
+        BottomPanelOpen = 'uiactions.svg#bottom_panel_open',
+        Connector = 'uiactions.svg#connector',
+        CursorPointer = 'uiactions.svg#cursor_pointer',
+        Dataset = 'uiactions.svg#dataset',
+        DatasetOutline = 'uiactions.svg#dataset_outline',
+        LeftPanelClose = 'uiactions.svg#left_panel_close',
+        LeftPanelOpen = 'uiactions.svg#left_panel_open',
+        RightPanelClose = 'uiactions.svg#right_panel_close',
+        RightPanelOpen = 'uiactions.svg#right_panel_open',
+        Section = 'uiactions.svg#section',
+        SelectorTool = 'uiactions.svg#selector_tool',
+        SettingsOutline = 'uiactions.svg#settings_outline',
+        TopPanelClose = 'uiactions.svg#top_panel_close',
+        TopPanelOpen = 'uiactions.svg#top_panel_open',
+        ViewSidebar = 'uiactions.svg#view_sidebar',
+        ViewSidebarOutline = 'uiactions.svg#view_sidebar_outline',
     }
     enum Vehicles {
         Car = 'vehicles.svg#car',
