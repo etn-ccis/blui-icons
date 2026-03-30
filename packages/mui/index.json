@@ -4491,7 +4491,7 @@
             "name": "Lock Level 1 Outline",
             "filename": "lock_level_1_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -4557,7 +4557,7 @@
             "name": "Lock Level 2 Outline",
             "filename": "lock_level_2_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -4623,7 +4623,7 @@
             "name": "Lock Level 3 Outline",
             "filename": "lock_level_3_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -4696,7 +4696,7 @@
             "name": "Unlock Level 1 Outline",
             "filename": "unlock_level_1_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -4776,7 +4776,7 @@
             "name": "Unlock Level 2 Outline",
             "filename": "unlock_level_2_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -4856,7 +4856,7 @@
             "name": "Unlock Level 3 Outline",
             "filename": "unlock_level_3_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -4938,7 +4938,7 @@
             "name": "Unlock Right Level 1 Outline",
             "filename": "unlock_right_level_1_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -5022,7 +5022,7 @@
             "name": "Unlock Right Level 2 Outline",
             "filename": "unlock_right_level_2_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -5106,7 +5106,7 @@
             "name": "Unlock Right Level 3 Outline",
             "filename": "unlock_right_level_3_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -5194,7 +5194,7 @@
             "name": "Lock Open Right Outline",
             "filename": "lock_open_right_outline.svg",
             "family": ["System"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "access control",
@@ -5415,7 +5415,7 @@
             "name": "Pending Outline",
             "filename": "pending_outline.svg",
             "family": ["Status"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "add",
                 "article",
@@ -5490,7 +5490,7 @@
             "name": "Device Closed Outline",
             "filename": "device_closed_outline.svg",
             "family": ["Devices"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "switch",
                 "button",
@@ -5553,7 +5553,7 @@
             "name": "Device Open Outline",
             "filename": "device_open_outline.svg",
             "family": ["Devices"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "switch",
                 "button",
@@ -5595,7 +5595,7 @@
             "name": "Host Outline",
             "filename": "host_outline.svg",
             "family": ["Devices"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "host",
                 "server",
@@ -5626,7 +5626,7 @@
             "name": "Memory Alt Outline",
             "filename": "memory_alt_outline.svg",
             "family": ["Devices"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "memory",
                 "ram",
@@ -5761,7 +5761,7 @@
             "name": "File Tree Outline",
             "filename": "file_tree_outline.svg",
             "family": ["General"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "analytics",
                 "boxes",
@@ -5872,7 +5872,7 @@
             "name": "Flowchart Outline",
             "filename": "flowchart_outline.svg",
             "family": ["General"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "account",
                 "analysis",
@@ -5979,7 +5979,7 @@
             "name": "License Outline",
             "filename": "license_outline.svg",
             "family": ["General"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "access",
                 "agreement",
@@ -6121,7 +6121,7 @@
             "name": "Schema Outline",
             "filename": "schema_outline.svg",
             "family": ["General"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "analytics",
                 "architecture",
@@ -6233,7 +6233,7 @@
             "name": "Dataset Outline",
             "filename": "dataset_outline.svg",
             "family": ["UIActions"],
-            "style": "outline",
+            "style": "outlined",
             "tags": ["dataset", "data", "outline"],
             "description": "Outline dataset icon",
             "author": "Google",
@@ -6303,7 +6303,7 @@
             "name": "Settings Outline",
             "filename": "settings_outline.svg",
             "family": ["UIActions"],
-            "style": "outline",
+            "style": "outlined",
             "tags": ["settings", "config", "gear"],
             "description": "Outline settings icon",
             "author": "Google",
@@ -6343,7 +6343,7 @@
             "name": "View Sidebar Outline",
             "filename": "view_sidebar_outline.svg",
             "family": ["UIActions"],
-            "style": "outline",
+            "style": "outlined",
             "tags": ["sidebar", "view", "outline"],
             "description": "Outline sidebar view icon",
             "author": "Huayun Huang",
