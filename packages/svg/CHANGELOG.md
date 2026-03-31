@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.17.0 (March 18, 2026)
+## v1.17.0 (March 31, 2026)
 
 ### Added
 
