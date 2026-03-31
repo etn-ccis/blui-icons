@@ -1,6 +1,6 @@
 # Changelog
 
-## v4.2.0 (March 18, 2026)
+## v4.2.0 (March 31, 2026)
 
 ### Added
 
