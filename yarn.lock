@@ -2836,19 +2836,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:7.1.1":
-  version: 7.1.1
-  resolution: "@mui/icons-material@npm:7.1.1"
+"@mui/icons-material@npm:7.3.9":
+  version: 7.3.9
+  resolution: "@mui/icons-material@npm:7.3.9"
   dependencies:
-    "@babel/runtime": ^7.27.1
+    "@babel/runtime": ^7.28.6
   peerDependencies:
-    "@mui/material": ^7.1.1
+    "@mui/material": ^7.3.9
     "@types/react": ^17.0.0 || ^18.0.0 || ^19.0.0
     react: ^17.0.0 || ^18.0.0 || ^19.0.0
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 85f1369e987f76d364f85305c4e2af188709af83a68cd6326ff92910d97b7db2f31c6797233d75306dd0063c4de587c6fdd55c0f65c1d3f882d40ded7624b1ae
+  checksum: 355b73c854859b94994f2b98d5cb8a37d68faee49b3b14f75b3090189b3b3fece23907dfeb0e96f7ebcd976ffe619cde2df094147a39d73929ba0c8fcb9c18a0
   languageName: node
   linkType: hard
 
@@ -15429,7 +15429,7 @@ __metadata:
     "@emotion/react": ^11.10.8
     "@emotion/styled": ^11.10.5
     "@mui/base": ^5.0.0-beta.70
-    "@mui/icons-material": 7.1.1
+    "@mui/icons-material": 7.3.9
     "@mui/material": 7.1.1
     "@mui/styles": ^6.0.0
     "@testing-library/jest-dom": ^6.1.5
