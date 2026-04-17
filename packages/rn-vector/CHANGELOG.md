@@ -1,5 +1,11 @@
 # Changelog
 
+## v3.2.1 (Unreleased)
+
+### Fixed
+
+- `build.gradle` for android.
+
 ## v3.2.0 (March 31, 2026)
 
 ### Added
