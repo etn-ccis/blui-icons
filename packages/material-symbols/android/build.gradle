@@ -47,7 +47,7 @@ if (isNewArchitectureEnabled()) {
 android.sourceSets.main.assets.srcDirs += file("$buildDir/intermediates/RNVI-materialsymbols")
 
 task copyFonts(type: Copy) {
-  from "../fonts"
+  from "../Fonts"
   include "*.ttf"
 
   into "${buildDir}/intermediates/RNVI-materialsymbols/fonts"
