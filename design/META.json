@@ -4881,7 +4881,7 @@
             "style": "baseline",
             "tags": ["access", "agreement", "approval", "authentication", "authenticity", "authorized", "authorized user", "bestow", "certificate", "certification", "contract", "degree", "document", "document access", "document legal", "document security", "ecommerce", "entitlement", "grant", "guarantee", "key", "legal", "license", "license key", "medal", "official", "official document", "paperwork", "permission", "permission granted", "permit", "premium", "ribbon", "rights", "security", "unlock", "verification"],
             "description": "License or certificate icon",
-            "author": "General",
+            "author": "Google",
             "size": 24
         },
         {
@@ -4891,7 +4891,7 @@
             "style": "outlined",
             "tags": ["access", "agreement", "approval", "authentication", "authenticity", "authorized", "authorized user", "bestow", "certificate", "certification", "contract", "degree", "document", "document access", "document legal", "document security", "ecommerce", "entitlement", "grant", "guarantee", "key", "legal", "license", "license key", "medal", "official", "official document", "paperwork", "permission", "permission granted", "permit", "premium", "ribbon", "rights", "security", "unlock", "verification"],
             "description": "License or certificate icon (outline version)",
-            "author": "General",
+            "author": "Google",
             "size": 24
         },
         {
@@ -4929,7 +4929,7 @@
             "filename": "arrow_selector_tool.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["arrow", "selector", "tool", "ui", "action", "pointer"],
+            "tags": ["Action", "adjust", "angle", "arrow", "arrows", "choose", "click", "control", "cursor", "design", "direction", "editor", "element", "graphic", "indicate", "left", "line", "manipulate", "mouse", "move", "movement", "navigation", "option", "pick", "point", "pointer", "pointing", "right", "select", "selection", "selector", "shape", "symbol", "tool", "triangle", "up"],
             "description": "Arrow selector tool for UI interactions",
             "author": "Reyhaneh Zarezadeh",
             "size": 24
@@ -4939,7 +4939,7 @@
             "filename": "bottom_panel_close.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["panel", "close", "bottom", "ui"],
+            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Close bottom panel icon",
             "author": "Google",
             "size": 24
@@ -4949,7 +4949,7 @@
             "filename": "bottom_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["panel", "open", "bottom", "ui"],
+            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Open bottom panel icon",
             "author": "Google",
             "size": 24
@@ -4959,7 +4959,7 @@
             "filename": "connector.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["connector", "connection", "link", "ui"],
+            "tags": ["Abstract", "accent", "angle", "bar", "basic", "circle", "dash", "diagonal", "divider", "draw", "edit", "editing", "element", "geometry", "graphic", "indicator", "line", "linear", "marker", "minimal", "oblique", "segment", "separator", "shape", "simple", "slant", "slash", "square", "strike", "stroke", "symbol", "tilt", "vector", "single line diagram", "sld", "one line"],
             "description": "Icon for connecting elements",
             "author": "Reyhaneh Zarezadeh",
             "size": 24
@@ -4969,7 +4969,7 @@
             "filename": "cursor_pointer.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["cursor", "pointer", "mouse", "click"],
+            "tags": ["action", "control", "cursor", "digital hand", "drag", "fingers", "gesture", "grab", "grab hand", "graphic", "grasp", "hand", "hands", "hold", "human", "icon", "interaction", "interactive", "interface", "interface hand", "manipulation", "map", "move", "move hand", "movement", "navigation", "pan", "point", "pointer", "scan", "stop", "symbol", "tool", "tool icon", "ui element"],
             "description": "Cursor pointer icon",
             "author": "Google",
             "size": 24
@@ -4979,7 +4979,7 @@
             "filename": "dataset.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["dataset", "data", "collection"],
+            "tags": ["Archive", "cloud", "collection", "columns", "data", "data entry", "data management", "database", "dataset", "digital", "digital data", "document", "electronic data", "entry", "file", "flat data", "grid", "information", "list", "management", "organized data", "record", "records", "rows", "server", "spreadsheet", "storage", "structured data", "table", "sub", "subsystem", "section", "folder", "port", "zone", "area", "underlay", "frame", "contain", "single line diagram", "sld", "one line"],
             "description": "Dataset icon",
             "author": "Google",
             "size": 24
@@ -4989,7 +4989,7 @@
             "filename": "dataset_outline.svg",
             "family": ["UIActions"],
             "style": "outlined",
-            "tags": ["dataset", "data", "outline"],
+            "tags": ["Archive", "cloud", "collection", "columns", "data", "data entry", "data management", "database", "dataset", "digital", "digital data", "document", "electronic data", "entry", "file", "flat data", "grid", "information", "list", "management", "organized data", "record", "records", "rows", "server", "spreadsheet", "storage", "structured data", "table", "sub", "subsystem", "section", "folder", "port", "zone", "area", "underlay", "frame", "contain", "single line diagram", "sld", "one line"],
             "description": "Outline dataset icon",
             "author": "Google",
             "size": 24
@@ -4999,7 +4999,7 @@
             "filename": "left_panel_close.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["panel", "close", "left", "ui"],
+            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Close left panel icon",
             "author": "Google",
             "size": 24
@@ -5009,7 +5009,7 @@
             "filename": "left_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["panel", "open", "left", "ui"],
+            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Open left panel icon",
             "author": "Google",
             "size": 24
@@ -5019,7 +5019,7 @@
             "filename": "right_panel_close.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["panel", "close", "right", "ui"],
+            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Close right panel icon",
             "author": "Google",
             "size": 24
@@ -5029,7 +5029,7 @@
             "filename": "right_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["panel", "open", "right", "ui"],
+            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Open right panel icon",
             "author": "Google",
             "size": 24
@@ -5039,7 +5039,7 @@
             "filename": "section.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["section", "divide", "layout"],
+            "tags": ["activity zone", "area", "border", "boundary", "box", "confined area", "designated area", "division", "enclosed area", "focus area", "frame", "highlight", "home", "limits", "map area", "marking", "nest", "operating area", "outline", "performance zone", "perimeter", "portion", "range", "rectangle", "region", "restricted area", "section", "security", "segment", "selection", "territory", "workspace", "zone", "zone selection"],
             "description": "Section divider icon",
             "author": "Reyhaneh Zarezadeh",
             "size": 24
@@ -5049,7 +5049,7 @@
             "filename": "selector_tool.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["selector", "tool", "select"],
+            "tags": ["Action", "adjust", "angle", "arrow", "arrows", "choose", "click", "control", "cursor", "design", "direction", "editor", "element", "graphic", "indicate", "left", "line", "manipulate", "mouse", "move", "movement", "navigation", "option", "pick", "point", "pointer", "pointing", "right", "select", "selection", "selector", "shape", "symbol", "tool", "triangle", "up"],
             "description": "Selector tool icon",
             "author": "Reyhaneh Zarezadeh",
             "size": 24
@@ -5059,7 +5059,7 @@
             "filename": "settings_outline.svg",
             "family": ["UIActions"],
             "style": "outlined",
-            "tags": ["settings", "config", "gear"],
+            "tags": ["adjustments", "administration", "administration panel", "application", "change", "cog", "cogwheel", "configuration", "control", "control panel", "customization settings", "customize", "details", "fine tune", "gear", "gear wheel", "info", "information", "machinery", "manage", "management", "management tools", "mechanism", "modify", "options", "options button", "panel", "parameter", "personal", "preference settings", "preferences", "service", "settings", "setup", "system", "tools"],
             "description": "Outline settings icon",
             "author": "Google",
             "size": 24
@@ -5069,9 +5069,9 @@
             "filename": "top_panel_close.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["panel", "close", "top", "ui"],
+            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Close top panel icon",
-            "author": "Huayun Huang",
+            "author": "Google",
             "size": 24
         },
         {
@@ -5079,9 +5079,9 @@
             "filename": "top_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["panel", "open", "top", "ui"],
+            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Open top panel icon",
-            "author": "Huayun Huang",
+            "author": "Google",
             "size": 24
         },
         {
@@ -5089,7 +5089,7 @@
             "filename": "view_sidebar.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["sidebar", "view", "panel"],
+            "tags": ["area", "bar", "collapse", "column", "content", "control", "data", "design", "display", "expand", "format", "grid", "hide", "information", "interface", "layout", "list", "menu", "navigation", "navigation panel", "options", "options panel", "panel", "rectangle", "screen", "section", "settings", "show", "sidebar", "toggle", "vertical", "view", "web", "window"],
             "description": "Show sidebar view icon",
             "author": "Huayun Huang",
             "size": 24
@@ -5099,7 +5099,7 @@
             "filename": "view_sidebar_outline.svg",
             "family": ["UIActions"],
             "style": "outlined",
-            "tags": ["sidebar", "view", "outline"],
+            "tags": ["area", "bar", "collapse", "column", "content", "control", "data", "design", "display", "expand", "format", "grid", "hide", "information", "interface", "layout", "list", "menu", "navigation", "navigation panel", "options", "options panel", "panel", "rectangle", "screen", "section", "settings", "show", "sidebar", "toggle", "vertical", "view", "web", "window"],
             "description": "Outline sidebar view icon",
             "author": "Huayun Huang",
             "size": 24
