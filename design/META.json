@@ -4949,7 +4949,7 @@
             "filename": "bottom_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["action", "arrow", "button", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Open bottom panel icon",
             "author": "Google",
             "size": 24
@@ -5009,7 +5009,7 @@
             "filename": "left_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["action", "arrow", "button", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Open left panel icon",
             "author": "Google",
             "size": 24
@@ -5029,7 +5029,7 @@
             "filename": "right_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["action", "arrow", "button", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Open right panel icon",
             "author": "Google",
             "size": 24
@@ -5079,7 +5079,7 @@
             "filename": "top_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["action", "arrow", "button", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
             "description": "Open top panel icon",
             "author": "Google",
             "size": 24
