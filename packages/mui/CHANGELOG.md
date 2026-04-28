@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.2.1 (April 28, 2026)
+
+### Changed
+
+- Updated the missing keywords and author for newly added icons.
+
 ## v4.2.0 (March 31, 2026)
 
 ### Added

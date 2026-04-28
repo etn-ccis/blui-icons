@@ -1745,7 +1745,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-mui@4.2.0, @brightlayer-ui/icons-mui@workspace:packages/mui":
+"@brightlayer-ui/icons-mui@4.2.1, @brightlayer-ui/icons-mui@workspace:packages/mui":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-mui@workspace:packages/mui"
   dependencies:
@@ -1760,7 +1760,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@1.17.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@1.17.1, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -1775,7 +1775,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons@2.5.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@2.5.1, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -2836,19 +2836,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:7.1.1":
-  version: 7.1.1
-  resolution: "@mui/icons-material@npm:7.1.1"
+"@mui/icons-material@npm:7.3.9":
+  version: 7.3.9
+  resolution: "@mui/icons-material@npm:7.3.9"
   dependencies:
-    "@babel/runtime": ^7.27.1
+    "@babel/runtime": ^7.28.6
   peerDependencies:
-    "@mui/material": ^7.1.1
+    "@mui/material": ^7.3.9
     "@types/react": ^17.0.0 || ^18.0.0 || ^19.0.0
     react: ^17.0.0 || ^18.0.0 || ^19.0.0
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 85f1369e987f76d364f85305c4e2af188709af83a68cd6326ff92910d97b7db2f31c6797233d75306dd0063c4de587c6fdd55c0f65c1d3f882d40ded7624b1ae
+  checksum: 355b73c854859b94994f2b98d5cb8a37d68faee49b3b14f75b3090189b3b3fece23907dfeb0e96f7ebcd976ffe619cde2df094147a39d73929ba0c8fcb9c18a0
   languageName: node
   linkType: hard
 
@@ -9301,12 +9301,12 @@ __metadata:
   linkType: hard
 
 "follow-redirects@npm:^1.0.0":
-  version: 1.15.11
-  resolution: "follow-redirects@npm:1.15.11"
+  version: 1.16.0
+  resolution: "follow-redirects@npm:1.16.0"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: 20bf55e9504f59e6cc3743ba27edb2ebf41edea1baab34799408f2c050f73f0c612728db21c691276296d2795ea8a812dc532a98e8793619fcab91abe06d017f
+  checksum: e90dce4607b1f6b8b9883287f912585573c19088209ad82341d550a795b4ba514522b73b1b340cf618279df27975cd46504d09149be60291ba6767384c1fd8f8
   languageName: node
   linkType: hard
 
@@ -12229,9 +12229,9 @@ __metadata:
   linkType: hard
 
 "lodash@npm:^4.17.10, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.7.0":
-  version: 4.17.23
-  resolution: "lodash@npm:4.17.23"
-  checksum: 7daad39758a72872e94651630fbb54ba76868f904211089721a64516ce865506a759d9ad3d8ff22a2a49a50a09db5d27c36f22762d21766e47e3ba918d6d7bab
+  version: 4.18.1
+  resolution: "lodash@npm:4.18.1"
+  checksum: bb5f5b49aad29614e709af02b64c56b0f8b78c6a81434a3c1ae527d2f0f78ca08f9d9fb22aa825a053876c9d2166e9c01f31c356014b5e2bdc0556c057433102
   languageName: node
   linkType: hard
 
@@ -15418,9 +15418,9 @@ __metadata:
   dependencies:
     "@brightlayer-ui/colors": ^4.0.0
     "@brightlayer-ui/eslint-config": ^3.0.1
-    "@brightlayer-ui/icons": 2.5.0
-    "@brightlayer-ui/icons-mui": 4.2.0
-    "@brightlayer-ui/icons-svg": 1.17.0
+    "@brightlayer-ui/icons": 2.5.1
+    "@brightlayer-ui/icons-mui": 4.2.1
+    "@brightlayer-ui/icons-svg": 1.17.1
     "@brightlayer-ui/prettier-config": ^1.0.3
     "@brightlayer-ui/react-components": ^6.2.0
     "@brightlayer-ui/react-native-vector-icons": ^2.0.0
@@ -15429,7 +15429,7 @@ __metadata:
     "@emotion/react": ^11.10.8
     "@emotion/styled": ^11.10.5
     "@mui/base": ^5.0.0-beta.70
-    "@mui/icons-material": 7.1.1
+    "@mui/icons-material": 7.3.9
     "@mui/material": 7.1.1
     "@mui/styles": ^6.0.0
     "@testing-library/jest-dom": ^6.1.5

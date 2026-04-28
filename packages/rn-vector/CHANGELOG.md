@@ -1,5 +1,15 @@
 # Changelog
 
+## v3.2.1 (April 28, 2026)
+
+### Fixed
+
+- `build.gradle` for android.
+
+### Changed
+
+- Updated the missing keywords and author for newly added icons.
+
 ## v3.2.0 (March 31, 2026)
 
 ### Added
