@@ -4939,7 +4939,7 @@
             "filename": "bottom_panel_close.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["action", "arrow", "bottom", "button", "cancel", "clear", "close", "collapse", "component", "container", "control", "cross", "delete", "direction", "discard", "dismiss", "down", "drawer", "exit", "geometry", "hide", "layout", "minimize", "panel", "panels", "remove", "retract", "shape", "sheet", "shrink", "spaces", "ui element", "window", "workflow", "x"],
             "description": "Close bottom panel icon",
             "author": "Google",
             "size": 24
@@ -4949,7 +4949,7 @@
             "filename": "bottom_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["access", "action", "arrow", "bottom", "collapse", "control", "data", "details", "direction", "down", "drawer", "element", "expand", "expander", "extend", "indicator", "information", "interface", "layout", "menu", "more", "navigation", "open", "options", "panel", "panels", "pull up", "reveal", "show", "spaces", "triangle", "ui element", "up", "window", "workflow"],
             "description": "Open bottom panel icon",
             "author": "Google",
             "size": 24
@@ -5009,7 +5009,7 @@
             "filename": "left_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["arrow", "collapse", "dashboard", "direction", "display", "expand", "interface", "layout", "left arrow", "left panel", "menu", "navigation", "open", "organize", "panel", "panels", "screen", "show", "sidebar", "spaces", "toggle", "window", "workflow"],
             "description": "Open left panel icon",
             "author": "Google",
             "size": 24
@@ -5019,7 +5019,7 @@
             "filename": "right_panel_close.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["arrow", "arrow right", "chevron", "chevron right", "collapse", "direction", "drawer", "expand", "expand right", "forward", "layout", "move right", "navigate", "navigation", "next", "close", "open right", "panel", "panels", "point right", "proceed", "reveal", "right", "right arrow", "right chevron", "show", "show right", "sidebar", "slide open", "spaces", "window", "workflow"],
             "description": "Close right panel icon",
             "author": "Google",
             "size": 24
@@ -5029,7 +5029,7 @@
             "filename": "right_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["action", "arrow", "chevron", "collapse", "control", "direction", "directional", "display", "expand", "expand right", "hide", "indicator", "interface element", "layout", "menu", "navigation", "open", "open right", "panel", "panels", "pointer", "reveal", "reveal right", "right", "show", "sidebar", "slide", "spaces", "toggle", "view", "window", "workflow"],
             "description": "Open right panel icon",
             "author": "Google",
             "size": 24
@@ -5069,7 +5069,7 @@
             "filename": "top_panel_close.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "close", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["action", "add", "arithmetic", "arrow", "bar", "button", "calculation", "cancel", "clear", "close", "collapse", "control", "cross", "delete", "direction", "dismiss", "equation", "exit", "header", "layout", "math", "multiplication", "multiply", "panel", "panels", "plus", "remove", "spaces", "stop", "symbol", "times", "top", "up", "window", "workflow", "x"],
             "description": "Close top panel icon",
             "author": "Google",
             "size": 24
@@ -5079,7 +5079,7 @@
             "filename": "top_panel_open.svg",
             "family": ["UIActions"],
             "style": "baseline",
-            "tags": ["action", "arrow", "button", "collapse", "command", "compact", "contract", "control", "direction", "directional", "drawer", "element", "hide", "indicator", "interaction", "layout", "left", "menu", "minimize", "navigation", "panel", "panels", "reduce", "retract", "shrink", "sidebar", "spaces", "toggle", "ui element", "viewport", "window", "workflow", "workspace"],
+            "tags": ["access", "action", "arrow", "top", "collapse", "control", "data", "details", "direction", "up", "drawer", "element", "expand", "expander", "extend", "indicator", "information", "interface", "layout", "menu", "more", "navigation", "open", "options", "panel", "panels", "reveal", "show", "spaces", "triangle", "ui element", "window", "workflow"],
             "description": "Open top panel icon",
             "author": "Google",
             "size": 24
