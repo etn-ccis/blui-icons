@@ -15453,7 +15453,7 @@ __metadata:
     react-router-dom: ^7.5.3
     react-scripts: 5.0.1
     typescript: ^5.9.3
-    web-vitals: ^2.1.4
+    web-vitals: ^5.2.0
   languageName: unknown
   linkType: soft
 
@@ -18508,10 +18508,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web-vitals@npm:^2.1.4":
-  version: 2.1.4
-  resolution: "web-vitals@npm:2.1.4"
-  checksum: 03d3f47dbf55c3dce07beb0ff5de8ddd52e2d0a53a8df5c84e7a16dda93543341d67231fa79b1d9772b091419af4ec0fd395b8bcf451a0e26846e3f76b3d0efc
+"web-vitals@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "web-vitals@npm:5.2.0"
+  checksum: ced94ccc76817f607c6545d415d364a340f0b471a1199d3edc035efdb4611585fc44080338a56dd93b275341dba9ed61045957afadbfeb84af72aa0f029d36cb
   languageName: node
   linkType: hard
 
