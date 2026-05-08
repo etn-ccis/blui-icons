@@ -5001,7 +5001,7 @@
             "style": "baseline",
             "tags": ["3d", "algorithm", "angle bracket", "application", "bracket", "build", "code", "coding", "command", "commit", "create", "cube", "deploy", "deployed", "deployment", "developer", "development", "dimension", "greater than sign", "install", "installed", "language", "less than sign", "line", "package", "packet", "programming", "project", "publish", "push", "release", "repository", "script", "software", "source code", "text", "version control", "web development"],
             "description": "Filled icon for deployed code package",
-            "author": "Google",
+            "author": "Google/Yuchun Xia",
             "size": 24
         },
         {
@@ -5011,7 +5011,7 @@
             "style": "outlined",
             "tags": [ "3d", "algorithm", "angle bracket", "application", "bracket", "build", "code", "coding", "command", "commit", "create", "cube", "deploy", "deployed", "deployment", "developer", "development", "dimension", "greater than sign", "install", "installed", "language", "less than sign", "line", "package", "packet", "programming", "project", "publish", "push", "release", "repository", "script", "software", "source code", "text", "version control", "web development"],
             "description": "Outline icon for deployed code package",
-            "author": "Google",
+            "author": "Google/Yuchun Xia",
             "size": 24
         },
         {
@@ -5021,7 +5021,7 @@
             "style": "baseline",
             "tags": ["hub", "mode", "alt", "network", "net"],
             "description": "Alternative hub node network icon",
-            "author": "Google",
+            "author": "Yuchun Xia",
             "size": 24
         },
         {
@@ -5031,7 +5031,7 @@
             "style": "baseline",
             "tags": ["general", "network", "internet", "net", "offline", "disabled"],
             "description": "Offline internet connection status icon",
-            "author": "Google",
+            "author": "Yuchun Xia",
             "size": 24
         },
         {
