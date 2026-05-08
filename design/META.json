@@ -5001,7 +5001,7 @@
             "style": "baseline",
             "tags": ["3d", "algorithm", "angle bracket", "application", "bracket", "build", "code", "coding", "command", "commit", "create", "cube", "deploy", "deployed", "deployment", "developer", "development", "dimension", "greater than sign", "install", "installed", "language", "less than sign", "line", "package", "packet", "programming", "project", "publish", "push", "release", "repository", "script", "software", "source code", "text", "version control", "web development"],
             "description": "Filled icon for deployed code package",
-            "author": "Google/Yuchun Xia",
+            "author": "Yuchun Xia",
             "size": 24
         },
         {
@@ -5011,16 +5011,16 @@
             "style": "outlined",
             "tags": [ "3d", "algorithm", "angle bracket", "application", "bracket", "build", "code", "coding", "command", "commit", "create", "cube", "deploy", "deployed", "deployment", "developer", "development", "dimension", "greater than sign", "install", "installed", "language", "less than sign", "line", "package", "packet", "programming", "project", "publish", "push", "release", "repository", "script", "software", "source code", "text", "version control", "web development"],
             "description": "Outline icon for deployed code package",
-            "author": "Google/Yuchun Xia",
+            "author": "Google",
             "size": 24
         },
         {
-            "name": "Hub Alt Node",
+            "name": "Hub Alt Mode",
             "filename": "hub_alt_mode.svg",
             "family": ["System"],
             "style": "baseline",
             "tags": ["hub", "mode", "alt", "network", "net"],
-            "description": "Alternative hub node network icon",
+            "description": "Alternative hub mode network icon",
             "author": "Yuchun Xia",
             "size": 24
         },
