@@ -4,7 +4,7 @@
 
 ### Added
 
-- New icons: Deployed Code Filled, Deployed Code Outline, Hub Alt Node, Internet Offline, Motion Mode, Rule Settings.
+- New icons: Deployed Code Filled, Deployed Code Outline, Hub Alt Mode, Internet Offline, Motion Mode, Rule Settings.
 
 ## v1.17.1 (April 28, 2026)
 
