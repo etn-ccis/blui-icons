@@ -1,5 +1,11 @@
 # Changelog
 
+## v4.3.0 (unrelease)
+
+### Added
+
+- New icons: Deployed Code Filled, Deployed Code Outline, Hub Alt Mode, Internet Offline, Motion Mode, Rule Settings.
+
 ## v4.2.1 (April 28, 2026)
 
 ### Changed
