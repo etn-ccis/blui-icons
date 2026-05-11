@@ -7493,9 +7493,25 @@
             "filename": "circuit_open.svg",
             "family": ["Devices"],
             "style": "baseline",
-            "tags": ["circuit", "open", "electrical", "breaker", "switch", "power", "industrial", "disconnect"],
+            "tags": [
+                "circuit",
+                "schematic",
+                "pathway",
+                "network",
+                "loop",
+                "wiring",
+                "conductor",
+                "node",
+                "junction",
+                "layout",
+                "trace",
+                "board",
+                "flow",
+                "connection",
+                "topology"
+            ],
             "description": "Used to represent an open electrical circuit.",
-            "author": "Brightlayer UI",
+            "author": "Huayun Huang",
             "size": 24
         },
         {
