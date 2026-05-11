@@ -45,7 +45,9 @@ async function main() {
 async function cloneOrPullMaterialDesignIcons() {
     try {
         console.log('[GIT] Clone material design icons repository (this can take several minutes)');
-        await exec(`git -c http.version=HTTP/1.1 clone --depth 1 --filter=blob:none --sparse https://github.com/google/material-design-icons.git ${TMP_PATH}`);
+        await exec(
+            `git -c http.version=HTTP/1.1 clone --depth 1 --filter=blob:none --sparse https://github.com/google/material-design-icons.git ${TMP_PATH}`
+        );
         process.chdir(TMP_PATH);
         console.log('[GIT] Sparse checkout of ony the "scr" folder');
         await exec(`git sparse-checkout set src`);
@@ -55,7 +57,10 @@ async function cloneOrPullMaterialDesignIcons() {
     } catch (e) {
         // Check if the directory exists (previous clone) or we have a genuine failure
         let dirExists = false;
-        try { await access(TMP_PATH); dirExists = true; } catch {}
+        try {
+            await access(TMP_PATH);
+            dirExists = true;
+        } catch {}
 
         if (!dirExists) {
             throw e;
@@ -69,7 +74,9 @@ async function cloneOrPullMaterialDesignIcons() {
             console.log('[GIT] Pull done');
         } catch (pullErr) {
             process.chdir('..');
-            try { await access(TMP_SRC_PATH); } catch {
+            try {
+                await access(TMP_SRC_PATH);
+            } catch {
                 throw new Error(`Pull failed and cached src missing: ${pullErr.message}`);
             }
             console.warn(`[GIT] Pull failed, continuing with cached icons: ${pullErr.message}`);
