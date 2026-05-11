@@ -230,6 +230,24 @@
             "size": 24
         },
         {
+            "name": "Generator Alt",
+            "filename": "generator_alt.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "electrical", "backup", "g", "industrial", "power", "devices", "generator"],
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "Generator Alt Offline",
+            "filename": "generator_alt_offline.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "electrical", "backup", "g", "industrial", "power", "devices", "generator"],
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
             "name": "Handheld Radio",
             "filename": "radio_handheld.svg",
             "family": ["Devices"],
@@ -5162,6 +5180,186 @@
             "tags": ["area", "bar", "collapse", "column", "content", "control", "data", "design", "display", "expand", "format", "grid", "hide", "information", "interface", "layout", "list", "menu", "navigation", "navigation panel", "options", "options panel", "panel", "rectangle", "screen", "section", "settings", "show", "sidebar", "toggle", "vertical", "view", "web", "window"],
             "description": "Outline sidebar view icon",
             "author": "Huayun Huang",
+            "size": 24
+        },
+        {
+            "name": "AC Converter Filled",
+            "filename": "ac_converter_filled.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["rectifier", "diode", "bridge", "ac", "dc", "conversion", "inverter", "semiconductor", "power", "filter", "waveform", "regulator", "conduction", "ripple", "converter", "circuitry", "chopper"],
+            "description": "Used to represent an AC power converter device.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "AC Converter Outline",
+            "filename": "ac_converter_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["rectifier", "diode", "bridge", "ac", "dc", "conversion", "inverter", "semiconductor", "power", "filter", "waveform", "regulator", "conduction", "ripple", "converter", "circuitry", "chopper"],
+            "description": "Outline style AC power converter device icon.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "Circuit Closed",
+            "filename": "circuit_closed.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["circuit", "schematic", "pathway", "network", "loop", "wiring", "conductor", "node", "junction", "layout", "trace", "board", "flow", "connection", "topology"],
+            "description": "Used to represent a closed electrical circuit.",
+            "author": "Huayun Huang",
+            "size": 24
+        },
+        {
+            "name": "Circuit Open",
+            "filename": "circuit_open.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["circuit", "open", "electrical", "breaker", "switch", "power", "industrial", "disconnect"],
+            "description": "Used to represent an open electrical circuit.",
+            "author": "Brightlayer UI",
+            "size": 24
+        },
+        {
+            "name": "DC Chopper Filled",
+            "filename": "dc_chopper_filled.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["rectifier", "diode", "bridge", "ac", "dc", "conversion", "inverter", "semiconductor", "power", "filter", "waveform", "regulator", "conduction", "ripple", "converter", "circuitry", "chopper"],
+            "description": "Used to represent a DC chopper power conversion device.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "DC Chopper Outline",
+            "filename": "dc_chopper_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["rectifier", "diode", "bridge", "ac", "dc", "conversion", "inverter", "semiconductor", "power", "filter", "waveform", "regulator", "conduction", "ripple", "converter", "circuitry", "chopper"],
+            "description": "Outline style DC chopper power conversion device icon.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "EV Plug Locked",
+            "filename": "ev_plug_locked.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["electric vehicle", "inlet", "connector", "tesla", "charge", "charging station", "vehicles", "lock", "protect"],
+            "description": "Used to represent a locked EV charging plug.",
+            "author": "Jeremy Matter",
+            "size": 24
+        },
+        {
+            "name": "Fan Outline",
+            "filename": "fan_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["device", "product", "equipment", "component", "fan", "blades", "hvac", "cooling", "air", "airflow", "flow", "blow", "impeller", "rotor", "devices"],
+            "description": "Outline style fan icon used to represent cooling or ventilation devices.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "Fuse",
+            "filename": "fuse.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["fuse", "circuit", "overcurrent", "protection", "breaker", "safety", "electrical", "hardware", "power", "inline", "holder", "symbol", "component", "device", "indicator"],
+            "description": "Used to represent an electrical fuse protection device.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "Inverter Filled",
+            "filename": "inverter_filled.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["rectifier", "diode", "bridge", "ac", "dc", "conversion", "inverter", "semiconductor", "power", "filter", "waveform", "regulator", "conduction", "ripple", "converter", "circuitry", "chopper"],
+            "description": "Used to represent a power inverter device.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "Inverter Outline",
+            "filename": "inverter_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["rectifier", "diode", "bridge", "ac", "dc", "conversion", "inverter", "semiconductor", "power", "filter", "waveform", "regulator", "conduction", "ripple", "converter", "circuitry", "chopper"],
+            "description": "Outline style power inverter device icon.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "LAN Offline",
+            "filename": "lan_offline.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["computer", "connection", "data", "internet", "lan", "network", "service", "offline", "disabled"],
+            "description": "Used to represent a LAN connection that is offline or disconnected.",
+            "author": "Jeremy Matter",
+            "size": 24
+        },
+        {
+            "name": "Load Center",
+            "filename": "load_center.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "component", "load", "center", "devices", "electrical", "panel"],
+            "description": "Used to represent a load center or electrical distribution panel.",
+            "author": "Eric Atha",
+            "size": 24
+        },
+        {
+            "name": "Rectifier Filled",
+            "filename": "rectifier_filled.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["rectifier", "diode", "bridge", "ac", "dc", "conversion", "inverter", "semiconductor", "power", "filter", "waveform", "regulator", "conduction", "ripple", "converter", "circuitry", "chopper"],
+            "description": "Used to represent a rectifier power conversion device.",
+            "author": "Huayun Huang",
+            "size": 24
+        },
+        {
+            "name": "Rectifier Outline",
+            "filename": "rectifier_outline.svg",
+            "family": ["Devices"],
+            "style": "outlined",
+            "tags": ["rectifier", "diode", "bridge", "ac", "dc", "conversion", "inverter", "semiconductor", "power", "filter", "waveform", "regulator", "conduction", "ripple", "converter", "circuitry", "chopper"],
+            "description": "Outline style rectifier power conversion device icon.",
+            "author": "Huayun Huang",
+            "size": 24
+        },
+        {
+            "name": "Solar Panel",
+            "filename": "solar_panel.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["clean energy", "clean power", "eco", "electric power", "electricity", "energy", "generation", "green energy", "green power", "heat", "nest", "panel", "photovoltaic", "photovoltaic panel", "power", "power generation", "rays", "renewable", "solar", "solar energy", "solar panel", "solar power", "sun", "sun rays", "sunlight", "sunny", "sustainable", "sustainable energy"],
+            "description": "Used to represent a solar panel or photovoltaic device.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "Solar Panel Offline",
+            "filename": "solar_panel_offline.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["clean energy", "clean power", "eco", "electric power", "electricity", "energy", "generation", "green energy", "green power", "heat", "nest", "panel", "photovoltaic", "photovoltaic panel", "power", "power generation", "rays", "renewable", "solar", "solar energy", "solar panel", "solar power", "sun", "sun rays", "sunlight", "sunny", "sustainable", "sustainable energy"],
+            "description": "Used to represent a solar panel that is offline or unavailable.",
+            "author": "Yuchun Xia",
+            "size": 24
+        },
+        {
+            "name": "Tripped Open Breaker",
+            "filename": "tripped_open_breaker.svg",
+            "family": ["Devices"],
+            "style": "baseline",
+            "tags": ["device", "product", "equipment", "component", "low", "voltage", "open", "breaker", "mccb", "circuit", "load", "loadcenter", "panel", "devices", "tripped"],
+            "description": "Used to represent a circuit breaker that has tripped to the open position.",
+            "author": "Yuchun Xia",
             "size": 24
         }
     ]
