@@ -2771,7 +2771,7 @@
             "name": "Disable By Default Outline",
             "filename": "disable_by_default_outline.svg",
             "family": ["Status"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "Access denied",
                 "alert",
@@ -2860,7 +2860,7 @@
             "name": "Sync Circle Off Outline",
             "filename": "sync_circle_off_outline.svg",
             "family": ["Status"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "360",
                 "around",
@@ -2898,7 +2898,7 @@
             "name": "Sync Circle Outline",
             "filename": "sync_circle_outline.svg",
             "family": ["Status"],
-            "style": "outline",
+            "style": "outlined",
             "tags": [
                 "360",
                 "around",
