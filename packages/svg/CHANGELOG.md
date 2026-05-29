@@ -1,10 +1,10 @@
 # Changelog
 
-## v1.18.0 (unrelease)
+## v1.18.0 (May 29, 2026)
 
 ### Added
 
-- New icons: Deployed Code Filled, Deployed Code Outline, Hub Alt Mode, Internet Offline, Motion Mode, Rule Settings, AC Converter Filled, AC Converter Outline, Circuit Closed, Circuit Open, DC Chopper Filled, DC Chopper Outline, EV Plug Locked, Fan Outline, Fuse, Generator Offline, Inverter Filled, Inverter Outline, LAN Offline, Load Center, Rectifier Filled, Rectifier Outline, Solar Panel, Solar Panel Offline, Tripped Open Breaker, Apparent Power S, Disable By Default Outline, Reactive Power Q, Sync Circle Off Filled, Sync Circle Off Outline, Sync Circle Outline.
+- New icons: Deployed Code Filled, Deployed Code Outline, Hub Alt Mode, Internet Offline, Motion Mode, Rule Settings, AC Converter Filled, AC Converter Outline, Circuit Closed, Circuit Open, DC Chopper Filled, DC Chopper Outline, EV Plug Locked, Fan Outline, Fuse, Generator Alt, Generator Alt Offline, Inverter Filled, Inverter Outline, LAN Offline, Load Center, Rectifier Filled, Rectifier Outline, Solar Panel, Solar Panel Offline, Tripped Open Breaker, Apparent Power S, Disable By Default Outline, Reactive Power Q, Sync Circle Off Filled, Sync Circle Off Outline, Sync Circle Outline.
 
 ## v1.17.1 (April 28, 2026)
 
