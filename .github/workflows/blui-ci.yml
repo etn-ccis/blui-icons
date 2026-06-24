@@ -80,6 +80,29 @@ jobs:
                   if-no-files-found: error
                   path: packages/mui
 
+    security_audit:
+        name: Security Audit (High/Critical)
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                node-version: [20.x]
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  cache: 'yarn'
+            - name: Install dependencies
+              run: yarn --immutable
+            - name: Audit for high/critical vulnerabilities
+              run: |
+                  yarn npm audit --all --recursive --json > audit.json
+                  node -e "const fs=require('fs');const report=JSON.parse(fs.readFileSync('audit.json','utf8'));const vulns=report.metadata?.vulnerabilities||{};const high=vulns.high||0;const critical=vulns.critical||0;if(high+critical>0){console.error('High vulnerabilities:',high,'Critical vulnerabilities:',critical);process.exit(1);}console.log('No high/critical vulnerabilities found.');"
+
     publish_icon_font:
         runs-on: ubuntu-latest
         if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/dev') }}
