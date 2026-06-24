@@ -6,7 +6,7 @@
     "scripts": {
         "build": "yarn clear:svg && yarn copy:from-design && yarn copy:index && yarn generate:sprites",
         "clear:svg": "rimraf *.svg",
-        "copy:from-design": "find ../../design -type f -name '*.svg' ! -path '../../design/old/*' ! -path '../../design/Internal/*' ! -path '../../design/WIP/*' ! -path '../../design/Products/*/*' -exec cp {} . \\;",
+        "copy:from-design": "copyfiles -f -e \"../../design/old/*.svg\" -e \"../../design/Internal/*.svg\" -e \"../../design/WIP/*.svg\" -e \"../../design/Products/**/*.svg\" \"../../design/Products/*.svg\" ../../design/**/*.svg ../../design/**/**/*.svg .",
         "generate:sprite": "create-svg-sprite --optimize --input './' --output './' --name 'icons'",
         "generate:sprites": "node ./scripts/generateSprites.js && yarn tsc && rm -rf sprites/index.ts && yarn clear:material",
         "clear:material": "rimraf material-design-icons",
@@ -19,6 +19,7 @@
     },
     "devDependencies": {
         "cheerio": "^1.1.2",
+        "copyfiles": "^2.1.0",
         "create-svg-sprite": "^1.0.0",
         "cross-env": "^7.0.3",
         "rimraf": "^5.0.5",
