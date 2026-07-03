@@ -39,3 +39,6 @@ Please confirm all items below have been addressed prior to requesting review:
 - [ ] Translations have been updated (if applicable)
 - [ ] Documentation has been updated (if applicable)
 - [ ] Changelog has been updated (if applicable)
+- [ ] Security scan has been executed via an approved tool and all findings are resolved or acknowledged
+- [ ] UI changes have been validated against the design system using Figma Code Connect (if applicable)
+- [ ] Follows Definition of Done (DOD)
