@@ -1,0 +1,1 @@
+yarn install && yarn prettier:check && yarn lint
