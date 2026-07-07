@@ -15,6 +15,7 @@
         "start": "yarn workspaces foreach -v run start",
         "prettier": "yarn workspaces foreach -v run prettier",
         "prettier:check": "yarn workspaces foreach -v run prettier:check",
+        "prepare": "husky",
         "lint": "yarn workspaces foreach -v run lint",
         "set:env": "yarn workspaces foreach -v run set:env",
         "publish:packages": "yarn workspaces foreach -v run publish:package",
@@ -43,6 +44,7 @@
     "devDependencies": {
         "@brightlayer-ui/prettier-config": "^1.0.3",
         "@types/node": "^20",
+        "husky": "^9.1.7",
         "prettier": "^3.2.5"
     },
     "packageManager": "yarn@3.3.0"

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd "$(dirname "$0")/pre-push.d"
+
+for hook in *; do
+    [ -f "$hook" ] || continue
+    bash "./$hook"
+    RESULT=$?
+    if [ $RESULT -ne 0 ]; then
+        echo "pre-push.d/$hook returned non-zero: $RESULT, abort push"
+        exit $RESULT
+    fi
+done
+
+exit 0
