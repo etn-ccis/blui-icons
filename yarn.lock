@@ -1480,13 +1480,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:1.23.3":
-  version: 1.23.3
-  resolution: "@remix-run/router@npm:1.23.3"
-  checksum: 95bfe4c8ef1f1f7e614ceacfcc7ae42a66325284fa1397fe5358197cfba1618bc0832979a42a0fdeca292f015baeacfd82a5395b1f13f86f8ea0f236420bcb3d
-  languageName: node
-  linkType: hard
-
 "@resvg/resvg-js-android-arm-eabi@npm:2.6.2":
   version: 2.6.2
   resolution: "@resvg/resvg-js-android-arm-eabi@npm:2.6.2"
@@ -3441,6 +3434,13 @@ __metadata:
   version: 2.0.0
   resolution: "convert-source-map@npm:2.0.0"
   checksum: 63ae9933be5a2b8d4509daca5124e20c14d023c820258e484e32dc324d34c2754e71297c94a05784064ad27615037ef677e3f0c00469fb55f409d2bb21261035
+  languageName: node
+  linkType: hard
+
+"cookie-es@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "cookie-es@npm:3.1.1"
+  checksum: 2b196bf591a177a3602c26eb5a7253b6e08176262158d02c7dedb30903b7ffda83943b9099c25c739acedfaed143add2a39209522712b59e5b447e28c7c21469
   languageName: node
   linkType: hard
 
@@ -7582,7 +7582,7 @@ __metadata:
     prettier: ^3.2.5
     react: ^18.2.0
     react-dom: ^18.2.0
-    react-router: ^6.22.0
+    react-router: ^8.3.0
     react-router-dom: ^7.5.3
     typescript: ^5.9.3
     vite: ^7.3.0
@@ -7748,14 +7748,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:^6.22.0":
-  version: 6.30.4
-  resolution: "react-router@npm:6.30.4"
+"react-router@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "react-router@npm:8.3.0"
   dependencies:
-    "@remix-run/router": 1.23.3
+    cookie-es: ^3.1.1
   peerDependencies:
-    react: ">=16.8"
-  checksum: a9c1d03dd22cc824515dd603eae5dc49f8ed973496eabf404771ad3cfacfd239ccdc7d8cb7e2c6adab6889501cafdcc8abefdf6a061676bfa02a9247cf9d6c50
+    react: ">=19.2.7"
+    react-dom: ">=19.2.7"
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+  checksum: 42a4f9d6db1cc420af125a142ebeed2f6083d49ed7366c1cd9dc0e62200b5a3dbd01f25298d4daff29771d11cda2308ffb99e5cd0be4261095b6f769edf78702
   languageName: node
   linkType: hard
 
