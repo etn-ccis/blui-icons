@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+LC_ALL=C
+
+local_branch="$(git rev-parse --abbrev-ref HEAD)"
+
+# Branch naming convention: <type>/blui-<JIRA-ID>[-optional-description]
+# Examples:
+#   feature/blui-1234
+#   feature/blui-1234-add-new-component
+#   bug/blui-5678-fix-layout-issue
+#   hotfix/blui-9999
+#   release/blui-2000
+valid_branch_pattern="^(feature|bug|hotfix|release)\/blui-[0-9]+(-[a-z0-9-]+)?$"
+
+# Whitelist for protected branches that don't need to follow the pattern
+whitelist="^(dev|master|main)$"
+
+message="
+❌ Invalid branch name: '$local_branch'
+
+Branch names must follow the pattern:
+  <type>/blui-<JIRA-ID>[-optional-description]
+
+Where:
+  - <type> is one of: feature, bug, hotfix, release
+  - <JIRA-ID> is the numeric JIRA ticket ID
+  - [-optional-description] is an optional lowercase description with hyphens
+
+Examples:
+  ✅ feature/blui-1234
+  ✅ feature/blui-1234-add-drag-upload
+  ✅ bug/blui-5678-fix-layout
+  ✅ hotfix/blui-9999
+  ✅ release/blui-2000
+
+Rename your branch using:
+  git branch -m <new-valid-name>
+"
+
+# Skip validation for whitelisted branches
+if [[ $local_branch =~ $whitelist ]]; then
+    exit 0
+fi
+
+# Validate branch name
+if [[ ! $local_branch =~ $valid_branch_pattern ]]; then
+    printf '%s\n' "$message"
+    exit 1
+fi
+
+exit 0

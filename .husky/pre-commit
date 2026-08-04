@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd "$(dirname "$0")/pre-commit.d" || exit 1
+
+for hook in *; do
+    [ -f "$hook" ] || continue
+    bash "./$hook"
+    RESULT=$?
+    if [ "$RESULT" -ne 0 ]; then
+        echo "pre-commit.d/$hook returned non-zero: $RESULT, abort commit"
+        exit "$RESULT"
+    fi
+done
+
+exit 0

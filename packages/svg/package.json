@@ -1,6 +1,6 @@
 {
     "name": "@brightlayer-ui/icons-svg",
-    "version": "1.17.1",
+    "version": "1.18.0",
     "description": "SVG icons for Eaton applications",
     "main": "index.js",
     "scripts": {
@@ -18,7 +18,7 @@
         "test": "yarn install && ./scripts/svgBuildTest.sh"
     },
     "devDependencies": {
-        "cheerio": "^1.0.0-rc.12",
+        "cheerio": "^1.1.2",
         "copyfiles": "^2.1.0",
         "create-svg-sprite": "^1.0.0",
         "cross-env": "^7.0.3",
