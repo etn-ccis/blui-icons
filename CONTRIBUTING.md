@@ -72,10 +72,29 @@ No issue yet? [Create one](https://github.com/etn-ccis/blui-icons/issues/new/cho
 
 Before making any changes, create a branch from `dev` to keep your work organized and separate from the main codebase. This makes it easier to manage your changes and submit them as a pull request (PR) later.
 
-\`\`\`sh
+**Branch Naming Convention:**
+
+All branches must follow the pattern: `<type>/blui-<JIRA-ID>[-optional-description]`
+
+| Component | Description | Examples |
+|-----------|-------------|----------|
+| `<type>` | Type of work | `feature`, `bug`, `hotfix`, `release` |
+| `blui-<JIRA-ID>` | JIRA ticket reference | `blui-1234`, `blui-5678` |
+| `[-description]` | Optional brief description | `-add-new-component`, `-fix-layout` |
+
+**Valid branch name examples:**
+- `feature/blui-1234`
+- `feature/blui-1234-add-drag-upload`
+- `bug/blui-5678-fix-layout-issue`
+- `hotfix/blui-9999`
+- `release/blui-2000`
+
+> **Note:** Commits and pushes will be blocked if the branch name doesn't follow this convention. This ensures better traceability and CI/CD alignment with JIRA tickets.
+
+```sh
 git pull origin dev
-git checkout -b feature/<your_branch_name>
-\`\`\`
+git checkout -b feature/blui-<JIRA-ID>[-optional-description]
+```
 
 #### Build and Start the Development Server
 
