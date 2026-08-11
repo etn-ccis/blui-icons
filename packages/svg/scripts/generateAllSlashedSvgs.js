@@ -2,8 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-
-const DEFAULT_SLASH_COLOR = '#727E84';
+const { applySlashMask } = require('./slashUtils');
 
 // Files to skip — the overlay itself, and any already-slashed files
 const SKIP_FILES = new Set(['slash_overlay.svg']);
@@ -22,10 +21,7 @@ if (files.length === 0) {
     process.exit(0);
 }
 
-// Filled polygon equivalent of a stroke-width:2 diagonal line at 45°.
-// Corners are offset ±1px perpendicular to the line direction (-0.7071, 0.7071).
-const slashGroup = `\n  <g data-name="slash-overlay">\n    <path d="M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z" fill="${DEFAULT_SLASH_COLOR}"/>\n  </g>\n`;
-const existingSlashRegex = /\n\s*<g data-name="slash-overlay">[\s\S]*?<\/g>\n?/;
+
 
 let generated = 0;
 let skipped = 0;
@@ -43,8 +39,7 @@ for (const file of files) {
         continue;
     }
 
-    const cleanedSvg = svg.replace(existingSlashRegex, '\n');
-    const result = cleanedSvg.replace('</svg>', `${slashGroup}</svg>`);
+    const result = applySlashMask(svg);
 
     fs.writeFileSync(outputPath, result, 'utf8');
     generated++;

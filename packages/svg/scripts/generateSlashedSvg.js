@@ -2,8 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-
-const DEFAULT_SLASH_COLOR = '#727E84';
+const { applySlashMask } = require('./slashUtils');
 
 const usage = `Usage:\n  node scripts/generateSlashedSvg.js --input <input.svg> [--output <output.svg>] [--overwrite]\n\nOptions:\n  --input       Source SVG path (required)\n  --output      Destination SVG path (default: <input>_slashed.svg)\n  --overwrite   Overwrite the input file\n`;
 
@@ -49,15 +48,7 @@ if (!svg.includes('<svg') || !svg.includes('</svg>')) {
     process.exit(1);
 }
 
-// Filled polygon equivalent of a stroke-width:2 diagonal line at 45°.
-// Corners are offset ±1px perpendicular to the line direction (-0.7071, 0.7071).
-// White polygon is shifted +1px in the (0.7071, -0.7071) direction (above the grey line).
-const slashGroup = `\n  <g data-name="slash-overlay">\n    <path d="M5.22 3.21 L3.80 4.63 L19.40 20.23 L20.82 18.81 Z" fill="#FFFFFF"/>\n    <path d="M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z" fill="${DEFAULT_SLASH_COLOR}"/>\n  </g>\n`;
-
-const existingSlashRegex = /\n\s*<g data-name="slash-overlay">[\s\S]*?<\/g>\n?/;
-const cleanedSvg = svg.replace(existingSlashRegex, '\n');
-
-const result = cleanedSvg.replace('</svg>', `${slashGroup}</svg>`);
+const result = applySlashMask(svg);
 
 fs.writeFileSync(resolvedOutput, result, 'utf8');
 

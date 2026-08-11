@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Icons from '@brightlayer-ui/icons-mui';
-import { Box, SxProps } from '@mui/material';
+import { Box, Divider, SxProps, Typography } from '@mui/material';
 import { Theme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import meta from '@brightlayer-ui/icons-mui/index.json';
@@ -57,6 +57,27 @@ export const MuiPage: React.FC = () => (
                     </Grid>
                 );
             })}
+        </Grid>
+
+        <Divider sx={{ my: 4 }} />
+        <Typography variant="h6" sx={{ textAlign: 'center', mb: 2 }}>SlashedIcon — clipping mask + slash overlay</Typography>
+        <Grid container sx={styles.container}>
+            {([['Battery', '#727E84'], ['SolarPanel', '#D32F2F'], ['Fan', '#1976D2']] as [string, string][]).map(
+                ([name, color]) => {
+                    const Component = (Icons as any)[name];
+                    const SlashedIconCmp = (Icons as any).SlashedIcon as React.FC<{ size?: number; slashColor?: string; children: React.ReactElement }>;
+                    return Component && SlashedIconCmp ? (
+                        <Grid size={2} key={name} sx={styles.gridItem}>
+                            <Box sx={styles.iconWrapper}>
+                                <SlashedIconCmp size={48} slashColor={color}>
+                                    <Component />
+                                </SlashedIconCmp>
+                                <Box sx={styles.iconName}>{name}</Box>
+                            </Box>
+                        </Grid>
+                    ) : null;
+                }
+            )}
         </Grid>
     </>
 );

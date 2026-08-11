@@ -426,6 +426,8 @@ export { default as ScrewHeadPhillips } from './ScrewHeadPhillips';
 export { default as ScrewHeadSlotted } from './ScrewHeadSlotted';
 export { default as Screwdriver } from './Screwdriver';
 export { default as Section } from './Section';
+export { default as SlashedIcon } from './SlashedIcon';
+export type { SlashedIconProps } from './SlashedIcon';
 export { default as SelectorTool } from './SelectorTool';
 export { default as Sensor } from './Sensor';
 export { default as SensorAlt } from './SensorAlt';
