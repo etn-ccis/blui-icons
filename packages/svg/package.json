@@ -11,6 +11,8 @@
         "generate:sprites": "node ./scripts/generateSprites.js && yarn tsc && rm -rf sprites/index.ts && yarn clear:material",
         "clear:material": "rimraf material-design-icons",
         "copy:index": "cp ../../design/META.json ./index.json",
+        "generate:slashed": "node ./scripts/generateSlashedSvg.js",
+        "generate:all-slashed": "node ./scripts/generateAllSlashedSvgs.js",
         "prettier": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --write",
         "prettier:check": "prettier \"**/**.{ts,tsx,js,jsx,json,css,scss,html,md}\" --check",
         "publish:package": "cross-env npm_config_yes=true && npx -p @brightlayer-ui/publish blui-publish",

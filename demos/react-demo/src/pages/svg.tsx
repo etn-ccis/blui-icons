@@ -8,12 +8,17 @@ import EatonLogoTwoTone from '@brightlayer-ui/icons-svg/eaton_two_tone.svg';
 import EVPlugTypeOne from '@brightlayer-ui/icons-svg/ev_plug_type_one.svg';
 import EVPlugType2 from '@brightlayer-ui/icons-svg/ev_plug_type_two.svg';
 import AC from '@brightlayer-ui/icons-svg/ac.svg';
+import AcSlashed from '@brightlayer-ui/icons-svg/ac_slashed.svg';
 import AccountSettings from '@brightlayer-ui/icons-svg/account_settings.svg';
+import AccountSettingsSlashed from '@brightlayer-ui/icons-svg/account_settings_slashed.svg';
 import Maintenance from '@brightlayer-ui/icons-svg/maintenance.svg';
 import MapMarkerMultiple from '@brightlayer-ui/icons-svg/map_marker_multiple.svg';
+import Pxblue from '@brightlayer-ui/icons-svg/pxblue.svg';
+import SlashOverlay from '@brightlayer-ui/icons-svg/slash_overlay.svg';
 import XStorage from '@brightlayer-ui/icons-svg/xstorage.svg';
 import XStorageAlt from '@brightlayer-ui/icons-svg/xstorage_alt.svg';
 import ThemeLightDark from '@brightlayer-ui/icons-svg/theme_light_dark.svg';
+import { SlashedSvgIcon } from '../components/SlashedSvgIcon';
 
 const svgIcons = [
     {
@@ -47,9 +52,19 @@ const svgIcons = [
         icon: AC,
     },
     {
+        name: 'AC Slashed',
+        filename: 'ac_slashed.svg',
+        icon: AcSlashed,
+    },
+    {
         name: 'Account Settings',
         filename: 'account_settings.svg',
         icon: AccountSettings,
+    },
+    {
+        name: 'Account Settings Slashed',
+        filename: 'account_settings_slashed.svg',
+        icon: AccountSettingsSlashed,
     },
     {
         name: 'Maintenance Mode',
@@ -75,6 +90,16 @@ const svgIcons = [
         name: 'Theme Light Dark',
         filename: 'theme_light_dark.svg',
         icon: ThemeLightDark,
+    },
+    {
+        name: 'Pxblue',
+        filename: 'pxblue.svg',
+        icon: Pxblue,
+    },
+    {
+        name: 'Slash Overlay',
+        filename: 'slash_overlay.svg',
+        icon: SlashOverlay,
     },
 ];
 
@@ -113,6 +138,13 @@ export const SvgPage: React.FC = () => (
                     </Box>
                 </Grid>
             ))}
+
+            <Grid size={2} key={'pxblue_slashed.svg'} sx={styles.gridItem}>
+                <Box sx={styles.iconWrapper}>
+                    <SlashedSvgIcon iconSrc={Pxblue} slashSrc={SlashOverlay} />
+                    <Box sx={styles.iconName}>{'pxblue_slashed.svg'}</Box>
+                </Box>
+            </Grid>
         </Grid>
     </>
 );

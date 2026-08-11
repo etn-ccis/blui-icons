@@ -281,7 +281,7 @@ __metadata:
     create-svg-sprite: ^1.0.0
     cross-env: ^7.0.3
     rimraf: ^5.0.5
-    simple-git: ^3.27.0
+    simple-git: ^3.36.0
     svg-sprite: ^2.0.4
     typescript: ^5.9.3
   languageName: unknown
@@ -865,17 +865,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-modules-systemjs@npm:^7.29.0":
-  version: 7.29.4
-  resolution: "@babel/plugin-transform-modules-systemjs@npm:7.29.4"
-  dependencies:
-    "@babel/helper-module-transforms": ^7.28.6
-    "@babel/helper-plugin-utils": ^7.28.6
-    "@babel/helper-validator-identifier": ^7.28.5
-    "@babel/traverse": ^7.29.0
-  peerDependencies:
-    "@babel/core": ^7.0.0-0
-  checksum: d9cbb30669077756048af990a08ad1ba149785c336024affa49848dc4ffc5948bfaaf52d90bbec711a1f320e19e2c60182dbeff40d81cc5b9a09a87919abe07d
+"@humanwhocodes/object-schema@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@humanwhocodes/object-schema@npm:2.0.3"
+  checksum: d3b78f6c5831888c6ecc899df0d03bcc25d46f3ad26a11d7ea52944dc36a35ef543fad965322174238d677a43d5c694434f6607532cff7077062513ad7022631
   languageName: node
   linkType: hard
 
@@ -1494,20 +1487,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-svg@1.17.1, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
-  version: 0.0.0-use.local
-  resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
-  dependencies:
-    cheerio: ^1.0.0-rc.12
-    copyfiles: ^2.1.0
-    create-svg-sprite: ^1.0.0
-    cross-env: ^7.0.3
-    rimraf: ^5.0.5
-    simple-git: ^3.36.0
-    svg-sprite: ^2.0.4
-    typescript: ^5.9.3
-  languageName: unknown
-  linkType: soft
+"@resvg/resvg-js-android-arm-eabi@npm:2.6.2":
+  version: 2.6.2
+  resolution: "@resvg/resvg-js-android-arm-eabi@npm:2.6.2"
+  conditions: os=android & cpu=arm
+  languageName: node
+  linkType: hard
 
 "@resvg/resvg-js-android-arm64@npm:2.6.2":
   version: 2.6.2
@@ -2990,26 +2975,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@simple-git/args-pathspec@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@simple-git/args-pathspec@npm:1.0.3"
-  checksum: 74bcc00123cd0da800fc5a6417f83f2f4fce66eb38749efc2ca3b6e4c431c6edaabe80c5834714c155f6ba07582069b182420eda27a601353fb5a3b48917d7e0
-  languageName: node
-  linkType: hard
-
-"@simple-git/argv-parser@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "@simple-git/argv-parser@npm:1.1.1"
-  dependencies:
-    "@simple-git/args-pathspec": ^1.0.3
-  checksum: 889202319c3d2a9143287ba0951dc5d6b9d6892c70679049722174eb8e10af658bc2c8cff06b75a5a3e3a84485b85fec828b0cd85db34d6868750ae646d1fd99
-  languageName: node
-  linkType: hard
-
-"@sinclair/typebox@npm:^0.24.1":
-  version: 0.24.51
-  resolution: "@sinclair/typebox@npm:0.24.51"
-  checksum: fd0d855e748ef767eb19da1a60ed0ab928e91e0f358c1dd198d600762c0015440b15755e96d1176e2a0db7e09c6a64ed487828ee10dd0c3e22f61eb09c478cd0
+"buffer-from@npm:^1.0.0":
+  version: 1.1.2
+  resolution: "buffer-from@npm:1.1.2"
+  checksum: 0448524a562b37d4d7ed9efd91685a5b77a50672c556ea254ac9a6d30e3403a517d8981f10e565db24e8339413b43c97ca2951f10e399c6125a0d8911f5679bb
   languageName: node
   linkType: hard
 
