@@ -1,10 +1,10 @@
 @font-face {
     font-family: "BrightlayerUIIcons";
-    src: url("./BrightlayerUIIcons.ttf?fb3d2f9d18b2fa8f09d2a9af93ef7552") format("truetype"),
-url("./BrightlayerUIIcons.woff?fb3d2f9d18b2fa8f09d2a9af93ef7552") format("woff"),
-url("./BrightlayerUIIcons.woff2?fb3d2f9d18b2fa8f09d2a9af93ef7552") format("woff2"),
-url("./BrightlayerUIIcons.eot?fb3d2f9d18b2fa8f09d2a9af93ef7552#iefix") format("embedded-opentype"),
-url("./BrightlayerUIIcons.svg?fb3d2f9d18b2fa8f09d2a9af93ef7552#BrightlayerUIIcons") format("svg");
+    src: url("./BrightlayerUIIcons.ttf?e7f5cdc0f570d43ea703f9e280534f8a") format("truetype"),
+url("./BrightlayerUIIcons.woff?e7f5cdc0f570d43ea703f9e280534f8a") format("woff"),
+url("./BrightlayerUIIcons.woff2?e7f5cdc0f570d43ea703f9e280534f8a") format("woff2"),
+url("./BrightlayerUIIcons.eot?e7f5cdc0f570d43ea703f9e280534f8a#iefix") format("embedded-opentype"),
+url("./BrightlayerUIIcons.svg?e7f5cdc0f570d43ea703f9e280534f8a#BrightlayerUIIcons") format("svg");
 }
 
 i[class^="blui-"]:before, i[class*=" blui-"]:before {
@@ -1599,27 +1599,30 @@ i[class^="blui-"]:before, i[class*=" blui-"]:before {
 .blui-amazon:before {
     content: "\f30f";
 }
-.blui-air_filter:before {
+.blui-air_filter_slashed:before {
     content: "\f310";
 }
-.blui-air_conditioner:before {
+.blui-air_filter:before {
     content: "\f311";
 }
-.blui-account_settings_slashed:before {
+.blui-air_conditioner:before {
     content: "\f312";
 }
-.blui-account_settings:before {
+.blui-account_settings_slashed:before {
     content: "\f313";
 }
-.blui-ac_slashed:before {
+.blui-account_settings:before {
     content: "\f314";
 }
-.blui-ac_converter_outline:before {
+.blui-ac_slashed:before {
     content: "\f315";
 }
-.blui-ac_converter_filled:before {
+.blui-ac_converter_outline:before {
     content: "\f316";
 }
-.blui-ac:before {
+.blui-ac_converter_filled:before {
     content: "\f317";
+}
+.blui-ac:before {
+    content: "\f318";
 }

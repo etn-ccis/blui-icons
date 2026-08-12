@@ -18,6 +18,12 @@ export default defineConfig({
                 find: '@brightlayer-ui/icons-mui',
                 replacement: path.resolve(__dirname, '../../packages/mui/tsx/index.ts'),
             },
+            // Bypass symlink resolution for the icon-font package so Vite can
+            // serve its CSS and font files directly.
+            {
+                find: '@brightlayer-ui/icons',
+                replacement: path.resolve(__dirname, '../../packages/icon-font'),
+            },
         ],
     },
 });

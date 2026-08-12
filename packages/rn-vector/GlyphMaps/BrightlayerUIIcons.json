@@ -526,12 +526,13 @@
     "ami_gateway": 62221,
     "amazon_alexa": 62222,
     "amazon": 62223,
-    "air_filter": 62224,
-    "air_conditioner": 62225,
-    "account_settings_slashed": 62226,
-    "account_settings": 62227,
-    "ac_slashed": 62228,
-    "ac_converter_outline": 62229,
-    "ac_converter_filled": 62230,
-    "ac": 62231
+    "air_filter_slashed": 62224,
+    "air_filter": 62225,
+    "air_conditioner": 62226,
+    "account_settings_slashed": 62227,
+    "account_settings": 62228,
+    "ac_slashed": 62229,
+    "ac_converter_outline": 62230,
+    "ac_converter_filled": 62231,
+    "ac": 62232
 }

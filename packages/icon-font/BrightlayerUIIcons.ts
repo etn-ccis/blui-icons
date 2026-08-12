@@ -526,6 +526,7 @@ export type BrightlayerUIIconsId =
   | "ami_gateway"
   | "amazon_alexa"
   | "amazon"
+  | "air_filter_slashed"
   | "air_filter"
   | "air_conditioner"
   | "account_settings_slashed"
@@ -1063,6 +1064,7 @@ export type BrightlayerUIIconsKey =
   | "AmiGateway"
   | "AmazonAlexa"
   | "Amazon"
+  | "AirFilterSlashed"
   | "AirFilter"
   | "AirConditioner"
   | "AccountSettingsSlashed"
@@ -1600,6 +1602,7 @@ export enum BrightlayerUIIcons {
   AmiGateway = "ami_gateway",
   AmazonAlexa = "amazon_alexa",
   Amazon = "amazon",
+  AirFilterSlashed = "air_filter_slashed",
   AirFilter = "air_filter",
   AirConditioner = "air_conditioner",
   AccountSettingsSlashed = "account_settings_slashed",
@@ -2138,12 +2141,13 @@ export const BRIGHTLAYER_UI_ICONS_CODEPOINTS: { [key in BrightlayerUIIcons]: str
   [BrightlayerUIIcons.AmiGateway]: "62221",
   [BrightlayerUIIcons.AmazonAlexa]: "62222",
   [BrightlayerUIIcons.Amazon]: "62223",
-  [BrightlayerUIIcons.AirFilter]: "62224",
-  [BrightlayerUIIcons.AirConditioner]: "62225",
-  [BrightlayerUIIcons.AccountSettingsSlashed]: "62226",
-  [BrightlayerUIIcons.AccountSettings]: "62227",
-  [BrightlayerUIIcons.AcSlashed]: "62228",
-  [BrightlayerUIIcons.AcConverterOutline]: "62229",
-  [BrightlayerUIIcons.AcConverterFilled]: "62230",
-  [BrightlayerUIIcons.Ac]: "62231",
+  [BrightlayerUIIcons.AirFilterSlashed]: "62224",
+  [BrightlayerUIIcons.AirFilter]: "62225",
+  [BrightlayerUIIcons.AirConditioner]: "62226",
+  [BrightlayerUIIcons.AccountSettingsSlashed]: "62227",
+  [BrightlayerUIIcons.AccountSettings]: "62228",
+  [BrightlayerUIIcons.AcSlashed]: "62229",
+  [BrightlayerUIIcons.AcConverterOutline]: "62230",
+  [BrightlayerUIIcons.AcConverterFilled]: "62231",
+  [BrightlayerUIIcons.Ac]: "62232",
 };
