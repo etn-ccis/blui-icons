@@ -9,20 +9,23 @@ const DEFAULT_SLASH_COLOR = 'currentColor';
 // Diagonal band polygon at 45°, ±1px wide on a 24×24 viewBox.
 const SLASH_PATH = 'M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z';
 
-// White highlight band: same width as the gray band, offset one band-width in the
-// upper-right perpendicular direction (+1.42, −1.42 on the 24×24 viewBox).
-// Bottom edge = top edge of SLASH_PATH  (4.22,4.21)→(19.82,19.81)
-// Top edge    = that edge + (1.42,−1.42) → (5.64,2.79)→(21.24,18.39)
-const WHITE_SLASH_PATH = 'M5.64 2.79 L4.22 4.21 L19.82 19.81 L21.24 18.39 Z';
+// Transparent gap band: one band-width above the gray slash
+// (+1.42, −1.42 offset on the 24×24 viewBox).
+const GAP_PATH = 'M5.64 2.79 L4.22 4.21 L19.82 19.81 L21.24 18.39 Z';
 
-// Expanded mask covers both bands: from the gray bottom edge to the white top edge.
-const EXPANDED_MASK_PATH = 'M5.64 2.79 L2.80 5.63 L18.40 21.23 L21.24 18.39 Z';
+// Clip area covering both the gap band and the gray slash band.
+const CLIP_BAND_PATH = 'M5.64 2.79 L2.80 5.63 L18.40 21.23 L21.24 18.39 Z';
 
 /**
  * Injects a vector clipping mask into an SVG string:
- *   1. Wraps all existing icon paths in <g mask="url(#slash-mask)">
- *      so the icon's fill is cut out across both the gray and white bands.
- *   2. Appends the white highlight band, then the gray slash polygon on top.
+ *   1. Wraps all existing icon paths in <g clip-path="url(#slash-clip)">
+ *      so the icon is cut out in both the gap and the gray slash band.
+ *   2. Appends only the gray slash polygon on top — the gap is left as empty
+ *      canvas (transparent), matching the same technique used in
+ *      theme_light_dark.svg where the space between moon and sun is unpainted.
+ *
+ * Uses clipPath + evenodd instead of <mask> for React Native compatibility
+ * (react-native-svg renders <mask> contents as visible elements).
  *
  * @param {string} svg - Raw SVG file contents.
  * @returns {string} Modified SVG string.
@@ -30,8 +33,10 @@ const EXPANDED_MASK_PATH = 'M5.64 2.79 L2.80 5.63 L18.40 21.23 L21.24 18.39 Z';
 function applySlashMask(svg) {
     const $ = cheerio.load(svg, { xmlMode: true, decodeEntities: false });
 
-    // Remove any previous slash overlay and mask
+    // Remove any previous slash overlay and clip path
     $('[data-name="slash-overlay"]').remove();
+    $('[data-name="slash-highlight"]').remove();
+    $('#slash-clip').remove();
     $('#slash-mask').remove();
 
     const $svg = $('svg');
@@ -41,24 +46,23 @@ function applySlashMask(svg) {
         $svg.prepend('<defs></defs>');
     }
 
-    // Add the clip mask: white = show icon, black = cut out both bands
+    // Compound path: full 24×24 rect + combined gap+slash band.
+    // With evenodd fill rule the overlapping region becomes a hole,
+    // so the icon is only visible outside both bands.
+    const clipD = `M0 0 L24 0 L24 24 L0 24 Z ${CLIP_BAND_PATH}`;
     $svg.children('defs').append(
-        `<mask id="slash-mask">` +
-        `<rect width="24" height="24" fill="white"/>` +
-        `<path d="${EXPANDED_MASK_PATH}" fill="black"/>` +
-        `</mask>`
+        `<clipPath id="slash-clip">` +
+        `<path d="${clipD}" clip-rule="evenodd" fill-rule="evenodd"/>` +
+        `</clipPath>`
     );
 
-    // Wrap all non-defs children in a masked group
+    // Wrap all non-defs children in a clipped group
     const $nonDefs = $svg.children().not('defs');
     const innerHtml = $nonDefs.map((_, el) => $.xml(el)).get().join('');
     $nonDefs.remove();
-    $svg.append(`<g mask="url(#slash-mask)">${innerHtml}</g>`);
+    $svg.append(`<g clip-path="url(#slash-clip)">${innerHtml}</g>`);
 
-    // Draw the white highlight band first, then the gray slash on top
-    $svg.append(
-        `<path data-name="slash-highlight" d="${WHITE_SLASH_PATH}" fill="white"/>`
-    );
+    // Draw the slash on top
     $svg.append(
         `<path data-name="slash-overlay" d="${SLASH_PATH}" fill="${DEFAULT_SLASH_COLOR}"/>`
     );
@@ -69,4 +73,4 @@ function applySlashMask(svg) {
     return match ? match[0] : output;
 }
 
-module.exports = { applySlashMask, SLASH_PATH, WHITE_SLASH_PATH, EXPANDED_MASK_PATH, DEFAULT_SLASH_COLOR };
+module.exports = { applySlashMask, SLASH_PATH, GAP_PATH, CLIP_BAND_PATH, DEFAULT_SLASH_COLOR };
