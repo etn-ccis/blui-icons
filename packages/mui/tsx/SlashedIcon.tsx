@@ -53,13 +53,7 @@ const SlashedIcon: React.FC<SlashedIconProps> = ({ children, size = 24, slashCol
         </Box>
         {/* Slash polygon drawn on top of the clipped icon */}
         <Box sx={{ position: 'absolute', inset: 0, pointerEvents: 'none' }}>
-            <svg
-                width={size}
-                height={size}
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-                focusable="false"
-            >
+            <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" focusable="false">
                 <path d={SLASH_PATH} fill={slashColor} />
             </svg>
         </Box>

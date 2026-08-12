@@ -21,8 +21,6 @@ if (files.length === 0) {
     process.exit(0);
 }
 
-
-
 let generated = 0;
 let skipped = 0;
 

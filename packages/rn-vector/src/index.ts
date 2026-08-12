@@ -78,7 +78,9 @@ export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
     viewBox = '0 0 24 24',
 }) => {
     const clipId = `blui-slash-clip-${React.useId().replace(/:/g, '_')}`;
-    const translatedClipBandPath = slashGapVisible ? translatePath(CLIP_BAND_PATH, slashGapOffsetX, slashGapOffsetY) : '';
+    const translatedClipBandPath = slashGapVisible
+        ? translatePath(CLIP_BAND_PATH, slashGapOffsetX, slashGapOffsetY)
+        : '';
     const clipD = `${RECT_PATH} ${translatedClipBandPath}`.trim();
 
     return React.createElement(
@@ -161,10 +163,7 @@ export const SlashedBLUIIcon: React.FC<SlashedBLUIIconProps> = ({
                       styles.overlay,
                       {
                           color: slashGapColor ?? 'transparent',
-                          transform: [
-                              { translateX: slashGapOffsetX },
-                              { translateY: slashGapOffsetY },
-                          ],
+                          transform: [{ translateX: slashGapOffsetX }, { translateY: slashGapOffsetY }],
                       },
                       slashGapStyle,
                   ],

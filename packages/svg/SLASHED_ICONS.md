@@ -8,13 +8,13 @@ This guide explains how to create and use slashed SVG icons in the Brightlayer U
 
 There are two approaches to creating slashed icons. Choose based on your use case:
 
-| | Approach 1: Build-time Script | Approach 2: Runtime React Component |
-|---|---|---|
-| Output | A new `*_slashed.svg` file | A React component |
-| Modifies source icon | No (new file) | No |
-| Framework required | None | React + MUI |
-| Dynamic / conditional slash | No | Yes |
-| Works in icon font / PNG / RN | Yes | No |
+|                               | Approach 1: Build-time Script | Approach 2: Runtime React Component |
+| ----------------------------- | ----------------------------- | ----------------------------------- |
+| Output                        | A new `*_slashed.svg` file    | A React component                   |
+| Modifies source icon          | No (new file)                 | No                                  |
+| Framework required            | None                          | React + MUI                         |
+| Dynamic / conditional slash   | No                            | Yes                                 |
+| Works in icon font / PNG / RN | Yes                           | No                                  |
 
 ---
 
@@ -22,9 +22,9 @@ There are two approaches to creating slashed icons. Choose based on your use cas
 
 All approaches share the same two-path diagonal design on a 24×24 viewBox:
 
-| Path | Stroke | Purpose |
-|------|--------|---------|
-| `M3.51 4.92L19.11 20.52` | `#727E84` (grey) | The visible slash line |
+| Path                     | Stroke            | Purpose                                 |
+| ------------------------ | ----------------- | --------------------------------------- |
+| `M3.51 4.92L19.11 20.52` | `#727E84` (grey)  | The visible slash line                  |
 | `M4.92 3.51L20.52 19.11` | `#FFFFFF` (white) | Offset border path for a cut-out effect |
 
 ---
@@ -34,6 +34,7 @@ All approaches share the same two-path diagonal design on a 24×24 viewBox:
 Bakes the slash permanently into a new SVG file. The output is standalone and framework-agnostic.
 
 ### When to use
+
 - You need a distributable slashed icon (`ac_slashed.svg`, `battery_slashed.svg`, etc.)
 - The icon needs to work in icon fonts, PNG exports, or React Native
 - The slash is always present (not conditional)
@@ -91,6 +92,7 @@ import AcSlashed from '@brightlayer-ui/icons-svg/ac_slashed.svg';
 Composites any base icon with a slash overlay at render time using CSS absolute positioning. The base icon file is never modified.
 
 ### When to use
+
 - The slash is conditional (e.g., toggled by state)
 - You want to reuse the same base icon with or without the slash
 - You are working in a React + MUI context
@@ -101,12 +103,12 @@ Located at `demos/react-demo/src/components/SlashedSvgIcon.tsx`.
 
 #### Props
 
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `iconSrc` | `string` | required | Import path of the base SVG icon |
-| `slashSrc` | `string` | required | Import path of `slash_overlay.svg` |
-| `size` | `number` | `48` | Width and height in pixels |
-| `alt` | `string` | `''` | Accessible alt text for the base icon |
+| Prop       | Type     | Default  | Description                           |
+| ---------- | -------- | -------- | ------------------------------------- |
+| `iconSrc`  | `string` | required | Import path of the base SVG icon      |
+| `slashSrc` | `string` | required | Import path of `slash_overlay.svg`    |
+| `size`     | `number` | `48`     | Width and height in pixels            |
+| `alt`      | `string` | `''`     | Accessible alt text for the base icon |
 
 #### Implementation
 
@@ -170,7 +172,7 @@ If you need a slash with a different angle or style:
 
 1. Create a new SVG file in `packages/svg/` (e.g., `slash_overlay_horizontal.svg`).
 2. Follow the two-path pattern:
-   - First path: `stroke="currentColor"` for the main slash line.
-   - Second path: `stroke="#FFFFFF"` slightly offset for the white border effect.
+    - First path: `stroke="currentColor"` for the main slash line.
+    - Second path: `stroke="#FFFFFF"` slightly offset for the white border effect.
 3. Both paths should span the full 24×24 viewBox.
 4. Register the new file in the package's icon list if required by the build process.

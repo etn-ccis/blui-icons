@@ -156,7 +156,7 @@ import { Path } from 'react-native-svg';
 
 <SlashedBLUISvgMaskIcon slashColor={'#777'} size={24}>
     <Path d="M3 3 H21 V21 H3 Z" fill="currentColor" />
-</SlashedBLUISvgMaskIcon>
+</SlashedBLUISvgMaskIcon>;
 ```
 
 If you want to pass a BLUI icon name directly (without creating `Path` children), use `SlashedBLUISvgGlyphIcon`:
@@ -164,5 +164,5 @@ If you want to pass a BLUI icon name directly (without creating `Path` children)
 ```tsx
 import { SlashedBLUISvgGlyphIcon } from '@brightlayer-ui/react-native-vector-icons';
 
-<SlashedBLUISvgGlyphIcon name={'device'} color={'currentColor'} slashColor={'#777'} size={24} />
+<SlashedBLUISvgGlyphIcon name={'device'} color={'currentColor'} slashColor={'#777'} size={24} />;
 ```

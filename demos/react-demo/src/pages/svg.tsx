@@ -111,9 +111,9 @@ export const SvgPage: React.FC = () => (
                 Runtime <code>SlashedSvgIcon</code> component
             </Typography>
             <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-                Each icon below is fetched at runtime, its SVG content is inlined, and an SVG{' '}
-                <code>&lt;mask&gt;</code> clips the slash band out of the icon before the slash is
-                drawn on top — no pre-built slashed variants required.
+                Each icon below is fetched at runtime, its SVG content is inlined, and an SVG <code>&lt;mask&gt;</code>{' '}
+                clips the slash band out of the icon before the slash is drawn on top — no pre-built slashed variants
+                required.
             </Typography>
 
             <Grid container sx={{ mb: 2 }}>

@@ -51,21 +51,20 @@ function applySlashMask(svg) {
     // so the icon is only visible outside both bands.
     const clipD = `M0 0 L24 0 L24 24 L0 24 Z ${CLIP_BAND_PATH}`;
     $svg.children('defs').append(
-        `<clipPath id="slash-clip">` +
-        `<path d="${clipD}" clip-rule="evenodd" fill-rule="evenodd"/>` +
-        `</clipPath>`
+        `<clipPath id="slash-clip">` + `<path d="${clipD}" clip-rule="evenodd" fill-rule="evenodd"/>` + `</clipPath>`
     );
 
     // Wrap all non-defs children in a clipped group
     const $nonDefs = $svg.children().not('defs');
-    const innerHtml = $nonDefs.map((_, el) => $.xml(el)).get().join('');
+    const innerHtml = $nonDefs
+        .map((_, el) => $.xml(el))
+        .get()
+        .join('');
     $nonDefs.remove();
     $svg.append(`<g clip-path="url(#slash-clip)">${innerHtml}</g>`);
 
     // Draw the slash on top
-    $svg.append(
-        `<path data-name="slash-overlay" d="${SLASH_PATH}" fill="${DEFAULT_SLASH_COLOR}"/>`
-    );
+    $svg.append(`<path data-name="slash-overlay" d="${SLASH_PATH}" fill="${DEFAULT_SLASH_COLOR}"/>`);
 
     // Extract just the <svg>...</svg> element from cheerio output
     const output = $.xml();
