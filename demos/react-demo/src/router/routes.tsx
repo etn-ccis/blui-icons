@@ -1,4 +1,4 @@
-import { MuiPage, SvgPage, FontPage } from '../pages';
+import { MuiPage, SvgPage, FontPage, TwoTonePage } from '../pages';
 import Home from '@mui/icons-material/Home';
 
 export const PAGES = [
@@ -6,6 +6,12 @@ export const PAGES = [
         title: 'MUI',
         route: 'mui',
         component: MuiPage,
+        icon: Home,
+    },
+    {
+        title: 'Two-Tone',
+        route: 'twotone',
+        component: TwoTonePage,
         icon: Home,
     },
     {
