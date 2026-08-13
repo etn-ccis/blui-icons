@@ -40,26 +40,34 @@ export const SlashedSvgIcon: React.FC<SlashedSvgIconProps> = ({
 
     const [svgData, setSvgData] = useState<{ viewBox: string; innerHTML: string } | null>(null);
 
-    useEffect(() => {
-        let cancelled = false;
-        fetch(iconSrc)
-            .then((r) => r.text())
-            .then((text) => {
-                if (cancelled) return;
-                const parser = new DOMParser();
-                const doc = parser.parseFromString(text, 'image/svg+xml');
-                const svgEl = doc.querySelector('svg');
-                if (!svgEl) return;
-                setSvgData({
-                    viewBox: svgEl.getAttribute('viewBox') ?? '0 0 24 24',
-                    innerHTML: svgEl.innerHTML,
-                });
-            })
-            .catch(() => {});
-        return () => {
-            cancelled = true;
-        };
-    }, [iconSrc]);
+useEffect(() => {
+    let cancelled = false;
+    setSvgData(null);
+
+    fetch(iconSrc)
+        .then((r) => {
+            if (!r.ok) throw new Error(`Failed to fetch SVG: ${r.status}`);
+            return r.text();
+        })
+        .then((text) => {
+            if (cancelled) return;
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(text, 'image/svg+xml');
+            const svgEl = doc.querySelector('svg');
+            if (!svgEl) return;
+            setSvgData({
+                viewBox: svgEl.getAttribute('viewBox') ?? '0 0 24 24',
+                innerHTML: svgEl.innerHTML,
+            });
+        })
+        .catch(() => {
+            if (cancelled) return;
+            setSvgData(null);
+        });
+    return () => {
+        cancelled = true;
+    };
+}, [iconSrc]);
 
     if (!svgData) return <svg width={size} height={size} aria-hidden="true" />;
 
