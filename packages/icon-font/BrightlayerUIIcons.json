@@ -532,7 +532,8 @@
     "account_settings_slashed": 62227,
     "account_settings": 62228,
     "ac_slashed": 62229,
-    "ac_converter_outline": 62230,
-    "ac_converter_filled": 62231,
-    "ac": 62232
+    "ac_disabled": 62230,
+    "ac_converter_outline": 62231,
+    "ac_converter_filled": 62232,
+    "ac": 62233
 }

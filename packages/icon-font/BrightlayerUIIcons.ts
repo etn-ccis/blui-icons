@@ -532,6 +532,7 @@ export type BrightlayerUIIconsId =
   | "account_settings_slashed"
   | "account_settings"
   | "ac_slashed"
+  | "ac_disabled"
   | "ac_converter_outline"
   | "ac_converter_filled"
   | "ac";
@@ -1070,6 +1071,7 @@ export type BrightlayerUIIconsKey =
   | "AccountSettingsSlashed"
   | "AccountSettings"
   | "AcSlashed"
+  | "AcDisabled"
   | "AcConverterOutline"
   | "AcConverterFilled"
   | "Ac";
@@ -1608,6 +1610,7 @@ export enum BrightlayerUIIcons {
   AccountSettingsSlashed = "account_settings_slashed",
   AccountSettings = "account_settings",
   AcSlashed = "ac_slashed",
+  AcDisabled = "ac_disabled",
   AcConverterOutline = "ac_converter_outline",
   AcConverterFilled = "ac_converter_filled",
   Ac = "ac",
@@ -2147,7 +2150,8 @@ export const BRIGHTLAYER_UI_ICONS_CODEPOINTS: { [key in BrightlayerUIIcons]: str
   [BrightlayerUIIcons.AccountSettingsSlashed]: "62227",
   [BrightlayerUIIcons.AccountSettings]: "62228",
   [BrightlayerUIIcons.AcSlashed]: "62229",
-  [BrightlayerUIIcons.AcConverterOutline]: "62230",
-  [BrightlayerUIIcons.AcConverterFilled]: "62231",
-  [BrightlayerUIIcons.Ac]: "62232",
+  [BrightlayerUIIcons.AcDisabled]: "62230",
+  [BrightlayerUIIcons.AcConverterOutline]: "62231",
+  [BrightlayerUIIcons.AcConverterFilled]: "62232",
+  [BrightlayerUIIcons.Ac]: "62233",
 };

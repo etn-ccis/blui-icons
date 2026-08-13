@@ -14,7 +14,8 @@ const SLASH_PATH = 'M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z';
 const GAP_PATH = 'M5.64 2.79 L4.22 4.21 L19.82 19.81 L21.24 18.39 Z';
 
 // Clip area covering both the gap band and the gray slash band.
-const CLIP_BAND_PATH = 'M5.64 2.79 L2.80 5.63 L18.40 21.23 L21.24 18.39 Z';
+// Extended beyond the 24x24 viewBox to prevent endpoint antialias bleed.
+const CLIP_BAND_PATH = 'M-24.36 -27.21 L-27.20 -24.37 L48.40 51.23 L51.24 48.39 Z';
 
 /**
  * Injects a vector clipping mask into an SVG string:

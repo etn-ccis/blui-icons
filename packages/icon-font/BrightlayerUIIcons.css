@@ -1,10 +1,10 @@
 @font-face {
     font-family: "BrightlayerUIIcons";
-    src: url("./BrightlayerUIIcons.ttf?e7f5cdc0f570d43ea703f9e280534f8a") format("truetype"),
-url("./BrightlayerUIIcons.woff?e7f5cdc0f570d43ea703f9e280534f8a") format("woff"),
-url("./BrightlayerUIIcons.woff2?e7f5cdc0f570d43ea703f9e280534f8a") format("woff2"),
-url("./BrightlayerUIIcons.eot?e7f5cdc0f570d43ea703f9e280534f8a#iefix") format("embedded-opentype"),
-url("./BrightlayerUIIcons.svg?e7f5cdc0f570d43ea703f9e280534f8a#BrightlayerUIIcons") format("svg");
+    src: url("./BrightlayerUIIcons.ttf?a120045904f2b93ae29873063d9b0a0a") format("truetype"),
+url("./BrightlayerUIIcons.woff?a120045904f2b93ae29873063d9b0a0a") format("woff"),
+url("./BrightlayerUIIcons.woff2?a120045904f2b93ae29873063d9b0a0a") format("woff2"),
+url("./BrightlayerUIIcons.eot?a120045904f2b93ae29873063d9b0a0a#iefix") format("embedded-opentype"),
+url("./BrightlayerUIIcons.svg?a120045904f2b93ae29873063d9b0a0a#BrightlayerUIIcons") format("svg");
 }
 
 i[class^="blui-"]:before, i[class*=" blui-"]:before {
@@ -1617,12 +1617,15 @@ i[class^="blui-"]:before, i[class*=" blui-"]:before {
 .blui-ac_slashed:before {
     content: "\f315";
 }
-.blui-ac_converter_outline:before {
+.blui-ac_disabled:before {
     content: "\f316";
 }
-.blui-ac_converter_filled:before {
+.blui-ac_converter_outline:before {
     content: "\f317";
 }
-.blui-ac:before {
+.blui-ac_converter_filled:before {
     content: "\f318";
+}
+.blui-ac:before {
+    content: "\f319";
 }
