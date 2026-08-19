@@ -12,11 +12,16 @@ import AcSlashed from '@brightlayer-ui/icons-svg/ac_slashed.svg';
 import AccountSettings from '@brightlayer-ui/icons-svg/account_settings.svg';
 import AccountSettingsSlashed from '@brightlayer-ui/icons-svg/account_settings_slashed.svg';
 import Maintenance from '@brightlayer-ui/icons-svg/maintenance.svg';
+import MaintenanceSlashed from '@brightlayer-ui/icons-svg/maintenance_slashed.svg';
 import MapMarkerMultiple from '@brightlayer-ui/icons-svg/map_marker_multiple.svg';
+import MapMarkerMultipleSlashed from '@brightlayer-ui/icons-svg/map_marker_multiple_slashed.svg';
 import Pxblue from '@brightlayer-ui/icons-svg/pxblue.svg';
+import PxblueSlashed from '@brightlayer-ui/icons-svg/pxblue_slashed.svg';
 import XStorage from '@brightlayer-ui/icons-svg/xstorage.svg';
+import XStorageSlashed from '@brightlayer-ui/icons-svg/xstorage_slashed.svg';
 import XStorageAlt from '@brightlayer-ui/icons-svg/xstorage_alt.svg';
 import ThemeLightDark from '@brightlayer-ui/icons-svg/theme_light_dark.svg';
+import ThemeLightDarkSlashed from '@brightlayer-ui/icons-svg/theme_light_dark_slashed.svg';
 import SlashOnly from '@brightlayer-ui/icons-svg/slash_only.svg';
 import { SlashedSvgIcon } from '../components/SlashedSvgIcon';
 
@@ -35,8 +40,17 @@ const svgIcons = [
         icon: AccountSettingsSlashed,
     },
     { name: 'Maintenance Mode', filename: 'maintenance.svg', icon: Maintenance },
+    { name: 'Maintenance Mode Slashed (pre-built)', filename: 'maintenance_slashed.svg', icon: MaintenanceSlashed },
     { name: 'Map Marker Multiple', filename: 'map_marker_multiple.svg', icon: MapMarkerMultiple },
+    {
+        name: 'Map Marker Multiple Slashed (pre-built)',
+        filename: 'map_marker_multiple_slashed.svg',
+        icon: MapMarkerMultipleSlashed,
+    },
+    { name: 'Pxblue Slashed (pre-built)', filename: 'pxblue_slashed.svg', icon: PxblueSlashed },
+    { name: 'Theme Light Dark Slashed (pre-built)', filename: 'theme_light_dark_slashed.svg', icon: ThemeLightDarkSlashed },
     { name: 'xStorage', filename: 'xstorage.svg', icon: XStorage },
+    { name: 'xStorage Slashed (pre-built)', filename: 'xstorage_slashed.svg', icon: XStorageSlashed },
     { name: 'xStorage Alt', filename: 'xstorage_alt.svg', icon: XStorageAlt },
     { name: 'Theme Light Dark', filename: 'theme_light_dark.svg', icon: ThemeLightDark },
     { name: 'Pxblue', filename: 'pxblue.svg', icon: Pxblue },
@@ -53,6 +67,18 @@ const runtimeSlashDemos: Array<{ label: string; src: string }> = [
     { label: 'xstorage.svg', src: XStorage },
     { label: 'theme_light_dark.svg', src: ThemeLightDark },
 ];
+
+const slashedSvgModules = import.meta.glob('../../../../packages/svg/*_slashed.svg', {
+    eager: true,
+    import: 'default',
+}) as Record<string, string>;
+
+const allGeneratedSlashedIcons = Object.entries(slashedSvgModules)
+    .map(([filePath, src]) => ({
+        src,
+        filename: filePath.split('/').pop() || filePath,
+    }))
+    .sort((a, b) => (a.filename > b.filename ? 1 : -1));
 
 const sorted = svgIcons.sort((a: any, b: any) => (a.filename > b.filename ? 1 : -1));
 
@@ -165,6 +191,23 @@ export const SvgPage: React.FC = () => (
                     </Box>
                 ))}
             </Box>
+
+            <Divider sx={{ my: 3 }} />
+            <Typography variant="subtitle2" gutterBottom>
+                All generated pre-built slashed SVGs ({allGeneratedSlashedIcons.length})
+            </Typography>
+            <Grid container>
+                {allGeneratedSlashedIcons.map(({ filename, src }) => (
+                    <Grid size={2} key={filename} sx={styles.gridItem}>
+                        <Box sx={styles.iconWrapper}>
+                            <img src={src} width={48} height={48} alt={filename} />
+                            <Typography variant="caption" sx={styles.iconName} display="block" mt={1}>
+                                {filename}
+                            </Typography>
+                        </Box>
+                    </Grid>
+                ))}
+            </Grid>
         </Box>
     </>
 );

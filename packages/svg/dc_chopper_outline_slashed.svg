@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="slash-clip"><path d="M0 0 L24 0 L24 24 L0 24 Z M-24.36 -27.21 L-27.20 -24.37 L48.40 51.23 L51.24 48.39 Z" clip-rule="evenodd" fill-rule="evenodd"/></clipPath></defs>
+
+
+
+
+
+
+
+
+
+<g clip-path="url(#slash-clip)"><path d="M14 18.5H13V17H14V18.5Z"/><path d="M16 18.5H15V17H16V18.5Z"/><path d="M18 18.5H17V17H18V18.5Z"/><path d="M18 15.5H13V14H18V15.5Z"/><path d="M7 10H6V8.5H7V10Z"/><path d="M9 10H8V8.5H9V10Z"/><path d="M11 10H10V8.5H11V10Z"/><path d="M11 7H6V5.5H11V7Z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M20.2041 2.01074C21.2128 2.113 22 2.96435 22 4V20L21.9893 20.2041C21.8938 21.1457 21.1457 21.8938 20.2041 21.9893L20 22H4C2.96435 22 2.113 21.2128 2.01074 20.2041L2 20V4C2 2.89543 2.89543 2 4 2H20L20.2041 2.01074ZM5.41406 20H20V5.41406L5.41406 20ZM4 18.5859L18.5859 4H4V18.5859Z"/></g><path data-name="slash-overlay" d="M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z" fill="currentColor"/></svg>

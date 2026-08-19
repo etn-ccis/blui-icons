@@ -1,0 +1,28 @@
+import React from 'react';
+import { createSvgIcon } from '@mui/material/utils';
+const SvgSyncCircleOffOutlineSlashed = createSvgIcon(
+    React.createElement(
+        React.Fragment,
+        {},
+        <defs>
+            <clipPath id="sync_circle_off_outline_slashed_svg__a">
+                <path
+                    d="M0 0h24v24H0Zm-24.36-27.21-2.84 2.84 75.6 75.6 2.84-2.84Z"
+                    clipRule="evenodd"
+                    fillRule="evenodd"
+                />
+            </clipPath>
+        </defs>,
+        <g clipPath="url(#sync_circle_off_outline_slashed_svg__a)">
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2Zm0 2a8 8 0 1 0 0 16 8 8 0 0 0 0-16Z"
+            />
+            <path d="m7.58 7.244 9.303 9.305.089.088-1 1-.088-.09-1.439-1.438c-.383.227-.801.41-1.247.527l-.157.04V15.21l.08-.031c.094-.036.185-.077.275-.119l-4.464-4.463A3.37 3.37 0 0 0 8.625 12c0 .887.348 1.687.905 2.291l1.428-1.427v3.927H7.031l1.503-1.504a4.744 4.744 0 0 1-.646-5.735L6.579 8.244l-.088-.089 1-.999.088.088ZM16.755 7.422 15.464 8.71a4.745 4.745 0 0 1 .722 5.613l-.08.144-.118-.116-.875-.875-.06-.061.035-.078A3.32 3.32 0 0 0 15.375 12a3.37 3.37 0 0 0-.907-2.293l-1.213 1.215-.214.213V7.208h3.927l-.213.214ZM10.958 8.79l-.08.03-.105.045a2.611 2.611 0 0 1-.117.05l-.076.028-1.05-1.05.147-.08c.352-.191.729-.348 1.125-.45l.156-.04V8.79Z" />
+        </g>,
+        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+    ),
+    'SvgSyncCircleOffOutlineSlashed'
+);
+export default SvgSyncCircleOffOutlineSlashed;

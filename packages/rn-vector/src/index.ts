@@ -5,8 +5,6 @@ import Svg, { ClipPath, Defs, G, Path } from 'react-native-svg';
 import glyphMap from '../GlyphMaps/BrightlayerUIIcons.json';
 import glyphPaths from './glyphPaths.json';
 
-const DEFAULT_GAP_OFFSET_X = 1.42;
-const DEFAULT_GAP_OFFSET_Y = -1.42;
 const DEFAULT_SVG_GAP_OFFSET_X = 0;
 const DEFAULT_SVG_GAP_OFFSET_Y = 0;
 const DEFAULT_ICON_SIZE = 24;
@@ -116,7 +114,7 @@ export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
     );
 };
 
-export const SlashedBLUISvgGlyphIcon: React.FC<SlashedBLUISvgGlyphIconProps> = ({
+export const SlashedBLUIIcon: React.FC<SlashedBLUISvgGlyphIconProps> = ({
     color = 'currentColor',
     name,
     slashGapOffsetX = DEFAULT_SVG_GAP_OFFSET_X,
@@ -139,50 +137,6 @@ export const SlashedBLUISvgGlyphIcon: React.FC<SlashedBLUISvgGlyphIconProps> = (
         })
     );
 };
-
-export const SlashedBLUIIcon: React.FC<SlashedBLUIIconProps> = ({
-    containerStyle,
-    slashGapColor,
-    slashGapOffsetX = DEFAULT_GAP_OFFSET_X,
-    slashGapOffsetY = DEFAULT_GAP_OFFSET_Y,
-    slashGapStyle,
-    slashGapVisible = true,
-    slashColor,
-    slashName = 'slash_only',
-    slashSize,
-    slashStyle,
-    style,
-    ...props
-}) =>
-    React.createElement(
-        View,
-        { style: [styles.container, containerStyle] },
-        React.createElement(BLUIIcon, { ...props, style }),
-        slashGapVisible
-            ? React.createElement(BLUIIcon, {
-                  ...props,
-                  color: slashGapColor ?? 'transparent',
-                  name: slashName,
-                  size: slashSize ?? props.size,
-                  style: [
-                      style,
-                      styles.overlay,
-                      {
-                          color: slashGapColor ?? 'transparent',
-                          transform: [{ translateX: slashGapOffsetX }, { translateY: slashGapOffsetY }],
-                      },
-                      slashGapStyle,
-                  ],
-              })
-            : null,
-        React.createElement(BLUIIcon, {
-            ...props,
-            color: slashColor ?? props.color,
-            name: slashName,
-            size: slashSize ?? props.size,
-            style: [style, styles.overlay, slashStyle],
-        })
-    );
 
 const styles = StyleSheet.create({
     container: {

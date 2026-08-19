@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><clipPath id="slash-clip"><path d="M0 0 L24 0 L24 24 L0 24 Z M-24.36 -27.21 L-27.20 -24.37 L48.40 51.23 L51.24 48.39 Z" clip-rule="evenodd" fill-rule="evenodd"/></clipPath></defs>
+  
+  
+<g clip-path="url(#slash-clip)"><g>
+    <polygon points="13 8 13 3 11 3 11 8 2 8 2 11 22 11 22 8 13 8"/>
+    <polygon points="2 16 11 16 11 21 13 21 13 16 22 16 22 13 2 13 2 16"/>
+  </g><rect width="24" height="24" fill="none"/></g><path data-name="slash-overlay" d="M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z" fill="currentColor"/></svg>

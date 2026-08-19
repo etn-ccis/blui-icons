@@ -1,0 +1,28 @@
+import React from 'react';
+import { createSvgIcon } from '@mui/material/utils';
+const SvgRectifierOutlineSlashed = createSvgIcon(
+    React.createElement(
+        React.Fragment,
+        {},
+        <defs>
+            <clipPath id="rectifier_outline_slashed_svg__a">
+                <path
+                    d="M0 0h24v24H0Zm-24.36-27.21-2.84 2.84 75.6 75.6 2.84-2.84Z"
+                    clipRule="evenodd"
+                    fillRule="evenodd"
+                />
+            </clipPath>
+        </defs>,
+        <g clipPath="url(#rectifier_outline_slashed_svg__a)">
+            <path d="M14 18.5h-1V17h1v1.5ZM16 18.5h-1V17h1v1.5ZM18 18.5h-1V17h1v1.5ZM18 15.5h-5V14h5v1.5ZM7.5 5.25c.671 0 1.145.352 1.467.738.301.362.527.823.704 1.177.198.396.347.685.514.886.148.176.236.199.315.199a.554.554 0 0 0 .258-.045.34.34 0 0 0 .118-.113 2.1 2.1 0 0 0 .19-.352c.066-.145.162-.373.263-.575l1.342.67c-.086.172-.146.32-.24.526-.084.185-.191.406-.338.61a1.831 1.831 0 0 1-.644.566 2.033 2.033 0 0 1-.949.213c-.671 0-1.145-.352-1.467-.738-.301-.362-.527-.823-.704-1.177-.198-.396-.347-.685-.515-.886-.147-.176-.235-.199-.314-.199a.554.554 0 0 0-.258.045.34.34 0 0 0-.118.113 2.096 2.096 0 0 0-.19.352c-.066.145-.162.373-.263.575l-1.342-.67c.086-.172.146-.32.24-.526a3.53 3.53 0 0 1 .338-.61 1.83 1.83 0 0 1 .644-.566c.284-.148.603-.213.949-.213Z" />
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M20.204 2.01A2 2 0 0 1 22 4v16l-.01.204a2 2 0 0 1-1.786 1.785L20 22H4a2 2 0 0 1-1.99-1.796L2 20V4a2 2 0 0 1 2-2h16l.204.01ZM5.414 20H20V5.414L5.414 20ZM4 18.586 18.586 4H4v14.586Z"
+            />
+        </g>,
+        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+    ),
+    'SvgRectifierOutlineSlashed'
+);
+export default SvgRectifierOutlineSlashed;

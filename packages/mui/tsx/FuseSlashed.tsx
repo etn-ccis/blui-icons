@@ -1,0 +1,24 @@
+import React from 'react';
+import { createSvgIcon } from '@mui/material/utils';
+const SvgFuseSlashed = createSvgIcon(
+    React.createElement(
+        React.Fragment,
+        {},
+        <defs>
+            <clipPath id="fuse_slashed_svg__a">
+                <path
+                    d="M0 0h24v24H0Zm-24.36-27.21-2.84 2.84 75.6 75.6 2.84-2.84Z"
+                    clipRule="evenodd"
+                    fillRule="evenodd"
+                />
+            </clipPath>
+        </defs>,
+        <g clipPath="url(#fuse_slashed_svg__a)">
+            <path d="M19 11v2h4v-2h-4ZM1 13h4v-2H1v2Z" />
+            <path d="M18.023 11.787v.003a1 1 0 0 1 1.955.419v.002l-.001.002-.001.006-.003.013-.01.04c-.008.033-.018.076-.033.128a5.767 5.767 0 0 1-.785 1.668C18.498 15.006 17.347 16 15.5 16c-2.664 0-3.905-2.053-4.448-3.684-.265-.793-.46-1.333-.799-1.714-.275-.31-.73-.602-1.753-.602-.923 0-1.394.344-1.719.75-.181.227-.33.493-.471.79-.071.148-.136.294-.204.448-.064.147-.137.31-.211.46a1 1 0 0 1-1.79-.895c.05-.1.104-.22.171-.373.065-.147.142-.321.227-.5a5.99 5.99 0 0 1 .716-1.18C5.894 8.656 6.924 8 8.5 8c1.477 0 2.522.457 3.247 1.273.66.744.966 1.704 1.201 2.41C13.405 13.054 14.164 14 15.5 14c1.011 0 1.61-.506 1.999-1.068a3.762 3.762 0 0 0 .521-1.137l.003-.008Z" />
+        </g>,
+        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+    ),
+    'SvgFuseSlashed'
+);
+export default SvgFuseSlashed;

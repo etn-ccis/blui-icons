@@ -1,0 +1,25 @@
+import React from 'react';
+import { createSvgIcon } from '@mui/material/utils';
+const SvgRfidSlashed = createSvgIcon(
+    React.createElement(
+        React.Fragment,
+        {},
+        <defs>
+            <clipPath id="rfid_slashed_svg__a">
+                <path
+                    d="M0 0h24v24H0Zm-24.36-27.21-2.84 2.84 75.6 75.6 2.84-2.84Z"
+                    clipRule="evenodd"
+                    fillRule="evenodd"
+                />
+            </clipPath>
+        </defs>,
+        <g clipPath="url(#rfid_slashed_svg__a)">
+            <path d="M6.62 16.441V18H5.463v-4.283h1.403c1.164 0 1.746.422 1.746 1.265 0 .497-.242.88-.726 1.152L9.134 18H7.82l-.908-1.559H6.62Zm0-.87h.217c.404 0 .606-.178.606-.536 0-.295-.198-.442-.594-.442H6.62v.978ZM10.663 18h-1.14v-4.283h2.532v.928h-1.392v.818h1.283v.929h-1.283V18ZM12.758 18v-4.283h1.163V18h-1.163ZM18.485 15.768c0 .714-.197 1.265-.591 1.652-.393.387-.946.58-1.659.58H14.85v-4.283h1.482c.688 0 1.218.176 1.59.527.376.352.563.86.563 1.524Zm-1.2.04c0-.392-.079-.683-.235-.873-.155-.189-.39-.284-.706-.284h-.337v2.4h.258c.351 0 .609-.102.773-.305.164-.205.246-.517.246-.937ZM17 9a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" />
+            <path d="M10.059 4 9 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5l-2-1.059V20H4V4h6.059ZM21.947 12.97A8 8 0 0 0 11.03 2.053l.992 1.737a6 6 0 0 1 8.188 8.188l1.737.992Z" />
+            <path d="M19.342 11.481a5 5 0 0 0-6.823-6.823l.992 1.737a3 3 0 0 1 4.094 4.094l1.737.992Z" />
+        </g>,
+        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+    ),
+    'SvgRfidSlashed'
+);
+export default SvgRfidSlashed;
