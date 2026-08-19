@@ -134,6 +134,23 @@ export const SvgPage: React.FC = () => (
         <Box sx={{ maxWidth: 700, margin: 'auto', mt: 4, px: 2 }}>
             <Divider sx={{ mb: 3 }} />
             <Typography variant="h6" gutterBottom>
+                All generated pre-built slashed SVGs ({allGeneratedSlashedIcons.length})
+            </Typography>
+            <Grid container>
+                {allGeneratedSlashedIcons.map(({ filename, src }) => (
+                    <Grid size={2} key={filename} sx={styles.gridItem}>
+                        <Box sx={styles.iconWrapper}>
+                            <img src={src} width={48} height={48} alt={filename} />
+                            <Typography variant="caption" sx={styles.iconName} display="block" mt={1}>
+                                {filename}
+                            </Typography>
+                        </Box>
+                    </Grid>
+                ))}
+            </Grid>
+
+            <Divider sx={{ my: 3 }} />
+            <Typography variant="h6" gutterBottom>
                 Runtime <code>SlashedSvgIcon</code> component
             </Typography>
             <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
@@ -171,7 +188,7 @@ export const SvgPage: React.FC = () => (
 
             {/* Custom slash color demo */}
             <Divider sx={{ my: 3 }} />
-            <Typography variant="subtitle2" gutterBottom>
+            <Typography variant="h6" gutterBottom>
                 Custom <code>slashColor</code> prop
             </Typography>
             <Box sx={{ display: 'flex', gap: 3, flexWrap: 'wrap' }}>
@@ -191,23 +208,6 @@ export const SvgPage: React.FC = () => (
                     </Box>
                 ))}
             </Box>
-
-            <Divider sx={{ my: 3 }} />
-            <Typography variant="subtitle2" gutterBottom>
-                All generated pre-built slashed SVGs ({allGeneratedSlashedIcons.length})
-            </Typography>
-            <Grid container>
-                {allGeneratedSlashedIcons.map(({ filename, src }) => (
-                    <Grid size={2} key={filename} sx={styles.gridItem}>
-                        <Box sx={styles.iconWrapper}>
-                            <img src={src} width={48} height={48} alt={filename} />
-                            <Typography variant="caption" sx={styles.iconName} display="block" mt={1}>
-                                {filename}
-                            </Typography>
-                        </Box>
-                    </Grid>
-                ))}
-            </Grid>
         </Box>
     </>
 );
