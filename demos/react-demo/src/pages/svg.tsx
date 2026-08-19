@@ -23,7 +23,7 @@ import XStorageAlt from '@brightlayer-ui/icons-svg/xstorage_alt.svg';
 import ThemeLightDark from '@brightlayer-ui/icons-svg/theme_light_dark.svg';
 import ThemeLightDarkSlashed from '@brightlayer-ui/icons-svg/theme_light_dark_slashed.svg';
 import SlashOnly from '@brightlayer-ui/icons-svg/slash_only.svg';
-import { SlashedSvgIcon } from '../components/SlashedSvgIcon';
+import { SlashedSvgIcon } from '@brightlayer-ui/icons-mui';
 
 const svgIcons = [
     { name: 'Eaton Logo', filename: 'eaton.svg', icon: EatonLogo },
