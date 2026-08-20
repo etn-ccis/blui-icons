@@ -894,7 +894,6 @@ export { default as Skillet } from './Skillet';
 export { default as SkilletCooktop } from './SkilletCooktop';
 export { default as SkilletCooktopSlashed } from './SkilletCooktopSlashed';
 export { default as SkilletSlashed } from './SkilletSlashed';
-export { default as SlashOnly } from './SlashOnly';
 export { default as SlashOverlay } from './SlashOverlay';
 export { default as SlashedSvgIcon } from './SlashedSvgIcon';
 export { default as SmokeDetector } from './SmokeDetector';
