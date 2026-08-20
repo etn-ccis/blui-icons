@@ -48,7 +48,11 @@ const svgIcons = [
         icon: MapMarkerMultipleSlashed,
     },
     { name: 'Pxblue Slashed (pre-built)', filename: 'pxblue_slashed.svg', icon: PxblueSlashed },
-    { name: 'Theme Light Dark Slashed (pre-built)', filename: 'theme_light_dark_slashed.svg', icon: ThemeLightDarkSlashed },
+    {
+        name: 'Theme Light Dark Slashed (pre-built)',
+        filename: 'theme_light_dark_slashed.svg',
+        icon: ThemeLightDarkSlashed,
+    },
     { name: 'xStorage', filename: 'xstorage.svg', icon: XStorage },
     { name: 'xStorage Slashed (pre-built)', filename: 'xstorage_slashed.svg', icon: XStorageSlashed },
     { name: 'xStorage Alt', filename: 'xstorage_alt.svg', icon: XStorageAlt },
