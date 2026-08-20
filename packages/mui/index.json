@@ -516,16 +516,6 @@
             "size": 24
         },
         {
-            "name": "xStorage Slashed",
-            "filename": "xstorage_slashed.svg",
-            "family": ["Devices"],
-            "style": "baseline",
-            "tags": ["device", "product", "equipment", "electrical", "battery", "storage", "backup", "solar"],
-            "author": "Eric Atha (Brightlayer UI)",
-            "description": "Represents the ESB product xStorage",
-            "size": 24
-        },
-        {
             "name": "Bypass Battery",
             "filename": "bypass_battery.svg",
             "family": ["Status"],
@@ -711,28 +701,6 @@
         {
             "name": "Maintenance Mode",
             "filename": "maintenance.svg",
-            "family": ["Status"],
-            "style": "baseline",
-            "tags": [
-                "circle",
-                "maintain",
-                "mode",
-                "service",
-                "upkeep",
-                "condition",
-                "repair",
-                "wrench",
-                "tool",
-                "care",
-                "event"
-            ],
-            "description": "Used to represent maintainance mode or service event",
-            "author": "Eric Atha (Brightlayer UI)",
-            "size": 24
-        },
-        {
-            "name": "Maintenance Mode Slashed",
-            "filename": "maintenance_slashed.svg",
             "family": ["Status"],
             "style": "baseline",
             "tags": [
@@ -1459,29 +1427,6 @@
             "size": 24
         },
         {
-            "name": "PXBlue Slashed",
-            "filename": "pxblue_slashed.svg",
-            "family": ["Platform"],
-            "style": "baseline",
-            "tags": [
-                "pxblue",
-                "blue",
-                "power",
-                "xpert",
-                "platform",
-                "ux",
-                "ui",
-                "framework",
-                "ccis",
-                "px",
-                "code",
-                "logo"
-            ],
-            "description": "Power Xpert Blue icon graphic, redesigned on the Material Design Icon spec",
-            "author": "Eric Atha (Brightlayer UI)",
-            "size": 24
-        },
-        {
             "name": "PXBlue Small",
             "filename": "pxblue_small.svg",
             "family": ["Platform"],
@@ -1829,15 +1774,6 @@
         {
             "name": "Map Marker Multiple",
             "filename": "map_marker_multiple.svg",
-            "family": ["status"],
-            "style": "baseline",
-            "tags": ["pins", "places", "locations"],
-            "author": "Austin Andrews",
-            "size": 24
-        },
-        {
-            "name": "Map Marker Multiple Slashed",
-            "filename": "map_marker_multiple_slashed.svg",
             "family": ["status"],
             "style": "baseline",
             "tags": ["pins", "places", "locations"],
@@ -4735,15 +4671,6 @@
         {
             "name": "Theme Light Dark",
             "filename": "theme_light_dark.svg",
-            "family": ["Weather"],
-            "style": "baseline",
-            "tags": ["theme", "mode", "setting", "preference", "light", "dark"],
-            "author": "Google",
-            "size": 24
-        },
-        {
-            "name": "Theme Light Dark Slashed",
-            "filename": "theme_light_dark_slashed.svg",
             "family": ["Weather"],
             "style": "baseline",
             "tags": ["theme", "mode", "setting", "preference", "light", "dark"],
