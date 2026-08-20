@@ -1060,3 +1060,5 @@ export { default as Xstorage } from './Xstorage';
 export { default as XstorageAlt } from './XstorageAlt';
 export { default as XstorageAltSlashed } from './XstorageAltSlashed';
 export { default as XstorageSlashed } from './XstorageSlashed';
+
+export { default as SlashedSvgIcon } from './SlashedSvgIcon';
