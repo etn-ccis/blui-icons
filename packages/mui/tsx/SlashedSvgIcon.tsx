@@ -25,7 +25,7 @@ export type SlashedSvgIconProps = {
  *
  * NOTE: `iconSrc` must point to a trusted, same-origin SVG asset.
  */
-const SlashedSvgIcon: React.FC<SlashedSvgIconProps> = ({
+export const SlashedSvgIcon: React.FC<SlashedSvgIconProps> = ({
     iconSrc,
     size = 48,
     slashColor = DEFAULT_SLASH_COLOR,
