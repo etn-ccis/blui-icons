@@ -75,7 +75,7 @@ const runtimeSlashDemos: Array<{ label: string; src: string }> = [
 const slashedSvgModules = import.meta.glob('../../../../packages/svg/*_slashed.svg', {
     eager: true,
     import: 'default',
-}) as Record<string, string>;
+});
 
 const allGeneratedSlashedIcons = Object.entries(slashedSvgModules)
     .map(([filePath, src]) => ({

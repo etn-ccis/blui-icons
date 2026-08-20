@@ -69,7 +69,7 @@ export const MuiPage: React.FC = () => (
                     ['Battery', '#727E84'],
                     ['SolarPanel', '#D32F2F'],
                     ['Fan', '#1976D2'],
-                ] as [string, string][]
+                ] as Array<[string, string]>
             ).map(([name, color]) => {
                 const Component = (Icons as any)[name];
                 const SlashedIconCmp = (Icons as any).SlashedIcon as React.FC<{
