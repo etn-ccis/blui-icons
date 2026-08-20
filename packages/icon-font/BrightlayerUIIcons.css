@@ -525,9 +525,6 @@ i[class^="blui-"]:before, i[class*=" blui-"]:before {
 .blui-slash_overlay:before {
     content: "\f1a9";
 }
-.blui-slash_only:before {
-    content: "\f1aa";
-}
 .blui-skillet_slashed:before {
     content: "\f1ab";
 }

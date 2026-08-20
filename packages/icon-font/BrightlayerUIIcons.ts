@@ -168,7 +168,6 @@ export type BrightlayerUIIconsId =
   | "smoke_detector_slashed"
   | "smoke_detector"
   | "slash_overlay"
-  | "slash_only"
   | "skillet_slashed"
   | "skillet_cooktop_slashed"
   | "skillet_cooktop"
@@ -2304,7 +2303,6 @@ export enum BrightlayerUIIcons {
   SmokeDetectorSlashed = "smoke_detector_slashed",
   SmokeDetector = "smoke_detector",
   SlashOverlay = "slash_overlay",
-  SlashOnly = "slash_only",
   SkilletSlashed = "skillet_slashed",
   SkilletCooktopSlashed = "skillet_cooktop_slashed",
   SkilletCooktop = "skillet_cooktop",

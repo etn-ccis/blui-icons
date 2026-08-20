@@ -5,7 +5,7 @@ const path = require('path');
 const { applySlashMask } = require('./slashUtils');
 
 // Files to skip — the overlay itself, the base slash glyph, and any already-slashed files
-const SKIP_FILES = new Set(['slash_overlay.svg', 'slash_only.svg']);
+const SKIP_FILES = new Set(['slash_overlay.svg']);
 const svgDir = path.resolve(__dirname, '..');
 
 const files = fs.readdirSync(svgDir).filter((f) => {

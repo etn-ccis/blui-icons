@@ -22,7 +22,6 @@ import XStorageSlashed from '@brightlayer-ui/icons-svg/xstorage_slashed.svg';
 import XStorageAlt from '@brightlayer-ui/icons-svg/xstorage_alt.svg';
 import ThemeLightDark from '@brightlayer-ui/icons-svg/theme_light_dark.svg';
 import ThemeLightDarkSlashed from '@brightlayer-ui/icons-svg/theme_light_dark_slashed.svg';
-import SlashOnly from '@brightlayer-ui/icons-svg/slash_only.svg';
 import { SlashedSvgIcon } from '@brightlayer-ui/icons-mui';
 
 const svgIcons = [
@@ -58,7 +57,6 @@ const svgIcons = [
     { name: 'xStorage Alt', filename: 'xstorage_alt.svg', icon: XStorageAlt },
     { name: 'Theme Light Dark', filename: 'theme_light_dark.svg', icon: ThemeLightDark },
     { name: 'Pxblue', filename: 'pxblue.svg', icon: Pxblue },
-    { name: 'Slash Only', filename: 'slash_only.svg', icon: SlashOnly },
 ];
 
 /** Icons used to demonstrate the runtime SlashedSvgIcon component */
