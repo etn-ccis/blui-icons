@@ -529,3 +529,4 @@ export { default as Wheat } from './Wheat';
 export { default as WindTurbine } from './WindTurbine';
 export { default as Xstorage } from './Xstorage';
 export { default as XstorageAlt } from './XstorageAlt';
+export * from './TwoToneIcon';
