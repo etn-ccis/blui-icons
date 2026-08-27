@@ -3,7 +3,10 @@ export type TwoToneStatus = 'error' | 'orange' | 'warning' | 'success' | 'primar
 type Pair = { isolated: string; container: string };
 
 export const twoToneColors: Record<TwoToneStatus, { light: Pair; dark: Pair }> = {
-    error: { light: { isolated: '#CA3C3D', container: '#FFCDC8' }, dark: { isolated: '#FFCDC8', container: '#CA3C3D' } },
+    error: {
+        light: { isolated: '#CA3C3D', container: '#FFCDC8' },
+        dark: { isolated: '#FFCDC8', container: '#CA3C3D' },
+    },
     orange: {
         light: { isolated: '#B06400', container: '#FFDCC0' },
         dark: { isolated: '#FFDCC0', container: '#B06400' },
