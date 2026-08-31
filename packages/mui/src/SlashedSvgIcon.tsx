@@ -1,15 +1,15 @@
 import React, { useEffect, useId, useState } from 'react';
 
 // Matches the values in packages/svg/scripts/slashUtils.js
-const SLASH_PATH = 'M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z';
+const SLASH_PATH = 'M2.22 2.21 L0.80 3.63 L20.40 23.23 L21.82 21.81 Z';
 const DEFAULT_SLASH_COLOR = 'currentColor';
 
 // White highlight band: same width as the gray band, offset one band-width in the
 // upper-right perpendicular direction (+1.42, -1.42 on the 24x24 viewBox).
-const WHITE_SLASH_PATH = 'M5.64 2.79 L4.22 4.21 L19.82 19.81 L21.24 18.39 Z';
+const WHITE_SLASH_PATH = 'M3.64 0.79 L2.22 2.21 L21.82 21.81 L23.24 20.39 Z';
 
 // Expanded mask covers both bands: from the gray bottom edge to the white top edge.
-const EXPANDED_MASK_PATH = 'M5.64 2.79 L2.80 5.63 L18.40 21.23 L21.24 18.39 Z';
+const EXPANDED_MASK_PATH = 'M3.64 0.79 L0.80 3.63 L20.40 23.23 L23.24 20.39 Z';
 
 export type SlashedSvgIconProps = {
     /** URL to a bundled/trusted SVG asset. */

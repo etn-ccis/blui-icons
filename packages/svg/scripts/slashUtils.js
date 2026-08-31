@@ -7,11 +7,11 @@ const cheerio = require('cheerio');
 const DEFAULT_SLASH_COLOR = 'currentColor';
 
 // Diagonal band polygon at 45°, ±1px wide on a 24×24 viewBox.
-const SLASH_PATH = 'M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z';
+const SLASH_PATH = 'M2.22 2.21 L0.80 3.63 L20.40 23.23 L21.82 21.81 Z';
 
 // Transparent gap band: one band-width above the gray slash
 // (+1.42, −1.42 offset on the 24×24 viewBox).
-const GAP_PATH = 'M5.64 2.79 L4.22 4.21 L19.82 19.81 L21.24 18.39 Z';
+const GAP_PATH = 'M3.64 0.79 L2.22 2.21 L21.82 21.81 L23.24 20.39 Z';
 
 // Clip area covering both the gap band and the gray slash band.
 // Extended beyond the 24x24 viewBox to prevent endpoint antialias bleed.
