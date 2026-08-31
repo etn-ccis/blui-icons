@@ -14,6 +14,7 @@ function bluiIndexTemplate(filePaths) {
         const exportName = /^\d/.test(basename) ? `Svg${basename}` : basename;
         return `export { default as ${exportName} } from './${basename}'`;
     });
+    exportEntries.push(`export * from './TwoToneIcon'`);
     return exportEntries.join('\n');
 }
 
