@@ -70,7 +70,8 @@ function applySlashMask(svg) {
     // Extract just the <svg>...</svg> element from cheerio output
     const output = $.xml();
     const match = output.match(/<svg[\s\S]*<\/svg>/);
-    return match ? match[0] : output;
+    const result = match ? match[0] : output;
+    return result.replace(/\n/g, '');
 }
 
 module.exports = { applySlashMask, SLASH_PATH, GAP_PATH, CLIP_BAND_PATH, DEFAULT_SLASH_COLOR };

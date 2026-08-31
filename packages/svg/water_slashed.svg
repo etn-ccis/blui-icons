@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><clipPath id="slash-clip"><path d="M0 0 L24 0 L24 24 L0 24 Z M-24.36 -27.21 L-27.20 -24.37 L48.40 51.23 L51.24 48.39 Z" clip-rule="evenodd" fill-rule="evenodd"/></clipPath></defs>
-  
-  
-<g clip-path="url(#slash-clip)"><path d="M12,20a6,6,0,0,1-6-6c0-4,6-10.8,6-10.8S18,10,18,14A6,6,0,0,1,12,20Z"/><rect width="24" height="24" fill="none"/></g><path data-name="slash-overlay" d="M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z" fill="currentColor"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><clipPath id="slash-clip"><path d="M0 0 L24 0 L24 24 L0 24 Z M-24.36 -27.21 L-27.20 -24.37 L48.40 51.23 L51.24 48.39 Z" clip-rule="evenodd" fill-rule="evenodd"/></clipPath></defs>    <g clip-path="url(#slash-clip)"><path d="M12,20a6,6,0,0,1-6-6c0-4,6-10.8,6-10.8S18,10,18,14A6,6,0,0,1,12,20Z"/><rect width="24" height="24" fill="none"/></g><path data-name="slash-overlay" d="M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z" fill="currentColor"/></svg>

@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><clipPath id="slash-clip"><path d="M0 0 L24 0 L24 24 L0 24 Z M-24.36 -27.21 L-27.20 -24.37 L48.40 51.23 L51.24 48.39 Z" clip-rule="evenodd" fill-rule="evenodd"/></clipPath></defs>
-  
-  
-  
-  
-<g clip-path="url(#slash-clip)"><title>pxwhite</title><path d="M12,23A11,11,0,1,1,23,12,11,11,0,0,1,12,23ZM12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"/><rect width="24" height="24" fill="none"/><path d="M16.71,11A2,2,0,0,0,17,10a2,2,0,0,0-2-2,2,2,0,0,0-1.6.82A4,4,0,0,0,11,8a4,4,0,0,0-4,4,2,2,0,0,0,0,4h9.5a2.49,2.49,0,0,0,.21-5Z"/></g><path data-name="slash-overlay" d="M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z" fill="currentColor"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><defs><clipPath id="slash-clip"><path d="M0 0 L24 0 L24 24 L0 24 Z M-24.36 -27.21 L-27.20 -24.37 L48.40 51.23 L51.24 48.39 Z" clip-rule="evenodd" fill-rule="evenodd"/></clipPath></defs>        <g clip-path="url(#slash-clip)"><title>pxwhite</title><path d="M12,23A11,11,0,1,1,23,12,11,11,0,0,1,12,23ZM12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z"/><rect width="24" height="24" fill="none"/><path d="M16.71,11A2,2,0,0,0,17,10a2,2,0,0,0-2-2,2,2,0,0,0-1.6.82A4,4,0,0,0,11,8a4,4,0,0,0-4,4,2,2,0,0,0,0,4h9.5a2.49,2.49,0,0,0,.21-5Z"/></g><path data-name="slash-overlay" d="M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z" fill="currentColor"/></svg>
