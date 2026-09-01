@@ -58,6 +58,7 @@
     "peerDependencies": {
         "react": ">=16.8.1",
         "react-native": ">=0.60.0-rc.0 <1.0.x",
+        "react-native-svg": ">=12.0.0",
         "react-native-vector-icons": "^10.2.0"
     },
     "devDependencies": {
@@ -69,6 +70,7 @@
         "eslint-config-prettier": "^8.5.0",
         "prettier": "^3.2.5",
         "react": "18.1.0",
+        "react-native-svg": "^15.12.0",
         "react-native-vector-icons": "^10.2.0",
         "typescript": "^5.9.3"
     },

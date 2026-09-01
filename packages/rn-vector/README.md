@@ -22,6 +22,14 @@ or
 yarn add react-native-vector-icons
 ```
 
+Slashed SVG helpers in this package also require `react-native-svg`:
+
+```
+npm install --save react-native-svg
+or
+yarn add react-native-svg
+```
+
 > Carefully follow the [integration instructions](https://github.com/oblador/react-native-vector-icons#installation) in their documentation for making the icons available in your project.
 
 #### iOS
@@ -144,4 +152,25 @@ Using these icons in your application is exactly the same as using react-native-
 import BLUIIcon from '@brightlayer-ui/react-native-vector-icons';
 ...
 <BLUIIcon name={'broccoli'} color={'green'} size={24}/>
+```
+
+## SVG Clip-Path Slashed Icons
+
+If you need a true clip-path slash treatment (icon content cut out behind the slash), use the `SlashedBLUISvgMaskIcon` export with `react-native-svg` paths.
+
+```tsx
+import { SlashedBLUISvgMaskIcon } from '@brightlayer-ui/react-native-vector-icons';
+import { Path } from 'react-native-svg';
+
+<SlashedBLUISvgMaskIcon slashColor={'#777'} size={24}>
+    <Path d="M3 3 H21 V21 H3 Z" fill="currentColor" />
+</SlashedBLUISvgMaskIcon>;
+```
+
+If you want to pass a BLUI icon name directly (without creating `Path` children), use `SlashedBLUIIcon`:
+
+```tsx
+import { SlashedBLUIIcon } from '@brightlayer-ui/react-native-vector-icons';
+
+<SlashedBLUIIcon name={'device'} color={'currentColor'} slashColor={'#777'} size={24} />;
 ```

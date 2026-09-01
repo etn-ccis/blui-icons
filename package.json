@@ -41,6 +41,12 @@
     "engines": {
         "node": ">=20.0.0"
     },
+    "resolutions": {
+        "js-yaml": "4.3.1",
+        "nanoid": "3.3.18",
+        "svgo": "2.8.3",
+        "react-router": "7.18.2"
+    },
     "devDependencies": {
         "@brightlayer-ui/prettier-config": "^1.0.3",
         "@types/node": "^20",

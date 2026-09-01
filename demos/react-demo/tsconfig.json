@@ -1,6 +1,11 @@
 {
     "compilerOptions": {
         "target": "es5",
+        "baseUrl": ".",
+        "paths": {
+            "@brightlayer-ui/icons-mui": ["../../packages/mui/tsx/index.ts"],
+            "@brightlayer-ui/icons-mui/index.json": ["../../packages/mui/index.json"]
+        },
         "lib": ["dom", "dom.iterable", "esnext"],
         "allowJs": true,
         "skipLibCheck": true,
