@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.7.0-alpha.0 (September 18, 2026)
+
+### Added
+
+- Slashed variants for the icon font glyph set.
+
 ## v2.6.0 (May 29, 2026)
 
 ### Added
