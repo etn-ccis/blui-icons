@@ -1,11 +1,5 @@
 # Changelog
 
-## v1.19.0-alpha.0 (September 18, 2026)
-
-### Added
-
-- Pre-built slashed SVG variants for the icon set.
-
 ## v1.18.0 (May 29, 2026)
 
 ### Added

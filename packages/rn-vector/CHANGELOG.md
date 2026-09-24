@@ -1,16 +1,5 @@
 # Changelog
 
-## v4.0.0-alpha.0 (September 18, 2026)
-
-### Added
-
-- Added `SlashedBLUIIcon` to render an existing BLUI icon with a diagonal slash.
-- Added `SlashedBLUISvgMaskIcon` to render custom `react-native-svg` paths with a diagonal slash.
-
-### Breaking
-
-- Added `react-native-svg` as a required peer dependency for the slashed SVG helpers.
-
 ## v3.3.0 (May 29, 2026)
 
 ### Added
