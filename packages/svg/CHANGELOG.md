@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.19.0-alpha.0 (September 18, 2026)
+## v1.19.0 (Unreleased)
 
 ### Added
 
