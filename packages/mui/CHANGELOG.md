@@ -1,5 +1,19 @@
 # Changelog
 
+## v4.4.0-alpha.1 (September 24, 2026)
+
+### Fixed
+
+- Updated `TwoToneIcon` to support MUI color-scheme mode with a fallback to the theme palette mode.
+
+## v4.4.0-alpha.0 (September 18, 2026)
+
+### Added
+
+- Slashed icon components for the icon set.
+- `SlashedSvgIcon` for rendering an SVG icon with a slash overlay.
+- `TwoToneIcon` for applying status-based colors to two-tone icon components.
+
 ## v4.3.0 (May 29, 2026)
 
 ### Added
