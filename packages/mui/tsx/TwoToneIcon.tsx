@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTheme } from '@mui/material/styles';
+import { useColorScheme, useTheme } from '@mui/material/styles';
 import { SvgIconProps } from '@mui/material/SvgIcon';
 import { twoToneColors, TwoToneStatus } from './twoToneColors';
 
@@ -16,8 +16,10 @@ export type TwoToneIconProps = Omit<SvgIconProps, 'color'> & {
  * Wrapper that applies a status color scheme to a two-tone icon.
  */
 export const TwoToneIcon: React.FC<TwoToneIconProps> = ({ icon: Icon, status = 'neutral', sx, ...props }) => {
-    const mode = useTheme().palette.mode;
-    const { isolated, container } = twoToneColors[status][mode];
+    const { mode } = useColorScheme();
+    const themeMode = useTheme().palette.mode;
+    const colorMode = mode === 'dark' || mode === 'light' ? mode : themeMode;
+    const { isolated, container } = twoToneColors[status][colorMode];
 
     return (
         <Icon
