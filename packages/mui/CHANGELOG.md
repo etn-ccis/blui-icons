@@ -1,12 +1,10 @@
 # Changelog
 
-## v4.4.0-alpha.1 (September 24, 2026)
+## v4.4.0 (Unreleased)
 
 ### Fixed
 
 - Updated `TwoToneIcon` to support MUI color-scheme mode with a fallback to the theme palette mode.
-
-## v4.4.0-alpha.0 (September 18, 2026)
 
 ### Added
 
