@@ -5,11 +5,8 @@ const SLASH_PATH = 'M2.22 2.21 L0.80 3.63 L20.40 23.23 L21.82 21.81 Z';
 const DEFAULT_SLASH_COLOR = 'currentColor';
 const DEFAULT_SLASH_LENGTH = 1;
 
-// White highlight band: same width as the gray band, offset one band-width in the
-// upper-right perpendicular direction (+1.42, -1.42 on the 24x24 viewBox).
-const WHITE_SLASH_PATH = 'M3.64 0.79 L2.22 2.21 L21.82 21.81 L23.24 20.39 Z';
-
-// Expanded mask covers both bands: from the gray bottom edge to the white top edge.
+// Expanded mask covers the slash band plus a transparent gap band of the same width
+// offset one band-width in the upper-right perpendicular direction (+1.42, -1.42).
 const EXPANDED_MASK_PATH = 'M3.64 0.79 L0.80 3.63 L20.40 23.23 L23.24 20.39 Z';
 const SLASH_CENTER_X = 12;
 const SLASH_CENTER_Y = 12;
@@ -55,7 +52,6 @@ export const SlashedSvgIcon: React.FC<SlashedSvgIconProps> = ({
     const uid = useId().replace(/:/g, '_');
     const maskId = `slash-mask-${uid}`;
     const slashPath = scaleSlashPathLength(SLASH_PATH, slashLength);
-    const whiteSlashPath = scaleSlashPathLength(WHITE_SLASH_PATH, slashLength);
     const expandedMaskPath = scaleSlashPathLength(EXPANDED_MASK_PATH, slashLength);
 
     const [svgData, setSvgData] = useState<{ viewBox: string; innerHTML: string } | null>(null);
@@ -109,7 +105,6 @@ export const SlashedSvgIcon: React.FC<SlashedSvgIconProps> = ({
             </defs>
             {/* eslint-disable-next-line react/no-danger */}
             <g mask={`url(#${maskId})`} dangerouslySetInnerHTML={{ __html: svgData.innerHTML }} />
-            <path d={whiteSlashPath} fill="white" />
             <path d={slashPath} fill={slashColor} />
         </svg>
     );
