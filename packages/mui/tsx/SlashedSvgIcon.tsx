@@ -3,6 +3,7 @@ import React, { useEffect, useId, useState } from 'react';
 // Matches the values in packages/svg/scripts/slashUtils.js
 const SLASH_PATH = 'M2.22 2.21 L0.80 3.63 L20.40 23.23 L21.82 21.81 Z';
 const DEFAULT_SLASH_COLOR = 'currentColor';
+const DEFAULT_SLASH_LENGTH = 1;
 
 // White highlight band: same width as the gray band, offset one band-width in the
 // upper-right perpendicular direction (+1.42, -1.42 on the 24x24 viewBox).
@@ -10,12 +11,31 @@ const WHITE_SLASH_PATH = 'M3.64 0.79 L2.22 2.21 L21.82 21.81 L23.24 20.39 Z';
 
 // Expanded mask covers both bands: from the gray bottom edge to the white top edge.
 const EXPANDED_MASK_PATH = 'M3.64 0.79 L0.80 3.63 L20.40 23.23 L23.24 20.39 Z';
+const SLASH_CENTER_X = 12;
+const SLASH_CENTER_Y = 12;
+
+const scaleSlashPathLength = (path: string, slashLength: number): string => {
+    const clampedSlashLength = Math.max(slashLength, 0);
+
+    return path.replace(/(-?\d*\.?\d+)\s+(-?\d*\.?\d+)/g, (match, x, y) => {
+        const dx = Number.parseFloat(x) - SLASH_CENTER_X;
+        const dy = Number.parseFloat(y) - SLASH_CENTER_Y;
+        const parallel = (dx + dy) * Math.SQRT1_2;
+        const perpendicular = (-dx + dy) * Math.SQRT1_2;
+        const scaledParallel = parallel * clampedSlashLength;
+        const scaledX = SLASH_CENTER_X + (scaledParallel - perpendicular) * Math.SQRT1_2;
+        const scaledY = SLASH_CENTER_Y + (scaledParallel + perpendicular) * Math.SQRT1_2;
+
+        return match.replace(/-?\d*\.?\d+\s+-?\d*\.?\d+/, `${scaledX.toFixed(2)} ${scaledY.toFixed(2)}`);
+    });
+};
 
 export type SlashedSvgIconProps = {
     /** URL to a bundled/trusted SVG asset. */
     iconSrc: string;
     size?: number;
     slashColor?: string;
+    slashLength?: number;
     alt?: string;
 };
 
@@ -29,10 +49,14 @@ export const SlashedSvgIcon: React.FC<SlashedSvgIconProps> = ({
     iconSrc,
     size = 48,
     slashColor = DEFAULT_SLASH_COLOR,
+    slashLength = DEFAULT_SLASH_LENGTH,
     alt = '',
 }) => {
     const uid = useId().replace(/:/g, '_');
     const maskId = `slash-mask-${uid}`;
+    const slashPath = scaleSlashPathLength(SLASH_PATH, slashLength);
+    const whiteSlashPath = scaleSlashPathLength(WHITE_SLASH_PATH, slashLength);
+    const expandedMaskPath = scaleSlashPathLength(EXPANDED_MASK_PATH, slashLength);
 
     const [svgData, setSvgData] = useState<{ viewBox: string; innerHTML: string } | null>(null);
 
@@ -80,13 +104,13 @@ export const SlashedSvgIcon: React.FC<SlashedSvgIconProps> = ({
             <defs>
                 <mask id={maskId}>
                     <rect width="24" height="24" fill="white" />
-                    <path d={EXPANDED_MASK_PATH} fill="black" />
+                    <path d={expandedMaskPath} fill="black" />
                 </mask>
             </defs>
             {/* eslint-disable-next-line react/no-danger */}
             <g mask={`url(#${maskId})`} dangerouslySetInnerHTML={{ __html: svgData.innerHTML }} />
-            <path d={WHITE_SLASH_PATH} fill="white" />
-            <path d={SLASH_PATH} fill={slashColor} />
+            <path d={whiteSlashPath} fill="white" />
+            <path d={slashPath} fill={slashColor} />
         </svg>
     );
 };

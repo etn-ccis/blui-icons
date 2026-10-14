@@ -8,8 +8,11 @@ import glyphPaths from './glyphPaths.json';
 const DEFAULT_SVG_GAP_OFFSET_X = 0;
 const DEFAULT_SVG_GAP_OFFSET_Y = 0;
 const DEFAULT_ICON_SIZE = 24;
+const DEFAULT_SLASH_LENGTH = 1;
 const DEFAULT_FONT_UNITS_PER_EM = 300;
 const FONT_TO_VIEWBOX_SCALE = DEFAULT_ICON_SIZE / DEFAULT_FONT_UNITS_PER_EM;
+const SLASH_CENTER_X = 12;
+const SLASH_CENTER_Y = 12;
 
 const SLASH_PATH = 'M4.22 4.21 L2.80 5.63 L18.40 21.23 L19.82 19.81 Z';
 const CLIP_BAND_PATH = 'M-24.36 -27.21 L-27.20 -24.37 L48.40 51.23 L51.24 48.39 Z';
@@ -30,6 +33,7 @@ export type SlashedBLUIIconProps = BLUIIconProps & {
     slashGapStyle?: StyleProp<TextStyle>;
     slashGapVisible?: boolean;
     slashColor?: BLUIIconProps['color'];
+    slashLength?: number;
     slashName?: keyof typeof glyphMap;
     slashSize?: BLUIIconProps['size'];
     slashStyle?: StyleProp<TextStyle>;
@@ -40,6 +44,7 @@ export type SlashedBLUISvgMaskIconProps = {
     containerStyle?: StyleProp<ViewStyle>;
     size?: number;
     slashColor?: BLUIIconProps['color'];
+    slashLength?: number;
     slashGapOffsetX?: number;
     slashGapOffsetY?: number;
     slashGapVisible?: boolean;
@@ -64,11 +69,28 @@ const translatePath = (path: string, offsetX: number, offsetY: number): string =
     });
 };
 
+const scaleSlashPathLength = (path: string, slashLength: number): string => {
+    const clampedSlashLength = Math.max(slashLength, 0);
+
+    return path.replace(/(-?\d*\.?\d+)\s+(-?\d*\.?\d+)/g, (match, x, y) => {
+        const dx = Number.parseFloat(x) - SLASH_CENTER_X;
+        const dy = Number.parseFloat(y) - SLASH_CENTER_Y;
+        const parallel = (dx + dy) * Math.SQRT1_2;
+        const perpendicular = (-dx + dy) * Math.SQRT1_2;
+        const scaledParallel = parallel * clampedSlashLength;
+        const scaledX = SLASH_CENTER_X + (scaledParallel - perpendicular) * Math.SQRT1_2;
+        const scaledY = SLASH_CENTER_Y + (scaledParallel + perpendicular) * Math.SQRT1_2;
+
+        return match.replace(/-?\d*\.?\d+\s+-?\d*\.?\d+/, `${scaledX.toFixed(2)} ${scaledY.toFixed(2)}`);
+    });
+};
+
 export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
     children,
     containerStyle,
     size = DEFAULT_ICON_SIZE,
     slashColor = 'currentColor',
+    slashLength = DEFAULT_SLASH_LENGTH,
     slashGapOffsetX = DEFAULT_SVG_GAP_OFFSET_X,
     slashGapOffsetY = DEFAULT_SVG_GAP_OFFSET_Y,
     slashGapVisible = true,
@@ -76,8 +98,9 @@ export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
     viewBox = '0 0 24 24',
 }) => {
     const clipId = `blui-slash-clip-${React.useId().replace(/:/g, '_')}`;
+    const slashPath = scaleSlashPathLength(SLASH_PATH, slashLength);
     const translatedClipBandPath = slashGapVisible
-        ? translatePath(CLIP_BAND_PATH, slashGapOffsetX, slashGapOffsetY)
+        ? translatePath(scaleSlashPathLength(CLIP_BAND_PATH, slashLength), slashGapOffsetX, slashGapOffsetY)
         : '';
     const clipD = `${RECT_PATH} ${translatedClipBandPath}`.trim();
 
@@ -107,7 +130,7 @@ export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
             ),
             React.createElement(G, { clipPath: `url(#${clipId})` }, children),
             React.createElement(Path, {
-                d: SLASH_PATH,
+                d: slashPath,
                 fill: slashColor,
             })
         )
