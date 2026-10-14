@@ -112,11 +112,7 @@ export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
     );
 };
 
-export const SlashedBLUIIcon: React.FC<SlashedBLUISvgGlyphIconProps> = ({
-    color = 'currentColor',
-    name,
-    ...props
-}) => {
+export const SlashedBLUIIcon: React.FC<SlashedBLUISvgGlyphIconProps> = ({ color = 'currentColor', name, ...props }) => {
     const glyphPath = glyphPaths[name];
 
     return React.createElement(
