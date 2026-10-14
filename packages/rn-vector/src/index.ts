@@ -25,9 +25,6 @@ type BLUIIconProps = React.ComponentProps<typeof BLUIIcon>;
 
 export type SlashedBLUIIconProps = BLUIIconProps & {
     containerStyle?: StyleProp<ViewStyle>;
-    slashGapColor?: BLUIIconProps['color'];
-    slashGapStyle?: StyleProp<TextStyle>;
-    slashGapVisible?: boolean;
     slashColor?: BLUIIconProps['color'];
     slashLength?: number;
     slashName?: keyof typeof glyphMap;
@@ -41,7 +38,6 @@ export type SlashedBLUISvgMaskIconProps = {
     size?: number;
     slashColor?: BLUIIconProps['color'];
     slashLength?: number;
-    slashGapVisible?: boolean;
     svgStyle?: StyleProp<ViewStyle>;
     viewBox?: string;
 };
@@ -75,13 +71,12 @@ export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
     size = DEFAULT_ICON_SIZE,
     slashColor = 'currentColor',
     slashLength = DEFAULT_SLASH_LENGTH,
-    slashGapVisible = true,
     svgStyle,
     viewBox = '0 0 24 24',
 }) => {
     const clipId = `blui-slash-clip-${React.useId().replace(/:/g, '_')}`;
     const slashPath = scaleSlashPathLength(SLASH_PATH, slashLength);
-    const clipBandPath = slashGapVisible ? scaleSlashPathLength(CLIP_BAND_PATH, slashLength) : '';
+    const clipBandPath = scaleSlashPathLength(CLIP_BAND_PATH, slashLength);
     const clipD = `${RECT_PATH} ${clipBandPath}`.trim();
 
     return React.createElement(
