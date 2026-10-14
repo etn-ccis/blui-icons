@@ -5,8 +5,6 @@ import Svg, { ClipPath, Defs, G, Path } from 'react-native-svg';
 import glyphMap from '../GlyphMaps/BrightlayerUIIcons.json';
 import glyphPaths from './glyphPaths.json';
 
-const DEFAULT_SVG_GAP_OFFSET_X = 0;
-const DEFAULT_SVG_GAP_OFFSET_Y = 0;
 const DEFAULT_ICON_SIZE = 24;
 const DEFAULT_SLASH_LENGTH = 1;
 const DEFAULT_FONT_UNITS_PER_EM = 300;
@@ -28,8 +26,6 @@ type BLUIIconProps = React.ComponentProps<typeof BLUIIcon>;
 export type SlashedBLUIIconProps = BLUIIconProps & {
     containerStyle?: StyleProp<ViewStyle>;
     slashGapColor?: BLUIIconProps['color'];
-    slashGapOffsetX?: number;
-    slashGapOffsetY?: number;
     slashGapStyle?: StyleProp<TextStyle>;
     slashGapVisible?: boolean;
     slashColor?: BLUIIconProps['color'];
@@ -45,8 +41,6 @@ export type SlashedBLUISvgMaskIconProps = {
     size?: number;
     slashColor?: BLUIIconProps['color'];
     slashLength?: number;
-    slashGapOffsetX?: number;
-    slashGapOffsetY?: number;
     slashGapVisible?: boolean;
     svgStyle?: StyleProp<ViewStyle>;
     viewBox?: string;
@@ -58,16 +52,6 @@ export type SlashedBLUISvgGlyphIconProps = Omit<SlashedBLUISvgMaskIconProps, 'ch
 };
 
 const RECT_PATH = 'M0 0 L24 0 L24 24 L0 24 Z';
-
-const translatePath = (path: string, offsetX: number, offsetY: number): string => {
-    let isXCoordinate = true;
-    return path.replace(/-?\d*\.?\d+/g, (value) => {
-        const coordinate = Number.parseFloat(value);
-        const translated = isXCoordinate ? coordinate + offsetX : coordinate + offsetY;
-        isXCoordinate = !isXCoordinate;
-        return translated.toFixed(2);
-    });
-};
 
 const scaleSlashPathLength = (path: string, slashLength: number): string => {
     const clampedSlashLength = Math.max(slashLength, 0);
@@ -91,18 +75,14 @@ export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
     size = DEFAULT_ICON_SIZE,
     slashColor = 'currentColor',
     slashLength = DEFAULT_SLASH_LENGTH,
-    slashGapOffsetX = DEFAULT_SVG_GAP_OFFSET_X,
-    slashGapOffsetY = DEFAULT_SVG_GAP_OFFSET_Y,
     slashGapVisible = true,
     svgStyle,
     viewBox = '0 0 24 24',
 }) => {
     const clipId = `blui-slash-clip-${React.useId().replace(/:/g, '_')}`;
     const slashPath = scaleSlashPathLength(SLASH_PATH, slashLength);
-    const translatedClipBandPath = slashGapVisible
-        ? translatePath(scaleSlashPathLength(CLIP_BAND_PATH, slashLength), slashGapOffsetX, slashGapOffsetY)
-        : '';
-    const clipD = `${RECT_PATH} ${translatedClipBandPath}`.trim();
+    const clipBandPath = slashGapVisible ? scaleSlashPathLength(CLIP_BAND_PATH, slashLength) : '';
+    const clipD = `${RECT_PATH} ${clipBandPath}`.trim();
 
     return React.createElement(
         View,
@@ -140,19 +120,13 @@ export const SlashedBLUISvgMaskIcon: React.FC<SlashedBLUISvgMaskIconProps> = ({
 export const SlashedBLUIIcon: React.FC<SlashedBLUISvgGlyphIconProps> = ({
     color = 'currentColor',
     name,
-    slashGapOffsetX = DEFAULT_SVG_GAP_OFFSET_X,
-    slashGapOffsetY = DEFAULT_SVG_GAP_OFFSET_Y,
     ...props
 }) => {
     const glyphPath = glyphPaths[name];
 
     return React.createElement(
         SlashedBLUISvgMaskIcon,
-        {
-            ...props,
-            slashGapOffsetX,
-            slashGapOffsetY,
-        },
+        props,
         React.createElement(Path, {
             d: glyphPath,
             fill: color,
