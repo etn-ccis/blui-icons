@@ -21,7 +21,7 @@ const SvgEvPlugDomesticFSlashed = createSvgIcon(
                 d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Zm-11 7.938V18h2v1.938a8.001 8.001 0 0 0 0-15.876V6h-2V4.062a8.001 8.001 0 0 0 0 15.876Z"
             />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgEvPlugDomesticFSlashed'
 );

@@ -16,7 +16,7 @@ const SvgBypassAltSlashed = createSvgIcon(
         <g clipPath="url(#bypass_alt_slashed_svg__a)">
             <path d="M17.5 12H19V6h-6v1.5h3.5L12 12 6 6 5 7l7 7 5.5-5.5V12ZM4 16h16v2H4v-2Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgBypassAltSlashed'
 );

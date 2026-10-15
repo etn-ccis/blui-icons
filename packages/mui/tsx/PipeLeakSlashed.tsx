@@ -16,7 +16,7 @@ const SvgPipeLeakSlashed = createSvgIcon(
         <g clipPath="url(#pipe_leak_slashed_svg__a)">
             <path d="M2 5v8h2v-2h6l2-2-2-2H4V5H2m18 0v2h-8l2 2-2 2h8v2h2V5h-2m-8 8s-2 2.17-2 3.5a2 2 0 0 0 2 2 2 2 0 0 0 2-2c0-1.33-2-3.5-2-3.5Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgPipeLeakSlashed'
 );

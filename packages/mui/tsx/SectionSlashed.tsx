@@ -20,7 +20,7 @@ const SvgSectionSlashed = createSvgIcon(
                 d="M18 4c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2h12Zm-5 5a1 1 0 0 1-1 1H6v8h12V6h-5v3ZM6 8h5V6H6v2Z"
             />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgSectionSlashed'
 );

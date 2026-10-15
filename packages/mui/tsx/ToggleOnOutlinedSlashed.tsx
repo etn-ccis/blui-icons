@@ -17,7 +17,7 @@ const SvgToggleOnOutlinedSlashed = createSvgIcon(
             <path d="M17 10a2 2 0 1 1-2 2 2 2 0 0 1 2-2m0-3a5 5 0 0 1 0 10H7A5 5 0 1 1 7 7h10M7 9a3 3 0 0 0 0 6h10a3 3 0 0 0 0-6Z" />
             <path fill="none" d="M0 0h24v24H0z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgToggleOnOutlinedSlashed'
 );

@@ -18,7 +18,7 @@ const SvgPieChartTwotone05Slashed = createSvgIcon(
             <path d="M12 12 8.91 2.49A9.56 9.56 0 0 1 12 2Z" />
             <path d="M12 12V2A10 10 0 1 1 2 12a9.84 9.84 0 0 1 6.91-9.51Z" opacity={0.5} />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgPieChartTwotone05Slashed'
 );

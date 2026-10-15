@@ -16,7 +16,7 @@ const SvgDepartmentSlashed = createSvgIcon(
         <g clipPath="url(#department_slashed_svg__a)">
             <path d="M16.423 3.34a1 1 0 0 1 .866.5l4.422 7.66a1 1 0 0 1 0 1l-4.422 7.66a1 1 0 0 1-.866.5H7.577a1 1 0 0 1-.866-.5L2.29 12.5a1 1 0 0 1 0-1L6.71 3.84a1 1 0 0 1 .866-.5h8.846Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgDepartmentSlashed'
 );

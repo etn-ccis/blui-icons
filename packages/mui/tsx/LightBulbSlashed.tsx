@@ -16,7 +16,7 @@ const SvgLightBulbSlashed = createSvgIcon(
         <g clipPath="url(#light_bulb_slashed_svg__a)">
             <path d="M12 2a7 7 0 0 0-4 12.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26A7 7 0 0 0 12 2ZM9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgLightBulbSlashed'
 );

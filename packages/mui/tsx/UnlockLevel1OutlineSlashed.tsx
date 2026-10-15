@@ -21,7 +21,7 @@ const SvgUnlockLevel1OutlineSlashed = createSvgIcon(
             />
             <path d="M13.753 19h-2.056V14.919c0-.185.002-.388.006-.61.007-.222.015-.422.025-.6a3.427 3.427 0 0 1-.25.272 6.052 6.052 0 0 1-.221.21l-.851.702-1.052-1.292 2.574-2.097h1.825V19Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgUnlockLevel1OutlineSlashed'
 );

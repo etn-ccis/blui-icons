@@ -17,7 +17,7 @@ const SvgTrendingUpSlashed = createSvgIcon(
             <path fill="none" d="M0 0h24v24H0Z" />
             <path d="m14.5 4 2.04 2.04L4 18.59 5.41 20 17.96 7.46 20 9.5V4Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgTrendingUpSlashed'
 );

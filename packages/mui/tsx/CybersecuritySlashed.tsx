@@ -18,7 +18,7 @@ const SvgCybersecuritySlashed = createSvgIcon(
             <path d="M15 11V9a3 3 0 0 0-6 0v2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1Zm-4.5-2a1.5 1.5 0 0 1 3 0v2h-3Z" />
             <path fill="none" d="M0 0h24v24H0z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgCybersecuritySlashed'
 );

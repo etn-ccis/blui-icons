@@ -18,7 +18,7 @@ const SvgCurrentCircledOutlineSlashed = createSvgIcon(
             <path d="M0 0h24v24H0Z" fill="none" />
             <path d="M18.7 14a3.84 3.84 0 0 1-3 2h-.2a3.68 3.68 0 0 1-2.92-1.56l-2.76-3.67A1.64 1.64 0 0 0 8.43 10 1.88 1.88 0 0 0 7 11l-.9 1.51-1.72-1L5.3 10a3.84 3.84 0 0 1 3-2 3.66 3.66 0 0 1 3.09 1.56l2.76 3.67a1.63 1.63 0 0 0 1.39.77A1.88 1.88 0 0 0 17 13l.9-1.51 1.72 1Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgCurrentCircledOutlineSlashed'
 );

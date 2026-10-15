@@ -22,7 +22,7 @@ const SvgPowerFactorSlashed = createSvgIcon(
             />
             <path d="M14 22h2.383v-4.516h3.875v-1.976h-3.875v-2.945h4.164v-1.985H14V22Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgPowerFactorSlashed'
 );

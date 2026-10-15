@@ -16,7 +16,7 @@ const SvgVoltageDcSlashed = createSvgIcon(
         <g clipPath="url(#voltage_dc_slashed_svg__a)">
             <path d="M2 2v2h20V2H2Zm0 4v2h5V6H2Zm7 0v2h6V6H9Zm8 0v2h5V6h-5ZM14.6 10.9H17L13.2 22h-2.6L6.9 10.9h2.4L12 20l2.6-9.1Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgVoltageDcSlashed'
 );

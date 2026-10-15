@@ -21,7 +21,7 @@ const SvgHubAltModeSlashed = createSvgIcon(
             <path d="M6.176 15.045a2 2 0 1 1 3.236 2.351 2 2 0 0 1-3.236-2.35ZM10.507 9.352l-.231.713-.232.713L6.24 9.542l.463-1.426 3.804 1.236Z" />
             <path d="M6.138 6.618a2 2 0 1 1-1.236 3.804 2 2 0 0 1 1.236-3.804Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgHubAltModeSlashed'
 );
