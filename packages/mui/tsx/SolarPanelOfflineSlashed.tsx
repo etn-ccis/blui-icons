@@ -21,7 +21,7 @@ const SvgSolarPanelOfflineSlashed = createSvgIcon(
             />
             <path d="m20.333 14-.299 1.792L18.242 14h2.091ZM20.584 12.5h-3.842l-.978-.979L16.186 9h4.981l-.583 3.5ZM14.665 9l-.204 1.219L13.242 9h1.423ZM21.417 7.5h-4.98l.585-3.5H22l-.583 3.5ZM14.916 7.5h-3.174l-1.547-1.547L10.523 4h4.979l-.586 3.5ZM9.002 4l-.11.65-.65-.65h.76Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgSolarPanelOfflineSlashed'
 );

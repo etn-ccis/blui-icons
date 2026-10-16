@@ -21,7 +21,7 @@ const SvgDeviceConfigurationSlashed = createSvgIcon(
             />
             <path d="M21.304 18.978a2.401 2.401 0 0 1-2.5.56l-2.353 2.353a.342.342 0 0 1-.49 0l-.967-.966a.342.342 0 0 1 0-.49l2.354-2.354a2.401 2.401 0 0 1 .56-2.5 2.393 2.393 0 0 1 2.83-.407l-1.622 1.623.973.973 1.622-1.622c.49.904.36 2.064-.407 2.83Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgDeviceConfigurationSlashed'
 );

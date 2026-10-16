@@ -17,7 +17,7 @@ const SvgGradeDSlashed = createSvgIcon(
             <path d="M11.32 8.69H10.2v6.51h.9q3.08 0 3.07-3.29t-2.85-3.22Z" />
             <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm3 13.64A5.73 5.73 0 0 1 10.91 17H8.08V7h3.13A5.23 5.23 0 0 1 15 8.25a4.71 4.71 0 0 1 1.36 3.6A4.93 4.93 0 0 1 15 15.64Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgGradeDSlashed'
 );

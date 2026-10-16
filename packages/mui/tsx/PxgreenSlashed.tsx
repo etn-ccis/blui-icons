@@ -18,7 +18,7 @@ const SvgPxgreenSlashed = createSvgIcon(
             <path fill="none" d="M0 0h24v24H0z" />
             <path d="M17.58 7.83h-.72V6.68a.68.68 0 0 0-1.36 0v1.15h-1.43V6.68a.68.68 0 1 0-1.36 0v1.15h-1.43V6.68a.69.69 0 0 0-1.37 0v1.15H8.49V6.68a.69.69 0 0 0-1.37 0v1.15h-.7a.7.7 0 0 0-.7.7v7a.7.7 0 0 0 .7.7h.71v1.1a.69.69 0 0 0 1.37 0v-1.1h1.42v1.1a.69.69 0 0 0 1.37 0v-1.1h1.43v1.1a.68.68 0 0 0 1.36 0v-1.1h1.43v1.1a.68.68 0 1 0 1.36 0v-1.1h.71a.7.7 0 0 0 .7-.7v-7a.7.7 0 0 0-.7-.7Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgPxgreenSlashed'
 );

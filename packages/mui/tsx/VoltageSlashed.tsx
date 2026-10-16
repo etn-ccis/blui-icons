@@ -18,7 +18,7 @@ const SvgVoltageSlashed = createSvgIcon(
             <path d="M9 11H2v2h7v-2zM19.5 8.5h-2V11H15v2h2.5v2.5h2V13H22v-2h-2.5V8.5z" />
             <path d="M0 0h24v24H0Z" fill="none" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgVoltageSlashed'
 );

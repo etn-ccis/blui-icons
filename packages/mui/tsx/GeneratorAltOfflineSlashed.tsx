@@ -22,7 +22,7 @@ const SvgGeneratorAltOfflineSlashed = createSvgIcon(
             <path d="M21 6a2 2 0 0 1 2 2v9c0 .767-.29 1.464-.764 1.994l-1.707-1.707A1.99 1.99 0 0 0 21 16V6ZM19 15.758l-3.528-3.528c.389-.724.891-1.665 1.488-2.825l.026-.068c.036-.08.008-.227-.187-.227h-1.4L16 6h-.5c-.884 1.729-1.653 3.087-2.18 4.077L11 7.757V4h8v11.758Z" />
             <path d="m14.6 10.89-.077.391-.391-.391h.468Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgGeneratorAltOfflineSlashed'
 );

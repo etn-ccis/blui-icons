@@ -17,7 +17,7 @@ const SvgDeviceClosedOutlineSlashed = createSvgIcon(
             <path d="M19 19v2H5v-2h14Zm0-14H5v16l-.204-.01a2 2 0 0 1-1.785-1.786L3 19V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-1.796 1.99L19 21V5Z" />
             <path d="M11 7h2v10h-2V7Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgDeviceClosedOutlineSlashed'
 );

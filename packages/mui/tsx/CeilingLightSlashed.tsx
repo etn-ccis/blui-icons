@@ -16,7 +16,7 @@ const SvgCeilingLightSlashed = createSvgIcon(
         <g clipPath="url(#ceiling_light_slashed_svg__a)">
             <path d="M8 9h3V4h2v5h3l4 8H4Zm6 9a2 2 0 0 1-4 0Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgCeilingLightSlashed'
 );

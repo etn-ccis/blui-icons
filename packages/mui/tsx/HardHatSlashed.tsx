@@ -21,7 +21,7 @@ const SvgHardHatSlashed = createSvgIcon(
             />
             <path d="M19 16v4c.005.59-.651 1-1.19 1h-4.33a3.41 3.41 0 0 1-2.4-1l-.34-.34a3 3 0 0 1-.88-2.13l.066-.721c.491-.066.98-.15 1.465-.25l.04-.008 1.27 1.619a1.92 1.92 0 0 0 1.58.83h3.29a.43.43 0 0 0 .43-.43V16H19ZM20 16.5a.5.5 0 0 1 1 0v2a.5.5 0 0 1-1 0v-2Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgHardHatSlashed'
 );

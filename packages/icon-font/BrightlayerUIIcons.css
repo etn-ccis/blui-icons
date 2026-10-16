@@ -1,10 +1,10 @@
 @font-face {
     font-family: "BrightlayerUIIcons";
-    src: url("./BrightlayerUIIcons.ttf?641576f51879ce0c6f1ec53922b3c351") format("truetype"),
-url("./BrightlayerUIIcons.woff?641576f51879ce0c6f1ec53922b3c351") format("woff"),
-url("./BrightlayerUIIcons.woff2?641576f51879ce0c6f1ec53922b3c351") format("woff2"),
-url("./BrightlayerUIIcons.eot?641576f51879ce0c6f1ec53922b3c351#iefix") format("embedded-opentype"),
-url("./BrightlayerUIIcons.svg?641576f51879ce0c6f1ec53922b3c351#BrightlayerUIIcons") format("svg");
+    src: url("./BrightlayerUIIcons.ttf?4c698edaf75551358e734eb3977f35e6") format("truetype"),
+url("./BrightlayerUIIcons.woff?4c698edaf75551358e734eb3977f35e6") format("woff"),
+url("./BrightlayerUIIcons.woff2?4c698edaf75551358e734eb3977f35e6") format("woff2"),
+url("./BrightlayerUIIcons.eot?4c698edaf75551358e734eb3977f35e6#iefix") format("embedded-opentype"),
+url("./BrightlayerUIIcons.svg?4c698edaf75551358e734eb3977f35e6#BrightlayerUIIcons") format("svg");
 }
 
 i[class^="blui-"]:before, i[class*=" blui-"]:before {

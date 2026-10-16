@@ -20,7 +20,7 @@ const SvgTripCurveAltSlashed = createSvgIcon(
                 d="M7 5.532V3H5v3.468l6 5V16.5h4V21h4v-2h-2v-4.5h-4v-3.968l-6-5Z"
             />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgTripCurveAltSlashed'
 );

@@ -21,7 +21,7 @@ const SvgRightSlashed = createSvgIcon(
                 d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10ZM9 7h5a2 2 0 0 1 2 2v2a2 2 0 0 1-1.615 1.963L16 17h-2l-1.5-4H11v4H9V7Z"
             />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgRightSlashed'
 );

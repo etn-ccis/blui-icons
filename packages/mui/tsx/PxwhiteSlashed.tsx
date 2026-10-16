@@ -18,7 +18,7 @@ const SvgPxwhiteSlashed = createSvgIcon(
             <path fill="none" d="M0 0h24v24H0z" />
             <path d="M16.71 11a2 2 0 0 0 .29-1 2 2 0 0 0-2-2 2 2 0 0 0-1.6.82A4 4 0 0 0 11 8a4 4 0 0 0-4 4 2 2 0 0 0 0 4h9.5a2.49 2.49 0 0 0 .21-5Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgPxwhiteSlashed'
 );

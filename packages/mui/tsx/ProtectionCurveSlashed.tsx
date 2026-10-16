@@ -26,7 +26,7 @@ const SvgProtectionCurveSlashed = createSvgIcon(
                 d="M6 12.6V15h1.63A13.01 13.01 0 0 1 6 12.6ZM10 19h2v-.75c-.71-.32-1.37-.71-2-1.13V19Z"
             />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgProtectionCurveSlashed'
 );

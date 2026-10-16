@@ -17,7 +17,7 @@ const SvgPrioritySlashed = createSvgIcon(
             <path fill="none" d="M0 0h24v24H0z" />
             <path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2Zm-6 10h-2V7h2Zm0 4h-2v-2h2Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgPrioritySlashed'
 );

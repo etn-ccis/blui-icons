@@ -21,7 +21,7 @@ const SvgIncidentMaintenanceSlashed = createSvgIcon(
             />
             <path d="M2.94 12a6 6 0 0 1 4-5.65V4.28a8 8 0 0 0 0 15.46v-2.09a6 6 0 0 1-2.9-2.19A6 6 0 0 1 2.94 12Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgIncidentMaintenanceSlashed'
 );
