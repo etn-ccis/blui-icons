@@ -8,15 +8,27 @@ import EatonLogoTwoTone from '@brightlayer-ui/icons-svg/eaton_two_tone.svg';
 import EVPlugTypeOne from '@brightlayer-ui/icons-svg/ev_plug_type_one.svg';
 import EVPlugType2 from '@brightlayer-ui/icons-svg/ev_plug_type_two.svg';
 import AC from '@brightlayer-ui/icons-svg/ac.svg';
+import ACDark from '@brightlayer-ui/icons-svg/ac_dark.svg';
+import AcSlashedDark from '@brightlayer-ui/icons-svg/ac_slashed_dark.svg';
+import AccountSettingsDark from '@brightlayer-ui/icons-svg/account_settings_dark.svg';
 import AcSlashed from '@brightlayer-ui/icons-svg/ac_slashed.svg';
 import AccountSettings from '@brightlayer-ui/icons-svg/account_settings.svg';
+import AccountSettingsSlashedDark from '@brightlayer-ui/icons-svg/account_settings_slashed_dark.svg';
 import AccountSettingsSlashed from '@brightlayer-ui/icons-svg/account_settings_slashed.svg';
+import MaintenanceSlashedDark from '@brightlayer-ui/icons-svg/maintenance_slashed_dark.svg';
+import MaintenanceDark from '@brightlayer-ui/icons-svg/maintenance_dark.svg';
 import Maintenance from '@brightlayer-ui/icons-svg/maintenance.svg';
 import MaintenanceSlashed from '@brightlayer-ui/icons-svg/maintenance_slashed.svg';
+import MapMarkerMultipleSlashedDark from '@brightlayer-ui/icons-svg/map_marker_multiple_slashed_dark.svg';
+import MapMarkerMultipleDark from '@brightlayer-ui/icons-svg/map_marker_multiple_dark.svg';
 import MapMarkerMultiple from '@brightlayer-ui/icons-svg/map_marker_multiple.svg';
 import MapMarkerMultipleSlashed from '@brightlayer-ui/icons-svg/map_marker_multiple_slashed.svg';
+import PxblueSlashedDark from '@brightlayer-ui/icons-svg/pxblue_slashed_dark.svg';
+import PxblueDark from '@brightlayer-ui/icons-svg/pxblue_dark.svg';
 import Pxblue from '@brightlayer-ui/icons-svg/pxblue.svg';
 import PxblueSlashed from '@brightlayer-ui/icons-svg/pxblue_slashed.svg';
+import XStorageSlashedDark from '@brightlayer-ui/icons-svg/xstorage_slashed_dark.svg';
+import XStorageDark from '@brightlayer-ui/icons-svg/xstorage_dark.svg';
 import XStorage from '@brightlayer-ui/icons-svg/xstorage.svg';
 import XStorageSlashed from '@brightlayer-ui/icons-svg/xstorage_slashed.svg';
 import XStorageAlt from '@brightlayer-ui/icons-svg/xstorage_alt.svg';
@@ -70,6 +82,41 @@ const runtimeSlashDemos: Array<{ label: string; src: string }> = [
     { label: 'theme_light_dark.svg', src: ThemeLightDark },
 ];
 
+const runtimeDarkSlashDemos: Array<{ label: string; src: string }> = [
+    { label: 'ac_dark.svg', src: ACDark },
+    { label: 'account_settings_dark.svg', src: AccountSettingsDark },
+    { label: 'maintenance_dark.svg', src: MaintenanceDark },
+    { label: 'map_marker_multiple_dark.svg', src: MapMarkerMultipleDark },
+    { label: 'pxblue_dark.svg', src: PxblueDark },
+    { label: 'xstorage_dark.svg', src: XStorageDark },
+];
+
+const darkThemeSvgIcons = [
+    { name: 'AC Dark', filename: 'ac_dark.svg', icon: ACDark },
+    { name: 'Account Settings Dark', filename: 'account_settings_dark.svg', icon: AccountSettingsDark },
+    { name: 'Maintenance Dark', filename: 'maintenance_dark.svg', icon: MaintenanceDark },
+    { name: 'Map Marker Multiple Dark', filename: 'map_marker_multiple_dark.svg', icon: MapMarkerMultipleDark },
+    { name: 'PXBlue Dark', filename: 'pxblue_dark.svg', icon: PxblueDark },
+    { name: 'xStorage Dark', filename: 'xstorage_dark.svg', icon: XStorageDark },
+].sort((a, b) => (a.filename > b.filename ? 1 : -1));
+
+const darkThemeSlashedSvgIcons = [
+    { name: 'AC Slashed Dark', filename: 'ac_slashed_dark.svg', icon: AcSlashedDark },
+    {
+        name: 'Account Settings Slashed Dark',
+        filename: 'account_settings_slashed_dark.svg',
+        icon: AccountSettingsSlashedDark,
+    },
+    { name: 'Maintenance Slashed Dark', filename: 'maintenance_slashed_dark.svg', icon: MaintenanceSlashedDark },
+    {
+        name: 'Map Marker Multiple Slashed Dark',
+        filename: 'map_marker_multiple_slashed_dark.svg',
+        icon: MapMarkerMultipleSlashedDark,
+    },
+    { name: 'PXBlue Slashed Dark', filename: 'pxblue_slashed_dark.svg', icon: PxblueSlashedDark },
+    { name: 'xStorage Slashed Dark', filename: 'xstorage_slashed_dark.svg', icon: XStorageSlashedDark },
+].sort((a, b) => (a.filename > b.filename ? 1 : -1));
+
 const slashedSvgModules = import.meta.glob('../../../../packages/svg/*_slashed.svg', {
     eager: true,
     import: 'default',
@@ -116,6 +163,11 @@ const styles: { [key: string]: SxProps<Theme> } = {
         alignItems: 'center',
         gap: 0.5,
     },
+    darkPreviewSurface: {
+        backgroundColor: '#121212',
+        borderRadius: 2,
+        p: 2,
+    },
 };
 
 export const SvgPage: React.FC = () => (
@@ -131,6 +183,49 @@ export const SvgPage: React.FC = () => (
                 </Grid>
             ))}
         </Grid>
+
+        <Box sx={{ maxWidth: 700, margin: 'auto', mt: 4, px: 2 }}>
+            <Divider sx={{ mb: 3 }} />
+            <Typography variant="h6" gutterBottom>
+                Dark Theme SVG variants
+            </Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+                These assets are generated as explicit dark-surface variants for consumers that render SVG files as
+                external images and cannot rely on inline theme color inheritance.
+            </Typography>
+
+            <Box sx={styles.darkPreviewSurface}>
+                <Grid container>
+                    {darkThemeSvgIcons.map((icon) => (
+                        <Grid size={2} key={icon.filename} sx={styles.gridItem}>
+                            <Box sx={styles.iconWrapper}>
+                                <img src={icon.icon} width={48} height={48} alt={icon.name} />
+                                <Typography variant="caption" sx={{ ...styles.iconName, color: '#FFFFFF' }} display="block" mt={1}>
+                                    {icon.filename}
+                                </Typography>
+                            </Box>
+                        </Grid>
+                    ))}
+                </Grid>
+
+                <Divider sx={{ my: 3, borderColor: 'rgba(255,255,255,0.12)' }} />
+                <Typography variant="subtitle2" sx={{ color: '#FFFFFF', mb: 2 }}>
+                    Pre-built slashed dark variants
+                </Typography>
+                <Grid container>
+                    {darkThemeSlashedSvgIcons.map((icon) => (
+                        <Grid size={2} key={icon.filename} sx={styles.gridItem}>
+                            <Box sx={styles.iconWrapper}>
+                                <img src={icon.icon} width={48} height={48} alt={icon.name} />
+                                <Typography variant="caption" sx={{ ...styles.iconName, color: '#FFFFFF' }} display="block" mt={1}>
+                                    {icon.filename}
+                                </Typography>
+                            </Box>
+                        </Grid>
+                    ))}
+                </Grid>
+            </Box>
+        </Box>
 
         {/* ── Runtime SlashedSvgIcon component demo ── */}
         <Box sx={{ maxWidth: 700, margin: 'auto', mt: 4, px: 2 }}>
@@ -187,6 +282,42 @@ export const SvgPage: React.FC = () => (
                     </Grid>
                 ))}
             </Grid>
+
+            <Divider sx={{ my: 3 }} />
+            <Typography variant="h6" gutterBottom>
+                Runtime <code>SlashedSvgIcon</code> with dark theme SVG variants
+            </Typography>
+            <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
+                These examples use the generated dark-surface SVG files as the source asset, then apply the same
+                runtime slash composition for consumers that want both explicit dark variants and conditional slashing.
+            </Typography>
+
+            <Box sx={styles.darkPreviewSurface}>
+                <Grid container sx={{ mb: 2 }}>
+                    {runtimeDarkSlashDemos.map(({ label, src }) => (
+                        <Grid size={3} key={label} sx={styles.gridItem}>
+                            <Box sx={styles.comparisonRow}>
+                                <Box sx={styles.comparisonItem}>
+                                    <img src={src} width={48} height={48} alt={label} />
+                                    <Typography variant="caption" sx={{ color: '#FFFFFF' }}>
+                                        original
+                                    </Typography>
+                                </Box>
+
+                                <Box sx={styles.comparisonItem}>
+                                    <SlashedSvgIcon iconSrc={src} size={48} alt={`${label} slashed`} />
+                                    <Typography variant="caption" sx={{ color: '#FFFFFF' }}>
+                                        slashed
+                                    </Typography>
+                                </Box>
+                            </Box>
+                            <Typography variant="caption" sx={{ ...styles.iconName, color: '#FFFFFF' }} display="block" mt={1}>
+                                {label}
+                            </Typography>
+                        </Grid>
+                    ))}
+                </Grid>
+            </Box>
 
             {/* Custom slash color demo */}
             <Divider sx={{ my: 3 }} />
