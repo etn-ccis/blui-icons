@@ -21,7 +21,7 @@ const SvgFloodSlashed = createSvgIcon(
                 d="M6 7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v5.825c-.13-.045-.255-.098-.393-.156l-.038-.015C16.86 12.358 15.978 12 14.4 12s-2.46.358-3.17.654l-.037.015c-.469.196-.792.331-1.593.331-.801 0-1.124-.135-1.593-.33l-.038-.016C7.463 12.443 6.87 12.2 6 12.079V7Zm9 2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
             />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgFloodSlashed'
 );

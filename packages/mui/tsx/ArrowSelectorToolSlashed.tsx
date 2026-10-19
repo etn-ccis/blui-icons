@@ -16,7 +16,7 @@ const SvgArrowSelectorToolSlashed = createSvgIcon(
         <g clipPath="url(#arrow_selector_tool_slashed_svg__a)">
             <path d="m13.775 22-3.625-7.8L6 20V2l14 11h-7.1l3.6 7.725L13.775 22Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgArrowSelectorToolSlashed'
 );

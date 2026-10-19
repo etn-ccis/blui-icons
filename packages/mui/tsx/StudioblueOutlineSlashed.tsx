@@ -18,7 +18,7 @@ const SvgStudioblueOutlineSlashed = createSvgIcon(
             <path fill="none" d="M0 0h24v24H0z" />
             <path d="M12 23a11 11 0 1 1 11-11 11 11 0 0 1-11 11Zm0-20a9 9 0 1 0 9 9 9 9 0 0 0-9-9Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgStudioblueOutlineSlashed'
 );

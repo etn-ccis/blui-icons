@@ -17,7 +17,7 @@ const SvgGrassSlashed = createSvgIcon(
             <path d="M5 2c.82.82 5.61 2.88 6 18v2h3C14 2.12 7 2 5 2Zm14 3a7 7 0 0 0-5.56 3 16.3 16.3 0 0 1 1.12 4c1.18-5.21 3.83-6.39 4.44-7ZM2 9c.77.77 4.72 3.09 5 12v1h3c0-8.48-2.5-12.78-8-13Zm20 0c-2 0-7 2.25-7 13h3c0-9 3.12-12.12 4-13Z" />
             <path fill="none" d="M0 0h24v24H0z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgGrassSlashed'
 );

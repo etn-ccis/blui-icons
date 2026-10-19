@@ -22,7 +22,7 @@ const SvgReactivePowerSlashed = createSvgIcon(
             <path d="m16 6 3-3 3 3h-2v14h-2V6h-2ZM6 20H4v-1h2v1ZM8 20h3v-1H8v1ZM12.818 11.889l-2.121 2.12-.707-.706 2.121-2.122.707.708ZM13 20h3v-1h-3v1ZM6.278 17.014h1.415l1.59-1.59-.708-.707-2.297 2.297Z" />
             <path d="m13.525 9.767 1.764-1.763h1.414l-2.47 2.47-.708-.707Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgReactivePowerSlashed'
 );

@@ -17,7 +17,7 @@ const SvgBypassSlashed = createSvgIcon(
             <path d="m20 16 3-3-3-3v2h-1.252a8.003 8.003 0 0 0-15.496 0H1v2h4a6 6 0 0 1 12 0h3v2Z" />
             <path d="M15 14a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgBypassSlashed'
 );

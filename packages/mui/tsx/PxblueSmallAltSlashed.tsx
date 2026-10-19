@@ -19,7 +19,7 @@ const SvgPxblueSmallAltSlashed = createSvgIcon(
             <path d="M20.5 12a8.28 8.28 0 0 0-2.84-5.66A7.73 7.73 0 0 1 19.5 12a7.23 7.23 0 0 1-2.5 5l1.41 1.41A8.72 8.72 0 0 0 20.5 12Z" />
             <path fill="none" d="M0 0h24v24H0z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgPxblueSmallAltSlashed'
 );

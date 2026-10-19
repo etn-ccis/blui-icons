@@ -20,7 +20,7 @@ const SvgPpeLevelSlashed = createSvgIcon(
                 d="M12 2 1 21h22L12 2Zm-2 6h3l-2 5 4-2-2 6h1l-2 3-2-3h1l1-3-3 2 1-8Z"
             />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgPpeLevelSlashed'
 );

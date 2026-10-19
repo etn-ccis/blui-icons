@@ -16,7 +16,7 @@ const SvgIppeVibrateOutlinedSlashed = createSvgIcon(
         <g clipPath="url(#ippe_vibrate_outlined_slashed_svg__a)">
             <path d="M12 17.7 6.3 12 12 6.3l5.7 5.7-5.7 5.7Zm7.4-6.8-5.7-5.7c-1-1-2.6-1-3.5 0l-5.7 5.7c-.6.6-.6 1.5 0 2.1l5.7 5.7c1 1 2.6 1 3.5 0l5.7-5.7c.6-.5.6-1.5 0-2.1Zm-6 9.6 1.4 1.4 7.1-7.1-1.4-1.4-7.1 7.1Zm7.8-3.6L17 21.1l1.4 1.4 4.2-4.2-1.4-1.4ZM2.1 9.2l1.4 1.4 7.1-7.1-1.4-1.4-7.1 7.1Zm-.7-3.6L2.8 7 7 2.8 5.6 1.4 1.4 5.6Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgIppeVibrateOutlinedSlashed'
 );

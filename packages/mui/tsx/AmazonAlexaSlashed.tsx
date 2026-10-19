@@ -16,7 +16,7 @@ const SvgAmazonAlexaSlashed = createSvgIcon(
         <g clipPath="url(#amazon_alexa_slashed_svg__a)">
             <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm-1.57 19.87v-2a1.76 1.76 0 0 0-1.08-1.57 6.83 6.83 0 1 1 9.48-6.3c0 4.43-3.44 8.61-8.4 9.87Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgAmazonAlexaSlashed'
 );

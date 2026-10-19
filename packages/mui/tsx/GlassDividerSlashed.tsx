@@ -18,7 +18,7 @@ const SvgGlassDividerSlashed = createSvgIcon(
             <path d="m7.77 9.91 3.24-3.25 1.06 1.06-3.24 3.25-1.06-1.06M8.184 14.24l5.664-5.663 1.06 1.06-5.663 5.665z" />
             <path fill="none" d="M24 0v24H0V0z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgGlassDividerSlashed'
 );

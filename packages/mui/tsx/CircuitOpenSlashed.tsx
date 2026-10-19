@@ -21,7 +21,7 @@ const SvgCircuitOpenSlashed = createSvgIcon(
             />
             <path d="M17 2a2 2 0 0 1 2 2v5h3v2h-8V9h3V4h-3V2h3Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgCircuitOpenSlashed'
 );

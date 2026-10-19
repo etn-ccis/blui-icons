@@ -18,7 +18,7 @@ const SvgOutputFlowSlashed = createSvgIcon(
             <path d="M5 4h10v4.037c.899.113 1.516.474 2 .84V4a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-.601a7.14 7.14 0 0 1-.828-.62l-.012-.01c-.409-.341-.712-.59-1.16-.702V20H5V4Z" />
             <path d="M15 16.037c.899.113 1.516.474 2 .84v-5.478a7.14 7.14 0 0 1-.828-.62l-.012-.01c-.409-.341-.712-.59-1.16-.702v5.97Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgOutputFlowSlashed'
 );

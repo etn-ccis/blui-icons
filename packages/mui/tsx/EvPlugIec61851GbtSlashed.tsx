@@ -22,7 +22,7 @@ const SvgEvPlugIec61851GbtSlashed = createSvgIcon(
             />
             <path d="M10 11.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM19 11.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM13 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM13 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM16 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM10 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgEvPlugIec61851GbtSlashed'
 );

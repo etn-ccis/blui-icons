@@ -18,7 +18,7 @@ const SvgRfidSlashed = createSvgIcon(
             <path d="M10.059 4 9 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-5l-2-1.059V20H4V4h6.059ZM21.947 12.97A8 8 0 0 0 11.03 2.053l.992 1.737a6 6 0 0 1 8.188 8.188l1.737.992Z" />
             <path d="M19.342 11.481a5 5 0 0 0-6.823-6.823l.992 1.737a3 3 0 0 1 4.094 4.094l1.737.992Z" />
         </g>,
-        <path data-name="slash-overlay" d="M4.22 4.21 2.8 5.63l15.6 15.6 1.42-1.42Z" fill="currentColor" />
+        <path data-name="slash-overlay" d="M2.22 2.21.8 3.63l19.6 19.6 1.42-1.42Z" fill="currentColor" />
     ),
     'SvgRfidSlashed'
 );
