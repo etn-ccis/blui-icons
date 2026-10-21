@@ -92,19 +92,12 @@ Examples:
 - `ac.svg` remains the default asset
 - `ac_dark.svg` is the dark-surface variant
 
-Metadata in `packages/svg/index.json` can optionally point to the dark variant:
+Dark variants should be selected by filename convention only.
 
-```json
-{
-  "name": "AC",
-  "filename": "ac.svg",
-  "variants": {
-    "dark": "ac_dark.svg"
-  }
-}
-```
+Example mapping:
 
-This keeps backward compatibility for existing consumers that only know about `filename`, while allowing dark-aware consumers to opt into `variants.dark`.
+- `ac.svg` -> `ac_dark.svg`
+- `xstorage.svg` -> `xstorage_dark.svg`
 
 ## Why This Was Selected
 
@@ -122,7 +115,7 @@ Separate dark assets were selected because they:
 Consumers should:
 
 - use `filename` by default
-- switch to `variants.dark` when rendering on dark surfaces, if present
+- switch to the matching `*_dark.svg` file when rendering on dark surfaces, if present
 - fall back to `filename` when no dark variant exists
 
 ## Current Example
