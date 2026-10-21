@@ -116,6 +116,8 @@ import icon from '@brightlayer-ui/icons-svg/ICON_NAME.svg';
 
 > NOTE: If you will be using many of these icons in your application, we recommend you use [@brightlayer-ui/icons-mui](https://www.npmjs.com/package/@brightlayer-ui/icons-mui) or our [icon font](https://www.npmjs.com/package/@brightlayer-ui/icons) to simplify usage. This library makes more sense if you just need one or two icons or if you want to reduce the size of your bundle.
 
+For the package's dark-theme asset strategy, see [DARK_THEME_SVG_VARIANTS.md](./DARK_THEME_SVG_VARIANTS.md).
+
 ### React-Native
 
 React Native does not have built in support for SVG images. However, there are libraries available that will make them usable in your application. We recommend using [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer) in conjuction with [react-native-svg](https://github.com/react-native-community/react-native-svg). These will allow you to include Brightlayer UI SVG icons by importing and using them as normal components:
