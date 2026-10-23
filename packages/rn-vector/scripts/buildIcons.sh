@@ -17,9 +17,8 @@ echo -e "${BLUE}Done${NC}"
 # yarn upgrade @brightlayer-ui/icons
 # echo -e "${BLUE}Done${NC}"
 
-echo -ne "Copying latest icon font and glyph map...${NC}"
-cp ../icon-font/BrightlayerUIIcons.json ./GlyphMaps
-cp ../icon-font/BrightlayerUIIcons.ttf ./Fonts
+echo -ne "Generating icon font and glyph map (with bounding rect)...${NC}"
+node ./scripts/generateFont.js
 echo -e "${BLUE}Done${NC}"
 
 echo -ne "Compiling typescript...${NC}"
