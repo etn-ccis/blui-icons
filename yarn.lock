@@ -257,17 +257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/icons-mui@npm:4.4.0-alpha.0":
-  version: 4.4.0-alpha.0
-  resolution: "@brightlayer-ui/icons-mui@npm:4.4.0-alpha.0"
-  peerDependencies:
-    "@mui/icons-material": ^7.1.1
-    "@mui/material": ^7.1.1
-  checksum: 169f06ece40ead8f3897a842cb46dfe45ee16f1b0fdcfa97ce7fbc5f1b70d3666f714d6126510e618ac5275c294d021bdfb5ba78143600e97135f106bacda5be
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/icons-mui@workspace:packages/mui":
+"@brightlayer-ui/icons-mui@4.4.0, @brightlayer-ui/icons-mui@workspace:packages/mui":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-mui@workspace:packages/mui"
   dependencies:
@@ -282,7 +272,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@1.19.0-alpha.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
+"@brightlayer-ui/icons-svg@1.19.0, @brightlayer-ui/icons-svg@^1.11.0, @brightlayer-ui/icons-svg@workspace:packages/svg":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons-svg@workspace:packages/svg"
   dependencies:
@@ -297,14 +287,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@brightlayer-ui/icons-svg@npm:^1.11.0":
-  version: 1.18.0
-  resolution: "@brightlayer-ui/icons-svg@npm:1.18.0"
-  checksum: a59add650dbb550f56c87cd12b3313b7f70072f159a38c6df38b40cb0f15597f63f3c2dc632f3b931fe1f64589cb02227701480e8a3003b4e1950df25956deeb
-  languageName: node
-  linkType: hard
-
-"@brightlayer-ui/icons@2.7.0-alpha.0, @brightlayer-ui/icons@workspace:packages/icon-font":
+"@brightlayer-ui/icons@2.7.0, @brightlayer-ui/icons@^2.0.0, @brightlayer-ui/icons@workspace:packages/icon-font":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/icons@workspace:packages/icon-font"
   dependencies:
@@ -314,13 +297,6 @@ __metadata:
     rimraf: ^5.0.5
   languageName: unknown
   linkType: soft
-
-"@brightlayer-ui/icons@npm:^2.0.0":
-  version: 2.6.0
-  resolution: "@brightlayer-ui/icons@npm:2.6.0"
-  checksum: c03b97cf1bea18f853bfb04988132816c3a94f39391c0d8237c252d8e8ed9020d9486c90c486458387e2ee2aa023b2aac3a94fc506da797a5b0dcb7ac9298ef5
-  languageName: node
-  linkType: hard
 
 "@brightlayer-ui/material-symbols@workspace:packages/material-symbols":
   version: 0.0.0-use.local
@@ -372,7 +348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brightlayer-ui/react-native-vector-icons@4.0.0-alpha.0, @brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
+"@brightlayer-ui/react-native-vector-icons@4.0.0, @brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector":
   version: 0.0.0-use.local
   resolution: "@brightlayer-ui/react-native-vector-icons@workspace:packages/rn-vector"
   dependencies:
@@ -7258,12 +7234,12 @@ __metadata:
   dependencies:
     "@brightlayer-ui/colors": ^4.0.0
     "@brightlayer-ui/eslint-config": ^3.0.1
-    "@brightlayer-ui/icons": 2.7.0-alpha.0
-    "@brightlayer-ui/icons-mui": 4.4.0-alpha.0
-    "@brightlayer-ui/icons-svg": 1.19.0-alpha.0
+    "@brightlayer-ui/icons": 2.7.0
+    "@brightlayer-ui/icons-mui": 4.4.0
+    "@brightlayer-ui/icons-svg": 1.19.0
     "@brightlayer-ui/prettier-config": ^1.0.3
     "@brightlayer-ui/react-components": ^6.2.0
-    "@brightlayer-ui/react-native-vector-icons": 4.0.0-alpha.0
+    "@brightlayer-ui/react-native-vector-icons": 4.0.0
     "@brightlayer-ui/react-themes": ^7.0.0
     "@emotion/css": ^11.13.5
     "@emotion/react": ^11.10.8
@@ -8914,10 +8890,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:6.28.1":
-  version: 6.28.1
-  resolution: "undici@npm:6.28.1"
-  checksum: 25f7398989c7f6d22b4120bb97ac2d8449e5bd30fe0c5eb9265537786a9950c35a0b363a74770729d94084784689f1304744e3e02cff32c614385d5dd4172af7
+"undici@npm:6.29.1":
+  version: 6.29.1
+  resolution: "undici@npm:6.29.1"
+  checksum: 9ed139bf265ea7d73683890c63601afca14ec8800be0cfdb5864b092973688044f036451813dbe2d7c4a109b2fbc0c99538e76699cab6a071f87ead594fa5ad7
   languageName: node
   linkType: hard
 
