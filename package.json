@@ -50,7 +50,7 @@
         "react-router": "7.18.2",
         "source-map-js": "1.2.2",
         "svgo": "2.8.4",
-        "undici": "6.28.1"
+        "undici": "6.29.1"
     },
     "devDependencies": {
         "@brightlayer-ui/prettier-config": "^1.0.3",
