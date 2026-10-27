@@ -2,10 +2,6 @@
 
 ## v4.4.0 (October 27, 2026)
 
-### Fixed
-
-- Updated `TwoToneIcon` to support MUI color-scheme mode with a fallback to the theme palette mode.
-
 ### Added
 
 - Slashed icon components for the icon set.
