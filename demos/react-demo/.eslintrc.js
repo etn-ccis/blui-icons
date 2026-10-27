@@ -8,4 +8,13 @@ module.exports = {
     env: {
         browser: true,
     },
+    rules: {
+        '@typescript-eslint/naming-convention': [
+            'error',
+            {
+                selector: 'import',
+                format: ['camelCase', 'PascalCase'],
+            },
+        ],
+    },
 };

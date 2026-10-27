@@ -4,8 +4,7 @@ import { Box, SxProps } from '@mui/material';
 import { Theme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 // import camelCase from 'camelcase';
-
-const meta = require('@brightlayer-ui/icons-mui/index.json');
+import meta from '@brightlayer-ui/icons-mui/index.json';
 
 const sorted = meta.icons.sort((a: any, b: any) => (a.filename > b.filename ? 1 : -1));
 
