@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Icons from '@brightlayer-ui/icons-mui';
-import { Box, Divider, SxProps, Typography } from '@mui/material';
+import { Box, SxProps } from '@mui/material';
 import { Theme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import meta from '@brightlayer-ui/icons-mui/index.json';
