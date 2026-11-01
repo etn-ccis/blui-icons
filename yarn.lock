@@ -7268,7 +7268,7 @@ __metadata:
     react-router-dom: ^7.18.2
     typescript: ^5.9.3
     vite: ^8.2.4
-    web-vitals: ^2.1.4
+    web-vitals: ^6.2.3
   languageName: unknown
   linkType: soft
 
@@ -9069,10 +9069,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web-vitals@npm:^2.1.4":
-  version: 2.1.4
-  resolution: "web-vitals@npm:2.1.4"
-  checksum: 03d3f47dbf55c3dce07beb0ff5de8ddd52e2d0a53a8df5c84e7a16dda93543341d67231fa79b1d9772b091419af4ec0fd395b8bcf451a0e26846e3f76b3d0efc
+"web-vitals@npm:^6.2.3":
+  version: 6.2.3
+  resolution: "web-vitals@npm:6.2.3"
+  checksum: 0a5f061927a40ddc89e6865a05502084e1d321e75c880bf4a8358e35e462755bd236b135cd82d7392989a24ae707f6e513a797dcb890563c29c71d069ab00e18
   languageName: node
   linkType: hard
 
