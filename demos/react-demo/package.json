@@ -21,7 +21,7 @@
         "react-dom": "^18.2.0",
         "react-router": "^7.18.2",
         "react-router-dom": "^7.18.2",
-        "web-vitals": "^2.1.4"
+        "web-vitals": "^6.2.3"
     },
     "scripts": {
         "start": "yarn update:demo && yarn && vite",
